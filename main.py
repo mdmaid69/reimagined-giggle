@@ -1,4 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def count_elements(lst):
+  def count_elements(lst):
         return len(lst)
+def add_numbers(a, b):
+        return a + b
