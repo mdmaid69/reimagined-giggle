@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
