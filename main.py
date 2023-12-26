@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
