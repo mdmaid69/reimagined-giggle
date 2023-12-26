@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
