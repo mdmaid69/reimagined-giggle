@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_user_string():
+        return collections.UserString()
