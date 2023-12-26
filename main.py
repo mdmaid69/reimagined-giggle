@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import sys
+def exit_program():
+        sys.exit()
