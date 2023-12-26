@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_unique_words(sentence):
+        return set(sentence.split())
