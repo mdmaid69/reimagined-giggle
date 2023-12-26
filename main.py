@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
