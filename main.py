@@ -1,5 +1,3 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_length(array):
-        return len(array)
+def greet(name):
+        print(f"Hello, {name}!")
+print("Hello, world!")
