@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def get_list_from_array(array):
+        return array.tolist()
