@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_as_str(array):
-        return str(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def calculate_area_rectangle(l, w):
+        return l * w
