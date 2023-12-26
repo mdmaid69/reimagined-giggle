@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import time
-def get_current_time():
-        return time.ctime()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
