@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def add_numbers(x, y):
-        return x + y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
