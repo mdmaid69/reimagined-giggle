@@ -1,4 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import array
+def get_array_as_list(array):
+        return list(array)
