@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
