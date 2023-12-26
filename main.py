@@ -1,6 +1,4 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def get_array_index(array, item):
-        return array.index(item)
+print(math.pi)
+  def count_elements(lst):
+        return len(lst)
