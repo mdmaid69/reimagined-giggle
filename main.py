@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
