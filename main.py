@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
