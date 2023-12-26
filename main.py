@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
