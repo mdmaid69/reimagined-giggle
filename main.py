@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
