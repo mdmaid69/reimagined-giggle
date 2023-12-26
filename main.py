@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
