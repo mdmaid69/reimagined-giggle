@@ -1,7 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_volume(length, width, height):
+        return length * width * height
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
