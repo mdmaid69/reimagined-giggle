@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
