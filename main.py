@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
