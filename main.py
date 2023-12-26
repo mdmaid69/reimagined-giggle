@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
