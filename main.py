@@ -1,8 +1,7 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
