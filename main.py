@@ -1,5 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
