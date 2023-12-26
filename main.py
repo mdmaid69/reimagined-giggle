@@ -1,5 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
