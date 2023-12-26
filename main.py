@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
