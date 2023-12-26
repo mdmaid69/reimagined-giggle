@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
