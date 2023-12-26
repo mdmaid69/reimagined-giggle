@@ -1,8 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
