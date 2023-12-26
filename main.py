@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
