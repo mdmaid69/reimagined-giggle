@@ -1,8 +1,9 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
