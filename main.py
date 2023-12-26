@@ -1,6 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
