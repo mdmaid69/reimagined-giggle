@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
