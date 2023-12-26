@@ -1,6 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
