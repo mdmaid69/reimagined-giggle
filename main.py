@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_pressure(force, area):
-        return force / area
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
