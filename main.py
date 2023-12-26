@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import collections
-def create_counter():
-        return collections.Counter()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
