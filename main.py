@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
