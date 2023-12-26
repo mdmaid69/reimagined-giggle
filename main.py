@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def count_words(sentence):
+        return len(sentence.split())
