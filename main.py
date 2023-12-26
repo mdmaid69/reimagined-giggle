@@ -1,6 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
