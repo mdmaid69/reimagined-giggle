@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-  def convert_to_octal(n):
-        return oct(n)
+def reverse_string(s):
+        return s[::-1]
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
