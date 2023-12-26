@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def convert_to_binary(n):
+        return bin(n)
