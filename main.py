@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
