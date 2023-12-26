@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+print([x**2 for x in range(10)])
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
