@@ -1,4 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-print(sum(range(10)))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def is_even(n):
+        return n % 2 == 0
