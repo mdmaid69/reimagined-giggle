@@ -1,7 +1,8 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
