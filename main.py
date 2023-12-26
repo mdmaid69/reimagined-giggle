@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
