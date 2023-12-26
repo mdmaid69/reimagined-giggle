@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import sys
-def exit_program():
-        sys.exit()
+  def cube_number(x):
+        return x**3
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
