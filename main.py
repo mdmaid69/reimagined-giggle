@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
