@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def divide_numbers(x, y):
+        return x / y
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
