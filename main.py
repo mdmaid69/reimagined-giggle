@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
