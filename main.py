@@ -1,6 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
