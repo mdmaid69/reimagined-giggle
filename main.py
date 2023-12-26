@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
