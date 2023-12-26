@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def count_characters(sentence):
+        return len(sentence)
