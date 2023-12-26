@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
