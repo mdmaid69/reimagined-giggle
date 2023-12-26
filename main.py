@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
