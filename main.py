@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
