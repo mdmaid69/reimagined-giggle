@@ -1,7 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
