@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
