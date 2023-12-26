@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import sys
-def print_python_version():
-        return sys.version
+def greet(name):
+        print(f"Hello, {name}!")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
