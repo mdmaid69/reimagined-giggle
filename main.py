@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
