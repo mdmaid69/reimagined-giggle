@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import collections
-def create_user_list():
-        return collections.UserList()
+import platform
+def get_python_version():
+        return platform.python_version()
+  def reverse_list(lst):
+        return lst[::-1]
