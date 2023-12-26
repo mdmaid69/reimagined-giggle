@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
