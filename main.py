@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
