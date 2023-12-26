@@ -1,5 +1,4 @@
-name = "Python"
-print("Hello,", name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+print([x**2 for x in range(10)])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
