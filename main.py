@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
