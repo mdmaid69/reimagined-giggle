@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def count_characters(sentence):
-        return len(sentence)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import getpass
+def get_username():
+        return getpass.getuser()
