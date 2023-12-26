@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
