@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def reverse_array(array):
+        array.reverse()
+print(sum(range(10)))
