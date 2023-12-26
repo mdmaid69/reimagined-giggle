@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
