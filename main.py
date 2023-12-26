@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
