@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
