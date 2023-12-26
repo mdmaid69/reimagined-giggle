@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
