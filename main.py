@@ -1,5 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+def cube_number(x):
+        return x**3
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
