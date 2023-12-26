@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+print(os.getcwd())
 import math
-print(math.pi)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
