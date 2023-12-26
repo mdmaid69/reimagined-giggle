@@ -1,5 +1,6 @@
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def convert_to_octal(n):
-        return oct(n)
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
