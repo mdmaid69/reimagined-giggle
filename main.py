@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_area_rectangle(l, w):
+        return l * w
