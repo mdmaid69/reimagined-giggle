@@ -1,4 +1,7 @@
-def square_number(x):
-        return x**2
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
