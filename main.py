@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_str(array):
-        return str(array)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
