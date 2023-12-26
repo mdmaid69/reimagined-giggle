@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
