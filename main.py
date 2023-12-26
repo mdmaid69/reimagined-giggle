@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
