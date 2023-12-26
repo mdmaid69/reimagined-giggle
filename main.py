@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def count_words(sentence):
+        return len(sentence.split())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
