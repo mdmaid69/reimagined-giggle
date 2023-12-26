@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def add_numbers(a, b):
+        return a + b
