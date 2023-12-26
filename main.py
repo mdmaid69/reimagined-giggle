@@ -1,5 +1,6 @@
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
