@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
