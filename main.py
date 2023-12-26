@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
