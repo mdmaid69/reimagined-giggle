@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
