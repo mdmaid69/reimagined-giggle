@@ -1,5 +1,9 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
