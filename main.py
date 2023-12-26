@@ -1,6 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def is_even(n):
+        return n % 2 == 0
