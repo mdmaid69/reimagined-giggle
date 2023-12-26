@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
