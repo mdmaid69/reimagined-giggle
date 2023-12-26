@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+for i in range(10): print(i)
