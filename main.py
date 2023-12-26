@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
