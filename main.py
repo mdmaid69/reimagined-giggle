@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import sys
+def print_python_version():
+        print(sys.version)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
