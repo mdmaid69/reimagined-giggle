@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
