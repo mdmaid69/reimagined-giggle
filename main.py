@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import logging
+def log_message(message):
+        logging.info(message)
+def find_min(lst):
+        return min(lst)
