@@ -1,7 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
