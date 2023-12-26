@@ -1,7 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import collections
+def create_priority_queue():
+        return collections.deque()
