@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
