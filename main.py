@@ -1,6 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
