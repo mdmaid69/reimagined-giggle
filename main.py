@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def reverse_string(s):
+        return s[::-1]
