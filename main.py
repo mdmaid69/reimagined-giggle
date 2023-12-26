@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
