@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
