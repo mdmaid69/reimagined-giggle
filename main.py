@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  def is_even(n):
-        return n % 2 == 0
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
