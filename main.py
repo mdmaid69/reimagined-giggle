@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
