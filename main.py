@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import collections
+def create_user_dict():
+        return collections.UserDict()
