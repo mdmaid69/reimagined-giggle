@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
