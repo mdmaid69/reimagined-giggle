@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def cube_number(x):
+        return x**3
+import os
+def get_current_working_directory():
+        return os.getcwd()
