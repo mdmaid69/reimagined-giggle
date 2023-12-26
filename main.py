@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
