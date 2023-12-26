@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-print(sys.version)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
