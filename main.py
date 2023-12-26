@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
