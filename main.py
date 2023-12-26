@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def find_min(lst):
-        return min(lst)
+  def convert_to_octal(n):
+        return oct(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
