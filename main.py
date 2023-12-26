@@ -1,5 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
