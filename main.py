@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
