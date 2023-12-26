@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
