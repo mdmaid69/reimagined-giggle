@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
