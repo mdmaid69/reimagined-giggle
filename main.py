@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
