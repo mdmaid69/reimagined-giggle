@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import os
+def get_current_working_directory():
+        return os.getcwd()
