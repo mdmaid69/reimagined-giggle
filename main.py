@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def square_number(x):
+        return x**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
