@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import os
+def change_working_directory(path):
+        os.chdir(path)
