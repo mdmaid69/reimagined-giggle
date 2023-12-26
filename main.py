@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def get_array_as_str(array):
+        return str(array)
