@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
