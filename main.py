@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
