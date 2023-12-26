@@ -1,5 +1,7 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def subtract_numbers(x, y):
+        return x - y
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
