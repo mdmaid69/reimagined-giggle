@@ -1,6 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
