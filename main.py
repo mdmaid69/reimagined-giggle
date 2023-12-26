@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
