@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
