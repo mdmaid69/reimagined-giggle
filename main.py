@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
