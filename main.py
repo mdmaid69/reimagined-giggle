@@ -1,7 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
