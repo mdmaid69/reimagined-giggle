@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_density(mass, volume):
+        return mass / volume
