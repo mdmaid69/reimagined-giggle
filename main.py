@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def append_to_array(array, item):
+        array.append(item)
