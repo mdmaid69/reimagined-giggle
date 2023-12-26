@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
