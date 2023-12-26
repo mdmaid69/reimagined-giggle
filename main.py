@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
