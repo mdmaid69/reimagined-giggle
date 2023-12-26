@@ -1,10 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
