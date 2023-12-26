@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_acceleration(speed, time):
+        return speed / time
