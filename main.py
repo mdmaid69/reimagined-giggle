@@ -1,5 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
