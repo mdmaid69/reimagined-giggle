@@ -1,4 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-for i in range(10): print(i)
+  def get_current_directory():
+        return os.getcwd()
+import time
+print(time.time())
