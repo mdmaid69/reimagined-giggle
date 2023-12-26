@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import platform
-def get_python_version():
-        return platform.python_version()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
