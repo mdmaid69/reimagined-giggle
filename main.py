@@ -1,5 +1,11 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
