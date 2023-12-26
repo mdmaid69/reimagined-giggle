@@ -1,7 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def reverse_string(s):
+        return s[::-1]
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
