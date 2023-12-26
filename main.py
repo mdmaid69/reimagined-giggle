@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_average(lst):
+        return sum(lst) / len(lst)
