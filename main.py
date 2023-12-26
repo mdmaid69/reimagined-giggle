@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
