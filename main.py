@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
