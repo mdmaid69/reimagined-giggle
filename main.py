@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_as_float(array):
+        return float(array[0])
