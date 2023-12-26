@@ -1,8 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
