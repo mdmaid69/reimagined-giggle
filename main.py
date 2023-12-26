@@ -1,5 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
