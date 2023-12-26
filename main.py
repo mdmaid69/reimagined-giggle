@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
