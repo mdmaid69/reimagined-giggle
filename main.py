@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
