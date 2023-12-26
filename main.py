@@ -1,6 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def get_string_from_array(array):
+        return array.tobytes()
