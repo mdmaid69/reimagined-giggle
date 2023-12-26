@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
