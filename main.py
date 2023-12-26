@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
