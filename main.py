@@ -1,5 +1,7 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import platform
+def get_os_info():
+        return platform.uname()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
