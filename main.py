@@ -1,8 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
