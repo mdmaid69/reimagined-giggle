@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
