@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import time
-def get_current_time():
-        return time.time()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
