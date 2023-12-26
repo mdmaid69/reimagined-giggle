@@ -1,8 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import sys
+def exit_program():
+        sys.exit()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
