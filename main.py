@@ -1,5 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def convert_to_octal(n):
+        return oct(n)
