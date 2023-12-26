@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_speed(distance, time):
+        return distance / time
