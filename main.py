@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
