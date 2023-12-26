@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
