@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def change_working_directory(path):
+        os.chdir(path)
+  def is_even(n):
+        return n % 2 == 0
