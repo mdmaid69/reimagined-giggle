@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def sort_numbers(numbers):
+        return sorted(numbers)
