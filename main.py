@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import time
-def get_current_time():
-        return time.time()
+for i in range(5):
+        print(i)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
