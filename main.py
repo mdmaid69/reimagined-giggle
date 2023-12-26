@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
