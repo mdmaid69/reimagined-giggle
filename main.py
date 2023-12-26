@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
