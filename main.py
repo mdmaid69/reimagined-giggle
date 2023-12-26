@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_min(lst):
+        return min(lst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
