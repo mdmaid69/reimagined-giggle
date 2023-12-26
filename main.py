@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
