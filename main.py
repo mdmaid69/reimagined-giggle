@@ -1,7 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_density(mass, volume):
+        return mass / volume
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
