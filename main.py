@@ -1,6 +1,9 @@
-import socket
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
