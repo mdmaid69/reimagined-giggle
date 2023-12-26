@@ -1,6 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
