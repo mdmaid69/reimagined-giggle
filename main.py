@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
