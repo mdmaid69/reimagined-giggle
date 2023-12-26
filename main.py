@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_max(lst):
+        return max(lst)
