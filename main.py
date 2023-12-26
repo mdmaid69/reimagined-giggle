@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import sys
-def exit_program():
-        sys.exit()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
