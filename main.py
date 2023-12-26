@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import collections
-def create_user_string():
-        return collections.UserString()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def reverse_array(array):
+        array.reverse()
