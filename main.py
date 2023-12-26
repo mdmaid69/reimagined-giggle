@@ -1,5 +1,11 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
