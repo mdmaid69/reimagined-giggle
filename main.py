@@ -1,10 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
