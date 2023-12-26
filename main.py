@@ -1,7 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
