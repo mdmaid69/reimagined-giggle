@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_as_set(array):
+        return set(array)
+import sys
+def exit_program():
+        sys.exit()
