@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
