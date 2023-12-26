@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+for i in range(5):
+        print(i)
+  def remove_duplicates(lst):
+        return list(set(lst))
