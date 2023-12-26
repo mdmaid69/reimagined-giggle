@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
