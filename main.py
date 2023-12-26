@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_index(array, item):
+        return array.index(item)
