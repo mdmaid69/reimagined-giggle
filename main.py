@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
