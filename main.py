@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def reverse_list(lst):
-        return lst[::-1]
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
