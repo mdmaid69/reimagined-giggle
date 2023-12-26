@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
