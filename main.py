@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
