@@ -1,5 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def count_characters(sentence):
-        return len(sentence)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import time
+def get_current_time():
+        return time.time()
