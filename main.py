@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
