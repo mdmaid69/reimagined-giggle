@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def split_path(path):
+        return os.path.split(path)
