@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
