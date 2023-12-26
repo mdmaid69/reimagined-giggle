@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def count_elements(lst):
+        return len(lst)
+import sys
+def print_python_version():
+        print(sys.version)
