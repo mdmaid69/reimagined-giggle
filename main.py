@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
