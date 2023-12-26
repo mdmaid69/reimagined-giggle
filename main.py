@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def square_number(x):
-        return x**2
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
