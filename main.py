@@ -1,6 +1,6 @@
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
