@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+for i in range(5):
+        print(i)
+import array
+def reverse_array(array):
+        array.reverse()
