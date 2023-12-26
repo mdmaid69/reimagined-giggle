@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
