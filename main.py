@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
