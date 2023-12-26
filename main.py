@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_density(mass, volume):
+        return mass / volume
