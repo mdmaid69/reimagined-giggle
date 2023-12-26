@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
