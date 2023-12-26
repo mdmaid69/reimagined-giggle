@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
