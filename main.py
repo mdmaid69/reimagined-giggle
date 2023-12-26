@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
