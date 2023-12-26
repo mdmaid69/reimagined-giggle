@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def add_numbers(x, y):
+        return x + y
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
