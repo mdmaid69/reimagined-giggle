@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_as_set(array):
+        return set(array)
