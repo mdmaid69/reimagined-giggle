@@ -1,5 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-def remove_duplicates(lst):
-        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
