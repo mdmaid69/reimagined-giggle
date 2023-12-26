@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_array_length(array):
-        return len(array)
+import collections
+def create_stack():
+        return collections.deque()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
