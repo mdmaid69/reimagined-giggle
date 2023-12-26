@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
