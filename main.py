@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
