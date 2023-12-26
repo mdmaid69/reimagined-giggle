@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
