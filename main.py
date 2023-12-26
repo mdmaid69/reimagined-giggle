@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def calculate_area_rectangle(l, w):
+        return l * w
