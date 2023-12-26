@@ -1,5 +1,9 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
