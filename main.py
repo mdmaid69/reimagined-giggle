@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import random
-print(random.randint(0, 100))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
