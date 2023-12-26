@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
