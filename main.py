@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
