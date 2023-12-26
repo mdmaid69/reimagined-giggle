@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def is_even(n):
+        return n % 2 == 0
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
