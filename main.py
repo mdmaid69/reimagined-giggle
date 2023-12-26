@@ -1,4 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-print([x**2 for x in range(10)])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
