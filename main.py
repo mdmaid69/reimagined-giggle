@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def get_current_working_directory():
+        return os.getcwd()
