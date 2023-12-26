@@ -1,5 +1,5 @@
+def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
