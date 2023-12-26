@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def add_numbers(x, y):
-        return x + y
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def split_path(path):
+        return os.path.split(path)
