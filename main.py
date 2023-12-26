@@ -1,9 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def divide_numbers(x, y):
+        return x / y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
