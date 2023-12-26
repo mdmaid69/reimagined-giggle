@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
