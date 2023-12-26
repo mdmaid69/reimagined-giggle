@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
