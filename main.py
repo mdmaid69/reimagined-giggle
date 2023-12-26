@@ -1,6 +1,9 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
