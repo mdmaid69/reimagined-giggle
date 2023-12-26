@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+print("Hello, world!")
+import array
+def get_array_typecode(array):
+        return array.typecode
