@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
