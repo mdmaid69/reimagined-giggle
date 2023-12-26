@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
