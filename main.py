@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
