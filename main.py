@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_work(force, distance):
+        return force * distance
