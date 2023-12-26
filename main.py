@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
