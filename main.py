@@ -1,6 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
