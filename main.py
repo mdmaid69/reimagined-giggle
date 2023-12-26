@@ -1,4 +1,5 @@
-print("Hello, world!")
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def reverse_list(lst):
+        return lst[::-1]
