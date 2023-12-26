@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
