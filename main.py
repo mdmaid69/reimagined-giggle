@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
