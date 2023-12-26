@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_pressure(force, area):
+        return force / area
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
