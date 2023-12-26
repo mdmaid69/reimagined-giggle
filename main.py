@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
