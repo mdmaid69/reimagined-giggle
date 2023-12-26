@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import collections
+def create_stack():
+        return collections.deque()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
