@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def remove_duplicates(lst):
+        return list(set(lst))
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
