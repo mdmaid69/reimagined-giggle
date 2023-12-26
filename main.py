@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
