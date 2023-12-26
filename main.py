@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_area_rectangle(l, w):
-        return l * w
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
