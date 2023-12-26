@@ -1,10 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
