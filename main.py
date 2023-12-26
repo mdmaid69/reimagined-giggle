@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
