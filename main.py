@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def find_max(numbers):
-        return max(numbers)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
