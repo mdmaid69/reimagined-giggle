@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
