@@ -1,7 +1,6 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
