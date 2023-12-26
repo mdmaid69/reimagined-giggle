@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+for i in range(5):
+        print(i)
