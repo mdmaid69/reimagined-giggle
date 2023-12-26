@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
