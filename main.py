@@ -1,5 +1,6 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def split_path(path):
-        return os.path.split(path)
-def square_number(x):
-        return x**2
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
