@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
