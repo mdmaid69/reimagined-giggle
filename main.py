@@ -1,5 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+  def subtract_numbers(x, y):
+        return x - y
