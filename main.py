@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
