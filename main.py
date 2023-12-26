@@ -1,5 +1,5 @@
+def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def reverse_string(s):
-        return s[::-1]
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
