@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
