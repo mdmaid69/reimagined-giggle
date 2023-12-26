@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
