@@ -1,7 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def reverse_string(s):
+        return s[::-1]
+def square_number(x):
+        return x**2
