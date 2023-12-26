@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
