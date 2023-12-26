@@ -1,4 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
