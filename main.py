@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def split_path(path):
+        return os.path.split(path)
+def is_odd(n):
+        return n % 2 != 0
