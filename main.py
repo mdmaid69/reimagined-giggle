@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
