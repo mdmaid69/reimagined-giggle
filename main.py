@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
