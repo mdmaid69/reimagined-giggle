@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
