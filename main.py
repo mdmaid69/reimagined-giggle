@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def add_numbers(x, y):
+        return x + y
