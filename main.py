@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-name = "Python"
-print("Hello,", name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
