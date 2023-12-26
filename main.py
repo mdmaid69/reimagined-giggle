@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+from collections import Counter
+print(Counter("hello world"))
