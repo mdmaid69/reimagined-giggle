@@ -1,4 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
