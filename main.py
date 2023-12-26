@@ -1,6 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
