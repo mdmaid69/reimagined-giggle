@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import time
-print(time.time())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def find_max(numbers):
+        return max(numbers)
