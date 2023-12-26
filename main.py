@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_density(mass, volume):
+        return mass / volume
