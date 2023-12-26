@@ -1,7 +1,8 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-  def is_even(n):
-        return n % 2 == 0
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
