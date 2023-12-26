@@ -1,4 +1,8 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
