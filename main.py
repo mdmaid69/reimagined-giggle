@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
