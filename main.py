@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import collections
+def create_user_string():
+        return collections.UserString()
