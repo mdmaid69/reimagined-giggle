@@ -1,6 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def find_min(numbers):
+        return min(numbers)
