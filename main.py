@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
