@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
