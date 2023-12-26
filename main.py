@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import platform
-def get_python_version():
-        return platform.python_version()
+def sort_list(lst):
+        return sorted(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
