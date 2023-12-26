@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
