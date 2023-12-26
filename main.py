@@ -1,6 +1,3 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import sys
+print(sys.version)
+print([x**2 for x in range(10)])
