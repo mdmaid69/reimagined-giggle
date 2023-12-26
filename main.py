@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
