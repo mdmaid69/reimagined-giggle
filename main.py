@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
