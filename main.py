@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_typecode(array):
-        return array.typecode
+import random
+print(random.randint(0, 100))
+import sys
+def print_python_version():
+        print(sys.version)
