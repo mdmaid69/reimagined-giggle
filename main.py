@@ -1,5 +1,9 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
