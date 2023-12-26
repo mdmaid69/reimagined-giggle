@@ -1,4 +1,5 @@
-print("Hello, world!")
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
