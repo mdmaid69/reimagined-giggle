@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
