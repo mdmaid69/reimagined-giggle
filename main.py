@@ -1,6 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def get_array_as_str(array):
+        return str(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
