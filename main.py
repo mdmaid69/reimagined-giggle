@@ -1,8 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def convert_to_octal(n):
+        return oct(n)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
