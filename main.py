@@ -1,6 +1,7 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
