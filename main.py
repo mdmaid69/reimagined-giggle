@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
