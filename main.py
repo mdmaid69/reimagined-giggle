@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def find_min(numbers):
-        return min(numbers)
+def square_number(x):
+        return x**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
