@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
