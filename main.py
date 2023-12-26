@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def convert_to_hex(n):
+        return hex(n)
