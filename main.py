@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
