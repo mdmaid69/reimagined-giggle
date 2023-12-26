@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def add_numbers(x, y):
+        return x + y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
