@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
