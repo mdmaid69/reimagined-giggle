@@ -1,6 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import array
-def get_array_length(array):
-        return len(array)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
