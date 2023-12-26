@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def convert_to_binary(n):
-        return bin(n)
+for i in range(5):
+        print(i)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
