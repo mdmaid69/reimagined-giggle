@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
