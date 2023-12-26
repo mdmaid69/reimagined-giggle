@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def add_numbers(a, b):
-        return a + b
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def convert_to_binary(n):
+        return bin(n)
