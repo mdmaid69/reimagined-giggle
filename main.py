@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def get_time_since_epoch():
+        return time.time()
