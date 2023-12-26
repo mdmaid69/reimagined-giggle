@@ -1,6 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
