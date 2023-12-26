@@ -1,5 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
