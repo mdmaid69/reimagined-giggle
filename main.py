@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_max(lst):
+        return max(lst)
