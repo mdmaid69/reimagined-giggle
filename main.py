@@ -1,5 +1,10 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def clear_array(array):
+        array *= 0
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
