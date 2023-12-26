@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
