@@ -1,5 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
