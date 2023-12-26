@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def multiply_numbers(x, y):
+        return x * y
