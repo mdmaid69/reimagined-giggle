@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
