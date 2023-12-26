@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def multiply_numbers(x, y):
+        return x * y
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
