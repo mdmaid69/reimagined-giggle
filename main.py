@@ -1,7 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
