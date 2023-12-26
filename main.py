@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
