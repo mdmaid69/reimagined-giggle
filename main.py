@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
