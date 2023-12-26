@@ -1,5 +1,10 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
