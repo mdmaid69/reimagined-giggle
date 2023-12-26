@@ -1,6 +1,12 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
