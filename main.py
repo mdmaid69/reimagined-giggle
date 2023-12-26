@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import sys
-def print_python_version():
-        print(sys.version)
+  def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
