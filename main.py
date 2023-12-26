@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
