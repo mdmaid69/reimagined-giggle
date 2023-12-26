@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
