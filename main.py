@@ -1,3 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-print([x**2 for x in range(10)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
