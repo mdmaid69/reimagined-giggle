@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
