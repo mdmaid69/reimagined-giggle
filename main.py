@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def reverse_list(lst):
+        return lst[::-1]
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
