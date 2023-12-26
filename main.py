@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
