@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+name = "Python"
+print("Hello,", name)
