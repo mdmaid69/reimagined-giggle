@@ -1,5 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
