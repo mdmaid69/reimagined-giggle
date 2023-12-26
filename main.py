@@ -1,8 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
