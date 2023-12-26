@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def cube_number(x):
+        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
