@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def get_string_from_array(array):
+        return array.tobytes()
