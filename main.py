@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_max(numbers):
+        return max(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
