@@ -1,9 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
