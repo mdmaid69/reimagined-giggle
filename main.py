@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def square_number(x):
+        return x**2
