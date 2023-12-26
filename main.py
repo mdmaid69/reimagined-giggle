@@ -1,5 +1,11 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_pressure(force, area):
-        return force / area
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
