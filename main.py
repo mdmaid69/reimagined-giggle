@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
