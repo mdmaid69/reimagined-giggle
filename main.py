@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_current_directory():
+        return os.getcwd()
+import platform
+def get_python_version():
+        return platform.python_version()
