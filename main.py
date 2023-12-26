@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
