@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
