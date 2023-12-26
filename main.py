@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
