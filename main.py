@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import time
+print(time.time())
