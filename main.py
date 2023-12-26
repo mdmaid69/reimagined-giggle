@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-def print_python_version():
-        return sys.version
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
