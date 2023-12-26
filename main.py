@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def find_max(numbers):
+        return max(numbers)
