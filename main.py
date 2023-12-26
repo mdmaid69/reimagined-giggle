@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def convert_to_octal(n):
+        return oct(n)
