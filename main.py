@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
