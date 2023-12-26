@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def find_max(lst):
-        return max(lst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
