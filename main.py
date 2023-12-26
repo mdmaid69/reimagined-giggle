@@ -1,6 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
