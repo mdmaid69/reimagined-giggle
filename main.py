@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
