@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
