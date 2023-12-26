@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_tuple(array):
+        return tuple(array)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
