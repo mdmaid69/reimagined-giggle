@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
