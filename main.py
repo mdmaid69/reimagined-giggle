@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
