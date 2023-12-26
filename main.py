@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_as_set(array):
+        return set(array)
