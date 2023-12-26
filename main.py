@@ -1,4 +1,8 @@
-import random
-print(random.randint(0, 100))
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
