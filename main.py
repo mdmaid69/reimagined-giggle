@@ -1,12 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+print([x**2 for x in range(10)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
