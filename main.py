@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
