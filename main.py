@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def add_numbers(x, y):
-        return x + y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
