@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
