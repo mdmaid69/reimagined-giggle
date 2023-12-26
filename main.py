@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
