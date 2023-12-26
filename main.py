@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_acceleration(speed, time):
+        return speed / time
+def count_words(sentence):
+        return len(sentence.split())
