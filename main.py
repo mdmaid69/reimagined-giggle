@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  def calculate_area_rectangle(l, w):
+        return l * w
