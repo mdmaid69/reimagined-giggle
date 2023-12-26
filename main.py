@@ -1,6 +1,5 @@
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import sys
-  def get_python_version():
-        return sys.version
+  def split_path(path):
+        return os.path.split(path)
