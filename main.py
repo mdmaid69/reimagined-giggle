@@ -1,8 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import logging
+def log_message(message):
+        logging.info(message)
+import os
+print(os.getcwd())
