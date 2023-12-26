@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def find_max(numbers):
+        return max(numbers)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
