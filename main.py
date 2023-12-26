@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_pressure(force, area):
+        return force / area
+  import sys
+  def get_python_version():
+        return sys.version
