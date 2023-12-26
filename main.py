@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
