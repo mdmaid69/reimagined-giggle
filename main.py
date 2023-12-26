@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import collections
+def create_user_string():
+        return collections.UserString()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
