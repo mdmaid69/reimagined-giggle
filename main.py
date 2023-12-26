@@ -1,4 +1,3 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import tensorflow as tf
-print(tf.__version__)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+print("Hello, world!")
