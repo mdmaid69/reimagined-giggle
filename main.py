@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
