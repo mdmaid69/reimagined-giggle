@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
