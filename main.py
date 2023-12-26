@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
