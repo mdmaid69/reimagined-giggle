@@ -1,10 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
