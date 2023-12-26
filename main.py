@@ -1,5 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
