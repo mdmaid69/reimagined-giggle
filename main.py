@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
