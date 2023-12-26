@@ -1,6 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
