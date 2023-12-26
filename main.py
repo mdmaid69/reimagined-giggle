@@ -1,6 +1,6 @@
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
