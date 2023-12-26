@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
