@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
