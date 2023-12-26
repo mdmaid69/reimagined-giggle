@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
