@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_user_list():
+        return collections.UserList()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
