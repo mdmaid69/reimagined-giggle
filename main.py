@@ -1,7 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
