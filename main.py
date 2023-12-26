@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_area_rectangle(l, w):
+        return l * w
+def find_min(numbers):
+        return min(numbers)
