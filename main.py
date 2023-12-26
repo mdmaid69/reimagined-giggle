@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
