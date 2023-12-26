@@ -1,5 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
