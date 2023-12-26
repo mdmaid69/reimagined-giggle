@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
