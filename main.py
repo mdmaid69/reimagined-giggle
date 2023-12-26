@@ -1,5 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
