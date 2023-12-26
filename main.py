@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def find_min(numbers):
+        return min(numbers)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
