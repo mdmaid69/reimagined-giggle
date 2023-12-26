@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
