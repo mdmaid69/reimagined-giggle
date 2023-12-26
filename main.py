@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
