@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def reverse_list(lst):
+        return lst[::-1]
+  def calculate_area_rectangle(l, w):
+        return l * w
