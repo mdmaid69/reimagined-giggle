@@ -1,6 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def add_numbers(x, y):
+        return x + y
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
