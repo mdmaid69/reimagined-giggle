@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
