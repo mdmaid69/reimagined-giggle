@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-  def count_elements(lst):
-        return len(lst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def remove_duplicates(lst):
+        return list(set(lst))
