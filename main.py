@@ -1,6 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def extend_array(array, iterable):
+        array.extend(iterable)
