@@ -1,6 +1,7 @@
-import sys
-print(sys.version)
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
         plt.show()
+import collections
+def create_queue():
+        return collections.deque()
