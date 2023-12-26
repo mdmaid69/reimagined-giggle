@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_max(numbers):
+        return max(numbers)
