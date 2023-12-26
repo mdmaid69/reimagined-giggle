@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
