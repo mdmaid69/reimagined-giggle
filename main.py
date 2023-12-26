@@ -1,4 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-print([x**2 for x in range(10)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def multiply_numbers(x, y):
+        return x * y
