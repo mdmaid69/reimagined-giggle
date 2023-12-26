@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
