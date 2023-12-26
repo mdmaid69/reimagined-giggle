@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
