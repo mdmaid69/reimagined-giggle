@@ -1,5 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
