@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
