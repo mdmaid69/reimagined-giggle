@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
