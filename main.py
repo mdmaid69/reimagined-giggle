@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import sys
-def print_python_version():
-        return sys.version
+def find_max(numbers):
+        return max(numbers)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
