@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
