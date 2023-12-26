@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def cube_number(x):
+        return x**3
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
