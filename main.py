@@ -1,8 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def append_to_array(array, item):
+        array.append(item)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
