@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
