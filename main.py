@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def calculate_area_circle(r):
+        return 3.14 * r**2
