@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def count_characters(sentence):
+        return len(sentence)
