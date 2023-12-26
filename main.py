@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
