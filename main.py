@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
