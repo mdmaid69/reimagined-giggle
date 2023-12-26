@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def clear_array(array):
+        array *= 0
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
