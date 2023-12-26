@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
