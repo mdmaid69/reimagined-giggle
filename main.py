@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
