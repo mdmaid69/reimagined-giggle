@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
