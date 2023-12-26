@@ -1,6 +1,9 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
