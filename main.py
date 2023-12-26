@@ -1,6 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-import sys
-def exit_program():
-        sys.exit()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import tensorflow as tf
+print(tf.__version__)
