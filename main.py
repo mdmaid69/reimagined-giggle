@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
