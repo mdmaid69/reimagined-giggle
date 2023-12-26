@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_power(work, time):
-        return work / time
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
