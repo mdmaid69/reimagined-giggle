@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def convert_to_hex(n):
+        return hex(n)
