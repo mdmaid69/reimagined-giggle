@@ -1,6 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
