@@ -1,7 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
