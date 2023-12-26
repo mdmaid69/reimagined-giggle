@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+from collections import Counter
+print(Counter("hello world"))
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def convert_array_to_string(array):
+        return array.tostring()
