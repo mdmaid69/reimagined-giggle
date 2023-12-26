@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
