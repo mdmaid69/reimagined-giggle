@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
