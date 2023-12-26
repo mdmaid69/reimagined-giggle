@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_min(lst):
+        return min(lst)
