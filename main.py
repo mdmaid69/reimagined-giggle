@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+for i in range(10): print(i)
