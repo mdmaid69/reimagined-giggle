@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_speed(distance, time):
+        return distance / time
