@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
