@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
