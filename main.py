@@ -1,6 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import array
-def get_array_item(array, i):
-        return array[i]
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
