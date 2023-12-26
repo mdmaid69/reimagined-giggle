@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def is_palindrome(s):
+        return s == s[::-1]
