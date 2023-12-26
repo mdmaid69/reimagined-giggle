@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
