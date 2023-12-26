@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
