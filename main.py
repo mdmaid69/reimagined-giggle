@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+from collections import Counter
+print(Counter("hello world"))
