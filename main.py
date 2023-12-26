@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
