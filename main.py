@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
