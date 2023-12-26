@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
