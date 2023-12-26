@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_exponential(x):
+        return math.exp(x)
