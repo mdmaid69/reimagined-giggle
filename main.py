@@ -1,4 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
