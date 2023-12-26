@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
