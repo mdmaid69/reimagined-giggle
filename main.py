@@ -1,4 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-print("Hello, world!")
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import time
+print(time.time())
