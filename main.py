@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
