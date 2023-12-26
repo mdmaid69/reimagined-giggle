@@ -1,9 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def convert_to_hex(n):
+        return hex(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
