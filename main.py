@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def get_array_itemsize(array):
+        return array.itemsize
