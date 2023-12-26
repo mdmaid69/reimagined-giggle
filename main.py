@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def convert_to_octal(n):
+        return oct(n)
