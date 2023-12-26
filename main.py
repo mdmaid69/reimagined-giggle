@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
