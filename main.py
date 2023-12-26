@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
