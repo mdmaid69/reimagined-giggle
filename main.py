@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
