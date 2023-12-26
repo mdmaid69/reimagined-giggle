@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
