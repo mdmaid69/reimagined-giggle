@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def is_palindrome(s):
+        return s == s[::-1]
