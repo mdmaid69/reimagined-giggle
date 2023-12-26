@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def count_elements(lst):
+        return len(lst)
