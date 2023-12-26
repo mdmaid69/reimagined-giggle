@@ -1,5 +1,8 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
