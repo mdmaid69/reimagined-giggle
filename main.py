@@ -1,5 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def reverse_list(lst):
+        return lst[::-1]
