@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
