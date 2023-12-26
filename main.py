@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
