@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
