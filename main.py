@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
