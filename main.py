@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
