@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
