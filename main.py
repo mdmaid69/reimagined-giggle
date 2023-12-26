@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import time
+def get_current_time():
+        return time.time()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
