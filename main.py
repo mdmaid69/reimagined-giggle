@@ -1,4 +1,9 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def cube_number(x):
-        return x**3
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
