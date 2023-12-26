@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
