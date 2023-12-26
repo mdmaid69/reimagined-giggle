@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+print(random.randint(0, 100))
+  def convert_to_octal(n):
+        return oct(n)
