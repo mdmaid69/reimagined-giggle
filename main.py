@@ -1,5 +1,7 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
