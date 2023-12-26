@@ -1,6 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
