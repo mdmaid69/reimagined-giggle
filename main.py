@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import time
-print(time.time())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
