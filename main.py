@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_list(array):
+        return list(array)
