@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
