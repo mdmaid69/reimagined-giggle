@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_area(radius):
+        return 3.14 * radius * radius
