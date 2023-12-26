@@ -1,8 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def is_even(n):
+        return n % 2 == 0
+  def reverse_list(lst):
+        return lst[::-1]
