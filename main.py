@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def count_words(sentence):
+        return len(sentence.split())
