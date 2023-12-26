@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def multiply_numbers(x, y):
+        return x * y
