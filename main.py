@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
