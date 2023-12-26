@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import time
-def get_current_time():
-        return time.time()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
