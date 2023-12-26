@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_str(array):
+        return str(array)
