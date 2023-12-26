@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
