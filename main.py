@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def sort_list(lst):
+        return sorted(lst)
