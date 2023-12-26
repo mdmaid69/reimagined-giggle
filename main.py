@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
