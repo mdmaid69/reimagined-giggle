@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
