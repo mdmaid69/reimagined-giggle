@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_density(mass, volume):
+        return mass / volume
