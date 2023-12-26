@@ -1,8 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
