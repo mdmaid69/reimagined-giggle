@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_pressure(force, area):
-        return force / area
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
