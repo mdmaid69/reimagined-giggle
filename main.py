@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
