@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
