@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
