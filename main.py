@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
