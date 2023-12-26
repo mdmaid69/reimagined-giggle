@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
