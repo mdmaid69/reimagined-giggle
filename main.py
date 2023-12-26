@@ -1,6 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+print(re.match("h.*o", "hello world"))
