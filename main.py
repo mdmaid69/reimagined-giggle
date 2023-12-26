@@ -1,8 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
