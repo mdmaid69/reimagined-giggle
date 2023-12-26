@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
