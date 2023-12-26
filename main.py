@@ -1,9 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
