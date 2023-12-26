@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
