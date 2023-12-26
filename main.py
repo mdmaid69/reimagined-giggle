@@ -1,9 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
+import unittest
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
