@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
