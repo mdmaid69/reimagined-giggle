@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def append_to_array(array, item):
+        array.append(item)
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
