@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_perpetuity(payment, rate):
+        return payment / rate
