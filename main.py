@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
