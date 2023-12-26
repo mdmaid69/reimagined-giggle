@@ -1,5 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_pressure(force, area):
-        return force / area
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def get_array_index(array, item):
+        return array.index(item)
