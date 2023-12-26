@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
