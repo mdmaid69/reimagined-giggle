@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
