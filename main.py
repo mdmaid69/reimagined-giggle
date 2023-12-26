@@ -1,4 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-print("Hello, world!")
+def calculate_acceleration(speed, time):
+        return speed / time
+import platform
+def get_python_version():
+        return platform.python_version()
