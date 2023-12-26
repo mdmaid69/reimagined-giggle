@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def convert_to_hex(n):
+        return hex(n)
