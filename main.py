@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
