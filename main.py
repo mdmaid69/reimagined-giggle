@@ -1,6 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  def sort_list(lst):
+        return sorted(lst)
