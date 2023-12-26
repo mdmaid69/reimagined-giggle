@@ -1,6 +1,10 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def create_user_list():
-        return collections.UserList()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
