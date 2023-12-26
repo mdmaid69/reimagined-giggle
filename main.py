@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
