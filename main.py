@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
