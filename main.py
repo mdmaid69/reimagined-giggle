@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_area(radius):
+        return 3.14 * radius * radius
