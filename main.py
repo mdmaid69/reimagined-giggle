@@ -1,5 +1,8 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
