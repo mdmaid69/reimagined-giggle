@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-print(random.randint(0, 100))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import getpass
+def get_username():
+        return getpass.getuser()
