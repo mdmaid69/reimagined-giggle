@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
