@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
