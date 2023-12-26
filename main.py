@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_array_as_str(array):
-        return str(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
