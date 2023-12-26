@@ -1,11 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+for i in range(5):
+        print(i)
