@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
