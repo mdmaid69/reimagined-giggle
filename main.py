@@ -1,5 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_density(mass, volume):
+        return mass / volume
