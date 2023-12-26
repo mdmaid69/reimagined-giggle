@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
