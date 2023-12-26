@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
