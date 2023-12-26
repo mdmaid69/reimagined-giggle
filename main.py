@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_current_directory():
+        return os.getcwd()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
