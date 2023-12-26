@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
