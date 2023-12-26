@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
