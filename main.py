@@ -1,4 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-print([x**2 for x in range(10)])
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
