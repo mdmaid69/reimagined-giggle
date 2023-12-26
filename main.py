@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
