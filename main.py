@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
