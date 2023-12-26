@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def count_elements(lst):
-        return len(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
