@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def is_palindrome(s):
+        return s == s[::-1]
