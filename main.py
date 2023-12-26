@@ -1,5 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def multiply_numbers(x, y):
-        return x * y
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
