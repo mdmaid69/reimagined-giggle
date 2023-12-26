@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import sys
+def exit_program():
+        sys.exit()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
