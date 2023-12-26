@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_base_name(path):
+        return os.path.basename(path)
