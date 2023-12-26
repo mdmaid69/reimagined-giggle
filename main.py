@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def multiply_numbers(x, y):
+        return x * y
