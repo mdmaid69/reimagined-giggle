@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
