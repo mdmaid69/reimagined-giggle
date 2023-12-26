@@ -1,6 +1,8 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
