@@ -1,6 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_sine(x):
+        return math.sin(x)
