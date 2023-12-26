@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def is_even(n):
+        return n % 2 == 0
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
