@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
