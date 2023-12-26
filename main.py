@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_cosine(x):
+        return math.cos(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
