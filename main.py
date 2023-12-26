@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
