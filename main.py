@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-from collections import Counter
-print(Counter("hello world"))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
