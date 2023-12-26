@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import re
-print(re.match("h.*o", "hello world"))
+import time
+def get_current_time():
+        return time.time()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
