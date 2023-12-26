@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def multiply_numbers(x, y):
-        return x * y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
