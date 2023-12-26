@@ -1,5 +1,5 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def is_even(n):
+        return n % 2 == 0
