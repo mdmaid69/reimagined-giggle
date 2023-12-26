@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
