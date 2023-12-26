@@ -1,6 +1,9 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
