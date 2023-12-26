@@ -1,5 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
