@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_base_name(path):
+        return os.path.basename(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
