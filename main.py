@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
