@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_as_str(array):
+        return str(array)
