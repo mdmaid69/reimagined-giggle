@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import numpy as np
+print(np.array([1, 2, 3]))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
