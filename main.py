@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
