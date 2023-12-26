@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def is_even(n):
+        return n % 2 == 0
