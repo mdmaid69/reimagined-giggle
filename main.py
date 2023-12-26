@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
