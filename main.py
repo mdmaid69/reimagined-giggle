@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import datetime
+print(datetime.datetime.now())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
