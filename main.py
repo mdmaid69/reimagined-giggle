@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
