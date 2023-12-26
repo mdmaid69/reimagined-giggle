@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_speed(distance, time):
-        return distance / time
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def append_to_array(array, item):
+        array.append(item)
