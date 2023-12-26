@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
