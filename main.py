@@ -1,4 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def add_numbers(x, y):
+        return x + y
+  def multiply_numbers(x, y):
+        return x * y
