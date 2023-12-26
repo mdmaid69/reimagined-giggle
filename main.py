@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  def convert_to_octal(n):
-        return oct(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import random
+def roll_die():
+        return random.randint(1, 6)
