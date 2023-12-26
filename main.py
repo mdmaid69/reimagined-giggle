@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def is_palindrome(s):
+        return s == s[::-1]
