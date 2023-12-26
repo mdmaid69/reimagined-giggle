@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def cube_number(x):
+        return x**3
