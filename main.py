@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
