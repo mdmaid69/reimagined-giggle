@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def clear_array(array):
+        array *= 0
