@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
