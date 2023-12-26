@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def find_max(numbers):
-        return max(numbers)
+import time
+print(time.time())
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
