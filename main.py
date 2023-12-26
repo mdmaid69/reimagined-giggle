@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
