@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import time
+def get_current_time():
+        return time.time()
