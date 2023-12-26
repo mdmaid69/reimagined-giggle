@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
