@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def multiply_numbers(x, y):
+        return x * y
