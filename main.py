@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def reverse_list(lst):
-        return lst[::-1]
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
