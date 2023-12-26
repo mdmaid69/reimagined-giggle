@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def find_max(numbers):
+        return max(numbers)
+  def is_odd(n):
+        return n % 2 != 0
