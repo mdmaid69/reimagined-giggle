@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
