@@ -1,8 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
