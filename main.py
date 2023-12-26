@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
