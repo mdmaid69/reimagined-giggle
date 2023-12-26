@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
