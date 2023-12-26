@@ -1,6 +1,8 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_itemsize(array):
+        return array.itemsize
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
