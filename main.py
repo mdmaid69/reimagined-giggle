@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import platform
-def get_python_version():
-        return platform.python_version()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
