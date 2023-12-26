@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import datetime
+def get_today_date():
+        return datetime.date.today()
