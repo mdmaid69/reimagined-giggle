@@ -1,5 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
