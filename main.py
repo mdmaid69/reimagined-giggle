@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
