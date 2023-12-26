@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-name = "Python"
-print("Hello,", name)
+def count_elements(lst):
+        return len(lst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
