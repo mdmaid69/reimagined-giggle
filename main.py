@@ -1,5 +1,4 @@
-import time
-print(time.time())
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+print([x**2 for x in range(10)])
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
