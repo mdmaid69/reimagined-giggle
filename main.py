@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
