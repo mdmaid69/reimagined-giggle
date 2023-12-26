@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
