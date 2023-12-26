@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
