@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def is_odd(n):
+        return n % 2 != 0
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
