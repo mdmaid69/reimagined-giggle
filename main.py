@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
