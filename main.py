@@ -1,5 +1,7 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def count_words(sentence):
-        return len(sentence.split())
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def remove_duplicates(lst):
+        return list(set(lst))
