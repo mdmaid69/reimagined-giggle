@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+name = "Python"
+print("Hello,", name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
