@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+print(math.pi)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
