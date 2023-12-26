@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import platform
+def get_os_info():
+        return platform.uname()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
