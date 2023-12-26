@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import time
-def get_current_time():
-        return time.time()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
