@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
