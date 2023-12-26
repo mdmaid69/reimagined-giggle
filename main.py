@@ -1,6 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def extend_array(array, iterable):
+        array.extend(iterable)
