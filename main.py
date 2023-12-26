@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_acceleration(speed, time):
+        return speed / time
