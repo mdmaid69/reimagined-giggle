@@ -1,5 +1,9 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  def calculate_area_rectangle(l, w):
-        return l * w
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
