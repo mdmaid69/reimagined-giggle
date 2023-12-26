@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
