@@ -1,5 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  def count_elements(lst):
-        return len(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+for i in range(5):
+        print(i)
