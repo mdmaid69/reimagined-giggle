@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def square_number(x):
-        return x**2
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
