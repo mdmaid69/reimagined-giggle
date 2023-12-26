@@ -1,7 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
