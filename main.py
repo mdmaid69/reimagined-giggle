@@ -1,7 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  def is_even(n):
+        return n % 2 == 0
