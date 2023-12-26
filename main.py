@@ -1,6 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
