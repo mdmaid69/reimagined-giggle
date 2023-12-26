@@ -1,9 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import sys
+  def get_python_version():
+        return sys.version
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
