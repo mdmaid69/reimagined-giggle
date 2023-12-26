@@ -1,5 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import tensorflow as tf
-print(tf.__version__)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
