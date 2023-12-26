@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
