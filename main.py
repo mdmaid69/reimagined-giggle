@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
