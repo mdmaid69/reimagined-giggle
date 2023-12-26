@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
