@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_item(array, i):
+        return array[i]
