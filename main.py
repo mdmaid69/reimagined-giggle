@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
