@@ -1,5 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
