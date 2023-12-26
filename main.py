@@ -1,6 +1,6 @@
 import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
