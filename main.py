@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_work(force, distance):
+        return force * distance
