@@ -1,6 +1,6 @@
 import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
