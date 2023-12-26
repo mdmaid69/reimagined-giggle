@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
