@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
