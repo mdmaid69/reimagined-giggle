@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
