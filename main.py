@@ -1,6 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+for i in range(5):
+        print(i)
+import platform
+def get_python_version():
+        return platform.python_version()
