@@ -1,5 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
