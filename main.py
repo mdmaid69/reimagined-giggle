@@ -1,5 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+print("Hello, world!")
