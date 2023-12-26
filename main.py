@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
