@@ -1,7 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import sys
+def exit_program():
+        sys.exit()
