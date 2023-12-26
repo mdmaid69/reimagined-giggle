@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
