@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
