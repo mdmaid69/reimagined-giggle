@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
