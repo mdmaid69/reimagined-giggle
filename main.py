@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_current_directory():
+        return os.getcwd()
+import sys
+def print_python_version():
+        return sys.version
