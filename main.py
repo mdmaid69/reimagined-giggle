@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
