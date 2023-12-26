@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
