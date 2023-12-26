@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
