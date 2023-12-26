@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import getpass
+def get_username():
+        return getpass.getuser()
