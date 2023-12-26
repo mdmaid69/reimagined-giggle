@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
