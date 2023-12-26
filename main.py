@@ -1,6 +1,6 @@
 import re
-def split_by_pattern(pattern, string):
+def split_string(pattern, string):
         return re.split(pattern, string)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
