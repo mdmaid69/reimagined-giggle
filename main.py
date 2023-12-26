@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_item(array, i):
+        return array[i]
