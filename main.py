@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
