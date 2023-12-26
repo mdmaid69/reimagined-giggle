@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import random
+print(random.randint(0, 100))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
