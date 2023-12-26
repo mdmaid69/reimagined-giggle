@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
