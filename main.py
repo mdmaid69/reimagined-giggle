@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
