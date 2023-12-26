@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
