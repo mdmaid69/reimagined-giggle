@@ -1,8 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
