@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_speed(distance, time):
-        return distance / time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
