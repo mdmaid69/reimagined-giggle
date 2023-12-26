@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
