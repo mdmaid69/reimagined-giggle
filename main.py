@@ -1,6 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import collections
-def create_queue():
-        return collections.deque()
-import sys
-def exit_program():
-        sys.exit()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
