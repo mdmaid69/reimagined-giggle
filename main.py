@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
