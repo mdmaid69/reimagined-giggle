@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
