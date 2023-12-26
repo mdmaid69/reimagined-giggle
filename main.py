@@ -1,5 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
