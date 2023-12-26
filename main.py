@@ -1,6 +1,6 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
