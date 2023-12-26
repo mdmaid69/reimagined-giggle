@@ -1,4 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
