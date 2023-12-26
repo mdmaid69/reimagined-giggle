@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_pressure(force, area):
+        return force / area
+def calculate_density(mass, volume):
+        return mass / volume
