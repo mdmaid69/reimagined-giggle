@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def find_unique_words(sentence):
+        return set(sentence.split())
