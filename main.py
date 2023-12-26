@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_item_count(array, item):
+        return array.count(item)
