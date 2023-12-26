@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_density(mass, volume):
+        return mass / volume
