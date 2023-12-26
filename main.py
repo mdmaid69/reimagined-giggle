@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import re
+print(re.match("h.*o", "hello world"))
+import platform
+def get_os_info():
+        return platform.uname()
