@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def add_numbers(a, b):
+        return a + b
