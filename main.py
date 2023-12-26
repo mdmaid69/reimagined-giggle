@@ -1,5 +1,3 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+print([x**2 for x in range(10)])
+def is_palindrome(s):
+        return s == s[::-1]
