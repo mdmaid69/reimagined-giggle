@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_max(lst):
-        return max(lst)
+def calculate_work(force, distance):
+        return force * distance
+from collections import Counter
+print(Counter("hello world"))
