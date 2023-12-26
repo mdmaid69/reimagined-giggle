@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-name = "Python"
-print("Hello,", name)
+def count_words(sentence):
+        return len(sentence.split())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
