@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
