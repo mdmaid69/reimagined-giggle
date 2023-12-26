@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
