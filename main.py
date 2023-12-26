@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
