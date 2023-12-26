@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
