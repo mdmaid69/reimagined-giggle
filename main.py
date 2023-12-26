@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def get_array_typecode(array):
-        return array.typecode
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
