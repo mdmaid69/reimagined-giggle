@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
