@@ -1,3 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-print(sum(range(10)))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
