@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
