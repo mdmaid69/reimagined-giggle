@@ -1,5 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import sys
-print(sys.version)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
