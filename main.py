@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_counter():
+        return collections.Counter()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
