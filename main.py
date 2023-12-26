@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_speed(distance, time):
+        return distance / time
+  def is_even(n):
+        return n % 2 == 0
