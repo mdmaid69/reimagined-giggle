@@ -1,5 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
