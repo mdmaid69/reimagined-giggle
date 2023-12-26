@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def is_odd(n):
-        return n % 2 != 0
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
