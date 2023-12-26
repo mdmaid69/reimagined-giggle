@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
