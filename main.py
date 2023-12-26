@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_item(array, i):
+        return array[i]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
