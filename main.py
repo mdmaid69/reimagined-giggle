@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def reverse_string(s):
+        return s[::-1]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
