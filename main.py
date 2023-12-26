@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
