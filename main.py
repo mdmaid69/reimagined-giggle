@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
