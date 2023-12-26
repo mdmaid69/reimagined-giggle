@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def square_number(x):
-        return x**2
+def calculate_tangent(x):
+        return math.tan(x)
