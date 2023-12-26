@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
