@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import os
-print(os.getcwd())
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
