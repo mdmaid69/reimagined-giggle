@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+for i in range(10): print(i)
