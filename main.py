@@ -1,9 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_as_str(array):
+        return str(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
