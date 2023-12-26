@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+name = "Python"
+print("Hello,", name)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
