@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
