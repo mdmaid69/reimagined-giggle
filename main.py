@@ -1,7 +1,8 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
