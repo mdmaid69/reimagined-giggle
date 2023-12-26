@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
