@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def find_max(numbers):
-        return max(numbers)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def cube_number(x):
+        return x**3
