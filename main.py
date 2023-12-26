@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_area_rectangle(l, w):
+        return l * w
