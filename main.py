@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
