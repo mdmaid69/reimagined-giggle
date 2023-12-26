@@ -1,5 +1,8 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
