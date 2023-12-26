@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def subtract_numbers(x, y):
+        return x - y
