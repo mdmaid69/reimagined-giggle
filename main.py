@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
