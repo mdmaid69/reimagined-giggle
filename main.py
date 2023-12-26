@@ -1,4 +1,12 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
