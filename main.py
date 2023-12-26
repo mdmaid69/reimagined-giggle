@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def is_even(n):
+        return n % 2 == 0
+import array
+def append_to_array(array, item):
+        array.append(item)
