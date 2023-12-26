@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
