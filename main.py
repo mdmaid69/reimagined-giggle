@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
