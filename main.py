@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
