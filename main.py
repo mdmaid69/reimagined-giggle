@@ -1,4 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-print("Hello, world!")
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
