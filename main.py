@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
