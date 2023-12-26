@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
