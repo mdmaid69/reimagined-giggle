@@ -1,5 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
