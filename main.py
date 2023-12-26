@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
