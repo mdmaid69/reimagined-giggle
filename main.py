@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
