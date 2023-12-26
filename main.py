@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def subtract_numbers(x, y):
+        return x - y
