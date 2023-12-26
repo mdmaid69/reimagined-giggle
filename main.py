@@ -1,7 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
