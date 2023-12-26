@@ -1,6 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_arc_sine(x):
+        return math.asin(x)
