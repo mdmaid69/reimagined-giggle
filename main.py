@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
