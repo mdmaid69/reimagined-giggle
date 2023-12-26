@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
