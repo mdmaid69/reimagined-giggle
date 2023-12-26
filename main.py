@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
