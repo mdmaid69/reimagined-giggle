@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
