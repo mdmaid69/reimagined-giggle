@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
