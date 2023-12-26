@@ -1,5 +1,5 @@
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
