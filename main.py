@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
