@@ -1,8 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
