@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
