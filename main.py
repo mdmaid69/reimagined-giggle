@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_as_bytes(array):
+        return bytes(array)
