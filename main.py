@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
