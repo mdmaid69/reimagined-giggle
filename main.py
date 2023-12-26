@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
