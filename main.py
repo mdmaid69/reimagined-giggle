@@ -1,6 +1,8 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
