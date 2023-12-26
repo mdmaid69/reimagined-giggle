@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
