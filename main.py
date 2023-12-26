@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
