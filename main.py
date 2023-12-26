@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
+def calculate_hyperbolic_arc_tangent(x):
         return math.atanh(x)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
