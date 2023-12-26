@@ -1,8 +1,8 @@
 import array
-def convert_string_to_array(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
