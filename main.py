@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
