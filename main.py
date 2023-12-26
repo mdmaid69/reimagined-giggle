@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
