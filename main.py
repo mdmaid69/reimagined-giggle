@@ -1,4 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-print(sum(range(10)))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
