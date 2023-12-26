@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
