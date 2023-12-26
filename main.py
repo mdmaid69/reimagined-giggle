@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+for i in range(5):
+        print(i)
