@@ -1,5 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_variance(arr):
+        return np.var(arr)
