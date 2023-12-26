@@ -1,6 +1,9 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
