@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
