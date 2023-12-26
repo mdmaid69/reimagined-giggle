@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
