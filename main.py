@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
