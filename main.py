@@ -1,6 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
