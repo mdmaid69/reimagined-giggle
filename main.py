@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import tensorflow as tf
+print(tf.__version__)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
