@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
