@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
