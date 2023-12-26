@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
