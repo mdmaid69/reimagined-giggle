@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
