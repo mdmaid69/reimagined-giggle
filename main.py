@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def cube_number(x):
+        return x**3
+import collections
+def create_user_list():
+        return collections.UserList()
