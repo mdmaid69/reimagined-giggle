@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
