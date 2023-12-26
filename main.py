@@ -1,10 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
