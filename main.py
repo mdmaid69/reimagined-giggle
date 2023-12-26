@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import re
+print(re.match("h.*o", "hello world"))
