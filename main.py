@@ -1,5 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
