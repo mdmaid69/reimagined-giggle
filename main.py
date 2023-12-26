@@ -1,5 +1,8 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-print(math.pi)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
