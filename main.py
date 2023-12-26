@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def find_min(numbers):
-        return min(numbers)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
