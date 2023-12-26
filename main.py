@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
