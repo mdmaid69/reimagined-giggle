@@ -1,5 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_power(work, time):
+        return work / time
