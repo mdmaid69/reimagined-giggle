@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
