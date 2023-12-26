@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
