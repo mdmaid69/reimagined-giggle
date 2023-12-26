@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def add_numbers(x, y):
+        return x + y
