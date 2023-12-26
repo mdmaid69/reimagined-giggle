@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
