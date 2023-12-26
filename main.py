@@ -1,4 +1,6 @@
-import time
-print(time.time())
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
