@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_volume(length, width, height):
-        return length * width * height
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
