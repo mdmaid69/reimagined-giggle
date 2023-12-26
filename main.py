@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_speed(distance, time):
-        return distance / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
