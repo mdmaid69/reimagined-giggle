@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def is_palindrome(s):
+        return s == s[::-1]
