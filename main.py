@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def reverse_string(s):
+        return s[::-1]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
