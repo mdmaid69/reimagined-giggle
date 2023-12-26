@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-from collections import Counter
-print(Counter("hello world"))
+import array
+def reverse_array(array):
+        array.reverse()
+def greet(name):
+        print(f"Hello, {name}!")
