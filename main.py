@@ -1,6 +1,9 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_pressure(force, area):
+        return force / area
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
