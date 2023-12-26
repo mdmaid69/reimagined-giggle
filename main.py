@@ -1,6 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  def reverse_list(lst):
+        return lst[::-1]
