@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import sys
-def print_python_version():
-        print(sys.version)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
