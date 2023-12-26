@@ -1,6 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def append_to_array(array, item):
+        array.append(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
