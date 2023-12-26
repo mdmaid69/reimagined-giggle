@@ -1,5 +1,7 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
