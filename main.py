@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import platform
+def get_python_version():
+        return platform.python_version()
