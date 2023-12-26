@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
