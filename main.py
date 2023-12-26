@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def count_words(sentence):
+        return len(sentence.split())
