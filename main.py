@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
