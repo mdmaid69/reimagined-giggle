@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
