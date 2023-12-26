@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
