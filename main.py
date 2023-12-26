@@ -1,6 +1,5 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
