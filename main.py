@@ -1,5 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
