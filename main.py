@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
