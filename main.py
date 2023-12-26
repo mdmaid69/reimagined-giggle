@@ -1,4 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
