@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
