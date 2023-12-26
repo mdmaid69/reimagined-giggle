@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def reverse_list(lst):
+        return lst[::-1]
