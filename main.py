@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def multiply_numbers(x, y):
+        return x * y
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def delete_file(file_name):
+        os.remove(file_name)
