@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
