@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
