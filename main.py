@@ -1,4 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-print(sum(range(10)))
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
