@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_list_from_array(array):
+        return array.tolist()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_error_function(x):
+        return math.erf(x)
