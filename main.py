@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
