@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
