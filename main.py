@@ -1,5 +1,11 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_list(array):
-        return list(array)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
