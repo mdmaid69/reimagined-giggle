@@ -1,7 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
