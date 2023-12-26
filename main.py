@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import sys
-  def get_python_version():
-        return sys.version
+  def count_elements(lst):
+        return len(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
