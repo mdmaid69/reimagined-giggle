@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import sys
-def exit_program():
-        sys.exit()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_power(work, time):
+        return work / time
