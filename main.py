@@ -1,6 +1,9 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
