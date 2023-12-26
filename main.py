@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def clear_array(array):
+        array *= 0
