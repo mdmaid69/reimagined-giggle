@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
