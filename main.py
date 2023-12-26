@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_pressure(force, area):
+        return force / area
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
