@@ -1,8 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
