@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
