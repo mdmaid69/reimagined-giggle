@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import sys
-def print_python_version():
-        print(sys.version)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
