@@ -1,6 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def get_file_nlink(file_name):
+  def get_file_number_of_links(file_name):
         return os.stat(file_name).st_nlink
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
