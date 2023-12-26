@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import random
-def roll_die():
-        return random.randint(1, 6)
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
