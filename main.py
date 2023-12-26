@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def clear_array(array):
+        array *= 0
+import array
+def get_array_length(array):
+        return len(array)
