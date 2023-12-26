@@ -1,5 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_item(array, i):
-        return array[i]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
