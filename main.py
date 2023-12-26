@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_item(array, i):
+        return array[i]
+def sort_list(lst):
+        return sorted(lst)
