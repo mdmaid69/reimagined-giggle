@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
