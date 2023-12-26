@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import tensorflow as tf
-print(tf.__version__)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
