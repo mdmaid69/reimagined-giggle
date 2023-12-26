@@ -1,6 +1,5 @@
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
