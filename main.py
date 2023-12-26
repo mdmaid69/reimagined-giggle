@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_set(array):
-        return set(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def convert_to_hex(n):
+        return hex(n)
