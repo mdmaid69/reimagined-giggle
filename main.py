@@ -1,7 +1,3 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+print(sum(range(10)))
