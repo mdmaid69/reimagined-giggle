@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def is_even(n):
+        return n % 2 == 0
