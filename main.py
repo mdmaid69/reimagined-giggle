@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
