@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
