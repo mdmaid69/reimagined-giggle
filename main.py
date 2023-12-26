@@ -1,6 +1,3 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def convert_to_hex(n):
+        return hex(n)
+print([x**2 for x in range(10)])
