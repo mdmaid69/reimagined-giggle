@@ -1,5 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
