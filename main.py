@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
