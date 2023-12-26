@@ -1,6 +1,8 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_tangent(x):
+        return math.tan(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
