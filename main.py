@@ -1,5 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
