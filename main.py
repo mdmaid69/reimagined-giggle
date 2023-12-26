@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
