@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  def convert_to_octal(n):
+        return oct(n)
