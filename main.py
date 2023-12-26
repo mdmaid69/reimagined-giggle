@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
