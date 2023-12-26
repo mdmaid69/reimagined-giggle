@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
