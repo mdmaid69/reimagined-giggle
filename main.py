@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_volume(length, width, height):
+        return length * width * height
