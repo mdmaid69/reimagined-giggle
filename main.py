@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import tensorflow as tf
+print(tf.__version__)
