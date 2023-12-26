@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_work(force, distance):
+        return force * distance
