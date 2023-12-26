@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
