@@ -1,6 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
