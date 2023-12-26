@@ -1,9 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
