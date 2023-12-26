@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def find_min(lst):
-        return min(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
