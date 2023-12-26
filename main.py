@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
