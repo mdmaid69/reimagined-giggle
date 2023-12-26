@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
