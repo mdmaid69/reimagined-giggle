@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
