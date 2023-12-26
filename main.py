@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
