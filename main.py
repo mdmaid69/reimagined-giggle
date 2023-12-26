@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
