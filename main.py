@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  def is_even(n):
+        return n % 2 == 0
