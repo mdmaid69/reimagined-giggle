@@ -1,6 +1,5 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_arc_cosine(x):
+        return math.acos(x)
