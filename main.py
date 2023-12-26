@@ -1,5 +1,8 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
