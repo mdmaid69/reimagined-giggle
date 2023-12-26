@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
