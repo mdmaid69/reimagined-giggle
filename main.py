@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def remove_duplicates(lst):
+        return list(set(lst))
