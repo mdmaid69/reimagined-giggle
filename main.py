@@ -1,4 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-print("Hello, world!")
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
