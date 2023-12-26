@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
