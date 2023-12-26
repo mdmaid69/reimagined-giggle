@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
