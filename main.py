@@ -1,5 +1,7 @@
+def divide_numbers(x, y):
+        return x / y
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
