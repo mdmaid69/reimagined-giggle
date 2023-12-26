@@ -1,8 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import re
+print(re.match("h.*o", "hello world"))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
