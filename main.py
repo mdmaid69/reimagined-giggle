@@ -1,6 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def get_array_as_memoryview(array):
+        return memoryview(array)
