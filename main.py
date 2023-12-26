@@ -1,5 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def add_numbers(a, b):
-        return a + b
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def sort_numbers(numbers):
+        return sorted(numbers)
