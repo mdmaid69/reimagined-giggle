@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_unique_words(sentence):
+        return set(sentence.split())
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
