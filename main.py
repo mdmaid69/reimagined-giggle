@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def count_characters(sentence):
+        return len(sentence)
+x = 10
+y = 20
+print("Sum:", x + y)
