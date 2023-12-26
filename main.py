@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
