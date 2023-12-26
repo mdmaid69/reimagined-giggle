@@ -1,6 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
