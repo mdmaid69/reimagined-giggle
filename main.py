@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import sys
-def print_python_version():
-        print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
