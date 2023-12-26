@@ -1,5 +1,5 @@
+import datetime
+print(datetime.datetime.now())
   import os
-  def split_path(path):
-        return os.path.split(path)
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
