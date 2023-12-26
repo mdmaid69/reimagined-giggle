@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import re
-print(re.match("h.*o", "hello world"))
+import platform
+def get_os_info():
+        return platform.uname()
+def is_odd(n):
+        return n % 2 != 0
