@@ -1,5 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import tensorflow as tf
-print(tf.__version__)
+def reverse_list(lst):
+        return lst[::-1]
+  def calculate_area_circle(r):
+        return 3.14 * r**2
