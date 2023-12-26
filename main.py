@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import time
-def get_current_time():
-        return time.ctime()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
