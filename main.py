@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
