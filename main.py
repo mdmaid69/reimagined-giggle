@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
