@@ -1,4 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import sys
-print(sys.version)
+  def sort_list(lst):
+        return sorted(lst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
