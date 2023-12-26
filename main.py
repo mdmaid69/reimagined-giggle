@@ -1,6 +1,11 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import tensorflow as tf
+print(tf.__version__)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
