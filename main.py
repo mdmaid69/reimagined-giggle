@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
