@@ -1,6 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def clear_array(array):
+        array *= 0
