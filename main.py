@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def multiply_numbers(x, y):
-        return x * y
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
