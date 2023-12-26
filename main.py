@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
