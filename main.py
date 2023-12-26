@@ -1,5 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
