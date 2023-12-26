@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
