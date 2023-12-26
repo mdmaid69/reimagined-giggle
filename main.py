@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def cube_number(x):
+        return x**3
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
