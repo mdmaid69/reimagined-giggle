@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import collections
+def create_queue():
+        return collections.deque()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
