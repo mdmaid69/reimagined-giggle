@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import getpass
+def get_username():
+        return getpass.getuser()
