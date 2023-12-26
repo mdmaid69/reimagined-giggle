@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
