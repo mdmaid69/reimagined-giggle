@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def convert_to_hex(n):
+        return hex(n)
