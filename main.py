@@ -1,9 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
