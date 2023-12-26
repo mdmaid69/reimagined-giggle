@@ -1,9 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
