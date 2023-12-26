@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
