@@ -1,4 +1,11 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
