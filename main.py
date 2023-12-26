@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
