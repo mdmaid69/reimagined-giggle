@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
