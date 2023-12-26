@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def cube_number(x):
-        return x**3
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
