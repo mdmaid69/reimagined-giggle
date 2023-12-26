@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+x = 10
+y = 20
+print("Sum:", x + y)
+def square_number(x):
+        return x**2
