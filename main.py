@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
