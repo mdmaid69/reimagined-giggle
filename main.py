@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
