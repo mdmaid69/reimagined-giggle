@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_repr(array):
+        return repr(array)
