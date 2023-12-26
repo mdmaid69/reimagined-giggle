@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
