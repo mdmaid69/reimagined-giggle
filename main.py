@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+for i in range(5):
+        print(i)
+def cube_number(x):
+        return x**3
