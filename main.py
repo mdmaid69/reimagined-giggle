@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
