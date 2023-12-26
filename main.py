@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
