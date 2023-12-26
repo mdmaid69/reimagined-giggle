@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
