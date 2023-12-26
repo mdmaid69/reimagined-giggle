@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+from collections import Counter
+print(Counter("hello world"))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
