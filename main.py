@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def greet(name):
-        print(f"Hello, {name}!")
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
