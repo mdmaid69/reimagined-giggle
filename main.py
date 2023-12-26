@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def append_to_array(array, item):
-        array.append(item)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+x = 10
+y = 20
+print("Sum:", x + y)
