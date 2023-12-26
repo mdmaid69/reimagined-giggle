@@ -1,6 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-print([x**2 for x in range(10)])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
