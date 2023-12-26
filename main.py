@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
