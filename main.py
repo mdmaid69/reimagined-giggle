@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+print(math.pi)
