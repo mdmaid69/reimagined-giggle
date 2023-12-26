@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
