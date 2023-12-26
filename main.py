@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
