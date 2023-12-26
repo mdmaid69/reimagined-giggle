@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def append_to_array(array, item):
+        array.append(item)
