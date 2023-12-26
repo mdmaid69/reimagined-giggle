@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_stack():
+        return collections.deque()
+import platform
+def get_python_version():
+        return platform.python_version()
