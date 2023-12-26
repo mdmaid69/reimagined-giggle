@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import sys
+def print_python_version():
+        print(sys.version)
