@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+text = "Hello, world!"
+print("Words:", len(text.split()))
