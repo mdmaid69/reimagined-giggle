@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def convert_to_octal(n):
-        return oct(n)
+  def cube_number(x):
+        return x**3
+import random
+print(random.randint(0, 100))
