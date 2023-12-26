@@ -1,6 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def get_current_time():
+        return time.time()
