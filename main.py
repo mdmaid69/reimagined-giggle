@@ -1,8 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
