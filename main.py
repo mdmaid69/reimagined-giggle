@@ -1,6 +1,9 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
