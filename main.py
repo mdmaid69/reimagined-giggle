@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def cube_number(x):
+        return x**3
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
