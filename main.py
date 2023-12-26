@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
