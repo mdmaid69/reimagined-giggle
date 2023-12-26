@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def add_numbers(a, b):
+        return a + b
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
