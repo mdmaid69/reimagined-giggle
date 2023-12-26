@@ -1,6 +1,7 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
