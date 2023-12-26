@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
