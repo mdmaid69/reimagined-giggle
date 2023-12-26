@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
