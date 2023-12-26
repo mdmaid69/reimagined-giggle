@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+print(os.getcwd())
+import tensorflow as tf
+print(tf.__version__)
