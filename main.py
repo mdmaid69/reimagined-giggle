@@ -1,4 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def add_numbers(x, y):
+        return x + y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
