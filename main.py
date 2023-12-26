@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import tensorflow as tf
-print(tf.__version__)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
