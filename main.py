@@ -1,5 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import numpy as np
-print(np.array([1, 2, 3]))
+  def sort_list(lst):
+        return sorted(lst)
+def subtract_numbers(x, y):
+        return x - y
