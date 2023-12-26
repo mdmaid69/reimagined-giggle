@@ -1,4 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-print([x**2 for x in range(10)])
+def find_min(numbers):
+        return min(numbers)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
