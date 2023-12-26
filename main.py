@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_length(array):
-        return len(array)
+def reverse_string(s):
+        return s[::-1]
+def multiply_numbers(x, y):
+        return x * y
