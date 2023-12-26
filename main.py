@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
