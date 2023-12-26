@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
