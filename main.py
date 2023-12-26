@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
