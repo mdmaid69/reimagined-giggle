@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
