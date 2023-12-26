@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
