@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
