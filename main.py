@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
