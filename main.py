@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import sys
+def exit_program():
+        sys.exit()
