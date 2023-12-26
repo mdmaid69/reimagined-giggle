@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
