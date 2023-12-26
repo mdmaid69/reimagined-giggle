@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
