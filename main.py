@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def split_path(path):
+        return os.path.split(path)
