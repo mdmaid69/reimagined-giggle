@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
