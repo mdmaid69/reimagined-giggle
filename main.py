@@ -1,6 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
