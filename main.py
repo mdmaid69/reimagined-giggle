@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
