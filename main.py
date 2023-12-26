@@ -1,6 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def convert_array_to_bytes(array):
+        return array.tobytes()
