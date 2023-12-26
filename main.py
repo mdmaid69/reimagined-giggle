@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+text = "Hello, world!"
+print("Characters:", len(text))
