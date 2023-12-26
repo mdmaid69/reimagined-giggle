@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_current_directory():
+        return os.getcwd()
