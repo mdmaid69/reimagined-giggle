@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import datetime
-print(datetime.datetime.now())
+import time
+def get_current_time():
+        return time.time()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
