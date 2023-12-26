@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
