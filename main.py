@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
