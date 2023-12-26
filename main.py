@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
