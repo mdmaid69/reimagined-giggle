@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
