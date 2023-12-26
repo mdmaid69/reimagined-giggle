@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
