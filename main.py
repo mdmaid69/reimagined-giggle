@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
