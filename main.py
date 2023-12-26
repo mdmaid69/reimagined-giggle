@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
