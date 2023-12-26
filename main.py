@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def divide_numbers(x, y):
-        return x / y
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def is_odd(n):
+        return n % 2 != 0
