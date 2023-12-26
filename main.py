@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
