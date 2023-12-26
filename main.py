@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def multiply_numbers(x, y):
+        return x * y
