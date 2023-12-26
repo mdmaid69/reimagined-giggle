@@ -1,4 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import numpy as np
+print(np.array([1, 2, 3]))
