@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
