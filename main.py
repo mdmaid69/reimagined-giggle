@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
