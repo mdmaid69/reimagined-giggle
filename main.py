@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import tensorflow as tf
-print(tf.__version__)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Characters:", len(text))
