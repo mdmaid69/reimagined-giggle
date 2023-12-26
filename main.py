@@ -1,4 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-print([x**2 for x in range(10)])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import numpy as np
+print(np.array([1, 2, 3]))
