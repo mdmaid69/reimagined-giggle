@@ -1,11 +1,9 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-from flask import Flask
-app = Flask(__name__)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+{body}")
