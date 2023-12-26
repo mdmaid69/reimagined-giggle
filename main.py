@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
