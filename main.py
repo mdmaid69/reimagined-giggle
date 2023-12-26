@@ -1,5 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def find_min(numbers):
+        return min(numbers)
+  def remove_duplicates(lst):
+        return list(set(lst))
