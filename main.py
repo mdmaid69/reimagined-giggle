@@ -1,4 +1,8 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
