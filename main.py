@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
