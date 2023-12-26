@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
