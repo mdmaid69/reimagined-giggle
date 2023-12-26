@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
