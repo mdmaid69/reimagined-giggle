@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
