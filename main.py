@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import sys
+def print_python_version():
+        print(sys.version)
