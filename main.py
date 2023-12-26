@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
