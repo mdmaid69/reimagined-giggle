@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
