@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import collections
-def create_queue():
-        return collections.deque()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def is_even(n):
+        return n % 2 == 0
