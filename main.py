@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
