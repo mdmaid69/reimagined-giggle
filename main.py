@@ -1,4 +1,7 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
