@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
