@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def reverse_array(array):
+        array.reverse()
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
