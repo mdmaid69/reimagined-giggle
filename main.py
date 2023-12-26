@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
