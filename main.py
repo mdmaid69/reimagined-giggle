@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_power(work, time):
+        return work / time
