@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
