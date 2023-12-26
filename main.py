@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
