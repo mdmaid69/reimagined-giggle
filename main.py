@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
