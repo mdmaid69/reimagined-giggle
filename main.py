@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
