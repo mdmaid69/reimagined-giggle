@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_list(array):
+        return list(array)
