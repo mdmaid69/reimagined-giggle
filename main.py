@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
