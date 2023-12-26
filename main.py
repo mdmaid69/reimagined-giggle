@@ -1,6 +1,6 @@
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
