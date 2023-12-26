@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import tensorflow as tf
+print(tf.__version__)
