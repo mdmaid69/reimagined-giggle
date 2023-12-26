@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
