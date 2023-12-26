@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import platform
+def get_python_version():
+        return platform.python_version()
