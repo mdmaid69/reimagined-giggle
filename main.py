@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
