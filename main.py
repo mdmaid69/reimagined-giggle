@@ -1,10 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def is_even(n):
+        return n % 2 == 0
 import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
