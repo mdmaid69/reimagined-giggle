@@ -1,6 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
