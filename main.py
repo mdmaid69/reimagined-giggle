@@ -1,5 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
