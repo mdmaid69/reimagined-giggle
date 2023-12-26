@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_as_int(array):
+        return int(array[0])
