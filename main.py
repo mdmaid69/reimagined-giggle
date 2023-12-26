@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
