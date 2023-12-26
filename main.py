@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_pressure(force, area):
+        return force / area
