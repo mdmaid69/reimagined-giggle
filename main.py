@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
