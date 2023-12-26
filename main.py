@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-for i in range(5):
-        print(i)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
