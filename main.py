@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
