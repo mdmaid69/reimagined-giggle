@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
