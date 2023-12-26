@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
