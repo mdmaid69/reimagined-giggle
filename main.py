@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def remove_duplicates(lst):
+        return list(set(lst))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
