@@ -1,7 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
