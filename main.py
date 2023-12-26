@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import sys
+def exit_program():
+        sys.exit()
