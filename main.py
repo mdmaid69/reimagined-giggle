@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def convert_array_to_list(array):
+        return array.tolist()
