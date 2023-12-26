@@ -1,6 +1,8 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
