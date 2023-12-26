@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
