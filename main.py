@@ -1,8 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
