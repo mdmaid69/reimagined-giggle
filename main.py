@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
