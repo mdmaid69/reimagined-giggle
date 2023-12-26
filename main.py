@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
