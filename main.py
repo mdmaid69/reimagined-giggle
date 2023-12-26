@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
