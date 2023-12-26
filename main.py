@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
+print(sum(range(10)))
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_str(array):
+        return str(array)
