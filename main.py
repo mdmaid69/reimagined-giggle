@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import platform
+def get_python_version():
+        return platform.python_version()
