@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+print(math.pi)
