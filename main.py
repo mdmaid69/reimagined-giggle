@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
