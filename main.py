@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
