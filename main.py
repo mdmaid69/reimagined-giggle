@@ -1,7 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def cube_number(x):
+        return x**3
+import array
+def get_array_item(array, i):
+        return array[i]
