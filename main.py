@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import datetime
+def get_current_date():
+        return datetime.date.today()
