@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
