@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
