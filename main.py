@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def reverse_string(s):
-        return s[::-1]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def convert_to_hex(n):
+        return hex(n)
