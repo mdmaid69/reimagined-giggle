@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
