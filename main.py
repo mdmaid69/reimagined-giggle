@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def reverse_string(s):
-        return s[::-1]
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
