@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
