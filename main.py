@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
