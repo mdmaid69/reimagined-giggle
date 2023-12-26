@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
