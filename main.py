@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import time
+def get_current_time():
+        return time.ctime()
