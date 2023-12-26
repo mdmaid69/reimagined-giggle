@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
