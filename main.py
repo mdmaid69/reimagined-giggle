@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
