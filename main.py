@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
