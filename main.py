@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
