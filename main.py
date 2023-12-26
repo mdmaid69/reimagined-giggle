@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
