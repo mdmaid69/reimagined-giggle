@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def reverse_list(lst):
+        return lst[::-1]
+import getpass
+def get_username():
+        return getpass.getuser()
