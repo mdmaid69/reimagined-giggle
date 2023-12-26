@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
