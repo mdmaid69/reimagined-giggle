@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
