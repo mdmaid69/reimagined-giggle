@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
