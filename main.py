@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
