@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
