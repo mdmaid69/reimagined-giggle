@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def is_odd(n):
+        return n % 2 != 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
