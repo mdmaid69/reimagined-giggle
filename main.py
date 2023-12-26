@@ -1,7 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
