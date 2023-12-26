@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
