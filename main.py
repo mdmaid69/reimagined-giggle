@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import re
-print(re.match("h.*o", "hello world"))
+import time
+def get_current_time():
+        return time.time()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
