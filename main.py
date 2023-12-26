@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
