@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
