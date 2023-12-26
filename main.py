@@ -1,5 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+print([x**2 for x in range(10)])
