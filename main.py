@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
