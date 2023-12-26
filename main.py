@@ -1,6 +1,8 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
