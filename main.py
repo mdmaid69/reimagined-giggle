@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_user_dict():
+        return collections.UserDict()
