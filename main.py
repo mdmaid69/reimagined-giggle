@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
