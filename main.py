@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def convert_to_binary(n):
+        return bin(n)
