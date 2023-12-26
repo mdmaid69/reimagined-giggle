@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_area_circle(r):
+        return 3.14 * r**2
