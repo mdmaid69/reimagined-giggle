@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
