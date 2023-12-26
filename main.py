@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import collections
+def create_priority_queue():
+        return collections.deque()
