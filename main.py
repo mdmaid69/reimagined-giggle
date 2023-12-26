@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import sys
+def print_python_version():
+        return sys.version
+  def is_odd(n):
+        return n % 2 != 0
