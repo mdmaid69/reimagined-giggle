@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
