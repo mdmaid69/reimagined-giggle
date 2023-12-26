@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
