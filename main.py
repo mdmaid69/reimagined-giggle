@@ -1,6 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
