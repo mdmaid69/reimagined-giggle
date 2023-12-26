@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_speed(distance, time):
-        return distance / time
+name = "Python"
+print("Hello,", name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
