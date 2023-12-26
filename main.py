@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def find_min(numbers):
+        return min(numbers)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
