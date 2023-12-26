@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import sys
-print(sys.version)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def add_numbers(x, y):
+        return x + y
