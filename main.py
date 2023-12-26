@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
