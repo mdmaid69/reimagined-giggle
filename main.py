@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
