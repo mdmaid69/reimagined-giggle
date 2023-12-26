@@ -1,6 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
