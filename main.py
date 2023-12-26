@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
