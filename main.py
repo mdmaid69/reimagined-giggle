@@ -1,6 +1,7 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
