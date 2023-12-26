@@ -1,6 +1,5 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_array_as_int(array):
+        return int(array[0])
+from collections import Counter
+print(Counter("hello world"))
