@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import datetime
+print(datetime.datetime.now())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
