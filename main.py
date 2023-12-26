@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import datetime
-def get_current_date():
-        return datetime.date.today()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
