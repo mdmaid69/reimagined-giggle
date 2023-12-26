@@ -1,5 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
