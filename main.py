@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
