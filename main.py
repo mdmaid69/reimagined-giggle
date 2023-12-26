@@ -1,5 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def sort_list(lst):
+        return sorted(lst)
+def is_odd(n):
+        return n % 2 != 0
