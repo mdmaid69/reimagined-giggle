@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
