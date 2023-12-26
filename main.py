@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  def remove_duplicates(lst):
-        return list(set(lst))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
