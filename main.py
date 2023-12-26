@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
