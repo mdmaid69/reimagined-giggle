@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
