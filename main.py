@@ -1,6 +1,3 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+for i in range(10): print(i)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
