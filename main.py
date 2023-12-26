@@ -1,5 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
