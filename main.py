@@ -1,6 +1,6 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
