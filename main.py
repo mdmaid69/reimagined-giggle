@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
