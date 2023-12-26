@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_area_rectangle(l, w):
+        return l * w
