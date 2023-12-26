@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
