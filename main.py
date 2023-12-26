@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
