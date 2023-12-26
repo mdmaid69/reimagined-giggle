@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_memoryview(array):
+        return memoryview(array)
