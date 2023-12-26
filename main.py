@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def clear_array(array):
+        array *= 0
+x = 10
+y = 20
+print("Sum:", x + y)
