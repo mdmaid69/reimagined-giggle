@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_perpetuity(payment, rate):
+        return payment / rate
