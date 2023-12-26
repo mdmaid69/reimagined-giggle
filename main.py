@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+name = "Python"
+print("Hello,", name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
