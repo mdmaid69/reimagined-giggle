@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def square_number(x):
-        return x**2
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def subtract_numbers(x, y):
+        return x - y
