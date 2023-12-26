@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_pressure(force, area):
-        return force / area
+def add_numbers(x, y):
+        return x + y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
