@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
