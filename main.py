@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
