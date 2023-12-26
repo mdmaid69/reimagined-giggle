@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
