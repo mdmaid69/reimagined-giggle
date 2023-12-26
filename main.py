@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
