@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def find_min(lst):
-        return min(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def is_even(n):
+        return n % 2 == 0
