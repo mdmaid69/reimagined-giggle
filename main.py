@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
