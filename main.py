@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_item(array, i):
+        return array[i]
