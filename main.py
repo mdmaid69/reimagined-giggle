@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def convert_to_octal(n):
-        return oct(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
