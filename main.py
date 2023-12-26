@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
