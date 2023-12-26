@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
