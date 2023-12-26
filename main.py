@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_set(array):
+        return set(array)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
