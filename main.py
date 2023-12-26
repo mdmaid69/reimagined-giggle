@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
