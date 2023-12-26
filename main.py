@@ -1,5 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
 numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
