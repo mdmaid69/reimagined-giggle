@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
