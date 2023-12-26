@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_acceleration(speed, time):
+        return speed / time
