@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
