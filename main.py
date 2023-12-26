@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
