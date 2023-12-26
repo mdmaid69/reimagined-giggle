@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_queue():
+        return collections.deque()
