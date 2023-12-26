@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
