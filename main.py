@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
