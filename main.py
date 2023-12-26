@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
