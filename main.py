@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import time
+def get_current_time():
+        return time.ctime()
