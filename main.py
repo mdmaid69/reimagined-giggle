@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def is_even(n):
+        return n % 2 == 0
