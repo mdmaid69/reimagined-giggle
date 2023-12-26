@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
