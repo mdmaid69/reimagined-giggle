@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+from collections import Counter
+print(Counter("hello world"))
