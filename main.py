@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
