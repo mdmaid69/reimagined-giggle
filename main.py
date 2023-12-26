@@ -1,5 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def reverse_string(s):
-        return s[::-1]
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
