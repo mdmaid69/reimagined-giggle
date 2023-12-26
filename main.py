@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def clear_array(array):
+        array *= 0
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
