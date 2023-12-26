@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def square_number(x):
-        return x**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
