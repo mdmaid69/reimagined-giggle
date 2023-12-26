@@ -1,6 +1,6 @@
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def get_array_as_bytearray(array):
+        return bytearray(array)
