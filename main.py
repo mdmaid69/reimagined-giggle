@@ -1,5 +1,5 @@
 import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-from collections import Counter
-print(Counter("hello world"))
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
