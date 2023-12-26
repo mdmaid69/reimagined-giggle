@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
