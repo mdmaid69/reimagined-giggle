@@ -1,7 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
