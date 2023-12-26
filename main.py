@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
