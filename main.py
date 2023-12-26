@@ -1,5 +1,8 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
