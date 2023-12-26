@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def convert_to_hex(n):
-        return hex(n)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
