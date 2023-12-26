@@ -1,6 +1,9 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_list_from_array(array):
+        return array.tolist()
