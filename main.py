@@ -1,5 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
