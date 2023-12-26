@@ -1,6 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def append_to_array(array, item):
-        array.append(item)
+def reverse_array(array):
+        array.reverse()
+import platform
+def get_os_info():
+        return platform.uname()
