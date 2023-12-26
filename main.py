@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def square_number(x):
+        return x**2
