@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
