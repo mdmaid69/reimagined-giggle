@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def is_even(n):
+        return n % 2 == 0
