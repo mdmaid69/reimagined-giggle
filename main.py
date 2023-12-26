@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
