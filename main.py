@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def set_array_item(array, i, item):
+        array[i] = item
