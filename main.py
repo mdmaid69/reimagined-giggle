@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+text = "Hello, world!"
+print("Words:", len(text.split()))
