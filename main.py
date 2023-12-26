@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_length(array):
-        return len(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import tensorflow as tf
+print(tf.__version__)
