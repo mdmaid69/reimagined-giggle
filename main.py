@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
