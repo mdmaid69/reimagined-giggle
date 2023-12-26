@@ -1,4 +1,7 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_volume(length, width, height):
-        return length * width * height
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
