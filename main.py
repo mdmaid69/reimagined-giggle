@@ -1,8 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import csv
-def read_csv_file(filename):
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import json
+def load_json(filename):
         with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+        return json.load(f)
