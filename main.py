@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import random
+def roll_die():
+        return random.randint(1, 6)
