@@ -1,5 +1,10 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
