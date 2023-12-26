@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
