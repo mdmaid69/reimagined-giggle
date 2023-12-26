@@ -1,6 +1,5 @@
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_list_from_array(array):
+        return array.tolist()
