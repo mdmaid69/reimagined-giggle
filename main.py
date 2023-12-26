@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+for i in range(5):
+        print(i)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
