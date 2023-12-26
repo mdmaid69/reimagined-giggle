@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
