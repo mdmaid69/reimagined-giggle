@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
