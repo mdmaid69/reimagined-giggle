@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
