@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_force(mass, acceleration):
+        return mass * acceleration
