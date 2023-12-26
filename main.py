@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_speed(distance, time):
-        return distance / time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+print(sum(range(10)))
