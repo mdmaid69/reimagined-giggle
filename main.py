@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import tensorflow as tf
+print(tf.__version__)
