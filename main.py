@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
