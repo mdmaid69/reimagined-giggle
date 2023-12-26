@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
