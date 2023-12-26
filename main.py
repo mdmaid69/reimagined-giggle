@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
