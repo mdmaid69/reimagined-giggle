@@ -1,6 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
