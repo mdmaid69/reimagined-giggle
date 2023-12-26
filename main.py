@@ -1,6 +1,3 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+for i in range(10): print(i)
+def calculate_pressure(force, area):
+        return force / area
