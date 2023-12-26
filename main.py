@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
