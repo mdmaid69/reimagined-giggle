@@ -1,12 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
