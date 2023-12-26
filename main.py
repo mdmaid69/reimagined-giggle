@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
