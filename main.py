@@ -1,8 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def reverse_array(array):
+        array.reverse()
