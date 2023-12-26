@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
