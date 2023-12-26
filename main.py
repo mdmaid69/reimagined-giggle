@@ -1,5 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def add_numbers(x, y):
-        return x + y
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def multiply_numbers(x, y):
+        return x * y
