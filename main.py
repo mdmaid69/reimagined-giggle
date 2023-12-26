@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
