@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def cube_number(x):
-        return x**3
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
