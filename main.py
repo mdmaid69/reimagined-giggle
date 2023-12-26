@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_user_list():
+        return collections.UserList()
