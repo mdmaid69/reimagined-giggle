@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def square_number(x):
+        return x**2
