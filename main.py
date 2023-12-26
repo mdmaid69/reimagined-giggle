@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
