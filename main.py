@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_user_dict():
+        return collections.UserDict()
