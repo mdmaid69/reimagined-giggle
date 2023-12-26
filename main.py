@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
