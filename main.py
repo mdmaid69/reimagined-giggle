@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def square_number(x):
+        return x**2
