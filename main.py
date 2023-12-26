@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+print([x**2 for x in range(10)])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
