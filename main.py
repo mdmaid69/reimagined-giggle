@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
