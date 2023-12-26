@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def reverse_list(lst):
+        return lst[::-1]
