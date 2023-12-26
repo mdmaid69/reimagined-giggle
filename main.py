@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
