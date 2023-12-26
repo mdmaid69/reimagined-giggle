@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import sys
+def exit_program():
+        sys.exit()
+def calculate_work(force, distance):
+        return force * distance
