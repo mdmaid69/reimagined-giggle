@@ -1,4 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
