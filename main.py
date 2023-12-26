@@ -1,5 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def subtract_numbers(x, y):
-        return x - y
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
