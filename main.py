@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
