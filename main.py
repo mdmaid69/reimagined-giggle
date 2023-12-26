@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
