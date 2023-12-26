@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def find_max(numbers):
-        return max(numbers)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
