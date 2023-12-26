@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import sys
-print(sys.version)
-import getpass
-def get_username():
-        return getpass.getuser()
+def print_python_version():
+        return sys.version
