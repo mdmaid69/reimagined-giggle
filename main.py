@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
