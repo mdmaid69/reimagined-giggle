@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_work(force, distance):
+        return force * distance
+import random
+def roll_die():
+        return random.randint(1, 6)
