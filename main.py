@@ -1,5 +1,8 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
