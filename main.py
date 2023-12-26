@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
