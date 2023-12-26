@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
