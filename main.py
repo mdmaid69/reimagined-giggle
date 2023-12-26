@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_current_directory():
+        return os.getcwd()
