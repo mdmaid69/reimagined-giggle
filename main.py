@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
