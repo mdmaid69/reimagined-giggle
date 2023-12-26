@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def reverse_list(lst):
-        return lst[::-1]
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
