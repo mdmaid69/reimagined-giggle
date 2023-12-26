@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
