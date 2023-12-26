@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
