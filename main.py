@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
