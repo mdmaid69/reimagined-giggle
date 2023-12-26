@@ -1,4 +1,8 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
