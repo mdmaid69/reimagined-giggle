@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
