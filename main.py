@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
