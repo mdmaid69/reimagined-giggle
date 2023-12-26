@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
