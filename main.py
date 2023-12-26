@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+x = 10
+y = 20
+print("Sum:", x + y)
