@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
