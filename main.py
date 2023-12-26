@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
