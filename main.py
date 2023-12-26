@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
