@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def create_queue():
+        return collections.deque()
