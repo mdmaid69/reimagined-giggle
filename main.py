@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def get_array_as_tuple(array):
+        return tuple(array)
+import sys
+def print_python_version():
+        print(sys.version)
