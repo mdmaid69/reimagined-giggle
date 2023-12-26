@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
