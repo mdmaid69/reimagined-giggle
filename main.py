@@ -1,5 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
