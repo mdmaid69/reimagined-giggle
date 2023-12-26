@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import datetime
+def get_today_date():
+        return datetime.date.today()
