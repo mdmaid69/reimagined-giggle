@@ -1,7 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
