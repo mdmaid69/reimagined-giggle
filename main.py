@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def clear_array(array):
-        array *= 0
+  def add_numbers(x, y):
+        return x + y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
