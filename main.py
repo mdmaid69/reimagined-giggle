@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def is_even(n):
-        return n % 2 == 0
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def multiply_numbers(x, y):
+        return x * y
