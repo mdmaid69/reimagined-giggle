@@ -1,5 +1,5 @@
 import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_volume(length, width, height):
-        return length * width * height
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
