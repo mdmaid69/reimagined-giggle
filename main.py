@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
