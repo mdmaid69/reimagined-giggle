@@ -1,5 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
