@@ -1,7 +1,4 @@
+print([x**2 for x in range(10)])
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
