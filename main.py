@@ -1,7 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
