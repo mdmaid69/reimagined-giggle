@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def multiply_numbers(x, y):
+        return x * y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
