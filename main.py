@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_as_list(array):
+        return list(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
