@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
