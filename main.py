@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
