@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
