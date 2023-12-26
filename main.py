@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def is_odd(n):
+        return n % 2 != 0
+  def is_even(n):
+        return n % 2 == 0
