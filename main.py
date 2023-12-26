@@ -1,6 +1,6 @@
   import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
