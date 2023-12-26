@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
