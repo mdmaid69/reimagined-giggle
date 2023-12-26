@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
