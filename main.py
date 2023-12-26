@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
