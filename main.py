@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_power(work, time):
+        return work / time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
