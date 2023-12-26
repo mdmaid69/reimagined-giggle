@@ -1,6 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
