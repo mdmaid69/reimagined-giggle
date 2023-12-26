@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
