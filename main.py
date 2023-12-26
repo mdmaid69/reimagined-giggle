@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
