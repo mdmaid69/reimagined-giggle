@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_user_string():
-        return collections.UserString()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import time
+def get_current_time():
+        return time.ctime()
