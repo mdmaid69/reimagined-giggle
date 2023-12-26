@@ -1,5 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
