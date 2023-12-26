@@ -1,7 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
