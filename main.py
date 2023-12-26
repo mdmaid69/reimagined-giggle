@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
 import array
-def get_array_item(array, i):
-        return array[i]
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def get_array_slice(array, i, j):
+        return array[i:j]
