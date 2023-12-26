@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
