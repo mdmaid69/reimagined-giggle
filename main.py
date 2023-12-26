@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def square_number(x):
-        return x**2
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def split_path(path):
+        return os.path.split(path)
