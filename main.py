@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
