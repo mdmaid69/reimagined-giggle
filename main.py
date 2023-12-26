@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
