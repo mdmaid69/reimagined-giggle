@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
