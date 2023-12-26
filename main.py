@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_work(force, distance):
+        return force * distance
