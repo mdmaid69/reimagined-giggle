@@ -1,4 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-print("Hello, world!")
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
