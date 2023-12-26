@@ -1,5 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
