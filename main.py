@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
