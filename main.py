@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
