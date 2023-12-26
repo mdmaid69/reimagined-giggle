@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def sort_numbers(numbers):
+        return sorted(numbers)
