@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  def multiply_numbers(x, y):
+        return x * y
