@@ -1,7 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def clear_array(array):
+        array *= 0
