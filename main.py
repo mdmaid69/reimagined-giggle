@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
