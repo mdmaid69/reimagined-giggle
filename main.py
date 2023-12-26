@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
