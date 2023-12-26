@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
