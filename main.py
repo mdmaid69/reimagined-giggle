@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
