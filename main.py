@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def insert_into_array(array, i, item):
+        array.insert(i, item)
