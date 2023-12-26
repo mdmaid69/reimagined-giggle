@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import collections
+def create_user_dict():
+        return collections.UserDict()
