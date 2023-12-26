@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
