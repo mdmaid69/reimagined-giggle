@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def reverse_string(s):
+        return s[::-1]
