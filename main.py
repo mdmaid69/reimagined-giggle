@@ -1,6 +1,5 @@
 import logging
 logging.basicConfig(level=logging.INFO)
 logging.info("This is an info message")
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
