@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
