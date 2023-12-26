@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def clear_array(array):
+        array *= 0
