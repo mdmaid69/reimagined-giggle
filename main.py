@@ -1,5 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import getpass
+def get_username():
+        return getpass.getuser()
