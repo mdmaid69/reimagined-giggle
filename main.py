@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
