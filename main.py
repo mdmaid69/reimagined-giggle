@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
