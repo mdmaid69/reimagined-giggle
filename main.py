@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_force(mass, acceleration):
+        return mass * acceleration
