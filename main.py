@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
