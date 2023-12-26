@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def count_characters(sentence):
+        return len(sentence)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
