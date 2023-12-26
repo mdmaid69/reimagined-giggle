@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
