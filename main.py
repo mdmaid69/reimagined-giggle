@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def find_unique_words(sentence):
-        return set(sentence.split())
+def is_palindrome(s):
+        return s == s[::-1]
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
