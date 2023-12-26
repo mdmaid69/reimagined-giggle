@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
