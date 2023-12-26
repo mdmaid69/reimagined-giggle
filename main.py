@@ -1,7 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
