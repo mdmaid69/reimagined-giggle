@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  def reverse_list(lst):
+        return lst[::-1]
