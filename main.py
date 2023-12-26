@@ -1,6 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
