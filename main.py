@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
