@@ -1,5 +1,11 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
