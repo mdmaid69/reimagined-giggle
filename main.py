@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
