@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import array
-def append_to_array(array, item):
-        array.append(item)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
