@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
