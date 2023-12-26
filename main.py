@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
