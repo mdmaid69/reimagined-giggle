@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def get_array_as_bool(array):
+        return bool(array)
