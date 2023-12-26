@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_bytes(array):
+        return bytes(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
