@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def convert_to_octal(n):
+        return oct(n)
