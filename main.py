@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_unique_words(sentence):
+        return set(sentence.split())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
