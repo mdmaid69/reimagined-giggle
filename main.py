@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import time
-def get_current_time():
-        return time.ctime()
+def sort_list(lst):
+        return sorted(lst)
+def find_unique_words(sentence):
+        return set(sentence.split())
