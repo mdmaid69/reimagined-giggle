@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
