@@ -1,7 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_volume(length, width, height):
+        return length * width * height
+import re
+print(re.match("h.*o", "hello world"))
