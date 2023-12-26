@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
