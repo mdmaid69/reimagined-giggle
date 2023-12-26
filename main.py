@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
