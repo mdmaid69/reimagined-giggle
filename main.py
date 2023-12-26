@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
