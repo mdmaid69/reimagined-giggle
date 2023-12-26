@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
