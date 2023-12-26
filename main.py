@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
