@@ -1,6 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
