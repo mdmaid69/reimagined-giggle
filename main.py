@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
