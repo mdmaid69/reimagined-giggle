@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
