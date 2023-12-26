@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
