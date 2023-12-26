@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
