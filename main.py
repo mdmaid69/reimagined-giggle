@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
