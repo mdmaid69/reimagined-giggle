@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
