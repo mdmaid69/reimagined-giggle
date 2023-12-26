@@ -1,7 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
