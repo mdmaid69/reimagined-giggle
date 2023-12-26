@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
