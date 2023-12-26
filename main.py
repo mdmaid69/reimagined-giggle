@@ -1,8 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import getpass
+def get_username():
+        return getpass.getuser()
+text = "Hello, world!"
+print("Characters:", len(text))
