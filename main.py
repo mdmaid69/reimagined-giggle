@@ -1,9 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-from flask import Flask
-app = Flask(__name__)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import unittest
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
