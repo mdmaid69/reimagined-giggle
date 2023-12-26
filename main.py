@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
