@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+for i in range(5):
+        print(i)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
