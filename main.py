@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
