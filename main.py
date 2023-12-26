@@ -1,7 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_acceleration(speed, time):
+        return speed / time
