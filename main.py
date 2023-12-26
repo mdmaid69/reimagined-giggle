@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def convert_to_octal(n):
+        return oct(n)
