@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_pressure(force, area):
+        return force / area
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
