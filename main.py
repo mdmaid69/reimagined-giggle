@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
