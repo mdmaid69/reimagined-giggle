@@ -1,5 +1,5 @@
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
