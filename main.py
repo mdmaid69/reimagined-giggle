@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_user_string():
+        return collections.UserString()
