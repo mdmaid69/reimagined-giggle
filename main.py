@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_int(array):
+        return int(array[0])
