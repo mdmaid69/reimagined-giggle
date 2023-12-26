@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
