@@ -1,6 +1,8 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
