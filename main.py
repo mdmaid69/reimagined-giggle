@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_density(mass, volume):
-        return mass / volume
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
