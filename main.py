@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
