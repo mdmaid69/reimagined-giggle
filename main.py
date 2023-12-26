@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def reverse_array(array):
+        array.reverse()
