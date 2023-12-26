@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
