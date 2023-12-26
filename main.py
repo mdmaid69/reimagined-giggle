@@ -1,5 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def square_number(x):
-        return x**2
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
