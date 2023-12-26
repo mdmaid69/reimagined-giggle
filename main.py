@@ -1,7 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_power(work, time):
+        return work / time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
