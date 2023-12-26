@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+print("Average:", sum(numbers) / len(numbers))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
