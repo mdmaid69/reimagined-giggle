@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_index(array, item):
+        return array.index(item)
