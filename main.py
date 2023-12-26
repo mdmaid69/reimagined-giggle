@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def find_min(numbers):
-        return min(numbers)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
