@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
