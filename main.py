@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
