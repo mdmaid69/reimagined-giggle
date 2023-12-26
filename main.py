@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
