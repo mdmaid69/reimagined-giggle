@@ -1,6 +1,8 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import logging
+def log_message(message):
+        logging.info(message)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
