@@ -1,6 +1,9 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def reverse_array(array):
+        array.reverse()
