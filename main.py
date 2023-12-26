@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_sine(x):
+        return math.sin(x)
