@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def append_to_array(array, item):
+        array.append(item)
