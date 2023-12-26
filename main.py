@@ -1,8 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import sys
+def exit_program():
+        sys.exit()
+def calculate_pressure(force, area):
+        return force / area
