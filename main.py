@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def convert_to_binary(n):
-        return bin(n)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
