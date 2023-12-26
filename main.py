@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
