@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def get_array_as_list(array):
-        return list(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
