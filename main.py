@@ -1,6 +1,5 @@
-print(sum(range(10)))
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
