@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
