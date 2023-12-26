@@ -1,7 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
