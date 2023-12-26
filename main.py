@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import re
+print(re.match("h.*o", "hello world"))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
