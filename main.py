@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def square_number(x):
-        return x**2
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_sine(x):
+        return math.sin(x)
