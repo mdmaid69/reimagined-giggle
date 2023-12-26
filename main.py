@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def add_numbers(x, y):
+        return x + y
