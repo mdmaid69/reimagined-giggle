@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
