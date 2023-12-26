@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def is_even(n):
+        return n % 2 == 0
