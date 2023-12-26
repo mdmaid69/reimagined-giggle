@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
