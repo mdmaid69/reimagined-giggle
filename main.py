@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def find_max(numbers):
+        return max(numbers)
