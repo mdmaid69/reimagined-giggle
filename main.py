@@ -1,5 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import collections
+def create_queue():
+        return collections.deque()
+  def convert_to_hex(n):
+        return hex(n)
