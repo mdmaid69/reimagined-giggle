@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def find_max(lst):
+        return max(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
