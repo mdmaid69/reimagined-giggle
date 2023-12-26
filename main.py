@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
