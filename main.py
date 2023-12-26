@@ -1,6 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
