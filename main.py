@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def convert_to_binary(n):
+        return bin(n)
