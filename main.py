@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+x = 10
+y = 20
+print("Sum:", x + y)
