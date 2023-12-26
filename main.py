@@ -1,7 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
