@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
