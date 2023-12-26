@@ -1,5 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
