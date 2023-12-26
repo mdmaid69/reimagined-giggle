@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+print(sum(range(10)))
+import datetime
+def get_current_date():
+        return datetime.date.today()
