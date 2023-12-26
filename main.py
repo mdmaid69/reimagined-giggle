@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
