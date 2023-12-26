@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def reverse_list(lst):
+        return lst[::-1]
