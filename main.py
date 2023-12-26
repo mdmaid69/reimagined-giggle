@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
