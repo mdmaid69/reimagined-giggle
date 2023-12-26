@@ -1,7 +1,11 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
