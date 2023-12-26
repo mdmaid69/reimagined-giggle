@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
