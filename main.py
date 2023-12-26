@@ -1,6 +1,7 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
