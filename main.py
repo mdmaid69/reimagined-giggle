@@ -1,5 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def get_array_as_list(array):
-        return list(array)
-  def convert_to_hex(n):
-        return hex(n)
+def get_array_as_complex(array):
+        return complex(array[0])
