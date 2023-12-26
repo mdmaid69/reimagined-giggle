@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
