@@ -1,6 +1,8 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
