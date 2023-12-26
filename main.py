@@ -1,6 +1,7 @@
+def sort_list(lst):
+        return sorted(lst)
 import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
