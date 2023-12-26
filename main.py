@@ -1,4 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
