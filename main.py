@@ -1,6 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_volume(length, width, height):
+        return length * width * height
