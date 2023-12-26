@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
