@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
