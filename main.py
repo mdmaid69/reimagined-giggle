@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def square_number(x):
+        return x**2
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
