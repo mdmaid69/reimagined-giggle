@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
