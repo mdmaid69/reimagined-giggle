@@ -1,5 +1,3 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def square_number(x):
-        return x**2
+for i in range(10): print(i)
+  def reverse_list(lst):
+        return lst[::-1]
