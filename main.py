@@ -1,4 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-print(math.pi)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_factorial(n):
+        return math.factorial(n)
