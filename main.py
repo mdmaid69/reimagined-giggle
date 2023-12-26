@@ -1,6 +1,6 @@
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
