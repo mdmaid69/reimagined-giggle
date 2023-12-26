@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
