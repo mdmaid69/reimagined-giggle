@@ -1,6 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
