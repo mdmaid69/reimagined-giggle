@@ -1,5 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def reverse_list(lst):
-        return lst[::-1]
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
