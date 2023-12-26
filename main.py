@@ -1,5 +1,8 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import tensorflow as tf
-print(tf.__version__)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
