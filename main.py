@@ -1,6 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-for i in range(10): print(i)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_array_as_int(array):
+        return int(array[0])
