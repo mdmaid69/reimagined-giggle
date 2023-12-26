@@ -1,5 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import sys
+def exit_program():
+        sys.exit()
+import platform
+def get_python_version():
+        return platform.python_version()
