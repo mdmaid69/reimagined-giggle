@@ -1,6 +1,9 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
