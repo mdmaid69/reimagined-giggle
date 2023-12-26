@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
