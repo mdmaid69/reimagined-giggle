@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
