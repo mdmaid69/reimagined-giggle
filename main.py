@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
