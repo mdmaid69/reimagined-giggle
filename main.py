@@ -1,4 +1,8 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-text = "Hello, world!"
-print("Characters:", len(text))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
