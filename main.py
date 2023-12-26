@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_array_as_list(array):
+        return list(array)
