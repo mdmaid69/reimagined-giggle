@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import time
+def get_current_time():
+        return time.time()
