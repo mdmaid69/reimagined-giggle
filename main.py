@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
