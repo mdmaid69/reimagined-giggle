@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_area_rectangle(l, w):
-        return l * w
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def add_numbers(x, y):
+        return x + y
