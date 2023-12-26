@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
