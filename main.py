@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def append_to_array(array, item):
+        array.append(item)
