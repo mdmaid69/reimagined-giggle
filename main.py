@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_to_hex(n):
+        return hex(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
