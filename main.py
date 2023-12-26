@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
