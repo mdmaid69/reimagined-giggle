@@ -1,6 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_power(work, time):
+        return work / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
