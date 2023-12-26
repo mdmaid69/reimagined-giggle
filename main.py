@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def is_odd(n):
+        return n % 2 != 0
