@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
