@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
