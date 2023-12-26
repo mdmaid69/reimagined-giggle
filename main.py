@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
