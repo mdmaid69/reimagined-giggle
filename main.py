@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def convert_to_octal(n):
+        return oct(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
