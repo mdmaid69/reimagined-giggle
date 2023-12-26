@@ -1,3 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-print([x**2 for x in range(10)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
