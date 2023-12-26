@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
