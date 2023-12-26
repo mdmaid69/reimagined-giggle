@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
