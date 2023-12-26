@@ -1,8 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
