@@ -1,8 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
