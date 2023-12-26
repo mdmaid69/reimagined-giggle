@@ -1,5 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
