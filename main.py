@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-for i in range(5):
-        print(i)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
