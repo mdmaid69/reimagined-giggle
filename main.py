@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
