@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
