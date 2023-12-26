@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
