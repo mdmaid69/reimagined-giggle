@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
