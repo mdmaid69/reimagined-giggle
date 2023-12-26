@@ -1,6 +1,4 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+print([x**2 for x in range(10)])
