@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
