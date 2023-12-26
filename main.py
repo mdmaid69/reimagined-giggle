@@ -1,6 +1,4 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
