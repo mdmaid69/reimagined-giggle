@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
