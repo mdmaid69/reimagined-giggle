@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_area_rectangle(l, w):
+        return l * w
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
