@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import numpy as np
+print(np.array([1, 2, 3]))
