@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
