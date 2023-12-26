@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
