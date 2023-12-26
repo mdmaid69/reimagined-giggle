@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_work(force, distance):
+        return force * distance
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
