@@ -1,6 +1,8 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_user_string():
+        return collections.UserString()
