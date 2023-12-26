@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
