@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def add_numbers(x, y):
-        return x + y
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
