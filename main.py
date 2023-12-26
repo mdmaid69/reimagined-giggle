@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
