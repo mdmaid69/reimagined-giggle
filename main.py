@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_list(array):
+        return list(array)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
