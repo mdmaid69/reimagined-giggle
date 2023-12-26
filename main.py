@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+x = 10
+y = 20
+print("Sum:", x + y)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
