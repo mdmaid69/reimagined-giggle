@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import sys
+def exit_program():
+        sys.exit()
