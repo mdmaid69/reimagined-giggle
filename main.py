@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
