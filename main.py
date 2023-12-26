@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import time
-def get_time_since_epoch():
-        return time.time()
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_bool(array):
+        return bool(array)
