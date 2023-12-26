@@ -1,4 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import re
-print(re.match("h.*o", "hello world"))
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
