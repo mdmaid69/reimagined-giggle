@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def reverse_list(lst):
-        return lst[::-1]
+import os
+print(os.getcwd())
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
