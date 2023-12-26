@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
