@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
