@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
