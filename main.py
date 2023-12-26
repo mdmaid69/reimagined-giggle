@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
