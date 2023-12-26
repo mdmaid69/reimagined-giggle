@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
