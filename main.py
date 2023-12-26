@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
