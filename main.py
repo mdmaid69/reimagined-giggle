@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
