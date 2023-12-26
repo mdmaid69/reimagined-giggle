@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
