@@ -1,5 +1,8 @@
-def is_odd(n):
-        return n % 2 != 0
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
