@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
