@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
