@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
