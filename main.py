@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+print(math.pi)
+def calculate_speed(distance, time):
+        return distance / time
