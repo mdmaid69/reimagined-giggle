@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
