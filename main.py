@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import sys
+  def get_python_version():
+        return sys.version
