@@ -1,4 +1,15 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
