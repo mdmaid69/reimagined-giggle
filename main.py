@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def multiply_numbers(x, y):
+        return x * y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
