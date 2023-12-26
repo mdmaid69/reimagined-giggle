@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def add_numbers(x, y):
+        return x + y
