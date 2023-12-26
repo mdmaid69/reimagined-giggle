@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def sort_numbers(numbers):
+        return sorted(numbers)
