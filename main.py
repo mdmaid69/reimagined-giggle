@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
