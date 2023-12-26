@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
