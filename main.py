@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
