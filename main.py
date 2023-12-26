@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
