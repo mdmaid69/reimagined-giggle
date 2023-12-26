@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import json
+def convert_to_json(data):
+        return json.dumps(data)
