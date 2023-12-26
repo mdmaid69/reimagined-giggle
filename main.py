@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
