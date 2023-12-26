@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
