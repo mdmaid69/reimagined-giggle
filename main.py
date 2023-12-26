@@ -1,6 +1,5 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def get_current_directory():
+        return os.getcwd()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
