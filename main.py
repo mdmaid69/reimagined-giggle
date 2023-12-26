@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
