@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
