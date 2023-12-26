@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+text = "Hello, world!"
+print("Characters:", len(text))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
