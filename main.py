@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
