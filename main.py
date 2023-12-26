@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
