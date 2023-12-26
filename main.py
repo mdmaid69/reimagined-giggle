@@ -1,7 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def is_palindrome(s):
+        return s == s[::-1]
