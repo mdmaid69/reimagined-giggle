@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
