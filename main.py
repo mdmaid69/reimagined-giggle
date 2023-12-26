@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
