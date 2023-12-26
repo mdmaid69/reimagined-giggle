@@ -1,4 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+print([x**2 for x in range(10)])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
