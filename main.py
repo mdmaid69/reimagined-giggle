@@ -1,5 +1,8 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import platform
+def get_python_version():
+        return platform.python_version()
