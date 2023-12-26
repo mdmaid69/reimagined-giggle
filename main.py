@@ -1,5 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
