@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import datetime
+def get_today_date():
+        return datetime.date.today()
