@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import collections
-def create_counter():
-        return collections.Counter()
+def subtract_numbers(x, y):
+        return x - y
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
