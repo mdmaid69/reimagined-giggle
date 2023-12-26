@@ -1,6 +1,6 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
