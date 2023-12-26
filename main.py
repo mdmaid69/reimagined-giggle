@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
