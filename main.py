@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
