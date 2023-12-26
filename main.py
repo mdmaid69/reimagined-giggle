@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
