@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
