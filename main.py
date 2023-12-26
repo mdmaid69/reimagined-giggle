@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
