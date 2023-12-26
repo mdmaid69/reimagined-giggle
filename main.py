@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import os
-print(os.getcwd())
+def list_files_in_directory(path):
+        return os.listdir(path)
