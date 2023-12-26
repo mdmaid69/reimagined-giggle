@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_priority_queue():
+        return collections.deque()
