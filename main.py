@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
