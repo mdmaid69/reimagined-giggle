@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import sys
+print(sys.version)
