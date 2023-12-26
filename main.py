@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import sys
-def exit_program():
-        sys.exit()
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def reverse_array(array):
+        array.reverse()
