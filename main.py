@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+for i in range(5):
+        print(i)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
