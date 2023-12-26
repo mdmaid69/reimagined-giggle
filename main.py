@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def is_even(n):
+        return n % 2 == 0
