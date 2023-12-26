@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
