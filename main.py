@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_work(force, distance):
-        return force * distance
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
