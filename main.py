@@ -1,8 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import re
+print(re.match("h.*o", "hello world"))
