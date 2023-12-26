@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def sort_list(lst):
+        return sorted(lst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
