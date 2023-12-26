@@ -1,7 +1,9 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
