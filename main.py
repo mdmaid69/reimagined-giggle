@@ -1,7 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
