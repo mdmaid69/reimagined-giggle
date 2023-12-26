@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
