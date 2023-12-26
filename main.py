@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import sys
+def exit_program():
+        sys.exit()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
