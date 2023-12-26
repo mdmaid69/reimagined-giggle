@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def square_number(x):
+        return x**2
