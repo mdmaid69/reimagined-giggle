@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import tensorflow as tf
-print(tf.__version__)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def convert_to_hex(n):
+        return hex(n)
