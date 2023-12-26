@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def sort_list(lst):
-        return sorted(lst)
+def is_even(n):
+        return n % 2 == 0
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
