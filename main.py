@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
