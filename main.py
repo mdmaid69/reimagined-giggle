@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_queue():
+        return collections.deque()
