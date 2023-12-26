@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
