@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_repr(array):
+        return repr(array)
