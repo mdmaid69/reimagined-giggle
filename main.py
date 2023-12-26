@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def convert_to_octal(n):
-        return oct(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def reverse_list(lst):
+        return lst[::-1]
