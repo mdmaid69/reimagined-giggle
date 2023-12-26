@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import os
-print(os.getcwd())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
