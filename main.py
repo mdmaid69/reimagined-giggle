@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def square_number(x):
+        return x**2
