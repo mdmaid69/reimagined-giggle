@@ -1,5 +1,9 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
