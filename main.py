@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import re
+print(re.match("h.*o", "hello world"))
