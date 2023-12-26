@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
