@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
