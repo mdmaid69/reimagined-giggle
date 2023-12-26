@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-from collections import Counter
-print(Counter("hello world"))
+def convert_to_hex(n):
+        return hex(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
