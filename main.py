@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
