@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import json
+print(json.dumps({"name": "John", "age": 30}))
