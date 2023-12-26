@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
