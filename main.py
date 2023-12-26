@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
