@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import re
+print(re.match("h.*o", "hello world"))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
