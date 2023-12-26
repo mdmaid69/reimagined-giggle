@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import sys
+  def get_python_version():
+        return sys.version
+import datetime
+def get_current_date():
+        return datetime.date.today()
