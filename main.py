@@ -1,6 +1,8 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
