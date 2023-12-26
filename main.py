@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
