@@ -1,5 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
