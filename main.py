@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_area_rectangle(l, w):
-        return l * w
+def is_even(n):
+        return n % 2 == 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
