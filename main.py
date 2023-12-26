@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
