@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
