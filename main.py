@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
