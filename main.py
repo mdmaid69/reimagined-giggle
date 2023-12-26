@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def append_to_array(array, item):
-        array.append(item)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_area_circle(r):
+        return 3.14 * r**2
