@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
