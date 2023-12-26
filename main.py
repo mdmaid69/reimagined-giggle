@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
