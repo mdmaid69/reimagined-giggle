@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def sort_list(lst):
-        return sorted(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
