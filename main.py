@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
