@@ -1,6 +1,5 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def get_array_as_complex(array):
+        return complex(array[0])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
