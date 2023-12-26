@@ -1,6 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
