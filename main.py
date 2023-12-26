@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
