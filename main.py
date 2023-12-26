@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
