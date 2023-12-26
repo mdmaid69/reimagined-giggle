@@ -1,8 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
