@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
