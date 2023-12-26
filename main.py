@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def sort_list(lst):
+        return sorted(lst)
