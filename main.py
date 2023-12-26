@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
