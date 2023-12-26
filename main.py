@@ -1,7 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def generate_random_number(start, end):
+        return random.randint(start, end)
