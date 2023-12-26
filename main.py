@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_item_count(array, item):
+        return array.count(item)
