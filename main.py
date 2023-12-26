@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
