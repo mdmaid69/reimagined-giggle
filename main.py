@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
