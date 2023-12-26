@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
