@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_item(array, i):
-        return array[i]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
