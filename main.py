@@ -1,12 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
