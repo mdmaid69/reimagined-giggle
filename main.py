@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import datetime
-print(datetime.datetime.now())
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
