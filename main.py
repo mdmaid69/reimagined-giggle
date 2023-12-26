@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
