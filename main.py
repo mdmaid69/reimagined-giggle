@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
