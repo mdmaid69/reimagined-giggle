@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
