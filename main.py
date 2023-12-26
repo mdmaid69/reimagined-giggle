@@ -1,6 +1,8 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_priority_queue():
+        return collections.deque()
