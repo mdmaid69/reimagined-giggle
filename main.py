@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
