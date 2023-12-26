@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
