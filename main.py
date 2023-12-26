@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
