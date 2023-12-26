@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
