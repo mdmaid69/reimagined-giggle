@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
