@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
