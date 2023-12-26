@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def reverse_list(lst):
+        return lst[::-1]
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
