@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
