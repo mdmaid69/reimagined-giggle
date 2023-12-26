@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
