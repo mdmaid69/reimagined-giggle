@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import logging
+def log_message(message):
+        logging.info(message)
