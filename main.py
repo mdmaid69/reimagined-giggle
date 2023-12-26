@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
