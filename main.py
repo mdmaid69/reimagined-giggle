@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
