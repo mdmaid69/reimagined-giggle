@@ -1,4 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-print(sum(range(10)))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
