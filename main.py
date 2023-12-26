@@ -1,5 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
