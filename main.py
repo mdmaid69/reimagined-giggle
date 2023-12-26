@@ -1,11 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
