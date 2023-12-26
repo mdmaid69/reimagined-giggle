@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
