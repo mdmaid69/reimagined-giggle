@@ -1,6 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
