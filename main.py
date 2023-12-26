@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
