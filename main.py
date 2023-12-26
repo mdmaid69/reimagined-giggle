@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def count_elements(lst):
-        return len(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
