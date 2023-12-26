@@ -1,5 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
