@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
