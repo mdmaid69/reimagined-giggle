@@ -1,12 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import platform
+def get_os_info():
+        return platform.uname()
