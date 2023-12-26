@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_area_circle(r):
+        return 3.14 * r**2
