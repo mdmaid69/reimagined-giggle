@@ -1,6 +1,3 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+for i in range(10): print(i)
