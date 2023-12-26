@@ -1,4 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
