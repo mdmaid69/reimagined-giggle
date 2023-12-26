@@ -1,5 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_list_from_array(array):
+        return array.tolist()
