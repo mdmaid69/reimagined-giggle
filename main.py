@@ -1,5 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
