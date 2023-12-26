@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def count_characters(sentence):
-        return len(sentence)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
