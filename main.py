@@ -1,6 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def append_to_array(array, item):
-        array.append(item)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
