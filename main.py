@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
