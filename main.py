@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
