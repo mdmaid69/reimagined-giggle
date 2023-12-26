@@ -1,3 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-for i in range(10): print(i)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  def subtract_numbers(x, y):
+        return x - y
