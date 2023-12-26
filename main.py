@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
