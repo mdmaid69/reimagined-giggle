@@ -1,3 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-print(sum(range(10)))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
