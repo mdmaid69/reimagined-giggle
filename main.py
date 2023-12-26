@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import sys
+print(sys.version)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
