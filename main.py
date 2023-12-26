@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
