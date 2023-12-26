@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
