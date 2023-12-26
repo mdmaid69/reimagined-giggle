@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_length(array):
+        return len(array)
