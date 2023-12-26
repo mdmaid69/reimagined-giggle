@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def list_files_in_directory(path):
+        return os.listdir(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
