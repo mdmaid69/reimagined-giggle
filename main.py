@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
