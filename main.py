@@ -1,6 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
