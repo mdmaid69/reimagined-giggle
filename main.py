@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-def get_time_since_epoch():
-        return time.time()
+  def convert_to_binary(n):
+        return bin(n)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
