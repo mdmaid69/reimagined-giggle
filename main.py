@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import os
+def change_working_directory(path):
+        os.chdir(path)
