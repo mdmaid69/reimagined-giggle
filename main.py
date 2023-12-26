@@ -1,5 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
