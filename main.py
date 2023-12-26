@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def add_numbers(a, b):
+        return a + b
