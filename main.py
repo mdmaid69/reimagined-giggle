@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import sys
+def print_python_version():
+        return sys.version
