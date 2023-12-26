@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
