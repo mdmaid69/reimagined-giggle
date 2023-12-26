@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
