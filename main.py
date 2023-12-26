@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
