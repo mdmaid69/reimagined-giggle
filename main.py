@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_density(mass, volume):
-        return mass / volume
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
