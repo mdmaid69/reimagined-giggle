@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import re
-print(re.match("h.*o", "hello world"))
+  def cube_number(x):
+        return x**3
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
