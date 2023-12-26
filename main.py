@@ -1,6 +1,8 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  def convert_to_binary(n):
+        return bin(n)
