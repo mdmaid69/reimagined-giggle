@@ -1,5 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-print(math.pi)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
