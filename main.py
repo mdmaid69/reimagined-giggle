@@ -1,5 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
