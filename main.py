@@ -1,5 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
