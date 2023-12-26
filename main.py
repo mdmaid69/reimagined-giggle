@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
