@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
