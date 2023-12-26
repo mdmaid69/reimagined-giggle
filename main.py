@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
