@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
