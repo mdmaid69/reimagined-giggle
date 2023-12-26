@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
