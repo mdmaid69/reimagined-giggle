@@ -1,7 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
