@@ -1,8 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_sine(x):
+        return math.sin(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
