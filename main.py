@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
