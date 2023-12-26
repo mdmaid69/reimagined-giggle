@@ -1,6 +1,10 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
