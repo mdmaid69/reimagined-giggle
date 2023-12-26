@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
