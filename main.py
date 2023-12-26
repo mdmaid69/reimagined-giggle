@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_bool(array):
+        return bool(array)
