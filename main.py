@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
