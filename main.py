@@ -1,5 +1,8 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def convert_to_hex(n):
-        return hex(n)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
