@@ -1,14 +1,12 @@
-import threading
+import queue
 
-def print_hello():
-        print("Hello, world!")
+q = queue.Queue()
 
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-from flask import Flask
-app = Flask(__name__)
+for i in range(5):
+        q.put(i)
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+while not q.empty():
+        print(q.get())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
