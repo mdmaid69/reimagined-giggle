@@ -1,6 +1,7 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import platform
-def get_python_version():
-        return platform.python_version()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
