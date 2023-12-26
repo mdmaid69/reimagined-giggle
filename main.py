@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
