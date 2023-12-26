@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
