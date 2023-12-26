@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
