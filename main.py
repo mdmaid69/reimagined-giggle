@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import time
-def get_current_time():
-        return time.ctime()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
