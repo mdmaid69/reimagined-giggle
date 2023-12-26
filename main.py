@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+from collections import Counter
+print(Counter("hello world"))
+def calculate_volume(length, width, height):
+        return length * width * height
