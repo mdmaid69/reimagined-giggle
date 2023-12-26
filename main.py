@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
