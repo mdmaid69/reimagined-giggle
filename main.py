@@ -1,6 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
