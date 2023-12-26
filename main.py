@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_list(array):
+        return list(array)
