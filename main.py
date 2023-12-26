@@ -1,5 +1,7 @@
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def add_numbers(a, b):
-        return a + b
+def calculate_permutations(n, k):
+        return math.perm(n, k)
