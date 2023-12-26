@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import numpy as np
+print(np.array([1, 2, 3]))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
