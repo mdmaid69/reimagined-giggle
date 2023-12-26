@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_as_repr(array):
+        return repr(array)
