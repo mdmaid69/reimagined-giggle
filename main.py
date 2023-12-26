@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_list(array):
+        return list(array)
+  def add_numbers(x, y):
+        return x + y
