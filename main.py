@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
