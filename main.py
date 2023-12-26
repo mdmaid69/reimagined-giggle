@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_set(array):
+        return set(array)
+def convert_to_octal(n):
+        return oct(n)
