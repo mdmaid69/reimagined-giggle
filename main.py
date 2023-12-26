@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
