@@ -1,4 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def subtract_numbers(x, y):
+        return x - y
