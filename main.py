@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
 import array
-def append_to_array(array, item):
-        array.append(item)
+def check_if_array_contains_item(array, item):
+        return item in array
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
