@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
