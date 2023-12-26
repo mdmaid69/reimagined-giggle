@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
