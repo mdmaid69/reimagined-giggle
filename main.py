@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+name = "Python"
+print("Hello,", name)
