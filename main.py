@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def divide_numbers(x, y):
-        return x / y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_tangent(x):
+        return math.tan(x)
