@@ -1,8 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import time
-def get_time_since_epoch():
-        return time.time()
+def is_even(n):
+        return n % 2 == 0
+def reverse_string(s):
+        return s[::-1]
