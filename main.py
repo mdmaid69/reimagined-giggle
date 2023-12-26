@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import platform
+def get_os_info():
+        return platform.uname()
