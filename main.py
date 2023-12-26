@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
