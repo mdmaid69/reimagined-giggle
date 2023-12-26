@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
