@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def count_elements(lst):
+        return len(lst)
