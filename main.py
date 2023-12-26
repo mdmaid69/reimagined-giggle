@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
