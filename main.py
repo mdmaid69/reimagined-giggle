@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
