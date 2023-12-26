@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
