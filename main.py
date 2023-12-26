@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
