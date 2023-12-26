@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def is_odd(n):
+        return n % 2 != 0
+import logging
+def log_message(message):
+        logging.info(message)
