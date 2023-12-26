@@ -1,3 +1,4 @@
-for i in range(10): print(i)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def count_elements(lst):
+        return len(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
