@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def multiply_numbers(x, y):
+        return x * y
+def sort_list(lst):
+        return sorted(lst)
