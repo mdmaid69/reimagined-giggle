@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
