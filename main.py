@@ -1,6 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
