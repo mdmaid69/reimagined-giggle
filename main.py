@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def append_to_array(array, item):
+        array.append(item)
