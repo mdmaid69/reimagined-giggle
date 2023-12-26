@@ -1,5 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
