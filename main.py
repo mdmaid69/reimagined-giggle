@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
