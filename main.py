@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
