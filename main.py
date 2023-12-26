@@ -1,8 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
