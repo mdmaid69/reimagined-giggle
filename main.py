@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
