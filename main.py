@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
