@@ -1,10 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
