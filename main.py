@@ -1,5 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
