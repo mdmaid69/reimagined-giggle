@@ -1,5 +1,8 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
