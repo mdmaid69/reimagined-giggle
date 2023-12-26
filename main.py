@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def create_user_dict():
+        return collections.UserDict()
