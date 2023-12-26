@@ -1,6 +1,9 @@
-import sys
-def exit_program():
-        sys.exit()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
