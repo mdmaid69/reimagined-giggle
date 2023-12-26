@@ -1,5 +1,3 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-for i in range(5):
-        print(i)
+print(sum(range(10)))
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
