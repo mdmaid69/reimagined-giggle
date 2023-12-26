@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_work(force, distance):
+        return force * distance
