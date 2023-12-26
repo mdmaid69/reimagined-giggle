@@ -1,5 +1,3 @@
-def reverse_list(lst):
-        return lst[::-1]
 import bisect
 def binary_search(sorted_list, item):
         i = bisect.bisect_left(sorted_list, item)
@@ -7,3 +5,6 @@ def binary_search(sorted_list, item):
         return i
         else:
         return -1
+import sys
+def print_python_version():
+        return sys.version
