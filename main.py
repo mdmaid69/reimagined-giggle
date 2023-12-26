@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def convert_to_binary(n):
+        return bin(n)
