@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def convert_to_octal(n):
-        return oct(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
