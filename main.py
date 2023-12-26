@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
