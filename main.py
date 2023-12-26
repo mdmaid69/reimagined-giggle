@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
