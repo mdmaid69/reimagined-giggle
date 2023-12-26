@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
