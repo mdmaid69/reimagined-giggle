@@ -1,6 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
