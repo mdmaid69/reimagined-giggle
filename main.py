@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
