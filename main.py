@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def add_numbers(a, b):
-        return a + b
+def convert_to_octal(n):
+        return oct(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
