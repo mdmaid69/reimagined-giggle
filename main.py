@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
