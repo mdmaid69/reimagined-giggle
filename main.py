@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
