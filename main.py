@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def subtract_numbers(x, y):
-        return x - y
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def reverse_string(s):
+        return s[::-1]
