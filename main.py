@@ -1,4 +1,8 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
