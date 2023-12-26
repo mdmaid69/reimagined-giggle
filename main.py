@@ -1,5 +1,12 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
