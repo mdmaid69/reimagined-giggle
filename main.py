@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
