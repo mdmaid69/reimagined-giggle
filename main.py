@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
