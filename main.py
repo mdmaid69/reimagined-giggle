@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
