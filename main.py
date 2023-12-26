@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def divide_numbers(x, y):
+        return x / y
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
