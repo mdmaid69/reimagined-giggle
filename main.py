@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def sort_list(lst):
+        return sorted(lst)
+  def is_even(n):
+        return n % 2 == 0
