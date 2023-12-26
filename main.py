@@ -1,4 +1,6 @@
-import time
-print(time.time())
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
