@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
