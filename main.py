@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+  def calculate_area_rectangle(l, w):
+        return l * w
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def create_numpy_array(lst):
+        return np.array(lst)
