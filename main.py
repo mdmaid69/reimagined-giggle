@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
