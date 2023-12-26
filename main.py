@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import time
-def get_current_time():
-        return time.ctime()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import platform
+def get_python_version():
+        return platform.python_version()
