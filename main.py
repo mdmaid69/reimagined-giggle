@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def convert_to_binary(n):
+        return bin(n)
