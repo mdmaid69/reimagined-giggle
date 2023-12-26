@@ -1,12 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
