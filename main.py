@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
