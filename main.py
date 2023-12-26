@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def multiply_numbers(x, y):
-        return x * y
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
