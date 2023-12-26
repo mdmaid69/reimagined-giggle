@@ -1,5 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
