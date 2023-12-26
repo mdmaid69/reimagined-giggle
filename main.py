@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def add_numbers(x, y):
-        return x + y
+import numpy as np
+print(np.array([1, 2, 3]))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
