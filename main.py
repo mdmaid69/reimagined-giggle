@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
