@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def clear_array(array):
+        array *= 0
+import platform
+def get_python_version():
+        return platform.python_version()
