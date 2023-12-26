@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def get_array_length(array):
+        return len(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
