@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
