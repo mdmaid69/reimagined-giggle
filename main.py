@@ -1,4 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def reverse_string(s):
+        return s[::-1]
+def calculate_pressure(force, area):
+        return force / area
