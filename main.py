@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_list_from_array(array):
+        return array.tolist()
+def reverse_string(s):
+        return s[::-1]
