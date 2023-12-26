@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
