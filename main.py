@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def is_even(n):
+        return n % 2 == 0
