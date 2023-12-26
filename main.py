@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import platform
+def get_os_info():
+        return platform.uname()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
