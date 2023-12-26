@@ -1,9 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def get_string_from_array(array):
+        return array.tobytes()
