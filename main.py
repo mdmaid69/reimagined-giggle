@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
