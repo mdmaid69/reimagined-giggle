@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_item(array, i):
+        return array[i]
