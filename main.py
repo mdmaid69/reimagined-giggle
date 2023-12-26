@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
