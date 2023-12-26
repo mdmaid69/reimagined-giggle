@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def convert_to_binary(n):
-        return bin(n)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import collections
+def create_user_dict():
+        return collections.UserDict()
