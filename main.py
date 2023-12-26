@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def reverse_array(array):
+        array.reverse()
+def reverse_list(lst):
+        return lst[::-1]
