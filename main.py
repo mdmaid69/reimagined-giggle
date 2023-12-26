@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-from collections import Counter
-print(Counter("hello world"))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
