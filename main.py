@@ -1,6 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
