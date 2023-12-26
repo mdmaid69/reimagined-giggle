@@ -1,6 +1,8 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
