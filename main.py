@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
