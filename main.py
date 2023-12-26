@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_priority_queue():
+        return collections.deque()
+  def sort_list(lst):
+        return sorted(lst)
