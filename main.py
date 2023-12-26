@@ -1,5 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
