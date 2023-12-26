@@ -1,6 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
