@@ -1,5 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
