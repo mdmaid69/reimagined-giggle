@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
