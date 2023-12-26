@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def get_string_from_array(array):
+        return array.tobytes()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
