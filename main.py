@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+name = "Python"
+print("Hello,", name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
