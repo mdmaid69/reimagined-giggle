@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
