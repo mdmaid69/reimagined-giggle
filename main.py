@@ -1,6 +1,9 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
