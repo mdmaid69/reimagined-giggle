@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import time
+print(time.time())
+def calculate_area_circle(r):
+        return 3.14 * r**2
