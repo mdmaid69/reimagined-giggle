@@ -1,6 +1,5 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_exponential(x):
+        return math.exp(x)
+for i in range(5):
+        print(i)
