@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
