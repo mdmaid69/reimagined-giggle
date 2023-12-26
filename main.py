@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
