@@ -1,8 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
