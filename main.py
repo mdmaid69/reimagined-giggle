@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
