@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
