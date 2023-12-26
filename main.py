@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
