@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_work(force, distance):
+        return force * distance
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
