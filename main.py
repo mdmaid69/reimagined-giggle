@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def count_characters(sentence):
+        return len(sentence)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
