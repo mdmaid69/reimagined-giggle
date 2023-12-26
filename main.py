@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
