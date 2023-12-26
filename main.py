@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
