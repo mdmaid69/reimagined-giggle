@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import tensorflow as tf
+print(tf.__version__)
