@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
