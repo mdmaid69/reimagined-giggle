@@ -1,5 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
