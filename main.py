@@ -1,4 +1,6 @@
-import time
-print(time.time())
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
