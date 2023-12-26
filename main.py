@@ -1,6 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def is_even(n):
+        return n % 2 == 0
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
