@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
