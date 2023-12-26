@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
