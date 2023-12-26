@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_mean(arr):
+        return np.mean(arr)
