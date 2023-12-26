@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
