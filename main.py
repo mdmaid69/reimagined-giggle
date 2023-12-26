@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import collections
-def create_counter():
-        return collections.Counter()
+def count_words(sentence):
+        return len(sentence.split())
+  def add_numbers(x, y):
+        return x + y
