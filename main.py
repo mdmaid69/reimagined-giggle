@@ -1,5 +1,10 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
