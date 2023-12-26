@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def is_palindrome(s):
+        return s == s[::-1]
+import os
+print(os.getcwd())
