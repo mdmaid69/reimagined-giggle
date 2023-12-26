@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def sort_list(lst):
+        return sorted(lst)
