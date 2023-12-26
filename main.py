@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
