@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
