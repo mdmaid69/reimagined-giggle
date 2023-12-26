@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import re
+print(re.match("h.*o", "hello world"))
