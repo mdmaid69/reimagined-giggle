@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def greet(name):
+        print(f"Hello, {name}!")
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
