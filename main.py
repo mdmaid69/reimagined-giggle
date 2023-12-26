@@ -1,6 +1,7 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import sys
-def print_python_version():
-        return sys.version
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_min(numbers):
+        return min(numbers)
