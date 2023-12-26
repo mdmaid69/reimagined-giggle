@@ -1,6 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+for i in range(5):
+        print(i)
+def calculate_density(mass, volume):
+        return mass / volume
