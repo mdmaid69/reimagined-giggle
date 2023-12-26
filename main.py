@@ -1,6 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
