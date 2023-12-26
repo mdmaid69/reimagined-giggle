@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
