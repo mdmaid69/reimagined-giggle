@@ -1,6 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
