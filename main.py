@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import sys
+def print_python_version():
+        print(sys.version)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
