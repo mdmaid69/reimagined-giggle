@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def cube_number(x):
+        return x**3
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
