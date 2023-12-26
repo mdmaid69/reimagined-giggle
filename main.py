@@ -1,8 +1,8 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
