@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def add_numbers(a, b):
-        return a + b
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
