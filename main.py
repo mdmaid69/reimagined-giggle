@@ -1,6 +1,8 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import collections
-def create_user_list():
-        return collections.UserList()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
