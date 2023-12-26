@@ -1,6 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_as_list(array):
+        return list(array)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
