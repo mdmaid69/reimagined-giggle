@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
