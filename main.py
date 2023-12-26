@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
