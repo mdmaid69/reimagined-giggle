@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
