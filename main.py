@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
