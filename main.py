@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
