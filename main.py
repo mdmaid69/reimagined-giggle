@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
 text = "Hello, world!"
-print("Words:", len(text.split()))
+print("Is palindrome:", text == text[::-1])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
