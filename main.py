@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def clear_array(array):
-        array *= 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
