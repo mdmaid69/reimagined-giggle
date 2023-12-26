@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
