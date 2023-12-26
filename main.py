@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_work(force, distance):
+        return force * distance
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
