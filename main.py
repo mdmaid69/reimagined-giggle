@@ -1,10 +1,7 @@
-import threading
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import unittest
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-name = "Python"
-print("Hello,", name)
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
