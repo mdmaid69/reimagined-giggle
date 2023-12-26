@@ -1,3 +1,9 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-for i in range(10): print(i)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
