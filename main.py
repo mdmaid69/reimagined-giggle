@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def sort_list(lst):
+        return sorted(lst)
