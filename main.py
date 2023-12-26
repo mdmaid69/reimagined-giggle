@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def convert_to_octal(n):
-        return oct(n)
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
