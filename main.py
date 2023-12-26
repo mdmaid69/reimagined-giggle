@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import time
+def get_current_time():
+        return time.time()
+def calculate_area_circle(r):
+        return 3.14 * r**2
