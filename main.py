@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
