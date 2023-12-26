@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
