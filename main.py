@@ -1,4 +1,7 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
