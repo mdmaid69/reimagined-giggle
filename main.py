@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
