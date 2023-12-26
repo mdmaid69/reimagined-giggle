@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def count_characters(sentence):
+        return len(sentence)
