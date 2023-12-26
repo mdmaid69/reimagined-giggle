@@ -1,6 +1,10 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import sys
-  def get_python_version():
-        return sys.version
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
