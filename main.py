@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
