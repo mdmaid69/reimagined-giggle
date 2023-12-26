@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
