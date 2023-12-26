@@ -1,5 +1,8 @@
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
