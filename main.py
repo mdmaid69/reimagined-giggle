@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def convert_to_octal(n):
+        return oct(n)
