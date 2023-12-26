@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
