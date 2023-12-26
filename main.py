@@ -1,4 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def convert_to_hex(n):
+        return hex(n)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
