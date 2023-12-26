@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
