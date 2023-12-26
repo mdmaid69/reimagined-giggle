@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
