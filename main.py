@@ -1,9 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
