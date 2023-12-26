@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def cube_number(x):
+        return x**3
+import array
+def get_array_item(array, i):
+        return array[i]
