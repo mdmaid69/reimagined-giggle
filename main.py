@@ -1,6 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
