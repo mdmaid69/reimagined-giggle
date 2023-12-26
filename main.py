@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
