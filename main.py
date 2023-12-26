@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def is_odd(n):
-        return n % 2 != 0
+  def multiply_numbers(x, y):
+        return x * y
+import os
+def remove_directory(path):
+        os.rmdir(path)
