@@ -1,5 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
