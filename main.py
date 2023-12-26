@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_pressure(force, area):
+        return force / area
