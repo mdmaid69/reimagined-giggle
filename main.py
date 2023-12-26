@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
