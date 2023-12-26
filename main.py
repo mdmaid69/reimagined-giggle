@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def multiply_numbers(x, y):
-        return x * y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
