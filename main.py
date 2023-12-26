@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
