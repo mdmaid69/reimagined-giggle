@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
