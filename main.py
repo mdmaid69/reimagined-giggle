@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+x = 10
+y = 20
+print("Sum:", x + y)
+import time
+def get_time_since_epoch():
+        return time.time()
