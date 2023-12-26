@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
