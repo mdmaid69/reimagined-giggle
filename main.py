@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def add_numbers(x, y):
-        return x + y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
