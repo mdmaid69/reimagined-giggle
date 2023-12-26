@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_priority_queue():
+        return collections.deque()
+import os
+def get_current_working_directory():
+        return os.getcwd()
