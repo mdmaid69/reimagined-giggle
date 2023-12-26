@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
