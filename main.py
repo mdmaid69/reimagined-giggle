@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import datetime
+print(datetime.datetime.now())
