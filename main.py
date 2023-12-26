@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def count_words(sentence):
+        return len(sentence.split())
