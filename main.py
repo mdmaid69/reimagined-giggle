@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def multiply_numbers(x, y):
-        return x * y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
