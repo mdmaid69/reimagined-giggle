@@ -1,6 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
