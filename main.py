@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  def multiply_numbers(x, y):
-        return x * y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
