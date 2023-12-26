@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+name = "Python"
+print("Hello,", name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
