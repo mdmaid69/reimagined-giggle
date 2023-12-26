@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
