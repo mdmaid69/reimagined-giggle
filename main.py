@@ -1,5 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
