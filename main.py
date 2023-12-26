@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
