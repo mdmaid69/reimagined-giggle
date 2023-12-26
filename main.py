@@ -1,5 +1,5 @@
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
