@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
