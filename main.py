@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
