@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
