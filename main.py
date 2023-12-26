@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def sort_list(lst):
+        return sorted(lst)
