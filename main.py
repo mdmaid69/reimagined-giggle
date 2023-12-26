@@ -1,7 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
