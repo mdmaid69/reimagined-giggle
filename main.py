@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
