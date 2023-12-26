@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def add_numbers(x, y):
+        return x + y
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
