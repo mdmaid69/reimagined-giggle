@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
