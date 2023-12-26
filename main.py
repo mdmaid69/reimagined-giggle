@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_frozenset(array):
+        return frozenset(array)
