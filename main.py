@@ -1,4 +1,8 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def multiply_numbers(x, y):
-        return x * y
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
