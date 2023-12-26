@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
