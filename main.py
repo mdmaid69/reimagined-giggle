@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
