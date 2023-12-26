@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
