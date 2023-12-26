@@ -1,4 +1,8 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def add_numbers(x, y):
-        return x + y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
