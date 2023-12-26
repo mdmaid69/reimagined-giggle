@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import collections
+def create_priority_queue():
+        return collections.deque()
