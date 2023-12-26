@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
