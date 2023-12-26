@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
