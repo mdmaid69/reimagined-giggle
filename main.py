@@ -1,12 +1,10 @@
-import queue
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import threading
 
-q = queue.Queue()
+def print_hello():
+        print("Hello, world!")
 
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
