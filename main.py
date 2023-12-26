@@ -1,5 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_error_function(x):
+        return math.erf(x)
