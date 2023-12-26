@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
