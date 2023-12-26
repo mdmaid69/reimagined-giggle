@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
