@@ -1,5 +1,11 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
