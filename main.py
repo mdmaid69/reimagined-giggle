@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+from collections import Counter
+print(Counter("hello world"))
