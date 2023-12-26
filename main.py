@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
