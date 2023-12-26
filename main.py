@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
