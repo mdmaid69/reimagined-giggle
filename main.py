@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
+def square_number(x):
+        return x**2
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
