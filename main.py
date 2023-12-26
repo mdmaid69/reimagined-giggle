@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def find_min(lst):
+        return min(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
