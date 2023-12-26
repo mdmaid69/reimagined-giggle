@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
