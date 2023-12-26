@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
