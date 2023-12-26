@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def count_elements(lst):
-        return len(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import sys
+def print_python_version():
+        print(sys.version)
