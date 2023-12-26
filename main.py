@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_density(mass, volume):
+        return mass / volume
