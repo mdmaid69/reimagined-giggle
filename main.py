@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
