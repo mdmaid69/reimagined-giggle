@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
