@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
