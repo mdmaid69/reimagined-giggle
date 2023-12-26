@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_user_dict():
+        return collections.UserDict()
