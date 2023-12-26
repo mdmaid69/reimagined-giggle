@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def clear_array(array):
-        array *= 0
+def get_array_item_count(array, item):
+        return array.count(item)
