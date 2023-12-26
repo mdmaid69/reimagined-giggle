@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_index(array, item):
+        return array.index(item)
+x = 10
+y = 20
+print("Sum:", x + y)
