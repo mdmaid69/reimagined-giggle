@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
