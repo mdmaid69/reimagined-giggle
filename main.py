@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
