@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
