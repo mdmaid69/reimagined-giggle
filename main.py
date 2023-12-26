@@ -1,7 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
