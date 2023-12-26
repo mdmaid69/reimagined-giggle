@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_set(array):
+        return set(array)
