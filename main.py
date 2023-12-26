@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
