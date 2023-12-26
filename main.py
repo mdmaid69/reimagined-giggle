@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
