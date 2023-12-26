@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
