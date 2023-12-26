@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def convert_to_octal(n):
+        return oct(n)
