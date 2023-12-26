@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def sort_numbers(numbers):
+        return sorted(numbers)
