@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
