@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import time
-print(time.time())
+def find_min(numbers):
+        return min(numbers)
+  def add_numbers(x, y):
+        return x + y
