@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_work(force, distance):
+        return force * distance
