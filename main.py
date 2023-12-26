@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def add_numbers(x, y):
+        return x + y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
