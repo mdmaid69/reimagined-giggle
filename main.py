@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def split_path(path):
+        return os.path.split(path)
