@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
