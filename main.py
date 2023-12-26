@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
