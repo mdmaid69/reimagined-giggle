@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_str(array):
+        return str(array)
