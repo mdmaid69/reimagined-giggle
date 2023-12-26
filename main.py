@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def cube_number(x):
+        return x**3
