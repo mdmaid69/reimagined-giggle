@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
