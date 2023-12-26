@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
