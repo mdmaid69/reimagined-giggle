@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
