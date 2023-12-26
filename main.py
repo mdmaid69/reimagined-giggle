@@ -1,6 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
