@@ -1,9 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def convert_to_binary(n):
+        return bin(n)
