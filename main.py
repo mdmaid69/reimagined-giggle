@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
