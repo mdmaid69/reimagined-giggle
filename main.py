@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  def convert_to_hex(n):
+        return hex(n)
