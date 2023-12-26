@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import getpass
-def get_username():
-        return getpass.getuser()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
