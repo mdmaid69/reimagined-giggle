@@ -1,5 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def is_palindrome(s):
-        return s == s[::-1]
+  def split_path(path):
+        return os.path.split(path)
