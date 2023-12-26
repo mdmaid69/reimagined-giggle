@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_density(mass, volume):
+        return mass / volume
