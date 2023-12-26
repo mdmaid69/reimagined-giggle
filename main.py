@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
