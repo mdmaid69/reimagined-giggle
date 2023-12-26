@@ -1,6 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def set_array_item(array, i, item):
+        array[i] = item
