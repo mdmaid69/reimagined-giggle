@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
