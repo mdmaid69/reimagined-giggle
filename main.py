@@ -1,7 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
