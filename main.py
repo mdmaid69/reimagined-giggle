@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
