@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import sys
+def print_python_version():
+        return sys.version
+text = "Hello, world!"
+print("Characters:", len(text))
