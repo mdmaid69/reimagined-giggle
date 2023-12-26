@@ -1,5 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
