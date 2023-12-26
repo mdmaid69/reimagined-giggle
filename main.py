@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def append_to_array(array, item):
-        array.append(item)
+for i in range(10): print(i)
+import os
+def remove_directory(path):
+        os.rmdir(path)
