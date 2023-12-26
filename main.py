@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
