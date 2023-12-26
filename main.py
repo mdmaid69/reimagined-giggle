@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
