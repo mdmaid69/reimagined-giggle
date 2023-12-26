@@ -1,5 +1,5 @@
 numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
