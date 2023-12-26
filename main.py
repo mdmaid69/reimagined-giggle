@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-name = "Python"
-print("Hello,", name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def convert_to_binary(n):
+        return bin(n)
