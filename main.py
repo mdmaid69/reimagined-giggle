@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def convert_to_binary(n):
+        return bin(n)
