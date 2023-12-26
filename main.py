@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def reverse_list(lst):
+        return lst[::-1]
