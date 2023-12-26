@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
