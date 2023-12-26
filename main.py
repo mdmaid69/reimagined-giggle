@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
