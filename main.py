@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
