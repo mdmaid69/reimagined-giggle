@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_density(mass, volume):
+        return mass / volume
+import datetime
+def get_today_date():
+        return datetime.date.today()
