@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_as_set(array):
-        return set(array)
+def find_min(numbers):
+        return min(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
