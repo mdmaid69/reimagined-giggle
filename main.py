@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+name = "Python"
+print("Hello,", name)
