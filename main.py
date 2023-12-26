@@ -1,6 +1,7 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
 import datetime
-def get_current_date():
-        return datetime.date.today()
+def get_current_datetime():
+        return datetime.datetime.now()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
