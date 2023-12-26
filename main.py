@@ -1,7 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
