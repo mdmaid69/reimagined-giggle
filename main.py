@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
