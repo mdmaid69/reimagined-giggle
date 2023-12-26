@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
