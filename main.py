@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
