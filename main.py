@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
