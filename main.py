@@ -1,8 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
