@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import time
-def get_current_time():
-        return time.ctime()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
