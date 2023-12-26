@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def add_numbers(a, b):
+        return a + b
