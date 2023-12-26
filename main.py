@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
