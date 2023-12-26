@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
