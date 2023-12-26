@@ -1,5 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import os
+def get_current_working_directory():
+        return os.getcwd()
