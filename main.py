@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
