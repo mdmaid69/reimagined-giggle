@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def convert_array_to_string(array):
+        return array.tostring()
