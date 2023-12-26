@@ -1,4 +1,8 @@
-import sys
-print(sys.version)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
