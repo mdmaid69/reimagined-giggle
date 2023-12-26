@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
