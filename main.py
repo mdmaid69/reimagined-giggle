@@ -1,5 +1,7 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def find_max(lst):
-        return max(lst)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
