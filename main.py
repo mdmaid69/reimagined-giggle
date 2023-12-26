@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_exponential(x):
+        return math.exp(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
