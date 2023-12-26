@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def add_numbers(x, y):
+        return x + y
