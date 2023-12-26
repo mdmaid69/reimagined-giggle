@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_pressure(force, area):
-        return force / area
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_list(array):
+        return list(array)
