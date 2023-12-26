@@ -1,6 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def add_numbers(x, y):
+        return x + y
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
