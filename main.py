@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
