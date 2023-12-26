@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
