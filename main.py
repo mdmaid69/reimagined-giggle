@@ -1,5 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
