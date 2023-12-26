@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_power(work, time):
+        return work / time
