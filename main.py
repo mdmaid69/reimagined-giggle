@@ -1,5 +1,8 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
