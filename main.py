@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
