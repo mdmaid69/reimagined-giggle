@@ -1,3 +1,5 @@
-print("Hello, world!")
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
