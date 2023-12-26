@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def find_min(numbers):
+        return min(numbers)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
