@@ -1,5 +1,6 @@
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def convert_array_to_string(array):
+        return array.tostring()
