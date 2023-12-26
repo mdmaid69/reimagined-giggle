@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
