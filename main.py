@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import sys
-def print_python_version():
-        print(sys.version)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
