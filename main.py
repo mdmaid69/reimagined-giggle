@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
