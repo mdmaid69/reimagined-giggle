@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_item(array, i):
+        return array[i]
