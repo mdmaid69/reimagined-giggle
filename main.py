@@ -1,5 +1,3 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+print([x**2 for x in range(10)])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
