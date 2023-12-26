@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def extend_array(array, iterable):
+        array.extend(iterable)
