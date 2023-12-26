@@ -1,6 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
