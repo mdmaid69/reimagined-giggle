@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def convert_to_binary(n):
+        return bin(n)
