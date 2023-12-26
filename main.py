@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import platform
+def get_python_version():
+        return platform.python_version()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
