@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def reverse_string(s):
+        return s[::-1]
+  def calculate_area_rectangle(l, w):
+        return l * w
