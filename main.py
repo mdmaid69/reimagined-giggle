@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def count_characters(sentence):
+        return len(sentence)
