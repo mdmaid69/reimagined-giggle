@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
