@@ -1,5 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+for i in range(10): print(i)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
