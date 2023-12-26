@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import platform
+def get_os_info():
+        return platform.uname()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
