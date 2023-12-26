@@ -1,7 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
