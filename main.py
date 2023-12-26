@@ -1,8 +1,7 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
