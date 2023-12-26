@@ -1,6 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
   import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
         plt.show()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
