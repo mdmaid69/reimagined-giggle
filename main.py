@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
