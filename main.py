@@ -1,5 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_area(radius):
+        return 3.14 * radius * radius
