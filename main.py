@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
