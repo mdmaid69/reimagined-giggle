@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
