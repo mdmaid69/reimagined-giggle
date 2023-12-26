@@ -1,4 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import numpy as np
-print(np.array([1, 2, 3]))
+print([x**2 for x in range(10)])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
