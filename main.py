@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
