@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_memoryview(array):
+        return memoryview(array)
