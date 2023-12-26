@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
