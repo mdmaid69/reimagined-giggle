@@ -1,7 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
