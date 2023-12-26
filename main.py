@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
