@@ -1,6 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
