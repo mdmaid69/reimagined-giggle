@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
