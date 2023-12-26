@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import sys
+  def get_python_version():
+        return sys.version
