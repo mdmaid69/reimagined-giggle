@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import random
-def roll_die():
-        return random.randint(1, 6)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
