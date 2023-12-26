@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import platform
-def get_os_info():
-        return platform.uname()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
