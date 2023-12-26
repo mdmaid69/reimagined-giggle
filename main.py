@@ -1,7 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
