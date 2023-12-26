@@ -1,5 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def convert_to_hex(n):
-        return hex(n)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
