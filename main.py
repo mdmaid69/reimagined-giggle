@@ -1,7 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_pressure(force, area):
+        return force / area
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
