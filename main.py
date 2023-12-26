@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
