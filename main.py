@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import time
+print(time.time())
+import array
+def get_array_as_set(array):
+        return set(array)
