@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_array_to_list(array):
+        return array.tolist()
