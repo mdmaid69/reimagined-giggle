@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def count_elements(lst):
+        return len(lst)
