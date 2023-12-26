@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
