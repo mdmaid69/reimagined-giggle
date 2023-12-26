@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
