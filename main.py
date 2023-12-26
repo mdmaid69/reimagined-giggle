@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
