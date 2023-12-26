@@ -1,5 +1,10 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
