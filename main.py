@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
