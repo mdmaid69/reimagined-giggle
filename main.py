@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
