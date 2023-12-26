@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
