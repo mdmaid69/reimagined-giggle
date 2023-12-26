@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
