@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+print(random.randint(0, 100))
+def calculate_power(work, time):
+        return work / time
