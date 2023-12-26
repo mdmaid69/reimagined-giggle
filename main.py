@@ -1,5 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import os
+print(os.getcwd())
