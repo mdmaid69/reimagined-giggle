@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_sine(x):
+        return math.sin(x)
