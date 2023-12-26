@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
