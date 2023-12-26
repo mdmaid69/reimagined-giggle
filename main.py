@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
