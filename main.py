@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
