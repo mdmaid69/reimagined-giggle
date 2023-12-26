@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
