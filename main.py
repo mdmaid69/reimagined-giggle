@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
