@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
