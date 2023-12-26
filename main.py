@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
