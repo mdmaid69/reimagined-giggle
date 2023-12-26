@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_length(array):
-        return len(array)
+import datetime
+print(datetime.datetime.now())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
