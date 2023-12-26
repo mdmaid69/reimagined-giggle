@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
