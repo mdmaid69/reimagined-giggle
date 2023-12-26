@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
