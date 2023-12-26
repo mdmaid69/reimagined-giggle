@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
