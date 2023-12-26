@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  def convert_to_octal(n):
+        return oct(n)
