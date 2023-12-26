@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_priority_queue():
-        return collections.deque()
+from collections import Counter
+print(Counter("hello world"))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
