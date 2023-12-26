@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_density(mass, volume):
+        return mass / volume
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
