@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_counter():
+        return collections.Counter()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
