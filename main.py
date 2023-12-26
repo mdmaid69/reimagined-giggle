@@ -1,4 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
