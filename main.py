@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
