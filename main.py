@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def calculate_area_rectangle(l, w):
+        return l * w
