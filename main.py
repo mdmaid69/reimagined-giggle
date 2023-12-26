@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
