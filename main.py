@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
