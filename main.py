@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def count_characters(sentence):
+        return len(sentence)
