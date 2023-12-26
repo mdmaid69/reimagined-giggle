@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_power(work, time):
-        return work / time
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
