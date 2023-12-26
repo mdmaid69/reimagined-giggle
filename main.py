@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
