@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
