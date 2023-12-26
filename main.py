@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def convert_array_to_string(array):
+        return array.tostring()
