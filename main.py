@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import getpass
+def get_username():
+        return getpass.getuser()
