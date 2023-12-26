@@ -1,5 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def reverse_list(lst):
-        return lst[::-1]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
