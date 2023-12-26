@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_power(work, time):
-        return work / time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
