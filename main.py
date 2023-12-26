@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
