@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_length(array):
+        return len(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
