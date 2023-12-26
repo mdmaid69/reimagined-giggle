@@ -1,4 +1,7 @@
-def find_min(lst):
-        return min(lst)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import sys
+def print_python_version():
+        return sys.version
