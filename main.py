@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def convert_to_octal(n):
+        return oct(n)
