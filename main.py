@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
