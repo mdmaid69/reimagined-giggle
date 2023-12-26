@@ -1,5 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def reverse_string(s):
+        return s[::-1]
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
