@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
