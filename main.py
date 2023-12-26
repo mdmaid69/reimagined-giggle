@@ -1,6 +1,7 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+i = 0
+while i < 5:
+        print(i)
+        i += 1
