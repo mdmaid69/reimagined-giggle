@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
