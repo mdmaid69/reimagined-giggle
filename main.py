@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def find_max(numbers):
+        return max(numbers)
