@@ -1,5 +1,7 @@
-def count_characters(sentence):
-        return len(sentence)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
