@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
