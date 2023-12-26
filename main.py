@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
