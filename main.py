@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def square_number(x):
+        return x**2
+import platform
+def get_os_info():
+        return platform.uname()
