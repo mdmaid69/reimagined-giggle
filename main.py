@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
