@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def is_odd(n):
-        return n % 2 != 0
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
