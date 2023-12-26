@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
