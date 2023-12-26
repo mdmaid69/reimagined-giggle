@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def cube_number(x):
+        return x**3
