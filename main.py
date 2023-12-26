@@ -1,6 +1,9 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
