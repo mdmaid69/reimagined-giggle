@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
