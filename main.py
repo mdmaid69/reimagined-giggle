@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
