@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
