@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
