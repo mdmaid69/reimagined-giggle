@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-print(math.pi)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
