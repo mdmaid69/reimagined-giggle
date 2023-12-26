@@ -1,8 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import json
+print(json.dumps({"name": "John", "age": 30}))
