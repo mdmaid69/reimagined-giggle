@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_item(array, i):
+        return array[i]
+def find_max(lst):
+        return max(lst)
