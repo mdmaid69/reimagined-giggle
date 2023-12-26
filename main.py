@@ -1,5 +1,4 @@
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def sort_numbers(numbers):
+        return sorted(numbers)
