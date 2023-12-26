@@ -1,10 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
