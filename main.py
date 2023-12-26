@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_density(mass, volume):
+        return mass / volume
