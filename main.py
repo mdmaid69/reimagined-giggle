@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
