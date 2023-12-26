@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
