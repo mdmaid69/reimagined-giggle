@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
