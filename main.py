@@ -1,6 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
