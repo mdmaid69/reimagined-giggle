@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
