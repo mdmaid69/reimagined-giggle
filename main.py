@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
