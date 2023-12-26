@@ -1,4 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import re
-print(re.match("h.*o", "hello world"))
+def is_odd(n):
+        return n % 2 != 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
