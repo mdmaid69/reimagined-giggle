@@ -1,6 +1,12 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
