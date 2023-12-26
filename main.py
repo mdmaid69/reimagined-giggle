@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
