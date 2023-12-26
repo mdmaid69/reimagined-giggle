@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_max(lst):
-        return max(lst)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
