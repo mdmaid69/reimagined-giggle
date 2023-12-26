@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
