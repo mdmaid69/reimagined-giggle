@@ -1,6 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
