@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import time
+def get_current_time():
+        return time.ctime()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
