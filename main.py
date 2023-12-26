@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
