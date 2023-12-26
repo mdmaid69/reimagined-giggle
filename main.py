@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
