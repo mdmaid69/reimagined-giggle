@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
