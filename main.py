@@ -1,6 +1,11 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_work(force, distance):
+        return force * distance
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
