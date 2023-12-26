@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
