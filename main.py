@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import collections
+def create_stack():
+        return collections.deque()
