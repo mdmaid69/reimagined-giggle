@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def convert_to_hex(n):
+        return hex(n)
