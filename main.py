@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
