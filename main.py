@@ -1,7 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
