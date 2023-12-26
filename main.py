@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def find_min(lst):
+        return min(lst)
