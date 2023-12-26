@@ -1,6 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
