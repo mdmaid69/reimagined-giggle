@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import json
+print(json.dumps({"name": "John", "age": 30}))
