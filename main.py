@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def get_list_from_array(array):
+        return array.tolist()
