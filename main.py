@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
