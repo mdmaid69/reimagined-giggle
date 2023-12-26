@@ -1,7 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
