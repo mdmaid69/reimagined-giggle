@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import datetime
-print(datetime.datetime.now())
+import collections
+def create_user_list():
+        return collections.UserList()
+import getpass
+def get_username():
+        return getpass.getuser()
