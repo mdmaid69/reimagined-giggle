@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import time
+def get_current_time():
+        return time.time()
+import os
+def remove_directory(path):
+        os.rmdir(path)
