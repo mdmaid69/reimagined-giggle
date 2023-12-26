@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import time
+def get_time_since_epoch():
+        return time.time()
