@@ -1,5 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def clear_array(array):
+        array *= 0
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
