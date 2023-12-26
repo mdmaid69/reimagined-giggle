@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
