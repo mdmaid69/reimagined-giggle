@@ -1,5 +1,9 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
