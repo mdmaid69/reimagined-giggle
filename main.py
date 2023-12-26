@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
