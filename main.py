@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
