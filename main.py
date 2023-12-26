@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import random
+print(random.randint(0, 100))
