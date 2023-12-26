@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
