@@ -1,7 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-for i in range(10): print(i)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import re
+print(re.match("h.*o", "hello world"))
