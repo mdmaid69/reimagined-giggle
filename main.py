@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
