@@ -1,7 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
 import sys
-def print_python_version():
-        print(sys.version)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def add_to_python_path(path):
+        sys.path.append(path)
