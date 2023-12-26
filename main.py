@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import sys
+def print_python_version():
+        print(sys.version)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
