@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def check_if_array_contains_item(array, item):
+        return item in array
+import collections
+def create_priority_queue():
+        return collections.deque()
