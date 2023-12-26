@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
