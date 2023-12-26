@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
