@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
