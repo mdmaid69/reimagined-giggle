@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_length(array):
+        return len(array)
