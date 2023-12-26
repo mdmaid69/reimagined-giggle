@@ -1,6 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
