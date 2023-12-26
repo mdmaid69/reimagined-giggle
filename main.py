@@ -1,6 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_work(force, distance):
+        return force * distance
