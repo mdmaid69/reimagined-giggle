@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
