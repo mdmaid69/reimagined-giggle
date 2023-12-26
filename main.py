@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
