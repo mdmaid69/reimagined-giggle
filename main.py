@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
