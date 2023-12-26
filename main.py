@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def is_odd(n):
+        return n % 2 != 0
+for i in range(5):
+        print(i)
