@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_speed(distance, time):
-        return distance / time
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
