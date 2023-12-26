@@ -1,5 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
