@@ -1,6 +1,8 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
