@@ -1,6 +1,6 @@
-print(sum(range(10)))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
