@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-from collections import Counter
-print(Counter("hello world"))
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
