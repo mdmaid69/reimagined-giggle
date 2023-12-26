@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
