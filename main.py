@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
