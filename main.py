@@ -1,8 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def cube_number(x):
+        return x**3
