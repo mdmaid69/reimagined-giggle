@@ -1,6 +1,3 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+for i in range(10): print(i)
