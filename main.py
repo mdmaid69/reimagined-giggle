@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  def cube_number(x):
+        return x**3
