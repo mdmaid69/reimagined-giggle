@@ -1,6 +1,8 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
