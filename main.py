@@ -1,6 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_sine(x):
+        return math.sin(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
