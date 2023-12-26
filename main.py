@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
