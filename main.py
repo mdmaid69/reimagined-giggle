@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
