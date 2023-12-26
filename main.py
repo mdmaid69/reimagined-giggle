@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def get_array_index(array, item):
+        return array.index(item)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
