@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
