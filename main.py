@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-for i in range(5):
-        print(i)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
