@@ -1,5 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def reverse_string(s):
-        return s[::-1]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
