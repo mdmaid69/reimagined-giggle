@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_pressure(force, area):
+        return force / area
+import platform
+def get_python_version():
+        return platform.python_version()
