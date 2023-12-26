@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_tuple(array):
+        return tuple(array)
