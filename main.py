@@ -1,6 +1,11 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def divide_numbers(x, y):
+        return x / y
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
