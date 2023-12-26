@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
