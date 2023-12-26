@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+print(sum(range(10)))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
