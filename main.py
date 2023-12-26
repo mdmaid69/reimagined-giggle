@@ -1,6 +1,6 @@
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
