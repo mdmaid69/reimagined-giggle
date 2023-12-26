@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
