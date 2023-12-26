@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import time
+def get_time_since_epoch():
+        return time.time()
