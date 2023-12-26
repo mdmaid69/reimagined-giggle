@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def convert_to_hex(n):
+        return hex(n)
