@@ -1,4 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def is_odd(n):
-        return n % 2 != 0
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def cube_number(x):
+        return x**3
