@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import sys
+def print_python_version():
+        print(sys.version)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
