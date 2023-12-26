@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
 import array
-def reverse_array(array):
-        array.reverse()
+def set_array_item(array, i, item):
+        array[i] = item
+  def reverse_list(lst):
+        return lst[::-1]
