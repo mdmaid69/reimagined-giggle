@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
