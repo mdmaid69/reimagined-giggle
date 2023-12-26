@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
