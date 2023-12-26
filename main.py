@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  def cube_number(x):
-        return x**3
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
