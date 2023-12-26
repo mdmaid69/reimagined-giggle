@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_current_directory():
+        return os.getcwd()
