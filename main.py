@@ -1,6 +1,5 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
