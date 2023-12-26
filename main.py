@@ -1,6 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def convert_to_octal(n):
+        return oct(n)
