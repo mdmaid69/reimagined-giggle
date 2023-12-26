@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
