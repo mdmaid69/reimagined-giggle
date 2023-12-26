@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
