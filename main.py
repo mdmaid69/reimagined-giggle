@@ -1,6 +1,4 @@
+print("Hello, world!")
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def get_array_itemsize(array):
+        return array.itemsize
