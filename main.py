@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
