@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
