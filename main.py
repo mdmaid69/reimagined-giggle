@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def find_max(numbers):
-        return max(numbers)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import sys
+  def get_python_version():
+        return sys.version
