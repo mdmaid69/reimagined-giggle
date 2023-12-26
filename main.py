@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def add_numbers(a, b):
+        return a + b
+text = "Hello, world!"
+print("Reversed:", text[::-1])
