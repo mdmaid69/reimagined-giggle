@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
