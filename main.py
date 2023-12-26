@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
