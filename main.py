@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def reverse_array(array):
-        array.reverse()
+def square_number(x):
+        return x**2
+def find_unique_words(sentence):
+        return set(sentence.split())
