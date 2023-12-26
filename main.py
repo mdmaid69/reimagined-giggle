@@ -1,5 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
