@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_work(force, distance):
+        return force * distance
+import random
+def roll_die():
+        return random.randint(1, 6)
