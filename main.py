@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
