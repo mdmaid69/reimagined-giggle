@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_array_typecode(array):
+        return array.typecode
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
