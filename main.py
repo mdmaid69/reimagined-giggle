@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
