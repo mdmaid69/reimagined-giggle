@@ -1,8 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
