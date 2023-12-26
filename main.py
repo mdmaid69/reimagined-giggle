@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
