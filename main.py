@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import os
+print(os.getcwd())
+import collections
+def create_user_string():
+        return collections.UserString()
