@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
