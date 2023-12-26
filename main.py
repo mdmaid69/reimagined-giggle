@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import sys
+  def get_python_version():
+        return sys.version
+import time
+def get_current_time():
+        return time.time()
