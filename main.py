@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
