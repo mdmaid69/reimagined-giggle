@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def is_even(n):
-        return n % 2 == 0
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_list(array):
+        return list(array)
