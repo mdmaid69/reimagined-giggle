@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def sort_list(lst):
-        return sorted(lst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
