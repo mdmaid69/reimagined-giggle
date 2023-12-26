@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
