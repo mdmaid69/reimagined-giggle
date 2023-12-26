@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
