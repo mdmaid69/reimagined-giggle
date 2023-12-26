@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
