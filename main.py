@@ -1,4 +1,9 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def count_elements(lst):
-        return len(lst)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
