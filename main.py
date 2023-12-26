@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
