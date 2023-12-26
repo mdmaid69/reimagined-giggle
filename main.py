@@ -1,5 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
