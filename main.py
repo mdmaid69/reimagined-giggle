@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
