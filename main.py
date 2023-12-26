@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def cube_number(x):
+        return x**3
+import sys
+def exit_program():
+        sys.exit()
