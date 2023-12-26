@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
