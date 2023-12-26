@@ -1,7 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
