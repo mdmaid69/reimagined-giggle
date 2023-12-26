@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
