@@ -1,6 +1,8 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
