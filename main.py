@@ -1,4 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import random
-print(random.randint(0, 100))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
