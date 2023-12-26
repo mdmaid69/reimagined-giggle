@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
