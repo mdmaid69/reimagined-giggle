@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def convert_to_octal(n):
+        return oct(n)
