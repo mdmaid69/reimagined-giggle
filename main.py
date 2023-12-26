@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
