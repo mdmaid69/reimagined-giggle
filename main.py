@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
