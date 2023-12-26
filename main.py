@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_work(force, distance):
+        return force * distance
+import logging
+def log_message(message):
+        logging.info(message)
