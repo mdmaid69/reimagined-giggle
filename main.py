@@ -1,5 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
