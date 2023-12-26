@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import time
+def get_current_time():
+        return time.ctime()
