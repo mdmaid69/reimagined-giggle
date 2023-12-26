@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import time
+print(time.time())
