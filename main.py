@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import collections
+def create_user_string():
+        return collections.UserString()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
