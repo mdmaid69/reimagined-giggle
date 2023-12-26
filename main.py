@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
