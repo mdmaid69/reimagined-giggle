@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def multiply_numbers(x, y):
-        return x * y
+import datetime
+print(datetime.datetime.now())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
