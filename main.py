@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import numpy as np
-print(np.array([1, 2, 3]))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
