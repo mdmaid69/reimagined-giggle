@@ -1,5 +1,9 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
