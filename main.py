@@ -1,5 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
