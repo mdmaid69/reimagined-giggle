@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
