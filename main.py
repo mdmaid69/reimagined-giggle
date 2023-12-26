@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def cube_number(x):
-        return x**3
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def split_path(path):
+        return os.path.split(path)
