@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def is_even(n):
+        return n % 2 == 0
