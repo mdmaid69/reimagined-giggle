@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import sys
-def print_python_version():
-        print(sys.version)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_bool(array):
+        return bool(array)
