@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def convert_to_octal(n):
-        return oct(n)
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
