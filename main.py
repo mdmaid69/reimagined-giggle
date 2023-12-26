@@ -1,6 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
