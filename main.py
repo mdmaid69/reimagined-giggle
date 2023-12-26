@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def find_min(numbers):
-        return min(numbers)
+def find_min(lst):
+        return min(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
