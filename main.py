@@ -1,6 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
