@@ -1,6 +1,8 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
