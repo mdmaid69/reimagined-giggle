@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
