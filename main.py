@@ -1,4 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-for i in range(10): print(i)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
