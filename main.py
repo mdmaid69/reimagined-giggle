@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def is_palindrome(s):
+        return s == s[::-1]
