@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def subtract_numbers(x, y):
-        return x - y
+import random
+def roll_die():
+        return random.randint(1, 6)
+def find_max(numbers):
+        return max(numbers)
