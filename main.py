@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
