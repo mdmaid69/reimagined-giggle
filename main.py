@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
