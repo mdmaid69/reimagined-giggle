@@ -1,6 +1,8 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
