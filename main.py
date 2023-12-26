@@ -1,8 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+print(sum(range(10)))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
