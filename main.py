@@ -1,6 +1,9 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
