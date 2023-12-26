@@ -1,6 +1,8 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
