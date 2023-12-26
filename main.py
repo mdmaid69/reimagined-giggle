@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
