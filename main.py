@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
