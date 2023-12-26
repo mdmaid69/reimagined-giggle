@@ -1,5 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
