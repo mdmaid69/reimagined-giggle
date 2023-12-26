@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def subtract_numbers(x, y):
-        return x - y
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
