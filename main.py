@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
