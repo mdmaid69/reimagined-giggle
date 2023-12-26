@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
