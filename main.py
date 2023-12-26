@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
