@@ -1,6 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def get_array_buffer_info(array):
+        return array.buffer_info()
