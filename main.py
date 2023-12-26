@@ -1,6 +1,8 @@
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
