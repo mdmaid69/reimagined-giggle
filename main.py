@@ -1,5 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
