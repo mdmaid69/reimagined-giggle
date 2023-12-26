@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def divide_numbers(x, y):
+        return x / y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
