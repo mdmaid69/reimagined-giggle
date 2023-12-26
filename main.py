@@ -1,4 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def reverse_list(lst):
-        return lst[::-1]
+print([x**2 for x in range(10)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
