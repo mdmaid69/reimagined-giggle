@@ -1,6 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def split_string(pattern, string):
+        return re.split(pattern, string)
