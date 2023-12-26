@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_user_string():
-        return collections.UserString()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
