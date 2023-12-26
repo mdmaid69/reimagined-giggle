@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def convert_to_octal(n):
-        return oct(n)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
