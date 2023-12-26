@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def greet(name):
+        print(f"Hello, {name}!")
