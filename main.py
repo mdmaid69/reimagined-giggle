@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
