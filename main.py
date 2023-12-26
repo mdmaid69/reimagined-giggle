@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
