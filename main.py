@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_floor(x):
+        return math.floor(x)
