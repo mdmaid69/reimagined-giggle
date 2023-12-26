@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
