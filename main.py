@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
