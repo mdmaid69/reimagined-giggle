@@ -1,6 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_array_index(array, item):
+        return array.index(item)
