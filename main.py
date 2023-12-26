@@ -1,11 +1,5 @@
-def cube_number(x):
-        return x**3
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import random
+def roll_die():
+        return random.randint(1, 6)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
