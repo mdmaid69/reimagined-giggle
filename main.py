@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+from collections import Counter
+print(Counter("hello world"))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
