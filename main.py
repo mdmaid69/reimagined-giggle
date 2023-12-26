@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def clear_array(array):
-        array *= 0
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_perpetuity(payment, rate):
+        return payment / rate
