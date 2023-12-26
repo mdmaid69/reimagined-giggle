@@ -1,7 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_hex(n):
+        return hex(n)
