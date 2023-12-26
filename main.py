@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def get_array_as_float(array):
+        return float(array[0])
