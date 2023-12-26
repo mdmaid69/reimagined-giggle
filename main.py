@@ -1,7 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def count_characters(sentence):
+        return len(sentence)
