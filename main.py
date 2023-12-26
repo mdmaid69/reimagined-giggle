@@ -1,6 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def add_numbers(x, y):
+        return x + y
+import collections
+def create_user_string():
+        return collections.UserString()
