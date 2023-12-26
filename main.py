@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_array_as_list(array):
+        return list(array)
