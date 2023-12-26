@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
