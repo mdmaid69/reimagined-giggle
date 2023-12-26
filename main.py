@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def is_even(n):
-        return n % 2 == 0
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
