@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+print(sum(range(10)))
