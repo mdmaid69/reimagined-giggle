@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
