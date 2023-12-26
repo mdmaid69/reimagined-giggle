@@ -1,6 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
