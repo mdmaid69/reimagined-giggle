@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def is_palindrome(s):
-        return s == s[::-1]
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def get_array_typecode(array):
+        return array.typecode
