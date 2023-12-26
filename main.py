@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
