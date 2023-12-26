@@ -1,5 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
