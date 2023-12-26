@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
