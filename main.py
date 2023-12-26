@@ -1,7 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def convert_to_octal(n):
+        return oct(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
