@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
