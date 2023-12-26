@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
