@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import sys
+def exit_program():
+        sys.exit()
+import array
+def clear_array(array):
+        array *= 0
