@@ -1,6 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_string_from_array(array):
+        return array.tobytes()
