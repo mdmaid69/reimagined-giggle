@@ -1,5 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_volume(length, width, height):
+        return length * width * height
