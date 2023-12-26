@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import numpy as np
-print(np.array([1, 2, 3]))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
