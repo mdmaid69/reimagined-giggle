@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
