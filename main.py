@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def reverse_string(s):
-        return s[::-1]
+def calculate_pressure(force, area):
+        return force / area
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
