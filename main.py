@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def cube_number(x):
-        return x**3
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
