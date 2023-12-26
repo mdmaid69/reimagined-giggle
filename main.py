@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import time
-def get_current_time():
-        return time.ctime()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
