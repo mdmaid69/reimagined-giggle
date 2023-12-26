@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
