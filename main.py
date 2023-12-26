@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  def subtract_numbers(x, y):
-        return x - y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
