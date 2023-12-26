@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
