@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
