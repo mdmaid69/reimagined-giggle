@@ -1,5 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
