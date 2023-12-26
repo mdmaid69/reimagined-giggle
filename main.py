@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import array
+def get_array_item(array, i):
+        return array[i]
