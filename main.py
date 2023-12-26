@@ -1,6 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import platform
 def get_python_version():
         return platform.python_version()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
