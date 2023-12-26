@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
