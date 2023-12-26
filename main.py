@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def clear_array(array):
+        array *= 0
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
