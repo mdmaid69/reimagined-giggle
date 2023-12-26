@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
