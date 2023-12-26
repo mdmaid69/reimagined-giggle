@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
