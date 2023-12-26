@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
