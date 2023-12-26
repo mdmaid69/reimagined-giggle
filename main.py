@@ -1,6 +1,5 @@
+def square_number(x):
+        return x**2
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
