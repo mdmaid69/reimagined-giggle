@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def subtract_numbers(x, y):
-        return x - y
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def remove_duplicates(lst):
+        return list(set(lst))
