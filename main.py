@@ -1,5 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import array
 def convert_array_to_list(array):
         return array.tolist()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
