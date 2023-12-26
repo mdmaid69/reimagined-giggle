@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_density(mass, volume):
+        return mass / volume
