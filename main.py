@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
