@@ -1,10 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_list_from_array(array):
+        return array.tolist()
