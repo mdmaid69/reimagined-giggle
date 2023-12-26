@@ -1,8 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def check_if_array_contains_item(array, item):
+        return item in array
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
