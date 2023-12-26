@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def reverse_string(s):
-        return s[::-1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import numpy as np
+print(np.array([1, 2, 3]))
