@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import time
+def get_time_since_epoch():
+        return time.time()
