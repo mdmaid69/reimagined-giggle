@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def is_odd(n):
-        return n % 2 != 0
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
