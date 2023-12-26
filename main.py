@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import time
+def get_time_since_epoch():
+        return time.time()
