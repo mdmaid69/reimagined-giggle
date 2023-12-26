@@ -1,5 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_volume(length, width, height):
+        return length * width * height
