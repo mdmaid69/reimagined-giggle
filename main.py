@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
