@@ -1,5 +1,4 @@
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def is_even(n):
+        return n % 2 == 0
