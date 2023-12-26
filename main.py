@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def reverse_string(s):
-        return s[::-1]
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
