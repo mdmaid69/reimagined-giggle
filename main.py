@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import time
-print(time.time())
+def get_current_time():
+        return time.ctime()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
