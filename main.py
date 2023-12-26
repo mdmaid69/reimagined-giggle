@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
