@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def is_even(n):
-        return n % 2 == 0
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_priority_queue():
+        return collections.deque()
