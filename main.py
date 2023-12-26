@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import json
+print(json.dumps({"name": "John", "age": 30}))
