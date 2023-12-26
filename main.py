@@ -1,6 +1,3 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+print("Hello, world!")
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
