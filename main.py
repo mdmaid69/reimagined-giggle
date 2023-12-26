@@ -1,6 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
