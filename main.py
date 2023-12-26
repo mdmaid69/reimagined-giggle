@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_pressure(force, area):
-        return force / area
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
