@@ -1,12 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import platform
+def get_os_info():
+        return platform.uname()
