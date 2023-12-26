@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
