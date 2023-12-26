@@ -1,6 +1,7 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
