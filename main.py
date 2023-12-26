@@ -1,4 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-import os
-print(os.getcwd())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
