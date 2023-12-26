@@ -1,4 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-for i in range(10): print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
