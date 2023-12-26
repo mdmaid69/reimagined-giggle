@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
