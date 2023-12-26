@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def cube_number(x):
+        return x**3
