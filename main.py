@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
