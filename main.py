@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import collections
+def create_user_string():
+        return collections.UserString()
