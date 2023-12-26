@@ -1,8 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_current_directory():
+        return os.getcwd()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
