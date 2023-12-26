@@ -1,7 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
