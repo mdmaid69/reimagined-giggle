@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
