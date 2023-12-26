@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
