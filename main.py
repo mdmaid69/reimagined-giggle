@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def check_if_array_contains_item(array, item):
+        return item in array
