@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_arc_tangent(x):
+        return math.atan(x)
