@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
