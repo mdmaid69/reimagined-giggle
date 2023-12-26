@@ -1,5 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
