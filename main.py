@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def convert_to_binary(n):
+        return bin(n)
