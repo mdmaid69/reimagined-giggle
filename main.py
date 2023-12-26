@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
