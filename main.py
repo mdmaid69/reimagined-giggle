@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
