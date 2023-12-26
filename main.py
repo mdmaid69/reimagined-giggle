@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
