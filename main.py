@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def convert_array_to_string(array):
+        return array.tostring()
