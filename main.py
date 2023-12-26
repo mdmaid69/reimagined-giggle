@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
