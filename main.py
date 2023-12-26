@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
