@@ -1,4 +1,9 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-print([x**2 for x in range(10)])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
