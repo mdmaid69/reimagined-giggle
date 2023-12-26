@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
