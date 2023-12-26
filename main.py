@@ -1,5 +1,7 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def is_even(n):
-        return n % 2 == 0
+import sys
+def print_python_version():
+        return sys.version
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
