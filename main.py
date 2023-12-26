@@ -1,5 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-print(sum(range(10)))
+def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
