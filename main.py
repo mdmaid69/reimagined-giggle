@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_density(mass, volume):
+        return mass / volume
