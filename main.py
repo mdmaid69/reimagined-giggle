@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
