@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
