@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_memoryview(array):
+        return memoryview(array)
