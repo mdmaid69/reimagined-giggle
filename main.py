@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
