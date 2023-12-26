@@ -1,6 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
