@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_complex(array):
+        return complex(array[0])
