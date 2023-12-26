@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def find_max(numbers):
+        return max(numbers)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
