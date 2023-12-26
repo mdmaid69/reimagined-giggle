@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_length(array):
+        return len(array)
