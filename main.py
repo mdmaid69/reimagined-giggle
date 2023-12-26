@@ -1,6 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
