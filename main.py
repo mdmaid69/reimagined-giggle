@@ -1,5 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def multiply_numbers(x, y):
+        return x * y
