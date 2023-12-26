@@ -1,6 +1,12 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import os
+def change_working_directory(path):
+        os.chdir(path)
