@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_set(array):
+        return set(array)
