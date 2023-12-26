@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
