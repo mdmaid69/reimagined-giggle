@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
