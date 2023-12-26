@@ -1,6 +1,8 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
