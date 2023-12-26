@@ -1,5 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def is_palindrome(s):
+        return s == s[::-1]
