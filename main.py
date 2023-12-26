@@ -1,5 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_speed(distance, time):
-        return distance / time
+import numpy as np
+print(np.array([1, 2, 3]))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
