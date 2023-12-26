@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
