@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
