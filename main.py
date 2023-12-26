@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def count_elements(lst):
+        return len(lst)
