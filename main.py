@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
