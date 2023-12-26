@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
