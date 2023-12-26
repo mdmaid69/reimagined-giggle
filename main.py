@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def cube_number(x):
+        return x**3
+import datetime
+def get_current_date():
+        return datetime.date.today()
