@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def is_odd(n):
+        return n % 2 != 0
