@@ -1,6 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_acceleration(speed, time):
+        return speed / time
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
