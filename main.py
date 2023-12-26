@@ -1,7 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
