@@ -1,5 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
