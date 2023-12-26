@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
