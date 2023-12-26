@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def sort_list(lst):
+        return sorted(lst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
