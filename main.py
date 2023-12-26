@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
