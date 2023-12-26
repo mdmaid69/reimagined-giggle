@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def calculate_area_rectangle(l, w):
+        return l * w
