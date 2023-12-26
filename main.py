@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
