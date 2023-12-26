@@ -1,6 +1,7 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
