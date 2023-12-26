@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Reversed:", text[::-1])
