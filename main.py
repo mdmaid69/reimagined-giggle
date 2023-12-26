@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
