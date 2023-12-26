@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
