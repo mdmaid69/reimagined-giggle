@@ -1,5 +1,8 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def find_max(lst):
-        return max(lst)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
