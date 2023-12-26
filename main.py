@@ -1,6 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
