@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_work(force, distance):
+        return force * distance
