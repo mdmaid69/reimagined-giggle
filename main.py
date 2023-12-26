@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
