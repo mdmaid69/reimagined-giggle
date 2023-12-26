@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
