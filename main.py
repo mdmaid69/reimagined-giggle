@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
