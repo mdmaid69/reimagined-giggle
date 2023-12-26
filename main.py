@@ -1,7 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
