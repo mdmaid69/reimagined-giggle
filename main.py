@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
