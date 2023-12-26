@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import platform
+def get_python_version():
+        return platform.python_version()
