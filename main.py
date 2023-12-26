@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
