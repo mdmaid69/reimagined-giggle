@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
