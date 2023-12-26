@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
