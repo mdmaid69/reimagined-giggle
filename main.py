@@ -1,6 +1,9 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
