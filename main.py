@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def find_max(numbers):
-        return max(numbers)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
