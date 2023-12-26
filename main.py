@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
