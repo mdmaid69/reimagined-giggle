@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def multiply_numbers(x, y):
+        return x * y
