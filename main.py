@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import os
+print(os.getcwd())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
