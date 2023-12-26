@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
