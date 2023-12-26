@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import time
-print(time.time())
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
