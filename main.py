@@ -1,6 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def get_array_as_memoryview(array):
+        return memoryview(array)
