@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def count_elements(lst):
-        return len(lst)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_item(array, i):
+        return array[i]
