@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_speed(distance, time):
+        return distance / time
