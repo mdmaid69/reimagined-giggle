@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
