@@ -1,6 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
