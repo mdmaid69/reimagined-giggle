@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
