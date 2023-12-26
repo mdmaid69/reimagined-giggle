@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
