@@ -1,7 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def reverse_list(lst):
+        return lst[::-1]
