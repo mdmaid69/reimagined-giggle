@@ -1,4 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+for i in range(10): print(i)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
