@@ -1,6 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  def convert_to_hex(n):
+        return hex(n)
