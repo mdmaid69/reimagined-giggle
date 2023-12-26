@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
