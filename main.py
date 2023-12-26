@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
