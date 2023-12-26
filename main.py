@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_max(numbers):
-        return max(numbers)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
