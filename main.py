@@ -1,6 +1,3 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+print([x**2 for x in range(10)])
+def calculate_pressure(force, area):
+        return force / area
