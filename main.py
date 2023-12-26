@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
