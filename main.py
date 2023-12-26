@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
