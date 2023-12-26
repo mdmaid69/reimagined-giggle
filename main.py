@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
