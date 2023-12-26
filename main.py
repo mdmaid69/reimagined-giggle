@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
