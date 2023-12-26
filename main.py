@@ -1,6 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
