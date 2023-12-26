@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_pressure(force, area):
-        return force / area
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import datetime
+def get_today_date():
+        return datetime.date.today()
