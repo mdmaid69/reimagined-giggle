@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  def convert_to_hex(n):
+        return hex(n)
