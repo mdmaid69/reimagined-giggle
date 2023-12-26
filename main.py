@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-  def subtract_numbers(x, y):
-        return x - y
+def greet(name):
+        print(f"Hello, {name}!")
+def divide_numbers(x, y):
+        return x / y
