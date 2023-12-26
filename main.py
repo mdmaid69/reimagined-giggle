@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
