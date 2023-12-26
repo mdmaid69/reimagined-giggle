@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
