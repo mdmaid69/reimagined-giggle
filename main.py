@@ -1,3 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-print("Hello, world!")
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
