@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def count_elements(lst):
+        return len(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
