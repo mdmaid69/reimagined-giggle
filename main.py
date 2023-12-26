@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_force(mass, acceleration):
+        return mass * acceleration
