@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def add_numbers(x, y):
+        return x + y
+def reverse_string(s):
+        return s[::-1]
