@@ -1,6 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
