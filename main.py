@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def add_numbers(x, y):
+        return x + y
