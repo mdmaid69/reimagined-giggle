@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def is_palindrome(s):
+        return s == s[::-1]
