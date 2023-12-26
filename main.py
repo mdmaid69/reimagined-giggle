@@ -1,6 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
