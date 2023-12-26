@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_min(lst):
+        return min(lst)
