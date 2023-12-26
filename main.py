@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
