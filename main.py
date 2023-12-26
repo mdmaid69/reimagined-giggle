@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
