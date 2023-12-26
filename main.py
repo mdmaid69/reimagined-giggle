@@ -1,6 +1,8 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
