@@ -1,8 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
