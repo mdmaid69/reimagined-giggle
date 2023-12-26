@@ -1,6 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
