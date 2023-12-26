@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
