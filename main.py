@@ -1,9 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import sys
+def print_python_version():
+        return sys.version
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
