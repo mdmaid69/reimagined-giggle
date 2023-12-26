@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
