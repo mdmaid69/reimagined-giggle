@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
