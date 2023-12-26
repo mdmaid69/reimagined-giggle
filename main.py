@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
