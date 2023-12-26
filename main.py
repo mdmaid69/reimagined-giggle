@@ -1,7 +1,8 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
