@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
