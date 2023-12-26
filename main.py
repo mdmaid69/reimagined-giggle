@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
