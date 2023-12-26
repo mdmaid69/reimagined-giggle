@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def reverse_string(s):
+        return s[::-1]
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
