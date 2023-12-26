@@ -1,6 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
