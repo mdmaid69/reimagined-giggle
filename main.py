@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
