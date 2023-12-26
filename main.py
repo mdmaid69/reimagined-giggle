@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
