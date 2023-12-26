@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
