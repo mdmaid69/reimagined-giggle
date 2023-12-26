@@ -1,4 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-print("Hello, world!")
+def reverse_array(array):
+        array.reverse()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
