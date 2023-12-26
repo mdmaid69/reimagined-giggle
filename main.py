@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
