@@ -1,6 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
