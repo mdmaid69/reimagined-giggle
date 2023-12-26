@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
