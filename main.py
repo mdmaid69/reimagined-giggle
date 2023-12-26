@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import tensorflow as tf
+print(tf.__version__)
