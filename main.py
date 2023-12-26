@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import tensorflow as tf
+print(tf.__version__)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
