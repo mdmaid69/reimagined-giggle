@@ -1,5 +1,12 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
