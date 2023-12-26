@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def cube_number(x):
+        return x**3
+import array
+def convert_array_to_string(array):
+        return array.tostring()
