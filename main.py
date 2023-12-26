@@ -1,4 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-print(sys.version)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
