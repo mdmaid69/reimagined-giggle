@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def convert_to_hex(n):
+        return hex(n)
