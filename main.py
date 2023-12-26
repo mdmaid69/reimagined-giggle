@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
