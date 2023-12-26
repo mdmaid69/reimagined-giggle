@@ -1,5 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def reverse_string(s):
-        return s[::-1]
+def split_string(pattern, string):
+        return re.split(pattern, string)
