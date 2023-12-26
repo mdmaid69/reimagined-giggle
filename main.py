@@ -1,7 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
