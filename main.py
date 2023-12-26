@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
