@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
