@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import array
-def get_array_as_str(array):
-        return str(array)
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
