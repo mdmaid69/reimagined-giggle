@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
