@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
