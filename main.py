@@ -1,5 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
