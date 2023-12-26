@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_current_directory():
+        return os.getcwd()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
