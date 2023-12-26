@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import getpass
+def get_username():
+        return getpass.getuser()
