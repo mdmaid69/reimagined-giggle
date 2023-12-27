@@ -1,6 +1,6 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
