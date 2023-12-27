@@ -1,4 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
