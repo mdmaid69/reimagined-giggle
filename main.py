@@ -1,4 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-print(math.pi)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
