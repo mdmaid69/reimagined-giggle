@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
