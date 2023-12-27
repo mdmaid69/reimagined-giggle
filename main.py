@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
