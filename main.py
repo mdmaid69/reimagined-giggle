@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_error_function(x):
+        return math.erf(x)
+  import sys
+  def get_python_version():
+        return sys.version
