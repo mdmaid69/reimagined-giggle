@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
