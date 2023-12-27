@@ -1,5 +1,9 @@
-  def subtract_numbers(x, y):
-        return x - y
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
