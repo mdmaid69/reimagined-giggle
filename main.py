@@ -1,4 +1,4 @@
-name = "Python"
-print("Hello,", name)
-def find_max(lst):
-        return max(lst)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
