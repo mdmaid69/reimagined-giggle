@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_sine(x):
+        return math.sin(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
