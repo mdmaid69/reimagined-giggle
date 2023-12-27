@@ -1,9 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
