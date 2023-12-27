@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_min(numbers):
+        return min(numbers)
