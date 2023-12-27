@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_current_working_directory():
+        return os.getcwd()
+import platform
+def get_os_info():
+        return platform.uname()
