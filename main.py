@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_density(mass, volume):
+        return mass / volume
