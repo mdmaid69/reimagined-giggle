@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  def convert_to_binary(n):
-        return bin(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
