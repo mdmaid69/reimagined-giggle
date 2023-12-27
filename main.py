@@ -1,5 +1,8 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
