@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
