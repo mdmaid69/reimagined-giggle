@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def convert_to_hex(n):
-        return hex(n)
+def subtract_numbers(x, y):
+        return x - y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
