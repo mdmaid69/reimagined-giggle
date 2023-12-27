@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_array_as_list(array):
+        return list(array)
