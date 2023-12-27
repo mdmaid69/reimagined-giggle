@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def get_array_length(array):
-        return len(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
