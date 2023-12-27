@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_user_dict():
+        return collections.UserDict()
