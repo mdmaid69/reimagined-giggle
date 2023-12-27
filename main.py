@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
