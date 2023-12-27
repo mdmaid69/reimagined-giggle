@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def square_number(x):
+        return x**2
