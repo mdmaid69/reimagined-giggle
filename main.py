@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+print("Hello, world!")
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
