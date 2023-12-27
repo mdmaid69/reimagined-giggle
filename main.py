@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
