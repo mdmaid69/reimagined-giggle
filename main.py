@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
