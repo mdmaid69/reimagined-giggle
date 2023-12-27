@@ -1,4 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
