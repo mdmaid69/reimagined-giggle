@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def is_palindrome(s):
-        return s == s[::-1]
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
