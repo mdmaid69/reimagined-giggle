@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def find_unique_words(sentence):
+        return set(sentence.split())
