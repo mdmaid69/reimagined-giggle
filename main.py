@@ -1,8 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def count_elements(lst):
+        return len(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
