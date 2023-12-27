@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
