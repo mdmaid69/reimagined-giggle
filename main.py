@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
