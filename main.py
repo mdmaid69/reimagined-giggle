@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_item(array, i):
+        return array[i]
