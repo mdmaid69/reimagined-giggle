@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
