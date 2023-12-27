@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_as_set(array):
-        return set(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
