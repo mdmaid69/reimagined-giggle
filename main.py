@@ -1,5 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
