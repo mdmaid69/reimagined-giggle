@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
