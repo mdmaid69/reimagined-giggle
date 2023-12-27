@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import time
-def get_current_time():
-        return time.ctime()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
