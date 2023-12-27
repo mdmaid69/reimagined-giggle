@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_as_set(array):
+        return set(array)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
