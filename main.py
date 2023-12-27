@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def clear_array(array):
+        array *= 0
