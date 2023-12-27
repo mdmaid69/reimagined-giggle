@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_length(array):
+        return len(array)
