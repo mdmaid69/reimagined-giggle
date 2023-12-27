@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
