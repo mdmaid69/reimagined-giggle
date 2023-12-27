@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
