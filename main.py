@@ -1,6 +1,6 @@
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
