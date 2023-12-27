@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def convert_array_to_list(array):
+        return array.tolist()
