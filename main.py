@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
