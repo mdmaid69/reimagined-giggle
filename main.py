@@ -1,5 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
