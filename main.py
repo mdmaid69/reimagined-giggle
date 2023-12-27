@@ -1,4 +1,9 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def sort_list(lst):
-        return sorted(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_list_from_array(array):
+        return array.tolist()
