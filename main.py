@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
