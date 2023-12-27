@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
