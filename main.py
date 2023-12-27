@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
