@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
