@@ -1,6 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
