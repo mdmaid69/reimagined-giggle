@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def square_number(x):
+        return x**2
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def append_to_array(array, item):
+        array.append(item)
