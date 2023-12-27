@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
