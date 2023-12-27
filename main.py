@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def is_even(n):
+        return n % 2 == 0
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
