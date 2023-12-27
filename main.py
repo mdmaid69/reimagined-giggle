@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def count_elements(lst):
-        return len(lst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
