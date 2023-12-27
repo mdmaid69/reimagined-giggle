@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
