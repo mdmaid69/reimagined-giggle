@@ -1,8 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
