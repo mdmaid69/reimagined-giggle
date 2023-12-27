@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
