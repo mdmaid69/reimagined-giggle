@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_area(radius):
+        return 3.14 * radius * radius
