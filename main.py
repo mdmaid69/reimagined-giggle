@@ -1,8 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def add_numbers(x, y):
+        return x + y
