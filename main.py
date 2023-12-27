@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
