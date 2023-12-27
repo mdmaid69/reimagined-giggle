@@ -1,9 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
