@@ -1,6 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  def multiply_numbers(x, y):
-        return x * y
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
