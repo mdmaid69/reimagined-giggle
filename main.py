@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
