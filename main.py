@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-from collections import Counter
-print(Counter("hello world"))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
