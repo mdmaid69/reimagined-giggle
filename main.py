@@ -1,5 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
