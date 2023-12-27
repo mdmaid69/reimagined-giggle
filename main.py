@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
