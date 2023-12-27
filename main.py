@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def count_words(sentence):
+        return len(sentence.split())
