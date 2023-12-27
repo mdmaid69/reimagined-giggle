@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
