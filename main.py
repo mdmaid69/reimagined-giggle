@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
