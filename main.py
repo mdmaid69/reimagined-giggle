@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-def cube_number(x):
-        return x**3
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_pressure(force, area):
+        return force / area
