@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
