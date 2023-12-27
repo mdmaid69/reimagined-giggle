@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Words:", len(text.split()))
