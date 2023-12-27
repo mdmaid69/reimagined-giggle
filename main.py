@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_item(array, i):
+        return array[i]
