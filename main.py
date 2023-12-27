@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
