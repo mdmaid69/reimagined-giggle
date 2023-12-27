@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
