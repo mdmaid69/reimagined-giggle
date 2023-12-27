@@ -1,4 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-print(sum(range(10)))
+def sort_list(lst):
+        return sorted(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
