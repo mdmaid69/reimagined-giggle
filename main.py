@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
