@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
