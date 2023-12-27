@@ -1,7 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
