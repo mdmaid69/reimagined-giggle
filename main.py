@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
