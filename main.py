@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
