@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-text = "Hello, world!"
-print("Characters:", len(text))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
