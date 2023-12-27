@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
