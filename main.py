@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
