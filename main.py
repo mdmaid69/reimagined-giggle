@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def is_odd(n):
+        return n % 2 != 0
