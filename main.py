@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_max(numbers):
+        return max(numbers)
