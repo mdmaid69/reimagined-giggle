@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
