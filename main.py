@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
