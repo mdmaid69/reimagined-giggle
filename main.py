@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
