@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
