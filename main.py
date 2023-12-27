@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
