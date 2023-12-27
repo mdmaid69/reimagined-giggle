@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
