@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import re
+print(re.match("h.*o", "hello world"))
+import collections
+def create_user_string():
+        return collections.UserString()
