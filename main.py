@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
