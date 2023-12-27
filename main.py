@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def cube_number(x):
+  def cube_number(x):
         return x**3
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
