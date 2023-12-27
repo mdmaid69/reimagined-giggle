@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
