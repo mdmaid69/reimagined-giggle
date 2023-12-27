@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
