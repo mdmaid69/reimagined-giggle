@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
