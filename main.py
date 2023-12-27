@@ -1,7 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import array
+def get_array_as_str(array):
+        return str(array)
+import sys
+def exit_program():
+        sys.exit()
