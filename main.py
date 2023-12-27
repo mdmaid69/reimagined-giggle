@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def add_numbers(x, y):
+        return x + y
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
