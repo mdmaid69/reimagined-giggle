@@ -1,6 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def reverse_string(s):
+        return s[::-1]
+def calculate_volume(length, width, height):
+        return length * width * height
