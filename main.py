@@ -1,5 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def multiply_numbers(x, y):
-        return x * y
+def convert_array_to_unicode(array):
+        return array.tounicode()
