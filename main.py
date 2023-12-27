@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_max(lst):
-        return max(lst)
+  def square_number(x):
+        return x**2
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
