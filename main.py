@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_density(mass, volume):
-        return mass / volume
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
