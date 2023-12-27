@@ -1,4 +1,6 @@
-print("Hello, world!")
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
