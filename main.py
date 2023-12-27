@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
