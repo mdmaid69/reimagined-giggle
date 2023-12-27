@@ -1,4 +1,3 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def is_odd(n):
-        return n % 2 != 0
+print([x**2 for x in range(10)])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
