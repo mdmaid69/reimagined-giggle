@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
