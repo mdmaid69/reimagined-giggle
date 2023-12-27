@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
