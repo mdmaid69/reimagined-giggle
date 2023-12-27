@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
