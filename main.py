@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
