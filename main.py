@@ -1,3 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-for i in range(10): print(i)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
