@@ -1,6 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
