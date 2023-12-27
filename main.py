@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
