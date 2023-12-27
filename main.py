@@ -1,6 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  def is_odd(n):
-        return n % 2 != 0
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
