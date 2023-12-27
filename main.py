@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+print(sum(range(10)))
