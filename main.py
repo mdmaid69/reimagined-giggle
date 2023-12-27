@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_speed(distance, time):
-        return distance / time
+  def cube_number(x):
+        return x**3
+import os
+def remove_directory(path):
+        os.rmdir(path)
