@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import logging
-def log_message(message):
-        logging.info(message)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
