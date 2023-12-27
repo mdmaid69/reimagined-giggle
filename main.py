@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
