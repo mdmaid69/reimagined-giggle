@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_area_rectangle(l, w):
+        return l * w
