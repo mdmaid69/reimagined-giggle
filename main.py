@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_density(mass, volume):
-        return mass / volume
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
