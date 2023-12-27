@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def is_palindrome(s):
+        return s == s[::-1]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
