@@ -1,6 +1,6 @@
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cosine(x):
+        return math.cos(x)
