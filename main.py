@@ -1,6 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
