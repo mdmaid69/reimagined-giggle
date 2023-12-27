@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-for i in range(5):
-        print(i)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
