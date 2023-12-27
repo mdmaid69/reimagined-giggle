@@ -1,6 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
