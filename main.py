@@ -1,5 +1,6 @@
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_ceiling(x):
+        return math.ceil(x)
