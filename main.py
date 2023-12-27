@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def add_numbers(x, y):
+        return x + y
+import sys
+def exit_program():
+        sys.exit()
