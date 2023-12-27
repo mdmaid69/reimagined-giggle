@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
