@@ -1,5 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
