@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
