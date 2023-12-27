@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_work(force, distance):
+        return force * distance
