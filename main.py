@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def add_numbers(a, b):
+        return a + b
