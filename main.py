@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def divide_numbers(x, y):
-        return x / y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def append_to_array(array, item):
+        array.append(item)
