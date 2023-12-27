@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def sort_list(lst):
+        return sorted(lst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
