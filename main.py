@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
