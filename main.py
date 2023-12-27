@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
