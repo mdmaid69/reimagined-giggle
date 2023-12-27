@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import getpass
-def get_username():
-        return getpass.getuser()
+import time
+print(time.time())
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
