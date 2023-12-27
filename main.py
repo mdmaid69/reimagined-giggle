@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
