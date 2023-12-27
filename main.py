@@ -1,8 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
