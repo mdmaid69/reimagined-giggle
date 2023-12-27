@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import time
+def get_current_time():
+        return time.ctime()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
