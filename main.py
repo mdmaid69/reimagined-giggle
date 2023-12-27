@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
