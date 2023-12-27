@@ -1,8 +1,5 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def count_elements(lst):
+        return len(lst)
