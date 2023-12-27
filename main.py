@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
