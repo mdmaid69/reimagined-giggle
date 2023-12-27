@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+x = 10
+y = 20
+print("Sum:", x + y)
