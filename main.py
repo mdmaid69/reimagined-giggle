@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
