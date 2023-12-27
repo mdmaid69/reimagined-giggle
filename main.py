@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
