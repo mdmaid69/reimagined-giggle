@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import platform
+def get_os_info():
+        return platform.uname()
