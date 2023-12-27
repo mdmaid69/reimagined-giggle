@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
