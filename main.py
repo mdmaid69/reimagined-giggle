@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
