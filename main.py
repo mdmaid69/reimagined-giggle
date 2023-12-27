@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
