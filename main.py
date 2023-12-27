@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
