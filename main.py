@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
