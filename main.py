@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
