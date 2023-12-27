@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
