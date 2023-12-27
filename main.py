@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
