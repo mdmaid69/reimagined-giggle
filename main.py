@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
