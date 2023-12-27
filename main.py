@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
