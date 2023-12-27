@@ -1,6 +1,12 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def get_array_itemsize(array):
+        return array.itemsize
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
