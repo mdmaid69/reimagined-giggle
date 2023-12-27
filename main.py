@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
