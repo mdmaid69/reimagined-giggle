@@ -1,5 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
