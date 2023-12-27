@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_array_to_bytes(array):
+        return array.tobytes()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
