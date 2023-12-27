@@ -1,8 +1,5 @@
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
