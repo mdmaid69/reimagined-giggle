@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
