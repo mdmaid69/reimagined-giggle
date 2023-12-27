@@ -1,4 +1,8 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
