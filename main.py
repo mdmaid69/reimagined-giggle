@@ -1,7 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
