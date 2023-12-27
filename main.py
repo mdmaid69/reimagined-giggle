@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def find_max(numbers):
+        return max(numbers)
