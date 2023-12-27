@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
