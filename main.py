@@ -1,6 +1,6 @@
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
