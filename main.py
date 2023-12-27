@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
