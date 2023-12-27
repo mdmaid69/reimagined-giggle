@@ -1,6 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
