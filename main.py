@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+print(list(itertools.permutations([1, 2, 3])))
