@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
