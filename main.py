@@ -1,6 +1,12 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
