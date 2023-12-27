@@ -1,6 +1,9 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
