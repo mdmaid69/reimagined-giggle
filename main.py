@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def count_characters(sentence):
+        return len(sentence)
