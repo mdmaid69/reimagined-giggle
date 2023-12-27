@@ -1,10 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_area_circle(r):
+        return 3.14 * r**2
