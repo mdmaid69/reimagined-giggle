@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
