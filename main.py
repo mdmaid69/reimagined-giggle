@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
