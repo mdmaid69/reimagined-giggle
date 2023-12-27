@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import logging
+def log_message(message):
+        logging.info(message)
