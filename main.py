@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
