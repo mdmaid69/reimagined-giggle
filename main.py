@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
