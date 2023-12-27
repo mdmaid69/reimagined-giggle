@@ -1,8 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
