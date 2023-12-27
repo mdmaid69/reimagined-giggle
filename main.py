@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def is_odd(n):
+        return n % 2 != 0
 import math
-print(math.pi)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
