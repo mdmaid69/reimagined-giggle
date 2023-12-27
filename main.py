@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
