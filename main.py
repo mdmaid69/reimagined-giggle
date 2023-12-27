@@ -1,6 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
