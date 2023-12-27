@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def subtract_numbers(x, y):
+        return x - y
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
