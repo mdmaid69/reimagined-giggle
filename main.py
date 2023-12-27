@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def square_number(x):
-        return x**2
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
