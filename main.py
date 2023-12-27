@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
