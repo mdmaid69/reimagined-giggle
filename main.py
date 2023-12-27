@@ -1,6 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
