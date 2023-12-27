@@ -1,8 +1,8 @@
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def get_array_as_tuple(array):
+        return tuple(array)
