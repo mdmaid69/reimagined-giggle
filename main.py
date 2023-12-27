@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
