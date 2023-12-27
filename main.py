@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
