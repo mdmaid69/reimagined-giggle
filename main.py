@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import sys
-def print_python_version():
-        print(sys.version)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
