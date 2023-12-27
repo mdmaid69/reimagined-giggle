@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+from collections import Counter
+print(Counter("hello world"))
