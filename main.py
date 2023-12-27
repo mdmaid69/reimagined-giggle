@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
