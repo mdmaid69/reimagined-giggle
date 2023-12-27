@@ -1,5 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
