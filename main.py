@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
