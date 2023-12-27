@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def get_array_as_list(array):
+        return list(array)
