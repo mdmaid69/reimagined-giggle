@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
