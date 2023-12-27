@@ -1,6 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
