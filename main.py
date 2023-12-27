@@ -1,6 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def get_array_as_bytearray(array):
+        return bytearray(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
