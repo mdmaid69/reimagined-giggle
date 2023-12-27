@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
