@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def find_max(lst):
+        return max(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
