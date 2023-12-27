@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def count_elements(lst):
-        return len(lst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
