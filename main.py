@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import sys
+  def get_python_version():
+        return sys.version
+def find_unique_words(sentence):
+        return set(sentence.split())
