@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
