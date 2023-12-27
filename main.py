@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import sys
+def print_python_version():
+        print(sys.version)
+def remove_duplicates(lst):
+        return list(set(lst))
