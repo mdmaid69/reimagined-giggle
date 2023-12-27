@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
