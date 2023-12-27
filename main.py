@@ -1,5 +1,9 @@
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_tangent(x):
+        return math.tan(x)
