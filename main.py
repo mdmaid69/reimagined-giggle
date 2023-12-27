@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def is_palindrome(s):
+        return s == s[::-1]
