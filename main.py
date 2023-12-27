@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import logging
-def log_message(message):
-        logging.info(message)
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def is_even(n):
+        return n % 2 == 0
