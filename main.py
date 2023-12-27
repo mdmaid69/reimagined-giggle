@@ -1,6 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_tangent(x):
+        return math.tan(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
