@@ -1,6 +1,6 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
