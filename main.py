@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
