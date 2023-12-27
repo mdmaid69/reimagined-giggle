@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
