@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
