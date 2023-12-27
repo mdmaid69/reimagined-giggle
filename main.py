@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
