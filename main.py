@@ -1,5 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_user_dict():
+        return collections.UserDict()
