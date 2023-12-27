@@ -1,5 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def convert_to_binary(n):
-        return bin(n)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
