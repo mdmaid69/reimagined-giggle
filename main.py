@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
