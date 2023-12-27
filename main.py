@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
