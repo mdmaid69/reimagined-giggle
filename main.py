@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
