@@ -1,5 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
