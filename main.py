@@ -1,3 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-for i in range(10): print(i)
+import array
+def reverse_array(array):
+        array.reverse()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
