@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def find_min(numbers):
+        return min(numbers)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
