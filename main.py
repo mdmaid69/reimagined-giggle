@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
 import array
-def clear_array(array):
-        array *= 0
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_work(force, distance):
+        return force * distance
