@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_array_as_list(array):
-        return list(array)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import getpass
+def get_username():
+        return getpass.getuser()
