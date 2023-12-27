@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
