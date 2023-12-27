@@ -1,6 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
