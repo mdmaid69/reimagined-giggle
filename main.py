@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def divide_numbers(x, y):
-        return x / y
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
