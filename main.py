@@ -1,5 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
