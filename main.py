@@ -1,8 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
