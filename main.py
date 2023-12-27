@@ -1,6 +1,10 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
