@@ -1,6 +1,8 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import sys
+print(sys.version)
