@@ -1,5 +1,10 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
