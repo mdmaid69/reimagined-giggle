@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
