@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
