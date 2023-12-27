@@ -1,4 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
