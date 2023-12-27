@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def convert_to_octal(n):
-        return oct(n)
+import numpy as np
+print(np.array([1, 2, 3]))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
