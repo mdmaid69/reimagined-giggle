@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
