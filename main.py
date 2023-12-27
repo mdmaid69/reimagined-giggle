@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
