@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import re
+print(re.match("h.*o", "hello world"))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
