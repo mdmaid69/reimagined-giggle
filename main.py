@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
