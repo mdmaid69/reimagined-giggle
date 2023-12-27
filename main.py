@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import time
+print(time.time())
