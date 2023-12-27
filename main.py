@@ -1,6 +1,8 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import time
-def get_current_time():
-        return time.ctime()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
