@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sys
+def exit_program():
+        sys.exit()
