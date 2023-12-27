@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import time
-print(time.time())
+print([x**2 for x in range(10)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
