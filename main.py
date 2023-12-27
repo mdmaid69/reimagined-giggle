@@ -1,4 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
