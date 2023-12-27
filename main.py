@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
