@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def cube_number(x):
+        return x**3
+  def convert_to_octal(n):
+        return oct(n)
