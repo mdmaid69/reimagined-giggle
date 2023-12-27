@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
