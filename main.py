@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import re
+print(re.match("h.*o", "hello world"))
