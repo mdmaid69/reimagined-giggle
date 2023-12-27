@@ -1,5 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
