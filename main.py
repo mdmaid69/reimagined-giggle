@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
