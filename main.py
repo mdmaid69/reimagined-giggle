@@ -1,4 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def convert_to_binary(n):
-        return bin(n)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
