@@ -1,6 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def is_even(n):
+        return n % 2 == 0
