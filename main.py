@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
