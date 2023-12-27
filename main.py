@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
