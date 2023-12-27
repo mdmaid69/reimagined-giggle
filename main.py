@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import sys
+def print_python_version():
+        print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
