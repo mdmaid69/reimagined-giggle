@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def is_odd(n):
+        return n % 2 != 0
