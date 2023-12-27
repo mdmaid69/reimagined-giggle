@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
