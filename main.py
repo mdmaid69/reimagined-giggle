@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
