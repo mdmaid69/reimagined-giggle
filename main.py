@@ -1,12 +1,5 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
