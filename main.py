@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def subtract_numbers(x, y):
+        return x - y
