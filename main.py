@@ -1,6 +1,7 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
