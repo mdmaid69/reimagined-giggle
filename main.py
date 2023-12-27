@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
