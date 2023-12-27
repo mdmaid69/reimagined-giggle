@@ -1,10 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_string_from_array(array):
+        return array.tobytes()
