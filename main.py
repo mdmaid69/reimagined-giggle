@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def is_palindrome(s):
+        return s == s[::-1]
