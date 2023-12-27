@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
