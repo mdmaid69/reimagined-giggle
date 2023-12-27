@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_item(array, i):
+        return array[i]
