@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def clear_array(array):
+        array *= 0
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
