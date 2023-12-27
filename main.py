@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import tensorflow as tf
+print(tf.__version__)
