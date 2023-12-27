@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
