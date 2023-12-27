@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def reverse_string(s):
-        return s[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
