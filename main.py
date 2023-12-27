@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
