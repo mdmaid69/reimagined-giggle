@@ -1,7 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
