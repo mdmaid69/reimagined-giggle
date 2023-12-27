@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
+def count_elements(lst):
+        return len(lst)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
