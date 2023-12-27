@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import sys
+def exit_program():
+        sys.exit()
