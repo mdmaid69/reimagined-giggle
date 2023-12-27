@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_area_rectangle(l, w):
-        return l * w
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
