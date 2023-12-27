@@ -1,8 +1,8 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
