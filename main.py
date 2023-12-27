@@ -1,5 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
