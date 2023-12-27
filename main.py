@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
