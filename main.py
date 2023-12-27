@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+name = "Python"
+print("Hello,", name)
+import sys
+print(sys.version)
