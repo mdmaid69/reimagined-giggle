@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import sys
+print(sys.version)
