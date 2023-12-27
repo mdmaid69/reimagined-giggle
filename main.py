@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
