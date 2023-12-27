@@ -1,6 +1,7 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
