@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def calculate_area_rectangle(l, w):
+        return l * w
