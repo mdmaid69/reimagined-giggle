@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def cube_number(x):
+        return x**3
