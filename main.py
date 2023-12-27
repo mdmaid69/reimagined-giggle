@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
