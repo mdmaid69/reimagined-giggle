@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
