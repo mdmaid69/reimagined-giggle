@@ -1,6 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
