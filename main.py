@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+print([x**2 for x in range(10)])
