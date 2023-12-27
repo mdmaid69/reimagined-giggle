@@ -1,6 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
