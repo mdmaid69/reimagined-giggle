@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
