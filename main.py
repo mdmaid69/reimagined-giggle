@@ -1,5 +1,5 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+print("Characters:", len(text))
