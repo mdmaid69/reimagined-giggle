@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
