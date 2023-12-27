@@ -1,4 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_density(mass, volume):
+        return mass / volume
+def add_numbers(a, b):
+        return a + b
