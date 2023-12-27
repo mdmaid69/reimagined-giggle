@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
