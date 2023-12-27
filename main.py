@@ -1,6 +1,7 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
