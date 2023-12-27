@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
