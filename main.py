@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
