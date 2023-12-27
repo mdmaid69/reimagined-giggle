@@ -1,7 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
