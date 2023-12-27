@@ -1,6 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
