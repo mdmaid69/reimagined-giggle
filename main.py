@@ -1,5 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
