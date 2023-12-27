@@ -1,5 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
