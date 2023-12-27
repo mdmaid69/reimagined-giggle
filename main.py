@@ -1,4 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-print(sum(range(10)))
+import getpass
+def get_username():
+        return getpass.getuser()
+for i in range(5):
+        print(i)
