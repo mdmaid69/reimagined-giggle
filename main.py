@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_speed(distance, time):
+        return distance / time
+def sort_numbers(numbers):
+        return sorted(numbers)
