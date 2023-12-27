@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
