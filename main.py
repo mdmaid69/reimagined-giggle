@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def cube_number(x):
-        return x**3
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
