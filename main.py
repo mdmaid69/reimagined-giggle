@@ -1,8 +1,5 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def get_array_itemsize(array):
+        return array.itemsize
+  def calculate_area_circle(r):
+        return 3.14 * r**2
