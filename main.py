@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
