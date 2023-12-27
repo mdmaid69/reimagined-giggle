@@ -1,4 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
