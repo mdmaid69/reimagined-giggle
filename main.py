@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def count_words(sentence):
+        return len(sentence.split())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
