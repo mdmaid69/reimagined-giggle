@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
