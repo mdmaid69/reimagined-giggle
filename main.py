@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_density(mass, volume):
-        return mass / volume
+def find_max(numbers):
+        return max(numbers)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
