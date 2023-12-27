@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_min(numbers):
-        return min(numbers)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def is_odd(n):
+        return n % 2 != 0
