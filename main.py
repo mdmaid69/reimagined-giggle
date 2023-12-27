@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
