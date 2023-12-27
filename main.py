@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
