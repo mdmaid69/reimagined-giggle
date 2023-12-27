@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
