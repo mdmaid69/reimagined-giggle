@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
