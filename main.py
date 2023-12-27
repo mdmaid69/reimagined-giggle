@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
