@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import time
-def get_time_since_epoch():
-        return time.time()
+def get_array_as_complex(array):
+        return complex(array[0])
