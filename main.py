@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
