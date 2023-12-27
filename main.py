@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
