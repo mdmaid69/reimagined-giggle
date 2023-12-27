@@ -1,7 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_work(force, distance):
+        return force * distance
