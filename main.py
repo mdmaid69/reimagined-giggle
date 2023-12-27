@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_volume(length, width, height):
+        return length * width * height
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
