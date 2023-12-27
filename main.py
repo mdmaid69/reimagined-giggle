@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
