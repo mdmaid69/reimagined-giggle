@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
