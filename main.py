@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def print_python_version():
+        print(sys.version)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
