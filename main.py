@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_array_to_unicode(array):
+        return array.tounicode()
