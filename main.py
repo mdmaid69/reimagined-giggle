@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
