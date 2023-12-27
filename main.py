@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def convert_to_hex(n):
+        return hex(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
