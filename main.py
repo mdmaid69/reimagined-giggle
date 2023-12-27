@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def get_array_as_set(array):
-        return set(array)
+def reverse_array(array):
+        array.reverse()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
