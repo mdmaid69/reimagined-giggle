@@ -1,5 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import numpy as np
-print(np.array([1, 2, 3]))
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
