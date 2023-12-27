@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
