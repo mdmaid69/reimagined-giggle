@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
