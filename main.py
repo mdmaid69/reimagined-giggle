@@ -1,7 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
