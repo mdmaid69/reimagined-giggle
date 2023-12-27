@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def cube_number(x):
-        return x**3
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
