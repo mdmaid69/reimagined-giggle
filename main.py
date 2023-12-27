@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
