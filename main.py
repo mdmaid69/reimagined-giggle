@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def count_words(sentence):
+        return len(sentence.split())
+def square_number(x):
+        return x**2
