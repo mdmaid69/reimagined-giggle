@@ -1,6 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
