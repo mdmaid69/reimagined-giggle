@@ -1,5 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def find_min(lst):
-        return min(lst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def clear_array(array):
+        array *= 0
