@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
