@@ -1,7 +1,8 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def divide_numbers(x, y):
-        return x / y
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
