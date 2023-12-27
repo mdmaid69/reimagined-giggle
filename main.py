@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
