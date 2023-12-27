@@ -1,8 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
