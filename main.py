@@ -1,8 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def reverse_list(lst):
+        return lst[::-1]
