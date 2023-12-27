@@ -1,5 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
