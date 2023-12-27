@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import numpy as np
+print(np.array([1, 2, 3]))
