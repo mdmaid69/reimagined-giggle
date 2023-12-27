@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
