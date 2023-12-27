@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def square_number(x):
+        return x**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
