@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
