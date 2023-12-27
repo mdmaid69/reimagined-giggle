@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
