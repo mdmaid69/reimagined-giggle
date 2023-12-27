@@ -1,5 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import time
+def get_current_time():
+        return time.ctime()
