@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
