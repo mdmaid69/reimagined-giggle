@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def subtract_numbers(x, y):
-        return x - y
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
