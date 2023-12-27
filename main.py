@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
