@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
