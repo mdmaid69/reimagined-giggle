@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def clear_array(array):
+        array *= 0
+import platform
+def get_python_version():
+        return platform.python_version()
