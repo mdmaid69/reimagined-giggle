@@ -1,6 +1,7 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
