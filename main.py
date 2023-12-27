@@ -1,5 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def subtract_numbers(x, y):
-        return x - y
+from collections import Counter
+print(Counter("hello world"))
+def calculate_power(work, time):
+        return work / time
