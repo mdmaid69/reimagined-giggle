@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_sine(x):
+        return math.sin(x)
