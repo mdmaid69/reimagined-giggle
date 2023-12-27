@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
