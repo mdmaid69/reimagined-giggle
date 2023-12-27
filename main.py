@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
