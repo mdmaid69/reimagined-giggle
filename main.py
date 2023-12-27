@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
