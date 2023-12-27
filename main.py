@@ -1,5 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def reverse_array(array):
+        array.reverse()
