@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
