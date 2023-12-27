@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import time
+def get_current_time():
+        return time.time()
