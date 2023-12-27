@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
