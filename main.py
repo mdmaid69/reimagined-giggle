@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
