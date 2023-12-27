@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
