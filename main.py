@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def sort_list(lst):
+        return sorted(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
