@@ -1,4 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
