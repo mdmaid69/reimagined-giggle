@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
