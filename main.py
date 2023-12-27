@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
