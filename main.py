@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_array_as_list(array):
-        return list(array)
+def append_to_array(array, item):
+        array.append(item)
