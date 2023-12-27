@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
