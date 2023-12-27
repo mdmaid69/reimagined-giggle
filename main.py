@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def square_number(x):
-        return x**2
+import collections
+def create_queue():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
