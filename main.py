@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
