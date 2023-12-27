@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_speed(distance, time):
-        return distance / time
+def multiply_numbers(x, y):
+        return x * y
+def reverse_string(s):
+        return s[::-1]
