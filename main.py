@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+name = "Python"
+print("Hello,", name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
