@@ -1,5 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_work(force, distance):
-        return force * distance
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def convert_to_hex(n):
+        return hex(n)
