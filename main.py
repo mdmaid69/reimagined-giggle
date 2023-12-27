@@ -1,5 +1,9 @@
-def count_elements(lst):
-        return len(lst)
-import collections
-def create_user_list():
-        return collections.UserList()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
