@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def find_min(numbers):
+        return min(numbers)
+import array
+def append_to_array(array, item):
+        array.append(item)
