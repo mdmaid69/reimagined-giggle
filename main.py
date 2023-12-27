@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_queue():
-        return collections.deque()
+def convert_to_hex(n):
+        return hex(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
