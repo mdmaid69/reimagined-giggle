@@ -1,6 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def exit_program():
-        sys.exit()
+  def get_current_working_directory():
+        return os.getcwd()
