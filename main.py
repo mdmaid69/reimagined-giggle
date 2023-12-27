@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
