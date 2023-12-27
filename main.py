@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
