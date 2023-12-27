@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-def roll_die():
-        return random.randint(1, 6)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
