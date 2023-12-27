@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
