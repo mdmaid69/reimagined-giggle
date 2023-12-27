@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
