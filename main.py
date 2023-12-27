@@ -1,4 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_volume(length, width, height):
+        return length * width * height
