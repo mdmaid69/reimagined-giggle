@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
