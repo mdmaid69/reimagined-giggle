@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def convert_to_hex(n):
+        return hex(n)
