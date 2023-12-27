@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
