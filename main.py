@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
