@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
