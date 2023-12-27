@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+print(math.pi)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
