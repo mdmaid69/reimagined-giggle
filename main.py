@@ -1,5 +1,9 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
