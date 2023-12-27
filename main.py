@@ -1,4 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-print(sum(range(10)))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
