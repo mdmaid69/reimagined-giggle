@@ -1,8 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def convert_to_octal(n):
+        return oct(n)
