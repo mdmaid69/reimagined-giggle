@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
