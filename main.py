@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
