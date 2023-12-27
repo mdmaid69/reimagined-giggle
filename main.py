@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
