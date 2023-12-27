@@ -1,7 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_work(force, distance):
-        return force * distance
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
