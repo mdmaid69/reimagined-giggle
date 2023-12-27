@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def find_max(numbers):
-        return max(numbers)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
