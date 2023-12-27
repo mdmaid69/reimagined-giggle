@@ -1,5 +1,8 @@
-def find_min(lst):
-        return min(lst)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
