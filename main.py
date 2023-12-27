@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
