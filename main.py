@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
