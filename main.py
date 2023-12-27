@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_rectangle(l, w):
+        return l * w
