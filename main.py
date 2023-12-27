@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
