@@ -1,4 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_acceleration(speed, time):
-        return speed / time
+import time
+print(time.time())
+def subtract_numbers(x, y):
+        return x - y
