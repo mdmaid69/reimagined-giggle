@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
