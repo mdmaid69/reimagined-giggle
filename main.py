@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import os
+def change_working_directory(path):
+        os.chdir(path)
