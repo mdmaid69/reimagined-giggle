@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def is_even(n):
-        return n % 2 == 0
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
