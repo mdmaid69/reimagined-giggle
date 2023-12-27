@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
