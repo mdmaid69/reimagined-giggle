@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
