@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_pressure(force, area):
+        return force / area
