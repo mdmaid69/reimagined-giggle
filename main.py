@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_as_memoryview(array):
+        return memoryview(array)
