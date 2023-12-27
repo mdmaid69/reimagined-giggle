@@ -1,6 +1,8 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
