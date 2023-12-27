@@ -1,4 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def count_words(sentence):
+        return len(sentence.split())
