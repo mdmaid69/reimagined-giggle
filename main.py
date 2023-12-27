@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import sys
+def print_python_version():
+        print(sys.version)
