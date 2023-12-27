@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import os
+print(os.getcwd())
+import random
+def roll_die():
+        return random.randint(1, 6)
