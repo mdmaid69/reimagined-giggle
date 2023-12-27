@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def square_number(x):
+        return x**2
+def convert_to_octal(n):
+        return oct(n)
