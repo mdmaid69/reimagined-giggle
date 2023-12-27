@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+from collections import Counter
+print(Counter("hello world"))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
