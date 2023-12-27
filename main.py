@@ -1,4 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
