@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
