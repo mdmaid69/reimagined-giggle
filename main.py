@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def append_to_array(array, item):
+        array.append(item)
