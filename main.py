@@ -1,4 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
