@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
