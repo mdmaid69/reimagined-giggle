@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
