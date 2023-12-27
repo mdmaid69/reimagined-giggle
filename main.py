@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def count_words(sentence):
+        return len(sentence.split())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
