@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_item(array, i):
-        return array[i]
+import os
+print(os.getcwd())
+def find_max(numbers):
+        return max(numbers)
