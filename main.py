@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-  def multiply_numbers(x, y):
-        return x * y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
