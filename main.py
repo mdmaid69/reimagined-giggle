@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def divide_numbers(x, y):
-        return x / y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_area_circle(r):
+        return 3.14 * r**2
