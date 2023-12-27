@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import time
+def get_current_time():
+        return time.ctime()
