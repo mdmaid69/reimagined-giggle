@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_unique_words(sentence):
-        return set(sentence.split())
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
