@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
