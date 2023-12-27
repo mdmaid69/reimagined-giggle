@@ -1,7 +1,8 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def convert_to_hex(n):
-        return hex(n)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
