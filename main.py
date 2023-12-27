@@ -1,8 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
