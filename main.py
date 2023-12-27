@@ -1,6 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
