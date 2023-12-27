@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
