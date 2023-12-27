@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_length(array):
-        return len(array)
+def divide_numbers(x, y):
+        return x / y
+import collections
+def create_user_string():
+        return collections.UserString()
