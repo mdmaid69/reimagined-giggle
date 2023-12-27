@@ -1,5 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
