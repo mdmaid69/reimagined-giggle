@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
