@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
