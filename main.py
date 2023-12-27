@@ -1,11 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
