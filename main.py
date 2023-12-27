@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
