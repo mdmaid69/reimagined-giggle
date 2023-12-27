@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def is_odd(n):
+        return n % 2 != 0
