@@ -1,6 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import logging
-def log_message(message):
-        logging.info(message)
+def get_current_working_directory():
+        return os.getcwd()
