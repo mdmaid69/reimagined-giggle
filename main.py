@@ -1,4 +1,8 @@
-name = "Python"
-print("Hello,", name)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
