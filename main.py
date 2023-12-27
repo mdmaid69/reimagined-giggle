@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def sort_list(lst):
-        return sorted(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
