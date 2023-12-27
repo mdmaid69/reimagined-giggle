@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def remove_duplicates(lst):
+        return list(set(lst))
