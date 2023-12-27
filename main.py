@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
