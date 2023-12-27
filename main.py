@@ -1,4 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-print([x**2 for x in range(10)])
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
