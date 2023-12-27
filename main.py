@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def reverse_array(array):
-        array.reverse()
+def reverse_list(lst):
+        return lst[::-1]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
