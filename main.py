@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
