@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
