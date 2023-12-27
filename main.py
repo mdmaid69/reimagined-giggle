@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import logging
-def log_message(message):
-        logging.info(message)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
