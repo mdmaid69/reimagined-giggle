@@ -1,6 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_stack():
-        return collections.deque()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
