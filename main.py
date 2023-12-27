@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+x = 10
+y = 20
+print("Sum:", x + y)
+import sys
+def print_python_version():
+        return sys.version
