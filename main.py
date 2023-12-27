@@ -1,6 +1,10 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
