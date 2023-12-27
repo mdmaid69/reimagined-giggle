@@ -1,6 +1,8 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
