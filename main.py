@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_current_working_directory():
+        return os.getcwd()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
