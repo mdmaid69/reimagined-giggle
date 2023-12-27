@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import collections
+def create_user_string():
+        return collections.UserString()
