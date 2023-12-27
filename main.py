@@ -1,6 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
