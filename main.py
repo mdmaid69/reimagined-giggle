@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
