@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
