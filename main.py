@@ -1,6 +1,6 @@
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def get_current_working_directory():
+        return os.getcwd()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
