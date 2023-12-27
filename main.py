@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
