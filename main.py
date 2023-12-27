@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def count_elements(lst):
+        return len(lst)
 import collections
-def create_queue():
-        return collections.deque()
+def create_counter():
+        return collections.Counter()
