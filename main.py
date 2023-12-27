@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
