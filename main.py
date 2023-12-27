@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
