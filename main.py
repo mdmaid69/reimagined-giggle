@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
