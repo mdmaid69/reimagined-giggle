@@ -1,4 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def cube_number(x):
+        return x**3
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
