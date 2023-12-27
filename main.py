@@ -1,5 +1,8 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
