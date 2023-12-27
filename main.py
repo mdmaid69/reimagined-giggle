@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
