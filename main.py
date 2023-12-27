@@ -1,8 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
