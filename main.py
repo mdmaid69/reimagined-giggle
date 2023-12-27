@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_queue():
+        return collections.deque()
