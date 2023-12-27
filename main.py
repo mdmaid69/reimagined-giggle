@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
