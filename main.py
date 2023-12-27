@@ -1,7 +1,10 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
