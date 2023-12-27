@@ -1,5 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
