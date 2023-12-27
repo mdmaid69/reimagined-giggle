@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+for i in range(10): print(i)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
