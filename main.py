@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def is_odd(n):
+        return n % 2 != 0
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
