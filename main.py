@@ -1,5 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
