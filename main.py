@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
