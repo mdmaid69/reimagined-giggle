@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def add_numbers(x, y):
+        return x + y
