@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
