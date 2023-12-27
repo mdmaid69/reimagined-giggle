@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
 import os
-print(os.getcwd())
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
