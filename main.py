@@ -1,4 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-for i in range(10): print(i)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
