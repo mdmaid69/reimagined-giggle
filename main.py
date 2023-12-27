@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_min(numbers):
+        return min(numbers)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
