@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
