@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
