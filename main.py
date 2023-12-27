@@ -1,4 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_index(array, item):
+        return array.index(item)
