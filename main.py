@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
