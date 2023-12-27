@@ -1,5 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def add_numbers(x, y):
-        return x + y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
