@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_volume(length, width, height):
-        return length * width * height
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_array_as_float(array):
+        return float(array[0])
