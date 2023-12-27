@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
