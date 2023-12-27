@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
