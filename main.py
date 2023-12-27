@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def count_elements(lst):
+        return len(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
