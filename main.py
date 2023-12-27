@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def is_palindrome(s):
+        return s == s[::-1]
