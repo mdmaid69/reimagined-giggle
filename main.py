@@ -1,6 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
