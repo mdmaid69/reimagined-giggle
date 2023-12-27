@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+print([x**2 for x in range(10)])
