@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
