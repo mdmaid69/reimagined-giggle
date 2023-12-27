@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
