@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_density(mass, volume):
+        return mass / volume
