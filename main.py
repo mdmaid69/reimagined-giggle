@@ -1,5 +1,6 @@
 import re
-print(re.match("h.*o", "hello world"))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
