@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_acceleration(speed, time):
+        return speed / time
