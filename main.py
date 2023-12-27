@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def find_min(lst):
-        return min(lst)
+print("Hello, world!")
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
