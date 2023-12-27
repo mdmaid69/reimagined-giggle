@@ -1,5 +1,8 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
