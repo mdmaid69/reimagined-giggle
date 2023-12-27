@@ -1,6 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
