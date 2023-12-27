@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
