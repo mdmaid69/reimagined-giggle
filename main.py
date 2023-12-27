@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
