@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_set(array):
+        return set(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
