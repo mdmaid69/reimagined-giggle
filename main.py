@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
