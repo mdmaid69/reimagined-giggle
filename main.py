@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import time
+def get_time_since_epoch():
+        return time.time()
