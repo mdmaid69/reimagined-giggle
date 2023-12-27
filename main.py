@@ -1,6 +1,8 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
