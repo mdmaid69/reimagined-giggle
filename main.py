@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
