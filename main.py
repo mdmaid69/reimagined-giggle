@@ -1,9 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
