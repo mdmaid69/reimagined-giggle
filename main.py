@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
