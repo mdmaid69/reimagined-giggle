@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+for i in range(10): print(i)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
