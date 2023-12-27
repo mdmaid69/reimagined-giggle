@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
