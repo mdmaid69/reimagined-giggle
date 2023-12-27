@@ -1,6 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
