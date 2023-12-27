@@ -1,8 +1,6 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
