@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
