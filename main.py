@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
