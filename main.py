@@ -1,5 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
