@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
