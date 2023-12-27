@@ -1,5 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+for i in range(10): print(i)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
