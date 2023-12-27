@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
