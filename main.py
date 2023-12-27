@@ -1,7 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_as_tuple(array):
+        return tuple(array)
