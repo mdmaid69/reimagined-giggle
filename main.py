@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import os
+def change_working_directory(path):
+        os.chdir(path)
