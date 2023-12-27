@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
