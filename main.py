@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def count_words(sentence):
-        return len(sentence.split())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
