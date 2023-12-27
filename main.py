@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+from collections import Counter
+print(Counter("hello world"))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
