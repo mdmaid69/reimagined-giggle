@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
