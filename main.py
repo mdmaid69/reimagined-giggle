@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
