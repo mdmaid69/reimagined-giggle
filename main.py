@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
