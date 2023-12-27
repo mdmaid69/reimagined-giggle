@@ -1,8 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
