@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
