@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
