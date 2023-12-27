@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
