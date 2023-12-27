@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
