@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
