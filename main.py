@@ -1,9 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
