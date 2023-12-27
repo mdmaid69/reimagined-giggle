@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
