@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
