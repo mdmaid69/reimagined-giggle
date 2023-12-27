@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
