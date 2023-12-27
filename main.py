@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_power(work, time):
+        return work / time
