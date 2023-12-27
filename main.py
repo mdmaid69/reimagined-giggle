@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import logging
-def log_message(message):
-        logging.info(message)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
