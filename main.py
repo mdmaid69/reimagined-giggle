@@ -1,6 +1,6 @@
-def cube_number(x):
-        return x**3
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
