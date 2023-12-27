@@ -1,8 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def square_number(x):
+        return x**2
