@@ -1,8 +1,8 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
