@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_bool(array):
+        return bool(array)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
