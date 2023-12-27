@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
