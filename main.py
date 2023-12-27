@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
