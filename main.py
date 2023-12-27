@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def sort_numbers(numbers):
+        return sorted(numbers)
