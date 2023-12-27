@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+from collections import Counter
+print(Counter("hello world"))
