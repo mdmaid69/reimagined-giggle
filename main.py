@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
