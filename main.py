@@ -1,4 +1,9 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
