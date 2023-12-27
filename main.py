@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
