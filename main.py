@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def cube_number(x):
-        return x**3
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
