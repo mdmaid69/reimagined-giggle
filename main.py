@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import time
+def get_current_time():
+        return time.time()
+def is_palindrome(s):
+        return s == s[::-1]
