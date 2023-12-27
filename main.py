@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_length(array):
-        return len(array)
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
