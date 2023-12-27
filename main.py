@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
