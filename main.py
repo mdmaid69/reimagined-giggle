@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
