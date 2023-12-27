@@ -1,7 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
