@@ -1,4 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-for i in range(10): print(i)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
