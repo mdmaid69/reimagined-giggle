@@ -1,5 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_stack():
+        return collections.deque()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
