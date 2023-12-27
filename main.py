@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def create_counter():
+        return collections.Counter()
