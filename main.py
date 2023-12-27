@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
