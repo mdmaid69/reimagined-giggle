@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
