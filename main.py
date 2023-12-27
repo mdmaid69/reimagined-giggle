@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import time
-def get_current_time():
-        return time.time()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
