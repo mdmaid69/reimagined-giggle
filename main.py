@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def get_array_as_str(array):
+        return str(array)
