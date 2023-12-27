@@ -1,8 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
