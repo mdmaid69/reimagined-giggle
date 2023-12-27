@@ -1,4 +1,8 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import time
+def get_current_time():
+        return time.time()
