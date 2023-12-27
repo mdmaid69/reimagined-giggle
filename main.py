@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
