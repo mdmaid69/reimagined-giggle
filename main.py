@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
