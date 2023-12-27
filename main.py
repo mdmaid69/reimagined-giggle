@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
