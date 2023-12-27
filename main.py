@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 def calculate_acceleration(speed, time):
         return speed / time
