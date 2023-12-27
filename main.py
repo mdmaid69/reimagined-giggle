@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
