@@ -1,7 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import os
+def change_working_directory(path):
+        os.chdir(path)
