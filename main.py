@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
