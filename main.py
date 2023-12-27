@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
