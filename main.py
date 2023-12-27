@@ -1,6 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
