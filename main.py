@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
