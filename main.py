@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
