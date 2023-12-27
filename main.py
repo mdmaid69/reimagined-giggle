@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import time
+def get_current_time():
+        return time.time()
