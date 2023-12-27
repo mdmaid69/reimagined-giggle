@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
