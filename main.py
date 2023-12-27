@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import time
-def get_time_since_epoch():
-        return time.time()
+def count_characters(sentence):
+        return len(sentence)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
