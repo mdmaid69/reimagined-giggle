@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
