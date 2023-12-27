@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def count_words(sentence):
+        return len(sentence.split())
