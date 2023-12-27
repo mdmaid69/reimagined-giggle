@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
