@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
