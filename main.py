@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
