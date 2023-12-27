@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
