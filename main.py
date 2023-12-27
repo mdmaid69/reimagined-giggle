@@ -1,6 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
