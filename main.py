@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
