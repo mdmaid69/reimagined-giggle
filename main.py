@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
