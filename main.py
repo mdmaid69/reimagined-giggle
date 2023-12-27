@@ -1,8 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
