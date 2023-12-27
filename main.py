@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
