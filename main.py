@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
