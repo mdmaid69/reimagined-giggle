@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import logging
+def log_message(message):
+        logging.info(message)
+def reverse_list(lst):
+        return lst[::-1]
