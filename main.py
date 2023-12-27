@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-x = 10
-y = 20
-print("Sum:", x + y)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
