@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
