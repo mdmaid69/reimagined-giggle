@@ -1,4 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-for i in range(10): print(i)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
