@@ -1,6 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
