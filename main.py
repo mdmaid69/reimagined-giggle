@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_as_list(array):
+        return list(array)
