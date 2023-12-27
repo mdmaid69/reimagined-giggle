@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_length(array):
-        return len(array)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
