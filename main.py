@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import sys
+print(sys.version)
