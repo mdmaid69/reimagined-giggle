@@ -1,8 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
