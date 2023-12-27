@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
