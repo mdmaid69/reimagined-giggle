@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def sort_numbers(numbers):
+        return sorted(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
