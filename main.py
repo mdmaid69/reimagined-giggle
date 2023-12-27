@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_counter():
+        return collections.Counter()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
