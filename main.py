@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def convert_to_binary(n):
+        return bin(n)
