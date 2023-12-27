@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_density(mass, volume):
-        return mass / volume
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
