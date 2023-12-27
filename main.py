@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_area(radius):
+        return 3.14 * radius * radius
