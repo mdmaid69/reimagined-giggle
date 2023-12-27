@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_power(work, time):
-        return work / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
