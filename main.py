@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import datetime
+def get_today_date():
+        return datetime.date.today()
