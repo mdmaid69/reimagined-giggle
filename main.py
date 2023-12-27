@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_priority_queue():
+        return collections.deque()
