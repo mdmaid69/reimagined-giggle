@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def divide_numbers(x, y):
+        return x / y
