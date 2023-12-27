@@ -1,7 +1,6 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
