@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
