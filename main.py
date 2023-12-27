@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def cube_number(x):
+        return x**3
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
