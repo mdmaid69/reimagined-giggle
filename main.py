@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
