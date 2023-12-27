@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
