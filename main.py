@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
