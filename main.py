@@ -1,6 +1,6 @@
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
