@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
