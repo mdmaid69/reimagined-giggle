@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
