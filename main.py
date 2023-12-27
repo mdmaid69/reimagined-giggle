@@ -1,8 +1,7 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
