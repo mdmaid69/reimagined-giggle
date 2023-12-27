@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
