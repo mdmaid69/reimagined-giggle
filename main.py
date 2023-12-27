@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
