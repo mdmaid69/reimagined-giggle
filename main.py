@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import numpy as np
+print(np.array([1, 2, 3]))
