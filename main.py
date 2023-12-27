@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import platform
+def get_os_info():
+        return platform.uname()
