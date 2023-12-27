@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
