@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
