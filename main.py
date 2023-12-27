@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
