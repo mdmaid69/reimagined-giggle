@@ -1,4 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
