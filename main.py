@@ -1,8 +1,4 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
