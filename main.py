@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def convert_to_octal(n):
+        return oct(n)
