@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_volume(length, width, height):
-        return length * width * height
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import os
+def change_working_directory(path):
+        os.chdir(path)
