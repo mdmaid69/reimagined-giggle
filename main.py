@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+for i in range(5):
+        print(i)
+def add_numbers(x, y):
+        return x + y
