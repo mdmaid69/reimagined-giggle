@@ -1,6 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
