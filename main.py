@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
