@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
