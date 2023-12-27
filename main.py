@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_power(work, time):
-        return work / time
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
