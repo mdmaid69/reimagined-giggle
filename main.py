@@ -1,6 +1,5 @@
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_speed(distance, time):
+        return distance / time
