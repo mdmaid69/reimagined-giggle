@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
