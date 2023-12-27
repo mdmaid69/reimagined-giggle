@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def is_palindrome(s):
-        return s == s[::-1]
+  def multiply_numbers(x, y):
+        return x * y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
