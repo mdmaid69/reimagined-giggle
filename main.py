@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
