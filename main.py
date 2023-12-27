@@ -1,5 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
