@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_array_to_string(array):
+        return array.tostring()
