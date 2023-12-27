@@ -1,7 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
