@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
