@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
