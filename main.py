@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
