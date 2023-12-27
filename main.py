@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
