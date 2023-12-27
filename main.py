@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
