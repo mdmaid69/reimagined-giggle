@@ -1,6 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
