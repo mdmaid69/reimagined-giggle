@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_stack():
+        return collections.deque()
