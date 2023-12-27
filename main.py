@@ -1,4 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
