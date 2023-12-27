@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
