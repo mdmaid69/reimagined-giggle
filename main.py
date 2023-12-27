@@ -1,5 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import re
+print(re.match("h.*o", "hello world"))
+  def convert_to_octal(n):
+        return oct(n)
