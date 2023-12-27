@@ -1,5 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
