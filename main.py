@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
