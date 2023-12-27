@@ -1,6 +1,7 @@
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def calculate_mean(arr):
+        return np.mean(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
