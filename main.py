@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def reverse_array(array):
+        array.reverse()
