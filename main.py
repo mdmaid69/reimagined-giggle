@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_typecode(array):
+        return array.typecode
