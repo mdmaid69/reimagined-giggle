@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def clear_array(array):
-        array *= 0
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
