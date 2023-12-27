@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def find_min(numbers):
-        return min(numbers)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
