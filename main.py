@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import platform
-def get_python_version():
-        return platform.python_version()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
