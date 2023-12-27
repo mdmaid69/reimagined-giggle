@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
