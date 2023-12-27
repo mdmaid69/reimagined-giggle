@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_set(array):
+        return set(array)
