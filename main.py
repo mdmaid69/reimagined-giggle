@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import platform
+def get_os_info():
+        return platform.uname()
