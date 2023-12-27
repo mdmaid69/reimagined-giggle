@@ -1,8 +1,6 @@
+import array
+def append_to_array(array, item):
+        array.append(item)
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
