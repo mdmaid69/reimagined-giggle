@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def square_number(x):
+        return x**2
