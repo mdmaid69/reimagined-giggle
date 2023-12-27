@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_counter():
-        return collections.Counter()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
