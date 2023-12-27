@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
