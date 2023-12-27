@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
