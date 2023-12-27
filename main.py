@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
