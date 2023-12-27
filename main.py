@@ -1,5 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
