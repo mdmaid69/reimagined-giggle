@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
