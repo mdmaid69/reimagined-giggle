@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def find_unique_words(sentence):
-        return set(sentence.split())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import platform
+def get_python_version():
+        return platform.python_version()
