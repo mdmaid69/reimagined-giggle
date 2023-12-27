@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
