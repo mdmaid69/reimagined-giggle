@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_counter():
+        return collections.Counter()
