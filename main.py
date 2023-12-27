@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
