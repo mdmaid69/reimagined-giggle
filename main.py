@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import platform
+def get_os_info():
+        return platform.uname()
