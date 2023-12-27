@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def find_max(numbers):
+        return max(numbers)
