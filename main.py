@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
