@@ -1,5 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
