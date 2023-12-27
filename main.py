@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
