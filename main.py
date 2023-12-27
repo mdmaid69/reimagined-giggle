@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
