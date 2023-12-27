@@ -1,8 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
