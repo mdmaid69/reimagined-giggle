@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import time
-def get_time_since_epoch():
-        return time.time()
+import collections
+def create_user_string():
+        return collections.UserString()
+  def convert_to_octal(n):
+        return oct(n)
