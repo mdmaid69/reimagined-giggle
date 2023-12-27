@@ -1,5 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
