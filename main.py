@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
