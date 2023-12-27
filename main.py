@@ -1,9 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_area(radius):
+        return 3.14 * radius * radius
