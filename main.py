@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
