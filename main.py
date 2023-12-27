@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_array_as_list(array):
+        return list(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
