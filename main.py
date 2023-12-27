@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_error_function(x):
+        return math.erf(x)
