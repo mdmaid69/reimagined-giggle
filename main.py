@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_work(force, distance):
-        return force * distance
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
