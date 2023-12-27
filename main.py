@@ -1,6 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
