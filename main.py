@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_min(lst):
+        return min(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
