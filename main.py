@@ -1,5 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
