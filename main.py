@@ -1,10 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
