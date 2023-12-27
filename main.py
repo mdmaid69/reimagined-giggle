@@ -1,5 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def reverse_array(array):
+        array.reverse()
