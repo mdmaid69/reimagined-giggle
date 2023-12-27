@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import time
+def get_time_since_epoch():
+        return time.time()
