@@ -1,6 +1,10 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
