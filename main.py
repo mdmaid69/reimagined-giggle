@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  def convert_to_octal(n):
-        return oct(n)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
