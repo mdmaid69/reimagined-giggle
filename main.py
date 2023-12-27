@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
