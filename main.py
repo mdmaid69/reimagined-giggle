@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
