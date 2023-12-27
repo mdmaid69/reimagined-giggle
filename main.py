@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def cube_number(x):
+        return x**3
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
