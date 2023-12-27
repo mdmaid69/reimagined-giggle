@@ -1,5 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
