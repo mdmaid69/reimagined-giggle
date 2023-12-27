@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
