@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def convert_to_hex(n):
+        return hex(n)
