@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_set(array):
+        return set(array)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
