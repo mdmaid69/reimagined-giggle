@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
