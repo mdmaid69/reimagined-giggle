@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  def convert_to_binary(n):
-        return bin(n)
+text = "Hello, world!"
+print("Characters:", len(text))
+import os
+print(os.getcwd())
