@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_current_directory():
+        return os.getcwd()
