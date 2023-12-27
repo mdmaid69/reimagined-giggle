@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
