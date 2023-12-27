@@ -1,8 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
