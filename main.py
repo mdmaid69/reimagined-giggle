@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
