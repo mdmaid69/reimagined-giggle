@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
