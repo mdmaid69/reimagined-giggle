@@ -1,5 +1,10 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_max(lst):
+        return max(lst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
