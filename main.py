@@ -1,5 +1,6 @@
-print("Hello, world!")
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
