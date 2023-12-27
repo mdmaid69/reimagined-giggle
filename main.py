@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
