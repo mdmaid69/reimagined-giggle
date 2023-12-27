@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_set(array):
+        return set(array)
