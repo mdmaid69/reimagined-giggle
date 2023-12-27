@@ -1,5 +1,11 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import time
+print(time.time())
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
