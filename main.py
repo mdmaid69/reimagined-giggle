@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import platform
+def get_os_info():
+        return platform.uname()
