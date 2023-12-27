@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
