@@ -1,12 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
