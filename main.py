@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import platform
+def get_os_info():
+        return platform.uname()
+text = "Hello, world!"
+print("Words:", len(text.split()))
