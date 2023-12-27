@@ -1,8 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
