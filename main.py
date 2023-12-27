@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
