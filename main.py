@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def reverse_array(array):
+        array.reverse()
