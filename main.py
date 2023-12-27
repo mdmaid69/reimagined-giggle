@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import datetime
-print(datetime.datetime.now())
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
