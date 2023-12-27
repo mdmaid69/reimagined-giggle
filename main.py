@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_item(array, i):
+        return array[i]
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
