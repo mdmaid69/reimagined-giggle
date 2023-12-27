@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_max(lst):
+        return max(lst)
