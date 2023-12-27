@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def add_numbers(x, y):
+        return x + y
+def find_min(lst):
+        return min(lst)
