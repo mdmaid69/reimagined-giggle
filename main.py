@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_item(array, i):
+        return array[i]
