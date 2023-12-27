@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
