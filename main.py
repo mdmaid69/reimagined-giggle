@@ -1,6 +1,8 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
