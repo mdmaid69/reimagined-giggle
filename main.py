@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
