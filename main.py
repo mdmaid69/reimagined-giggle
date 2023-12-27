@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def subtract_numbers(x, y):
+        return x - y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
