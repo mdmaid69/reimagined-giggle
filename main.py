@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
