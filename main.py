@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def square_number(x):
-        return x**2
+def calculate_pressure(force, area):
+        return force / area
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
