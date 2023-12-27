@@ -1,5 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import platform
-def get_python_version():
-        return platform.python_version()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def subtract_numbers(x, y):
+        return x - y
