@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
