@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
