@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+from collections import Counter
+print(Counter("hello world"))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
