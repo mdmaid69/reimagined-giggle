@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+print("Hello, world!")
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
