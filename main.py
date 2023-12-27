@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
