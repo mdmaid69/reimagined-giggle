@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
