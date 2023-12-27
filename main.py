@@ -1,5 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def count_elements(lst):
+        return len(lst)
