@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
