@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
