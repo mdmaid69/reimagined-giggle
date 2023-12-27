@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
