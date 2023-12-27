@@ -1,6 +1,8 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
