@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
