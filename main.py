@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
