@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def is_odd(n):
-        return n % 2 != 0
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
