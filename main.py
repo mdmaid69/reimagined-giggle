@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
