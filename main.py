@@ -1,7 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
