@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
