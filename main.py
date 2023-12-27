@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
