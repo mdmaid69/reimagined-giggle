@@ -1,6 +1,5 @@
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
