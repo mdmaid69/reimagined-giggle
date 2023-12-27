@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_acceleration(speed, time):
-        return speed / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
