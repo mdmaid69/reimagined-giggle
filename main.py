@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
