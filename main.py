@@ -1,4 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-from collections import Counter
-print(Counter("hello world"))
+def add_numbers(x, y):
+        return x + y
+def add_numbers(a, b):
+        return a + b
