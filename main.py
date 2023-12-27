@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import sys
+def exit_program():
+        sys.exit()
