@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import collections
-def create_user_string():
-        return collections.UserString()
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
