@@ -1,6 +1,8 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
