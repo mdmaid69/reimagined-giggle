@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
