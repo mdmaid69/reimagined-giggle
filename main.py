@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def add_numbers(x, y):
+        return x + y
