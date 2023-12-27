@@ -1,8 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def convert_to_octal(n):
+        return oct(n)
