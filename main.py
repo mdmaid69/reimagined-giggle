@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
