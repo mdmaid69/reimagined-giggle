@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+for i in range(5):
+        print(i)
