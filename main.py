@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_array_to_list(array):
+        return array.tolist()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
