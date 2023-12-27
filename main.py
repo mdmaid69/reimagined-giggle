@@ -1,6 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_array_to_string(array):
+        return array.tostring()
+def cube_number(x):
+        return x**3
