@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
