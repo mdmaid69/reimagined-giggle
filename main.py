@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+print(sum(range(10)))
+import sys
+def exit_program():
+        sys.exit()
