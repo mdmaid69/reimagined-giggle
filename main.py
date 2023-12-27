@@ -1,5 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_speed(distance, time):
+        return distance / time
