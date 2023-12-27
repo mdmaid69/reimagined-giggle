@@ -1,6 +1,5 @@
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def get_array_item(array, i):
-        return array[i]
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
