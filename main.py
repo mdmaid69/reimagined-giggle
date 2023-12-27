@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def convert_to_hex(n):
+        return hex(n)
