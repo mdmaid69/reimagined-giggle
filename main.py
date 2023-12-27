@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_item(array, i):
+        return array[i]
+def calculate_perpetuity(payment, rate):
+        return payment / rate
