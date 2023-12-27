@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
