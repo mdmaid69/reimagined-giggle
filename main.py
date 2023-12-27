@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_string_from_array(array):
+        return array.tobytes()
