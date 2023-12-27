@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
