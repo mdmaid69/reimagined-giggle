@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
