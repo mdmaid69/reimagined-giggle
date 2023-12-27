@@ -1,6 +1,11 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_int(array):
+        return int(array[0])
