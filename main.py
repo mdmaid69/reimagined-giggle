@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
