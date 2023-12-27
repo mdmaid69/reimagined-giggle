@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
