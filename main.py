@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+for i in range(5):
+        print(i)
+def calculate_volume(length, width, height):
+        return length * width * height
