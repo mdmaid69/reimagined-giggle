@@ -1,5 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def convert_to_hex(n):
-        return hex(n)
+def get_array_as_tuple(array):
+        return tuple(array)
