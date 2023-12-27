@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
