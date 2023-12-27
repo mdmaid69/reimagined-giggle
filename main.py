@@ -1,7 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def subtract_numbers(x, y):
+        return x - y
