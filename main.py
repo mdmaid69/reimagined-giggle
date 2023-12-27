@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import sys
-  def get_python_version():
-        return sys.version
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
