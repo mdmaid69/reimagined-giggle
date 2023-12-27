@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
