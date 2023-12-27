@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
