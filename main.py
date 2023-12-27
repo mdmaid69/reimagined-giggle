@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
