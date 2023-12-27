@@ -1,5 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
