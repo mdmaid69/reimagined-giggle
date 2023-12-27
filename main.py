@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def append_to_array(array, item):
+        array.append(item)
