@@ -1,7 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def is_even(n):
+        return n % 2 == 0
