@@ -1,3 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-print("Hello, world!")
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def subtract_numbers(x, y):
+        return x - y
