@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
