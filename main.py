@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
