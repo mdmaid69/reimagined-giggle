@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def is_odd(n):
-        return n % 2 != 0
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
