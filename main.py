@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
