@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_item(array, i):
+        return array[i]
