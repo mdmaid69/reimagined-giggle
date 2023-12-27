@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
