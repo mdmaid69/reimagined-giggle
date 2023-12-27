@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_user_string():
+        return collections.UserString()
