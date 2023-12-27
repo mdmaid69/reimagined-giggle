@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
