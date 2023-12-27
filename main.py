@@ -1,4 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-print(sum(range(10)))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def reverse_list(lst):
+        return lst[::-1]
