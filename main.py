@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
