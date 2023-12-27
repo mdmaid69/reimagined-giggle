@@ -1,5 +1,8 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
