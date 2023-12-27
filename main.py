@@ -1,5 +1,8 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
