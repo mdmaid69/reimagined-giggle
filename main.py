@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def square_number(x):
-        return x**2
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_repr(array):
+        return repr(array)
