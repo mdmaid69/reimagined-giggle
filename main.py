@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def cube_number(x):
-        return x**3
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_as_str(array):
+        return str(array)
