@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
