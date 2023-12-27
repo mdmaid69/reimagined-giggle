@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
