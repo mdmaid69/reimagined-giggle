@@ -1,6 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
