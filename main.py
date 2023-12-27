@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import getpass
+def get_username():
+        return getpass.getuser()
+def is_palindrome(s):
+        return s == s[::-1]
