@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_work(force, distance):
+        return force * distance
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
