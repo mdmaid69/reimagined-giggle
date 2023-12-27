@@ -1,6 +1,6 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
