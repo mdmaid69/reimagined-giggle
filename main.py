@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def add_numbers(a, b):
+        return a + b
