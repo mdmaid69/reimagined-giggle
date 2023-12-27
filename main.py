@@ -1,6 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def greet(name):
+        print(f"Hello, {name}!")
