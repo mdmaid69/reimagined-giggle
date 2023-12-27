@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+print("Hello, world!")
