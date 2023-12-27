@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def count_elements(lst):
-        return len(lst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
