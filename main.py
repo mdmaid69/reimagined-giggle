@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def convert_to_hex(n):
-        return hex(n)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
