@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import time
+def get_time_since_epoch():
+        return time.time()
+def is_odd(n):
+        return n % 2 != 0
