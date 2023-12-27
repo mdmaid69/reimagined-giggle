@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_set(array):
+        return set(array)
