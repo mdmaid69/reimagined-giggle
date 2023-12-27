@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_density(mass, volume):
+        return mass / volume
+  def reverse_list(lst):
+        return lst[::-1]
