@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def convert_to_hex(n):
+        return hex(n)
