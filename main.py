@@ -1,5 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def reverse_list(lst):
-        return lst[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def is_odd(n):
+        return n % 2 != 0
