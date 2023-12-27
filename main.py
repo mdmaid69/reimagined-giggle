@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
