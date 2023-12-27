@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
