@@ -1,8 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
