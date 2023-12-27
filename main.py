@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
