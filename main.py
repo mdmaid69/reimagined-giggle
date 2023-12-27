@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def add_numbers(a, b):
+        return a + b
+import getpass
+def get_username():
+        return getpass.getuser()
