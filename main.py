@@ -1,6 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import collections
-def create_stack():
-        return collections.deque()
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
