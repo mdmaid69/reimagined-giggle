@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
