@@ -1,5 +1,5 @@
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
 import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_item_count(array, item):
+        return array.count(item)
