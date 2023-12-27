@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_density(mass, volume):
+        return mass / volume
