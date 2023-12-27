@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
