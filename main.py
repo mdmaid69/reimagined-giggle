@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+name = "Python"
+print("Hello,", name)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
