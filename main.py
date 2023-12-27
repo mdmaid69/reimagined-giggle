@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import sys
+def exit_program():
+        sys.exit()
