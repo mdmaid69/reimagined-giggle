@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def convert_to_octal(n):
+        return oct(n)
+import time
+def get_time_since_epoch():
+        return time.time()
