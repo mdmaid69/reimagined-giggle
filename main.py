@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def find_min(lst):
+        return min(lst)
