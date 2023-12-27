@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def convert_to_hex(n):
+        return hex(n)
