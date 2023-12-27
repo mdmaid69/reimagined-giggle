@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def add_numbers(x, y):
+        return x + y
+def calculate_area_rectangle(l, w):
+        return l * w
