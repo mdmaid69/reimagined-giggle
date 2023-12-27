@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def add_numbers(a, b):
+        return a + b
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
