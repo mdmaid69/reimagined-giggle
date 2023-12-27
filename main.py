@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_work(force, distance):
+        return force * distance
