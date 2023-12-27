@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
