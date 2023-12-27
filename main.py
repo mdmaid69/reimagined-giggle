@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
