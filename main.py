@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def square_number(x):
-        return x**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
