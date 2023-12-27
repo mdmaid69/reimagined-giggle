@@ -1,8 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
