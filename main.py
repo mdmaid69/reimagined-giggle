@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
