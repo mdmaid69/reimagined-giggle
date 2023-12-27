@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
