@@ -1,6 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def convert_array_to_string(array):
+        return array.tostring()
