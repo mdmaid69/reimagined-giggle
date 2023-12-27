@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def convert_to_octal(n):
+        return oct(n)
