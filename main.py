@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_density(mass, volume):
+        return mass / volume
