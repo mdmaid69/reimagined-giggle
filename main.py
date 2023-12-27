@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_area_rectangle(l, w):
+        return l * w
