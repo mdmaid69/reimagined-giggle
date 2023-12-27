@@ -1,6 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
