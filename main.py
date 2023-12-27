@@ -1,5 +1,8 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
