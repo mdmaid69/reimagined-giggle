@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
