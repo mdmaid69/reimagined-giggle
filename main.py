@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
