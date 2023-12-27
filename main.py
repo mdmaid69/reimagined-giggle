@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
