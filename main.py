@@ -1,4 +1,6 @@
 import math
-print(math.pi)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
