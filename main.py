@@ -1,7 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import time
+def get_time_since_epoch():
+        return time.time()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
