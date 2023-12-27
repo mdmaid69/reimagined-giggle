@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
