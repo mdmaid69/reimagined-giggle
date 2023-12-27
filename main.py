@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_string_from_array(array):
+        return array.tobytes()
