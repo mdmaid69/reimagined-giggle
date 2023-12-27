@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
