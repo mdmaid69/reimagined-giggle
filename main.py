@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def reverse_list(lst):
+        return lst[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
