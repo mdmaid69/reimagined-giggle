@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import json
+print(json.dumps({"name": "John", "age": 30}))
