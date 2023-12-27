@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
