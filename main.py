@@ -1,9 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def cube_number(x):
+        return x**3
