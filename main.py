@@ -1,8 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
