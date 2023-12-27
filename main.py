@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
