@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
