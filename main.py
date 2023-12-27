@@ -1,6 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
