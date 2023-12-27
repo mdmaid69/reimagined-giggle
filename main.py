@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def square_number(x):
+        return x**2
