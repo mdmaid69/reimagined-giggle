@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
