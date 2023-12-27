@@ -1,5 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-print(sum(range(10)))
+import platform
+def get_python_version():
+        return platform.python_version()
+  def convert_to_octal(n):
+        return oct(n)
