@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
