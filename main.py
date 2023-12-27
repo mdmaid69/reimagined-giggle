@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import platform
+def get_python_version():
+        return platform.python_version()
