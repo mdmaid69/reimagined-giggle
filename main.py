@@ -1,6 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
