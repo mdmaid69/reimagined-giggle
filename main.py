@@ -1,7 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def is_odd(n):
+        return n % 2 != 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
