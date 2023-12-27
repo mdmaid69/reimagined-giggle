@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_typecode(array):
+        return array.typecode
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
