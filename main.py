@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
