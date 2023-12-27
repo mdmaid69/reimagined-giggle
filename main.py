@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
