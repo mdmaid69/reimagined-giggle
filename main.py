@@ -1,4 +1,8 @@
-  def sort_list(lst):
-        return sorted(lst)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
