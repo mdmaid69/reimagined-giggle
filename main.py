@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def find_min(lst):
+        return min(lst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
