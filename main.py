@@ -1,5 +1,3 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def is_even(n):
-        return n % 2 == 0
+for i in range(10): print(i)
+def calculate_area_rectangle(l, w):
+        return l * w
