@@ -1,5 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
