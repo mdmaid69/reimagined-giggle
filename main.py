@@ -1,9 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def convert_to_hex(n):
+        return hex(n)
