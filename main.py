@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
