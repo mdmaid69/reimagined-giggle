@@ -1,7 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def create_user_dict():
+        return collections.UserDict()
