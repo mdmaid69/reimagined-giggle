@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-from collections import Counter
-print(Counter("hello world"))
+import time
+def get_current_time():
+        return time.ctime()
+  def calculate_area_rectangle(l, w):
+        return l * w
