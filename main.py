@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
