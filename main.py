@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
