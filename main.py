@@ -1,6 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
