@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def reverse_array(array):
+        array.reverse()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
