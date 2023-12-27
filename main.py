@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
