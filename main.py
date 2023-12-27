@@ -1,6 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
