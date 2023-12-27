@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
