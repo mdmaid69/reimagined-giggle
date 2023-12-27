@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_density(mass, volume):
-        return mass / volume
+text = "Hello, world!"
+print("Characters:", len(text))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
