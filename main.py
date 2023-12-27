@@ -1,4 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def add_numbers(x, y):
+        return x + y
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
