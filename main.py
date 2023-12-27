@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
