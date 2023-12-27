@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
