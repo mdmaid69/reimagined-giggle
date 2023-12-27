@@ -1,4 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def subtract_numbers(x, y):
+        return x - y
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
