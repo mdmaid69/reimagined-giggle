@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  def convert_to_hex(n):
+        return hex(n)
