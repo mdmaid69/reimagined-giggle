@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
