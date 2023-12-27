@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
