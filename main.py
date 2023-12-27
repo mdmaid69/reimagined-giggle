@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
