@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def convert_to_binary(n):
-        return bin(n)
+import getpass
+def get_username():
+        return getpass.getuser()
+import os
+def remove_directory(path):
+        os.rmdir(path)
