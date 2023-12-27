@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def convert_to_octal(n):
+        return oct(n)
