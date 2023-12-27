@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
