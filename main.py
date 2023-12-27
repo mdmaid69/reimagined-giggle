@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
