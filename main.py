@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def check_if_array_contains_item(array, item):
+        return item in array
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
