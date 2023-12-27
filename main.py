@@ -1,8 +1,7 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
