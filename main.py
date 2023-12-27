@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_string_from_array(array):
+        return array.tobytes()
