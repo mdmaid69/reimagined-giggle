@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
