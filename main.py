@@ -1,5 +1,5 @@
 numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+print("Max:", max(numbers))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
