@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def reverse_string(s):
+        return s[::-1]
