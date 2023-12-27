@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
