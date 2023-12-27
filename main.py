@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
