@@ -1,5 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def find_min(numbers):
-        return min(numbers)
+import tensorflow as tf
+print(tf.__version__)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
