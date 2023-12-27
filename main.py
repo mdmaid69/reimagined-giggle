@@ -1,5 +1,6 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
