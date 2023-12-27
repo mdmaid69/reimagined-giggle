@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import sys
+  def get_python_version():
+        return sys.version
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
