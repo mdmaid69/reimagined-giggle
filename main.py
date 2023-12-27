@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
