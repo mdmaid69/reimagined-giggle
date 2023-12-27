@@ -1,4 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+print(sum(range(10)))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
