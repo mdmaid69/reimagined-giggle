@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_min(lst):
+        return min(lst)
+def greet(name):
+        print(f"Hello, {name}!")
