@@ -1,7 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_bool(array):
+        return bool(array)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
