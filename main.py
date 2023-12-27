@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+print(math.pi)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
