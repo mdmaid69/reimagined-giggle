@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
