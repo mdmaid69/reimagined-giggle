@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
