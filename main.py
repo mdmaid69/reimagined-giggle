@@ -1,7 +1,6 @@
-  def square_number(x):
-        return x**2
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import collections
+def create_priority_queue():
+        return collections.deque()
