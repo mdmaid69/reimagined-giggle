@@ -1,8 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
