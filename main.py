@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import platform
-def get_python_version():
-        return platform.python_version()
+def get_array_as_float(array):
+        return float(array[0])
