@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def is_odd(n):
+        return n % 2 != 0
