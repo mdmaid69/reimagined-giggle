@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import os
+print(os.getcwd())
