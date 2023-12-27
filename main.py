@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import collections
-def create_counter():
-        return collections.Counter()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
