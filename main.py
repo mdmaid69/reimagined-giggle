@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def cube_number(x):
+        return x**3
+def is_even(n):
+        return n % 2 == 0
