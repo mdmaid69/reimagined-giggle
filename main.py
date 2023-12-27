@@ -1,7 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
