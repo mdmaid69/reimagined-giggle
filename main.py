@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_speed(distance, time):
+        return distance / time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
