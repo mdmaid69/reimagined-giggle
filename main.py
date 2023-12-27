@@ -1,8 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
