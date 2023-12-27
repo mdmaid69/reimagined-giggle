@@ -1,7 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_sine(x):
+        return math.sin(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
