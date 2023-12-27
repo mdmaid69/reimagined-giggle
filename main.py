@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_work(force, distance):
+        return force * distance
