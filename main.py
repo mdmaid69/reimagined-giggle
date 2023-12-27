@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
