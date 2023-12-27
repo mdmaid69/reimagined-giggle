@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def append_to_array(array, item):
+        array.append(item)
+def count_elements(lst):
+        return len(lst)
