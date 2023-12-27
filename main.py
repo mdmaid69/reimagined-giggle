@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
