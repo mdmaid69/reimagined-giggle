@@ -1,6 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import random
-def roll_die():
-        return random.randint(1, 6)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
