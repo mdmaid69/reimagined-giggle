@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def find_min(lst):
+        return min(lst)
