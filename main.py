@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
