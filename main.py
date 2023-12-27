@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
