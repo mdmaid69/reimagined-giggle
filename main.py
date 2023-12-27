@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
