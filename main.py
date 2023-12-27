@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
