@@ -1,8 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def subtract_numbers(x, y):
+        return x - y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
