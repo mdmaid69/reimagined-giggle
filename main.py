@@ -1,12 +1,6 @@
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def get_array_as_complex(array):
+        return complex(array[0])
