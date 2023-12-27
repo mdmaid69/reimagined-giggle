@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
