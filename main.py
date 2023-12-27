@@ -1,7 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  def is_odd(n):
+        return n % 2 != 0
