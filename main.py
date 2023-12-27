@@ -1,6 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def convert_to_hex(n):
+        return hex(n)
