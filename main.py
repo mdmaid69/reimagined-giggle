@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
