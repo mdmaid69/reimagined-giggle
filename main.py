@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
