@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def is_even(n):
-        return n % 2 == 0
+def get_array_item(array, i):
+        return array[i]
