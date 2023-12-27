@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
