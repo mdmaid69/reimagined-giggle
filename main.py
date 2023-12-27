@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_pressure(force, area):
+        return force / area
