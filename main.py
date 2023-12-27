@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import re
+print(re.match("h.*o", "hello world"))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
