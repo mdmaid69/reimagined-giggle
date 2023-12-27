@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def reverse_string(s):
+        return s[::-1]
+def calculate_work(force, distance):
+        return force * distance
