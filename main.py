@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
