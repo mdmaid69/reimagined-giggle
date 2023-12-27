@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def count_elements(lst):
+        return len(lst)
