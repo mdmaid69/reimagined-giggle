@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import time
+def get_current_time():
+        return time.ctime()
