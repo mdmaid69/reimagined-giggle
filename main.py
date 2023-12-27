@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
