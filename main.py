@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
