@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
