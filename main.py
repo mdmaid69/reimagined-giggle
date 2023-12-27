@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
