@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import collections
+def create_counter():
+        return collections.Counter()
