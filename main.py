@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
