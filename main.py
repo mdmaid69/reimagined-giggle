@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_as_str(array):
+        return str(array)
