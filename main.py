@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
