@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
