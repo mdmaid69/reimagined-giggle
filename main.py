@@ -1,8 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def split_path(path):
+        return os.path.split(path)
