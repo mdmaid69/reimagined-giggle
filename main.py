@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_acceleration(speed, time):
+        return speed / time
