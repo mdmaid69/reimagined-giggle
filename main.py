@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
