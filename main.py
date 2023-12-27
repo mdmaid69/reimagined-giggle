@@ -1,8 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
