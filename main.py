@@ -1,9 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_volume(length, width, height):
+        return length * width * height
