@@ -1,5 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-name = "Python"
-print("Hello,", name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
