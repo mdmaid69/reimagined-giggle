@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def subtract_numbers(x, y):
-        return x - y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
