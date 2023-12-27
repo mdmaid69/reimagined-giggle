@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_density(mass, volume):
+        return mass / volume
