@@ -1,5 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def get_array_typecode(array):
+        return array.typecode
+def calculate_pressure(force, area):
+        return force / area
