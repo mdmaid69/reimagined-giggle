@@ -1,8 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def multiply_numbers(x, y):
+        return x * y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
