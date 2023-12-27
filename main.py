@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
