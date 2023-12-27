@@ -1,4 +1,12 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
