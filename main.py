@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
