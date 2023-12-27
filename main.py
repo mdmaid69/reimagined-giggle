@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
