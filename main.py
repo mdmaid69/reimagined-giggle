@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
