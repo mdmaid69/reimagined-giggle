@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import sys
+def print_python_version():
+        print(sys.version)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
