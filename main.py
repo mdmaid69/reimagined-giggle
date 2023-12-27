@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def add_numbers(x, y):
-        return x + y
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
