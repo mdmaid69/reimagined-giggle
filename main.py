@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
