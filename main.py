@@ -1,6 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
