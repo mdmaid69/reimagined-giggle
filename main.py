@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
