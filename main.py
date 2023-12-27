@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
