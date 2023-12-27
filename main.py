@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
