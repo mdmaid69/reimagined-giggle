@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_sine(x):
+        return math.sin(x)
