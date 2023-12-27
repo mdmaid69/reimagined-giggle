@@ -1,5 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
