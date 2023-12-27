@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def convert_array_to_string(array):
+        return array.tostring()
