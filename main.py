@@ -1,6 +1,3 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def subtract_numbers(x, y):
-        return x - y
+print(sum(range(10)))
+def multiply_numbers(x, y):
+        return x * y
