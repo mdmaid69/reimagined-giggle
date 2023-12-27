@@ -1,6 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def multiply_numbers(x, y):
+        return x * y
+def convert_to_hex(n):
+        return hex(n)
