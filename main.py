@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
