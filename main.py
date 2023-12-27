@@ -1,5 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
