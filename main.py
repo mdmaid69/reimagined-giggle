@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
