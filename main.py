@@ -1,5 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def sort_list(lst):
-        return sorted(lst)
+  def square_number(x):
+        return x**2
+def is_palindrome(s):
+        return s == s[::-1]
