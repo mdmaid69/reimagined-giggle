@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
