@@ -1,6 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
