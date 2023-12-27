@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def multiply_numbers(x, y):
+        return x * y
