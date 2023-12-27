@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import array
-def reverse_array(array):
-        array.reverse()
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
