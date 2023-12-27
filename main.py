@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
