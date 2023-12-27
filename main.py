@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
