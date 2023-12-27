@@ -1,6 +1,6 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_as_set(array):
-        return set(array)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
