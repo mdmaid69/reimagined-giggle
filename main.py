@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
