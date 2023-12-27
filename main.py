@@ -1,5 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_current_directory():
-        return os.getcwd()
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
