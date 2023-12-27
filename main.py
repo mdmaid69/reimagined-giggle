@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
