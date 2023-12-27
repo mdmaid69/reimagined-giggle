@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
