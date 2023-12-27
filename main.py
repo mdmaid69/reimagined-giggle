@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def find_min(numbers):
+        return min(numbers)
+  def convert_to_hex(n):
+        return hex(n)
