@@ -1,5 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
