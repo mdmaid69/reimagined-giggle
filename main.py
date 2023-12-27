@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
