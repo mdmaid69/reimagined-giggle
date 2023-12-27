@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def subtract_numbers(x, y):
+        return x - y
