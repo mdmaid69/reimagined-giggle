@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
