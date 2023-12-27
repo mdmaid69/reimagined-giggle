@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import sys
+def print_python_version():
+        return sys.version
