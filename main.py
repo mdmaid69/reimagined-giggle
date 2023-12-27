@@ -1,6 +1,6 @@
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import os
+def change_working_directory(path):
+        os.chdir(path)
