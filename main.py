@@ -1,7 +1,7 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
