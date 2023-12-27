@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
