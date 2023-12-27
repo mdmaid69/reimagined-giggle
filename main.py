@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
