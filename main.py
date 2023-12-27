@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
