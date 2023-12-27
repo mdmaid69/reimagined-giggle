@@ -1,5 +1,8 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
