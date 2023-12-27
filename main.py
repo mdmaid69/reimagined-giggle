@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
