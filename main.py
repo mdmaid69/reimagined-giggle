@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
