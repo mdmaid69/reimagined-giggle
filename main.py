@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
