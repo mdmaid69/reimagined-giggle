@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_area_rectangle(l, w):
-        return l * w
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def multiply_numbers(x, y):
+        return x * y
