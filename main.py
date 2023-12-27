@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
