@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
