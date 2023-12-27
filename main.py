@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
