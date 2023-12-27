@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
