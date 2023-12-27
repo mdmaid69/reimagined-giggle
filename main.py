@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def reverse_array(array):
+        array.reverse()
