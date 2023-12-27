@@ -1,4 +1,8 @@
-import random
-print(random.randint(0, 100))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
