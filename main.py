@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
