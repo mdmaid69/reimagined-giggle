@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
