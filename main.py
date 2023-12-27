@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_power(work, time):
-        return work / time
+def multiply_numbers(x, y):
+        return x * y
+def find_max(numbers):
+        return max(numbers)
