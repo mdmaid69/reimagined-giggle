@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def remove_duplicates(lst):
+        return list(set(lst))
