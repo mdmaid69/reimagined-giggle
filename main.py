@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def cube_number(x):
+        return x**3
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
