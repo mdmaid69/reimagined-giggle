@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
