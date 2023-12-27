@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
