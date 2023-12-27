@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
