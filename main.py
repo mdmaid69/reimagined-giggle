@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
