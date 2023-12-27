@@ -1,6 +1,9 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
