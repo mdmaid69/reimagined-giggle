@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def create_counter():
-        return collections.Counter()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def get_array_index(array, item):
+        return array.index(item)
