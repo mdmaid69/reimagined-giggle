@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def get_array_as_list(array):
+        return list(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
