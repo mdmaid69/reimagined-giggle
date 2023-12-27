@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
