@@ -1,6 +1,7 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import time
+print(time.time())
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
