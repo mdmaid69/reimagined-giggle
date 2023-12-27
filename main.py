@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import logging
+def log_message(message):
+        logging.info(message)
