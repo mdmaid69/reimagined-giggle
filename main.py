@@ -1,6 +1,8 @@
-import collections
-def create_stack():
-        return collections.deque()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
