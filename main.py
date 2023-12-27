@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def find_min(lst):
-        return min(lst)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
