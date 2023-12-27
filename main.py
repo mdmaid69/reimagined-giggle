@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def add_numbers(x, y):
+        return x + y
+def find_unique_words(sentence):
+        return set(sentence.split())
