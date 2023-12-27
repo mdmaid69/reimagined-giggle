@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
