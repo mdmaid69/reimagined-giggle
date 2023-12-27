@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import array
-def clear_array(array):
-        array *= 0
+def convert_array_to_string(array):
+        return array.tostring()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
