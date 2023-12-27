@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
