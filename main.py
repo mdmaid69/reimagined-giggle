@@ -1,7 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
