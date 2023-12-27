@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_list_from_array(array):
+        return array.tolist()
