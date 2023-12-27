@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
