@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  def subtract_numbers(x, y):
-        return x - y
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
