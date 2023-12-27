@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
