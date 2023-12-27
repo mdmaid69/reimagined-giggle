@@ -1,6 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
