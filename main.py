@@ -1,7 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def find_unique_words(sentence):
+        return set(sentence.split())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
