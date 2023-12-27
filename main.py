@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def reverse_array(array):
-        array.reverse()
+  def multiply_numbers(x, y):
+        return x * y
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
