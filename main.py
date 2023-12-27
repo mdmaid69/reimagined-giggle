@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def convert_to_binary(n):
+        return bin(n)
