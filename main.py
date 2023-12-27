@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
