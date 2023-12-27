@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_array_as_str(array):
+        return str(array)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
