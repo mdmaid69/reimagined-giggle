@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_acceleration(speed, time):
+        return speed / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
