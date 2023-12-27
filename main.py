@@ -1,6 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
