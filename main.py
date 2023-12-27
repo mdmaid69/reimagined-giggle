@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
