@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def divide_numbers(x, y):
-        return x / y
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def append_to_array(array, item):
+        array.append(item)
