@@ -1,10 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
