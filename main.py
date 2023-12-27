@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
