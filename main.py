@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
