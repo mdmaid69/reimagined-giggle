@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def reverse_array(array):
-        array.reverse()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
