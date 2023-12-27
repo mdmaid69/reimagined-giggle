@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def sort_list(lst):
+        return sorted(lst)
