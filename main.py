@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
