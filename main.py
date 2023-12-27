@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-print(re.match("h.*o", "hello world"))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
