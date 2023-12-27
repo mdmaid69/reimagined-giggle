@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def split_path(path):
-        return os.path.split(path)
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
