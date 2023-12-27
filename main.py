@@ -1,6 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import time
+print(time.time())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
