@@ -1,8 +1,10 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
