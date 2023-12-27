@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
