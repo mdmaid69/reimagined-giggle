@@ -1,4 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
