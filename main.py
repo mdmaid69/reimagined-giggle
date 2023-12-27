@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import random
-def roll_die():
-        return random.randint(1, 6)
+import datetime
+print(datetime.datetime.now())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
