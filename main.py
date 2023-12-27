@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
