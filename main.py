@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def find_min(lst):
-        return min(lst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
