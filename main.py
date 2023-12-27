@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
