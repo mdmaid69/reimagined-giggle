@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
