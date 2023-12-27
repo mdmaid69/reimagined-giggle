@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
