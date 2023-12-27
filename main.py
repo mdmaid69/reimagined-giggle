@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def convert_to_hex(n):
+        return hex(n)
+import sys
+def exit_program():
+        sys.exit()
