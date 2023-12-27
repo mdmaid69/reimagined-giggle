@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
