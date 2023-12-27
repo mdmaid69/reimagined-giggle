@@ -1,7 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def convert_to_binary(n):
+        return bin(n)
