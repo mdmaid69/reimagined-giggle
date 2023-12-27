@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def greet(name):
+        print(f"Hello, {name}!")
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_slice(array, i, j):
+        return array[i:j]
