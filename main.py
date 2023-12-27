@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import json
+print(json.dumps({"name": "John", "age": 30}))
