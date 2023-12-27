@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
