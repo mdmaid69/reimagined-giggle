@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
