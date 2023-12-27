@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
