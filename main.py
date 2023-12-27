@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
