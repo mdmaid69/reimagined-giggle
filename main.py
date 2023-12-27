@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_work(force, distance):
+        return force * distance
