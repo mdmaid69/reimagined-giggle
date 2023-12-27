@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
