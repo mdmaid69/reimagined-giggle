@@ -1,6 +1,3 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+for i in range(10): print(i)
