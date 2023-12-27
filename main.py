@@ -1,4 +1,5 @@
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def square_number(x):
-        return x**2
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
