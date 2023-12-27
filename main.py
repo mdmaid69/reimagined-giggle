@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import time
+print(time.time())
