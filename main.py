@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def add_numbers(a, b):
+        return a + b
