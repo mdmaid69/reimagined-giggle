@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
