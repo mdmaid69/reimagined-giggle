@@ -1,8 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
