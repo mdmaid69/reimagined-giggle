@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
