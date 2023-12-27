@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
