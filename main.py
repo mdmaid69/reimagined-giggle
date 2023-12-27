@@ -1,4 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-print([x**2 for x in range(10)])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
