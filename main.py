@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
