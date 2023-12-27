@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import sys
-def print_python_version():
-        return sys.version
+  def get_current_working_directory():
+        return os.getcwd()
