@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_power(work, time):
-        return work / time
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
