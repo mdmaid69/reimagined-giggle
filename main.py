@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_item_count(array, item):
+        return array.count(item)
