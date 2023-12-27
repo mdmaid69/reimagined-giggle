@@ -1,6 +1,10 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def clear_array(array):
+        array *= 0
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
