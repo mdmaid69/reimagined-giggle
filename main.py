@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import random
+print(random.randint(0, 100))
