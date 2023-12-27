@@ -1,6 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
