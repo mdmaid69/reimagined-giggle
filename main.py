@@ -1,4 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
