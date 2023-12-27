@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
