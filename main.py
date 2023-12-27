@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
