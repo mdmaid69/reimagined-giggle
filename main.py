@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
