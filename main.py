@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
