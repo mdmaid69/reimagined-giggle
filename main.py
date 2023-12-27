@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
