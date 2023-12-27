@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
