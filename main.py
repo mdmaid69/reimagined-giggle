@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
