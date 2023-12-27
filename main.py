@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
