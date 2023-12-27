@@ -1,5 +1,8 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import sys
+def print_python_version():
+        return sys.version
