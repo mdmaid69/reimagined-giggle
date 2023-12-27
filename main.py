@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
