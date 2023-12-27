@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
