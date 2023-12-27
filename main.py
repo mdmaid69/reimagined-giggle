@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
