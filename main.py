@@ -1,7 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
