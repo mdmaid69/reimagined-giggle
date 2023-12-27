@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
