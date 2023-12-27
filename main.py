@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
