@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
