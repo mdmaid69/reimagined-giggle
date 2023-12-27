@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import tensorflow as tf
-print(tf.__version__)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_sine(x):
+        return math.sin(x)
