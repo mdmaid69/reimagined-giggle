@@ -1,8 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import time
+def get_time_since_epoch():
+        return time.time()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
