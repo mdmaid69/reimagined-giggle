@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def square_number(x):
-        return x**2
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
