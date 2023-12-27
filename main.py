@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
