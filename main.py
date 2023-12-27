@@ -1,6 +1,10 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
