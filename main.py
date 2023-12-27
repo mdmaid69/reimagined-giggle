@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+for i in range(10): print(i)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
