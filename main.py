@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_acceleration(speed, time):
+        return speed / time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
