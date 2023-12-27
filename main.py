@@ -1,6 +1,10 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
