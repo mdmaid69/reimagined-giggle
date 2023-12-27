@@ -1,6 +1,8 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_stack():
-        return collections.deque()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
