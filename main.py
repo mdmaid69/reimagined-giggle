@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
