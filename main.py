@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
