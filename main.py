@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
