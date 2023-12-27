@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
