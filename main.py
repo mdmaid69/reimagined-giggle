@@ -1,5 +1,6 @@
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_arc_cosine(x):
+        return math.acos(x)
