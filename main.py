@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
