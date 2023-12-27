@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
