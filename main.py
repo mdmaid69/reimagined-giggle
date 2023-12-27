@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def greet(name):
-        print(f"Hello, {name}!")
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
