@@ -1,6 +1,7 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def reverse_string(s):
+        return s[::-1]
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
