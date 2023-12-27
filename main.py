@@ -1,7 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
