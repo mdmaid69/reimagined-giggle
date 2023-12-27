@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
