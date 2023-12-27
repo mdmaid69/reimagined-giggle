@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
