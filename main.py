@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
