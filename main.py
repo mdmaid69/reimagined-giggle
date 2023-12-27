@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
