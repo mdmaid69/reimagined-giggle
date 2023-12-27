@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def append_to_array(array, item):
+        array.append(item)
