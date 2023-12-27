@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
