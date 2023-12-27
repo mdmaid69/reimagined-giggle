@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_exponential(x):
+        return math.exp(x)
