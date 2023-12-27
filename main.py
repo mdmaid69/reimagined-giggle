@@ -1,10 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
