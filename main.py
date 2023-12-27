@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
