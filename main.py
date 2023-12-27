@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
