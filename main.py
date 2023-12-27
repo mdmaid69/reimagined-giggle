@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import time
+def get_time_since_epoch():
+        return time.time()
