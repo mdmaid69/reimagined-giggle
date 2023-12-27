@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
