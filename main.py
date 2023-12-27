@@ -1,6 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
