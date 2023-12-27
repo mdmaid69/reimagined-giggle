@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_exponential(x):
+        return math.exp(x)
