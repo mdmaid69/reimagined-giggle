@@ -1,5 +1,3 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def subtract_numbers(x, y):
-        return x - y
+print([x**2 for x in range(10)])
+  def convert_to_octal(n):
+        return oct(n)
