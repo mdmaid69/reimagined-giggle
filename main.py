@@ -1,7 +1,6 @@
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
         plt.show()
-import collections
-def create_user_string():
-        return collections.UserString()
