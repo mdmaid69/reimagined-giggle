@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
