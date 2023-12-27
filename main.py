@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
