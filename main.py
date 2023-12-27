@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
