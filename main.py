@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
