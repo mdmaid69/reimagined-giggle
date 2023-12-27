@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_power(work, time):
+        return work / time
