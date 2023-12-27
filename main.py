@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
