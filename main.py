@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
