@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_list_from_array(array):
+        return array.tolist()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
