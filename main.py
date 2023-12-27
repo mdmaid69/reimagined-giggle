@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
