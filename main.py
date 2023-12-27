@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
