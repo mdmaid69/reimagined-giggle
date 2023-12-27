@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
