@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
