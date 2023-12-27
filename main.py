@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
