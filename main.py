@@ -1,5 +1,5 @@
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+print(random.randint(0, 100))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
