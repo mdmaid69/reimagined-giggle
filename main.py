@@ -1,5 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_power(work, time):
-        return work / time
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
