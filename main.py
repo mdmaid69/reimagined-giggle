@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import sys
-def exit_program():
-        sys.exit()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
