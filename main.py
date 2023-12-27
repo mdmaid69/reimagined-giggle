@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import random
-print(random.randint(0, 100))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import platform
+def get_python_version():
+        return platform.python_version()
