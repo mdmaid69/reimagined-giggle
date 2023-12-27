@@ -1,5 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def clear_array(array):
+        array *= 0
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
