@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def convert_to_binary(n):
+        return bin(n)
+import platform
+def get_python_version():
+        return platform.python_version()
