@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def multiply_numbers(x, y):
-        return x * y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
