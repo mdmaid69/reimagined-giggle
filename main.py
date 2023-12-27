@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
