@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
