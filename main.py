@@ -1,4 +1,10 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def is_palindrome(s):
-        return s == s[::-1]
+import re
+print(re.match("h.*o", "hello world"))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
