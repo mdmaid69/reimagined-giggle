@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-from collections import Counter
-print(Counter("hello world"))
+def remove_duplicates(lst):
+        return list(set(lst))
+  def convert_to_binary(n):
+        return bin(n)
