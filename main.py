@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
