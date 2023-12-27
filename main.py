@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import sys
+print(sys.version)
