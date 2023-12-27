@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
