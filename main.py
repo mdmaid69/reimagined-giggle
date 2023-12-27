@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import platform
-def get_python_version():
-        return platform.python_version()
+def remove_duplicates(lst):
+        return list(set(lst))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
