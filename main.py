@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_area_rectangle(l, w):
+        return l * w
