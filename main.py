@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import sys
+def exit_program():
+        sys.exit()
