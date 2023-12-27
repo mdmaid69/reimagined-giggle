@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
