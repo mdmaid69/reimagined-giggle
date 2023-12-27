@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def clear_array(array):
+        array *= 0
