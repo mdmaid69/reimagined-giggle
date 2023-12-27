@@ -1,6 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
