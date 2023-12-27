@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def sort_numbers(numbers):
+        return sorted(numbers)
