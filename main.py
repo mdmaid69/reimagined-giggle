@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
