@@ -1,7 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
