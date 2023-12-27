@@ -1,6 +1,6 @@
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def get_list_from_array(array):
+        return array.tolist()
