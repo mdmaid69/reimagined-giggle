@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
