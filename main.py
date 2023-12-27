@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def count_elements(lst):
+        return len(lst)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
