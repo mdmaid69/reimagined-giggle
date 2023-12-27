@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
