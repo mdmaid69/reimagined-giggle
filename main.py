@@ -1,5 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
