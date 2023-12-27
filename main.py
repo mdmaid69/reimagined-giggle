@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
