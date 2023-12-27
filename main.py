@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
