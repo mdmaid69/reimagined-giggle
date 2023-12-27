@@ -1,5 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
