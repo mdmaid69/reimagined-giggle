@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
