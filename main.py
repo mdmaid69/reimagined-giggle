@@ -1,8 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
