@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def subtract_numbers(x, y):
-        return x - y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
