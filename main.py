@@ -1,5 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_pressure(force, area):
+        return force / area
