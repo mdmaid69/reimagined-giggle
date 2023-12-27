@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
