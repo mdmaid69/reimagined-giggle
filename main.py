@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
