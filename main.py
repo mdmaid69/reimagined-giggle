@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
