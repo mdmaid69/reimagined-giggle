@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_cosine(x):
+        return math.cos(x)
