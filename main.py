@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_speed(distance, time):
+        return distance / time
