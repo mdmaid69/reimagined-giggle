@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_area(radius):
+        return 3.14 * radius * radius
