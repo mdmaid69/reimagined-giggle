@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
