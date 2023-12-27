@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
