@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def convert_to_hex(n):
-        return hex(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
