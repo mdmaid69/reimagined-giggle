@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_area_circle(r):
+        return 3.14 * r**2
