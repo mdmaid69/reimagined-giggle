@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import platform
+def get_python_version():
+        return platform.python_version()
