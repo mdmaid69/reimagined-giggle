@@ -1,6 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
