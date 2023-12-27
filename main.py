@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
