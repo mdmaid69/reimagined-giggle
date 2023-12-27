@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
