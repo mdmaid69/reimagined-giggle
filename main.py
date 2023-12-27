@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_work(force, distance):
+        return force * distance
+def convert_to_binary(n):
+        return bin(n)
