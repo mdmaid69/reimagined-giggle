@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_factorial(n):
+        return math.factorial(n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
