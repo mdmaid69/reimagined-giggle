@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_area_rectangle(l, w):
+        return l * w
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
