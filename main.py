@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_area_rectangle(l, w):
+        return l * w
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
