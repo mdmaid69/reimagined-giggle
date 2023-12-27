@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import logging
+def log_message(message):
+        logging.info(message)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
