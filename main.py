@@ -1,9 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
