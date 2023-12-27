@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import random
-print(random.randint(0, 100))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+print([x**2 for x in range(10)])
