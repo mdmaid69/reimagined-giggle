@@ -1,5 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
