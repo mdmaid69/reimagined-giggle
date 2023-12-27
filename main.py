@@ -1,3 +1,6 @@
-print("Hello, world!")
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
