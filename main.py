@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def cube_number(x):
-        return x**3
+import array
+def reverse_array(array):
+        array.reverse()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
