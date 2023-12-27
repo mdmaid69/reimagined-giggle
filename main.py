@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
