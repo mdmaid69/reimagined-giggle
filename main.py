@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def count_characters(sentence):
+        return len(sentence)
