@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
