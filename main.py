@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
