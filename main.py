@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
