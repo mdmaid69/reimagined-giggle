@@ -1,8 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
