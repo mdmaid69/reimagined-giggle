@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
