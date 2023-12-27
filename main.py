@@ -1,6 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
