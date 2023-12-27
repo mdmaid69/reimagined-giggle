@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
