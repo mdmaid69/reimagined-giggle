@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_volume(length, width, height):
+        return length * width * height
