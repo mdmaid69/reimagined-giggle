@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
