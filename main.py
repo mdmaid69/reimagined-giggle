@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
