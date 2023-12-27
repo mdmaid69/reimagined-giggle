@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
