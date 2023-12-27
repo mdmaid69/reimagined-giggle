@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
