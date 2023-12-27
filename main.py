@@ -1,8 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
