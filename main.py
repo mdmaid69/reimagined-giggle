@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
