@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import os
-print(os.getcwd())
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
