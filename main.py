@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
