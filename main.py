@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
