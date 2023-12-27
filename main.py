@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
