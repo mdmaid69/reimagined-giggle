@@ -1,6 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def reverse_array(array):
-        array.reverse()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
