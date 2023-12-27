@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
