@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+from collections import Counter
+print(Counter("hello world"))
