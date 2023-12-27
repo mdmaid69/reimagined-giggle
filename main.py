@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
