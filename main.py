@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def remove_duplicates(lst):
+        return list(set(lst))
