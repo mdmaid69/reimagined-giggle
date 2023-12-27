@@ -1,7 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
