@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import sys
-print(sys.version)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
