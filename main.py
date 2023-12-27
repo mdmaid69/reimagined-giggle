@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def find_max(numbers):
+        return max(numbers)
