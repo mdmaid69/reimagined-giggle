@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def divide_numbers(x, y):
-        return x / y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
