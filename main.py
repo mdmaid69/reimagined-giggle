@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import sys
+print(sys.version)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
