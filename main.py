@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
