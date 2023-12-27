@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
