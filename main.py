@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
