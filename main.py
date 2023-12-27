@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
