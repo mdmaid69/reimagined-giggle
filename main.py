@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_power(work, time):
+        return work / time
