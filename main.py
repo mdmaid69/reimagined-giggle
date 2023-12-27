@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_as_str(array):
-        return str(array)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+text = "Hello, world!"
+print("Characters:", len(text))
