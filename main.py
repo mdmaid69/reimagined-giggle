@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+print(sum(range(10)))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
