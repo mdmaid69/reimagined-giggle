@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import numpy as np
+print(np.array([1, 2, 3]))
