@@ -1,7 +1,9 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
