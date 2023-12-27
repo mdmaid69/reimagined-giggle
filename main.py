@@ -1,8 +1,5 @@
-print([x**2 for x in range(10)])
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def is_even(n):
+        return n % 2 == 0
