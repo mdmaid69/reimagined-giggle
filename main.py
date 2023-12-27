@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
