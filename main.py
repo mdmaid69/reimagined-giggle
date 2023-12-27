@@ -1,5 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def reverse_array(array):
-        array.reverse()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def get_string_from_array(array):
+        return array.tobytes()
