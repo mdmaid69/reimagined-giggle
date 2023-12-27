@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
