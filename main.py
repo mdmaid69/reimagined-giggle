@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
