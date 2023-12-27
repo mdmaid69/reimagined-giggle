@@ -1,5 +1,6 @@
+import array
+def get_array_as_bool(array):
+        return bool(array)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
