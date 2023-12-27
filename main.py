@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
