@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
