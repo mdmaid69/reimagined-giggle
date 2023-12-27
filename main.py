@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
