@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import platform
-def get_os_info():
-        return platform.uname()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
