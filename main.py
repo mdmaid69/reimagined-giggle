@@ -1,4 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def sort_list(lst):
+        return sorted(lst)
