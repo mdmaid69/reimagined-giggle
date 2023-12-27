@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
