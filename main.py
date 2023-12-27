@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Uppercase:", text.upper())
