@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import time
+def get_time_since_epoch():
+        return time.time()
