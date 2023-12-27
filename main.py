@@ -1,5 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
