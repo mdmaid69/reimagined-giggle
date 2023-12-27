@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def divide_numbers(x, y):
+        return x / y
