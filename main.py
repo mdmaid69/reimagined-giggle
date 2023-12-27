@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def find_max(lst):
-        return max(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
