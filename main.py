@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_volume(length, width, height):
+        return length * width * height
