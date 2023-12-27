@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
