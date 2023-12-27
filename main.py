@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
