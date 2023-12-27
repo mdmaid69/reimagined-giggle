@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def reverse_string(s):
-        return s[::-1]
+def find_min(lst):
+        return min(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
