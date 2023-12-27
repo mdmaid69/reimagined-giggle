@@ -1,4 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
