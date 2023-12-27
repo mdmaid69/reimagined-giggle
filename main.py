@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import time
-def get_time_since_epoch():
-        return time.time()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
