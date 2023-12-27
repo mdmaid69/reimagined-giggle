@@ -1,9 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
