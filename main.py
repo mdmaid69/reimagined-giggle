@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_power(work, time):
-        return work / time
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
