@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.ctime()
+  def sort_list(lst):
+        return sorted(lst)
