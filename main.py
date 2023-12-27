@@ -1,6 +1,9 @@
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
