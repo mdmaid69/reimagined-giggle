@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
