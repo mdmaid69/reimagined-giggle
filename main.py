@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
