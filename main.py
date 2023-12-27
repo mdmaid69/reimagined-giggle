@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
