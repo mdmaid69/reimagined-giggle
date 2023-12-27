@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
