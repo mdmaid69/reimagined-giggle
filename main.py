@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
