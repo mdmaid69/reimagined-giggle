@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def cube_number(x):
+        return x**3
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
