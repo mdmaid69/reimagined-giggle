@@ -1,6 +1,7 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
