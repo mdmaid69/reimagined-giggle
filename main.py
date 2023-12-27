@@ -1,6 +1,9 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
