@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
