@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
