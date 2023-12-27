@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  def subtract_numbers(x, y):
-        return x - y
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import platform
+def get_python_version():
+        return platform.python_version()
