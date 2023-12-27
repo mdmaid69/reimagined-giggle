@@ -1,5 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
