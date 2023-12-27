@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def is_palindrome(s):
+        return s == s[::-1]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
