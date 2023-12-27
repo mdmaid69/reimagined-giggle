@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
