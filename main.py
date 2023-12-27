@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_speed(distance, time):
-        return distance / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def reverse_list(lst):
+        return lst[::-1]
