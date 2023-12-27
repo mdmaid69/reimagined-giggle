@@ -1,5 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
