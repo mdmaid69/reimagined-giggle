@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
