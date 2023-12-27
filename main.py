@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
+def find_min(numbers):
+        return min(numbers)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
