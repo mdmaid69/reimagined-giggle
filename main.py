@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
