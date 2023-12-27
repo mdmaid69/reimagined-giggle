@@ -1,8 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
