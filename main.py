@@ -1,6 +1,11 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
