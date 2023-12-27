@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def remove_from_array(array, item):
+        array.remove(item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
