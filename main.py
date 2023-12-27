@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
