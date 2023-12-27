@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
