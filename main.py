@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
