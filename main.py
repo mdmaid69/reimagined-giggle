@@ -1,6 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
