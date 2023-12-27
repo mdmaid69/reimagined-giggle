@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def cube_number(x):
+        return x**3
