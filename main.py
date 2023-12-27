@@ -1,6 +1,7 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_array_as_set(array):
+        return set(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
