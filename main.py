@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
