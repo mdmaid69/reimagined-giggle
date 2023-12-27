@@ -1,5 +1,9 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def count_elements(lst):
-        return len(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
