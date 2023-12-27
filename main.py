@@ -1,8 +1,3 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+print(sum(range(10)))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
