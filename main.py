@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
