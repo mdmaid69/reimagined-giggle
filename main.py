@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_work(force, distance):
+        return force * distance
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def change_working_directory(path):
+        os.chdir(path)
