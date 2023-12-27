@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def delete_file(file_name):
+        os.remove(file_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
