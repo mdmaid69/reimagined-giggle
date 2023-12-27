@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def convert_to_hex(n):
-        return hex(n)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
