@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
