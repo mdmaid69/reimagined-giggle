@@ -1,9 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
