@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
