@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
