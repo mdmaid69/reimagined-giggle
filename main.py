@@ -1,6 +1,6 @@
-def cube_number(x):
-        return x**3
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def append_to_array(array, item):
+        array.append(item)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
