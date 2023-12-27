@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
