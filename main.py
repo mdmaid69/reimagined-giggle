@@ -1,7 +1,8 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_max(lst):
-        return max(lst)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
