@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
