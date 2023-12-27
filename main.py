@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
