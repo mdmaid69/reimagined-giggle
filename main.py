@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
