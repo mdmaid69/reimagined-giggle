@@ -1,6 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
