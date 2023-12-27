@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def find_min(lst):
-        return min(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
