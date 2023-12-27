@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
