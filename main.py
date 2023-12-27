@@ -1,8 +1,10 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
