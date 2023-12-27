@@ -1,8 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
