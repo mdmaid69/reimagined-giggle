@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
