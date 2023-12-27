@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
