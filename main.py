@@ -1,8 +1,10 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
