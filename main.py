@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
