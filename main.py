@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
