@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
