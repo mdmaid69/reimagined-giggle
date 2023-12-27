@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
