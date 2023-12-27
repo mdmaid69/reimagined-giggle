@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
