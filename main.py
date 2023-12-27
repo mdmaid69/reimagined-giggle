@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
