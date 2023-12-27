@@ -3,5 +3,6 @@ def is_prime(n):
                 if n % i == 0:
                 return False
         return True
-def cube_number(x):
-        return x**3
+import collections
+def create_user_string():
+        return collections.UserString()
