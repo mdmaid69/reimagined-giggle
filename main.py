@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
