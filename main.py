@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def is_even(n):
+        return n % 2 == 0
