@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
