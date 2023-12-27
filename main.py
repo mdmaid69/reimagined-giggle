@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import datetime
+def get_current_date():
+        return datetime.date.today()
