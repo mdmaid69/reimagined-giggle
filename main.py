@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_as_list(array):
+        return list(array)
 import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def move_file(src, dst):
+        shutil.move(src, dst)
