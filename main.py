@@ -1,5 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+print("Even:", [n for n in numbers if n % 2 == 0])
