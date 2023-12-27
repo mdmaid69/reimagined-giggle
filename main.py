@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def remove_duplicates(lst):
+        return list(set(lst))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
