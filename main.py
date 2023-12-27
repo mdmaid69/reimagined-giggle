@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+print(sum(range(10)))
