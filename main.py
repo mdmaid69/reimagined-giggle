@@ -1,6 +1,6 @@
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
