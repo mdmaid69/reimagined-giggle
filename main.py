@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def is_palindrome(s):
+        return s == s[::-1]
+def count_elements(lst):
+        return len(lst)
