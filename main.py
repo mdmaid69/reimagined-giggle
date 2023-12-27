@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
