@@ -1,6 +1,5 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
