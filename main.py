@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
