@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def is_odd(n):
+        return n % 2 != 0
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
