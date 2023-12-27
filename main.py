@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_power(work, time):
-        return work / time
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import time
+print(time.time())
