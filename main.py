@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
