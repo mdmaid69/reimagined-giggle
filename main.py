@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def add_numbers(x, y):
-        return x + y
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import datetime
+def get_today_date():
+        return datetime.date.today()
