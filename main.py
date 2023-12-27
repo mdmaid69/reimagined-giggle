@@ -1,8 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
