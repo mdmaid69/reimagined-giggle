@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
