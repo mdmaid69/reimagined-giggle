@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_area(radius):
+        return 3.14 * radius * radius
