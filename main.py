@@ -1,8 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
