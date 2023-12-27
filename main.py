@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
