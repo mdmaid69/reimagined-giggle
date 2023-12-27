@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
