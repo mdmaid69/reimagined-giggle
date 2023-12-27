@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def convert_to_hex(n):
-        return hex(n)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
