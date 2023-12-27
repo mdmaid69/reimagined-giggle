@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def convert_to_binary(n):
-        return bin(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
