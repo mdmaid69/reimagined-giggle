@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
