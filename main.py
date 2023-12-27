@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def convert_array_to_string(array):
+        return array.tostring()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
