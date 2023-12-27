@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
