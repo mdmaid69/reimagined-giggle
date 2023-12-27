@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-from collections import Counter
-print(Counter("hello world"))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
