@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_pressure(force, area):
-        return force / area
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
