@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
