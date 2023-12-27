@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
