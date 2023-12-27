@@ -1,7 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def add_numbers(a, b):
+        return a + b
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
