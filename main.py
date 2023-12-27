@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_volume(length, width, height):
+        return length * width * height
