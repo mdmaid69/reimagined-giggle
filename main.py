@@ -1,6 +1,5 @@
+def square_number(x):
+        return x**2
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_cosine(x):
+        return math.cos(x)
