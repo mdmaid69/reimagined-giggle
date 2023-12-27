@@ -1,8 +1,6 @@
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
