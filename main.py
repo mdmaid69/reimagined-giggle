@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
