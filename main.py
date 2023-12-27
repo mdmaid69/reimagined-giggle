@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_priority_queue():
+        return collections.deque()
