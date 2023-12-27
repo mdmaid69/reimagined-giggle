@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_acceleration(speed, time):
+        return speed / time
