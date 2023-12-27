@@ -1,6 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
