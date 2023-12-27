@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
