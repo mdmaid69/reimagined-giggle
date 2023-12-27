@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
