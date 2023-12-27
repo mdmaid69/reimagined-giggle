@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
