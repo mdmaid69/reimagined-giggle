@@ -1,6 +1,10 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def add_numbers(x, y):
+        return x + y
