@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def find_min(lst):
-        return min(lst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def create_counter():
+        return collections.Counter()
