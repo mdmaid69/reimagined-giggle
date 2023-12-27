@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
