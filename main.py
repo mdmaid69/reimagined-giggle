@@ -1,6 +1,8 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
