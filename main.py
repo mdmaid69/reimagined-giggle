@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
