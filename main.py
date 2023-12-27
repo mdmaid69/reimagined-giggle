@@ -1,6 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
