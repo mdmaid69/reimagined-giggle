@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
