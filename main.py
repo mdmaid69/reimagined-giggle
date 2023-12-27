@@ -1,5 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-def is_palindrome(s):
-        return s == s[::-1]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
