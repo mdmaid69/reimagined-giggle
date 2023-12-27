@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
