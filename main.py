@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def convert_to_hex(n):
+        return hex(n)
