@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
