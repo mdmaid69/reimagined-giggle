@@ -1,5 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def get_array_index(array, item):
+        return array.index(item)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
