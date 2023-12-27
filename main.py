@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def count_elements(lst):
+        return len(lst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
