@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def is_palindrome(s):
-        return s == s[::-1]
+def add_numbers(x, y):
+        return x + y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
