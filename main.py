@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
