@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
