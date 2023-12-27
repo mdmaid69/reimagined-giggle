@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
