@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
