@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
