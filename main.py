@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import os
+print(os.getcwd())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
