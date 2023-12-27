@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_set(array):
+        return set(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
