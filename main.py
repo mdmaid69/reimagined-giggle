@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_work(force, distance):
-        return force * distance
+def calculate_area_rectangle(l, w):
+        return l * w
+  def calculate_area_rectangle(l, w):
+        return l * w
