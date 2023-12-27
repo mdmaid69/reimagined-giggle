@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
