@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def is_even(n):
-        return n % 2 == 0
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
