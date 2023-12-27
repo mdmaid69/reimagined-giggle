@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_typecode(array):
-        return array.typecode
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
