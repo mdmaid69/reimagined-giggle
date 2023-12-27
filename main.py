@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def append_to_array(array, item):
+        array.append(item)
