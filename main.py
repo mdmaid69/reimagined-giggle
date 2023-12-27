@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
