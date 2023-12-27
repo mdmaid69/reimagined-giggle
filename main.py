@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
