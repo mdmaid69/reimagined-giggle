@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_index(array, item):
+        return array.index(item)
