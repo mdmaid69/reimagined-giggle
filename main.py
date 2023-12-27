@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_volume(length, width, height):
+        return length * width * height
