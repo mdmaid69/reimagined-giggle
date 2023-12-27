@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_speed(distance, time):
+        return distance / time
