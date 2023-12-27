@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_acceleration(speed, time):
-        return speed / time
+import sys
+print(sys.version)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
