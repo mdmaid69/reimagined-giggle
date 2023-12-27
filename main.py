@@ -1,6 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def find_max(numbers):
+        return max(numbers)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
