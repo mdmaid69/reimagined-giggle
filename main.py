@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
