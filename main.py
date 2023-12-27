@@ -1,7 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
