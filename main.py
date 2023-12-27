@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_max(lst):
-        return max(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
