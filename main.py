@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_typecode(array):
+        return array.typecode
