@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import collections
+def create_user_string():
+        return collections.UserString()
+import platform
+def get_python_version():
+        return platform.python_version()
