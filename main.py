@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import platform
+def get_os_info():
+        return platform.uname()
+def sort_list(lst):
+        return sorted(lst)
