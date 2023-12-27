@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_work(force, distance):
-        return force * distance
+import json
+print(json.dumps({"name": "John", "age": 30}))
+from collections import Counter
+print(Counter("hello world"))
