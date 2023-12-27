@@ -1,6 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_sign(x):
+        return math.copysign(1, x)
