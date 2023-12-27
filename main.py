@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
