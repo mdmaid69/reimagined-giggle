@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
