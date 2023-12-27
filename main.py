@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import datetime
+def get_today_date():
+        return datetime.date.today()
