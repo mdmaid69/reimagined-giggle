@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def split_path(path):
+        return os.path.split(path)
