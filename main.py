@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import time
-def get_current_time():
-        return time.ctime()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
