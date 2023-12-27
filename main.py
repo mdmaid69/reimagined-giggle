@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
