@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def add_numbers(a, b):
-        return a + b
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import sys
+def print_python_version():
+        return sys.version
