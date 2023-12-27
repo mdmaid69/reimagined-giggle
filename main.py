@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_str(array):
+        return str(array)
