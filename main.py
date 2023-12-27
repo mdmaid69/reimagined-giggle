@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
