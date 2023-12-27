@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import numpy as np
+print(np.array([1, 2, 3]))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
