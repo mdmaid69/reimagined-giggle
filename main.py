@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
+  def calculate_area_rectangle(l, w):
         return l * w
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
