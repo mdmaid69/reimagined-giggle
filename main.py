@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-x = 10
-y = 20
-print("Sum:", x + y)
+import sys
+def exit_program():
+        sys.exit()
+  import sys
+  def get_python_version():
+        return sys.version
