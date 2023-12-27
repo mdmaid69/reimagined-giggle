@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
