@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
