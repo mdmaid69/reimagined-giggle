@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
