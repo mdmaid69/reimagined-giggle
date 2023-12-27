@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
