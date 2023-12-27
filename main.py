@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_sine(x):
+        return math.sin(x)
