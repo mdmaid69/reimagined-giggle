@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_speed(distance, time):
+        return distance / time
