@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
