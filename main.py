@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_array_to_bytes(array):
+        return array.tobytes()
