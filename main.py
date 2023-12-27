@@ -1,5 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
