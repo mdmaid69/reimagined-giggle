@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
