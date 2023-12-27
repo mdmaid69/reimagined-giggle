@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def find_max(lst):
-        return max(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
