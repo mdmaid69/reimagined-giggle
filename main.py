@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
