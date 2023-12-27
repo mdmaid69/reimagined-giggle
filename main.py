@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def remove_duplicates(lst):
-        return list(set(lst))
+def find_min(numbers):
+        return min(numbers)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
