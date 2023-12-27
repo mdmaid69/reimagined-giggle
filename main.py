@@ -1,7 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
