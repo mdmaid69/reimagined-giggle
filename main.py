@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
