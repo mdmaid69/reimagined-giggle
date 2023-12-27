@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
