@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
