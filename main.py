@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
