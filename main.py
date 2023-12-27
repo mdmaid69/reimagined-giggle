@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def reverse_array(array):
+        array.reverse()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
