@@ -1,6 +1,9 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def is_odd(n):
+        return n % 2 != 0
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
