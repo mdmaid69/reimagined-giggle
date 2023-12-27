@@ -1,5 +1,9 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
