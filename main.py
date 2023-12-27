@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import json
+def convert_to_json(data):
+        return json.dumps(data)
