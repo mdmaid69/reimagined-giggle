@@ -1,6 +1,4 @@
-  def convert_to_hex(n):
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def convert_to_hex(n):
         return hex(n)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
