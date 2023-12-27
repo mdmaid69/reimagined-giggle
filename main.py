@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-def count_words(sentence):
-        return len(sentence.split())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
