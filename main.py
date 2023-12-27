@@ -1,7 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
