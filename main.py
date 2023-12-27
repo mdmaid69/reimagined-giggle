@@ -1,7 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def greet(name):
+        print(f"Hello, {name}!")
