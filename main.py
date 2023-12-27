@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
