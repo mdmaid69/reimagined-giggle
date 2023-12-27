@@ -1,6 +1,9 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
