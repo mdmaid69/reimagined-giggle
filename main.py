@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
