@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
