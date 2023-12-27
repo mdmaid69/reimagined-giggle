@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_stack():
+        return collections.deque()
+import logging
+def log_message(message):
+        logging.info(message)
