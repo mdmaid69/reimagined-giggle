@@ -1,5 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
