@@ -1,6 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
