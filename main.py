@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def subtract_numbers(x, y):
-        return x - y
+def calculate_acceleration(speed, time):
+        return speed / time
+  def reverse_list(lst):
+        return lst[::-1]
