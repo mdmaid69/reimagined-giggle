@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import platform
+def get_os_info():
+        return platform.uname()
