@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def remove_duplicates(lst):
+        return list(set(lst))
