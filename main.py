@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def is_palindrome(s):
+        return s == s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
