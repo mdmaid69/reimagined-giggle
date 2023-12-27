@@ -1,8 +1,8 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
