@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
