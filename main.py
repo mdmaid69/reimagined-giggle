@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import time
+def get_time_since_epoch():
+        return time.time()
