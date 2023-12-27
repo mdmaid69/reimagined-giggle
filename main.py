@@ -1,5 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import time
+def get_current_time():
+        return time.ctime()
