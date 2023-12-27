@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def subtract_numbers(x, y):
-        return x - y
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
