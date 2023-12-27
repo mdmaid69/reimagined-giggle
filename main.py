@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def add_numbers(a, b):
+        return a + b
