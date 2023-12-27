@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_area_circle(r):
+        return 3.14 * r**2
