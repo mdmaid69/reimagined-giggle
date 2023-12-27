@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
