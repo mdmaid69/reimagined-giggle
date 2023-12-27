@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
