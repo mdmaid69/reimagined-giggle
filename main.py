@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def cube_number(x):
-        return x**3
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
