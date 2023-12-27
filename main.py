@@ -1,5 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def sort_list(lst):
-        return sorted(lst)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
