@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def subtract_numbers(x, y):
+        return x - y
