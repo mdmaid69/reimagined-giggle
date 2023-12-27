@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
