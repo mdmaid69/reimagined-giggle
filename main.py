@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+print([x**2 for x in range(10)])
