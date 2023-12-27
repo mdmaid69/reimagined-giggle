@@ -1,6 +1,5 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def get_array_as_float(array):
+        return float(array[0])
+  def convert_to_hex(n):
+        return hex(n)
