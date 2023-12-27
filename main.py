@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import sys
+def print_python_version():
+        print(sys.version)
