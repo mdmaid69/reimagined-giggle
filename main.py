@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
