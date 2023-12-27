@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
