@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
