@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
