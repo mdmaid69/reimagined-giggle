@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def reverse_string(s):
+        return s[::-1]
