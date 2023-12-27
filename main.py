@@ -1,5 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_volume(length, width, height):
-        return length * width * height
+def extend_array(array, iterable):
+        array.extend(iterable)
