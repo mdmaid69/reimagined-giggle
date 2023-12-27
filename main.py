@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def delete_file(file_name):
+        os.remove(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
