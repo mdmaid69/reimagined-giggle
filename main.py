@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
