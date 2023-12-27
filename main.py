@@ -1,8 +1,11 @@
 import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_as_repr(array):
+        return repr(array)
