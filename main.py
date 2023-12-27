@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
