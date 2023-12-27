@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_area_rectangle(l, w):
-        return l * w
+  def convert_to_binary(n):
+        return bin(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
