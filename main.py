@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
