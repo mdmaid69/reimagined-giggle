@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_power(work, time):
+        return work / time
