@@ -1,5 +1,6 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def square_number(x):
-        return x**2
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
