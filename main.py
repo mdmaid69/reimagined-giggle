@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def find_unique_words(sentence):
+        return set(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
