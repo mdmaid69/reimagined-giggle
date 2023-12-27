@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
