@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def sort_list(lst):
-        return sorted(lst)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
