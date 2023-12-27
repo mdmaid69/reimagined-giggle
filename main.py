@@ -1,5 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
