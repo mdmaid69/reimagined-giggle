@@ -1,6 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def count_elements(lst):
+        return len(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
