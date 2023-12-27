@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
