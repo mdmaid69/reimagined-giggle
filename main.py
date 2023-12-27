@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_density(mass, volume):
-        return mass / volume
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_pressure(force, area):
+        return force / area
