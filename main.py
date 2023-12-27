@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
