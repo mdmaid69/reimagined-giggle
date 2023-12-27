@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
