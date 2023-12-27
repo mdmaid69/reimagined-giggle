@@ -1,6 +1,7 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def count_words(sentence):
+        return len(sentence.split())
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
