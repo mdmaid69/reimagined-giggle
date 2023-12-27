@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
