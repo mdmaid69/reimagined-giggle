@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_pressure(force, area):
+        return force / area
