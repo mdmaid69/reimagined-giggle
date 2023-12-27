@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
