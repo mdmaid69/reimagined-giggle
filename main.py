@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import time
+def get_current_time():
+        return time.ctime()
