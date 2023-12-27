@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
