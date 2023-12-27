@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def convert_to_octal(n):
-        return oct(n)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
