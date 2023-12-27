@@ -1,7 +1,8 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
