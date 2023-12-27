@@ -1,7 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
