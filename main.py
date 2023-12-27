@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
