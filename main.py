@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
