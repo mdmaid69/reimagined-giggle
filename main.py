@@ -1,3 +1,8 @@
-print(sum(range(10)))
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
