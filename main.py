@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
