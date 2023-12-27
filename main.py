@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def multiply_numbers(x, y):
+        return x * y
+import logging
+def log_message(message):
+        logging.info(message)
