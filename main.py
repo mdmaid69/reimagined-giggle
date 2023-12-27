@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_average(lst):
+        return sum(lst) / len(lst)
