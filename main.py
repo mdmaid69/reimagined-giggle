@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
