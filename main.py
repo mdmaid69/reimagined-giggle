@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
