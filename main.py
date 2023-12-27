@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
