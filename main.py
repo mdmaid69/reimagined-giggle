@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def find_max(numbers):
-        return max(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def convert_to_binary(n):
+        return bin(n)
