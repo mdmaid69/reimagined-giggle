@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
