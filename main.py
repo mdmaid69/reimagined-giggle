@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
