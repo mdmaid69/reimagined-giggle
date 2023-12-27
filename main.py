@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
