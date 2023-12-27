@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import collections
-def create_priority_queue():
-        return collections.deque()
+import time
+def get_current_time():
+        return time.time()
+import os
+print(os.getcwd())
