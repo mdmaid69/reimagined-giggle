@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
