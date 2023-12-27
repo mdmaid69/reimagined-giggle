@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
