@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
