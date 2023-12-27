@@ -1,5 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_power(work, time):
-        return work / time
+  def get_current_working_directory():
+        return os.getcwd()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
