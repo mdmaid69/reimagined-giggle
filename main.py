@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
