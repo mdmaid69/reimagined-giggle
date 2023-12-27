@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
