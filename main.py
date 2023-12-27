@@ -1,6 +1,7 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
