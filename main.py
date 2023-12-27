@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
