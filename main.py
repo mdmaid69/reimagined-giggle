@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_density(mass, volume):
+        return mass / volume
