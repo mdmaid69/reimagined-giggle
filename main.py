@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_ceiling(x):
+        return math.ceil(x)
