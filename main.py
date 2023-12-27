@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
