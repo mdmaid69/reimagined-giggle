@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def split_path(path):
+        return os.path.split(path)
