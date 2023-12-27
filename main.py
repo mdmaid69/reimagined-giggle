@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
