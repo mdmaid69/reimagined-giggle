@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
