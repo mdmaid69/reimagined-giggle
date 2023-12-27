@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def convert_to_hex(n):
+        return hex(n)
