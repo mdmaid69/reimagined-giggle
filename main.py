@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def convert_to_hex(n):
+        return hex(n)
