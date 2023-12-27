@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
