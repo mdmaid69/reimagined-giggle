@@ -1,5 +1,5 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def cube_number(x):
-        return x**3
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_speed(distance, time):
+        return distance / time
