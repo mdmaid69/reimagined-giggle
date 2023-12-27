@@ -1,5 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def find_min(lst):
-        return min(lst)
+def append_to_array(array, item):
+        array.append(item)
