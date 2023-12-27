@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+name = "Python"
+print("Hello,", name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
