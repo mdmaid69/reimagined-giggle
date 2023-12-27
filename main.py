@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def convert_to_binary(n):
+        return bin(n)
