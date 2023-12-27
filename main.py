@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
