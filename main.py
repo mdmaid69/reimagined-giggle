@@ -1,9 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
