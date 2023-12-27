@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import random
+print(random.randint(0, 100))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
