@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_cosine(x):
+        return math.cos(x)
