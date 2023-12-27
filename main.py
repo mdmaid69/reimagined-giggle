@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
