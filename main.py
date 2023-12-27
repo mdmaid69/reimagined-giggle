@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def is_palindrome(s):
+        return s == s[::-1]
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
