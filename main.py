@@ -1,6 +1,7 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
