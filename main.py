@@ -1,6 +1,7 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
