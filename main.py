@@ -1,5 +1,7 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_area_rectangle(l, w):
+        return l * w
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
