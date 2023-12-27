@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
