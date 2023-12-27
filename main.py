@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
