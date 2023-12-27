@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
