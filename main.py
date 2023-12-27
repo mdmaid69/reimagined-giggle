@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import re
+print(re.match("h.*o", "hello world"))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
