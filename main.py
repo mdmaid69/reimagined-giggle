@@ -1,6 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
