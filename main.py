@@ -1,6 +1,6 @@
 import collections
-def create_priority_queue():
+def create_stack():
         return collections.deque()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
