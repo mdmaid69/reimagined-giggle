@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
