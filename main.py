@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
