@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
