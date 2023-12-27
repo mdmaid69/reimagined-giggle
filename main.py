@@ -1,5 +1,9 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def add_numbers(x, y):
+        return x + y
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
