@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
