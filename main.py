@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import collections
+def create_stack():
+        return collections.deque()
+def convert_to_binary(n):
+        return bin(n)
