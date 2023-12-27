@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
