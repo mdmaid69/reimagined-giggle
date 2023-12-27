@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_as_set(array):
+        return set(array)
