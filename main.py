@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
