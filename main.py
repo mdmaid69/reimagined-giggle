@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
