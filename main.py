@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def remove_duplicates(lst):
+        return list(set(lst))
