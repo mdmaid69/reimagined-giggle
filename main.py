@@ -1,7 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+for i in range(5):
+        print(i)
