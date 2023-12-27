@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
