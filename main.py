@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_power(work, time):
-        return work / time
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
