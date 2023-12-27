@@ -1,4 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def sort_list(lst):
-        return sorted(lst)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
