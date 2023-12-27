@@ -1,5 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def greet(name):
+        print(f"Hello, {name}!")
+  def is_odd(n):
+        return n % 2 != 0
