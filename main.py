@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
