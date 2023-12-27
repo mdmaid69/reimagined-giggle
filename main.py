@@ -1,8 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
