@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
