@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def reverse_list(lst):
-        return lst[::-1]
+print([x**2 for x in range(10)])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
