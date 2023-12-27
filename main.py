@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def reverse_array(array):
+        array.reverse()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
