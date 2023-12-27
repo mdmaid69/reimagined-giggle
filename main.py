@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import time
+def get_current_time():
+        return time.time()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
