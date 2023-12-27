@@ -1,6 +1,7 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
