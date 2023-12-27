@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import sys
-def print_python_version():
-        print(sys.version)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
