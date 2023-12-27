@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
