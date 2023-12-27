@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def is_odd(n):
+        return n % 2 != 0
