@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def reverse_array(array):
+        array.reverse()
