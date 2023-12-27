@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
