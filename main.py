@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
