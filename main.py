@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def divide_numbers(x, y):
+        return x / y
