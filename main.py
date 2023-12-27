@@ -1,4 +1,5 @@
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def find_min(lst):
-        return min(lst)
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
