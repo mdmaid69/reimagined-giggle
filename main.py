@@ -1,8 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
