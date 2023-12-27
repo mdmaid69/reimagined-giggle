@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
