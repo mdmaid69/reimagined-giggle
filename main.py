@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
