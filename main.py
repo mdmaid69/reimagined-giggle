@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
