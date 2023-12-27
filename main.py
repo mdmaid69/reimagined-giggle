@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import numpy as np
+print(np.array([1, 2, 3]))
