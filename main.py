@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def convert_to_binary(n):
-        return bin(n)
+import collections
+def create_user_string():
+        return collections.UserString()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
