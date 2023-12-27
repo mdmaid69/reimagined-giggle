@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
