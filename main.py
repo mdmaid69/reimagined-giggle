@@ -1,5 +1,4 @@
-def square_number(x):
-        return x**2
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def add_numbers(x, y):
+        return x + y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
