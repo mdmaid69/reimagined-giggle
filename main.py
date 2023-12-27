@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
