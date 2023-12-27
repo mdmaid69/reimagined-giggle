@@ -1,6 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
