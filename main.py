@@ -1,10 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
