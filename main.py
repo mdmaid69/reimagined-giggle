@@ -1,5 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
