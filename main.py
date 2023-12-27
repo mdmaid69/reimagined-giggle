@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def greet(name):
-        print(f"Hello, {name}!")
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
