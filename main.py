@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import platform
+def get_os_info():
+        return platform.uname()
