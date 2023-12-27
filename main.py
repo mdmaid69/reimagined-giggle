@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
