@@ -1,6 +1,8 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
