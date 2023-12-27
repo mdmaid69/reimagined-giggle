@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
