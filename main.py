@@ -1,7 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def get_array_typecode(array):
+        return array.typecode
