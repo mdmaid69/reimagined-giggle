@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
