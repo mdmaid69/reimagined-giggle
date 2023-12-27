@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_power(work, time):
+        return work / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
