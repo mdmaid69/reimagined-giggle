@@ -1,6 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+print([x**2 for x in range(10)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
