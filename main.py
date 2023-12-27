@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
