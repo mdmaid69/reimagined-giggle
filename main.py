@@ -1,7 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
