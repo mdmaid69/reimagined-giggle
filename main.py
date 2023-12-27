@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def cube_number(x):
+        return x**3
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
