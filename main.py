@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import platform
+def get_os_info():
+        return platform.uname()
