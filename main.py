@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-for i in range(5):
-        print(i)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
