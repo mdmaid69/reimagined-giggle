@@ -1,6 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
