@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
