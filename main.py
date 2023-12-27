@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import re
-print(re.match("h.*o", "hello world"))
+  def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
