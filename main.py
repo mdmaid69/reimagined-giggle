@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
