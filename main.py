@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_length(array):
+        return len(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
