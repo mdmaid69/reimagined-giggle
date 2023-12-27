@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
