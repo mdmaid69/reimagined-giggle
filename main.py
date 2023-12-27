@@ -1,5 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-print(sys.version)
+  def delete_file(file_name):
+        os.remove(file_name)
