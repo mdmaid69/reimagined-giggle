@@ -1,7 +1,3 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+print([x**2 for x in range(10)])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
