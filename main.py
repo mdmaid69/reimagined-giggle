@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def multiply_numbers(x, y):
+        return x * y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
