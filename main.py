@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
