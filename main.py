@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import time
+def get_current_time():
+        return time.ctime()
