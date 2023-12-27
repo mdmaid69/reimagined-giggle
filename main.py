@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_power(work, time):
+        return work / time
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
