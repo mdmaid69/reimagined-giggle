@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
