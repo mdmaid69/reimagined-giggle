@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
