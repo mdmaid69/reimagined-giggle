@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_item(array, i):
+        return array[i]
