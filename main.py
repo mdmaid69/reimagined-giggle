@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_pressure(force, area):
+        return force / area
+import array
+def remove_from_array(array, item):
+        array.remove(item)
