@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_queue():
+        return collections.deque()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
