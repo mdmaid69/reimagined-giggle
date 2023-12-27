@@ -1,7 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
         plt.show()
