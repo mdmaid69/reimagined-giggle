@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import sys
+def print_python_version():
+        print(sys.version)
