@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
