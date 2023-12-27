@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
