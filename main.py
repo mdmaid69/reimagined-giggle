@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
