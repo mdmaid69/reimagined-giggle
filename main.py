@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
