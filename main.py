@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def is_palindrome(s):
-        return s == s[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
