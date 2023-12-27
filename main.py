@@ -1,7 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+print([x**2 for x in range(10)])
