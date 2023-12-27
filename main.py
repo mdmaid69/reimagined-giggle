@@ -1,7 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
