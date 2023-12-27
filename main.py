@@ -1,8 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import os
+print(os.getcwd())
+  def convert_to_octal(n):
+        return oct(n)
