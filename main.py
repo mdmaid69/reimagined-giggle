@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import logging
-def log_message(message):
-        logging.info(message)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
