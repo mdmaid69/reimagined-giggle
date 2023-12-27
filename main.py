@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
