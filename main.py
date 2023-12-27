@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_speed(distance, time):
+        return distance / time
