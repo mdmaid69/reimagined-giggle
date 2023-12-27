@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
