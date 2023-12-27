@@ -1,5 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
