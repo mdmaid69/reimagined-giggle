@@ -1,4 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-print("Hello, world!")
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def convert_to_binary(n):
+        return bin(n)
