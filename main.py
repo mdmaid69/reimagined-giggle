@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def cube_number(x):
+        return x**3
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
