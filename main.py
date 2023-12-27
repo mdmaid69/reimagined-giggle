@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_pressure(force, area):
+        return force / area
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
