@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import collections
-def create_user_list():
-        return collections.UserList()
+def sort_numbers(numbers):
+        return sorted(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
