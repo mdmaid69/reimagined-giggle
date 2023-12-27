@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_sine(x):
+        return math.sin(x)
