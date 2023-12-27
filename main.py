@@ -1,7 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
