@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
