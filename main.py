@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
