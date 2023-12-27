@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_speed(distance, time):
-        return distance / time
+  def is_odd(n):
+        return n % 2 != 0
+  def multiply_numbers(x, y):
+        return x * y
