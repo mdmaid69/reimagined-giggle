@@ -1,6 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
