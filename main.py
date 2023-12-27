@@ -1,6 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def convert_to_json(data):
+        return json.dumps(data)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
