@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def convert_to_octal(n):
-        return oct(n)
+def add_numbers(a, b):
+        return a + b
+import sys
+def exit_program():
+        sys.exit()
