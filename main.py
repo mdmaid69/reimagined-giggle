@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_volume(length, width, height):
-        return length * width * height
+import getpass
+def get_username():
+        return getpass.getuser()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
