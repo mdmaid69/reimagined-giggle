@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
