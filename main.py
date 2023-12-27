@@ -1,5 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
