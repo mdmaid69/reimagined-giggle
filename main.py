@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
