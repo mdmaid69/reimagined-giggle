@@ -1,4 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import collections
+def create_stack():
+        return collections.deque()
