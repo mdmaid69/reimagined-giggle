@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
