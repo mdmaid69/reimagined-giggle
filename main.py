@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def append_to_array(array, item):
+        array.append(item)
