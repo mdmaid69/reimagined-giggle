@@ -1,6 +1,8 @@
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
