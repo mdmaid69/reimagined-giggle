@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
