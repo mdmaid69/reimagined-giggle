@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_item(array, i):
-        return array[i]
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
