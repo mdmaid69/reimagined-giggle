@@ -1,5 +1,5 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def reverse_list(lst):
-        return lst[::-1]
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
