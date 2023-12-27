@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
