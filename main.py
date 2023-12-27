@@ -1,6 +1,8 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
