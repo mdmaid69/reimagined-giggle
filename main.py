@@ -1,6 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def remove_from_array(array, item):
+        array.remove(item)
