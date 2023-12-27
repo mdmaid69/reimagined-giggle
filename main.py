@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
