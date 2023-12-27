@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
