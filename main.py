@@ -1,8 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
