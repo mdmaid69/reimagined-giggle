@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
