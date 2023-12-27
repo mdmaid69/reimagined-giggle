@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
