@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import sys
+def print_python_version():
+        print(sys.version)
