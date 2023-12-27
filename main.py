@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
