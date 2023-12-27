@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_speed(distance, time):
+        return distance / time
