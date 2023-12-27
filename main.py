@@ -1,5 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
