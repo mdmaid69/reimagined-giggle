@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def add_numbers(x, y):
+        return x + y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
