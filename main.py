@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
