@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import logging
+def log_message(message):
+        logging.info(message)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
