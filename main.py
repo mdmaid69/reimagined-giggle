@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_arc_cosine(x):
+        return math.acos(x)
