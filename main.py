@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import time
-def get_time_since_epoch():
-        return time.time()
+def get_current_time():
+        return time.ctime()
