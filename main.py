@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
