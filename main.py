@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import tensorflow as tf
+print(tf.__version__)
