@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def reverse_array(array):
+        array.reverse()
+def greet(name):
+        print(f"Hello, {name}!")
