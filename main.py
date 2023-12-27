@@ -1,3 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-for i in range(10): print(i)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
