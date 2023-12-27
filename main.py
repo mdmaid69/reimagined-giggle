@@ -1,6 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def get_array_as_set(array):
+        return set(array)
+  def multiply_numbers(x, y):
+        return x * y
