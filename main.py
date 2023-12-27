@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import datetime
-print(datetime.datetime.now())
+def divide_numbers(x, y):
+        return x / y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
