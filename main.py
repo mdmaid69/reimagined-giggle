@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
