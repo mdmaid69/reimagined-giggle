@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_str(array):
+        return str(array)
