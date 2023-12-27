@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import logging
+def log_message(message):
+        logging.info(message)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
