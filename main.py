@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def sort_list(lst):
+        return sorted(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
