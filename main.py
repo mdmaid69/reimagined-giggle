@@ -1,6 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
