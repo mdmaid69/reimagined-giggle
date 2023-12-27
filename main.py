@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def reverse_array(array):
+        array.reverse()
