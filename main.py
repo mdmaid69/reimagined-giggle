@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
