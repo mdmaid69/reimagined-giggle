@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def split_path(path):
+        return os.path.split(path)
