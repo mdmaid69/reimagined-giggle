@@ -1,5 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import random
-print(random.randint(0, 100))
+def calculate_sign(x):
+        return math.copysign(1, x)
