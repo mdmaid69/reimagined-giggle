@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
