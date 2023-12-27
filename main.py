@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
