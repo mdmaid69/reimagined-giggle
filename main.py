@@ -1,6 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
