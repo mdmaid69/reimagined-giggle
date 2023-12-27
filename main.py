@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
