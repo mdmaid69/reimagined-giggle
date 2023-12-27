@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
