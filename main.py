@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
