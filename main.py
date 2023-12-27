@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
