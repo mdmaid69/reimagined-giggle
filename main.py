@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
