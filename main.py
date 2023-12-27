@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def add_numbers(a, b):
+        return a + b
