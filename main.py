@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
