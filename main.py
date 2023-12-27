@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import tensorflow as tf
-print(tf.__version__)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def calculate_area_rectangle(l, w):
+        return l * w
