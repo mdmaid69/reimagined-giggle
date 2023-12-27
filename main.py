@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def subtract_numbers(x, y):
-        return x - y
+import logging
+def log_message(message):
+        logging.info(message)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
