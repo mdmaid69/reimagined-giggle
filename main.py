@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def convert_to_octal(n):
+        return oct(n)
