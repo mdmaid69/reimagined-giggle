@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
