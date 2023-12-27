@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def convert_to_hex(n):
+        return hex(n)
