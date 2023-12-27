@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+print(os.getcwd())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
