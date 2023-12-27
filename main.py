@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
