@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def convert_to_hex(n):
-        return hex(n)
+import os
+print(os.getcwd())
+import collections
+def create_counter():
+        return collections.Counter()
