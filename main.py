@@ -1,4 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
