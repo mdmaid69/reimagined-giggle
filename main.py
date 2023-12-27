@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
