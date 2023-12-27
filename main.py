@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import getpass
+def get_username():
+        return getpass.getuser()
