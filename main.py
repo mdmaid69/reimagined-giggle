@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
