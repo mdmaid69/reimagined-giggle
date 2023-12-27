@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
