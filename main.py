@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
