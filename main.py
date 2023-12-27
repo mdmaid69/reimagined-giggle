@@ -1,5 +1,6 @@
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
