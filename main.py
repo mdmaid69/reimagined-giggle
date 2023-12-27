@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
