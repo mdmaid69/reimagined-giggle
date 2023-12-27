@@ -1,6 +1,9 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
