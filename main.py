@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
