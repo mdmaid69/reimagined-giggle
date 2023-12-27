@@ -1,4 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import re
-print(re.match("h.*o", "hello world"))
+def divide_numbers(x, y):
+        return x / y
+def find_max(lst):
+        return max(lst)
