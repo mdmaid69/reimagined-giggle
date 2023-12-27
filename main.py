@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import getpass
-def get_username():
-        return getpass.getuser()
+import collections
+def create_stack():
+        return collections.deque()
+  def add_numbers(x, y):
+        return x + y
