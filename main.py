@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
