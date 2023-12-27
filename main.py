@@ -1,6 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def get_array_as_bool(array):
+        return bool(array)
