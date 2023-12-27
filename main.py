@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+name = "Python"
+print("Hello,", name)
+def cube_number(x):
+        return x**3
