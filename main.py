@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
