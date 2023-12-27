@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
