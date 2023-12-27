@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_speed(distance, time):
+        return distance / time
