@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
