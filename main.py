@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def multiply_numbers(x, y):
-        return x * y
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
