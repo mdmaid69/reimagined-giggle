@@ -1,6 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
