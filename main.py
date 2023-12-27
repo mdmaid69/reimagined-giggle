@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_arc_sine(x):
+        return math.asin(x)
