@@ -1,7 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
