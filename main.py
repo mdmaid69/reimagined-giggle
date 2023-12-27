@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def cube_number(x):
+        return x**3
+import array
+def set_array_item(array, i, item):
+        array[i] = item
