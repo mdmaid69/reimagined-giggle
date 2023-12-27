@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
