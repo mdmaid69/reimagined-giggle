@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
