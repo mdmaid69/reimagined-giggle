@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_work(force, distance):
+        return force * distance
