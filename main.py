@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def set_array_item(array, i, item):
+        array[i] = item
