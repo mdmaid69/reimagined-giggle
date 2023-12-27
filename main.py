@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
