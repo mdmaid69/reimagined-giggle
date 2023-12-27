@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
