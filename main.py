@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import datetime
-print(datetime.datetime.now())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
