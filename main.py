@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
