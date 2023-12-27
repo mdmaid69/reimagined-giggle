@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
