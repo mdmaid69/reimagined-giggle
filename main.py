@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
