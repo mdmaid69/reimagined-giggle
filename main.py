@@ -1,6 +1,6 @@
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
