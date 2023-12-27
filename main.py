@@ -1,5 +1,8 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
