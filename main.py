@@ -1,5 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_arc_sine(x):
+        return math.asin(x)
