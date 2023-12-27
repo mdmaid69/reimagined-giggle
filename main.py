@@ -1,5 +1,8 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
