@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def find_min(numbers):
+        return min(numbers)
