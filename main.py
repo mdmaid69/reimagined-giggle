@@ -1,7 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_slice(array, i, j):
+        return array[i:j]
