@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
