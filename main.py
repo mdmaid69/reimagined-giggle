@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def count_characters(sentence):
-        return len(sentence)
+def add_numbers(x, y):
+        return x + y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
