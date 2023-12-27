@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+  def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
