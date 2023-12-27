@@ -1,5 +1,8 @@
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import collections
-def create_stack():
-        return collections.deque()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
