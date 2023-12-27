@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_acceleration(speed, time):
+        return speed / time
