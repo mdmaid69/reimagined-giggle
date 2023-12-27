@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
