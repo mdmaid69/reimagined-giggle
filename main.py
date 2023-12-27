@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def convert_to_octal(n):
-        return oct(n)
+def change_working_directory(path):
+        os.chdir(path)
