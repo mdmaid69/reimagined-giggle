@@ -1,5 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
