@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def cube_number(x):
+        return x**3
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
