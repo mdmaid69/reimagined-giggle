@@ -1,8 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
