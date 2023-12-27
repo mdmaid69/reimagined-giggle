@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import datetime
+def get_current_date():
+        return datetime.date.today()
