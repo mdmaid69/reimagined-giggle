@@ -1,8 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
