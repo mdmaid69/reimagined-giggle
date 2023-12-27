@@ -1,7 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
