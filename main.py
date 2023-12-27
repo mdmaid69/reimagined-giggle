@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def reverse_list(lst):
+        return lst[::-1]
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
