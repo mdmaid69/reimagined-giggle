@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_power(work, time):
-        return work / time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_floor(x):
+        return math.floor(x)
