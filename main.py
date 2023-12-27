@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
