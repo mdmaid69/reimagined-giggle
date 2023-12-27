@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
