@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
