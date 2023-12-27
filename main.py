@@ -1,8 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import datetime
+def get_current_date():
+        return datetime.date.today()
