@@ -1,5 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def count_elements(lst):
-        return len(lst)
+def get_array_as_bytearray(array):
+        return bytearray(array)
