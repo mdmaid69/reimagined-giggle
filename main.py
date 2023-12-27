@@ -1,7 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
