@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
