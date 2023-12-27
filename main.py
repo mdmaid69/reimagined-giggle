@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
