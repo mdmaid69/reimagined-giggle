@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_area_circle(r):
+        return 3.14 * r**2
