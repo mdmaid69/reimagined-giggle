@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import re
+print(re.match("h.*o", "hello world"))
