@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
