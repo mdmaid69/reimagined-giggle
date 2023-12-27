@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_list_from_array(array):
+        return array.tolist()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
