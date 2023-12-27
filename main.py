@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
