@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_complex(array):
+        return complex(array[0])
