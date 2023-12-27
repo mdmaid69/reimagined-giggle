@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
