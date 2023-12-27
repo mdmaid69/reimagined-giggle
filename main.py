@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def is_palindrome(s):
-        return s == s[::-1]
+import numpy as np
+print(np.array([1, 2, 3]))
+  def cube_number(x):
+        return x**3
