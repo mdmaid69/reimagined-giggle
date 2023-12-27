@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
