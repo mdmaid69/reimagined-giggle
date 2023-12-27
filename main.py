@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
