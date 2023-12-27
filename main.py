@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import sys
+def print_python_version():
+        return sys.version
