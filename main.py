@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_float(array):
+        return float(array[0])
