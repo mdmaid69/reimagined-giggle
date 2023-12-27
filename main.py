@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
