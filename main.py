@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
