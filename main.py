@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
