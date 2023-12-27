@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
