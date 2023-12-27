@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def remove_duplicates(lst):
+        return list(set(lst))
