@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_floor(x):
+        return math.floor(x)
