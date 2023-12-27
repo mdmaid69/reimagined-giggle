@@ -1,5 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
