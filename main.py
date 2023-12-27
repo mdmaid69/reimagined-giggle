@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def square_number(x):
+        return x**2
