@@ -1,6 +1,9 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
