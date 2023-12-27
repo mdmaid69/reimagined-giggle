@@ -1,5 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+for i in range(5):
+        print(i)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
