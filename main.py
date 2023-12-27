@@ -1,6 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import sys
+def print_python_version():
+        print(sys.version)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
