@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
