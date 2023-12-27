@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def is_odd(n):
+        return n % 2 != 0
+def find_min(lst):
+        return min(lst)
