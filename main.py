@@ -1,5 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  def add_numbers(x, y):
-        return x + y
+  def get_directory_name(path):
+        return os.path.dirname(path)
