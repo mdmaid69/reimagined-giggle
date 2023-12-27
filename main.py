@@ -1,5 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
