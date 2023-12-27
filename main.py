@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_typecode(array):
+        return array.typecode
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
