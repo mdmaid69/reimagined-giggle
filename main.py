@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
