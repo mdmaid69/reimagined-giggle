@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
