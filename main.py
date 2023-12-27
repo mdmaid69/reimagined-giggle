@@ -1,6 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def reverse_string(s):
+        return s[::-1]
+def multiply_numbers(x, y):
+        return x * y
