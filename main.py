@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
