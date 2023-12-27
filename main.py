@@ -1,7 +1,8 @@
-def find_min(numbers):
-        return min(numbers)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import sys
+def print_python_version():
+        print(sys.version)
