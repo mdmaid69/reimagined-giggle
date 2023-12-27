@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
