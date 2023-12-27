@@ -1,5 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_volume(length, width, height):
+        return length * width * height
