@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
