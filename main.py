@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def split_path(path):
+        return os.path.split(path)
