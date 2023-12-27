@@ -1,5 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import time
+def get_current_time():
+        return time.time()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
