@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
