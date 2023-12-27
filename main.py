@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
