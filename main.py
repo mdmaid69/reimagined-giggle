@@ -1,8 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def count_words(sentence):
+        return len(sentence.split())
