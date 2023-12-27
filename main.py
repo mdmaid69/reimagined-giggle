@@ -1,7 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def get_array_as_str(array):
+        return str(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
