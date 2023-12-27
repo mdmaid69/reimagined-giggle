@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import re
-print(re.match("h.*o", "hello world"))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
