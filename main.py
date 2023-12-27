@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
