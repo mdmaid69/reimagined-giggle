@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
