@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def is_palindrome(s):
+        return s == s[::-1]
+import datetime
+print(datetime.datetime.now())
