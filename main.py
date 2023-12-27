@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
+  def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
