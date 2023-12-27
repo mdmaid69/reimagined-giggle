@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def reverse_string(s):
-        return s[::-1]
+import sys
+def exit_program():
+        sys.exit()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
