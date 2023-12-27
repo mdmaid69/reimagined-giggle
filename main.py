@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def reverse_array(array):
+        array.reverse()
