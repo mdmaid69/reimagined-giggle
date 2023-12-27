@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import sys
-def exit_program():
-        sys.exit()
+import os
+print(os.getcwd())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
