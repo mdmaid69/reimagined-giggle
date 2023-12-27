@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def find_unique_words(sentence):
+        return set(sentence.split())
