@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
