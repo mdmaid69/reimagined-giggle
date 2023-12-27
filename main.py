@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
