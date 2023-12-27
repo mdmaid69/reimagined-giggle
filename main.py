@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
