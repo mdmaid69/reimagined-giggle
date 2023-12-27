@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
