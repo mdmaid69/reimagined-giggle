@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def square_number(x):
+        return x**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
