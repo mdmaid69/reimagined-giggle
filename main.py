@@ -1,6 +1,8 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
