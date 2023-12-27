@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
