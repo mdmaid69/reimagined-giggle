@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
