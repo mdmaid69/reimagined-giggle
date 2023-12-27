@@ -1,7 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
   def get_file_size(file_name):
-        return os.path.getsize(file_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+        return os.stat(file_name).st_size
