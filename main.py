@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
