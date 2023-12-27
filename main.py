@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
