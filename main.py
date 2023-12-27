@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
