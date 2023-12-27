@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def reverse_list(lst):
+        return lst[::-1]
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
