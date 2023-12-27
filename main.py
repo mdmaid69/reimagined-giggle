@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_queue():
+        return collections.deque()
