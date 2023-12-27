@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
