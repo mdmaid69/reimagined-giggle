@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_item_count(array, item):
+        return array.count(item)
