@@ -1,5 +1,9 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
