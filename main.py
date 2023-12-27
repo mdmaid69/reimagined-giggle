@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def sort_list(lst):
+        return sorted(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
