@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import collections
+def create_stack():
+        return collections.deque()
