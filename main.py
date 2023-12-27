@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
