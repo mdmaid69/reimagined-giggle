@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
