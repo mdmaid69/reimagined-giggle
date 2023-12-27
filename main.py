@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_power(work, time):
-        return work / time
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
