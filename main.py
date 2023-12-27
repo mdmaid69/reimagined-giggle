@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+for i in range(10): print(i)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
