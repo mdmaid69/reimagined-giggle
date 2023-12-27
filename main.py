@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def convert_to_octal(n):
+        return oct(n)
+def multiply_numbers(x, y):
+        return x * y
