@@ -1,6 +1,8 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
