@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
