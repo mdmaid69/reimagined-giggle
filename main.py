@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_int(array):
+        return int(array[0])
