@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def square_number(x):
-        return x**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import platform
+def get_os_info():
+        return platform.uname()
