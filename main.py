@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
