@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
