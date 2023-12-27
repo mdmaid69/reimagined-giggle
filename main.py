@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+from collections import Counter
+print(Counter("hello world"))
