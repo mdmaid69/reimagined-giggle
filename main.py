@@ -1,8 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
