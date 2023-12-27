@@ -1,5 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_power(work, time):
-        return work / time
+def convert_array_to_bytes(array):
+        return array.tobytes()
