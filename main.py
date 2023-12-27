@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
