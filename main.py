@@ -1,6 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
