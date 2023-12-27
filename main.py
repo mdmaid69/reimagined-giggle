@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
