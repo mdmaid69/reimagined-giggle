@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
