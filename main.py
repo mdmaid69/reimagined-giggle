@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def multiply_numbers(x, y):
+        return x * y
+def count_words(sentence):
+        return len(sentence.split())
