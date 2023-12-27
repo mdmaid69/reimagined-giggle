@@ -1,5 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_work(force, distance):
-        return force * distance
+  def square_number(x):
+        return x**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
