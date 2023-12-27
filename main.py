@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
