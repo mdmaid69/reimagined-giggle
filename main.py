@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def is_odd(n):
+        return n % 2 != 0
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
