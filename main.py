@@ -1,6 +1,7 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def get_array_length(array):
-        return len(array)
+def get_list_from_array(array):
+        return array.tolist()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
