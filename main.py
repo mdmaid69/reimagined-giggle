@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def get_current_working_directory():
+        return os.getcwd()
