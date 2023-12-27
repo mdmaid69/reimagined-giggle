@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def find_max(numbers):
+        return max(numbers)
+import time
+print(time.time())
