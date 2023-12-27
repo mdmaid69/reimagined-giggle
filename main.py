@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
