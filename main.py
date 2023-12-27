@@ -1,8 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
