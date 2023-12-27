@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
