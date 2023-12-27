@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
