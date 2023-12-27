@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_pressure(force, area):
+        return force / area
