@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
