@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
