@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
