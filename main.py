@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
