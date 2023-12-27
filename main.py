@@ -1,5 +1,8 @@
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def get_array_index(array, item):
-        return array.index(item)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
