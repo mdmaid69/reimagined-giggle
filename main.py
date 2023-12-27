@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import collections
+def create_priority_queue():
+        return collections.deque()
