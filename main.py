@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
