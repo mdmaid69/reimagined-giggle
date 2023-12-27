@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
