@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
