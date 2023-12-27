@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
