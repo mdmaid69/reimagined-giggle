@@ -1,7 +1,10 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
