@@ -1,7 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
