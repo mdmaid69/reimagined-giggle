@@ -1,6 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
