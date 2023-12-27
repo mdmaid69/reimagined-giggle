@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def convert_to_hex(n):
+        return hex(n)
