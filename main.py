@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
