@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
