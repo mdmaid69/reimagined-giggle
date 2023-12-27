@@ -1,8 +1,3 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+print([x**2 for x in range(10)])
+def calculate_power(work, time):
+        return work / time
