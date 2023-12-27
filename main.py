@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
