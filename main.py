@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
