@@ -1,5 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import array
-def get_array_typecode(array):
-        return array.typecode
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def get_bytes_from_array(array):
+        return array.tobytes()
