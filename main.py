@@ -1,7 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
