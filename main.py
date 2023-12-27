@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
