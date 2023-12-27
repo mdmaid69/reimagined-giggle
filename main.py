@@ -1,6 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
