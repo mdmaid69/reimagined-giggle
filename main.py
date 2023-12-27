@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def convert_to_octal(n):
+        return oct(n)
+import sys
+def exit_program():
+        sys.exit()
