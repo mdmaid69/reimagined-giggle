@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
