@@ -1,5 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
