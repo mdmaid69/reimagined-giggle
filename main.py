@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
