@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
