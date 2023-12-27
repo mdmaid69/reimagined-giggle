@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
