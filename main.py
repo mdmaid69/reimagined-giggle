@@ -1,5 +1,8 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
