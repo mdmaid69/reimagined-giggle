@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def cube_number(x):
+        return x**3
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
