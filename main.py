@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
