@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
