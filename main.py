@@ -1,5 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
