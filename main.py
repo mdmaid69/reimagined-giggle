@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import datetime
+print(datetime.datetime.now())
