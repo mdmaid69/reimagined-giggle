@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def reverse_array(array):
+        array.reverse()
