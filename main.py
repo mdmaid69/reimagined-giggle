@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_stack():
-        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def subtract_numbers(x, y):
+        return x - y
