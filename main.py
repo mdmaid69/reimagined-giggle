@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def add_numbers(a, b):
+        return a + b
