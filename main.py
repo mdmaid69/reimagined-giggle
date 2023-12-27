@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
