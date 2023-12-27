@@ -1,7 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
