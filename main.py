@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_user_string():
+        return collections.UserString()
