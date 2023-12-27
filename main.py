@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def convert_to_octal(n):
-        return oct(n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import numpy as np
+print(np.array([1, 2, 3]))
