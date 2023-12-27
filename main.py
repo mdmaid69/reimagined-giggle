@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def sort_list(lst):
-        return sorted(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_as_str(array):
+        return str(array)
