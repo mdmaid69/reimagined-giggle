@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
