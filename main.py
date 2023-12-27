@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def reverse_list(lst):
-        return lst[::-1]
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
