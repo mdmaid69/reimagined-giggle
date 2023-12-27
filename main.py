@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
