@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_acceleration(speed, time):
+        return speed / time
