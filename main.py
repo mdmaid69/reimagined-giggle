@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
