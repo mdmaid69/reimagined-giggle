@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
