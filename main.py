@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_sine(x):
+        return math.sin(x)
