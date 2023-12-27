@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_pressure(force, area):
+        return force / area
