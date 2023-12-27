@@ -1,6 +1,3 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+print([x**2 for x in range(10)])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
