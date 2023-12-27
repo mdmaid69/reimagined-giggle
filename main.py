@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
