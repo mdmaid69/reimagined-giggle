@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import json
+print(json.dumps({"name": "John", "age": 30}))
