@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
