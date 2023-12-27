@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
