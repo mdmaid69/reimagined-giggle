@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
