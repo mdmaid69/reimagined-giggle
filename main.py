@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_counter():
+        return collections.Counter()
