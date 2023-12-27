@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
