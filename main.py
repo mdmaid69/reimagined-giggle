@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import getpass
+def get_username():
+        return getpass.getuser()
