@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
