@@ -1,7 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def get_string_from_array(array):
+def convert_array_to_bytes(array):
         return array.tobytes()
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
