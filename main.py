@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def cube_number(x):
+        return x**3
