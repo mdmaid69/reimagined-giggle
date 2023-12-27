@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import sys
+def exit_program():
+        sys.exit()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
