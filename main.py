@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
