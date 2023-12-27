@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import random
+def roll_die():
+        return random.randint(1, 6)
