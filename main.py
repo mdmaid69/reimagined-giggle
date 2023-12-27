@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
