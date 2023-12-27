@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-  def convert_to_binary(n):
-        return bin(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
