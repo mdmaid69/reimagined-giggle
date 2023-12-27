@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
