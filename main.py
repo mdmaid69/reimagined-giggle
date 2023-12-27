@@ -1,4 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def find_max(numbers):
-        return max(numbers)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
