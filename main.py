@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def reverse_list(lst):
+def reverse_list(lst):
         return lst[::-1]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
