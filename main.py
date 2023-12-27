@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
