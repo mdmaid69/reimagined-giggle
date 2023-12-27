@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
