@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
