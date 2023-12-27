@@ -1,5 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
