@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
