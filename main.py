@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_pressure(force, area):
-        return force / area
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
