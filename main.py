@@ -1,5 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def sort_list(lst):
-        return sorted(lst)
+def square_number(x):
+        return x**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
