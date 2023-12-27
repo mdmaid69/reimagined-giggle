@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
