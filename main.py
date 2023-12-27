@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
