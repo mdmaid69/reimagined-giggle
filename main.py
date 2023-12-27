@@ -1,6 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
