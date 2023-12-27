@@ -1,8 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_acceleration(speed, time):
+        return speed / time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
