@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_pressure(force, area):
+        return force / area
