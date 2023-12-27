@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_power(work, time):
+        return work / time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
