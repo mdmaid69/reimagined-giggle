@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import os
+def remove_directory(path):
+        os.rmdir(path)
