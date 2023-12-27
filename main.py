@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
