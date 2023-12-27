@@ -1,6 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
