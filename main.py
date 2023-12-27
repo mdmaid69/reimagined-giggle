@@ -1,8 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
