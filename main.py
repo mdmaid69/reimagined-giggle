@@ -1,5 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
