@@ -1,7 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
