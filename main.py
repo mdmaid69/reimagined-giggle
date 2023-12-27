@@ -1,11 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
