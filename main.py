@@ -1,6 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
