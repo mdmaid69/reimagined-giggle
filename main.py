@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import re
+print(re.match("h.*o", "hello world"))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
