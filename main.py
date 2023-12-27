@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
