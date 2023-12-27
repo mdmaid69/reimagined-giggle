@@ -1,6 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import time
-def get_time_since_epoch():
-        return time.time()
+def get_array_as_tuple(array):
+        return tuple(array)
