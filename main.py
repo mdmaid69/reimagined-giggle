@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
