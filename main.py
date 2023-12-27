@@ -1,11 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
