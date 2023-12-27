@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def is_odd(n):
+        return n % 2 != 0
+  def add_numbers(x, y):
+        return x + y
