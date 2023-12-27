@@ -1,5 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import sys
-print(sys.version)
+def calculate_exponential(x):
+        return math.exp(x)
