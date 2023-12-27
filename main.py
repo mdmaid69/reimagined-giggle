@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_sine(x):
+        return math.sin(x)
