@@ -1,5 +1,11 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
