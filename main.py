@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def reverse_string(s):
-        return s[::-1]
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
