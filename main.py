@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
