@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_pressure(force, area):
+        return force / area
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
