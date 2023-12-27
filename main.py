@@ -1,6 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_list(array):
+        return list(array)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
