@@ -1,5 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
