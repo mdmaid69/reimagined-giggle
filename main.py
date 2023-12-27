@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+from collections import Counter
+print(Counter("hello world"))
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_length(array):
+        return len(array)
