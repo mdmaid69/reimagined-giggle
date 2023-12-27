@@ -1,7 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
