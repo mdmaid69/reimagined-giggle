@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import re
-print(re.match("h.*o", "hello world"))
+print("Hello, world!")
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
