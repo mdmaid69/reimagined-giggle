@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
