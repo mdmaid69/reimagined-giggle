@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
