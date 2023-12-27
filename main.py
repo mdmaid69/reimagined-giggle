@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
