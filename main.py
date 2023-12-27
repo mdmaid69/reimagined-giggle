@@ -1,5 +1,5 @@
+def square_number(x):
+        return x**2
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  def count_elements(lst):
-        return len(lst)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
