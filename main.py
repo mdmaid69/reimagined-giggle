@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
