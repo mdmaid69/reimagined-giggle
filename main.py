@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
 import os
-def get_current_working_directory():
-        return os.getcwd()
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
