@@ -1,6 +1,6 @@
 import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def print_python_version():
+        return sys.version
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
