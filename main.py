@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
