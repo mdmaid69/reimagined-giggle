@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def add_numbers(x, y):
+        return x + y
