@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
