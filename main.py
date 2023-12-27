@@ -1,5 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
