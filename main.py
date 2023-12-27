@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_floor(x):
+        return math.floor(x)
