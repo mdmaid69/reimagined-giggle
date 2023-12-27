@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
