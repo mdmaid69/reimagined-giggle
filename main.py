@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
