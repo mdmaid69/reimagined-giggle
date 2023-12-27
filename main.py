@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
