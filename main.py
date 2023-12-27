@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
