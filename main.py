@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def is_even(n):
+x = 10
+y = 20
+print("Sum:", x + y)
+  def is_even(n):
         return n % 2 == 0
