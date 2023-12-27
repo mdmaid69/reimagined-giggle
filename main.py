@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def count_elements(lst):
-        return len(lst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import platform
+def get_os_info():
+        return platform.uname()
