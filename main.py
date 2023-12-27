@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
