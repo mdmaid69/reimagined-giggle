@@ -1,4 +1,5 @@
 n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import os
+def remove_directory(path):
+        os.rmdir(path)
