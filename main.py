@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
