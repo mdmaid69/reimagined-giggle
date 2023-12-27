@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
