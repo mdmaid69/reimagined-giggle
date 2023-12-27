@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def clear_array(array):
+        array *= 0
