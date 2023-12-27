@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
