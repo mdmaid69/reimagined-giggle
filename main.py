@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import random
+print(random.randint(0, 100))
