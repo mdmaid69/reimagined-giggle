@@ -1,6 +1,6 @@
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def pop_from_array(array, i=-1):
+        return array.pop(i)
