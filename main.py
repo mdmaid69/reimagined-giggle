@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def subtract_numbers(x, y):
-        return x - y
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
