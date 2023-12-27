@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
