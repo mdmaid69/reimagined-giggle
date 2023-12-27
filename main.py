@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
