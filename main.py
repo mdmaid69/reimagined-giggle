@@ -1,6 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
