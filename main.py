@@ -1,6 +1,12 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
