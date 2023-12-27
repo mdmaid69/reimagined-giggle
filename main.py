@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
