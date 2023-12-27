@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import random
+def roll_die():
+        return random.randint(1, 6)
