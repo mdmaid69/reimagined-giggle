@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
