@@ -1,6 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
