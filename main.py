@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import re
+print(re.match("h.*o", "hello world"))
+def add_numbers(x, y):
+        return x + y
