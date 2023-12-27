@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
