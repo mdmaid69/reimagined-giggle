@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
