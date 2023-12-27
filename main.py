@@ -1,5 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
