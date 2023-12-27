@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
