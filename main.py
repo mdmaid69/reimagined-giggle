@@ -1,5 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def convert_to_octal(n):
-        return oct(n)
+print(sum(range(10)))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
