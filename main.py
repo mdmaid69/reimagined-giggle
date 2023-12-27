@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_length(array):
+        return len(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
