@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
