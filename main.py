@@ -1,9 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-from flask import Flask
-app = Flask(__name__)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import socket
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
