@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
