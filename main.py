@@ -1,8 +1,8 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
