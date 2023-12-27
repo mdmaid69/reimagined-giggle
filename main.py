@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
