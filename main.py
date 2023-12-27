@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_acceleration(speed, time):
+        return speed / time
