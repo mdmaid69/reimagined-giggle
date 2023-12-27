@@ -1,6 +1,12 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import getpass
+def get_username():
+        return getpass.getuser()
