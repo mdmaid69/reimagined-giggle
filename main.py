@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
