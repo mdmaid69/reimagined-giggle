@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
