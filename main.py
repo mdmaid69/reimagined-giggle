@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import logging
-def log_message(message):
-        logging.info(message)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
