@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
