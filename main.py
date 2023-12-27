@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
