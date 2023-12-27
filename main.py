@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import collections
+def create_counter():
+        return collections.Counter()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
