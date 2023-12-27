@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
