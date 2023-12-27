@@ -1,6 +1,8 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
