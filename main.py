@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+from collections import Counter
+print(Counter("hello world"))
+def reverse_string(s):
+        return s[::-1]
