@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def remove_duplicates(lst):
-        return list(set(lst))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
