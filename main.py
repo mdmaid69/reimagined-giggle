@@ -1,6 +1,5 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
