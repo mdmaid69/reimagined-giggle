@@ -1,7 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
