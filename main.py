@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import os
+def remove_directory(path):
+        os.rmdir(path)
