@@ -1,5 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
