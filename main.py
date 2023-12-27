@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def add_numbers(x, y):
-        return x + y
+import platform
+def get_python_version():
+        return platform.python_version()
+def convert_to_binary(n):
+        return bin(n)
