@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import os
+print(os.getcwd())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
