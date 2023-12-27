@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
