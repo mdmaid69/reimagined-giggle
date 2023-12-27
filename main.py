@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-name = "Python"
-print("Hello,", name)
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
