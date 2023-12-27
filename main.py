@@ -1,8 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import sys
+def print_python_version():
+        print(sys.version)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
