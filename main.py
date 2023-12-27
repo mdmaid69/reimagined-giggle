@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
