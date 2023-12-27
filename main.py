@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
