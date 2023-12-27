@@ -1,9 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
