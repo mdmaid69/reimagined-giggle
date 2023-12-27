@@ -1,6 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import logging
+def log_message(message):
+        logging.info(message)
