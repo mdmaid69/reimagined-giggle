@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def reverse_string(s):
+        return s[::-1]
