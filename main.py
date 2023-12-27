@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
