@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
