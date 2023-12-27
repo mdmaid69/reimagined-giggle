@@ -1,5 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
