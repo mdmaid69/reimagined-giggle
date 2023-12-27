@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
