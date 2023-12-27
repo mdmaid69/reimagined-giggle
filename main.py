@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
