@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
