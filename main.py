@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import sys
+def print_python_version():
+        return sys.version
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
