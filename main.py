@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def convert_to_hex(n):
+        return hex(n)
