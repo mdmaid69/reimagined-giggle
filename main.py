@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import logging
+def log_message(message):
+        logging.info(message)
