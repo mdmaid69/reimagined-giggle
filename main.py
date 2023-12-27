@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def convert_to_binary(n):
+        return bin(n)
