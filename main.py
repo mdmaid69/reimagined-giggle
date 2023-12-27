@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
