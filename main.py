@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
