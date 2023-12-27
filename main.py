@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_power(work, time):
-        return work / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
