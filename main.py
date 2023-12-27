@@ -1,6 +1,10 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
