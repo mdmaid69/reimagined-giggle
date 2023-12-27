@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
