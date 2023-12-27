@@ -1,5 +1,9 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
