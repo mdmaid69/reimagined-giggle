@@ -1,7 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_power(work, time):
+        return work / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
