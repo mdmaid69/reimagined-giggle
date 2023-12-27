@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
