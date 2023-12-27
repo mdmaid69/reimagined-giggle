@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def count_elements(lst):
+        return len(lst)
