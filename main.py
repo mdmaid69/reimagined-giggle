@@ -1,3 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-print(sum(range(10)))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
