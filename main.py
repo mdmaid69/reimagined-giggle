@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
