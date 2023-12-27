@@ -1,6 +1,5 @@
-for i in range(10): print(i)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
