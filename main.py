@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_as_str(array):
+        return str(array)
