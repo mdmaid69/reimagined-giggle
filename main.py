@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
