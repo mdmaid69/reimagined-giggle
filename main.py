@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import time
+def get_current_time():
+        return time.time()
