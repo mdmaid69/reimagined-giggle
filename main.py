@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
