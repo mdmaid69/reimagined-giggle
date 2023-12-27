@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import getpass
-def get_username():
-        return getpass.getuser()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
