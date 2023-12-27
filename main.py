@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
