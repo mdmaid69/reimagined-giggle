@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_speed(distance, time):
-        return distance / time
+def remove_duplicates(lst):
+        return list(set(lst))
+def is_odd(n):
+        return n % 2 != 0
