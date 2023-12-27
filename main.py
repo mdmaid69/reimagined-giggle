@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def calculate_area_rectangle(l, w):
-        return l * w
+def divide_numbers(x, y):
+        return x / y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
