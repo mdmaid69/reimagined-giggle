@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_power(work, time):
+        return work / time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
