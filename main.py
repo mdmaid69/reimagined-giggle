@@ -1,6 +1,8 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
