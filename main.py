@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
