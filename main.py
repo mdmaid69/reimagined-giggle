@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def convert_to_hex(n):
+        return hex(n)
