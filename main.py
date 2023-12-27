@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def convert_to_octal(n):
+        return oct(n)
