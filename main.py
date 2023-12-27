@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+for i in range(5):
+        print(i)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
