@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def count_words(sentence):
+        return len(sentence.split())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
