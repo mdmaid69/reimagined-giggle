@@ -1,4 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import datetime
+def get_current_date():
+        return datetime.date.today()
