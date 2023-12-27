@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
