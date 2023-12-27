@@ -1,5 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
