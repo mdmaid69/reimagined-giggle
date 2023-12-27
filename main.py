@@ -1,5 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
