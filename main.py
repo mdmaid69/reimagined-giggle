@@ -1,7 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
