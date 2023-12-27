@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
