@@ -1,6 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
