@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
