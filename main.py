@@ -1,6 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
