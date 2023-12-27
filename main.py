@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
