@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
