@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
