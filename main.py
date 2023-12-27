@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
