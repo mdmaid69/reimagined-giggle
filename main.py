@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def get_array_as_bytes(array):
+        return bytes(array)
