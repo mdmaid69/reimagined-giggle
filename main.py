@@ -1,4 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def convert_to_binary(n):
+        return bin(n)
+def add_numbers(x, y):
+        return x + y
