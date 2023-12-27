@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_as_repr(array):
+        return repr(array)
