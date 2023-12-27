@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+from collections import Counter
+print(Counter("hello world"))
