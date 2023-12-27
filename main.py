@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import getpass
-def get_username():
-        return getpass.getuser()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+for i in range(5):
+        print(i)
