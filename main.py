@@ -1,6 +1,10 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
