@@ -1,9 +1,8 @@
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
