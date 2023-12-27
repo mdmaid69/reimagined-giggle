@@ -1,6 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def create_queue():
+        return collections.deque()
