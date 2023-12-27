@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
