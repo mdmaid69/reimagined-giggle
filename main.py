@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import time
-def get_current_time():
-        return time.time()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
