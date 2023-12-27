@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
