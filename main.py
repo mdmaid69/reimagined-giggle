@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_work(force, distance):
+        return force * distance
