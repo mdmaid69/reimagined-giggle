@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
