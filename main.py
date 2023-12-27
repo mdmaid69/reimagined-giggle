@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
