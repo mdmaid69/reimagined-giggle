@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
