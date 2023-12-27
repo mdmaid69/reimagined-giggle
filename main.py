@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_int(array):
+        return int(array[0])
