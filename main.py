@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
