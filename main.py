@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
