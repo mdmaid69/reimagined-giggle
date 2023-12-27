@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import time
-print(time.time())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_index(array, item):
+        return array.index(item)
