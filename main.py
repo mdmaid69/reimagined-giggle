@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
