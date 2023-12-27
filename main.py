@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import platform
+def get_os_info():
+        return platform.uname()
