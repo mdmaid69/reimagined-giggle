@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def reverse_list(lst):
-        return lst[::-1]
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
