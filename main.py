@@ -1,5 +1,12 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_priority_queue():
+        return collections.deque()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
