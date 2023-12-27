@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_typecode(array):
+        return array.typecode
+def is_palindrome(s):
+        return s == s[::-1]
