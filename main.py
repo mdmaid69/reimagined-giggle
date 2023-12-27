@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
