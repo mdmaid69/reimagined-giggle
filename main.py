@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def is_odd(n):
+        return n % 2 != 0
