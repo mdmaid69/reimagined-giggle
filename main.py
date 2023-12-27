@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def is_even(n):
+        return n % 2 == 0
