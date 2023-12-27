@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def clear_array(array):
+        array *= 0
+print(sum(range(10)))
