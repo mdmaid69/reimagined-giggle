@@ -1,6 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
