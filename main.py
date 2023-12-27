@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
