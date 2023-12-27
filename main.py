@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import getpass
-def get_username():
-        return getpass.getuser()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_volume(length, width, height):
+        return length * width * height
