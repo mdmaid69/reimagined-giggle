@@ -1,6 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
