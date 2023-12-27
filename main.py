@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
