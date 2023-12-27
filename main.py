@@ -1,6 +1,6 @@
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def create_user_string():
-        return collections.UserString()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
