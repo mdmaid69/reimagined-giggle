@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_priority_queue():
+        return collections.deque()
