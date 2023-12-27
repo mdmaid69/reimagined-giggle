@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def greet(name):
+        print(f"Hello, {name}!")
