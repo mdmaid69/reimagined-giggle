@@ -1,5 +1,6 @@
 import logging
-def log_message(message):
-        logging.info(message)
-def find_max(lst):
-        return max(lst)
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
