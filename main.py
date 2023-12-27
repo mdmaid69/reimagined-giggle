@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
