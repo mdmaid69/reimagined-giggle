@@ -1,6 +1,4 @@
-import os
-print(os.getcwd())
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+for i in range(5):
+        print(i)
+  def remove_duplicates(lst):
+        return list(set(lst))
