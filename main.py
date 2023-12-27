@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
