@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_slice(array, i, j):
+        return array[i:j]
+import time
+def get_time_since_epoch():
+        return time.time()
