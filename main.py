@@ -1,6 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
