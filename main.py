@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
