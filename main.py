@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def get_array_index(array, item):
+        return array.index(item)
