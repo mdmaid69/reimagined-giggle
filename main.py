@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_counter():
-        return collections.Counter()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
