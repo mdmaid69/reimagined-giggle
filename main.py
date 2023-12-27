@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def find_max(lst):
-        return max(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
