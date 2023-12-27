@@ -1,6 +1,5 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import logging
-def log_message(message):
-        logging.info(message)
+def get_array_as_bool(array):
+        return bool(array)
+def add_numbers(a, b):
+        return a + b
