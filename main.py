@@ -1,5 +1,8 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import os
+def remove_directory(path):
+        os.rmdir(path)
