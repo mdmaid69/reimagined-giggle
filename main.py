@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
