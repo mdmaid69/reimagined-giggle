@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
