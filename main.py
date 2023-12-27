@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
