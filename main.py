@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
