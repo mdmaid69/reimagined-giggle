@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
