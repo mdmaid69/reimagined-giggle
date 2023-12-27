@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import collections
+def create_user_list():
+        return collections.UserList()
