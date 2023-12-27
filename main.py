@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
