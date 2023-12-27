@@ -1,7 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def reverse_list(lst):
+        return lst[::-1]
+def is_even(n):
+        return n % 2 == 0
