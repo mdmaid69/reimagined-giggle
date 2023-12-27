@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def multiply_numbers(x, y):
-        return x * y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
