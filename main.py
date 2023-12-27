@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
