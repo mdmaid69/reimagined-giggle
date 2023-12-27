@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_floor(x):
+        return math.floor(x)
 import collections
-def create_stack():
-        return collections.deque()
+def create_user_list():
+        return collections.UserList()
