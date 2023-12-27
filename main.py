@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import time
+def get_current_time():
+        return time.time()
