@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
