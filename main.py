@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_array_to_unicode(array):
+        return array.tounicode()
