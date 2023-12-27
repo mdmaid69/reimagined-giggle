@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  def is_even(n):
+        return n % 2 == 0
