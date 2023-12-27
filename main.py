@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
