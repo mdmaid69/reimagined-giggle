@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
