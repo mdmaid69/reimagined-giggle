@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  def count_elements(lst):
+        return len(lst)
