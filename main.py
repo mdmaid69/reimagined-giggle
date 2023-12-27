@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def find_min(lst):
-        return min(lst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_bool(array):
+        return bool(array)
