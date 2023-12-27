@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import collections
+def create_user_list():
+        return collections.UserList()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
