@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_array_to_list(array):
+        return array.tolist()
