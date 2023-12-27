@@ -1,6 +1,10 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def roll_die():
-        return random.randint(1, 6)
+import platform
+def get_os_info():
+        return platform.uname()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
