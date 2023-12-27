@@ -1,5 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def greet(name):
+        print(f"Hello, {name}!")
