@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def divide_numbers(x, y):
-        return x / y
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
