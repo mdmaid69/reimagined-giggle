@@ -1,9 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import time
+def get_current_time():
+        return time.ctime()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
