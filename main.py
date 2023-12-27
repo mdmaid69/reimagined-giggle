@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
