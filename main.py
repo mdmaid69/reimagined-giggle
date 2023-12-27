@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import time
-print(time.time())
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
