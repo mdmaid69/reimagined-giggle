@@ -1,6 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
