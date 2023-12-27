@@ -1,5 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_array_item(array, i):
-        return array[i]
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
