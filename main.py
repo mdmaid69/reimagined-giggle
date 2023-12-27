@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
