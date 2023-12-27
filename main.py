@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
