@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
