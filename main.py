@@ -1,4 +1,9 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_pressure(force, area):
-        return force / area
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
