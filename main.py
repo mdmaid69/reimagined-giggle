@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
