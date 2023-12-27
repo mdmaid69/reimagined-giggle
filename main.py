@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
