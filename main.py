@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
