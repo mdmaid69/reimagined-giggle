@@ -1,11 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import time
+def get_current_time():
+        return time.time()
