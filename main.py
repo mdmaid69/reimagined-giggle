@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import time
-def get_current_time():
-        return time.ctime()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
