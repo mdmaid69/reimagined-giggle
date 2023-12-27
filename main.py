@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
