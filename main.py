@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def convert_to_hex(n):
-        return hex(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
