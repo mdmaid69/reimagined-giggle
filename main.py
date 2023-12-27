@@ -1,5 +1,8 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
