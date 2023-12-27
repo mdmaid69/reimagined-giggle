@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
