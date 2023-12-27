@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-from collections import Counter
-print(Counter("hello world"))
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def add_numbers(x, y):
+        return x + y
