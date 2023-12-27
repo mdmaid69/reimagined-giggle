@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def count_words(sentence):
+        return len(sentence.split())
