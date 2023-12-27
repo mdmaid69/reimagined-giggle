@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
