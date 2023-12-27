@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_array_item(array, i):
-        return array[i]
+def remove_from_array(array, item):
+        array.remove(item)
