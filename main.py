@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def add_numbers(x, y):
-        return x + y
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import os
+def change_working_directory(path):
+        os.chdir(path)
