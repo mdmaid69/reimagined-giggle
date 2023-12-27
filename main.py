@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_area(radius):
+        return 3.14 * radius * radius
