@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
