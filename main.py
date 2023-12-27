@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
