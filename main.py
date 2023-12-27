@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
