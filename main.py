@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def convert_to_octal(n):
+        return oct(n)
