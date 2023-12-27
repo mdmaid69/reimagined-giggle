@@ -1,4 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-print("Hello, world!")
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
