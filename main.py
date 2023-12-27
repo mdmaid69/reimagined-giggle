@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
