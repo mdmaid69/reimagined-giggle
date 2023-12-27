@@ -1,8 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
