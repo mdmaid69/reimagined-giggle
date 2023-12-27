@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def find_min(numbers):
-        return min(numbers)
+def count_characters(sentence):
+        return len(sentence)
+import os
+def change_working_directory(path):
+        os.chdir(path)
