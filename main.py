@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import time
+def get_time_since_epoch():
+        return time.time()
