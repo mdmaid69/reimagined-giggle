@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
