@@ -1,7 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
