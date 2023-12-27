@@ -1,8 +1,8 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
 import array
-def convert_bytes_to_array(bytes, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
