@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
