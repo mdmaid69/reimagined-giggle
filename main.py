@@ -1,5 +1,10 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
