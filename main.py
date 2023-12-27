@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
