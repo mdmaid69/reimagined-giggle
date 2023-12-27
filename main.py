@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
