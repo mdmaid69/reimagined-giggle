@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
