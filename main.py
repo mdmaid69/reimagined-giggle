@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def find_max(numbers):
+        return max(numbers)
