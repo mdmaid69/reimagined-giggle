@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_as_list(array):
+        return list(array)
