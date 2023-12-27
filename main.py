@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def count_elements(lst):
+        return len(lst)
