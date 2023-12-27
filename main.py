@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def multiply_numbers(x, y):
-        return x * y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
