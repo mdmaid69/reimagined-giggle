@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def reverse_string(s):
+        return s[::-1]
+def calculate_area_rectangle(l, w):
+        return l * w
