@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
