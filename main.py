@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+from collections import Counter
+print(Counter("hello world"))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
