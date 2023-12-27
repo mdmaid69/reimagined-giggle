@@ -1,12 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def count_characters(sentence):
+        return len(sentence)
