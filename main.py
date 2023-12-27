@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
