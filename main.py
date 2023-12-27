@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
