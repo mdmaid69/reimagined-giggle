@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
