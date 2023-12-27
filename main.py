@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
