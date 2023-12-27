@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
