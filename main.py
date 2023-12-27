@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import platform
+def get_os_info():
+        return platform.uname()
