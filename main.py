@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
