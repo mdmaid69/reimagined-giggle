@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
