@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_repr(array):
+        return repr(array)
