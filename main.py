@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
