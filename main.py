@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import collections
-def create_queue():
-        return collections.deque()
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
