@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
