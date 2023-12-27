@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
