@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
