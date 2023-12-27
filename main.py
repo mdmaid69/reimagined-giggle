@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
