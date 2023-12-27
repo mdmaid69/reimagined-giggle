@@ -1,8 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
