@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
+print([x**2 for x in range(10)])
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
