@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
