@@ -1,7 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
