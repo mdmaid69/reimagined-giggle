@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import datetime
-print(datetime.datetime.now())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
