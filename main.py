@@ -1,5 +1,7 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def add_numbers(a, b):
-        return a + b
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
