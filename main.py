@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
