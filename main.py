@@ -1,5 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def add_numbers(x, y):
-        return x + y
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
