@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
