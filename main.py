@@ -1,5 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-for i in range(10): print(i)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_power(work, time):
+        return work / time
