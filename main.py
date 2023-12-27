@@ -1,5 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
