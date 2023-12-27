@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
