@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_counter():
-        return collections.Counter()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
