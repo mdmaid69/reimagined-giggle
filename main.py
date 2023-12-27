@@ -1,6 +1,7 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_volume(length, width, height):
+        return length * width * height
