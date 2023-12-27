@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
