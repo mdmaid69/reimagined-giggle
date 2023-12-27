@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def add_numbers(x, y):
+        return x + y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
