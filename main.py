@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
