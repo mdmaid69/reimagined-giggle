@@ -1,5 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def remove_duplicates(lst):
-        return list(set(lst))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def square_number(x):
+        return x**2
