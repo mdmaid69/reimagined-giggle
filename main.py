@@ -1,5 +1,7 @@
-print([x**2 for x in range(10)])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
