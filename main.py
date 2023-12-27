@@ -1,6 +1,7 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
