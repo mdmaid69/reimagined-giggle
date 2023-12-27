@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_typecode(array):
+        return array.typecode
