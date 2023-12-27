@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def add_numbers(a, b):
+        return a + b
