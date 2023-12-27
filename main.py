@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def count_characters(sentence):
+        return len(sentence)
