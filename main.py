@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def reverse_string(s):
-        return s[::-1]
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
