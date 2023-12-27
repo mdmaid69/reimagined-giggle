@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def find_max(lst):
-        return max(lst)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
