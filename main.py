@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
