@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def count_elements(lst):
+        return len(lst)
+def count_elements(lst):
+        return len(lst)
