@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def add_numbers(x, y):
-        return x + y
+import numpy as np
+print(np.array([1, 2, 3]))
+  def convert_to_hex(n):
+        return hex(n)
