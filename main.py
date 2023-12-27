@@ -1,5 +1,7 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_power(work, time):
-        return work / time
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
