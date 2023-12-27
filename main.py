@@ -1,5 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
