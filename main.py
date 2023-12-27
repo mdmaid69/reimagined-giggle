@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def delete_file(file_name):
+        os.remove(file_name)
