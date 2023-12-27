@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_as_bool(array):
+        return bool(array)
