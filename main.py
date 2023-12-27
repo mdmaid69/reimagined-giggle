@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
