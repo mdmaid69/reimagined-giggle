@@ -1,5 +1,5 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_arc_tangent(x):
+        return math.atan(x)
