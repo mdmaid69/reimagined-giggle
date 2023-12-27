@@ -1,6 +1,6 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
