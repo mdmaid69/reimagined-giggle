@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
