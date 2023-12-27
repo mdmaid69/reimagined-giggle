@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
