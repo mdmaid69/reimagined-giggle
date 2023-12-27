@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
