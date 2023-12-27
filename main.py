@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
