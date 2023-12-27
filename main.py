@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
