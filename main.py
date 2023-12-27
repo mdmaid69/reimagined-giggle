@@ -1,8 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
