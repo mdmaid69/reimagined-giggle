@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
