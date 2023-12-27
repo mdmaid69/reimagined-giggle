@@ -1,4 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-print(sum(range(10)))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+from collections import Counter
+print(Counter("hello world"))
