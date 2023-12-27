@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
