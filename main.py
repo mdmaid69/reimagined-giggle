@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
