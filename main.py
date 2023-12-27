@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import random
+print(random.randint(0, 100))
