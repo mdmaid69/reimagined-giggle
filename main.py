@@ -1,5 +1,8 @@
-def remove_duplicates(lst):
-        return list(set(lst))
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import platform
+def get_python_version():
+        return platform.python_version()
