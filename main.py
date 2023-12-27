@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_typecode(array):
+        return array.typecode
