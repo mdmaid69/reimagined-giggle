@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
