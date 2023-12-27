@@ -1,7 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def find_min(lst):
+        return min(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
