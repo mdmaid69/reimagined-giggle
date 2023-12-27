@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
