@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
