@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
