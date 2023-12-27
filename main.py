@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def find_max(lst):
-        return max(lst)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
