@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
