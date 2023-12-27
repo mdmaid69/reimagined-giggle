@@ -1,4 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-print([x**2 for x in range(10)])
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
