@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def get_time_since_epoch():
+        return time.time()
