@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
