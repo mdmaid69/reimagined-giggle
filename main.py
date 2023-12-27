@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
