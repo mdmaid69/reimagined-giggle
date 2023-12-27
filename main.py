@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
