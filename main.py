@@ -1,6 +1,5 @@
+def add_numbers(a, b):
+        return a + b
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
