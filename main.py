@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
