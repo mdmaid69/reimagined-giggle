@@ -1,6 +1,7 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def clear_array(array):
+        array *= 0
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
