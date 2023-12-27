@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def greet(name):
+        print(f"Hello, {name}!")
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
