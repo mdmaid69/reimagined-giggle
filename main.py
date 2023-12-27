@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
