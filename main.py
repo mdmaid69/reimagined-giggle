@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
