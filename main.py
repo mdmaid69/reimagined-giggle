@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
