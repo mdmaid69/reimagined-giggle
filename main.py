@@ -1,6 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
