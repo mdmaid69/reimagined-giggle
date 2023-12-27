@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def is_even(n):
-        return n % 2 == 0
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
