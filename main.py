@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
