@@ -1,2 +1,5 @@
-print(sum(range(10)))
-print([x**2 for x in range(10)])
+for i in range(5):
+        print(i)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
