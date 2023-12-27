@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
