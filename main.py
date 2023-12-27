@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
