@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
