@@ -1,5 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def find_min(lst):
-        return min(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+print(sum(range(10)))
