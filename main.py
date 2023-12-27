@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
