@@ -1,4 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
