@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
