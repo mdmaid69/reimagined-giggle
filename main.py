@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_sine(x):
+        return math.sin(x)
