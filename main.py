@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def find_min(lst):
-        return min(lst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_current_directory():
+        return os.getcwd()
