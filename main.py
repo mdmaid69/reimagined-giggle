@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_pressure(force, area):
+        return force / area
