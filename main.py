@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def convert_to_hex(n):
-        return hex(n)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
