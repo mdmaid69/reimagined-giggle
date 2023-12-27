@@ -1,5 +1,6 @@
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
 import array
-def get_array_as_str(array):
-        return str(array)
-def count_elements(lst):
-        return len(lst)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
