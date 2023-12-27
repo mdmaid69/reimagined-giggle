@@ -1,4 +1,9 @@
-import sys
-print(sys.version)
-def cube_number(x):
-        return x**3
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
