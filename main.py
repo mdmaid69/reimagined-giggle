@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_area_circle(r):
+        return 3.14 * r**2
