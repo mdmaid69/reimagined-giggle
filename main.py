@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
