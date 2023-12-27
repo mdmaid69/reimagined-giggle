@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
