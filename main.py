@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
