@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_density(mass, volume):
-        return mass / volume
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_array_as_int(array):
+        return int(array[0])
