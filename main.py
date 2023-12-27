@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
