@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
