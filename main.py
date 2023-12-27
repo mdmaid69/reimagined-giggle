@@ -1,5 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
