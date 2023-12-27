@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
