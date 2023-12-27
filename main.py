@@ -1,5 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
