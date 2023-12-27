@@ -1,7 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
