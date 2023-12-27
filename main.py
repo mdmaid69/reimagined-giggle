@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
