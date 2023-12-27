@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
