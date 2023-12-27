@@ -1,7 +1,4 @@
-  def cube_number(x):
-        return x**3
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def remove_duplicates(lst):
+        return list(set(lst))
