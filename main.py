@@ -1,8 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
