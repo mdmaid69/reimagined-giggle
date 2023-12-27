@@ -1,6 +1,10 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
