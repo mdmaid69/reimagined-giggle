@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
