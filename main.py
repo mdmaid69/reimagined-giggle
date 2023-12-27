@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
