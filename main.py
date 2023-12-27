@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
