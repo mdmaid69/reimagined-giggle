@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_current_directory():
+        return os.getcwd()
+import array
+def get_array_as_float(array):
+        return float(array[0])
