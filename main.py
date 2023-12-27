@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+for i in range(10): print(i)
+import datetime
+def get_today_date():
+        return datetime.date.today()
