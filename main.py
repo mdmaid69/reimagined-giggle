@@ -1,8 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
