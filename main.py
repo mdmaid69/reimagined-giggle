@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def convert_to_binary(n):
+        return bin(n)
