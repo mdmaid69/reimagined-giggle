@@ -1,5 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+print(sys.version)
