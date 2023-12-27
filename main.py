@@ -1,8 +1,8 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
