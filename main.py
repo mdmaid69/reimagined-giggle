@@ -1,5 +1,7 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def add_numbers(x, y):
+        return x + y
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
