@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def convert_to_binary(n):
-        return bin(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
