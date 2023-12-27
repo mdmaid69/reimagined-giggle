@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def print_python_version():
+        print(sys.version)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
