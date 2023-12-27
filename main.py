@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import numpy as np
+print(np.array([1, 2, 3]))
+  def count_elements(lst):
+        return len(lst)
