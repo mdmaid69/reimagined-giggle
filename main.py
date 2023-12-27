@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
