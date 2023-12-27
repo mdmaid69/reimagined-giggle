@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_area_rectangle(l, w):
+        return l * w
