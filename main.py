@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
