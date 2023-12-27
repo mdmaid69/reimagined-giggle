@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
