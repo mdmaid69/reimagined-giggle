@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_power(work, time):
-        return work / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+x = 10
+y = 20
+print("Sum:", x + y)
