@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
