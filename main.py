@@ -1,5 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
