@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def is_even(n):
+        return n % 2 == 0
