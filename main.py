@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_float(array):
+        return float(array[0])
