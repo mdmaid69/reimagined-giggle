@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
