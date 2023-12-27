@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
