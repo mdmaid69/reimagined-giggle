@@ -1,7 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
