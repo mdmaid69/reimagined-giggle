@@ -1,7 +1,11 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import unittest
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
