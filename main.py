@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
