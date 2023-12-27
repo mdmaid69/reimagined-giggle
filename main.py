@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
