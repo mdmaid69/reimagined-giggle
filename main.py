@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
