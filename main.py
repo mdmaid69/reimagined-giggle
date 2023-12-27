@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def is_even(n):
+        return n % 2 == 0
+import array
+def remove_from_array(array, item):
+        array.remove(item)
