@@ -1,12 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
