@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
+def calculate_power(work, time):
+        return work / time
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
