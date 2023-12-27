@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
