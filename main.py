@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def delete_file(file_name):
+        os.remove(file_name)
