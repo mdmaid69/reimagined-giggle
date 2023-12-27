@@ -1,5 +1,10 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
