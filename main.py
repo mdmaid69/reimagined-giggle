@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def calculate_area_rectangle(l, w):
-        return l * w
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
