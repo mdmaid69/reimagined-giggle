@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
