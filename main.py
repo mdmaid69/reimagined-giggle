@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def convert_to_hex(n):
+        return hex(n)
