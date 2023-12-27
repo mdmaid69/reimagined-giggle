@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
