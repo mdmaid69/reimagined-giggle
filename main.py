@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
