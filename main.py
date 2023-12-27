@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
