@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def count_elements(lst):
+        return len(lst)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
