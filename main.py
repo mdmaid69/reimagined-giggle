@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
