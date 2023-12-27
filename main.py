@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_volume(length, width, height):
+        return length * width * height
