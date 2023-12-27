@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_int(array):
+        return int(array[0])
