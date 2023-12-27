@@ -1,8 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
