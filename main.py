@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import datetime
+print(datetime.datetime.now())
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
