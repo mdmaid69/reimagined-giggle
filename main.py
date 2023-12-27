@@ -1,13 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def square_number(x):
+        return x**2
