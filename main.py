@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
