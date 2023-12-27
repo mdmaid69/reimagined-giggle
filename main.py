@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
