@@ -1,4 +1,9 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
