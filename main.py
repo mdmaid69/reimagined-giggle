@@ -1,4 +1,7 @@
-  def square_number(x):
-        return x**2
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_area_rectangle(l, w):
+        return l * w
