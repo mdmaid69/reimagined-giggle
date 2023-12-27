@@ -1,4 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-for i in range(10): print(i)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
