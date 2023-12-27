@@ -1,6 +1,8 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
