@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
