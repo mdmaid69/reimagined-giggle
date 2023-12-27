@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import platform
-def get_python_version():
-        return platform.python_version()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
