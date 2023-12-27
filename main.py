@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
