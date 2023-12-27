@@ -1,6 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
