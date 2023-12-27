@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def reverse_array(array):
+        array.reverse()
