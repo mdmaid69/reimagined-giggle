@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
