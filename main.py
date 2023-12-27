@@ -1,5 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def get_array_length(array):
-        return len(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def get_array_buffer_info(array):
+        return array.buffer_info()
