@@ -1,6 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_factorial(n):
+        return math.factorial(n)
