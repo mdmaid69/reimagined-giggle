@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
