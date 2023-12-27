@@ -1,6 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
