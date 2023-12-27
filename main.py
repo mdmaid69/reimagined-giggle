@@ -1,5 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_permutations(n, k):
+        return math.perm(n, k)
