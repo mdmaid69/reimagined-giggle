@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
