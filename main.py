@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_list(array):
-        return list(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
