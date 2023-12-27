@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_pressure(force, area):
+        return force / area
