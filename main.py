@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
