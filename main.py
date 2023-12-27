@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
