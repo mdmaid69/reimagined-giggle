@@ -1,7 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
