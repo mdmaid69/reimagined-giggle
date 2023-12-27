@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def square_number(x):
+        return x**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
