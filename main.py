@@ -1,11 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
