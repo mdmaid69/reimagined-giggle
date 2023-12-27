@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def find_min(numbers):
+        return min(numbers)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
