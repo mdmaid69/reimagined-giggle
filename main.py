@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
