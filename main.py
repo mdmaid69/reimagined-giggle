@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-name = "Python"
-print("Hello,", name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
