@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
