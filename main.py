@@ -1,6 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def reverse_list(lst):
+        return lst[::-1]
