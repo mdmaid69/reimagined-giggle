@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
