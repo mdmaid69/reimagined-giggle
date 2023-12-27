@@ -1,14 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
