@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
