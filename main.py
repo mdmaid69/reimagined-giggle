@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_density(mass, volume):
-        return mass / volume
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def change_working_directory(path):
+        os.chdir(path)
