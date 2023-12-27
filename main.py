@@ -1,8 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sys
-def exit_program():
-        sys.exit()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def square_number(x):
+        return x**2
