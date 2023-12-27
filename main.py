@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
