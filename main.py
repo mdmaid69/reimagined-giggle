@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_work(force, distance):
+        return force * distance
