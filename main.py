@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-def add_numbers(a, b):
-        return a + b
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import time
+def get_time_since_epoch():
+        return time.time()
