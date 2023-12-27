@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
