@@ -1,5 +1,5 @@
 import math
-print(math.pi)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
