@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
