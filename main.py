@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
