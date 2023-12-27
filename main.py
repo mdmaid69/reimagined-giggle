@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_queue():
+        return collections.deque()
