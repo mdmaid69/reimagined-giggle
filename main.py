@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_as_set(array):
-        return set(array)
+def find_max(numbers):
+        return max(numbers)
+import collections
+def create_counter():
+        return collections.Counter()
