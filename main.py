@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def convert_to_binary(n):
+        return bin(n)
