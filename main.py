@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
