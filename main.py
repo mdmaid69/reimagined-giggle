@@ -1,7 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import sys
+def exit_program():
+        sys.exit()
