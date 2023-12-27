@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
