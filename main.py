@@ -1,8 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
