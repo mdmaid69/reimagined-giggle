@@ -1,5 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_density(mass, volume):
-        return mass / volume
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
