@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
