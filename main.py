@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
