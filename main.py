@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def clear_array(array):
+        array *= 0
+import getpass
+def get_username():
+        return getpass.getuser()
