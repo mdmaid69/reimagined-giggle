@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-from collections import Counter
-print(Counter("hello world"))
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
