@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import re
-print(re.match("h.*o", "hello world"))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
