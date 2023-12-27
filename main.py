@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def count_words(sentence):
+        return len(sentence.split())
