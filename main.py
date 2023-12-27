@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
