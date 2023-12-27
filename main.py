@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
