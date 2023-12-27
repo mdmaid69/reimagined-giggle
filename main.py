@@ -1,5 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
