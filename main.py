@@ -1,9 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
