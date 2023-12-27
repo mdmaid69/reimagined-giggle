@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def count_elements(lst):
-        return len(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
