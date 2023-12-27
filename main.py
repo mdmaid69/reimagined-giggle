@@ -1,6 +1,8 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
