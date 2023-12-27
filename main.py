@@ -1,5 +1,12 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
