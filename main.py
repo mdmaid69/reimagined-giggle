@@ -1,7 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
