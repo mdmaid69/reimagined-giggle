@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
