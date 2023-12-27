@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def multiply_numbers(x, y):
+        return x * y
