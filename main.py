@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
