@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
