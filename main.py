@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
