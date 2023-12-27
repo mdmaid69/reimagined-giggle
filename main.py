@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def clear_array(array):
+        array *= 0
+def convert_to_binary(n):
+        return bin(n)
