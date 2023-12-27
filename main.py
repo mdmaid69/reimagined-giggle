@@ -1,7 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
