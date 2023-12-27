@@ -1,5 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_work(force, distance):
+        return force * distance
