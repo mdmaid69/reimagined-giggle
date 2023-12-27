@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_acceleration(speed, time):
+        return speed / time
