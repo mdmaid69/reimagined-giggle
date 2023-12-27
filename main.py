@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
