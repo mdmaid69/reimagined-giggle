@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
