@@ -1,4 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
