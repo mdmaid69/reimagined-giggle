@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
