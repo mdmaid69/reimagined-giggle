@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def convert_to_binary(n):
+        return bin(n)
