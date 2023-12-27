@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
