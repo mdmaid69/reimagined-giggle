@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
