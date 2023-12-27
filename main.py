@@ -1,6 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
