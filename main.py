@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
