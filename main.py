@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_min(numbers):
+        return min(numbers)
+  def is_even(n):
+        return n % 2 == 0
