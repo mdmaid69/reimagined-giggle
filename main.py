@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import sys
-  def get_python_version():
-        return sys.version
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
