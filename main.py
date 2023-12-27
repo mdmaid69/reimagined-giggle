@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_power(work, time):
+        return work / time
