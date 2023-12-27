@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def append_to_array(array, item):
+        array.append(item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
