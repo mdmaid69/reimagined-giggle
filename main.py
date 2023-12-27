@@ -1,5 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def find_max(numbers):
-        return max(numbers)
+def get_array_as_str(array):
+        return str(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
