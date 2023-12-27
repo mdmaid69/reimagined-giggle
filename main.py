@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
