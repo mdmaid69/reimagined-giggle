@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def add_numbers(a, b):
-        return a + b
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
