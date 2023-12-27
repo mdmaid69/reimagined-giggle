@@ -1,6 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_directory_name(path):
+        return os.path.dirname(path)
