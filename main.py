@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def get_array_buffer_info(array):
+        return array.buffer_info()
