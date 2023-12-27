@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
