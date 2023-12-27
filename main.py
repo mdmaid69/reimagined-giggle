@@ -1,8 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_power(work, time):
+        return work / time
