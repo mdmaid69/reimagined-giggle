@@ -1,5 +1,5 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
