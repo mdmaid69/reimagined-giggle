@@ -1,4 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_index(array, item):
+        return array.index(item)
