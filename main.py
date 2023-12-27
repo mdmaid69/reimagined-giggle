@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
