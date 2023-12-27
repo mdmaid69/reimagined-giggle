@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
