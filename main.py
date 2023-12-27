@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
