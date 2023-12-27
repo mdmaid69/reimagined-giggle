@@ -1,5 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import sys
-print(sys.version)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def sort_list(lst):
+        return sorted(lst)
