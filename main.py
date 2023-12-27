@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def multiply_numbers(x, y):
+        return x * y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
