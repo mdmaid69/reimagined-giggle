@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
