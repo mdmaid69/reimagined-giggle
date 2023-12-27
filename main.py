@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
