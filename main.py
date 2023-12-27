@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
