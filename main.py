@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
