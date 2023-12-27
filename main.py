@@ -1,6 +1,7 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
