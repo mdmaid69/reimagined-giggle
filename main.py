@@ -1,5 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_density(mass, volume):
+        return mass / volume
+def find_unique_words(sentence):
+        return set(sentence.split())
