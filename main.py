@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
