@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_list_from_array(array):
+        return array.tolist()
