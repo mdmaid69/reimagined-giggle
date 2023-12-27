@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def is_palindrome(s):
+        return s == s[::-1]
