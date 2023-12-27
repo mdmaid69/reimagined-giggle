@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+print(math.pi)
