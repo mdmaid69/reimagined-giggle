@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_speed(distance, time):
-        return distance / time
+def greet(name):
+        print(f"Hello, {name}!")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
