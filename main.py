@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
