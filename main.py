@@ -1,6 +1,6 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_array_item(array, i):
+        return array[i]
