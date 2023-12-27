@@ -1,3 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-for i in range(10): print(i)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
