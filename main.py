@@ -1,7 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_max(lst):
+        return max(lst)
