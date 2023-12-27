@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
