@@ -1,4 +1,9 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
