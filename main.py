@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
