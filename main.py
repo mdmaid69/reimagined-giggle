@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
