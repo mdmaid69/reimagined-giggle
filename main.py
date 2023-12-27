@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
