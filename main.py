@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
