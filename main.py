@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import sys
+def print_python_version():
+        return sys.version
