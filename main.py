@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import datetime
+def get_today_date():
+        return datetime.date.today()
