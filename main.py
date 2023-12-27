@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_list(array):
+        return list(array)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
