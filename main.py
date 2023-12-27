@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
