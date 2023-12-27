@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
 import math
 def calculate_product_of_sequence(start, stop, step):
         return math.prod(range(start, stop, step))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
