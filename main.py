@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_pressure(force, area):
+        return force / area
