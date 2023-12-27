@@ -1,5 +1,7 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-for i in range(5):
-        print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
