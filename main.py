@@ -1,6 +1,6 @@
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_current_directory():
-        return os.getcwd()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
