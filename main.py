@@ -1,6 +1,9 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
