@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def reverse_array(array):
+        array.reverse()
