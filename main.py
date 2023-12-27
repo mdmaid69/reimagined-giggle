@@ -1,7 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
