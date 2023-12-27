@@ -1,5 +1,8 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
