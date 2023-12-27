@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
