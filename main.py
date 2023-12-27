@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
