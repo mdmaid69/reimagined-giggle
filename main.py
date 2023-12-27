@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
