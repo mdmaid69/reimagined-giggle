@@ -1,6 +1,7 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def cube_number(x):
+        return x**3
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
