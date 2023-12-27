@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import sys
-def exit_program():
-        sys.exit()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import sys
+  def get_python_version():
+        return sys.version
