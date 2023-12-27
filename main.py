@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def reverse_string(s):
-        return s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import platform
+def get_python_version():
+        return platform.python_version()
