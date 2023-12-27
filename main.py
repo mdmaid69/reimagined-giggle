@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
