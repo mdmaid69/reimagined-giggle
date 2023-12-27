@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
