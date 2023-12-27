@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
