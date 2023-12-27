@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
