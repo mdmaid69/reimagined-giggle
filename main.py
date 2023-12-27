@@ -1,6 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
