@@ -1,7 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_area_circle(r):
+        return 3.14 * r**2
