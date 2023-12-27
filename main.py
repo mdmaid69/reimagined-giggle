@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import collections
-def create_stack():
-        return collections.deque()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
