@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_length(array):
+        return len(array)
