@@ -1,6 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
