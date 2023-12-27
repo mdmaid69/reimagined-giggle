@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def divide_numbers(x, y):
-        return x / y
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
