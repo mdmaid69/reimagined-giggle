@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def reverse_list(lst):
+        return lst[::-1]
+from collections import Counter
+print(Counter("hello world"))
