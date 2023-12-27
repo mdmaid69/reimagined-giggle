@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def is_odd(n):
-        return n % 2 != 0
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
