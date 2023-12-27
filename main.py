@@ -1,3 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-for i in range(10): print(i)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
