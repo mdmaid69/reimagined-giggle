@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import sys
+def print_python_version():
+        return sys.version
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
