@@ -1,6 +1,7 @@
+def greet(name):
+        print(f"Hello, {name}!")
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
