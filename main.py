@@ -1,6 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def count_characters(sentence):
+        return len(sentence)
