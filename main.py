@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
