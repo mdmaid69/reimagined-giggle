@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import platform
+def get_python_version():
+        return platform.python_version()
