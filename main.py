@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
