@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_typecode(array):
-        return array.typecode
+def insert_into_array(array, i, item):
+        array.insert(i, item)
