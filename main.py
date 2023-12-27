@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+x = 10
+y = 20
+print("Sum:", x + y)
