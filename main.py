@@ -1,7 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
