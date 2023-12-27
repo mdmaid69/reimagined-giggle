@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import sys
+  def get_python_version():
+        return sys.version
