@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_power(work, time):
+        return work / time
