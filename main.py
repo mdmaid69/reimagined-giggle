@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
