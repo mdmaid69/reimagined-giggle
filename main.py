@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
