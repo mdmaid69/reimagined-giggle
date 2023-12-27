@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_tangent(x):
+        return math.tan(x)
