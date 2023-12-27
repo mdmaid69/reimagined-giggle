@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
