@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
