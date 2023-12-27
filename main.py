@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def cube_number(x):
-        return x**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
