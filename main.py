@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def check_if_array_contains_item(array, item):
+        return item in array
+  def sort_list(lst):
+        return sorted(lst)
