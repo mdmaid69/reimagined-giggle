@@ -1,5 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def set_array_item(array, i, item):
+        array[i] = item
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
