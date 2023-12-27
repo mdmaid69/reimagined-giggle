@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def remove_duplicates(lst):
-        return list(set(lst))
+def find_min(lst):
+        return min(lst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
