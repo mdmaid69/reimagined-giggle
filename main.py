@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+for i in range(5):
+        print(i)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
