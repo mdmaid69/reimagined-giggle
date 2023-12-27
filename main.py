@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
