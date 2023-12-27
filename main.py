@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import os
+def remove_directory(path):
+        os.rmdir(path)
