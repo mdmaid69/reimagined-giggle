@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
