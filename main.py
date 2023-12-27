@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def convert_to_hex(n):
+        return hex(n)
+def remove_duplicates(lst):
+        return list(set(lst))
