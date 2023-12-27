@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
