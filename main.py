@@ -1,7 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
