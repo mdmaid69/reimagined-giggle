@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
