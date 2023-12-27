@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
