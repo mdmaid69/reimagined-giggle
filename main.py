@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def convert_to_octal(n):
-        return oct(n)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
