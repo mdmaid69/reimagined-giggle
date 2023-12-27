@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
