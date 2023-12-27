@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import random
-print(random.randint(0, 100))
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
