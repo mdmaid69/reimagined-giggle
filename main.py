@@ -1,5 +1,6 @@
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
