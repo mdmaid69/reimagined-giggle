@@ -1,4 +1,9 @@
-def reverse_list(lst):
-        return lst[::-1]
-from collections import Counter
-print(Counter("hello world"))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
