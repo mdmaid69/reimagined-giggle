@@ -1,6 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
