@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def add_numbers(x, y):
+        return x + y
