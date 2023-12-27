@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
