@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-print(math.pi)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
