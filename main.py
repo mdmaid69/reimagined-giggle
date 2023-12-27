@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_volume(length, width, height):
+        return length * width * height
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
