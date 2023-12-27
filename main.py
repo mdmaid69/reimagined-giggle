@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
