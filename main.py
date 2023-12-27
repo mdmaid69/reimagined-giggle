@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
