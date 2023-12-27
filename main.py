@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import sys
+def print_python_version():
+        return sys.version
