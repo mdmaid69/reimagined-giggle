@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
