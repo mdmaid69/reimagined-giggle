@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_pressure(force, area):
-        return force / area
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
