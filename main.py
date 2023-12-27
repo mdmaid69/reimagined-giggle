@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
