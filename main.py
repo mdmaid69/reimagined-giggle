@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
