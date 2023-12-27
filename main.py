@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def reverse_string(s):
-        return s[::-1]
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_speed(distance, time):
+        return distance / time
