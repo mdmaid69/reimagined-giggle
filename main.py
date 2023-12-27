@@ -1,12 +1,6 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
