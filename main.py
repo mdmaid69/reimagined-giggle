@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import array
-def clear_array(array):
-        array *= 0
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def extend_array(array, iterable):
+        array.extend(iterable)
