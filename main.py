@@ -1,4 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_power(work, time):
-        return work / time
+def reverse_string(s):
+        return s[::-1]
+def cube_number(x):
+        return x**3
