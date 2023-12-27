@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
