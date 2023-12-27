@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def is_palindrome(s):
+        return s == s[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
