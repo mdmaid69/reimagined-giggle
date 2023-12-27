@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+for i in range(5):
+        print(i)
