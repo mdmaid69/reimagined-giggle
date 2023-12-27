@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_slice(array, i, j):
+        return array[i:j]
