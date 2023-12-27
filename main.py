@@ -1,7 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
