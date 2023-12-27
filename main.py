@@ -1,7 +1,7 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
