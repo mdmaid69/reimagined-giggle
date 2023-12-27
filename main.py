@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+print(sum(range(10)))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
