@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
