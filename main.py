@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def is_even(n):
+        return n % 2 == 0
+for i in range(5):
+        print(i)
