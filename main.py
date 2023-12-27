@@ -1,5 +1,12 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def reverse_array(array):
+        array.reverse()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
