@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
