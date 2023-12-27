@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import sys
-  def get_python_version():
-        return sys.version
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def square_number(x):
+        return x**2
