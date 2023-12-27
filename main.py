@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
