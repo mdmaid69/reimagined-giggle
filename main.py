@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
