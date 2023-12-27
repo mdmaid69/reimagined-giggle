@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def count_words(sentence):
+        return len(sentence.split())
+def count_words(sentence):
+        return len(sentence.split())
