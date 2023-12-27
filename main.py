@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
