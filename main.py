@@ -1,6 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_user_string():
+        return collections.UserString()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
