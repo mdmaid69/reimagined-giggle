@@ -1,6 +1,5 @@
+import datetime
+print(datetime.datetime.now())
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
