@@ -1,5 +1,5 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_power(work, time):
-        return work / time
+def get_array_item(array, i):
+        return array[i]
+def sort_numbers(numbers):
+        return sorted(numbers)
