@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def add_numbers(x, y):
+        return x + y
+def calculate_acceleration(speed, time):
+        return speed / time
