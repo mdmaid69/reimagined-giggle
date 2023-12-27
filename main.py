@@ -1,6 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
