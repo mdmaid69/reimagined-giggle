@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
