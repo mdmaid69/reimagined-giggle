@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def is_palindrome(s):
+        return s == s[::-1]
+  def add_numbers(x, y):
+        return x + y
