@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
