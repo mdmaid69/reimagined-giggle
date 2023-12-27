@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
