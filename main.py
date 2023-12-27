@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def convert_to_binary(n):
+        return bin(n)
