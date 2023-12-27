@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
