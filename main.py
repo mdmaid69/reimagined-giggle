@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def convert_to_hex(n):
-        return hex(n)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
