@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
