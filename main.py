@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def find_max(lst):
-        return max(lst)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
