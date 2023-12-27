@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
