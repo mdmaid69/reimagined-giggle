@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def clear_array(array):
+        array *= 0
