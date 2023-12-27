@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def get_array_item(array, i):
-        return array[i]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
