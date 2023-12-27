@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-for i in range(5):
-        print(i)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
