@@ -1,6 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
