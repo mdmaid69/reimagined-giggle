@@ -1,7 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def sort_list(lst):
-        return sorted(lst)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
