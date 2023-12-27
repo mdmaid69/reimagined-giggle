@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
