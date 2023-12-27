@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def is_even(n):
-        return n % 2 == 0
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
