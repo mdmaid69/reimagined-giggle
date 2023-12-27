@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
