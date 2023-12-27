@@ -1,6 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import random
-def roll_die():
-        return random.randint(1, 6)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
