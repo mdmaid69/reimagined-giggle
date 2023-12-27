@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_acceleration(speed, time):
+        return speed / time
