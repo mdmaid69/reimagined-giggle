@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
