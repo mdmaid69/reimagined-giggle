@@ -1,6 +1,10 @@
-import time
-def get_current_time():
-        return time.time()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
