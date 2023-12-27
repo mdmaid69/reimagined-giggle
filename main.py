@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+x = 10
+y = 20
+print("Sum:", x + y)
