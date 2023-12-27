@@ -1,5 +1,8 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
