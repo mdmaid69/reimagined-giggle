@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_acceleration(speed, time):
+        return speed / time
