@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
