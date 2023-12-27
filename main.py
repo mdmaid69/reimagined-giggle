@@ -1,7 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
