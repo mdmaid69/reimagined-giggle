@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_speed(distance, time):
+        return distance / time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
