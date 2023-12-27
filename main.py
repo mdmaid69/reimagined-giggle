@@ -1,7 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
