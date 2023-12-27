@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
