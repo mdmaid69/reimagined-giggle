@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
