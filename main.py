@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
