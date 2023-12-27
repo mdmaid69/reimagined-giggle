@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def is_odd(n):
+        return n % 2 != 0
+  def square_number(x):
+        return x**2
