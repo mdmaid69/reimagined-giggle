@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def delete_file(file_name):
+        os.remove(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
