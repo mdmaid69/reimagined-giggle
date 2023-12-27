@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
