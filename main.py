@@ -1,4 +1,10 @@
-print(sum(range(10)))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_area_rectangle(l, w):
+        return l * w
