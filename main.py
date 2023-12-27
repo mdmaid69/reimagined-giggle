@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
