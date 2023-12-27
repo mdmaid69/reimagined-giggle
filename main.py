@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
