@@ -1,7 +1,12 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import array
+def convert_array_to_string(array):
+        return array.tostring()
