@@ -1,6 +1,8 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def extend_array(array, iterable):
+        array.extend(iterable)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
