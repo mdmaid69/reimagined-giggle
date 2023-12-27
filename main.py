@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  def convert_to_octal(n):
+        return oct(n)
