@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def is_odd(n):
+        return n % 2 != 0
