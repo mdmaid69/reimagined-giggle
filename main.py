@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_density(mass, volume):
-        return mass / volume
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
