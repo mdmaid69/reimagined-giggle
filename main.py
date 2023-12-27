@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
