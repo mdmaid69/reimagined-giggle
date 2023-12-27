@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_power(work, time):
+        return work / time
