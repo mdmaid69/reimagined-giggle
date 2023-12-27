@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
