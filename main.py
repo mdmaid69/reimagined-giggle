@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
