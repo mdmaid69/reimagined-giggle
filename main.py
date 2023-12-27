@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import time
-print(time.time())
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
