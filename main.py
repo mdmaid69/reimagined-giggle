@@ -1,6 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
