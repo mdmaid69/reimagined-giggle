@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
