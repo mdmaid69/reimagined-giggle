@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
