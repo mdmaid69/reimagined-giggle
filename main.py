@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
