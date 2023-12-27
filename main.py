@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
