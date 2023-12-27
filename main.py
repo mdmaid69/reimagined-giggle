@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
