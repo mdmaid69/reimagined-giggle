@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
