@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def add_numbers(a, b):
+        return a + b
