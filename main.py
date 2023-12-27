@@ -1,8 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import unittest
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
