@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
