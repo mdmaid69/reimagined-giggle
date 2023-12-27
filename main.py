@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
