@@ -1,4 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
