@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
