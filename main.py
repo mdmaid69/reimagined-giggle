@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
