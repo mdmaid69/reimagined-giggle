@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
