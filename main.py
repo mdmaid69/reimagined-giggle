@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
