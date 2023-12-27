@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import random
+def roll_die():
+        return random.randint(1, 6)
