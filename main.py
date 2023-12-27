@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
