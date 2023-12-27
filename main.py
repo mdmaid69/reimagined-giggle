@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
