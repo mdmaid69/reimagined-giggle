@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-def greet(name):
-        print(f"Hello, {name}!")
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
