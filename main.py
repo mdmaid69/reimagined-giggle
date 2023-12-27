@@ -1,5 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def convert_to_hex(n):
+        return hex(n)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
