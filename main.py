@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
