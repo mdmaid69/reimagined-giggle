@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_user_list():
-        return collections.UserList()
+def divide_numbers(x, y):
+        return x / y
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
