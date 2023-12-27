@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def is_even(n):
+        return n % 2 == 0
+def calculate_area_circle(r):
+        return 3.14 * r**2
