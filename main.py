@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
