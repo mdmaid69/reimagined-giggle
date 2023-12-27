@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
