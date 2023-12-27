@@ -1,7 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_sign(x):
+        return math.copysign(1, x)
