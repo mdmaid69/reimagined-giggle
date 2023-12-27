@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
