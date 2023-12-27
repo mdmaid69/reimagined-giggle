@@ -1,4 +1,8 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def append_to_array(array, item):
+        array.append(item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
