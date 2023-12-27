@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def count_elements(lst):
+        return len(lst)
