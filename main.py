@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
