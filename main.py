@@ -1,7 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def calculate_area_circle(r):
+        return 3.14 * r**2
