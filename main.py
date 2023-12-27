@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
