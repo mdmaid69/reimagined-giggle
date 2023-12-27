@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
