@@ -1,6 +1,5 @@
+def square_number(x):
+        return x**2
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import sys
-def exit_program():
-        sys.exit()
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
