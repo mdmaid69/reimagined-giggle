@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def find_unique_words(sentence):
+        return set(sentence.split())
+import collections
+def create_user_dict():
+        return collections.UserDict()
