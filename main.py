@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import time
-def get_current_time():
-        return time.time()
+import array
+def reverse_array(array):
+        array.reverse()
+def find_max(lst):
+        return max(lst)
