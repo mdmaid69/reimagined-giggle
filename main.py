@@ -1,7 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
