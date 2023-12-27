@@ -1,8 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
