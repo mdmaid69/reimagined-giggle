@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def convert_to_hex(n):
+        return hex(n)
