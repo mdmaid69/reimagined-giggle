@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def reverse_array(array):
+        array.reverse()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
