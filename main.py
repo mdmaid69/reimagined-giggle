@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def convert_to_octal(n):
+        return oct(n)
