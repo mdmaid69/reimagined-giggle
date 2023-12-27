@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def count_words(sentence):
+        return len(sentence.split())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
