@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_area_rectangle(l, w):
+        return l * w
