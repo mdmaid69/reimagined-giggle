@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def exit_program():
+        sys.exit()
+  def sort_list(lst):
+        return sorted(lst)
