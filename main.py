@@ -1,5 +1,10 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
