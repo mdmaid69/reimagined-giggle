@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
