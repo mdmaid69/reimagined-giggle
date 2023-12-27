@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def reverse_list(lst):
+        return lst[::-1]
