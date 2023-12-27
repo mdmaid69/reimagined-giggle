@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
