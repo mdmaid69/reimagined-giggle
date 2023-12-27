@@ -1,6 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
