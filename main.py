@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
