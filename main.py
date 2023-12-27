@@ -1,9 +1,4 @@
-for i in range(10): print(i)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_power(work, time):
+        return work / time
+def calculate_area_circle(r):
+        return 3.14 * r**2
