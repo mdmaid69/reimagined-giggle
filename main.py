@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
