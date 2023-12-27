@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import tensorflow as tf
-print(tf.__version__)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
