@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
