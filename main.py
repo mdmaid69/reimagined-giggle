@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def count_elements(lst):
-        return len(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
