@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
