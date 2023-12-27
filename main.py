@@ -1,6 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
