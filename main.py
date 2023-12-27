@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
