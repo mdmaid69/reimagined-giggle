@@ -1,7 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
