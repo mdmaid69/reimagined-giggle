@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
