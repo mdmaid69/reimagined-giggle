@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_work(force, distance):
+        return force * distance
