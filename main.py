@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
