@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def find_max(lst):
-        return max(lst)
+import math
+print(math.pi)
+import array
+def get_array_as_bool(array):
+        return bool(array)
