@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
