@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def reverse_list(lst):
+        return lst[::-1]
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
