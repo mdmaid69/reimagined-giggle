@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def square_number(x):
+        return x**2
+def calculate_power(work, time):
+        return work / time
