@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
