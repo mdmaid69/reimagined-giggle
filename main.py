@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import sys
+def print_python_version():
+        return sys.version
+text = "Hello, world!"
+print("Reversed:", text[::-1])
