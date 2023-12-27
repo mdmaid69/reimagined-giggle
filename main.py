@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
