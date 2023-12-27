@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
