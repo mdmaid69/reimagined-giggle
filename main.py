@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-x = 10
-y = 20
-print("Sum:", x + y)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
