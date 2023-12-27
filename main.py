@@ -1,7 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
