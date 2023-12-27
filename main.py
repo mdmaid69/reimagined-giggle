@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
