@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
