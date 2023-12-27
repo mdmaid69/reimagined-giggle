@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import time
-def get_current_time():
-        return time.time()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
