@@ -1,5 +1,12 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
