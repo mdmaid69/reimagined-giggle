@@ -1,8 +1,10 @@
-from flask import Flask
-app = Flask(__name__)
+import threading
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def cube_number(x):
-        return x**3
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
