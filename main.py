@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def add_numbers(x, y):
+        return x + y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
