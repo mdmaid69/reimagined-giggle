@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-def is_even(n):
-        return n % 2 == 0
+def find_min(numbers):
+        return min(numbers)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
