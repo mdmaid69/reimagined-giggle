@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
