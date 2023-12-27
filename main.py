@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import tensorflow as tf
-print(tf.__version__)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
