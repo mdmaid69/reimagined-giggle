@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
