@@ -1,5 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
