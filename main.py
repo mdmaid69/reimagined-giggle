@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+print(math.pi)
