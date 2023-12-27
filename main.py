@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def find_min(lst):
+        return min(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
