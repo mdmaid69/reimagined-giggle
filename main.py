@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
