@@ -1,6 +1,5 @@
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
 import math
-print(math.pi)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
