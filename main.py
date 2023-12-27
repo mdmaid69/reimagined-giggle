@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
