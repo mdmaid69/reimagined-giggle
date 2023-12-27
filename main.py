@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def remove_duplicates(lst):
+        return list(set(lst))
+def is_palindrome(s):
+        return s == s[::-1]
