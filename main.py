@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
