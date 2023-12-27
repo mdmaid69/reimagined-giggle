@@ -1,8 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
