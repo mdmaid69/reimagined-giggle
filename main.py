@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
