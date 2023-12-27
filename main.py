@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
