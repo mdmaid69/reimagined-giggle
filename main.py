@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Hello, world!")
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
