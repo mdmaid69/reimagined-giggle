@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-print(os.getcwd())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_as_str(array):
+        return str(array)
