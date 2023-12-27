@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def roll_die():
+        return random.randint(1, 6)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
