@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_itemsize(array):
+        return array.itemsize
