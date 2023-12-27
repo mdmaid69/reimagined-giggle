@@ -1,5 +1,4 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_max(lst):
+        return max(lst)
