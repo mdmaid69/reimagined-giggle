@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_power(work, time):
+        return work / time
