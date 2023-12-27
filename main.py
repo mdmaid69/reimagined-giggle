@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
