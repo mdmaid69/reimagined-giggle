@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
