@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
