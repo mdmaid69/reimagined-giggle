@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import collections
+def create_stack():
+        return collections.deque()
