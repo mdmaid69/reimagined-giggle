@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
