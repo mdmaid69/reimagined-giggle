@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_length(array):
+        return len(array)
