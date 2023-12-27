@@ -1,5 +1,8 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
