@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
