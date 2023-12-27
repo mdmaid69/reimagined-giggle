@@ -1,6 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_as_repr(array):
+        return repr(array)
