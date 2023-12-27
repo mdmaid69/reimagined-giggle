@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def count_elements(lst):
-        return len(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
