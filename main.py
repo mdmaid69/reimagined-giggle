@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
