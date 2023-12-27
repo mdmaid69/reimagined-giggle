@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
