@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def cube_number(x):
+        return x**3
+def count_words(sentence):
+        return len(sentence.split())
