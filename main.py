@@ -1,4 +1,7 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def count_words(sentence):
+        return len(sentence.split())
