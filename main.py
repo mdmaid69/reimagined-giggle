@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
