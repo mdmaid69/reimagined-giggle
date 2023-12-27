@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
