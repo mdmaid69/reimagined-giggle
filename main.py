@@ -1,6 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
