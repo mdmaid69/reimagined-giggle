@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def find_min(lst):
-        return min(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
