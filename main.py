@@ -1,4 +1,7 @@
-def cube_number(x):
-        return x**3
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def sort_list(lst):
+        return sorted(lst)
