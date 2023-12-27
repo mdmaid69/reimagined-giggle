@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
 import platform
-def get_os_info():
-        return platform.uname()
+def get_python_version():
+        return platform.python_version()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
