@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_pressure(force, area):
+        return force / area
