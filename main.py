@@ -1,5 +1,9 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def is_even(n):
-        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
