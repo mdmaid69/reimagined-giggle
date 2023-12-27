@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
