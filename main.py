@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
