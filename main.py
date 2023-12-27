@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def reverse_string(s):
+        return s[::-1]
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
