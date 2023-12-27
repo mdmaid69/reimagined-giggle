@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
