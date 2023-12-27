@@ -1,6 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def get_array_as_int(array):
+        return int(array[0])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
