@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
