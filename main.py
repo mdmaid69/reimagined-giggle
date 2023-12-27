@@ -1,8 +1,8 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import sys
+def print_python_version():
+        return sys.version
