@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
