@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
