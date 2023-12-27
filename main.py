@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
