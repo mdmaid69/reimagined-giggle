@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_power(work, time):
+        return work / time
