@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
