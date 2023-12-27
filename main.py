@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
 def calculate_tangent(x):
         return math.tan(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
