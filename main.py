@@ -1,8 +1,7 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
