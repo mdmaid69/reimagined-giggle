@@ -1,6 +1,8 @@
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def clear_array(array):
+        array *= 0
