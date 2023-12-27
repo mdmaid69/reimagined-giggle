@@ -1,6 +1,6 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
 import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_item_count(array, item):
+        return array.count(item)
