@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
