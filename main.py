@@ -1,5 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
