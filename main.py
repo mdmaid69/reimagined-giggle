@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
