@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
