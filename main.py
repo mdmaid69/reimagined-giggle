@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def convert_to_octal(n):
+        return oct(n)
