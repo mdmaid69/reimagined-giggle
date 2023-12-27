@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
