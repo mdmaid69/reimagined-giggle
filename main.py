@@ -1,6 +1,12 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
