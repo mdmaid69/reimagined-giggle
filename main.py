@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
