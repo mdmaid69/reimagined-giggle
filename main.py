@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import time
-def get_time_since_epoch():
-        return time.time()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
