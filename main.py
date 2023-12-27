@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import time
-def get_current_time():
-        return time.ctime()
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
