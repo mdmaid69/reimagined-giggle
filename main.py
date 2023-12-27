@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
