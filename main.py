@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+text = "Hello, world!"
+print("Characters:", len(text))
