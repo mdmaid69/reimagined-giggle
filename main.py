@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def convert_to_octal(n):
+        return oct(n)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
