@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_volume(length, width, height):
+        return length * width * height
