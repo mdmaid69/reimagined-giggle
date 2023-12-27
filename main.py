@@ -1,6 +1,6 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
