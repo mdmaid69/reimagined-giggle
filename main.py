@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def convert_to_octal(n):
+        return oct(n)
