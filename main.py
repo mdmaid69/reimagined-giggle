@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
