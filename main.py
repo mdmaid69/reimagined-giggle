@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_queue():
+        return collections.deque()
