@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
