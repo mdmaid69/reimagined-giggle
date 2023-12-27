@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
