@@ -1,6 +1,7 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
