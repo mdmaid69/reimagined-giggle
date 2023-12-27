@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
