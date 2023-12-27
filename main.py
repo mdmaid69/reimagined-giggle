@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
