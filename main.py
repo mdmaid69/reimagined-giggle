@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
