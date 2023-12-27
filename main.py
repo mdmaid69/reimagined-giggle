@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
