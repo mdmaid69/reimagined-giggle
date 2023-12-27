@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
