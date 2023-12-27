@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+import time
+def get_time_since_epoch():
+        return time.time()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
