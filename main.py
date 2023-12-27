@@ -1,5 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+print("Hello, world!")
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
