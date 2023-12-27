@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
