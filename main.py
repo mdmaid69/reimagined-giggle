@@ -1,7 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
