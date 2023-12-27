@@ -1,5 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_work(force, distance):
-        return force * distance
+def square_number(x):
+        return x**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
