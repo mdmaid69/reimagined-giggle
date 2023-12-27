@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+name = "Python"
+print("Hello,", name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
