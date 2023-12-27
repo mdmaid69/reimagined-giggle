@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def count_elements(lst):
-        return len(lst)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
