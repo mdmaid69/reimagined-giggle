@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_as_str(array):
+        return str(array)
