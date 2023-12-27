@@ -1,6 +1,8 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
