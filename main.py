@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+def find_min(lst):
+        return min(lst)
