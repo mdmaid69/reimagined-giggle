@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_pressure(force, area):
+        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
