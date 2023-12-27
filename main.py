@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_user_list():
+        return collections.UserList()
