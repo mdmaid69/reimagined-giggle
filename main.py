@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
