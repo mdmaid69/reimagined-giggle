@@ -1,5 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import platform
+def get_python_version():
+        return platform.python_version()
