@@ -1,6 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_acceleration(speed, time):
+        return speed / time
