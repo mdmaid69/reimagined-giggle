@@ -1,6 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
