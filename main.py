@@ -1,5 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
