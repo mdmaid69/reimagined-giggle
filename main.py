@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def add_numbers(a, b):
+        return a + b
+import tensorflow as tf
+print(tf.__version__)
