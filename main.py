@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
