@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
