@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import sys
+  def get_python_version():
+        return sys.version
