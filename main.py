@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
