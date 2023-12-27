@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
