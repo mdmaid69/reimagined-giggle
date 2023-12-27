@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
