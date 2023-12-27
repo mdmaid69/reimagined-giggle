@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+name = "Python"
+print("Hello,", name)
+  def count_elements(lst):
+        return len(lst)
