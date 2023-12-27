@@ -1,5 +1,9 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
