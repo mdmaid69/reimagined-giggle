@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
