@@ -1,5 +1,11 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
