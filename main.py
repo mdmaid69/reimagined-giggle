@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_int(array):
+        return int(array[0])
