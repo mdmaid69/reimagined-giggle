@@ -1,5 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def is_even(n):
-        return n % 2 == 0
+def calculate_power(work, time):
+        return work / time
+  def reverse_list(lst):
+        return lst[::-1]
