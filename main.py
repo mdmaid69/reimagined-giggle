@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
