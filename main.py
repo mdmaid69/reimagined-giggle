@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
