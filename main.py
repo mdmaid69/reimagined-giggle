@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import sys
+print(sys.version)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
