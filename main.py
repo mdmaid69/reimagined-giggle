@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def subtract_numbers(x, y):
+        return x - y
+def is_odd(n):
+        return n % 2 != 0
