@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-text = "Hello, world!"
-print("Characters:", len(text))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_max(numbers):
+        return max(numbers)
