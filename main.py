@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
