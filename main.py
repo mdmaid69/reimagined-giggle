@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def convert_to_hex(n):
+        return hex(n)
+name = "Python"
+print("Hello,", name)
