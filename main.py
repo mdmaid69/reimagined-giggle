@@ -1,7 +1,6 @@
-for i in range(5):
-        print(i)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
