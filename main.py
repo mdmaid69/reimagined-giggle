@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
