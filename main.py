@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
