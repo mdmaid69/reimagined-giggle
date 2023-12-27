@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
