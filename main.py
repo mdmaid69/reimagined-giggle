@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
