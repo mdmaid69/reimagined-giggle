@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def cube_number(x):
-        return x**3
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
