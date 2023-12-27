@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_user_string():
+        return collections.UserString()
