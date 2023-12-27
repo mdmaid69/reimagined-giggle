@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
