@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_array_typecode(array):
+        return array.typecode
