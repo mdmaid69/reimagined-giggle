@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
