@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
