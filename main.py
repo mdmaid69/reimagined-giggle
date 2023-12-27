@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
