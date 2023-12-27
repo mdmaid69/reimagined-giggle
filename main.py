@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
