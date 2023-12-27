@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_current_directory():
+        return os.getcwd()
