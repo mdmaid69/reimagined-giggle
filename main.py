@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
