@@ -1,4 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-name = "Python"
-print("Hello,", name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
