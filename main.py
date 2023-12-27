@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_density(mass, volume):
+        return mass / volume
+name = "Python"
+print("Hello,", name)
