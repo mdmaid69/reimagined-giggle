@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import platform
+def get_os_info():
+        return platform.uname()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
