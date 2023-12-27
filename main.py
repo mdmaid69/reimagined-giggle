@@ -1,5 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-for i in range(5):
-        print(i)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
