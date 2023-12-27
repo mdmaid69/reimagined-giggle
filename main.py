@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_arc_cosine(x):
+        return math.acos(x)
