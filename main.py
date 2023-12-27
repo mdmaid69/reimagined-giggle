@@ -1,5 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
