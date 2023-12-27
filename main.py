@@ -1,8 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
