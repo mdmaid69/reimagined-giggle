@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def greet(name):
-        print(f"Hello, {name}!")
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+def roll_die():
+        return random.randint(1, 6)
