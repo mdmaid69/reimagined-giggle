@@ -1,6 +1,7 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_power(work, time):
+        return work / time
