@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
