@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def set_array_item(array, i, item):
+        array[i] = item
