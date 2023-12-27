@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
