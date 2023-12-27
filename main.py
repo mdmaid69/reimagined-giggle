@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
