@@ -1,6 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def convert_array_to_bytes(array):
+        return array.tobytes()
