@@ -1,6 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def sort_list(lst):
+        return sorted(lst)
+def add_numbers(x, y):
+        return x + y
