@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
