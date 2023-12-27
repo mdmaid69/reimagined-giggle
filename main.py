@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
