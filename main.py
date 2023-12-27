@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
