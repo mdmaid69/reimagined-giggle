@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
