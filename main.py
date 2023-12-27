@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
