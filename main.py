@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def subtract_numbers(x, y):
+        return x - y
