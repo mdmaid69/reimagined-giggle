@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
