@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
