@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_work(force, distance):
-        return force * distance
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
