@@ -1,5 +1,8 @@
-  def square_number(x):
-        return x**2
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import platform
+def get_os_info():
+        return platform.uname()
