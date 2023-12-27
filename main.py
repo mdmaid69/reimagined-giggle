@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def cube_number(x):
-        return x**3
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
