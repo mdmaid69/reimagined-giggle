@@ -1,9 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
