@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
