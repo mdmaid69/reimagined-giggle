@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
