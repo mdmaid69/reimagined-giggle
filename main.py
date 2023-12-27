@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_counter():
+        return collections.Counter()
+import json
+print(json.dumps({"name": "John", "age": 30}))
