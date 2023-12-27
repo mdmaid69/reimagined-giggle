@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_typecode(array):
+        return array.typecode
