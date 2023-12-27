@@ -1,5 +1,8 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-print(math.pi)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
