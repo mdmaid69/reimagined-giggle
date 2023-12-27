@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import getpass
+def get_username():
+        return getpass.getuser()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
