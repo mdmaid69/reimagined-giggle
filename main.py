@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
