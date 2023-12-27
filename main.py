@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
