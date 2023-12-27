@@ -1,7 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_area_rectangle(l, w):
+        return l * w
