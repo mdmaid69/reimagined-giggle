@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
