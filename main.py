@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_area_circle(r):
+        return 3.14 * r**2
