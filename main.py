@@ -1,7 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
