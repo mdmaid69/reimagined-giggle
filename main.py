@@ -1,5 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
