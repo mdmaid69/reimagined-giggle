@@ -1,5 +1,7 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
