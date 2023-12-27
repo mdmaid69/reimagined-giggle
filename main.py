@@ -1,8 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import tensorflow as tf
+print(tf.__version__)
