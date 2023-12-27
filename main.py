@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_power(work, time):
+        return work / time
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_tuple(array):
+        return tuple(array)
