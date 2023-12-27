@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
