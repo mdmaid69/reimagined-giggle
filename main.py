@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_error_function(x):
+        return math.erf(x)
