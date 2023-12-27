@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
