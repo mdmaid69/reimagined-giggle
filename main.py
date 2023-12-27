@@ -1,7 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
