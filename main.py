@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_as_list(array):
+        return list(array)
