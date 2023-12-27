@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import os
+print(os.getcwd())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
