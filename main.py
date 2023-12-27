@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
