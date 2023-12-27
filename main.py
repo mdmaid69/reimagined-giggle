@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
