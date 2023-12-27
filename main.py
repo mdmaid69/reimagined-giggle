@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
