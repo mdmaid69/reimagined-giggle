@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def add_numbers(x, y):
+        return x + y
+  import sys
+  def get_python_version():
+        return sys.version
