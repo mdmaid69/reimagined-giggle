@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+text = "Hello, world!"
+print("Characters:", len(text))
