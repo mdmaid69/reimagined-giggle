@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import re
+print(re.match("h.*o", "hello world"))
