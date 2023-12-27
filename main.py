@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
