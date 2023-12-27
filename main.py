@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def append_to_array(array, item):
+        array.append(item)
