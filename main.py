@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_user_string():
+        return collections.UserString()
