@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
