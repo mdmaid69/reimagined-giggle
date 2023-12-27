@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_speed(distance, time):
+        return distance / time
