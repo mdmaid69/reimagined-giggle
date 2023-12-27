@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
