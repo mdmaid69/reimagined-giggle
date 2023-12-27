@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_list(array):
-        return list(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import time
+def get_current_time():
+        return time.ctime()
