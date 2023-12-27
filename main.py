@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
