@@ -1,7 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
