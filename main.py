@@ -1,7 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
