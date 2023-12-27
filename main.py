@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
