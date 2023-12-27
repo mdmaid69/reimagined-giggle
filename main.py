@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import datetime
+def get_today_date():
+        return datetime.date.today()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
