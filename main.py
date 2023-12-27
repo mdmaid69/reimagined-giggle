@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
