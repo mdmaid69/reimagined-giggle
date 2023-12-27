@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-from collections import Counter
-print(Counter("hello world"))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
