@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
