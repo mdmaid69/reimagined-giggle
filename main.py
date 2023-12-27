@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
