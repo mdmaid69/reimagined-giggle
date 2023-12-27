@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
