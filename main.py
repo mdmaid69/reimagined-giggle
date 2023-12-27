@@ -1,8 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import time
-def get_current_time():
-        return time.time()
+def get_array_slice(array, i, j):
+        return array[i:j]
