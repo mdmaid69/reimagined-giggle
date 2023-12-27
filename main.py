@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def cube_number(x):
-        return x**3
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
