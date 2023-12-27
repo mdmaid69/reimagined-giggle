@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
