@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_work(force, distance):
-        return force * distance
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def split_path(path):
+        return os.path.split(path)
