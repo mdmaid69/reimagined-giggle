@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def clear_array(array):
+        array *= 0
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
