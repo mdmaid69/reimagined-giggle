@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
