@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
