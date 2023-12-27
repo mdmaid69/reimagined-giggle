@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
