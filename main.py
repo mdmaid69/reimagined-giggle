@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
