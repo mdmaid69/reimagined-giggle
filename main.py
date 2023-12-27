@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
