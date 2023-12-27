@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import numpy as np
+print(np.array([1, 2, 3]))
