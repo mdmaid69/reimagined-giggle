@@ -1,4 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_work(force, distance):
+        return force * distance
+def find_min(numbers):
+        return min(numbers)
