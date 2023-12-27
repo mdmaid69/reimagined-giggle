@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
