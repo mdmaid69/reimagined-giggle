@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def convert_to_octal(n):
+        return oct(n)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
