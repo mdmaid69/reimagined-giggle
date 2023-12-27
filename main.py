@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_base_name(path):
+        return os.path.basename(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
