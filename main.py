@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
