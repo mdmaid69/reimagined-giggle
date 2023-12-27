@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
