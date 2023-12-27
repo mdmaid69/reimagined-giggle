@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
