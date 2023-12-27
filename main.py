@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
