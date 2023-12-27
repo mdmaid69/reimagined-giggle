@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
