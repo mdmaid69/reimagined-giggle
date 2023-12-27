@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_acceleration(speed, time):
+        return speed / time
