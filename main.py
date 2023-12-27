@@ -1,5 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def reverse_list(lst):
-        return lst[::-1]
+import sys
+def print_python_version():
+        return sys.version
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
