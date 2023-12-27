@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
