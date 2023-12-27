@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import collections
+def create_stack():
+        return collections.deque()
+def is_palindrome(s):
+        return s == s[::-1]
