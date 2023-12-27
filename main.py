@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import re
+print(re.match("h.*o", "hello world"))
