@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
