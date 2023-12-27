@@ -1,6 +1,8 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
