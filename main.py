@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_current_directory():
+        return os.getcwd()
