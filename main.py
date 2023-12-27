@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+for i in range(5):
+        print(i)
+import sys
+def print_python_version():
+        return sys.version
