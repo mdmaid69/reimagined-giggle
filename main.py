@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_pressure(force, area):
-        return force / area
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
