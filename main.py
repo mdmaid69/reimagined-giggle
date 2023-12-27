@@ -1,6 +1,9 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
