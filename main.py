@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
