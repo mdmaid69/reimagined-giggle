@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import sys
-  def get_python_version():
-        return sys.version
+import collections
+def create_stack():
+        return collections.deque()
+  def remove_duplicates(lst):
+        return list(set(lst))
