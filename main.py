@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
