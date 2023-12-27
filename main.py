@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
