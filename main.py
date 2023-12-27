@@ -1,8 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def add_numbers(x, y):
+        return x + y
