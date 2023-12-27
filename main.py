@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def is_odd(n):
+        return n % 2 != 0
