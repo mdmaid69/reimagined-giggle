@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import numpy as np
+print(np.array([1, 2, 3]))
