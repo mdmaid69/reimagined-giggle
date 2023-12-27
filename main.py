@@ -1,6 +1,8 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
