@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import time
+def get_current_time():
+        return time.ctime()
