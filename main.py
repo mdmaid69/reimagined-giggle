@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
