@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
