@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def is_even(n):
+        return n % 2 == 0
