@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def multiply_numbers(x, y):
+        return x * y
