@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
