@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def divide_numbers(x, y):
+        return x / y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
