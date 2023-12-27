@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_index(array, item):
+        return array.index(item)
