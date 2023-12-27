@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
