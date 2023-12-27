@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def reverse_list(lst):
+        return lst[::-1]
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
