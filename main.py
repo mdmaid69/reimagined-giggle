@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_sine(x):
+        return math.sin(x)
