@@ -1,9 +1,12 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
