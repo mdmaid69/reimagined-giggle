@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def reverse_list(lst):
-        return lst[::-1]
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
