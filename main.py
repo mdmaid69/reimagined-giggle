@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import sys
+  def get_python_version():
+        return sys.version
