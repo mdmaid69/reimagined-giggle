@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
