@@ -1,5 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import random
-print(random.randint(0, 100))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
