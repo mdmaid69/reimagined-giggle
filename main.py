@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def is_even(n):
+        return n % 2 == 0
+for i in range(5):
+        print(i)
