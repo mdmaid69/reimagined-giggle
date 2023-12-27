@@ -1,9 +1,6 @@
-for i in range(5):
-        print(i)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
