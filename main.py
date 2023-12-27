@@ -1,5 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
