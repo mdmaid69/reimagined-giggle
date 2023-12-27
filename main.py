@@ -1,6 +1,7 @@
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
