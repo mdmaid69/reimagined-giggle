@@ -1,3 +1,11 @@
-for i in range(10): print(i)
-  def convert_to_octal(n):
-        return oct(n)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
