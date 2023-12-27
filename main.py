@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def list_files_in_directory(path):
+        return os.listdir(path)
