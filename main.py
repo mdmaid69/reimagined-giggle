@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def is_odd(n):
+        return n % 2 != 0
