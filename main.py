@@ -1,5 +1,7 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def is_odd(n):
-        return n % 2 != 0
+import numpy as np
+print(np.array([1, 2, 3]))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
