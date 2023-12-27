@@ -1,6 +1,6 @@
+import os
+print(os.getcwd())
 import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def iterate_over_array(array):
+        for item in array:
+        print(item)
