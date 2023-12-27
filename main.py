@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def sort_list(lst):
-        return sorted(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
