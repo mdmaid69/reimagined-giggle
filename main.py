@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import random
+print(random.randint(0, 100))
