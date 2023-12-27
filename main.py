@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
