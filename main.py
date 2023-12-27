@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
