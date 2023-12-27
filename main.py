@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
