@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def clear_array(array):
+        array *= 0
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
