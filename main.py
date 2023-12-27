@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sys
+def exit_program():
+        sys.exit()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_index(array, item):
+        return array.index(item)
