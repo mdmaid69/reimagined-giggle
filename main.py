@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
