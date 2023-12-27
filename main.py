@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
