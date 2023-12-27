@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
