@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
