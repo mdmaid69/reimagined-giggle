@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
