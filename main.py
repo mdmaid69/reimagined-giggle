@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_list_from_array(array):
+        return array.tolist()
