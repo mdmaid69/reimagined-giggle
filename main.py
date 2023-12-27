@@ -1,7 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
