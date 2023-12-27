@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def append_to_array(array, item):
+        array.append(item)
