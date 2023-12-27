@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
