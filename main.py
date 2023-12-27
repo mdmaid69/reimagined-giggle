@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def cube_number(x):
+        return x**3
+  def sort_list(lst):
+        return sorted(lst)
