@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_priority_queue():
+        return collections.deque()
