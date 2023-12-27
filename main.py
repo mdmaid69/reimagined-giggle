@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
