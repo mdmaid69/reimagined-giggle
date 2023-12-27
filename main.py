@@ -1,5 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
