@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import collections
-def create_queue():
-        return collections.deque()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
