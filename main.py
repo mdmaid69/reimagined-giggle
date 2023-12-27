@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
