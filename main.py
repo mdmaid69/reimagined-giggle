@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def count_characters(sentence):
+        return len(sentence)
