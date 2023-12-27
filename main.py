@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def sort_list(lst):
+        return sorted(lst)
