@@ -1,4 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
