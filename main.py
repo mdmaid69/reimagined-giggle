@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_counter():
-        return collections.Counter()
+  def split_path(path):
+        return os.path.split(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
