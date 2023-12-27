@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
