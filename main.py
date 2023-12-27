@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import tensorflow as tf
+print(tf.__version__)
