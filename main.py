@@ -1,5 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def count_elements(lst):
-        return len(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
