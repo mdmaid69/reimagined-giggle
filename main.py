@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def cube_number(x):
-        return x**3
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
