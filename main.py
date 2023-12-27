@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
