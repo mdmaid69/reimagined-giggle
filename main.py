@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_length(array):
-        return len(array)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_max(lst):
+        return max(lst)
