@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
