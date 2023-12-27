@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
