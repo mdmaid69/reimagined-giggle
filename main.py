@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def is_palindrome(s):
-        return s == s[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
