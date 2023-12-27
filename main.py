@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
