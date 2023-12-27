@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_pressure(force, area):
+        return force / area
