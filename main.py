@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import platform
+def get_python_version():
+        return platform.python_version()
