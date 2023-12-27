@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
