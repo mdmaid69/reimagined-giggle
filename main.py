@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
