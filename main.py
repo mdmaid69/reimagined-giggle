@@ -1,4 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def reverse_list(lst):
+        return lst[::-1]
