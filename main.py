@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
