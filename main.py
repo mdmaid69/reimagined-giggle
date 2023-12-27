@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
