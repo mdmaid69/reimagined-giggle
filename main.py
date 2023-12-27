@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_area_circle(r):
+        return 3.14 * r**2
