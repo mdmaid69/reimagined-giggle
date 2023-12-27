@@ -1,5 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
