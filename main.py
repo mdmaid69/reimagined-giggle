@@ -1,11 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def subtract_numbers(x, y):
-        return x - y
+def cube_number(x):
+        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
