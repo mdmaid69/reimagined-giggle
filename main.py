@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def convert_to_hex(n):
+        return hex(n)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
