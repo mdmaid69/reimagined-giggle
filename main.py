@@ -1,6 +1,7 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
