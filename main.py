@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
