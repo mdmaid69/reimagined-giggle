@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
