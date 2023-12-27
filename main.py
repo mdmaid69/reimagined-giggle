@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
