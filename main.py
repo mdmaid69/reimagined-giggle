@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+def roll_die():
+        return random.randint(1, 6)
