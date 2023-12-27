@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
