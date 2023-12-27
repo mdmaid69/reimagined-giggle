@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import logging
+def log_message(message):
+        logging.info(message)
