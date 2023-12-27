@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
