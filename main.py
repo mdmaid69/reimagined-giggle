@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
