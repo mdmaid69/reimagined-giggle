@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_bool(array):
+        return bool(array)
