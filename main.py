@@ -1,4 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def convert_to_hex(n):
-        return hex(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+from collections import Counter
+print(Counter("hello world"))
