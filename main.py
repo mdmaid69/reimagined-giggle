@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def convert_to_binary(n):
-        return bin(n)
+def cube_number(x):
+        return x**3
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
