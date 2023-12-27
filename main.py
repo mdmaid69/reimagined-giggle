@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
