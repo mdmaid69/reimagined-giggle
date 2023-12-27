@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import collections
+def create_priority_queue():
+        return collections.deque()
