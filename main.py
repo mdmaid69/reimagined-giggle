@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
