@@ -1,6 +1,8 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
