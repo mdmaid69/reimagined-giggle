@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
