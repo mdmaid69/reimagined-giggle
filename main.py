@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
