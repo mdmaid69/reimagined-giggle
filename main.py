@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
