@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
