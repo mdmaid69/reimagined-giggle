@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
