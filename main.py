@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def is_odd(n):
+        return n % 2 != 0
