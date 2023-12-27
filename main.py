@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
