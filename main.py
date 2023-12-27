@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
