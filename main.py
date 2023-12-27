@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_density(mass, volume):
+        return mass / volume
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
