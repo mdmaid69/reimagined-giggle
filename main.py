@@ -1,6 +1,8 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def convert_array_to_list(array):
+        return array.tolist()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
