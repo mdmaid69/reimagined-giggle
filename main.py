@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
