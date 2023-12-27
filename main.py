@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
