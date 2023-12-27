@@ -1,5 +1,9 @@
-import re
-print(re.match("h.*o", "hello world"))
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
