@@ -1,5 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_as_tuple(array):
+        return tuple(array)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
