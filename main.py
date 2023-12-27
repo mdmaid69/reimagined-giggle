@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import json
+print(json.dumps({"name": "John", "age": 30}))
