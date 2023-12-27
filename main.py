@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_length(array):
+        return len(array)
+  def convert_to_hex(n):
+        return hex(n)
