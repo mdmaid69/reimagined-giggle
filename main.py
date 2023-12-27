@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+def cube_number(x):
+        return x**3
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
