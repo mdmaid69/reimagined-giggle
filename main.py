@@ -1,6 +1,8 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
