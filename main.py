@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
