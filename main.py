@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def convert_to_binary(n):
+        return bin(n)
