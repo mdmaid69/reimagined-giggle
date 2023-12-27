@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_unique_words(sentence):
+        return set(sentence.split())
