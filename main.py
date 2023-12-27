@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
