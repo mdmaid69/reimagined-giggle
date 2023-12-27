@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
