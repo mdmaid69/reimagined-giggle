@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
