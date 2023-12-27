@@ -1,10 +1,7 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
