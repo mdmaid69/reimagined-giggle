@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
