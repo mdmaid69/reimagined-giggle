@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
