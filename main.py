@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def multiply_numbers(x, y):
-        return x * y
+import time
+def get_current_time():
+        return time.time()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
