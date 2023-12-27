@@ -1,8 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
