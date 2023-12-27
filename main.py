@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def multiply_numbers(x, y):
-        return x * y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
