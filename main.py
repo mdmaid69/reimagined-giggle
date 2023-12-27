@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
