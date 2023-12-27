@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_pressure(force, area):
-        return force / area
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
