@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
