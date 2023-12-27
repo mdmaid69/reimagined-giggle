@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def add_numbers(x, y):
-        return x + y
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
