@@ -1,5 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import array
-def clear_array(array):
-        array *= 0
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
