@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
