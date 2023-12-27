@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
