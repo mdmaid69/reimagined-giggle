@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_density(mass, volume):
+        return mass / volume
+def is_even(n):
+        return n % 2 == 0
