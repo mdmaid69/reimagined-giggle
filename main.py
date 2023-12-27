@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
