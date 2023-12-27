@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
