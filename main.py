@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import time
+def get_time_since_epoch():
+        return time.time()
