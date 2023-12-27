@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import sys
+def print_python_version():
+        return sys.version
