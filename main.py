@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_density(mass, volume):
-        return mass / volume
+from collections import Counter
+print(Counter("hello world"))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
