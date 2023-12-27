@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def cube_number(x):
+        return x**3
