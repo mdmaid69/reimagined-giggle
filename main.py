@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_volume(length, width, height):
-        return length * width * height
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
