@@ -1,6 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
