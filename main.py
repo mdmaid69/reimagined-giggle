@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
