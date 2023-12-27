@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def multiply_numbers(x, y):
-        return x * y
+import os
+print(os.getcwd())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
