@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def is_odd(n):
-        return n % 2 != 0
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def is_palindrome(s):
+        return s == s[::-1]
