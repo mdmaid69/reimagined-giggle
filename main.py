@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def convert_to_hex(n):
-        return hex(n)
+  def cube_number(x):
+        return x**3
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
