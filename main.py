@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
+print([x**2 for x in range(10)])
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
