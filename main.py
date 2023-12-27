@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
