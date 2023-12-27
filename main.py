@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_priority_queue():
+        return collections.deque()
