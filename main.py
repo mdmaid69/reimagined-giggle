@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import getpass
+def get_username():
+        return getpass.getuser()
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_queue():
+        return collections.deque()
