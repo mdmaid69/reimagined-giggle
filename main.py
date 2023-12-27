@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def convert_to_octal(n):
-        return oct(n)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
