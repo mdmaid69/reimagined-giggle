@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_pressure(force, area):
+        return force / area
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
