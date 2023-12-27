@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+x = 10
+y = 20
+print("Sum:", x + y)
