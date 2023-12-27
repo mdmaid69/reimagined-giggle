@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
