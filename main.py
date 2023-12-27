@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
