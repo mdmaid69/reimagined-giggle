@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
