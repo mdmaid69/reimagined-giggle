@@ -1,5 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
