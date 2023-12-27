@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
