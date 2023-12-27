@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
