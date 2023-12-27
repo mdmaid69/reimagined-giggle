@@ -1,9 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_length(array):
+        return len(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
