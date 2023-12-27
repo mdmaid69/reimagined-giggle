@@ -1,5 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
