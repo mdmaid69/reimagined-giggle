@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
