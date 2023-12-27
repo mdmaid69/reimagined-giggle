@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
