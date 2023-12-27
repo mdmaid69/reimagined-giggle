@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
