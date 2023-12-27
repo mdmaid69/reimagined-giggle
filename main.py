@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
