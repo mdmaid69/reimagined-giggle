@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import array
-def get_array_length(array):
-        return len(array)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
