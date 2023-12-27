@@ -1,5 +1,12 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
