@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
