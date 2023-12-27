@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_item(array, i):
+        return array[i]
