@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
