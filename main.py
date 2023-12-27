@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_complex(array):
+        return complex(array[0])
