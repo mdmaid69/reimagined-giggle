@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
