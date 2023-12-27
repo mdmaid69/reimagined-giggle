@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
