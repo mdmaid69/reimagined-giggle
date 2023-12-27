@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
