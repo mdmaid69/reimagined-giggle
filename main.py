@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Words:", len(text.split()))
