@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
