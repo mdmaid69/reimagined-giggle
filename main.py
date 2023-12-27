@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import platform
-def get_python_version():
-        return platform.python_version()
+  def subtract_numbers(x, y):
+        return x - y
+for i in range(5):
+        print(i)
