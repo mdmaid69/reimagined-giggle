@@ -1,6 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
