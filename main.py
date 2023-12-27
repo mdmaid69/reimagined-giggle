@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def is_even(n):
-        return n % 2 == 0
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def exit_program():
+        sys.exit()
