@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
