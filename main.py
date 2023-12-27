@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_tangent(x):
+        return math.tan(x)
