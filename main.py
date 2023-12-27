@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
