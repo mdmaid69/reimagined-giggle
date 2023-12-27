@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
