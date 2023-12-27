@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
