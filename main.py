@@ -1,5 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
