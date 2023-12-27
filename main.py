@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
