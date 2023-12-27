@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_max(numbers):
+        return max(numbers)
+import time
+def get_current_time():
+        return time.time()
