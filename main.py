@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
