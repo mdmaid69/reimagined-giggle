@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
