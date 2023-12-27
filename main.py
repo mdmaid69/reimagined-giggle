@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_str(array):
+        return str(array)
