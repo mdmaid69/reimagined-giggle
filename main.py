@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def divide_numbers(x, y):
-        return x / y
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
