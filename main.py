@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def reverse_array(array):
+        array.reverse()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
