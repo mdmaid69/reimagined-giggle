@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import datetime
-print(datetime.datetime.now())
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def create_counter():
+        return collections.Counter()
