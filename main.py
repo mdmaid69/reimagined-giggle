@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
