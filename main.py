@@ -1,6 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
