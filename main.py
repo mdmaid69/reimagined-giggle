@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
