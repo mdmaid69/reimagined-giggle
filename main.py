@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def sort_list(lst):
+        return sorted(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
