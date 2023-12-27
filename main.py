@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import platform
+def get_python_version():
+        return platform.python_version()
