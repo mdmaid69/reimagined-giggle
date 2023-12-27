@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
