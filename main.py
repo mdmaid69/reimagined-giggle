@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
