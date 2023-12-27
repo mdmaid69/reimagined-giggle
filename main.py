@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_cosine(x):
+        return math.cos(x)
