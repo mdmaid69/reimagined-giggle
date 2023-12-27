@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def get_array_itemsize(array):
+        return array.itemsize
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
