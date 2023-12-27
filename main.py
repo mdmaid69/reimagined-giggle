@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
