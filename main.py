@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import random
+def roll_die():
+        return random.randint(1, 6)
