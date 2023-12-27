@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import os
-print(os.getcwd())
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_speed(distance, time):
+        return distance / time
