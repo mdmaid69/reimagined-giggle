@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def convert_to_binary(n):
-        return bin(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
