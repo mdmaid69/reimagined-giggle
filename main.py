@@ -1,6 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_arc_cosine(x):
+        return math.acos(x)
