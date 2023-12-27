@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def find_max(numbers):
+        return max(numbers)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
