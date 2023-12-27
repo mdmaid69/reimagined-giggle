@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
