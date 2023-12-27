@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def count_elements(lst):
+        return len(lst)
