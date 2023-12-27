@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
