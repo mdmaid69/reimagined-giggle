@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_density(mass, volume):
+        return mass / volume
