@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import collections
+def create_user_string():
+        return collections.UserString()
