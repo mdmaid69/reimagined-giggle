@@ -1,7 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+for i in range(10): print(i)
