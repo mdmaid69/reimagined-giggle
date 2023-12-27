@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_tangent(x):
+        return math.tan(x)
+import sys
+def print_python_version():
+        return sys.version
