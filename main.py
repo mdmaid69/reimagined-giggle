@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def remove_duplicates(lst):
-        return list(set(lst))
+def greet(name):
+        print(f"Hello, {name}!")
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
