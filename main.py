@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import time
+print(time.time())
