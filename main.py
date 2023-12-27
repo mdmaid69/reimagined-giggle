@@ -1,4 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def find_max(numbers):
-        return max(numbers)
+import math
+print(math.pi)
+def is_even(n):
+        return n % 2 == 0
