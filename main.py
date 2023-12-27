@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
