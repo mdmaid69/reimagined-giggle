@@ -1,6 +1,10 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def count_characters(sentence):
+        return len(sentence)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
