@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
