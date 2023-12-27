@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
