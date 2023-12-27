@@ -1,7 +1,5 @@
-  def square_number(x):
-        return x**2
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import os
+print(os.getcwd())
