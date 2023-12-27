@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_string_from_array(array):
+        return array.tobytes()
