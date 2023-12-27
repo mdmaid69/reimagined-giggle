@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def is_even(n):
-        return n % 2 == 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
