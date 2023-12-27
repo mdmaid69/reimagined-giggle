@@ -1,10 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  def remove_duplicates(lst):
+        return list(set(lst))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
