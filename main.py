@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import numpy as np
+print(np.array([1, 2, 3]))
+def find_max(numbers):
+        return max(numbers)
