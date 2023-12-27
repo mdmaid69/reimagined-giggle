@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_area_rectangle(l, w):
+        return l * w
