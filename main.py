@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_sine(x):
+        return math.sin(x)
