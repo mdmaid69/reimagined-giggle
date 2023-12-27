@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-text = "Hello, world!"
-print("Characters:", len(text))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
