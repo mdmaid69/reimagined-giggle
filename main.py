@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+for i in range(5):
+        print(i)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
