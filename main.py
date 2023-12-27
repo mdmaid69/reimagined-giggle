@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
