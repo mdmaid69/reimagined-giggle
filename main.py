@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_power(work, time):
+        return work / time
+def add_numbers(x, y):
+        return x + y
