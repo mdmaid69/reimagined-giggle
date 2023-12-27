@@ -1,5 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
