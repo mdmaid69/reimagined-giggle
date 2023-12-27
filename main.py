@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
