@@ -1,6 +1,3 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import collections
-def create_user_string():
-        return collections.UserString()
+print("Hello, world!")
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
