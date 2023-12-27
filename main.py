@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
