@@ -1,6 +1,4 @@
+print(sum(range(10)))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
