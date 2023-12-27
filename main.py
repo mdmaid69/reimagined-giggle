@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
