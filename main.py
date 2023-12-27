@@ -1,5 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def find_max(lst):
+        return max(lst)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
