@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
