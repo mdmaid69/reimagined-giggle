@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import platform
-def get_python_version():
-        return platform.python_version()
+def reverse_string(s):
+        return s[::-1]
+def convert_to_hex(n):
+        return hex(n)
