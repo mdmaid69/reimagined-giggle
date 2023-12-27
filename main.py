@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
