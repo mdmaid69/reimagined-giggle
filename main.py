@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
