@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
