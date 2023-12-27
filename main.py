@@ -1,6 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
