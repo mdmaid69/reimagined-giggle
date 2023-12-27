@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
 import array
-def append_to_array(array, item):
-        array.append(item)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
