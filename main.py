@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import sys
+print(sys.version)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
