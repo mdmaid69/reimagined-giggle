@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
