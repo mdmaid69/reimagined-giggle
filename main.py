@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
