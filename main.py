@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
