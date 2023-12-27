@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
