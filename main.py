@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
