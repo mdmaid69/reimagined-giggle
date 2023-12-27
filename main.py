@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import os
+print(os.getcwd())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
