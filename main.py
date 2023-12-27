@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
