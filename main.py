@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
