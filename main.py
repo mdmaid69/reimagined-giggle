@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def set_array_item(array, i, item):
+        array[i] = item
