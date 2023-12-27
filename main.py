@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_error_function(x):
+        return math.erf(x)
+  def subtract_numbers(x, y):
+        return x - y
