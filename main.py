@@ -1,9 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
