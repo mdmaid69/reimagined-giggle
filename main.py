@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def count_words(sentence):
-        return len(sentence.split())
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_current_directory():
+        return os.getcwd()
