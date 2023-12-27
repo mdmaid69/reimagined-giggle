@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import collections
+def create_counter():
+        return collections.Counter()
