@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
