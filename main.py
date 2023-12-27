@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
