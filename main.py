@@ -1,5 +1,8 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import platform
+def get_os_info():
+        return platform.uname()
