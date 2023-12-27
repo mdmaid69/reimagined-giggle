@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
