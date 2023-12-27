@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
