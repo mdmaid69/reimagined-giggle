@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
