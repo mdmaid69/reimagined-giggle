@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def is_odd(n):
+        return n % 2 != 0
+import numpy as np
+print(np.array([1, 2, 3]))
