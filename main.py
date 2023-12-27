@@ -1,5 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import time
+print(time.time())
