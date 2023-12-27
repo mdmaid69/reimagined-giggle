@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def subtract_numbers(x, y):
+        return x - y
