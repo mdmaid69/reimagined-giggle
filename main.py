@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
