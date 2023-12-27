@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
