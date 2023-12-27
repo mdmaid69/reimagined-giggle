@@ -1,5 +1,12 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_as_list(array):
+        return list(array)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
