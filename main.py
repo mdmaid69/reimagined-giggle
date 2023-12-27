@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
