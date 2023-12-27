@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
