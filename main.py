@@ -1,6 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
