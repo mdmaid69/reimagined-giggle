@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import sys
+  def get_python_version():
+        return sys.version
