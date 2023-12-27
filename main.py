@@ -1,6 +1,11 @@
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
