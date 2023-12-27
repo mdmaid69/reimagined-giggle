@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
