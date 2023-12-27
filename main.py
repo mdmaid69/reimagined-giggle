@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
