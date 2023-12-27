@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_stack():
+        return collections.deque()
+def find_max(numbers):
+        return max(numbers)
