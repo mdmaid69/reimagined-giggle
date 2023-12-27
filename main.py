@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def count_words(sentence):
-        return len(sentence.split())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def reverse_list(lst):
+        return lst[::-1]
