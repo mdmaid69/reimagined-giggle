@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
