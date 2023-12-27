@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def sort_list(lst):
-        return sorted(lst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
