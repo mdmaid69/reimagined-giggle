@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_itemsize(array):
+        return array.itemsize
