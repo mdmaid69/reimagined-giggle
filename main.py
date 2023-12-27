@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def add_numbers(x, y):
+        return x + y
