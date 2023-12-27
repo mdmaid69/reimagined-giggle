@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
