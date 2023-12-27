@@ -1,4 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-print([x**2 for x in range(10)])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
