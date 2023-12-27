@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_tangent(x):
+        return math.tan(x)
