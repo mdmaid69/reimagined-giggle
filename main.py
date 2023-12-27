@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
