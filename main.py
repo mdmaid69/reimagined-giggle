@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
