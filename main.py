@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
