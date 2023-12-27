@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
