@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+for i in range(5):
+        print(i)
