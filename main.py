@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
