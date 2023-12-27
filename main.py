@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def greet(name):
+        print(f"Hello, {name}!")
