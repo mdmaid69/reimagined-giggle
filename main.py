@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def create_counter():
+        return collections.Counter()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
