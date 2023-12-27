@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+from collections import Counter
+print(Counter("hello world"))
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
