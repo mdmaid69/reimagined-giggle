@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
