@@ -1,7 +1,8 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
