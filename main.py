@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
