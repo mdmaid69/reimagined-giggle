@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def square_number(x):
+        return x**2
