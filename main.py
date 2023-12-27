@@ -1,5 +1,3 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import tensorflow as tf
-print(tf.__version__)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+for i in range(10): print(i)
