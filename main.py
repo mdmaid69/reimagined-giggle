@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_force(mass, acceleration):
+        return mass * acceleration
