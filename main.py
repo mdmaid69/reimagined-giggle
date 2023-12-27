@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
