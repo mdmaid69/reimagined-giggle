@@ -1,7 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
