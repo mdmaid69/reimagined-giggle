@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_speed(distance, time):
+        return distance / time
