@@ -1,6 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
