@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
 import re
-print(re.match("h.*o", "hello world"))
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
