@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
