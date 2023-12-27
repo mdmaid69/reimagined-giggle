@@ -1,6 +1,8 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
