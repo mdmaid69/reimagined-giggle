@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
