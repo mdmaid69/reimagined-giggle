@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def multiply_numbers(x, y):
-        return x * y
+import sys
+print(sys.version)
+import random
+print(random.randint(0, 100))
