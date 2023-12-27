@@ -1,5 +1,6 @@
-import time
-print(time.time())
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_sine(x):
+        return math.sin(x)
