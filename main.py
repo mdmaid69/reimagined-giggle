@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
