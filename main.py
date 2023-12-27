@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
