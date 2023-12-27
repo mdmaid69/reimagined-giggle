@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
