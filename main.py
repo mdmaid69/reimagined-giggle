@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
