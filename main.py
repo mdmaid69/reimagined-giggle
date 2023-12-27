@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
