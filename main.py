@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import time
+print(time.time())
