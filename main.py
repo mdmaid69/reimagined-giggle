@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def get_array_as_set(array):
+        return set(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
