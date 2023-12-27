@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+text = "Hello, world!"
+print("Words:", len(text.split()))
