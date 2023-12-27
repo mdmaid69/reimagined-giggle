@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
