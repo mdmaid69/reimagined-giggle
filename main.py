@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
