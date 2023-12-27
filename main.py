@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
