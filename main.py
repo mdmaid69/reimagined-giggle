@@ -1,4 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
