@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def subtract_numbers(x, y):
+        return x - y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
