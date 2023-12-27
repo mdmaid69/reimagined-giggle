@@ -1,8 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
