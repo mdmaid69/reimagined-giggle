@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
