@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def square_number(x):
+        return x**2
+def calculate_area_circle(r):
+        return 3.14 * r**2
