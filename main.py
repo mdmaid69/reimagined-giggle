@@ -1,5 +1,10 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
