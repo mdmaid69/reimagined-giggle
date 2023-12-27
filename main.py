@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
