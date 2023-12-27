@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_queue():
+        return collections.deque()
