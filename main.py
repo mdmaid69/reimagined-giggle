@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def reverse_array(array):
-        array.reverse()
+def find_min(lst):
+        return min(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
