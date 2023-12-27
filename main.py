@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
