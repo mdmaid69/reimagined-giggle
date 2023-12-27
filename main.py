@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
