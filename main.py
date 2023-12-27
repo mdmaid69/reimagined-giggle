@@ -1,7 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
