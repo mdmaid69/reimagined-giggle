@@ -1,8 +1,6 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
