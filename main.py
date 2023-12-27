@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def convert_to_binary(n):
+        return bin(n)
