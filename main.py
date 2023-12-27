@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
