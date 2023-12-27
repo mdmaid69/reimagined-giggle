@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
