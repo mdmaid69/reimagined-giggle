@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
