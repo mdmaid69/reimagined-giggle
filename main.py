@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
