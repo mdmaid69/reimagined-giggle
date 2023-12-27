@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
