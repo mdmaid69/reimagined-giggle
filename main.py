@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
