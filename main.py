@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
