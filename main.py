@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
