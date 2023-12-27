@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_array_typecode(array):
-        return array.typecode
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
