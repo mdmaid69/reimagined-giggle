@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
