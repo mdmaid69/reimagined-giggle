@@ -1,6 +1,10 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
