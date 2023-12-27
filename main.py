@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
