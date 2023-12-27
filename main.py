@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
