@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
