@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import re
+print(re.match("h.*o", "hello world"))
