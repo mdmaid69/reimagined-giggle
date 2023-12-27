@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_volume(length, width, height):
-        return length * width * height
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
