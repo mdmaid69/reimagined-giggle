@@ -1,6 +1,8 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
