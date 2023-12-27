@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_bool(array):
+        return bool(array)
