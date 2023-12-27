@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def sort_list(lst):
+        return sorted(lst)
