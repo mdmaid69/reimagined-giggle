@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
