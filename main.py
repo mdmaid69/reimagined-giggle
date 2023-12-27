@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
