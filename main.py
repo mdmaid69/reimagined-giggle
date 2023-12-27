@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+def change_working_directory(path):
+        os.chdir(path)
