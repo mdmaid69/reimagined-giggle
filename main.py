@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
