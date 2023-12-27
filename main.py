@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import collections
+def create_stack():
+        return collections.deque()
+print([x**2 for x in range(10)])
