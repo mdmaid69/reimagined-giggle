@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
