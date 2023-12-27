@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def is_even(n):
+        return n % 2 == 0
