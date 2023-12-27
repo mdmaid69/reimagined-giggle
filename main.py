@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
