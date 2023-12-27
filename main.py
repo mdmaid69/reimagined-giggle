@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def add_numbers(a, b):
-        return a + b
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import sys
+  def get_python_version():
+        return sys.version
