@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def calculate_area_rectangle(l, w):
+        return l * w
