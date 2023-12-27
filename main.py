@@ -1,4 +1,4 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def count_words(sentence):
-        return len(sentence.split())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def greet(name):
+        print(f"Hello, {name}!")
