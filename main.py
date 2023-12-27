@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
