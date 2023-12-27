@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
