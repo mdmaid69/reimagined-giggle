@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
