@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_speed(distance, time):
+        return distance / time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
