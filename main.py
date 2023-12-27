@@ -1,5 +1,9 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
