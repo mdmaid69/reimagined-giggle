@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
