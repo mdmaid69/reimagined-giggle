@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import sys
+def print_python_version():
+        return sys.version
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
