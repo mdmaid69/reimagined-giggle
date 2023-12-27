@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def convert_to_octal(n):
-        return oct(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def is_even(n):
+        return n % 2 == 0
