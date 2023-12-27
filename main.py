@@ -1,5 +1,9 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import time
+def get_current_time():
+        return time.ctime()
