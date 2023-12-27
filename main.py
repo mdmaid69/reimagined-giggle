@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import tensorflow as tf
-print(tf.__version__)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
