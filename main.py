@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_union(list1, list2):
+        return set(list1) | set(list2)
