@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_volume(length, width, height):
+        return length * width * height
