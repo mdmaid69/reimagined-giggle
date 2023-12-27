@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
