@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
