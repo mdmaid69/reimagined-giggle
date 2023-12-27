@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
