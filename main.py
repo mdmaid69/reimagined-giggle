@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
