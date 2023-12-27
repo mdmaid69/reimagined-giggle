@@ -1,5 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
