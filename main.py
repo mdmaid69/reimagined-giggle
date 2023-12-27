@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
