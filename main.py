@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def multiply_numbers(x, y):
+        return x * y
