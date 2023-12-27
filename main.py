@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import datetime
+def get_today_date():
+        return datetime.date.today()
