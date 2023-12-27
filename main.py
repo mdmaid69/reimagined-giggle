@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
