@@ -1,6 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
