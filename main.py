@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_set(array):
+        return set(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
