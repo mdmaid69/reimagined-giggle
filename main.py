@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_arc_sine(x):
+        return math.asin(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
