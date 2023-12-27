@@ -1,6 +1,6 @@
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_as_str(array):
-        return str(array)
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
