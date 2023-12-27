@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
