@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def subtract_numbers(x, y):
-        return x - y
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
