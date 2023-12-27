@@ -1,4 +1,8 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
