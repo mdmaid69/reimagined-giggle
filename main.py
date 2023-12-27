@@ -1,6 +1,7 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
