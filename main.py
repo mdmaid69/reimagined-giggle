@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
