@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def find_min(numbers):
+        return min(numbers)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
