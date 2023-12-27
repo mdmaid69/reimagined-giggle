@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
