@@ -1,8 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def get_array_item_count(array, item):
+        return array.count(item)
