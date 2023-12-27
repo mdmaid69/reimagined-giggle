@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
