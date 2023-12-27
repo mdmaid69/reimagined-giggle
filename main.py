@@ -1,4 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def convert_to_hex(n):
-        return hex(n)
+def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
