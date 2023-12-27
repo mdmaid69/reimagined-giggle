@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import sys
+def exit_program():
+        sys.exit()
