@@ -1,5 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def convert_to_binary(n):
+        return bin(n)
