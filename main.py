@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
