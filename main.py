@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_power(work, time):
+        return work / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
