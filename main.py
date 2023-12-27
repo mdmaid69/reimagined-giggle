@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def find_min(numbers):
-        return min(numbers)
+import logging
+def log_message(message):
+        logging.info(message)
+import platform
+def get_python_version():
+        return platform.python_version()
