@@ -1,8 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
