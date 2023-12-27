@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
