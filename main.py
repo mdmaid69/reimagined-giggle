@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
