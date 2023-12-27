@@ -1,8 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
