@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import sys
+def exit_program():
+        sys.exit()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
