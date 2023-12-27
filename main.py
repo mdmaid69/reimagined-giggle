@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
