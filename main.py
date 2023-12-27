@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def convert_to_hex(n):
+        return hex(n)
