@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
