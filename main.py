@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def reverse_string(s):
-        return s[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
