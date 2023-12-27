@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import sys
+def exit_program():
+        sys.exit()
