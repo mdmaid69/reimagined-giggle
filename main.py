@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import datetime
+print(datetime.datetime.now())
