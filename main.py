@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
