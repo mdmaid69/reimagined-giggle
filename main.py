@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
