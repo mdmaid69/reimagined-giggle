@@ -1,10 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
