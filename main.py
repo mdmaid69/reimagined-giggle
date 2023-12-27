@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
