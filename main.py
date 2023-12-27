@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_frozenset(array):
+        return frozenset(array)
