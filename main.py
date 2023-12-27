@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
