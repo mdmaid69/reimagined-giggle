@@ -1,10 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
