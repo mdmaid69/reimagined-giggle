@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
