@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
