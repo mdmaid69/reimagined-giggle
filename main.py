@@ -1,6 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_pressure(force, area):
+        return force / area
