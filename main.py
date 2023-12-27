@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def greet(name):
-        print(f"Hello, {name}!")
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
