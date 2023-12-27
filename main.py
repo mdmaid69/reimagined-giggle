@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import os
-print(os.getcwd())
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_as_repr(array):
+        return repr(array)
