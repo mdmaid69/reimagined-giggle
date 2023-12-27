@@ -1,6 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def get_array_item(array, i):
+        return array[i]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
