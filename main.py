@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
