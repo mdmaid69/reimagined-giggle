@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_acceleration(speed, time):
-        return speed / time
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
