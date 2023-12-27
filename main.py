@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
