@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  def convert_to_octal(n):
+        return oct(n)
