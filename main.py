@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
