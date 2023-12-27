@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def divide_numbers(x, y):
-        return x / y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
