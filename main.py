@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_area_rectangle(l, w):
+        return l * w
+x = 10
+y = 20
+print("Sum:", x + y)
