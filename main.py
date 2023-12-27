@@ -1,5 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def convert_to_hex(n):
-        return hex(n)
+def add_numbers(a, b):
+        return a + b
+import os
+print(os.getcwd())
