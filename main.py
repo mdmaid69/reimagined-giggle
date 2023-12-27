@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def clear_array(array):
+        array *= 0
