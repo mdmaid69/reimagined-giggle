@@ -1,7 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import tensorflow as tf
+print(tf.__version__)
