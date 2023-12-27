@@ -1,5 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
