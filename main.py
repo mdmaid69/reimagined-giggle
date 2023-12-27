@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
