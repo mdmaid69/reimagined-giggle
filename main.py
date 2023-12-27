@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
