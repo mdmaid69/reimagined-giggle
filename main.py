@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def delete_file(file_name):
+        os.remove(file_name)
+def convert_to_binary(n):
+        return bin(n)
