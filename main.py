@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
