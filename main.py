@@ -1,7 +1,7 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
