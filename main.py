@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
