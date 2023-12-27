@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-for i in range(5):
-        print(i)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
