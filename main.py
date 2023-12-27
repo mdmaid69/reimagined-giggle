@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
