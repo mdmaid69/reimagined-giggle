@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
