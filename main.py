@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def split_path(path):
+        return os.path.split(path)
