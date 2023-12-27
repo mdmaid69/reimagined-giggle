@@ -1,4 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_power(work, time):
+        return work / time
+def find_min(lst):
+        return min(lst)
