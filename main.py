@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def reverse_array(array):
-        array.reverse()
+def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
