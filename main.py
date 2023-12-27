@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
