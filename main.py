@@ -1,5 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def get_array_length(array):
-        return len(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
