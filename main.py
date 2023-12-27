@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
