@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import sys
+def print_python_version():
+        return sys.version
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
