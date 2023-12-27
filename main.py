@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
