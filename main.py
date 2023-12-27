@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
