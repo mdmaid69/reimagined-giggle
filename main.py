@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
