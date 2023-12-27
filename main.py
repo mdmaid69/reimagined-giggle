@@ -1,6 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
