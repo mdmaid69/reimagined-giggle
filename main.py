@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import time
-def get_current_time():
-        return time.ctime()
+def add_numbers(x, y):
+        return x + y
+import datetime
+def get_current_date():
+        return datetime.date.today()
