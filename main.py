@@ -1,6 +1,12 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
