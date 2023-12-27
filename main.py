@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
