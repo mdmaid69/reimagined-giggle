@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def create_user_list():
-        return collections.UserList()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_current_directory():
+        return os.getcwd()
