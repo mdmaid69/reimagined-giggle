@@ -1,6 +1,7 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
