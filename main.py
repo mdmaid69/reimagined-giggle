@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
