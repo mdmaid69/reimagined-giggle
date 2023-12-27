@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
