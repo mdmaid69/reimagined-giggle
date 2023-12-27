@@ -1,6 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
