@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
