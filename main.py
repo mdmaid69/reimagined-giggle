@@ -1,7 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
