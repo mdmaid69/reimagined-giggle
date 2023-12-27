@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def convert_to_hex(n):
-        return hex(n)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
