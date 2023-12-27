@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
