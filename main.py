@@ -1,6 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
