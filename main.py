@@ -1,4 +1,9 @@
-for i in range(10): print(i)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
