@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
