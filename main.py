@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
