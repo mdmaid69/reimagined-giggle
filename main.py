@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
