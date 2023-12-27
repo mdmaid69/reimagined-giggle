@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
