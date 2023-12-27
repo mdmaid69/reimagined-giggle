@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
