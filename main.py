@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+for i in range(5):
+        print(i)
+import array
+def get_array_as_int(array):
+        return int(array[0])
