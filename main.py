@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def is_palindrome(s):
+        return s == s[::-1]
