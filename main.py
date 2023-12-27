@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
