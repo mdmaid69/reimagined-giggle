@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  def cube_number(x):
-        return x**3
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
