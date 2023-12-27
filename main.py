@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
