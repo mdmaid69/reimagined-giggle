@@ -1,4 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-print("Hello, world!")
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def find_unique_words(sentence):
+        return set(sentence.split())
