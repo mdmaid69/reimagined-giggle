@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
