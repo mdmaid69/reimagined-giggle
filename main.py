@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_queue():
+        return collections.deque()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
