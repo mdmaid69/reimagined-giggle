@@ -1,6 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
