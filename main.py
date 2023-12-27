@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_acceleration(speed, time):
+        return speed / time
