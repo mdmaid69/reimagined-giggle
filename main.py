@@ -1,6 +1,7 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
