@@ -1,6 +1,5 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def get_string_from_array(array):
+        return array.tobytes()
+  def convert_to_hex(n):
+        return hex(n)
