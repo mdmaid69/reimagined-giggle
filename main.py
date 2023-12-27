@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import os
+def get_current_working_directory():
+        return os.getcwd()
