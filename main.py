@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
