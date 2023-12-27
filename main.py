@@ -1,7 +1,5 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def set_array_item(array, i, item):
+        array[i] = item
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
