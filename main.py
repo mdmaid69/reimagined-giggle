@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import time
-def get_current_time():
-        return time.ctime()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import collections
+def create_user_string():
+        return collections.UserString()
