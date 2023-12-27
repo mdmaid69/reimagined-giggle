@@ -1,6 +1,10 @@
-  def convert_to_binary(n):
-        return bin(n)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
