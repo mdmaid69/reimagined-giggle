@@ -1,6 +1,7 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
