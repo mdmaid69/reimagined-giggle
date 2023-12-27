@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import time
+def get_current_time():
+        return time.ctime()
