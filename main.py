@@ -1,6 +1,8 @@
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_exponential(x):
+        return math.exp(x)
