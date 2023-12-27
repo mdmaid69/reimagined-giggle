@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
