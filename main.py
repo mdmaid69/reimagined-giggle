@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import time
-print(time.time())
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
