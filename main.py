@@ -1,5 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def is_even(n):
-        return n % 2 == 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
