@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def square_number(x):
+        return x**2
