@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def add_numbers(x, y):
-        return x + y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import platform
+def get_python_version():
+        return platform.python_version()
