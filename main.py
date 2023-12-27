@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
