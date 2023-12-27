@@ -1,4 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import os
+def remove_directory(path):
+        os.rmdir(path)
