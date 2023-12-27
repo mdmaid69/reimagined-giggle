@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+for i in range(5):
+        print(i)
+def calculate_area_circle(r):
+        return 3.14 * r**2
