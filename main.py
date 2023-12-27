@@ -1,6 +1,8 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_as_str(array):
-        return str(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
