@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
