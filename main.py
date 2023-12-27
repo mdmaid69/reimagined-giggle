@@ -1,6 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import sys
-def exit_program():
-        sys.exit()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
