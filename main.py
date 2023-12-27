@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
