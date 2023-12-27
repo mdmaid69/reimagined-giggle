@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
