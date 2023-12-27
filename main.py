@@ -1,6 +1,7 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
