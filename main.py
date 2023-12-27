@@ -1,5 +1,4 @@
-name = "Python"
-print("Hello,", name)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
