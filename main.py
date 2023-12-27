@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
