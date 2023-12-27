@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
