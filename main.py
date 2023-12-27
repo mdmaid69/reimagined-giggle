@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
