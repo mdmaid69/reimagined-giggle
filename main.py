@@ -1,7 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+for i in range(10): print(i)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
