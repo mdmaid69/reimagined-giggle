@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def get_current_time():
+        return time.ctime()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
