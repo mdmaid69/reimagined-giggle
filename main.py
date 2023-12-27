@@ -1,6 +1,10 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
