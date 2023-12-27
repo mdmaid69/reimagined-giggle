@@ -1,5 +1,3 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def cube_number(x):
-        return x**3
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+for i in range(10): print(i)
