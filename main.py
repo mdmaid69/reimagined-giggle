@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
