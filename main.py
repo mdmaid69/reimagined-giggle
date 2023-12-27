@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def greet(name):
-        print(f"Hello, {name}!")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_density(mass, volume):
+        return mass / volume
