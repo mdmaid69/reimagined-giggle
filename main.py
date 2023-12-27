@@ -1,6 +1,5 @@
+def subtract_numbers(x, y):
+        return x - y
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
