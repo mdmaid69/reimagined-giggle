@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
