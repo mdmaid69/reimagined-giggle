@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+for i in range(5):
+        print(i)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
