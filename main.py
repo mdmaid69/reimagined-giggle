@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
+def cube_number(x):
+        return x**3
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
