@@ -1,5 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+print([x**2 for x in range(10)])
