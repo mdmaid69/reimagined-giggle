@@ -1,6 +1,8 @@
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
