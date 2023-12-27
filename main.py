@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def clear_array(array):
+        array *= 0
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
