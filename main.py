@@ -1,4 +1,3 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_pressure(force, area):
-        return force / area
+print(sum(range(10)))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
