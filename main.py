@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
