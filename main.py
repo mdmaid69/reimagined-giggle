@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
