@@ -1,11 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def convert_to_octal(n):
+        return oct(n)
