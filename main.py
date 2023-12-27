@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
