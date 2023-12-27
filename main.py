@@ -1,5 +1,11 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
