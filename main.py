@@ -1,8 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
