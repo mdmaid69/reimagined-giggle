@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import time
+def get_time_since_epoch():
+        return time.time()
