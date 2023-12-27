@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import logging
-def log_message(message):
-        logging.info(message)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
