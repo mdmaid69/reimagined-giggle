@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import time
+print(time.time())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
