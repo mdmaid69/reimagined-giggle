@@ -1,12 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
