@@ -1,5 +1,11 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
