@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def convert_to_binary(n):
-        return bin(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
