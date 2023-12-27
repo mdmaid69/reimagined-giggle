@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_pressure(force, area):
+        return force / area
