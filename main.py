@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-name = "Python"
-print("Hello,", name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
