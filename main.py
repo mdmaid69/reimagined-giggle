@@ -1,7 +1,8 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
