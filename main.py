@@ -1,6 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
