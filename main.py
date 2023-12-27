@@ -1,8 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def set_array_item(array, i, item):
+        array[i] = item
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
