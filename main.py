@@ -1,4 +1,8 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import tensorflow as tf
-print(tf.__version__)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
