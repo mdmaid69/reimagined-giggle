@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def split_path(path):
+        return os.path.split(path)
