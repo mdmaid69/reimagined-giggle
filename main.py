@@ -1,5 +1,9 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
