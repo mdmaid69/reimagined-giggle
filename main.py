@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
