@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
