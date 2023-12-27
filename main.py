@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
