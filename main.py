@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
