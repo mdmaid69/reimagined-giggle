@@ -1,5 +1,10 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
