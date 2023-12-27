@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
