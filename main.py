@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_stack():
+        return collections.deque()
+  def sort_list(lst):
+        return sorted(lst)
