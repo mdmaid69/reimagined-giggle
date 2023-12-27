@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
