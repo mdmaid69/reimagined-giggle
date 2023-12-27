@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
