@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def cube_number(x):
+        return x**3
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
