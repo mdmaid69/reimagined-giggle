@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import random
-print(random.randint(0, 100))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
