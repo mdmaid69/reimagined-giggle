@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
