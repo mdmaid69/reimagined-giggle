@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
