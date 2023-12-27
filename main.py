@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import datetime
+print(datetime.datetime.now())
