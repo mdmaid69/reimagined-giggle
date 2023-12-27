@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
