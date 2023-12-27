@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def count_characters(sentence):
-        return len(sentence)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
