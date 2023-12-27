@@ -1,5 +1,8 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_pressure(force, area):
-        return force / area
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
