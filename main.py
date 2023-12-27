@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
