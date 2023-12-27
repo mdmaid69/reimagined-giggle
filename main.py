@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def convert_to_binary(n):
+        return bin(n)
