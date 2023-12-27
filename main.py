@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
