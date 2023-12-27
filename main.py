@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def add_numbers(a, b):
+        return a + b
