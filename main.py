@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
