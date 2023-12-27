@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
