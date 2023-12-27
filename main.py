@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import time
+def get_time_since_epoch():
+        return time.time()
