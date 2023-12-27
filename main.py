@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
