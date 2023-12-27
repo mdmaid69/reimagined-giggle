@@ -1,10 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
