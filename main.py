@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+print([x**2 for x in range(10)])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
