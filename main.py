@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
