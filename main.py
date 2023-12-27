@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
