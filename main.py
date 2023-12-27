@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  def cube_number(x):
+        return x**3
