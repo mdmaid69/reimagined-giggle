@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
