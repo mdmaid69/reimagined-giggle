@@ -1,5 +1,6 @@
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import collections
-def create_queue():
-        return collections.deque()
-import sys
-print(sys.version)
+def create_user_list():
+        return collections.UserList()
