@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
