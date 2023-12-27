@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def greet(name):
+        print(f"Hello, {name}!")
