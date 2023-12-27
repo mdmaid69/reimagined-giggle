@@ -1,6 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
