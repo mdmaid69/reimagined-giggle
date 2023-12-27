@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
