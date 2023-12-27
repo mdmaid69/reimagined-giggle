@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
