@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
