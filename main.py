@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_as_bool(array):
+        return bool(array)
