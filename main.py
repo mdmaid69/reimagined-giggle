@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
