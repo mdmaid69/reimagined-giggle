@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
