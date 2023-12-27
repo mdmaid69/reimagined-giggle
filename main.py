@@ -1,6 +1,6 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
