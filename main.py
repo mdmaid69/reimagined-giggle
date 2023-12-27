@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
