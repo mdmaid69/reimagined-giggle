@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_area_rectangle(l, w):
-        return l * w
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
