@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
