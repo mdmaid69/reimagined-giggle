@@ -1,6 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+for i in range(10): print(i)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
