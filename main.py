@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
