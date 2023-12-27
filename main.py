@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def add_numbers(x, y):
+        return x + y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
