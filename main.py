@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
