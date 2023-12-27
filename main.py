@@ -1,6 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
   import os
-  def get_file_device(file_name):
+  def get_file_dev(file_name):
         return os.stat(file_name).st_dev
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
