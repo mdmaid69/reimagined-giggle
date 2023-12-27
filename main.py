@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
