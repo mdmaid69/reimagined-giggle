@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_density(mass, volume):
-        return mass / volume
+def reverse_list(lst):
+        return lst[::-1]
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
