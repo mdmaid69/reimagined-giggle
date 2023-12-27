@@ -1,6 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_as_set(array):
-        return set(array)
+def convert_array_to_string(array):
+        return array.tostring()
