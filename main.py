@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def create_counter():
+        return collections.Counter()
