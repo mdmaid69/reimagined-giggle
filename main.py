@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_density(mass, volume):
+        return mass / volume
+def reverse_list(lst):
+        return lst[::-1]
