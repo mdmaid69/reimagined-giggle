@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
