@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import platform
+def get_os_info():
+        return platform.uname()
