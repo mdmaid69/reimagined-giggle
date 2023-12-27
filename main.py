@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_density(mass, volume):
+        return mass / volume
