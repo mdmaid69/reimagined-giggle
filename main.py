@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import time
+def get_current_time():
+        return time.ctime()
