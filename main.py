@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
