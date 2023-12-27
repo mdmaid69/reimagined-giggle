@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
