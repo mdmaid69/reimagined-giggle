@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
