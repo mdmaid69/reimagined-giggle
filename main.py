@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
