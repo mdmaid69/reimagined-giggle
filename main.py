@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
