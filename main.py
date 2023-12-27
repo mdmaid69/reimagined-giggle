@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
