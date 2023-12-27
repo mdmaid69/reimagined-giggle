@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
