@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
