@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
