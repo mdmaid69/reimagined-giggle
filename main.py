@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_work(force, distance):
+        return force * distance
