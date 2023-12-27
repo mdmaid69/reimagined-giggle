@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def convert_to_hex(n):
-        return hex(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
