@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def multiply_numbers(x, y):
+        return x * y
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
