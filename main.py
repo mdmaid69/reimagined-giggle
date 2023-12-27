@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
