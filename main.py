@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
