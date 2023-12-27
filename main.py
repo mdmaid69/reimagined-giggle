@@ -1,7 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import collections
+def create_priority_queue():
+        return collections.deque()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
