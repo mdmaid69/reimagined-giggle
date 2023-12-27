@@ -1,8 +1,4 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import tensorflow as tf
+print(tf.__version__)
