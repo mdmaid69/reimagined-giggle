@@ -1,6 +1,9 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
