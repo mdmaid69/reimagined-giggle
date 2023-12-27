@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_as_float(array):
+        return float(array[0])
