@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
