@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
