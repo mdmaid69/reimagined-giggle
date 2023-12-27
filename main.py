@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
