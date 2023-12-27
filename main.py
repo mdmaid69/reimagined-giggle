@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import platform
+def get_python_version():
+        return platform.python_version()
