@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_pressure(force, area):
+        return force / area
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
