@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
