@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
