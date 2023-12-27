@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def add_numbers(x, y):
-        return x + y
+def add_numbers(a, b):
+        return a + b
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
