@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
