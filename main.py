@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
