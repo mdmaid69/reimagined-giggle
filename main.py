@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+from collections import Counter
+print(Counter("hello world"))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
