@@ -1,6 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+print([x**2 for x in range(10)])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
