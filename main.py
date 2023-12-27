@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+print(random.randint(0, 100))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
