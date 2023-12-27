@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
