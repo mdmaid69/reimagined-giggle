@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def convert_to_binary(n):
+        return bin(n)
