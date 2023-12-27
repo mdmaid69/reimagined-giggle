@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_work(force, distance):
+        return force * distance
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
