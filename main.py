@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 import array
-def get_array_as_set(array):
-        return set(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
