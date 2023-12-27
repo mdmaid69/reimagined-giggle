@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_str(array):
-        return str(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def convert_to_hex(n):
+        return hex(n)
