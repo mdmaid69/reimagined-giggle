@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_area_circle(r):
+        return 3.14 * r**2
