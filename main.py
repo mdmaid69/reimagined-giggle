@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
