@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
