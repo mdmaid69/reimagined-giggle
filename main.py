@@ -1,6 +1,8 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
