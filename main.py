@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
