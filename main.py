@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def square_number(x):
+        return x**2
