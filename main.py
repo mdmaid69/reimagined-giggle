@@ -1,5 +1,3 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-for i in range(5):
-        print(i)
+print([x**2 for x in range(10)])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
