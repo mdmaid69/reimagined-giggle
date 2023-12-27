@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
