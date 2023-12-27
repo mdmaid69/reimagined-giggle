@@ -1,6 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import tensorflow as tf
+print(tf.__version__)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
