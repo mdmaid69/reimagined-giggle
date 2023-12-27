@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import datetime
+def get_today_date():
+        return datetime.date.today()
