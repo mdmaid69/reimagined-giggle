@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
