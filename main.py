@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+x = 10
+y = 20
+print("Sum:", x + y)
+def count_words(sentence):
+        return len(sentence.split())
