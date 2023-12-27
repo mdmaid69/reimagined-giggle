@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
