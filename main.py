@@ -1,6 +1,8 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
