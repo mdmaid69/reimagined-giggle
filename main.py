@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
