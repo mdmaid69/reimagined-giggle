@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
