@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
