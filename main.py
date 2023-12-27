@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
