@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
