@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
