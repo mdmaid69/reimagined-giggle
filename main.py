@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def add_numbers(x, y):
-        return x + y
+import sys
+print(sys.version)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
