@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
