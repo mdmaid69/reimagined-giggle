@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
