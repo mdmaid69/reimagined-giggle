@@ -1,5 +1,7 @@
-def find_max(numbers):
-        return max(numbers)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
