@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
