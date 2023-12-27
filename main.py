@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import sys
+def exit_program():
+        sys.exit()
