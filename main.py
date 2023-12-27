@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
