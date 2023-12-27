@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
