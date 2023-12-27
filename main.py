@@ -1,8 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
