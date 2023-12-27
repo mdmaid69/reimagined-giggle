@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import datetime
+def get_current_date():
+        return datetime.date.today()
