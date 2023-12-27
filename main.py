@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
