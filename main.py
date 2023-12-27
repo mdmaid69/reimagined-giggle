@@ -1,6 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def subtract_numbers(x, y):
+        return x - y
+  def cube_number(x):
+        return x**3
