@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
