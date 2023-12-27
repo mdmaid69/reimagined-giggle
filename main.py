@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
