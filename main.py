@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_pressure(force, area):
+        return force / area
