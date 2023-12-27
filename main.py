@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import getpass
+def get_username():
+        return getpass.getuser()
+import time
+print(time.time())
