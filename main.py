@@ -1,6 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+text = "Hello, world!"
+print("Characters:", len(text))
