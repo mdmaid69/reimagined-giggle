@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_user_string():
+        return collections.UserString()
