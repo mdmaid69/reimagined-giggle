@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import os
+def remove_directory(path):
+        os.rmdir(path)
