@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-def print_python_version():
-        return sys.version
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
