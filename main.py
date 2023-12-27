@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
