@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def remove_duplicates(lst):
+        return list(set(lst))
