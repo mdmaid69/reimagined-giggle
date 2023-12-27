@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
