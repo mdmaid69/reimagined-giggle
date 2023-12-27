@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
