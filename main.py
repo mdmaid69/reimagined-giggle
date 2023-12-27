@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def subtract_numbers(x, y):
-        return x - y
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
