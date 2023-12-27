@@ -1,9 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
