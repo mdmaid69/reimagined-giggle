@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_exponential(x):
+        return math.exp(x)
