@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def sort_numbers(numbers):
-        return sorted(numbers)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
