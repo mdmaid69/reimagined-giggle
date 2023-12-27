@@ -1,7 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
