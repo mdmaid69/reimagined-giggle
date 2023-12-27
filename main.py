@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
