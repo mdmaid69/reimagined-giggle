@@ -1,5 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_arc_tangent(x):
+        return math.atan(x)
