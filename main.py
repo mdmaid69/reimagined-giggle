@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import platform
+def get_os_info():
+        return platform.uname()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
