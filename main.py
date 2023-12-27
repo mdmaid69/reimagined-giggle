@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
