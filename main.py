@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
