@@ -1,6 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
