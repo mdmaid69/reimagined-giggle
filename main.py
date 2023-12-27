@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
