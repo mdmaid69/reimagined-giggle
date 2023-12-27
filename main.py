@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def is_palindrome(s):
-        return s == s[::-1]
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
