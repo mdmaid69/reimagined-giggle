@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
