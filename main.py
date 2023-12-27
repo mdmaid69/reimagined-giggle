@@ -1,5 +1,7 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def cube_number(x):
-        return x**3
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
