@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def generate_random_sample(population, k):
+        return random.sample(population, k)
