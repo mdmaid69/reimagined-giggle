@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def is_odd(n):
+        return n % 2 != 0
+def convert_to_binary(n):
+        return bin(n)
