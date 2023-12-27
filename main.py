@@ -1,6 +1,3 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+for i in range(10): print(i)
