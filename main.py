@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
