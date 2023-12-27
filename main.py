@@ -1,6 +1,8 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
