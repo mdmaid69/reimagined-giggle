@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
