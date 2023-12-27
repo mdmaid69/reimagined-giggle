@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
