@@ -1,4 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-print([x**2 for x in range(10)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
