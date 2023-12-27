@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
