@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def convert_to_binary(n):
-        return bin(n)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
