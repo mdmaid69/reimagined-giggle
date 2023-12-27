@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import sys
+def print_python_version():
+        print(sys.version)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
