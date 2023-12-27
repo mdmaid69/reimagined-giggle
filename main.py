@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
