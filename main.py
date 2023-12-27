@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
