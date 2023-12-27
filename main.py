@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
