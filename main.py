@@ -1,5 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_acceleration(speed, time):
+        return speed / time
+def is_palindrome(s):
+        return s == s[::-1]
