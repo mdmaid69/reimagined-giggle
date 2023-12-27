@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
