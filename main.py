@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def reverse_list(lst):
+        return lst[::-1]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
