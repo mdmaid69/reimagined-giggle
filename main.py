@@ -1,5 +1,7 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def divide_numbers(x, y):
-        return x / y
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
