@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+from collections import Counter
+print(Counter("hello world"))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
