@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
