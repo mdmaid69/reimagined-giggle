@@ -1,6 +1,10 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
