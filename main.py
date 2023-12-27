@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
