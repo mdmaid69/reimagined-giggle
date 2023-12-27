@@ -1,7 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def is_even(n):
-        return n % 2 == 0
+def get_array_as_tuple(array):
+        return tuple(array)
