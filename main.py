@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
