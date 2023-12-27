@@ -1,6 +1,7 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def is_even(n):
+        return n % 2 == 0
