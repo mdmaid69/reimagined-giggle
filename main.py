@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def cube_number(x):
+        return x**3
+import array
+def set_array_item(array, i, item):
+        array[i] = item
