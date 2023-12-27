@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def multiply_numbers(x, y):
-        return x * y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
