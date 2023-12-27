@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
