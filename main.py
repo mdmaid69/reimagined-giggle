@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+for i in range(5):
+        print(i)
