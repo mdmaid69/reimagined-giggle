@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
