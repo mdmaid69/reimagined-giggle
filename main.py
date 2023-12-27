@@ -1,8 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_min(lst):
+        return min(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
