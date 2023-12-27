@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
