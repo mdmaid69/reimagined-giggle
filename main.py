@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
