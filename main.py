@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
