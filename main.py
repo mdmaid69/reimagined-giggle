@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
