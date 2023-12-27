@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
