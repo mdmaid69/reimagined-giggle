@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def get_array_as_set(array):
+        return set(array)
