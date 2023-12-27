@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
