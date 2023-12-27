@@ -1,5 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
