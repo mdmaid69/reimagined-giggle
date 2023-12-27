@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
