@@ -1,7 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
