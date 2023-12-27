@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
