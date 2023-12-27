@@ -1,7 +1,5 @@
-for i in range(5):
-        print(i)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
