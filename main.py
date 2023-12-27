@@ -1,5 +1,6 @@
 import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-for i in range(5):
-        print(i)
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
