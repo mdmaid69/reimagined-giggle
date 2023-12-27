@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def find_min(lst):
-        return min(lst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
