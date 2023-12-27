@@ -1,9 +1,12 @@
-  def is_odd(n):
-        return n % 2 != 0
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import queue
 
-{body}")
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
