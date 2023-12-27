@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
