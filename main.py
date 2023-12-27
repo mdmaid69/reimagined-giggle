@@ -1,10 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
