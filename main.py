@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+x = 10
+y = 20
+print("Sum:", x + y)
