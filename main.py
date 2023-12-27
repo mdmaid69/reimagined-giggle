@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def is_even(n):
-        return n % 2 == 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import datetime
+def get_today_date():
+        return datetime.date.today()
