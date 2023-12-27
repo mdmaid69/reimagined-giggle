@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
