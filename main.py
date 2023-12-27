@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
