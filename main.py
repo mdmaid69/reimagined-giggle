@@ -1,5 +1,5 @@
 text = "Hello, world!"
-print("Characters:", len(text))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+print("Reversed:", text[::-1])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
