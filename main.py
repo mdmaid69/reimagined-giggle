@@ -1,6 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
