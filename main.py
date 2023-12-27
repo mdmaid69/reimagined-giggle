@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
