@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
