@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
