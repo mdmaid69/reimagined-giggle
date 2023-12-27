@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def multiply_numbers(x, y):
+        return x * y
