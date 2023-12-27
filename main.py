@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def convert_array_to_string(array):
+        return array.tostring()
