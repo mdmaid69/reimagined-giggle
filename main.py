@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def convert_to_binary(n):
-        return bin(n)
+  def subtract_numbers(x, y):
+        return x - y
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
