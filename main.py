@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def is_even(n):
+        return n % 2 == 0
