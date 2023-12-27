@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
