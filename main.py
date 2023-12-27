@@ -1,13 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
