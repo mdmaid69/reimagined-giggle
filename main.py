@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import collections
+def create_priority_queue():
+        return collections.deque()
