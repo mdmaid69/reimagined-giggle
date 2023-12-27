@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_density(mass, volume):
+        return mass / volume
