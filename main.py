@@ -1,4 +1,7 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-for i in range(10): print(i)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
