@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
