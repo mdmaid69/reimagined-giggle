@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_density(mass, volume):
+        return mass / volume
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
