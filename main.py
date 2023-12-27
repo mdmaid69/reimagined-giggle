@@ -1,5 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_pressure(force, area):
-        return force / area
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
