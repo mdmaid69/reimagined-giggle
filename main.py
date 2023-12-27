@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
