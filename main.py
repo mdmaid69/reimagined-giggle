@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import sys
-def exit_program():
-        sys.exit()
+  def delete_file(file_name):
+        os.remove(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
