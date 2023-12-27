@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
