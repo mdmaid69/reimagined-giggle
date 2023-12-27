@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def reverse_array(array):
+        array.reverse()
