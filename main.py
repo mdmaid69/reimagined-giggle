@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
