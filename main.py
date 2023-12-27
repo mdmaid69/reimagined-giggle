@@ -1,4 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def multiply_numbers(x, y):
+        return x * y
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
