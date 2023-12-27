@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
