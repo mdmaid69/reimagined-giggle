@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_pressure(force, area):
+        return force / area
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
