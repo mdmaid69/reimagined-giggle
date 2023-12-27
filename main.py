@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_array_index(array, item):
+        return array.index(item)
