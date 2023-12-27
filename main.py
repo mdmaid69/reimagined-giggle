@@ -1,3 +1,7 @@
-for i in range(10): print(i)
-  def add_numbers(x, y):
-        return x + y
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import collections
+def create_user_list():
+        return collections.UserList()
