@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def is_even(n):
+        return n % 2 == 0
