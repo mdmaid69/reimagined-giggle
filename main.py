@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
