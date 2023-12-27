@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_float(array):
+        return float(array[0])
