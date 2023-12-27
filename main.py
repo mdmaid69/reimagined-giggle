@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
