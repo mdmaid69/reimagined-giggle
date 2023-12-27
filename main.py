@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
