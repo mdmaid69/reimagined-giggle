@@ -1,6 +1,7 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def cube_number(x):
+        return x**3
