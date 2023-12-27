@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def square_number(x):
-        return x**2
+import random
+print(random.randint(0, 100))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
