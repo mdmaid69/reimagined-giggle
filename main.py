@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
