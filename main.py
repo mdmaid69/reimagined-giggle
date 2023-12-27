@@ -1,6 +1,7 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
