@@ -1,9 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def convert_to_octal(n):
+        return oct(n)
