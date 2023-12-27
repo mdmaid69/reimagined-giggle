@@ -1,4 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_item(array, i):
+        return array[i]
