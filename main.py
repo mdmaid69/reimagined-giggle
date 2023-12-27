@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def is_odd(n):
+        return n % 2 != 0
