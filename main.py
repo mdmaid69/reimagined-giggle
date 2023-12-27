@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
