@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def convert_to_binary(n):
-        return bin(n)
+import random
+print(random.randint(0, 100))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
