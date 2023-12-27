@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_user_list():
+        return collections.UserList()
