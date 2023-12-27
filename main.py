@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
