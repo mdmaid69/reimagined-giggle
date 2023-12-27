@@ -1,5 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def square_number(x):
-        return x**2
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
