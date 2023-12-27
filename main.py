@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def sort_numbers(numbers):
+        return sorted(numbers)
+def find_max(lst):
+        return max(lst)
