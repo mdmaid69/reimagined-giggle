@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def cube_number(x):
-        return x**3
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
