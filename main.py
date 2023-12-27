@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
