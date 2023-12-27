@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
