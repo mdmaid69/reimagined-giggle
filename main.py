@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def sort_list(lst):
+        return sorted(lst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
