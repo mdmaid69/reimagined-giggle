@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_sine(x):
+        return math.sin(x)
