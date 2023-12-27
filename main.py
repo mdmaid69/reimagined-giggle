@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_work(force, distance):
+        return force * distance
