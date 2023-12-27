@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
