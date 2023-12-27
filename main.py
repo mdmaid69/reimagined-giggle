@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_directory_name(path):
+        return os.path.dirname(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
