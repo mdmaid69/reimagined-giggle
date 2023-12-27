@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
