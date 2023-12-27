@@ -1,5 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+print([x**2 for x in range(10)])
