@@ -1,5 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def is_even(n):
+        return n % 2 == 0
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
