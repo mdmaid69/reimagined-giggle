@@ -1,6 +1,6 @@
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import getpass
-def get_username():
-        return getpass.getuser()
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
