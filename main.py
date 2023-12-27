@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
