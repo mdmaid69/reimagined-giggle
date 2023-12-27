@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_volume(length, width, height):
-        return length * width * height
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
