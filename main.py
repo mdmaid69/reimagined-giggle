@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def reverse_list(lst):
+        return lst[::-1]
