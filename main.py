@@ -1,7 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def remove_duplicates(lst):
+        return list(set(lst))
