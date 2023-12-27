@@ -1,6 +1,6 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
