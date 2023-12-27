@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
