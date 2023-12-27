@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def convert_to_hex(n):
+        return hex(n)
