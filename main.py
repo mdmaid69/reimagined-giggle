@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
