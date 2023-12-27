@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
