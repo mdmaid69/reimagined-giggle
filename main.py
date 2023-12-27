@@ -1,5 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
