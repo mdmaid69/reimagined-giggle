@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def is_even(n):
+        return n % 2 == 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
