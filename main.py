@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def create_user_dict():
+        return collections.UserDict()
