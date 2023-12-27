@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
