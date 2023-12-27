@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
