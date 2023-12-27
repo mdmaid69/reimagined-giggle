@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
