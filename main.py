@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_list_from_array(array):
+        return array.tolist()
