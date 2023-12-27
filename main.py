@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
