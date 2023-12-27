@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
