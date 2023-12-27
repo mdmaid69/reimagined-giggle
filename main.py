@@ -1,6 +1,5 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_work(force, distance):
+        return force * distance
