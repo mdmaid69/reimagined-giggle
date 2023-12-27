@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def is_even(n):
+        return n % 2 == 0
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
