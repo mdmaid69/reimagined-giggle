@@ -1,6 +1,5 @@
-  def square_number(x):
-        return x**2
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
