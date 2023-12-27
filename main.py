@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_min(numbers):
-        return min(numbers)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
