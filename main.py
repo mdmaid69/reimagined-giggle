@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import time
+def get_current_time():
+        return time.ctime()
