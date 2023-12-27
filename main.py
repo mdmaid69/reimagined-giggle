@@ -1,6 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
