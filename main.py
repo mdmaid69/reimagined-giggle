@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
