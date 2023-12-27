@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
