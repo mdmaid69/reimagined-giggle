@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
