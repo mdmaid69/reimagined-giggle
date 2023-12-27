@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
