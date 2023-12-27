@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
