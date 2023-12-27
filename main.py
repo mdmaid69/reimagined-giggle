@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_power(work, time):
-        return work / time
+def count_elements(lst):
+        return len(lst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
