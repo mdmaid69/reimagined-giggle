@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def cube_number(x):
+        return x**3
