@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def sort_list(lst):
+        return sorted(lst)
