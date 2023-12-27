@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def cube_number(x):
+        return x**3
 import array
-def get_array_item(array, i):
-        return array[i]
+def check_if_array_contains_item(array, item):
+        return item in array
