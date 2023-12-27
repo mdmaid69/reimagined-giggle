@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
