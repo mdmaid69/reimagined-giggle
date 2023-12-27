@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def calculate_power(work, time):
+        return work / time
