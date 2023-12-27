@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import time
+def get_current_time():
+        return time.time()
