@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
