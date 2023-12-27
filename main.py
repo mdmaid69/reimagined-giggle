@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
