@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def is_even(n):
+        return n % 2 == 0
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
