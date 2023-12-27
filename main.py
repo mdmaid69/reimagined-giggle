@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import re
+print(re.match("h.*o", "hello world"))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
