@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def split_path(path):
+        return os.path.split(path)
