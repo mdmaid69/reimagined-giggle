@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
