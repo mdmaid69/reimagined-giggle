@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def find_min(lst):
+        return min(lst)
