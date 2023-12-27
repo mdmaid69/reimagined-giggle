@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
