@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
