@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+from collections import Counter
+print(Counter("hello world"))
