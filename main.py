@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
