@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_speed(distance, time):
-        return distance / time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
