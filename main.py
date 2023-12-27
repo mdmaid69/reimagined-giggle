@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import tensorflow as tf
-print(tf.__version__)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
