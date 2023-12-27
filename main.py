@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
