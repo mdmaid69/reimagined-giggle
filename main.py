@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
