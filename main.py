@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
