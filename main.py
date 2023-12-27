@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
