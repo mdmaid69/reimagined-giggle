@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def reverse_list(lst):
+        return lst[::-1]
