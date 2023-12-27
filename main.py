@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
