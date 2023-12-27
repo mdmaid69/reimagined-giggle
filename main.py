@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
