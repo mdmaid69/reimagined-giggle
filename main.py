@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import logging
+def log_message(message):
+        logging.info(message)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
