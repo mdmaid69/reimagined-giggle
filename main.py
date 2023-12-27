@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
