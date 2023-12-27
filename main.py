@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
