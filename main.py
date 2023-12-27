@@ -1,4 +1,8 @@
-print([x**2 for x in range(10)])
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
