@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
