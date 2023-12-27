@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
