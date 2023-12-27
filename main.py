@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
