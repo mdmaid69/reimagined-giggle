@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
