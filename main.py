@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
