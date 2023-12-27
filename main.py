@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
