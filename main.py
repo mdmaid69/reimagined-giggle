@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def find_min(numbers):
+        return min(numbers)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
