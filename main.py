@@ -1,7 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
