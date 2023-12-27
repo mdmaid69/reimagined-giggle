@@ -1,8 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import collections
+def create_priority_queue():
+        return collections.deque()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
