@@ -1,6 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
