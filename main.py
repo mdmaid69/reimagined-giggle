@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_float(array):
+        return float(array[0])
