@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_density(mass, volume):
+        return mass / volume
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
