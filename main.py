@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def convert_to_binary(n):
-        return bin(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
