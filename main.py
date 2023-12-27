@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def subtract_numbers(x, y):
+        return x - y
