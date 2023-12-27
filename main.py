@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def is_odd(n):
+        return n % 2 != 0
