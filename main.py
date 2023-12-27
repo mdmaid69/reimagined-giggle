@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
