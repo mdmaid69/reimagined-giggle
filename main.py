@@ -1,6 +1,11 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
