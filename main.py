@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
