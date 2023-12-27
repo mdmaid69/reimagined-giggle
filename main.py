@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
