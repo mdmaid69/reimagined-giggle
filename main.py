@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import json
+print(json.dumps({"name": "John", "age": 30}))
