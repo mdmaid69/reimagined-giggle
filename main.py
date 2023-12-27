@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
