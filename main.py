@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def cube_number(x):
-        return x**3
+import math
+print(math.pi)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
