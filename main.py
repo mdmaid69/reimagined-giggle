@@ -1,8 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+from collections import Counter
+print(Counter("hello world"))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
