@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-for i in range(5):
-        print(i)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
