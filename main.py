@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+print([x**2 for x in range(10)])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
