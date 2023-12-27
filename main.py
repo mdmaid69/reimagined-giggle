@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
