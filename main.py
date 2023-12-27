@@ -1,5 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
