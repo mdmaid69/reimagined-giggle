@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
