@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
