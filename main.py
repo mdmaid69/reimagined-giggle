@@ -1,5 +1,8 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
