@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def convert_to_octal(n):
+        return oct(n)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
