@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
