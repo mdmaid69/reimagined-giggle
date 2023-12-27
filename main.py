@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import sys
+def print_python_version():
+        return sys.version
