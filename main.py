@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
