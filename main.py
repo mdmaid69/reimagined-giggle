@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-print(math.pi)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_work(force, distance):
+        return force * distance
