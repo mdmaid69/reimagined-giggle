@@ -1,7 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
