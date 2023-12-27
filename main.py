@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import platform
+def get_os_info():
+        return platform.uname()
