@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
