@@ -1,6 +1,3 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def convert_to_hex(n):
+        return hex(n)
+print([x**2 for x in range(10)])
