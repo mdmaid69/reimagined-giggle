@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
