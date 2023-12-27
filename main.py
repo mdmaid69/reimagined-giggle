@@ -1,5 +1,3 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-from collections import Counter
-print(Counter("hello world"))
+print("Hello, world!")
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
