@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
