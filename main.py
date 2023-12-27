@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
