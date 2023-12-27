@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import random
-print(random.randint(0, 100))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
