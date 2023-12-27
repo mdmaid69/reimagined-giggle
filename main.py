@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+print(random.randint(0, 100))
