@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def greet(name):
+        print(f"Hello, {name}!")
