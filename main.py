@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_speed(distance, time):
+        return distance / time
