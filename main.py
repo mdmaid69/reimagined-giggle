@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
