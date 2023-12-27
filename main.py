@@ -1,4 +1,9 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
