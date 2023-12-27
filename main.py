@@ -1,4 +1,5 @@
-print(sum(range(10)))
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def find_min(lst):
+        return min(lst)
