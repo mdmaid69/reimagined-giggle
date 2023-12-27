@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
