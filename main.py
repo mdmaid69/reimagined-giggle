@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import time
-print(time.time())
+import collections
+def create_counter():
+        return collections.Counter()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
