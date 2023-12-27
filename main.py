@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def reverse_list(lst):
+        return lst[::-1]
+def divide_numbers(x, y):
+        return x / y
