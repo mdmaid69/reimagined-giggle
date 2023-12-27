@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def reverse_array(array):
+        array.reverse()
