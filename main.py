@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def subtract_numbers(x, y):
+        return x - y
+  def count_elements(lst):
+        return len(lst)
