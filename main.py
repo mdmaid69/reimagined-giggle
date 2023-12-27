@@ -1,6 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_work(force, distance):
+        return force * distance
