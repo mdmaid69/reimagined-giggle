@@ -1,4 +1,3 @@
-  def is_even(n):
-        return n % 2 == 0
-  def multiply_numbers(x, y):
-        return x * y
+print("Hello, world!")
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
