@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def subtract_numbers(x, y):
-        return x - y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
