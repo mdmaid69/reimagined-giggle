@@ -1,6 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_ceiling(x):
+        return math.ceil(x)
