@@ -1,6 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
