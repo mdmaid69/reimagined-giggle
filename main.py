@@ -1,7 +1,8 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import sys
+  def get_python_version():
+        return sys.version
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
