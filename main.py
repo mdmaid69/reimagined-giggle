@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_speed(distance, time):
-        return distance / time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
