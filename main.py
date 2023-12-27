@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
