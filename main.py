@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_power(work, time):
-        return work / time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
