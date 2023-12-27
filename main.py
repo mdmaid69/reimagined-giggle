@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
