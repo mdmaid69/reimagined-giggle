@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
