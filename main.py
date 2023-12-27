@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
