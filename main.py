@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def sort_list(lst):
+        return sorted(lst)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
