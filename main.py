@@ -1,8 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_array_as_int(array):
+        return int(array[0])
