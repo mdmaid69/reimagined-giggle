@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
