@@ -1,5 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def count_characters(sentence):
-        return len(sentence)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_force(mass, acceleration):
+        return mass * acceleration
