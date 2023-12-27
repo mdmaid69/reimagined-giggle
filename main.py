@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def convert_array_to_list(array):
+        return array.tolist()
