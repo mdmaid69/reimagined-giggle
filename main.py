@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
