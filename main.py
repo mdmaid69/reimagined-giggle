@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_area_circle(r):
+        return 3.14 * r**2
