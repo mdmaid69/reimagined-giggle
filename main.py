@@ -1,12 +1,7 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
