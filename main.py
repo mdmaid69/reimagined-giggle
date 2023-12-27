@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
