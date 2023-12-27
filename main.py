@@ -1,7 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
