@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_typecode(array):
+        return array.typecode
