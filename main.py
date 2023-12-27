@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
