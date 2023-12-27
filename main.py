@@ -1,6 +1,9 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
