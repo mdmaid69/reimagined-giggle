@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
