@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_max(numbers):
-        return max(numbers)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
