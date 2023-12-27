@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
