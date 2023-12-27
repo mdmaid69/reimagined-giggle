@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
