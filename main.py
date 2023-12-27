@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def convert_to_hex(n):
-        return hex(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
