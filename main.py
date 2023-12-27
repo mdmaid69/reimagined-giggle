@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
