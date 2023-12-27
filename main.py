@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
