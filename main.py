@@ -1,7 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def cube_number(x):
+        return x**3
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
