@@ -1,5 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
