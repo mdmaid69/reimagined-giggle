@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_density(mass, volume):
+        return mass / volume
+import re
+print(re.match("h.*o", "hello world"))
