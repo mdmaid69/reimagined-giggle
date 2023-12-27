@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import getpass
+def get_username():
+        return getpass.getuser()
+import datetime
+def get_current_date():
+        return datetime.date.today()
