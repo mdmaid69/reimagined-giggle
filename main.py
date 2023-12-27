@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
