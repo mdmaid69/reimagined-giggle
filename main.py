@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def square_number(x):
+        return x**2
