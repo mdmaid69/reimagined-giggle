@@ -1,5 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def add_numbers(x, y):
+        return x + y
