@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import random
+print(random.randint(0, 100))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
