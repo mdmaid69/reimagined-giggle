@@ -1,6 +1,8 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def reverse_array(array):
-        array.reverse()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
