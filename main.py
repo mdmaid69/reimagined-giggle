@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
