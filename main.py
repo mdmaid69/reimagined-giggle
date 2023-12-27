@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_stack():
+        return collections.deque()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
