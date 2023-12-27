@@ -1,5 +1,7 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+from collections import Counter
+print(Counter("hello world"))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
