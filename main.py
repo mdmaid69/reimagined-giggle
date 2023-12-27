@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
