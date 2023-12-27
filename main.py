@@ -1,6 +1,8 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
