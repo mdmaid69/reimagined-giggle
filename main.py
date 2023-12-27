@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
