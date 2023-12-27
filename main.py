@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_floor(x):
+        return math.floor(x)
