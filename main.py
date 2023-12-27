@@ -1,6 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_error_function(x):
+        return math.erf(x)
