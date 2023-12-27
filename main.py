@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
