@@ -1,6 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
