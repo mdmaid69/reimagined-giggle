@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  def is_even(n):
+        return n % 2 == 0
