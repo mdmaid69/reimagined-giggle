@@ -1,6 +1,6 @@
-def square_number(x):
-        return x**2
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+from collections import Counter
+print(Counter("hello world"))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
