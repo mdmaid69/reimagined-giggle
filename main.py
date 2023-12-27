@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
