@@ -1,5 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
