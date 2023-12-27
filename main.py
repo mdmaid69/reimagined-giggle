@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def subtract_numbers(x, y):
-        return x - y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
