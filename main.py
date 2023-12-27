@@ -1,4 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-import random
-print(random.randint(0, 100))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
