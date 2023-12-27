@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
