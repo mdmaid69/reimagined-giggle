@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
