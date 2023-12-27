@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
