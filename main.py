@@ -1,5 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
