@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
