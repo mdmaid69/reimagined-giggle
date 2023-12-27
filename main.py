@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
