@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
