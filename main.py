@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def count_elements(lst):
-        return len(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
