@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_pressure(force, area):
+        return force / area
