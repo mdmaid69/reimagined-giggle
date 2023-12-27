@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def find_min(numbers):
+        return min(numbers)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
