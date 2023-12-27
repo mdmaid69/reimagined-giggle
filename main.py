@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
