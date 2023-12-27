@@ -1,6 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def clear_array(array):
+        array *= 0
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
