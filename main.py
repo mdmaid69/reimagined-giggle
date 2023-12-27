@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_speed(distance, time):
+        return distance / time
