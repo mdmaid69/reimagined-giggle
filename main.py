@@ -1,6 +1,7 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_length(array):
+        return len(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
