@@ -1,5 +1,7 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-  def subtract_numbers(x, y):
-        return x - y
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
