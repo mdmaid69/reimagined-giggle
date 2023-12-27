@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import os
+  def split_path(path):
+        return os.path.split(path)
