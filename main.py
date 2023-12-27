@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
