@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
