@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_error_function(x):
+        return math.erf(x)
