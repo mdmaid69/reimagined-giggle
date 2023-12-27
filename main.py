@@ -1,5 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
