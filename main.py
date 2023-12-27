@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def calculate_volume(length, width, height):
+        return length * width * height
