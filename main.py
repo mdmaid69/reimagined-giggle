@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
