@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import sys
+def exit_program():
+        sys.exit()
