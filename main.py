@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
