@@ -1,7 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def convert_to_binary(n):
+        return bin(n)
+def multiply_numbers(x, y):
+        return x * y
