@@ -1,8 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def square_number(x):
+        return x**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
