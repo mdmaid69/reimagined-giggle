@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
