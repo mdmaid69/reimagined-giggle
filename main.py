@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_list(array):
+        return list(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
