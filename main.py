@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  def convert_to_binary(n):
-        return bin(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
