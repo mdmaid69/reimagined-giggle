@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
