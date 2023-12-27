@@ -1,5 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Words:", len(text.split()))
