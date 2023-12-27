@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
