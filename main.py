@@ -1,5 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
