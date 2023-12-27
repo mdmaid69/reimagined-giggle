@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_as_int(array):
+        return int(array[0])
