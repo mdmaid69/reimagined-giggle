@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def find_min(lst):
+        return min(lst)
