@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def reverse_array(array):
-        array.reverse()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
