@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
