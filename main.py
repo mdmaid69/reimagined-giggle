@@ -1,6 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
