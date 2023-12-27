@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-print(os.getcwd())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
