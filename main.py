@@ -1,8 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def convert_to_hex(n):
+        return hex(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
