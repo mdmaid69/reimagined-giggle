@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
