@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import sys
+  def get_python_version():
+        return sys.version
