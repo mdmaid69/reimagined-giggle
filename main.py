@@ -1,7 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
