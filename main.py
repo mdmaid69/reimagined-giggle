@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-from collections import Counter
-print(Counter("hello world"))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import getpass
+def get_username():
+        return getpass.getuser()
