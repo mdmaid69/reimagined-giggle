@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def add_numbers(a, b):
+        return a + b
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
