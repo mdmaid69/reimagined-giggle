@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
