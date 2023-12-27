@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def add_numbers(x, y):
+        return x + y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
