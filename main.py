@@ -1,10 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def sort_list(lst):
+        return sorted(lst)
