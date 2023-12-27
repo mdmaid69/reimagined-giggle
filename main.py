@@ -1,4 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def square_number(x):
-        return x**2
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
