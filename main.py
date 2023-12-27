@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
