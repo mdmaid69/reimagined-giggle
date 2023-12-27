@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import sys
+  def get_python_version():
+        return sys.version
