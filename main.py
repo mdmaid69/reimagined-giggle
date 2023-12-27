@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
