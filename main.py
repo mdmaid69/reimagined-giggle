@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
