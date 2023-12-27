@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
