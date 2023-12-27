@@ -1,4 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-print(math.pi)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
