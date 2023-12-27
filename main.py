@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
