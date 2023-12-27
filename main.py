@@ -1,6 +1,9 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
