@@ -1,6 +1,5 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_power(work, time):
+        return work / time
