@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
