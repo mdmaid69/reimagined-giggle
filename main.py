@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import platform
-def get_os_info():
-        return platform.uname()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
