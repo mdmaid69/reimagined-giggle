@@ -1,6 +1,8 @@
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
