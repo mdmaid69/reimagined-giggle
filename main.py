@@ -1,6 +1,8 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
