@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
