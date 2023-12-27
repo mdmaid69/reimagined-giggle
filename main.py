@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_floor(x):
+        return math.floor(x)
