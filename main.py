@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
