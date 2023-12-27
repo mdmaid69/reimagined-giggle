@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
