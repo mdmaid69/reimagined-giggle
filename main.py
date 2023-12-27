@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
