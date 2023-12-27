@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+x = 10
+y = 20
+print("Sum:", x + y)
