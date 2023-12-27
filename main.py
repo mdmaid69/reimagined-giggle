@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def reverse_array(array):
+        array.reverse()
+def find_unique_words(sentence):
+        return set(sentence.split())
