@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
