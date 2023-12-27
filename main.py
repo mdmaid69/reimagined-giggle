@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def add_numbers(x, y):
+        return x + y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
