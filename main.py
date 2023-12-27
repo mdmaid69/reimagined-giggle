@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
