@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def square_number(x):
-        return x**2
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
