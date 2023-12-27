@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_item_count(array, item):
+        return array.count(item)
