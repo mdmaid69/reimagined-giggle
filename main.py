@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def is_even(n):
+        return n % 2 == 0
