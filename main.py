@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
