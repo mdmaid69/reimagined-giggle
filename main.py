@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def remove_from_array(array, item):
+        array.remove(item)
