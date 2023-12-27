@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def is_even(n):
+        return n % 2 == 0
