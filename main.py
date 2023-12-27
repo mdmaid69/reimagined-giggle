@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
