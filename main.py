@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
