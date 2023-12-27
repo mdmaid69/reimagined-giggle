@@ -1,4 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-print([x**2 for x in range(10)])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
