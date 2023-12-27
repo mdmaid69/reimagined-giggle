@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
