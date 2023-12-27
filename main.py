@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
