@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
