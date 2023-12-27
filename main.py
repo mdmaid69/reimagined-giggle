@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
