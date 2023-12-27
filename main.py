@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
