@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_acceleration(speed, time):
+        return speed / time
