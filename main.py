@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+from collections import Counter
+print(Counter("hello world"))
+  def convert_to_binary(n):
+        return bin(n)
