@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  def calculate_area_rectangle(l, w):
-        return l * w
+import time
+def get_current_time():
+        return time.time()
+def is_odd(n):
+        return n % 2 != 0
