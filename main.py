@@ -1,7 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_min(numbers):
+        return min(numbers)
