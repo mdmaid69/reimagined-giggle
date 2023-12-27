@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
