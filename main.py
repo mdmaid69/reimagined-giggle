@@ -1,6 +1,6 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
