@@ -1,6 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
