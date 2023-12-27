@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
