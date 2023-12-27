@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def add_numbers(a, b):
+        return a + b
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
