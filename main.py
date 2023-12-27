@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
