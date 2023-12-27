@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-  def convert_to_binary(n):
-        return bin(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
