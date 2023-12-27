@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import sys
+def print_python_version():
+        print(sys.version)
