@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+for i in range(10): print(i)
