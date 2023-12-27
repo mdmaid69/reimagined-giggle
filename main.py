@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import datetime
-print(datetime.datetime.now())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
