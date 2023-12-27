@@ -1,5 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def find_max(lst):
+        return max(lst)
