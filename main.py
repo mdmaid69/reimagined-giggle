@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
