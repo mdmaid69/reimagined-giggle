@@ -1,3 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-print([x**2 for x in range(10)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
