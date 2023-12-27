@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
