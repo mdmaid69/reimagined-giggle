@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
