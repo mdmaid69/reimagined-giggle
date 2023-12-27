@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
