@@ -1,5 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def convert_array_to_unicode(array):
+        return array.tounicode()
