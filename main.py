@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
