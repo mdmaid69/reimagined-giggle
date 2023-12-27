@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
