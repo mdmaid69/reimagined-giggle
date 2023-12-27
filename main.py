@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
