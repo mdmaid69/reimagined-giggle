@@ -1,7 +1,9 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
