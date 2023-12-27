@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
