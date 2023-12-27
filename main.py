@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
