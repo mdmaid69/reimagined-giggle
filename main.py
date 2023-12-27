@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
