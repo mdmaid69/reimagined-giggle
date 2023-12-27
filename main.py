@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
