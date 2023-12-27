@@ -1,9 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
