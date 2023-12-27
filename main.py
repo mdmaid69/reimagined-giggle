@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
