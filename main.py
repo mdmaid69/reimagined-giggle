@@ -1,6 +1,8 @@
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
