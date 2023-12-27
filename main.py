@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
