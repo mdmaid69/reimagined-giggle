@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
