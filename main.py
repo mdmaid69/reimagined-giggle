@@ -1,8 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
