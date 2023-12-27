@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import sys
+def exit_program():
+        sys.exit()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
