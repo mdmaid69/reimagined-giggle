@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_floor(x):
+        return math.floor(x)
