@@ -1,9 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
