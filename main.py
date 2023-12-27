@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_stack():
+        return collections.deque()
