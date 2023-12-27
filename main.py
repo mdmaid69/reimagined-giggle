@@ -1,4 +1,8 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import platform
+def get_os_info():
+        return platform.uname()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
