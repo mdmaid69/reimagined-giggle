@@ -1,3 +1,4 @@
-for i in range(10): print(i)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def convert_to_binary(n):
+        return bin(n)
