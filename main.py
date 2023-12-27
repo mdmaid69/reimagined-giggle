@@ -1,5 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_square_root(x):
+        return math.sqrt(x)
