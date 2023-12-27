@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
