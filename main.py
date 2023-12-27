@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
