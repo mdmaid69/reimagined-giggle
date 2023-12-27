@@ -1,6 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
