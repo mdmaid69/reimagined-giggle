@@ -1,7 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_unique_words(sentence):
+        return set(sentence.split())
