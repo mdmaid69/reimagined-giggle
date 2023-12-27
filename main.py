@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
