@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
