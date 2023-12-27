@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
