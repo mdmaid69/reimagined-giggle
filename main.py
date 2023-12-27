@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
