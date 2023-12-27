@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
