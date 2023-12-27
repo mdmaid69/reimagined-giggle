@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_arc_cosine(x):
+        return math.acos(x)
