@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
