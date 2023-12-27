@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_density(mass, volume):
+        return mass / volume
+name = "Python"
+print("Hello,", name)
