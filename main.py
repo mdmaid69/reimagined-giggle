@@ -1,5 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_density(mass, volume):
-        return mass / volume
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
