@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
