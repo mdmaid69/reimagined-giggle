@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
