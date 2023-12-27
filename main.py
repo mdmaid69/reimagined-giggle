@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def remove_duplicates(lst):
-        return list(set(lst))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
