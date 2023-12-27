@@ -1,5 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
