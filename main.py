@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
