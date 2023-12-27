@@ -1,4 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-for i in range(10): print(i)
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
