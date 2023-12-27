@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
