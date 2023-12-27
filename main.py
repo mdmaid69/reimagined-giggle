@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
