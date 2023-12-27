@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
