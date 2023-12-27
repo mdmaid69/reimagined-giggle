@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
