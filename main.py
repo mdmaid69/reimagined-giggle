@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def is_palindrome(s):
+        return s == s[::-1]
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
