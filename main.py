@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
