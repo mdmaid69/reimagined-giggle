@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
