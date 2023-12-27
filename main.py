@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
