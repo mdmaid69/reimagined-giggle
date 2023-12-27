@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def convert_to_octal(n):
+        return oct(n)
