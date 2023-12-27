@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def square_number(x):
+        return x**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
