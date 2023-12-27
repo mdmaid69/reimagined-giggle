@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def divide_numbers(x, y):
+        return x / y
+import collections
+def create_user_string():
+        return collections.UserString()
