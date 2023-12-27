@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-for i in range(5):
-        print(i)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
