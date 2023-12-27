@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
