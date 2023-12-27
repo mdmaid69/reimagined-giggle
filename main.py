@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
