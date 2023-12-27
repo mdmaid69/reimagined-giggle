@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
