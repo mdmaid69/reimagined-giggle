@@ -1,7 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
