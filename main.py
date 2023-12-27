@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
