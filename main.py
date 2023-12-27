@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
