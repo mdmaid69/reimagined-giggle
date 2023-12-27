@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def find_min(numbers):
-        return min(numbers)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
