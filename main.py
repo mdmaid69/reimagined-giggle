@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import logging
-def log_message(message):
-        logging.info(message)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  def subtract_numbers(x, y):
+        return x - y
