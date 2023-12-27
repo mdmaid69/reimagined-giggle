@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
