@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
