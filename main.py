@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
