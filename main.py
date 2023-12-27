@@ -1,6 +1,7 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def count_words(sentence):
+        return len(sentence.split())
