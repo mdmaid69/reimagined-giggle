@@ -1,6 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-print("Hello, world!")
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
