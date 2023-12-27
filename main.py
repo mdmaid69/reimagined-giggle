@@ -1,8 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_repr(array):
+        return repr(array)
