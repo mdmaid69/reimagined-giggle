@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
