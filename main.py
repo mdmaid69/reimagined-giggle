@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
