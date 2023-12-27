@@ -1,11 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def find_unique_words(sentence):
+        return set(sentence.split())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
