@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
