@@ -1,5 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def reverse_string(s):
+        return s[::-1]
+for i in range(5):
+        print(i)
