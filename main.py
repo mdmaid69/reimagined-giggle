@@ -1,6 +1,8 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
