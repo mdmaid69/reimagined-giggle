@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+from collections import Counter
+print(Counter("hello world"))
+import numpy as np
+print(np.array([1, 2, 3]))
