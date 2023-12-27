@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
