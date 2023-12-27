@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
