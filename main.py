@@ -1,4 +1,4 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-for i in range(10): print(i)
+def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
