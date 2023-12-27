@@ -1,4 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
