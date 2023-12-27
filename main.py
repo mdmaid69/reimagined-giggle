@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
