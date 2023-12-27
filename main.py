@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import sys
+print(sys.version)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
