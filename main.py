@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import collections
+def create_user_dict():
+        return collections.UserDict()
