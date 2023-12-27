@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
