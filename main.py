@@ -1,6 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
