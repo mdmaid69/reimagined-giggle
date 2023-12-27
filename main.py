@@ -1,4 +1,12 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
