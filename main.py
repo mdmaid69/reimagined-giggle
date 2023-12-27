@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
