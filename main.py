@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
