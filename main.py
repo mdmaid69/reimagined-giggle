@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
