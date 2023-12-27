@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
