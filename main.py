@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
