@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
