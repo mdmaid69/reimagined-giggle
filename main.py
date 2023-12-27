@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
