@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
