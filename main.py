@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
