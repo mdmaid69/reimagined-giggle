@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import sys
-def print_python_version():
-        print(sys.version)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
