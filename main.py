@@ -1,12 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
