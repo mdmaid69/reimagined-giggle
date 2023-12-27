@@ -1,9 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def get_array_as_float(array):
+        return float(array[0])
