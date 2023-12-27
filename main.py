@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
