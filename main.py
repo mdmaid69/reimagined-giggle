@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
