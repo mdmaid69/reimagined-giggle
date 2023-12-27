@@ -1,5 +1,9 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
