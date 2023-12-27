@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_density(mass, volume):
+        return mass / volume
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
