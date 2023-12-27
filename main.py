@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
