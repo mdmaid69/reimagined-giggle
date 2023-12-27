@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
