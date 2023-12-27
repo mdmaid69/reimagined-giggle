@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
