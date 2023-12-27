@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
