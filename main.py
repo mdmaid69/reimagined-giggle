@@ -1,6 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def square_number(x):
-        return x**2
+  def reverse_list(lst):
+        return lst[::-1]
+  def sort_list(lst):
+        return sorted(lst)
