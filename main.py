@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def find_max(lst):
+        return max(lst)
