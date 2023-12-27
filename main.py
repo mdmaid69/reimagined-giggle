@@ -1,6 +1,6 @@
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import platform
-def get_python_version():
-        return platform.python_version()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
