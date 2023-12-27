@@ -1,10 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
