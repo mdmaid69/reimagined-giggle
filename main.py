@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
