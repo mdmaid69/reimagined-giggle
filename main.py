@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
