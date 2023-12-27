@@ -1,6 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
