@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+print([x**2 for x in range(10)])
