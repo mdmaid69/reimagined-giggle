@@ -1,6 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
