@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import tensorflow as tf
+print(tf.__version__)
