@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_exponential(x):
+        return math.exp(x)
