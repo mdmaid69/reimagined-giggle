@@ -1,5 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
