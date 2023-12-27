@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
