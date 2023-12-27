@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
