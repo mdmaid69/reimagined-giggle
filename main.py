@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
