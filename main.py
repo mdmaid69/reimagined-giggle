@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
