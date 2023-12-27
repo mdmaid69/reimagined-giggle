@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
