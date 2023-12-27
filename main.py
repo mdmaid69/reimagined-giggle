@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import os
+print(os.getcwd())
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
