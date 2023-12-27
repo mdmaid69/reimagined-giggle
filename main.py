@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
