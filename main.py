@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_list_from_array(array):
+        return array.tolist()
