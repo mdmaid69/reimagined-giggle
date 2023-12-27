@@ -1,6 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
