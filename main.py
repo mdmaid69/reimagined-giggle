@@ -1,4 +1,7 @@
-name = "Python"
-print("Hello,", name)
-import os
-print(os.getcwd())
+for i in range(5):
+        print(i)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
