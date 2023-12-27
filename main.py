@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
