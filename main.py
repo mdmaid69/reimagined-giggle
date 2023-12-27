@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def count_elements(lst):
-        return len(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def roll_die():
+        return random.randint(1, 6)
