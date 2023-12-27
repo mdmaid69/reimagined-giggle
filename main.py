@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
