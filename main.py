@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+print(sum(range(10)))
