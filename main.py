@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import random
+print(random.randint(0, 100))
