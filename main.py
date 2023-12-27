@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
