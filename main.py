@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
