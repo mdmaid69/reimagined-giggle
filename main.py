@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def square_number(x):
-        return x**2
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
