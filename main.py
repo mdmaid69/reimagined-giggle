@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
