@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
