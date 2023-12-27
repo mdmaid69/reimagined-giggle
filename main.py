@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def reverse_string(s):
-        return s[::-1]
+  def reverse_list(lst):
+        return lst[::-1]
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
