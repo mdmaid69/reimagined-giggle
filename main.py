@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def convert_to_octal(n):
+        return oct(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
