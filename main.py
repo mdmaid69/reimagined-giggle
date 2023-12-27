@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
