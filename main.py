@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def find_min(numbers):
+        return min(numbers)
