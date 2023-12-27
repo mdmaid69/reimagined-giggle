@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def calculate_area_rectangle(l, w):
+        return l * w
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
