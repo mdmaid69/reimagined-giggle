@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
