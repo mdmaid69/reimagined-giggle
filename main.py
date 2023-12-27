@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
