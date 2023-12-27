@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_acceleration(speed, time):
+        return speed / time
