@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
