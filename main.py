@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
