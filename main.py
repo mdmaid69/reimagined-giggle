@@ -1,6 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
