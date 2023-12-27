@@ -1,5 +1,9 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
