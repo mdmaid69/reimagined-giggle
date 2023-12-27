@@ -1,4 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-print([x**2 for x in range(10)])
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
