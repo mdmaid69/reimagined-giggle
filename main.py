@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import platform
-def get_os_info():
-        return platform.uname()
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_string_from_array(array):
+        return array.tobytes()
