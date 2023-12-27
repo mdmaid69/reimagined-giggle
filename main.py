@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
