@@ -1,6 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
