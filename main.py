@@ -1,8 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
