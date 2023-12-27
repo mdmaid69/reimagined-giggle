@@ -1,8 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import time
+def get_current_time():
+        return time.time()
