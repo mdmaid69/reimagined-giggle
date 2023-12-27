@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
