@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
