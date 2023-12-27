@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
