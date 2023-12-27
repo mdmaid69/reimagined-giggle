@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
