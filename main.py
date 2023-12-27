@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
