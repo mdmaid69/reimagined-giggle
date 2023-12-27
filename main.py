@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import platform
+def get_python_version():
+        return platform.python_version()
+def find_min(lst):
+        return min(lst)
