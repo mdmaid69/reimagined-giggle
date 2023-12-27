@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
