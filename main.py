@@ -1,4 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-print(sum(range(10)))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def create_user_string():
+        return collections.UserString()
