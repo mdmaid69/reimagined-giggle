@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
