@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
