@@ -1,5 +1,8 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-print(math.pi)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
