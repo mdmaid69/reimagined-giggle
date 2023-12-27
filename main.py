@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def append_to_array(array, item):
+        array.append(item)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
