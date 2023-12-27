@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
