@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-x = 10
-y = 20
-print("Sum:", x + y)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
