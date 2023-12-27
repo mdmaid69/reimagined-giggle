@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
