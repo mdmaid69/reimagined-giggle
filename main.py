@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
