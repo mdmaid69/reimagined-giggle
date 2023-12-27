@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import sys
-  def get_python_version():
-        return sys.version
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
