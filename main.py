@@ -1,7 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_user_dict():
+        return collections.UserDict()
