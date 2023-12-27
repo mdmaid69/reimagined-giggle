@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def convert_to_binary(n):
+        return bin(n)
