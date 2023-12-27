@@ -1,8 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import random
+print(random.randint(0, 100))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
