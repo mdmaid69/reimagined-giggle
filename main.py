@@ -1,9 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import os
+print(os.getcwd())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
