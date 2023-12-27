@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
