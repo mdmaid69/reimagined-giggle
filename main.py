@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_power(work, time):
-        return work / time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def multiply_numbers(x, y):
+        return x * y
