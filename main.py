@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import numpy as np
+print(np.array([1, 2, 3]))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
