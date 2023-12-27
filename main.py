@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_as_str(array):
+        return str(array)
