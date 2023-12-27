@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def is_even(n):
+        return n % 2 == 0
