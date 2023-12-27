@@ -1,7 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
