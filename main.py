@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
