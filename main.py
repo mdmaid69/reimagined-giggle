@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def divide_numbers(x, y):
+        return x / y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
