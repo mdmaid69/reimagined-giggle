@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_min(lst):
+        return min(lst)
