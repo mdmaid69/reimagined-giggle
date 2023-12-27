@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+from collections import Counter
+print(Counter("hello world"))
+import random
+def roll_die():
+        return random.randint(1, 6)
