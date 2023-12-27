@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
