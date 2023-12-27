@@ -1,5 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
