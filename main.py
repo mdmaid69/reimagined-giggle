@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
