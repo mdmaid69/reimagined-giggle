@@ -1,7 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def find_max(lst):
+        return max(lst)
