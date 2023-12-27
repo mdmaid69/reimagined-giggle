@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
