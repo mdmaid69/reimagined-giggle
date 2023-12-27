@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
