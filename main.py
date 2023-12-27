@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def get_array_as_set(array):
-        return set(array)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
