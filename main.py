@@ -1,8 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
