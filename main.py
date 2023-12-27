@@ -1,6 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
