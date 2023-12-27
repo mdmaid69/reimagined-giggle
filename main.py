@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def convert_to_binary(n):
+        return bin(n)
+  def reverse_list(lst):
+        return lst[::-1]
