@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_power(work, time):
+        return work / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
