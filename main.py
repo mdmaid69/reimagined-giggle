@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
