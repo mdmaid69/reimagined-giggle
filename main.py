@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_tangent(x):
+        return math.tan(x)
