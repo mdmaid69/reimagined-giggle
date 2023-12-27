@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
