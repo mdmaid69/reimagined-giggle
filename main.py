@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def convert_to_hex(n):
+        return hex(n)
+  import sys
+  def get_python_version():
+        return sys.version
