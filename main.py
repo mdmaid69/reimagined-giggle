@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_length(array):
+        return len(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
