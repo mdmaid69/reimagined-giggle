@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
