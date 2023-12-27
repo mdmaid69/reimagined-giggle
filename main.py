@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def calculate_area_circle(r):
+        return 3.14 * r**2
