@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
