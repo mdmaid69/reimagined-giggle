@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def remove_from_array(array, item):
+        array.remove(item)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
