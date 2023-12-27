@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def get_array_typecode(array):
+        return array.typecode
