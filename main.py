@@ -1,8 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_speed(distance, time):
+        return distance / time
