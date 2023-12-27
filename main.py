@@ -1,5 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def reverse_list(lst):
-        return lst[::-1]
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
