@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
