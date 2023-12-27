@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
