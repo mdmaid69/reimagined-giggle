@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
