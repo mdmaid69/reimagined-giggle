@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
