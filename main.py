@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
