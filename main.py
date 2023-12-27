@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
