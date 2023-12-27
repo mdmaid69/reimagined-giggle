@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import platform
-def get_python_version():
-        return platform.python_version()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
