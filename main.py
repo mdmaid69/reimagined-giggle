@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_sine(x):
+        return math.sin(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
