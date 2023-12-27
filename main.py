@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
