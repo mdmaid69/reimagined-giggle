@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area(radius):
+        return 3.14 * radius * radius
