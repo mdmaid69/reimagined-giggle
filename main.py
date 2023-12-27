@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
