@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def sort_list(lst):
+        return sorted(lst)
