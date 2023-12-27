@@ -1,8 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
