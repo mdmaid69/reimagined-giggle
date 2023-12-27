@@ -1,5 +1,10 @@
-import time
-def get_current_time():
-        return time.time()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
