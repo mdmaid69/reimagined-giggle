@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def convert_to_hex(n):
-        return hex(n)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_density(mass, volume):
+        return mass / volume
