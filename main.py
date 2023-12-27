@@ -1,6 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
