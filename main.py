@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
