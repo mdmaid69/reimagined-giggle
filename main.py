@@ -1,6 +1,7 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
