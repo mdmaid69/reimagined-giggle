@@ -1,8 +1,7 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
 import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
