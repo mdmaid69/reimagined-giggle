@@ -1,7 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
