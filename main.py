@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
