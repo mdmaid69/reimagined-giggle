@@ -1,5 +1,8 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
