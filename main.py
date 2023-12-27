@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def subtract_numbers(x, y):
+        return x - y
