@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
