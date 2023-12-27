@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
