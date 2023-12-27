@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
