@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+for i in range(5):
+        print(i)
