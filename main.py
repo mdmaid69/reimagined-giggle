@@ -1,3 +1,4 @@
-print([x**2 for x in range(10)])
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def is_odd(n):
+        return n % 2 != 0
+from collections import Counter
+print(Counter("hello world"))
