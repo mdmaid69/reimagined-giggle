@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def is_even(n):
+        return n % 2 == 0
