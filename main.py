@@ -1,6 +1,3 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+print(sum(range(10)))
