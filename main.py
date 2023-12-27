@@ -1,5 +1,10 @@
-import random
-print(random.randint(0, 100))
-import array
-def clear_array(array):
-        array *= 0
+def add_numbers(x, y):
+        return x + y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
