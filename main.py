@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import time
+print(time.time())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
