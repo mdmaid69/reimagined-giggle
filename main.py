@@ -1,8 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def convert_to_hex(n):
+        return hex(n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
