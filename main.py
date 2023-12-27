@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def find_min(lst):
+        return min(lst)
