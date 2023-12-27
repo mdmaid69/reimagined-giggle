@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_user_dict():
+        return collections.UserDict()
