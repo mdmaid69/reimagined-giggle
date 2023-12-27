@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
