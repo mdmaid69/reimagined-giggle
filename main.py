@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
