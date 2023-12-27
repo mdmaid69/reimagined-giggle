@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def count_characters(sentence):
-        return len(sentence)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
