@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def count_characters(sentence):
+        return len(sentence)
