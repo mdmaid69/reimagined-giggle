@@ -1,6 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_speed(distance, time):
+        return distance / time
