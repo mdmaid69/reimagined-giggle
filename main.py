@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
