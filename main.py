@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  def convert_to_hex(n):
-        return hex(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
