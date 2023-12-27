@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
