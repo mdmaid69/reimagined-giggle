@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def is_odd(n):
+        return n % 2 != 0
