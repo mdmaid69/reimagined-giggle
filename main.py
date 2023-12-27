@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
