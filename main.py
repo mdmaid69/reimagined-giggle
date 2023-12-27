@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
