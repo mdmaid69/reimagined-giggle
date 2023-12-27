@@ -1,4 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-for i in range(10): print(i)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
