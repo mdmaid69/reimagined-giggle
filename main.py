@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
