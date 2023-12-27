@@ -1,10 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def convert_to_hex(n):
+        return hex(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
