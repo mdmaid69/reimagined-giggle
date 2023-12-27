@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
