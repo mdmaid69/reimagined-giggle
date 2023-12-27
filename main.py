@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
