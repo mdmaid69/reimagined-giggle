@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
