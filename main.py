@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
