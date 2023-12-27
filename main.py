@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
