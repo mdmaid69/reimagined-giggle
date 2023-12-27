@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
