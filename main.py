@@ -1,6 +1,7 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
