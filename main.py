@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import collections
-def create_user_string():
-        return collections.UserString()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
