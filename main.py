@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def find_max(numbers):
+        return max(numbers)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
