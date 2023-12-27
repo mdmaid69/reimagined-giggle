@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
