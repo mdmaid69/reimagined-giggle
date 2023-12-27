@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
