@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def convert_to_binary(n):
+        return bin(n)
