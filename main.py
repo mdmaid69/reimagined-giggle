@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def convert_to_binary(n):
+        return bin(n)
