@@ -1,5 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_work(force, distance):
-        return force * distance
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
