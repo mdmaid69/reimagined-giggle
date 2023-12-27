@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
