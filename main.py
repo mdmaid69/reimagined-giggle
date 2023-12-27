@@ -1,6 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
