@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_density(mass, volume):
+        return mass / volume
