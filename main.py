@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def count_characters(sentence):
-        return len(sentence)
+import re
+print(re.match("h.*o", "hello world"))
+def sort_list(lst):
+        return sorted(lst)
