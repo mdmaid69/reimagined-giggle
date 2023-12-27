@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+import random
+print(random.randint(0, 100))
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_user_string():
+        return collections.UserString()
