@@ -1,6 +1,7 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
