@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Characters:", len(text))
+import collections
+def create_user_dict():
+        return collections.UserDict()
