@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
