@@ -1,4 +1,11 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
