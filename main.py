@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
