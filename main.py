@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
