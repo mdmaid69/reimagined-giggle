@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def convert_to_octal(n):
-        return oct(n)
+import math
+print(math.pi)
+def calculate_density(mass, volume):
+        return mass / volume
