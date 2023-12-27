@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
