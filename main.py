@@ -1,6 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
