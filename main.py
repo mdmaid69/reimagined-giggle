@@ -1,5 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_array_index(array, item):
+        return array.index(item)
