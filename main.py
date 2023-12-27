@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import array
-def get_array_length(array):
-        return len(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
