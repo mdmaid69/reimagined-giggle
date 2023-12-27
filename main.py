@@ -1,6 +1,6 @@
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
