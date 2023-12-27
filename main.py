@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
