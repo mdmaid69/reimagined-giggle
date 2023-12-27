@@ -1,6 +1,8 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
