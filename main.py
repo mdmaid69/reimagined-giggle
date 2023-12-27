@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
