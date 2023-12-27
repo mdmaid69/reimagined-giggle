@@ -1,8 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
