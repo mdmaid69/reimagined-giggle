@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
