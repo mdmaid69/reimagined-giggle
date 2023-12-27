@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
