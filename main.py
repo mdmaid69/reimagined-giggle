@@ -1,6 +1,3 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
