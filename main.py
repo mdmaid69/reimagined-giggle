@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
