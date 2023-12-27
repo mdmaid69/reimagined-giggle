@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
