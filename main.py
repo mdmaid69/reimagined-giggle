@@ -1,5 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def check_if_array_contains_item(array, item):
+        return item in array
+import datetime
+def get_current_date():
+        return datetime.date.today()
