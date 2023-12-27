@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def find_min(numbers):
-        return min(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
