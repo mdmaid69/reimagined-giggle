@@ -1,5 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def reverse_list(lst):
-        return lst[::-1]
+import random
+print(random.randint(0, 100))
+def cube_number(x):
+        return x**3
