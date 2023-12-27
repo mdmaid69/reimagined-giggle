@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def divide_numbers(x, y):
+        return x / y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
