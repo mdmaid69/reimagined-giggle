@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
