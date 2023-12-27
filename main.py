@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
