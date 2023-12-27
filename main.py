@@ -1,5 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def is_even(n):
-        return n % 2 == 0
+def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
