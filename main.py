@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
