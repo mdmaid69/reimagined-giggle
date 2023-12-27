@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_power(work, time):
+        return work / time
