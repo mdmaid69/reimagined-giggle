@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_area_rectangle(l, w):
+        return l * w
