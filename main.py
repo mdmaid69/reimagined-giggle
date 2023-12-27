@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
