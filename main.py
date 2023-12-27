@@ -1,5 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
