@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def find_unique_words(sentence):
-        return set(sentence.split())
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
