@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
