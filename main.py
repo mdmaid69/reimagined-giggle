@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
