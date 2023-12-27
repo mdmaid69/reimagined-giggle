@@ -1,7 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_volume(length, width, height):
-        return length * width * height
+def get_array_as_repr(array):
+        return repr(array)
