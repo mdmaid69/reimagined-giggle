@@ -1,5 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
