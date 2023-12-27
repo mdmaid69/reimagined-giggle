@@ -1,6 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_exponential(x):
+        return math.exp(x)
+  def subtract_numbers(x, y):
+        return x - y
