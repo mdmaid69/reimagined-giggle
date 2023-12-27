@@ -1,9 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import sys
+def print_python_version():
+        print(sys.version)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
