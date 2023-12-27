@@ -1,8 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
