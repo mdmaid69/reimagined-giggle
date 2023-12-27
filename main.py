@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import random
+print(random.randint(0, 100))
