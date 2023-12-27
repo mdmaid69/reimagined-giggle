@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
