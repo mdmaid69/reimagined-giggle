@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_pressure(force, area):
+        return force / area
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
