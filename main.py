@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
