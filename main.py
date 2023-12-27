@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
