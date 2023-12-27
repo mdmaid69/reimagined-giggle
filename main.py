@@ -1,6 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import time
+def get_current_time():
+        return time.time()
