@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
