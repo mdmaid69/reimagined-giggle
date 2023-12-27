@@ -1,10 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+for i in range(5):
+        print(i)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
