@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
