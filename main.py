@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_density(mass, volume):
+        return mass / volume
