@@ -1,6 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
