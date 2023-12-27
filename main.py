@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
