@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def reverse_string(s):
+        return s[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
