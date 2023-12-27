@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
