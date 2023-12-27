@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
