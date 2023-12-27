@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
