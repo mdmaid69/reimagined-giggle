@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def square_number(x):
+        return x**2
