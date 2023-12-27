@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import time
-print(time.time())
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
