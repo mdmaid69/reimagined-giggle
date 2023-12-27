@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
