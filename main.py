@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_speed(distance, time):
+        return distance / time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
