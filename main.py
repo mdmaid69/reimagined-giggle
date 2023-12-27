@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import time
+def get_time_since_epoch():
+        return time.time()
