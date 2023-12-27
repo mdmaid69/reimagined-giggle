@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def reverse_list(lst):
-        return lst[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
