@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def find_min(lst):
+        return min(lst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
