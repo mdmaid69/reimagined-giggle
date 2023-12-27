@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_cosine(x):
+        return math.cos(x)
+import collections
+def create_user_string():
+        return collections.UserString()
