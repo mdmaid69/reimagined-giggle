@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def reverse_array(array):
-        array.reverse()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
