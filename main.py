@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
