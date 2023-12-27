@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
