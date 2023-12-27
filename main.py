@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
