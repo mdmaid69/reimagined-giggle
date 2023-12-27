@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
