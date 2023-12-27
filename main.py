@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
