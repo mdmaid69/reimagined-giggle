@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
