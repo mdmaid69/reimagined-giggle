@@ -1,5 +1,4 @@
-  def count_elements(lst):
+def count_elements(lst):
         return len(lst)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def find_max(lst):
+        return max(lst)
