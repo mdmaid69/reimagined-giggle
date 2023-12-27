@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
