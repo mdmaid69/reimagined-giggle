@@ -1,6 +1,7 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  def convert_to_hex(n):
+        return hex(n)
