@@ -1,7 +1,8 @@
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def get_array_item_count(array, item):
+        return array.count(item)
