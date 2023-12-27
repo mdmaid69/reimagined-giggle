@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-from collections import Counter
-print(Counter("hello world"))
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_item(array, i):
+        return array[i]
