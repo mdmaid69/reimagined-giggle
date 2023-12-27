@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
