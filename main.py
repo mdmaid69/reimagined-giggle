@@ -1,6 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_error_function(x):
+        return math.erf(x)
