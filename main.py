@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import sys
-print(sys.version)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
