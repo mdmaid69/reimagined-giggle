@@ -1,5 +1,8 @@
-def sort_list(lst):
-        return sorted(lst)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
