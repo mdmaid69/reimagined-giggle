@@ -1,5 +1,11 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_pressure(force, area):
-        return force / area
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
