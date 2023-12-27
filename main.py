@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
