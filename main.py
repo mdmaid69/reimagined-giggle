@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_current_working_directory():
+        return os.getcwd()
