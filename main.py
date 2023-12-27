@@ -1,8 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
