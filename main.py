@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import getpass
+def get_username():
+        return getpass.getuser()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
