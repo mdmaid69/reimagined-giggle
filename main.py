@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+for i in range(5):
+        print(i)
+  def subtract_numbers(x, y):
+        return x - y
