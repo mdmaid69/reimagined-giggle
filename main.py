@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import datetime
-print(datetime.datetime.now())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
