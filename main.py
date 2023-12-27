@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
