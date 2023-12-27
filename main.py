@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def is_palindrome(s):
-        return s == s[::-1]
+def find_max(numbers):
+        return max(numbers)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
