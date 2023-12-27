@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
