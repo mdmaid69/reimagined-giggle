@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
