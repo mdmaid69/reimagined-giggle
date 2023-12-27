@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
