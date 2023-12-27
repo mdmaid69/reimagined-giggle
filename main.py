@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
