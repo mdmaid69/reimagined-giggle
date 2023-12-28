@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
+  def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_tuple(array):
+        return tuple(array)
