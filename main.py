@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
