@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def is_even(n):
+        return n % 2 == 0
