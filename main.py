@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
