@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+from collections import Counter
+print(Counter("hello world"))
