@@ -1,8 +1,7 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
