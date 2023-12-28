@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
