@@ -1,8 +1,9 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
