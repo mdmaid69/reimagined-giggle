@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_density(mass, volume):
+        return mass / volume
