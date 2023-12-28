@@ -1,6 +1,8 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
