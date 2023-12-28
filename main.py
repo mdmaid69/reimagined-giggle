@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
