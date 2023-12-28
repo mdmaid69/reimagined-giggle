@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import logging
-def log_message(message):
-        logging.info(message)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
