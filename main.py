@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
