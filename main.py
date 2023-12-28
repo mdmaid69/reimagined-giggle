@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
