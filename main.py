@@ -1,7 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import datetime
+def get_today_date():
+        return datetime.date.today()
