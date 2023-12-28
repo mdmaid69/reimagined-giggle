@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
