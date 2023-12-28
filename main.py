@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
