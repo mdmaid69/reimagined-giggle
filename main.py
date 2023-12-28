@@ -1,6 +1,5 @@
 import time
-def get_current_time():
-        return time.time()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def subtract_numbers(x, y):
+        return x - y
