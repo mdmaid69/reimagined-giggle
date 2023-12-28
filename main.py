@@ -1,5 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def divide_numbers(x, y):
-        return x / y
+import sys
+def exit_program():
+        sys.exit()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
