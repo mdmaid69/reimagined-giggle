@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-def reverse_list(lst):
-        return lst[::-1]
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
