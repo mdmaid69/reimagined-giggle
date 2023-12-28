@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
