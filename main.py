@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_typecode(array):
+        return array.typecode
