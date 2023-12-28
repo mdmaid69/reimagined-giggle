@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def cube_number(x):
+        return x**3
