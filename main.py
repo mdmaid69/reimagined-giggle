@@ -1,6 +1,7 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
