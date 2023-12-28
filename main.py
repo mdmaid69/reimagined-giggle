@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
