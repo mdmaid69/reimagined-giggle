@@ -1,5 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
