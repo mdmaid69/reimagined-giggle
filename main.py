@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import sys
-def print_python_version():
-        return sys.version
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
