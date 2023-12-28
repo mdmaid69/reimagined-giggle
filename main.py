@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
