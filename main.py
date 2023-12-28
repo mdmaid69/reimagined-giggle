@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import sys
+print(sys.version)
+text = "Hello, world!"
+print("Characters:", len(text))
