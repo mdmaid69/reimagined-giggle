@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
