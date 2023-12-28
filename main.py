@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
