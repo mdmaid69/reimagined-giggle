@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
