@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
