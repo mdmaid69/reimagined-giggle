@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
