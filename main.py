@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_counter():
-        return collections.Counter()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import logging
+def log_message(message):
+        logging.info(message)
