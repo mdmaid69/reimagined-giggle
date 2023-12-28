@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
