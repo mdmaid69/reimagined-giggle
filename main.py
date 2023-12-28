@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
