@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import sys
+def print_python_version():
+        print(sys.version)
