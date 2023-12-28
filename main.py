@@ -1,6 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
