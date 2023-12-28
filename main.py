@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
