@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
