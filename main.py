@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import tensorflow as tf
+print(tf.__version__)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
