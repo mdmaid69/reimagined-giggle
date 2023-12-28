@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
