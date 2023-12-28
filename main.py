@@ -1,6 +1,4 @@
+def cube_number(x):
+        return x**3
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+print(random.randint(0, 100))
