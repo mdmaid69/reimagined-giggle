@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
