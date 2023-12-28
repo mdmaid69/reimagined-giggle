@@ -1,7 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
