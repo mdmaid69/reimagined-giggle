@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def convert_to_binary(n):
+        return bin(n)
