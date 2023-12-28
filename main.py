@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
