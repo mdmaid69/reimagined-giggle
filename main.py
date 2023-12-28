@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import logging
-def log_message(message):
-        logging.info(message)
+  def is_odd(n):
+        return n % 2 != 0
+text = "Hello, world!"
+print("Characters:", len(text))
