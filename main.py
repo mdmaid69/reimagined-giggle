@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
