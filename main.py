@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
