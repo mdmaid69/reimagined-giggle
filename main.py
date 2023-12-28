@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
