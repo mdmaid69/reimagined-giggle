@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
