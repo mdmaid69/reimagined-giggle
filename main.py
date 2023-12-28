@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def convert_to_hex(n):
-        return hex(n)
+def cube_number(x):
+        return x**3
+import json
+print(json.dumps({"name": "John", "age": 30}))
