@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
