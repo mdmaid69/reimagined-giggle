@@ -1,5 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_work(force, distance):
+        return force * distance
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
