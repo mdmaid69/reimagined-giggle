@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def add_numbers(a, b):
+        return a + b
