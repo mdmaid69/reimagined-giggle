@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import time
-def get_current_time():
-        return time.time()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
