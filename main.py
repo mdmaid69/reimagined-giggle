@@ -1,5 +1,5 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
