@@ -1,8 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
