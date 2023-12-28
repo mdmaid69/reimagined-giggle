@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
