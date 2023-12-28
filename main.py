@@ -1,6 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
