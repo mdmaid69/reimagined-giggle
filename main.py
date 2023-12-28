@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
