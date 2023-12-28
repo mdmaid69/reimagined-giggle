@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import random
-def roll_die():
-        return random.randint(1, 6)
+def find_min(lst):
+        return min(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
