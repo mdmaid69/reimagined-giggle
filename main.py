@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
