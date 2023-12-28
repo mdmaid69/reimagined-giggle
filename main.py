@@ -1,4 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
