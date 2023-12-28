@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
