@@ -1,5 +1,6 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def count_elements(lst):
-        return len(lst)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
