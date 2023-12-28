@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+text = "Hello, world!"
+print("Characters:", len(text))
