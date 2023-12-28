@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
