@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import platform
+def get_os_info():
+        return platform.uname()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
