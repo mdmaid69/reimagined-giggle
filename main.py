@@ -1,6 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_base_name(path):
+        return os.path.basename(path)
