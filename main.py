@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
