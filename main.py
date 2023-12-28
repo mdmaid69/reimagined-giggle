@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
