@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def convert_to_binary(n):
-        return bin(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def sort_list(lst):
+        return sorted(lst)
