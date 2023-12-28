@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import collections
+def create_priority_queue():
+        return collections.deque()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
