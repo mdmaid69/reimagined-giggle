@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+for i in range(10): print(i)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
