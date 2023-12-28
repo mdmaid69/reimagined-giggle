@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def convert_to_octal(n):
+        return oct(n)
