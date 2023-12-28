@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
