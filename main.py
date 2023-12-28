@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
