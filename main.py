@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
