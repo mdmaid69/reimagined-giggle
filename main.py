@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def count_characters(sentence):
+        return len(sentence)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
