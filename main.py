@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
