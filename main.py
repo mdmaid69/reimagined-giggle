@@ -1,7 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
