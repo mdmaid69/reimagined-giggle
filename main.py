@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
