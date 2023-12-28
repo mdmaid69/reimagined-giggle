@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+for i in range(5):
+        print(i)
