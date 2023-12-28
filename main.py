@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
