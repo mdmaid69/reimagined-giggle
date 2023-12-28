@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import logging
+def log_message(message):
+        logging.info(message)
+  def is_even(n):
+        return n % 2 == 0
