@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def clear_array(array):
+        array *= 0
