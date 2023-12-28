@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
