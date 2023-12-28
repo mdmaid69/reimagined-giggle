@@ -1,7 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
