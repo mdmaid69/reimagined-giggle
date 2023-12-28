@@ -1,6 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import tensorflow as tf
+print(tf.__version__)
