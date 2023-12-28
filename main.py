@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
