@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import numpy as np
+print(np.array([1, 2, 3]))
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
