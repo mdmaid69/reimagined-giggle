@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
