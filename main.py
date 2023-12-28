@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
