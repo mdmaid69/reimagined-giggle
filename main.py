@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import time
+def get_current_time():
+        return time.ctime()
