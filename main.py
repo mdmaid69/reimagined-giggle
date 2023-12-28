@@ -1,6 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
