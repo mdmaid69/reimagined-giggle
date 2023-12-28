@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
