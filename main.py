@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
