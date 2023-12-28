@@ -1,6 +1,6 @@
+def count_elements(lst):
+        return len(lst)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
