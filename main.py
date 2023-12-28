@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
