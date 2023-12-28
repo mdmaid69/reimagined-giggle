@@ -1,7 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
