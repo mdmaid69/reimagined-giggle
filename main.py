@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def find_max(lst):
-        return max(lst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
