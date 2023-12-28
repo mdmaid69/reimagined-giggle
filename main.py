@@ -1,7 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
