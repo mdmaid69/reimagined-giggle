@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def reverse_string(s):
+        return s[::-1]
