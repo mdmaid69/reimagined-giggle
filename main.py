@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_work(force, distance):
+        return force * distance
