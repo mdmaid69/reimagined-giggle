@@ -1,6 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
