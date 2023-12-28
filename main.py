@@ -1,8 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def get_array_length(array):
+        return len(array)
