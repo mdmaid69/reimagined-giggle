@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def count_elements(lst):
+        return len(lst)
