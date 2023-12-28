@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_user_string():
+        return collections.UserString()
