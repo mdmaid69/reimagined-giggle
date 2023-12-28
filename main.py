@@ -1,9 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
