@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
