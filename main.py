@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-print(random.randint(0, 100))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
