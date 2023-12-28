@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
