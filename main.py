@@ -1,5 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
