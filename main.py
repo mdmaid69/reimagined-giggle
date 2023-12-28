@@ -1,7 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
