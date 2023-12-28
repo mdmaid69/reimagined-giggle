@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
