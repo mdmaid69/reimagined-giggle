@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import datetime
+print(datetime.datetime.now())
