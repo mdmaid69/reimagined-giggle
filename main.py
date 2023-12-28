@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import random
-print(random.randint(0, 100))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def subtract_numbers(x, y):
+        return x - y
