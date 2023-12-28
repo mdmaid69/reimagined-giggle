@@ -1,4 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def append_to_array(array, item):
+        array.append(item)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
