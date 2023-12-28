@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import sys
+def print_python_version():
+        return sys.version
