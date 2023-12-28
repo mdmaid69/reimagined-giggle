@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
