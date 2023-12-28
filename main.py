@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
