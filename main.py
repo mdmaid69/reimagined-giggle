@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
