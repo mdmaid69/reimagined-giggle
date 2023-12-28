@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def cube_number(x):
-        return x**3
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import os
+def change_working_directory(path):
+        os.chdir(path)
