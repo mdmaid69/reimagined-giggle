@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import time
+def get_current_time():
+        return time.time()
+import sys
+def exit_program():
+        sys.exit()
