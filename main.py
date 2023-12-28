@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
