@@ -1,6 +1,8 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
