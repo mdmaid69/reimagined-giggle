@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
