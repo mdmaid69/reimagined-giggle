@@ -1,7 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def convert_to_binary(n):
+        return bin(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
