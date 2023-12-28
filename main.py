@@ -1,6 +1,9 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
