@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def cube_number(x):
-        return x**3
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
