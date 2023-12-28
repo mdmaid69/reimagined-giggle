@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_speed(distance, time):
+        return distance / time
