@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_volume(length, width, height):
+        return length * width * height
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
