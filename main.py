@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
