@@ -1,5 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-print(sum(range(10)))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
