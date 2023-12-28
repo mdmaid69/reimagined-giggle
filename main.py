@@ -1,8 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import numpy as np
+print(np.array([1, 2, 3]))
