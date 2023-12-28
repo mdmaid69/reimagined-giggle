@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import collections
+def create_queue():
+        return collections.deque()
