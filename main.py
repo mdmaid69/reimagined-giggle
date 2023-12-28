@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_speed(distance, time):
+        return distance / time
