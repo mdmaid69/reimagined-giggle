@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def divide_numbers(x, y):
-        return x / y
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
