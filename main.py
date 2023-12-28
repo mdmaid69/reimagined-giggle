@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
