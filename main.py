@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def get_array_as_str(array):
+        return str(array)
