@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def cube_number(x):
-        return x**3
+import collections
+def create_counter():
+        return collections.Counter()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
