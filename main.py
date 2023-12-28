@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_volume(length, width, height):
-        return length * width * height
+import numpy as np
+print(np.array([1, 2, 3]))
+import sys
+def print_python_version():
+        return sys.version
