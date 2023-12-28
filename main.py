@@ -1,5 +1,7 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
 numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+print("Squared:", [n**2 for n in numbers])
