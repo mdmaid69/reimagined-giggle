@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def subtract_numbers(x, y):
+        return x - y
+  def is_odd(n):
+        return n % 2 != 0
