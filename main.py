@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_acceleration(speed, time):
-        return speed / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
