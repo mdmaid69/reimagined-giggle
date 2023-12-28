@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
