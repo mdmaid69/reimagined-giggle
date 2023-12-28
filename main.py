@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Characters:", len(text))
