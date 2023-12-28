@@ -1,8 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
