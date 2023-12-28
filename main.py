@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
