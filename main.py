@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
