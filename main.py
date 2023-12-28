@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def square_number(x):
+        return x**2
