@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
