@@ -1,6 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
