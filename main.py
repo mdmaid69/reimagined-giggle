@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
