@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def find_min(lst):
-        return min(lst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
