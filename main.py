@@ -1,8 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def reverse_array(array):
+        array.reverse()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
