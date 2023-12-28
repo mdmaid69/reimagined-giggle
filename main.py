@@ -1,6 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
