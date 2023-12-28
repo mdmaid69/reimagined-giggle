@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def is_odd(n):
+        return n % 2 != 0
