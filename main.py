@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def is_odd(n):
+        return n % 2 != 0
+  def cube_number(x):
+        return x**3
