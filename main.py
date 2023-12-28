@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_length(array):
-        return len(array)
+def count_words(sentence):
+        return len(sentence.split())
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
