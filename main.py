@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_work(force, distance):
-        return force * distance
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
