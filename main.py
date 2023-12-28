@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_counter():
-        return collections.Counter()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
