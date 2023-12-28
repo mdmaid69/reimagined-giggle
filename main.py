@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_str(array):
-        return str(array)
+def reverse_list(lst):
+        return lst[::-1]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
