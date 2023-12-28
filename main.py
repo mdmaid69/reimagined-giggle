@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_work(force, distance):
-        return force * distance
+def square_number(x):
+        return x**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
