@@ -1,8 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
