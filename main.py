@@ -1,8 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def sort_list(lst):
+        return sorted(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
