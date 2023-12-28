@@ -1,5 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
