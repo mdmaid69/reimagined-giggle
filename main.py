@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
