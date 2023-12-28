@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
