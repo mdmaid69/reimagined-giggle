@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
