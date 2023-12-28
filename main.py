@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
