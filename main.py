@@ -1,6 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def square_number(x):
+        return x**2
