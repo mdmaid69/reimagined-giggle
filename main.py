@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def convert_to_octal(n):
+        return oct(n)
