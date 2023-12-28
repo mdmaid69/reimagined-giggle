@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
