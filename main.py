@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
