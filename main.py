@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
