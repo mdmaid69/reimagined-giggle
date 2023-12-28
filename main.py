@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
