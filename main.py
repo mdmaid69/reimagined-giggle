@@ -1,6 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import collections
-def create_queue():
+def create_stack():
         return collections.deque()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
