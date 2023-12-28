@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
