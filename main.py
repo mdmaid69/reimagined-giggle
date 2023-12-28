@@ -1,5 +1,10 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import platform
+def get_os_info():
+        return platform.uname()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
