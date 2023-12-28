@@ -1,7 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def remove_duplicates(lst):
-        return list(set(lst))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def count_elements(lst):
+        return len(lst)
