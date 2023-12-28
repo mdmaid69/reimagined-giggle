@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
