@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def cube_number(x):
-        return x**3
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
