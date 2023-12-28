@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
