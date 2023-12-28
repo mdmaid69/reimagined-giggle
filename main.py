@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def count_elements(lst):
-        return len(lst)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
