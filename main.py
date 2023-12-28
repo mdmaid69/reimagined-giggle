@@ -1,6 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
