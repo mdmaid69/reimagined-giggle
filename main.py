@@ -1,5 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def find_min(numbers):
-        return min(numbers)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
