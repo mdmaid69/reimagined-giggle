@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
