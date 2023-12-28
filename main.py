@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
