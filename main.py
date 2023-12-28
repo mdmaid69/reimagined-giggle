@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def split_path(path):
+        return os.path.split(path)
+import collections
+def create_queue():
+        return collections.deque()
