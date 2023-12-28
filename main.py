@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import random
+def roll_die():
+        return random.randint(1, 6)
+def multiply_numbers(x, y):
+        return x * y
