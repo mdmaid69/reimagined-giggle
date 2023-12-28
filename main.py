@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def add_numbers(x, y):
-        return x + y
+import array
+def append_to_array(array, item):
+        array.append(item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
