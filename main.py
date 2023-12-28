@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_int(array):
+        return int(array[0])
