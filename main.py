@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
