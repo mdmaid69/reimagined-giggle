@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import time
+def get_time_since_epoch():
+        return time.time()
