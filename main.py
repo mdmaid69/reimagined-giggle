@@ -1,4 +1,8 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
