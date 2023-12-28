@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
