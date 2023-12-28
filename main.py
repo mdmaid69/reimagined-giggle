@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
