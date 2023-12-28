@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import sys
-def exit_program():
-        sys.exit()
+  def sort_list(lst):
+        return sorted(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
