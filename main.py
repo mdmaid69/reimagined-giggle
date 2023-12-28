@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
