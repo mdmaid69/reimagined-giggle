@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+for i in range(5):
+        print(i)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
