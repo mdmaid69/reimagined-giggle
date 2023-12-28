@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
