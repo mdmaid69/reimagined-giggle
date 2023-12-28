@@ -1,6 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
