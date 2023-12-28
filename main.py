@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
