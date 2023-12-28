@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def reverse_string(s):
+        return s[::-1]
