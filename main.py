@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
