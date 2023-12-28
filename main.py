@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
