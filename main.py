@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def add_numbers(x, y):
+        return x + y
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
