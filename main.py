@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_work(force, distance):
+        return force * distance
+import time
+def get_current_time():
+        return time.time()
