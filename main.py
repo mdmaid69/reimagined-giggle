@@ -1,7 +1,6 @@
+name = "Python"
+print("Hello,", name)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
