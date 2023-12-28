@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
