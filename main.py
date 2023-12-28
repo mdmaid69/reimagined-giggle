@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  def reverse_list(lst):
+        return lst[::-1]
