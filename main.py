@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
