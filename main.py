@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_volume(length, width, height):
-        return length * width * height
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
