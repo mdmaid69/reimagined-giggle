@@ -1,8 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
