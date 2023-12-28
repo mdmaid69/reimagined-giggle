@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_work(force, distance):
+        return force * distance
