@@ -1,5 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_area_rectangle(l, w):
-        return l * w
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
