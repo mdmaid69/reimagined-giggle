@@ -1,6 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
