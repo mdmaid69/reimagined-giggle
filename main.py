@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def reverse_list(lst):
+        return lst[::-1]
