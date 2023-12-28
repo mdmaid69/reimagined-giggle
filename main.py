@@ -1,6 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
