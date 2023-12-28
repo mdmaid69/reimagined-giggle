@@ -1,8 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
