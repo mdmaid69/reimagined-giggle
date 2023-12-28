@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
