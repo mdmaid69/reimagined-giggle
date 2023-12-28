@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def subtract_numbers(x, y):
+        return x - y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
