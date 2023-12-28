@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
