@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
