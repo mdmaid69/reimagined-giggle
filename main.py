@@ -1,5 +1,10 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
