@@ -1,6 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
