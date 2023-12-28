@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
