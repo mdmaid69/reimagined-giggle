@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
