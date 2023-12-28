@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def get_array_item(array, i):
+        return array[i]
