@@ -1,7 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
