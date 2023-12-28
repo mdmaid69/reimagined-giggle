@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
