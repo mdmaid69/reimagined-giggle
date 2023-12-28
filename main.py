@@ -1,5 +1,4 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
