@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def convert_to_binary(n):
-        return bin(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def cube_number(x):
+        return x**3
