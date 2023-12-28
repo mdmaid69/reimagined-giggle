@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_pressure(force, area):
-        return force / area
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def count_elements(lst):
+        return len(lst)
