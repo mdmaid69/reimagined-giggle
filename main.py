@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
