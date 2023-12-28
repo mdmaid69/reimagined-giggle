@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_power(work, time):
-        return work / time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def is_even(n):
+        return n % 2 == 0
