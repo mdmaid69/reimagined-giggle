@@ -1,8 +1,9 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+i = 0
+while i < 5:
+        print(i)
+        i += 1
