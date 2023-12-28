@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
