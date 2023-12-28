@@ -1,6 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
