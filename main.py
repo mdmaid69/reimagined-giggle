@@ -1,5 +1,7 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
