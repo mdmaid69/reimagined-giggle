@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def square_number(x):
+        return x**2
