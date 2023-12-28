@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
