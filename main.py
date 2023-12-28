@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
