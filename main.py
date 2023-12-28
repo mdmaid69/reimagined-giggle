@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def add_numbers(x, y):
+        return x + y
+  def remove_duplicates(lst):
+        return list(set(lst))
