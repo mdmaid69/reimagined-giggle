@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
