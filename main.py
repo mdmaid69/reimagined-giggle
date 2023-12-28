@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
