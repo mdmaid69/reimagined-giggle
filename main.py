@@ -1,5 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
