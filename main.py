@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def add_numbers(a, b):
+        return a + b
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
