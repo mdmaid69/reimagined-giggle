@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
