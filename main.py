@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
