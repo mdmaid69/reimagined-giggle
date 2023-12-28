@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def square_number(x):
+        return x**2
