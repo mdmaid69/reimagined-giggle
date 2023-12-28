@@ -1,7 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+x = 10
+y = 20
+print("Sum:", x + y)
