@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_power(work, time):
+        return work / time
+import random
+print(random.randint(0, 100))
