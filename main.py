@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
