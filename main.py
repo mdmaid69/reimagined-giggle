@@ -1,6 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
