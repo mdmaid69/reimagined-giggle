@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
