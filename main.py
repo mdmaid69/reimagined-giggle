@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import sys
+def exit_program():
+        sys.exit()
