@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
