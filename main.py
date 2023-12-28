@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import collections
-def create_stack():
-        return collections.deque()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
