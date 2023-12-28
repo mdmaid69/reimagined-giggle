@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
