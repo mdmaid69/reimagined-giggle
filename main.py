@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import re
+print(re.match("h.*o", "hello world"))
+def reverse_string(s):
+        return s[::-1]
