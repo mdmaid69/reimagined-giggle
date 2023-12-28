@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def check_if_array_contains_item(array, item):
+        return item in array
