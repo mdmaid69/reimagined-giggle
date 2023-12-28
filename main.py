@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def find_max(lst):
-        return max(lst)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
