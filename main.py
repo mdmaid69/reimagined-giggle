@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
