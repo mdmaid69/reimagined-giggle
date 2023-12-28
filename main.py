@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_typecode(array):
+        return array.typecode
