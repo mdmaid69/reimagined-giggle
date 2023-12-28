@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cosine(x):
+        return math.cos(x)
+  def is_odd(n):
+        return n % 2 != 0
