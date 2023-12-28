@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+def find_unique_words(sentence):
+        return set(sentence.split())
