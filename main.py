@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
