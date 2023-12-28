@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def reverse_string(s):
-        return s[::-1]
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
