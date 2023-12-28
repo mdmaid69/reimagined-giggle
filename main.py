@@ -1,5 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_sine(x):
+        return math.sin(x)
