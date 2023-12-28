@@ -1,5 +1,10 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
