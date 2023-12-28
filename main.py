@@ -1,5 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def sort_list(lst):
-        return sorted(lst)
+print("Hello, world!")
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
