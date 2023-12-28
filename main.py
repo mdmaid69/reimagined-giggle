@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
