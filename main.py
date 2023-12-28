@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_power(work, time):
-        return work / time
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
