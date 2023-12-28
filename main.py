@@ -1,8 +1,10 @@
-import unittest
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
