@@ -1,4 +1,7 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
