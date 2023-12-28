@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import sys
+  def get_python_version():
+        return sys.version
