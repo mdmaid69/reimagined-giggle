@@ -1,5 +1,3 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+from collections import Counter
+print(Counter("hello world"))
+for i in range(10): print(i)
