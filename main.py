@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
