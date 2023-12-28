@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
