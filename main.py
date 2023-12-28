@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def add_numbers(x, y):
+        return x + y
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
