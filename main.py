@@ -1,5 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-print(math.pi)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
