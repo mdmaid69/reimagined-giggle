@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import sys
+def print_python_version():
+        return sys.version
