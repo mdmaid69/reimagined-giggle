@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
