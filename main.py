@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
