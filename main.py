@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
