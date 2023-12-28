@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
