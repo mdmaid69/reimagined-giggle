@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
