@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
