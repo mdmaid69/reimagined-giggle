@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_pressure(force, area):
-        return force / area
+text = "Hello, world!"
+print("Characters:", len(text))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
