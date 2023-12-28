@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_length(array):
+        return len(array)
