@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
