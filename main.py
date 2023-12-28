@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
