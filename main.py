@@ -1,5 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_work(force, distance):
-        return force * distance
+name = "Python"
+print("Hello,", name)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
