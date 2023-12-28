@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import numpy as np
+print(np.array([1, 2, 3]))
