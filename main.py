@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_item(array, i):
-        return array[i]
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
