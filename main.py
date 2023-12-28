@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
