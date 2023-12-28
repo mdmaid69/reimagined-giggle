@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
