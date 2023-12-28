@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import collections
-def create_queue():
-        return collections.deque()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_pressure(force, area):
+        return force / area
