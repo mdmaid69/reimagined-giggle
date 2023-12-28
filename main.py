@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
