@@ -1,4 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def count_elements(lst):
-        return len(lst)
+for i in range(10): print(i)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
