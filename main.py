@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import datetime
+print(datetime.datetime.now())
