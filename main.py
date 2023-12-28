@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
