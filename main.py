@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
