@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
