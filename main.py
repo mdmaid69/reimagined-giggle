@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
