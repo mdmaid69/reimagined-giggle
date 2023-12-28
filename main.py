@@ -1,4 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-print([x**2 for x in range(10)])
+for i in range(10): print(i)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
