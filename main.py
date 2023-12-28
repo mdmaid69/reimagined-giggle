@@ -1,11 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+print([x**2 for x in range(10)])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
