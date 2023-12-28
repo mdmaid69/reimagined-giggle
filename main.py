@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
