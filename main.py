@@ -1,6 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def sort_list(lst):
+        return sorted(lst)
