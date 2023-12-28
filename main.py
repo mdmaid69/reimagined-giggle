@@ -1,5 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_arc_cosine(x):
+        return math.acos(x)
