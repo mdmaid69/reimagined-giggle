@@ -1,6 +1,8 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
