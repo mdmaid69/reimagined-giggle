@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import platform
+def get_python_version():
+        return platform.python_version()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
