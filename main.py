@@ -1,8 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def check_if_array_contains_item(array, item):
+        return item in array
