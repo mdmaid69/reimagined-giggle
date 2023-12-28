@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
