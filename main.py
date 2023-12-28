@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_work(force, distance):
+        return force * distance
