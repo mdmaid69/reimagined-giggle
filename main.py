@@ -1,3 +1,6 @@
-print(sum(range(10)))
-from collections import Counter
-print(Counter("hello world"))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
