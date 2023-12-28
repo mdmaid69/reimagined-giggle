@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
