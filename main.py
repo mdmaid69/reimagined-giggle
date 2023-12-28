@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def clear_array(array):
+        array *= 0
