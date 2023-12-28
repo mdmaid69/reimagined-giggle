@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
