@@ -1,4 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import random
-print(random.randint(0, 100))
+def calculate_work(force, distance):
+        return force * distance
+def find_min(numbers):
+        return min(numbers)
