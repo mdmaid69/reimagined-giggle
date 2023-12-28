@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
