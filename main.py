@@ -1,4 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
