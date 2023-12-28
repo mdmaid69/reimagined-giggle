@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
