@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
