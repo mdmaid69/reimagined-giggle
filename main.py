@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
