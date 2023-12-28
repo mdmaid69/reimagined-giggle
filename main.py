@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
