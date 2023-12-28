@@ -1,5 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import sys
-print(sys.version)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
