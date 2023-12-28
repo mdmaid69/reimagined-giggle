@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
