@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
