@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def convert_to_hex(n):
+        return hex(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
