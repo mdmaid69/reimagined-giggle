@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-import random
-print(random.randint(0, 100))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
