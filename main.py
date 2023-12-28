@@ -1,6 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def subtract_numbers(x, y):
+        return x - y
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
