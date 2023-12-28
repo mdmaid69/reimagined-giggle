@@ -1,4 +1,10 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
