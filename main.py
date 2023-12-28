@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import numpy as np
+print(np.array([1, 2, 3]))
