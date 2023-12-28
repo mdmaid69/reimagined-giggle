@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import os
+def change_working_directory(path):
+        os.chdir(path)
