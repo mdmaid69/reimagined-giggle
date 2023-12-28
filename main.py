@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
