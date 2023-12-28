@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import sys
+def print_python_version():
+        return sys.version
