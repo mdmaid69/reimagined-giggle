@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
