@@ -1,9 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def sort_list(lst):
+        return sorted(lst)
