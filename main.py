@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-x = 10
-y = 20
-print("Sum:", x + y)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
