@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
