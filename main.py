@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
