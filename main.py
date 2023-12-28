@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
