@@ -1,6 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
