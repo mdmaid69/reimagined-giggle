@@ -1,8 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
