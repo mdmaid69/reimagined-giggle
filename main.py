@@ -1,4 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
