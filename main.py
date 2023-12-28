@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
