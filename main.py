@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
