@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Characters:", len(text))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
