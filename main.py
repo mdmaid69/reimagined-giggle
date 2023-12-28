@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import logging
+def log_message(message):
+        logging.info(message)
