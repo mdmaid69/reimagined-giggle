@@ -1,7 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_user_list():
+        return collections.UserList()
