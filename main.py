@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def is_even(n):
+        return n % 2 == 0
