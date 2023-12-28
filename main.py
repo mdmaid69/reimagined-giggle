@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
