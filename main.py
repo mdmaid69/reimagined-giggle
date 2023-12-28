@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
