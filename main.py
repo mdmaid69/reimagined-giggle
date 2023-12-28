@@ -1,9 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
