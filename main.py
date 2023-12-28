@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
