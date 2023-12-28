@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+x = 10
+y = 20
+print("Sum:", x + y)
