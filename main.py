@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
