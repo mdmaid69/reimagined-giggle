@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
