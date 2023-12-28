@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_counter():
+        return collections.Counter()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
