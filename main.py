@@ -1,4 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import tensorflow as tf
-print(tf.__version__)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
