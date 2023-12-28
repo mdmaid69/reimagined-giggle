@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_area_circle(r):
+        return 3.14 * r**2
