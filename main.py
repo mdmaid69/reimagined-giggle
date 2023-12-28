@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
