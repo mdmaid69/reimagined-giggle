@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import re
+print(re.match("h.*o", "hello world"))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
