@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_speed(distance, time):
+        return distance / time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
