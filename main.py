@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
