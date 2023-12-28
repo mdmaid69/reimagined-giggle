@@ -1,4 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_power(work, time):
-        return work / time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
