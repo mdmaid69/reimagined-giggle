@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
