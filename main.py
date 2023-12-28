@@ -1,6 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def get_array_item(array, i):
+        return array[i]
+import numpy as np
+print(np.array([1, 2, 3]))
