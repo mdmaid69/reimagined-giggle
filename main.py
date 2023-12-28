@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def square_number(x):
+        return x**2
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
