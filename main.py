@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def is_odd(n):
+        return n % 2 != 0
