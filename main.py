@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_pressure(force, area):
-        return force / area
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
