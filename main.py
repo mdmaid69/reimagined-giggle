@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
