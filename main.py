@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def reverse_list(lst):
-        return lst[::-1]
+import os
+print(os.getcwd())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
