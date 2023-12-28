@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
