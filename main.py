@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
