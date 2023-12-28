@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_area_rectangle(l, w):
+        return l * w
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
