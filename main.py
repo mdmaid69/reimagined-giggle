@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
