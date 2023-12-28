@@ -1,6 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_floor(x):
+        return math.floor(x)
