@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_volume(length, width, height):
+        return length * width * height
