@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
