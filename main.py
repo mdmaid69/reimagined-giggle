@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
