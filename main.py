@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import collections
+def create_queue():
+        return collections.deque()
