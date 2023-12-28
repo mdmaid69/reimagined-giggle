@@ -1,6 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
