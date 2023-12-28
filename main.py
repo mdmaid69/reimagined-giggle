@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import os
-print(os.getcwd())
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
