@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import logging
-def log_message(message):
-        logging.info(message)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
