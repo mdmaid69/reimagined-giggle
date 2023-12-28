@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+for i in range(10): print(i)
