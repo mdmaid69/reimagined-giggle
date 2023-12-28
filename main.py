@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import getpass
+def get_username():
+        return getpass.getuser()
