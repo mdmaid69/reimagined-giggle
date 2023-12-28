@@ -1,6 +1,8 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
