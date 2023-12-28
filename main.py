@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
