@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import sys
-def print_python_version():
-        print(sys.version)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
