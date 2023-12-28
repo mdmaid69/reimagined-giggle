@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
