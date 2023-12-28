@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_typecode(array):
+        return array.typecode
