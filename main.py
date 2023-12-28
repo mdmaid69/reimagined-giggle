@@ -1,5 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import platform
-def get_os_info():
-        return platform.uname()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
