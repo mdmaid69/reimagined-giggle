@@ -1,6 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def remove_duplicates(lst):
+        return list(set(lst))
