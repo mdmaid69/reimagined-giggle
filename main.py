@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def square_number(x):
-        return x**2
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
