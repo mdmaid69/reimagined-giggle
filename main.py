@@ -1,5 +1,11 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def multiply_numbers(x, y):
+        return x * y
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
