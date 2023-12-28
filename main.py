@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
