@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def is_odd(n):
-        return n % 2 != 0
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
