@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def square_number(x):
-        return x**2
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
