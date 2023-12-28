@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import sys
-def print_python_version():
-        print(sys.version)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def get_array_as_list(array):
+        return list(array)
