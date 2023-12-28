@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
