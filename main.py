@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
