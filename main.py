@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
