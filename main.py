@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def is_odd(n):
-        return n % 2 != 0
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
