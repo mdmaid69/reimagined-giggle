@@ -1,7 +1,8 @@
-import random
-print(random.randint(0, 100))
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
