@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
