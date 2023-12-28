@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
