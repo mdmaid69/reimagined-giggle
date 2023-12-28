@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+print(math.pi)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
