@@ -1,5 +1,5 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
