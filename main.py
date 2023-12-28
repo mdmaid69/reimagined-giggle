@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def multiply_numbers(x, y):
+        return x * y
