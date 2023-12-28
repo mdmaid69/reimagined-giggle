@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
