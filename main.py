@@ -1,6 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def append_to_array(array, item):
+        array.append(item)
+  def calculate_area_rectangle(l, w):
+        return l * w
