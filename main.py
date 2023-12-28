@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
