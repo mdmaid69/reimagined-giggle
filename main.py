@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
