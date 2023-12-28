@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
