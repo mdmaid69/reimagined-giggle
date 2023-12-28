@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def is_even(n):
+        return n % 2 == 0
