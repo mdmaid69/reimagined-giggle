@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_as_list(array):
+        return list(array)
