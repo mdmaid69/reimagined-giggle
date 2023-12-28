@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
