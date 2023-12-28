@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_density(mass, volume):
+        return mass / volume
