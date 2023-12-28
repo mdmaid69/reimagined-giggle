@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
