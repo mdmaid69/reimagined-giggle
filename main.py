@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
