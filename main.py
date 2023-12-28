@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def is_odd(n):
+        return n % 2 != 0
