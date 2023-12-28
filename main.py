@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
