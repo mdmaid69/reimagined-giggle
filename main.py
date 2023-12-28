@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
