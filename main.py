@@ -1,5 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
