@@ -1,4 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def count_elements(lst):
-        return len(lst)
+import sys
+def exit_program():
+        sys.exit()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
