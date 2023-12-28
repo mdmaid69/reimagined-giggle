@@ -1,7 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  import sys
+  def get_python_version():
+        return sys.version
