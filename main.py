@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_user_string():
+        return collections.UserString()
