@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
