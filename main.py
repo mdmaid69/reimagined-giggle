@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def find_unique_words(sentence):
-        return set(sentence.split())
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_bool(array):
+        return bool(array)
