@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
