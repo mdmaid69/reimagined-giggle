@@ -1,6 +1,8 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
