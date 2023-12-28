@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
