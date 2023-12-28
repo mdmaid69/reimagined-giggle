@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
