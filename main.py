@@ -1,9 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
