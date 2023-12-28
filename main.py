@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_average(lst):
+        return sum(lst) / len(lst)
