@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
