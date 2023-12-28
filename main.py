@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
