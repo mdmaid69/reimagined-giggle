@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
