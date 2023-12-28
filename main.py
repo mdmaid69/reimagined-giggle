@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
