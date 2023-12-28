@@ -1,5 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
