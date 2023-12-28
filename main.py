@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_density(mass, volume):
+        return mass / volume
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
