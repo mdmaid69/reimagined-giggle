@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
