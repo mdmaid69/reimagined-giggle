@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
