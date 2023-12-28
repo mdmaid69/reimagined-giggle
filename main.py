@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import sys
+def print_python_version():
+        print(sys.version)
