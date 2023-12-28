@@ -1,6 +1,3 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import datetime
+print(datetime.datetime.now())
+for i in range(10): print(i)
