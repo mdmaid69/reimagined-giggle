@@ -1,8 +1,12 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
