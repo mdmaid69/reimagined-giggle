@@ -1,6 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
