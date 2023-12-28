@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
