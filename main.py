@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def find_min(lst):
+        return min(lst)
