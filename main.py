@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
