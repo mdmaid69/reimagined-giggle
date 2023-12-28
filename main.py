@@ -1,7 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_work(force, distance):
+        return force * distance
