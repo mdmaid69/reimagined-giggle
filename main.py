@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def greet(name):
+        print(f"Hello, {name}!")
