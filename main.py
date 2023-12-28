@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def is_odd(n):
+        return n % 2 != 0
