@@ -1,5 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-print(random.randint(0, 100))
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
