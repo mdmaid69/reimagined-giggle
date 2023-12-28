@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def reverse_list(lst):
-        return lst[::-1]
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_exponential(x):
+        return math.exp(x)
