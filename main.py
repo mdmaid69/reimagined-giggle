@@ -1,4 +1,6 @@
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
-print([x**2 for x in range(10)])
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
