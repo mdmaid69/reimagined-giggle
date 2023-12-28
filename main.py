@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def find_max(lst):
-        return max(lst)
+import array
+def clear_array(array):
+        array *= 0
+import datetime
+print(datetime.datetime.now())
