@@ -1,6 +1,3 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+print([x**2 for x in range(10)])
+def is_odd(n):
+        return n % 2 != 0
