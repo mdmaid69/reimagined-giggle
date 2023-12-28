@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import sys
+def print_python_version():
+        print(sys.version)
