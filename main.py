@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import random
-def roll_die():
-        return random.randint(1, 6)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_acceleration(speed, time):
+        return speed / time
