@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
