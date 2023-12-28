@@ -1,6 +1,5 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def create_user_string():
+        return collections.UserString()
+def calculate_speed(distance, time):
+        return distance / time
