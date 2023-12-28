@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
