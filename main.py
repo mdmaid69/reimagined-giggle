@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import time
+print(time.time())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
