@@ -1,5 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  def cube_number(x):
-        return x**3
+import datetime
+print(datetime.datetime.now())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
