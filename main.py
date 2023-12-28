@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_error_function(x):
+        return math.erf(x)
