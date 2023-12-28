@@ -1,7 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
