@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
