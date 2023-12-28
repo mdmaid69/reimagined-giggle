@@ -1,8 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_bool(array):
+        return bool(array)
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+print("Powers of 2:", [2**x for x in range(n)])
