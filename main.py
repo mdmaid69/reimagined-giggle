@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def square_number(x):
+        return x**2
+def find_union(list1, list2):
+        return set(list1) | set(list2)
