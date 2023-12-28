@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
