@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
