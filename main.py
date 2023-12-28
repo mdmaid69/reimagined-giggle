@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_pressure(force, area):
+        return force / area
+import time
+def get_time_since_epoch():
+        return time.time()
