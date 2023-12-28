@@ -1,6 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
