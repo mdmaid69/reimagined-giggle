@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def convert_to_octal(n):
+        return oct(n)
