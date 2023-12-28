@@ -1,4 +1,8 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
