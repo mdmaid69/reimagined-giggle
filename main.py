@@ -1,6 +1,3 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def subtract_numbers(x, y):
+        return x - y
+print(sum(range(10)))
