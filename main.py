@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import time
+def get_current_time():
+        return time.time()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
