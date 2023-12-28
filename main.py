@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import platform
+def get_os_info():
+        return platform.uname()
