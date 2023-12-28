@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
