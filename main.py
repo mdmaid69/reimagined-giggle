@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
