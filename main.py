@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_item(array, i):
+        return array[i]
