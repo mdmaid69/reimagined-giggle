@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
