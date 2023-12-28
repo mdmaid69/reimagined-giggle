@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import numpy as np
-print(np.array([1, 2, 3]))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
