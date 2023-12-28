@@ -1,12 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
