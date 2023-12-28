@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
