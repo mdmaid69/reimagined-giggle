@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
