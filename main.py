@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def multiply_numbers(x, y):
+        return x * y
+def calculate_area_rectangle(l, w):
+        return l * w
