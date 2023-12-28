@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def find_max(numbers):
-        return max(numbers)
+import time
+print(time.time())
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
