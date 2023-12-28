@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
