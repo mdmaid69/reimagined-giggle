@@ -1,7 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import platform
+def get_os_info():
+        return platform.uname()
