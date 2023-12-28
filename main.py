@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
