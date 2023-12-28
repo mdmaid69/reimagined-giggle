@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
