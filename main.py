@@ -1,6 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
