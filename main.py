@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
