@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
