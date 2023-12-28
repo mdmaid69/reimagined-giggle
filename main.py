@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
