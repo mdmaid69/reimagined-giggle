@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
