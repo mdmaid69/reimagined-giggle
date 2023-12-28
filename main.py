@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def convert_to_octal(n):
+        return oct(n)
