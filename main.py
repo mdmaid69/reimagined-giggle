@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_power(work, time):
+        return work / time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
