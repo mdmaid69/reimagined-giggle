@@ -1,5 +1,13 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def greet(name):
-        print(f"Hello, {name}!")
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
