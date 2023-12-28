@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
