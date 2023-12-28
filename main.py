@@ -1,7 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
