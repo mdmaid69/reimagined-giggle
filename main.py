@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
