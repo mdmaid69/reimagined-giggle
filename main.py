@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-def multiply_numbers(x, y):
-        return x * y
+def find_max(numbers):
+        return max(numbers)
+def find_min(numbers):
+        return min(numbers)
