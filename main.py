@@ -1,4 +1,11 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
