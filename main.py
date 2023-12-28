@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
