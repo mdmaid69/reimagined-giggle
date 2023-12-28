@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
