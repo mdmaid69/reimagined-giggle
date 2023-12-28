@@ -1,7 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import sys
+def exit_program():
+        sys.exit()
+def calculate_density(mass, volume):
+        return mass / volume
