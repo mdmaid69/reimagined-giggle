@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def reverse_array(array):
+        array.reverse()
