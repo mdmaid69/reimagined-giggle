@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def reverse_list(lst):
-        return lst[::-1]
+print([x**2 for x in range(10)])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
