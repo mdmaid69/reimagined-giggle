@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
