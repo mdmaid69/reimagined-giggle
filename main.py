@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
