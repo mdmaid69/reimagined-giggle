@@ -1,6 +1,9 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
