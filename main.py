@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
