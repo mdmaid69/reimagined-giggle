@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import getpass
-def get_username():
-        return getpass.getuser()
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
