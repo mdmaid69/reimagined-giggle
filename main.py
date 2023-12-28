@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
