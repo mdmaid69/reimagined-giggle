@@ -1,5 +1,8 @@
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import sys
-print(sys.version)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
