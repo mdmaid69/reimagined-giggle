@@ -1,7 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+for i in range(10): print(i)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
