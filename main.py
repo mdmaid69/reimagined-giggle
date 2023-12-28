@@ -1,5 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
