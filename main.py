@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def reverse_array(array):
+        array.reverse()
