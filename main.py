@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import sys
-def print_python_version():
-        return sys.version
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
