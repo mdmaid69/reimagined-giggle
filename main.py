@@ -1,5 +1,8 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
