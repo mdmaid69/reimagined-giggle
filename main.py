@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
