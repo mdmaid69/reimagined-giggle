@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
