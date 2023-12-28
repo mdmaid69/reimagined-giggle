@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
