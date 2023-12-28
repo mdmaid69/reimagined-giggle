@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
