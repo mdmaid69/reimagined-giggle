@@ -1,5 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
