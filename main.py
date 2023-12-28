@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
