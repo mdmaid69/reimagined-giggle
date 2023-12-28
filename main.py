@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
