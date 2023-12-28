@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def create_queue():
+        return collections.deque()
