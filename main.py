@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
