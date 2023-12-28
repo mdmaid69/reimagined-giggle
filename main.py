@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def convert_to_binary(n):
+        return bin(n)
+x = 10
+y = 20
+print("Sum:", x + y)
