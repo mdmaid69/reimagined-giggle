@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import random
-print(random.randint(0, 100))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
