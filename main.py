@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
