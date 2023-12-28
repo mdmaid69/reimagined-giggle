@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
