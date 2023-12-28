@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
