@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
