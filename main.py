@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def add_numbers(x, y):
-        return x + y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
