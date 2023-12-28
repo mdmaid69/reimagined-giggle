@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import os
+def get_current_working_directory():
+        return os.getcwd()
