@@ -1,6 +1,7 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
