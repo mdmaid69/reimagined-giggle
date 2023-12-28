@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
