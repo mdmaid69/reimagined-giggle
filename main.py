@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def convert_to_hex(n):
+        return hex(n)
