@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
