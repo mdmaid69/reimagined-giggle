@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+for i in range(10): print(i)
