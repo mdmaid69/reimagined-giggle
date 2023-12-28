@@ -1,6 +1,6 @@
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def get_array_as_bool(array):
+        return bool(array)
