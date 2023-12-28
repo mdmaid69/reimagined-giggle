@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
