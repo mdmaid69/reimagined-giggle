@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-text = "Hello, world!"
-print("Characters:", len(text))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
