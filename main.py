@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
