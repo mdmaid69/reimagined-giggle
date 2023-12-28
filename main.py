@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def reverse_list(lst):
+        return lst[::-1]
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
