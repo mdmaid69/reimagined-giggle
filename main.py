@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
