@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_acceleration(speed, time):
-        return speed / time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
