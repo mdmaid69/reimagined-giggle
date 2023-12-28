@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def reverse_list(lst):
-        return lst[::-1]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
