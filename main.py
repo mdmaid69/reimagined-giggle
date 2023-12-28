@@ -1,5 +1,4 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-print([x**2 for x in range(10)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_unique_words(sentence):
+        return set(sentence.split())
