@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
