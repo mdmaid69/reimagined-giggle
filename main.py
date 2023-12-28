@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
