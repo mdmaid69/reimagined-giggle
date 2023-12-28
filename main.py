@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def greet(name):
+        print(f"Hello, {name}!")
+import json
+print(json.dumps({"name": "John", "age": 30}))
