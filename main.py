@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-text = "Hello, world!"
-print("Characters:", len(text))
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
