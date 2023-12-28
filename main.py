@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
