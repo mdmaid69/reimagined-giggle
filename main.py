@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
