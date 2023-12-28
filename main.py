@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
