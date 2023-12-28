@@ -3,6 +3,6 @@ def is_prime(n):
                 if n % i == 0:
                 return False
         return True
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
