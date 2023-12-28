@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import platform
+def get_python_version():
+        return platform.python_version()
