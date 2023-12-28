@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
