@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-x = 10
-y = 20
-print("Sum:", x + y)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def create_user_list():
+        return collections.UserList()
