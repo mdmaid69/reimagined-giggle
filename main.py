@@ -1,6 +1,8 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
