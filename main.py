@@ -1,8 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_as_int(array):
+        return int(array[0])
+def sort_list(lst):
+        return sorted(lst)
