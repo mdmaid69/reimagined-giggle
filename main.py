@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def append_to_array(array, item):
+        array.append(item)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
