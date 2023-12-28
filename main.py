@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
