@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def cube_number(x):
-        return x**3
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
