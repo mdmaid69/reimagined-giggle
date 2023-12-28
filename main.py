@@ -1,5 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
