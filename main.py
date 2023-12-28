@@ -1,4 +1,5 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+print("Is palindrome:", text == text[::-1])
