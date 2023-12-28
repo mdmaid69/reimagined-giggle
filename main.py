@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
