@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def cube_number(x):
+        return x**3
