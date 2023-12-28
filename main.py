@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
