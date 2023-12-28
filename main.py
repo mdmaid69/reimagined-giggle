@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
