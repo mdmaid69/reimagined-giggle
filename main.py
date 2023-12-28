@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
