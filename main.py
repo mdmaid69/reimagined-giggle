@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def is_palindrome(s):
+        return s == s[::-1]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
