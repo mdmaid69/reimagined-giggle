@@ -1,6 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def square_number(x):
+        return x**2
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
