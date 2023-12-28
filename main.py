@@ -1,4 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_work(force, distance):
+        return force * distance
+def is_palindrome(s):
+        return s == s[::-1]
