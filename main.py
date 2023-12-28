@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
