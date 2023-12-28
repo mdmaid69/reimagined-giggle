@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
