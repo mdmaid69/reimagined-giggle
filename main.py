@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import datetime
+print(datetime.datetime.now())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
