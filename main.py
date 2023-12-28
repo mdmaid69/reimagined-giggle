@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_work(force, distance):
+        return force * distance
+import sys
+print(sys.version)
