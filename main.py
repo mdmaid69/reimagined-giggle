@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
