@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
