@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
