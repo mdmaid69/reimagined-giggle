@@ -1,8 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
