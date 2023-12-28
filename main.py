@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import platform
+def get_os_info():
+        return platform.uname()
