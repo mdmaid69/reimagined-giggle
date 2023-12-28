@@ -1,6 +1,7 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
