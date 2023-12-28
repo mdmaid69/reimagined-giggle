@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_power(work, time):
+        return work / time
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
