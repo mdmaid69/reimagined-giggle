@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import platform
+def get_python_version():
+        return platform.python_version()
+  def is_even(n):
+        return n % 2 == 0
