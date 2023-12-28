@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_volume(length, width, height):
+        return length * width * height
+  def is_even(n):
+        return n % 2 == 0
