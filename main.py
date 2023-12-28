@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def is_odd(n):
+        return n % 2 != 0
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
