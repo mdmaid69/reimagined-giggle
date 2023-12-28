@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
