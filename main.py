@@ -1,7 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
