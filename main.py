@@ -1,5 +1,7 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
