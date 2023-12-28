@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
