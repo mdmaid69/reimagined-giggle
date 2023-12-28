@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  def multiply_numbers(x, y):
+        return x * y
