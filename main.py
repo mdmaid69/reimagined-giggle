@@ -1,4 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
