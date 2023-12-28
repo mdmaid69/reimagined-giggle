@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
