@@ -1,6 +1,7 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
