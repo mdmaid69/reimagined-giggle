@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
