@@ -1,5 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
