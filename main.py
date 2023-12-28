@@ -1,6 +1,8 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import sys
+def print_python_version():
+        print(sys.version)
