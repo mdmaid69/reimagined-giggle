@@ -1,8 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import time
+def get_current_time():
+        return time.ctime()
