@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
