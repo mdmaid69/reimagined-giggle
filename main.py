@@ -1,6 +1,5 @@
 import time
-def get_time_since_epoch():
-        return time.time()
-import sys
-def exit_program():
-        sys.exit()
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import datetime
+print(datetime.datetime.now())
