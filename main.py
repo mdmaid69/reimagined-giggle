@@ -1,7 +1,10 @@
-def factorial(n):
-        if n == 0:
-        return 1
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
         else:
-        return n * factorial(n-1)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+        return -1
