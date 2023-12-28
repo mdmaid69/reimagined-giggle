@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
