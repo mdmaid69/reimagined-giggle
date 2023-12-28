@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_list(array):
+        return list(array)
