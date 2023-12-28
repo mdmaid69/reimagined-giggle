@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
