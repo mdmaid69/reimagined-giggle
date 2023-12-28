@@ -1,6 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
