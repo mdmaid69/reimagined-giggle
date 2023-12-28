@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
