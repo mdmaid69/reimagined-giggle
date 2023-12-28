@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
