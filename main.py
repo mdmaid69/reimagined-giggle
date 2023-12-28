@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def reverse_string(s):
+        return s[::-1]
