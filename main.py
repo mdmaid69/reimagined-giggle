@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import collections
+def create_user_dict():
+        return collections.UserDict()
