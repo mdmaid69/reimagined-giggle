@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def cube_number(x):
+        return x**3
