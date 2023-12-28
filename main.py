@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def is_palindrome(s):
+        return s == s[::-1]
