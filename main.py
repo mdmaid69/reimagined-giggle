@@ -1,4 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-print([x**2 for x in range(10)])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import collections
+def create_counter():
+        return collections.Counter()
