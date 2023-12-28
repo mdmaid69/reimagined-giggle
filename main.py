@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def get_array_item(array, i):
+        return array[i]
