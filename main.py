@@ -1,6 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_item(array, i):
-        return array[i]
-import time
-def get_current_time():
-        return time.ctime()
+def get_array_as_frozenset(array):
+        return frozenset(array)
