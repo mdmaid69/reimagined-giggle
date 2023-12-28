@@ -1,8 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def sort_list(lst):
+        return sorted(lst)
