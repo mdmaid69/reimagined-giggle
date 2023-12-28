@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def convert_array_to_list(array):
+        return array.tolist()
+import os
+def change_working_directory(path):
+        os.chdir(path)
