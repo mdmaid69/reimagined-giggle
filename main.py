@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
