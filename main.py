@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
