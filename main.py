@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
