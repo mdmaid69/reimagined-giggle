@@ -1,6 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
