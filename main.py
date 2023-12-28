@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
