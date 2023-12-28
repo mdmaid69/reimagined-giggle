@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
