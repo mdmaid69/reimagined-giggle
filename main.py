@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_union(list1, list2):
+        return set(list1) | set(list2)
