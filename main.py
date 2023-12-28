@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def is_palindrome(s):
+        return s == s[::-1]
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
