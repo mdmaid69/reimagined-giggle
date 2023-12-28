@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
