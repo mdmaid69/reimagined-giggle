@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def delete_file(file_name):
+        os.remove(file_name)
