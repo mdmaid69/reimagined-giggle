@@ -1,7 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def find_unique_words(sentence):
+        return set(sentence.split())
