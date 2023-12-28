@@ -1,5 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
