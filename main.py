@@ -1,5 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
