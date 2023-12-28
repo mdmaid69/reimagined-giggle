@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def reverse_array(array):
+        array.reverse()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
