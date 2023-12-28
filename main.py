@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def convert_to_binary(n):
+        return bin(n)
