@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def square_number(x):
-        return x**2
+import sys
+print(sys.version)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
