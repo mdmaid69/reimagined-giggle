@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
