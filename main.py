@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def multiply_numbers(x, y):
+        return x * y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
