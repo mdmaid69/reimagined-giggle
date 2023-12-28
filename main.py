@@ -1,8 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
