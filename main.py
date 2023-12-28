@@ -1,6 +1,6 @@
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
