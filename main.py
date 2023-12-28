@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def subtract_numbers(x, y):
+        return x - y
