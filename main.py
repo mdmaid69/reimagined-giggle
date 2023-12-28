@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def reverse_list(lst):
+        return lst[::-1]
+def count_elements(lst):
+        return len(lst)
