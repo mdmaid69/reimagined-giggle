@@ -1,5 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_pressure(force, area):
-        return force / area
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
