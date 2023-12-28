@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
