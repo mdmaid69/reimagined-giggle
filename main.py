@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
