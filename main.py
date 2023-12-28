@@ -1,4 +1,5 @@
-print("Hello, world!")
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import random
+print(random.randint(0, 100))
