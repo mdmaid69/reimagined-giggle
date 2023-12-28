@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
