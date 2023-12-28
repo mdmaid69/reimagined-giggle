@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def count_characters(sentence):
+        return len(sentence)
