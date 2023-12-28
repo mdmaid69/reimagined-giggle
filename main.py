@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
