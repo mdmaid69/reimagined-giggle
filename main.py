@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import collections
-def create_counter():
-        return collections.Counter()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
