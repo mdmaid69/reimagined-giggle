@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
