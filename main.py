@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_item(array, i):
+        return array[i]
