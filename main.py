@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
