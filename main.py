@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
