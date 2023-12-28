@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def square_number(x):
-        return x**2
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_area_rectangle(l, w):
+        return l * w
