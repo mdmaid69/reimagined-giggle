@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import logging
-def log_message(message):
-        logging.info(message)
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
