@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
