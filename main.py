@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_queue():
-        return collections.deque()
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
