@@ -1,4 +1,7 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
