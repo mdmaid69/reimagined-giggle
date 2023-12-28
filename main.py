@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-x = 10
-y = 20
-print("Sum:", x + y)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def find_min(lst):
+        return min(lst)
