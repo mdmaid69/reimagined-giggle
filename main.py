@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
