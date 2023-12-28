@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
