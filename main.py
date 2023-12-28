@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
