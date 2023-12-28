@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_as_float(array):
+        return float(array[0])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
