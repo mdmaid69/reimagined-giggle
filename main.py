@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def greet(name):
+        print(f"Hello, {name}!")
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
