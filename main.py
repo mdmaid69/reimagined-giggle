@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import platform
+def get_os_info():
+        return platform.uname()
