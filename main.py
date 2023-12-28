@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
