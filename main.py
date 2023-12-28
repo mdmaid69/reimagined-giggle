@@ -1,6 +1,3 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import getpass
-def get_username():
-        return getpass.getuser()
+for i in range(10): print(i)
+def find_max(numbers):
+        return max(numbers)
