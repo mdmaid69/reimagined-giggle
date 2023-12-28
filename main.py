@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
