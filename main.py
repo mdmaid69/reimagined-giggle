@@ -1,7 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def is_odd(n):
+        return n % 2 != 0
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
