@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def divide_numbers(x, y):
-        return x / y
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def square_number(x):
+        return x**2
