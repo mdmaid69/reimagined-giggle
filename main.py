@@ -1,6 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
