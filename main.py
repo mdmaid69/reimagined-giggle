@@ -1,5 +1,6 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
