@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def create_counter():
+        return collections.Counter()
