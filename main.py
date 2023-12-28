@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
