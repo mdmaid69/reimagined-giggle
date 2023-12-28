@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def subtract_numbers(x, y):
-        return x - y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
