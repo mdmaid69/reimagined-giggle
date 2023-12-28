@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def square_number(x):
-        return x**2
+def calculate_area_rectangle(l, w):
+        return l * w
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
