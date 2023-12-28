@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
