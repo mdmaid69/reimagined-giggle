@@ -1,6 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
