@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def is_even(n):
-        return n % 2 == 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
