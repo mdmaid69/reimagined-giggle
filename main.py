@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def square_number(x):
+        return x**2
