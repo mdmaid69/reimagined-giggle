@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
