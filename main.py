@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
