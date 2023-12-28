@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
