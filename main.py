@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
