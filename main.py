@@ -1,6 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def add_numbers(x, y):
+        return x + y
+def calculate_area(radius):
+        return 3.14 * radius * radius
