@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_user_list():
-        return collections.UserList()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
