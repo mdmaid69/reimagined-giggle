@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
