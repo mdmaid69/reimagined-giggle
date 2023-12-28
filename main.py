@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
