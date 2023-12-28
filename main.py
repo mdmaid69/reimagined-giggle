@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
