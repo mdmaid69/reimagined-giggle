@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
