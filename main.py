@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_unique_words(sentence):
+        return set(sentence.split())
