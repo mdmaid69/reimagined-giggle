@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
