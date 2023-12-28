@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
