@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+def roll_die():
+        return random.randint(1, 6)
