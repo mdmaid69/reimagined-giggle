@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_speed(distance, time):
+        return distance / time
