@@ -1,6 +1,4 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+for i in range(10): print(i)
