@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
