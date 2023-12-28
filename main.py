@@ -1,6 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
