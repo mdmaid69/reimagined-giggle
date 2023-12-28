@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
