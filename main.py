@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
