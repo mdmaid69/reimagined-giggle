@@ -1,6 +1,8 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
