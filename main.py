@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_memoryview(array):
+        return memoryview(array)
