@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def cube_number(x):
+        return x**3
