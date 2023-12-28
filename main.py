@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_current_directory():
+        return os.getcwd()
