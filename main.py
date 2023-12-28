@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
