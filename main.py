@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
