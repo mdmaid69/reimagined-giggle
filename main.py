@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_power(work, time):
-        return work / time
+import getpass
+def get_username():
+        return getpass.getuser()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
