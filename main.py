@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
