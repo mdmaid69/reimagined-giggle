@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_acceleration(speed, time):
-        return speed / time
+import tensorflow as tf
+print(tf.__version__)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
