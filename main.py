@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
