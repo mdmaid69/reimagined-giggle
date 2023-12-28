@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_base_name(path):
+        return os.path.basename(path)
