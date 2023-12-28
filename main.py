@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
