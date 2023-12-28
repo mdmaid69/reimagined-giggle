@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
