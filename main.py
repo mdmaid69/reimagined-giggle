@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
