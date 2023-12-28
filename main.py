@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
