@@ -1,8 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
