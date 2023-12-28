@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
