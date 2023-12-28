@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
