@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
