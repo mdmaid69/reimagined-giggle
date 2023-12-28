@@ -1,8 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_list_from_array(array):
+        return array.tolist()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
