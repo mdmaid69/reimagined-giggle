@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
