@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
