@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
