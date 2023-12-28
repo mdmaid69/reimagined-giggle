@@ -1,5 +1,5 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  def subtract_numbers(x, y):
-        return x - y
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def count_elements(lst):
+        return len(lst)
