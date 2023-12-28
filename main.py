@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def is_odd(n):
-        return n % 2 != 0
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+name = "Python"
+print("Hello,", name)
