@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-text = "Hello, world!"
-print("Characters:", len(text))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
