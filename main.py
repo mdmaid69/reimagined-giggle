@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
