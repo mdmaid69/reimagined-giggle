@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def calculate_area_rectangle(l, w):
+        return l * w
