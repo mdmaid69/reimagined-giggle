@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_unique_words(sentence):
+        return set(sentence.split())
