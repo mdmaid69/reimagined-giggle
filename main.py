@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
