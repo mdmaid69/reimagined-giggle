@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-text = "Hello, world!"
-print("Characters:", len(text))
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
