@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
