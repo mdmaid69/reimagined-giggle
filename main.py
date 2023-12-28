@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
