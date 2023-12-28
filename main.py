@@ -1,7 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import datetime
+print(datetime.datetime.now())
