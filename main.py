@@ -1,8 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import datetime
+print(datetime.datetime.now())
+def find_min(lst):
+        return min(lst)
