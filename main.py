@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
