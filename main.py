@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def reverse_array(array):
+        array.reverse()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
