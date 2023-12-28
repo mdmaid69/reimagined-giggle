@@ -1,4 +1,7 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
