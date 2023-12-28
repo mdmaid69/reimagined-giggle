@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import os
+def get_current_working_directory():
+        return os.getcwd()
