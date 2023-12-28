@@ -1,7 +1,8 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
