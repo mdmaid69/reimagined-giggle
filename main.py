@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def is_even(n):
-        return n % 2 == 0
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
