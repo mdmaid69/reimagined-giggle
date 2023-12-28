@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def reverse_list(lst):
+        return lst[::-1]
