@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def reverse_list(lst):
+        return lst[::-1]
+def convert_to_hex(n):
+        return hex(n)
