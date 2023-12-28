@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-def subtract_numbers(x, y):
-        return x - y
+import random
+print(random.randint(0, 100))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
