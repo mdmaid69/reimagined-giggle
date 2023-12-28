@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
