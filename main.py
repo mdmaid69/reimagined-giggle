@@ -1,4 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-  def cube_number(x):
-        return x**3
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
