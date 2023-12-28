@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
