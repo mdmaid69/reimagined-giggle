@@ -1,6 +1,8 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
