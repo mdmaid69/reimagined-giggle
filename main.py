@@ -1,5 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
