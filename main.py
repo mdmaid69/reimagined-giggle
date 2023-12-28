@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
