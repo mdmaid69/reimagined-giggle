@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def cube_number(x):
+        return x**3
