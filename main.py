@@ -1,7 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
