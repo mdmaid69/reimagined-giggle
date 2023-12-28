@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
