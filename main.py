@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
