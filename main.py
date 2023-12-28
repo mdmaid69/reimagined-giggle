@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
