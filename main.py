@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
