@@ -1,5 +1,8 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
