@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
