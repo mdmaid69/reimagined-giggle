@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
