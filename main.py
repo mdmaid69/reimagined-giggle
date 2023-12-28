@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_work(force, distance):
+        return force * distance
