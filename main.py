@@ -1,6 +1,5 @@
-print([x**2 for x in range(10)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_set(array):
+        return set(array)
