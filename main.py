@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def is_even(n):
-        return n % 2 == 0
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
