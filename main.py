@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
