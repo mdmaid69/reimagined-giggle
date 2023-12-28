@@ -1,4 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
