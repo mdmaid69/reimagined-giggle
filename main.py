@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
