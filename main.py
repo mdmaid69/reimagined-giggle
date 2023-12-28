@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_power(work, time):
+        return work / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
