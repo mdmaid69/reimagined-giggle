@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def square_number(x):
-        return x**2
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
