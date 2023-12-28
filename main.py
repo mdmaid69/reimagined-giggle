@@ -1,5 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import time
-print(time.time())
+def get_time_since_epoch():
+        return time.time()
