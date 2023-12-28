@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def divide_numbers(x, y):
+        return x / y
+def find_unique_words(sentence):
+        return set(sentence.split())
