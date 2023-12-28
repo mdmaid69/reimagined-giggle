@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
