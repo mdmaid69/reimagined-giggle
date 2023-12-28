@@ -1,5 +1,3 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_area_rectangle(l, w):
+        return l * w
+print("Hello, world!")
