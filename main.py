@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def split_path(path):
+        return os.path.split(path)
