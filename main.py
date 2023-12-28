@@ -1,6 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
