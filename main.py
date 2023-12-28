@@ -1,5 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def cube_number(x):
-        return x**3
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
