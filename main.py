@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def convert_to_binary(n):
+        return bin(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
