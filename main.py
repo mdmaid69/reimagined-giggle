@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
