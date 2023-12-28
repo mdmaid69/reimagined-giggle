@@ -1,7 +1,4 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
