@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
