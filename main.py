@@ -1,5 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def check_if_array_contains_item(array, item):
+        return item in array
