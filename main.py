@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
