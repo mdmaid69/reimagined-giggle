@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  def cube_number(x):
-        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
