@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def convert_to_octal(n):
-        return oct(n)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
