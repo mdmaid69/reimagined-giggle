@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
