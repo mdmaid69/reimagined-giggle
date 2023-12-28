@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
