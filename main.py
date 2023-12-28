@@ -1,8 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
