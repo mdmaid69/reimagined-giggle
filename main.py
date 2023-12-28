@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
