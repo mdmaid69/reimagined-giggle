@@ -1,5 +1,8 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
