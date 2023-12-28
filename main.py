@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
