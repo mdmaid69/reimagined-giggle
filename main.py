@@ -1,7 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def append_to_array(array, item):
+        array.append(item)
