@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def reverse_list(lst):
+        return lst[::-1]
+import sys
+def print_python_version():
+        return sys.version
