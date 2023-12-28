@@ -1,6 +1,8 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
