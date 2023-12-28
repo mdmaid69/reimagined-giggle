@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
