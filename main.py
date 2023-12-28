@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
