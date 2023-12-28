@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
