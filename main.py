@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
