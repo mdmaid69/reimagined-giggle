@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
   import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
