@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
