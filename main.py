@@ -1,6 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def set_array_item(array, i, item):
+        array[i] = item
