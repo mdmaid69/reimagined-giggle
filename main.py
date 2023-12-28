@@ -1,5 +1,9 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_max(numbers):
-        return max(numbers)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import datetime
+def get_current_date():
+        return datetime.date.today()
