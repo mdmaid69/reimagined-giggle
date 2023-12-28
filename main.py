@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def square_number(x):
+        return x**2
+def reverse_string(s):
+        return s[::-1]
