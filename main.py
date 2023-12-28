@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
