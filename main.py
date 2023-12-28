@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def create_user_list():
-        return collections.UserList()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
