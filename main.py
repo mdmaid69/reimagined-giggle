@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def find_min(numbers):
-        return min(numbers)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
