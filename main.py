@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import os
-print(os.getcwd())
+import collections
+def create_queue():
+        return collections.deque()
+print([x**2 for x in range(10)])
