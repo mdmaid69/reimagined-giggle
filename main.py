@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def square_number(x):
+        return x**2
