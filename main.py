@@ -1,6 +1,9 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
