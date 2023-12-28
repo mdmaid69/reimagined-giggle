@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
