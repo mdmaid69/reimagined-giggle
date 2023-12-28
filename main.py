@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_min(lst):
+        return min(lst)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_bytes_from_array(array):
+        return array.tobytes()
