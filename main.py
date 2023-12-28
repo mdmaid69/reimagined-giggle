@@ -1,5 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
