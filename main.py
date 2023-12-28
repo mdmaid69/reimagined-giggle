@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
