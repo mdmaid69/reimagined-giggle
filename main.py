@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
