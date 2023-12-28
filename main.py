@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
