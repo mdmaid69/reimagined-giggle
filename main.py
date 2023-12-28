@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def reverse_list(lst):
+        return lst[::-1]
+import sys
+def exit_program():
+        sys.exit()
