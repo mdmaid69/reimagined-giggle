@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
