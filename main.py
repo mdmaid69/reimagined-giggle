@@ -1,7 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_max(lst):
-        return max(lst)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
