@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
