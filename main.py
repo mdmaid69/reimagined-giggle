@@ -1,5 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_pressure(force, area):
-        return force / area
+def remove_from_array(array, item):
+        array.remove(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
