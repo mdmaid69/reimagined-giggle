@@ -1,5 +1,8 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import numpy as np
-print(np.array([1, 2, 3]))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
