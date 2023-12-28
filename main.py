@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def is_palindrome(s):
-        return s == s[::-1]
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
