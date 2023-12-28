@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_power(work, time):
-        return work / time
+def sort_list(lst):
+        return sorted(lst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
