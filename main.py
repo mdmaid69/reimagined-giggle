@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
