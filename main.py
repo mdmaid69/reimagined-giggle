@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import getpass
+def get_username():
+        return getpass.getuser()
