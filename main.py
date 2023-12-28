@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import sys
+print(sys.version)
+import datetime
+print(datetime.datetime.now())
