@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
