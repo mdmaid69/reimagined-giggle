@@ -1,4 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-print(sum(range(10)))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
