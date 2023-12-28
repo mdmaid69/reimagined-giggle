@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
