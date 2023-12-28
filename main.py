@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
