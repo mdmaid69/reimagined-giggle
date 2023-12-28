@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
