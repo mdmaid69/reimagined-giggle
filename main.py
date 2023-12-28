@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+from collections import Counter
+print(Counter("hello world"))
