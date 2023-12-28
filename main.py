@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import datetime
-print(datetime.datetime.now())
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
