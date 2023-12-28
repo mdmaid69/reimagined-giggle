@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
