@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
