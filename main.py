@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+name = "Python"
+print("Hello,", name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
