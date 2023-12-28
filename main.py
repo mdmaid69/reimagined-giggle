@@ -1,8 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
