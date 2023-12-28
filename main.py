@@ -1,4 +1,8 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_power(work, time):
-        return work / time
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
