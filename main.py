@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
