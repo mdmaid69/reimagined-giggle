@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def is_odd(n):
+        return n % 2 != 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
