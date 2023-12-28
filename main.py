@@ -1,6 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def is_even(n):
+        return n % 2 == 0
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
