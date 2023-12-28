@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
