@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
