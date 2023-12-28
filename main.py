@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
