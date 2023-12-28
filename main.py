@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-x = 10
-y = 20
-print("Sum:", x + y)
+import collections
+def create_counter():
+        return collections.Counter()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
