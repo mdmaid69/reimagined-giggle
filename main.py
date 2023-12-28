@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
