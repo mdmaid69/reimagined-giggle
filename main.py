@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
