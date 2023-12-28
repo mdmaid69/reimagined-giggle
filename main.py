@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import json
+print(json.dumps({"name": "John", "age": 30}))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
