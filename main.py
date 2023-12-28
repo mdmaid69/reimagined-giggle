@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
