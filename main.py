@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def count_elements(lst):
-        return len(lst)
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
