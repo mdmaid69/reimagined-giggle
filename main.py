@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
