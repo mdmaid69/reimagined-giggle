@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def cube_number(x):
+        return x**3
+i = 0
+while i < 5:
+        print(i)
+        i += 1
