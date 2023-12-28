@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def count_characters(sentence):
+        return len(sentence)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
