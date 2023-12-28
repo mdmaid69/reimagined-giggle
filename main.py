@@ -1,5 +1,8 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
