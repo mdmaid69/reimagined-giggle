@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+from collections import Counter
+print(Counter("hello world"))
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
