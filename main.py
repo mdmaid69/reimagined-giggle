@@ -1,6 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
