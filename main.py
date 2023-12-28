@@ -1,5 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
