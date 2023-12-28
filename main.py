@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
