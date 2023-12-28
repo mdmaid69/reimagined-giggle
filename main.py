@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_queue():
+        return collections.deque()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
