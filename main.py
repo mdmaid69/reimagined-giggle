@@ -1,8 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
