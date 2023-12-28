@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-text = "Hello, world!"
-print("Characters:", len(text))
+def convert_to_octal(n):
+        return oct(n)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
