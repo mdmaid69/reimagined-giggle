@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
