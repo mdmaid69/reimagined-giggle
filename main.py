@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def sort_list(lst):
-        return sorted(lst)
+import os
+print(os.getcwd())
+import collections
+def create_user_string():
+        return collections.UserString()
