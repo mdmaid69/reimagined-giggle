@@ -1,7 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
