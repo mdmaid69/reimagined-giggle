@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
