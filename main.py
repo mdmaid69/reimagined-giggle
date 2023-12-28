@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import collections
+def create_counter():
+        return collections.Counter()
