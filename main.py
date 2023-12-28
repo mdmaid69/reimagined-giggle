@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def calculate_area_circle(r):
+        return 3.14 * r**2
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
