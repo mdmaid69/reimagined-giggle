@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
