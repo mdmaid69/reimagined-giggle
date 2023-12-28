@@ -1,5 +1,9 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import sys
+def exit_program():
+        sys.exit()
