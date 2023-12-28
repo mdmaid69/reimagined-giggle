@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_power(work, time):
+        return work / time
