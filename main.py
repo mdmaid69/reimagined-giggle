@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def find_max(lst):
+        return max(lst)
