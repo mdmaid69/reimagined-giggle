@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def count_elements(lst):
+        return len(lst)
