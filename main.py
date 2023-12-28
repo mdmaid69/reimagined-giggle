@@ -1,8 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
