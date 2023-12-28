@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def convert_to_octal(n):
-        return oct(n)
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
