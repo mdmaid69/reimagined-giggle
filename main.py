@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
