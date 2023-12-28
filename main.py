@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
