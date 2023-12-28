@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_work(force, distance):
+        return force * distance
