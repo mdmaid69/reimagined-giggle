@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_work(force, distance):
+        return force * distance
+def calculate_speed(distance, time):
+        return distance / time
