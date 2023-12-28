@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
