@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
