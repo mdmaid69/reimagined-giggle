@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def divide_numbers(x, y):
-        return x / y
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
