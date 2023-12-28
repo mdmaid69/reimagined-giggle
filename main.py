@@ -1,4 +1,11 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
