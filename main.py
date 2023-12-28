@@ -1,5 +1,9 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
