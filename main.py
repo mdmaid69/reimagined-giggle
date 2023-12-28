@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
