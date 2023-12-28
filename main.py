@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
