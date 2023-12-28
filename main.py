@@ -1,6 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
