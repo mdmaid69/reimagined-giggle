@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def sort_list(lst):
+        return sorted(lst)
