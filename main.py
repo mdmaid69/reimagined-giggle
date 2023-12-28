@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def is_odd(n):
+        return n % 2 != 0
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
