@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_user_dict():
+        return collections.UserDict()
