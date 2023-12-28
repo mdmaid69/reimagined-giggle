@@ -1,7 +1,8 @@
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-def is_even(n):
-        return n % 2 == 0
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
