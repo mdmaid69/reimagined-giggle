@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_density(mass, volume):
+        return mass / volume
