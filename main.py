@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import collections
+def create_queue():
+        return collections.deque()
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
