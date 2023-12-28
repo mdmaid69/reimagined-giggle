@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def convert_to_octal(n):
+        return oct(n)
