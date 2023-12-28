@@ -1,5 +1,6 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def create_counter():
+        return collections.Counter()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
