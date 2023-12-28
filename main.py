@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+text = "Hello, world!"
+print("Reversed:", text[::-1])
