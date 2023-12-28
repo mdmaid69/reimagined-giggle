@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
