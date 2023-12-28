@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def multiply_numbers(x, y):
+        return x * y
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
