@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
