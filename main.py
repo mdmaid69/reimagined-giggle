@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
