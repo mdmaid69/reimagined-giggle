@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
