@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import sys
+def exit_program():
+        sys.exit()
+print("Hello, world!")
