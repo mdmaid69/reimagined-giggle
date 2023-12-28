@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  def remove_duplicates(lst):
-        return list(set(lst))
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
