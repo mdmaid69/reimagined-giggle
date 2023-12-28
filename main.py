@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def find_unique_words(sentence):
+        return set(sentence.split())
