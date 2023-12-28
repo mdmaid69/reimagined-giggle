@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
