@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
