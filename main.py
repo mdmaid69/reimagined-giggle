@@ -1,3 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-for i in range(10): print(i)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
