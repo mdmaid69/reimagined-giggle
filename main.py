@@ -1,6 +1,9 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
