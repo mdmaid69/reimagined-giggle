@@ -1,6 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
