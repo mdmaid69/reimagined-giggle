@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
