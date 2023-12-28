@@ -1,6 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
