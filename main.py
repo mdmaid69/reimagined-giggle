@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
