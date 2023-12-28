@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import sys
+  def get_python_version():
+        return sys.version
