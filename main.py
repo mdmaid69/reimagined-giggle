@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
