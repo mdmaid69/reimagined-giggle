@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def get_array_length(array):
-        return len(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_sine(x):
+        return math.sin(x)
