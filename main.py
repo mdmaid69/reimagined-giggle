@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def is_even(n):
-        return n % 2 == 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_user_dict():
+        return collections.UserDict()
