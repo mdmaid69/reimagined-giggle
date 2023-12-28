@@ -1,8 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_power(work, time):
+        return work / time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
