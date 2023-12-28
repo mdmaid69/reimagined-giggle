@@ -1,5 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
