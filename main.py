@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
