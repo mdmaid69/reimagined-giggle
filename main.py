@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
