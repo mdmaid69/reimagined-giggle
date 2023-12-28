@@ -1,8 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
