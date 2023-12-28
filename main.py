@@ -1,8 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
