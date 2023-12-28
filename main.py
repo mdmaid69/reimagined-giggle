@@ -1,3 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-print([x**2 for x in range(10)])
+  def count_elements(lst):
+        return len(lst)
+  import sys
+  def get_python_version():
+        return sys.version
