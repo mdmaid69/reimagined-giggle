@@ -1,6 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
