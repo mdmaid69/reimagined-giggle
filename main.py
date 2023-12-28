@@ -1,5 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_density(mass, volume):
+        return mass / volume
