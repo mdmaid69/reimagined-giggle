@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_exponential(x):
+        return math.exp(x)
