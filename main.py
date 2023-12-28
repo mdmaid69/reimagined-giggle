@@ -1,8 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
