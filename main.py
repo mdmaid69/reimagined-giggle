@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
