@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
