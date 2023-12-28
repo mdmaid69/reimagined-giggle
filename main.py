@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def multiply_numbers(x, y):
+        return x * y
