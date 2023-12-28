@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
