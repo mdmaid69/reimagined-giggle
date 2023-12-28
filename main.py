@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
