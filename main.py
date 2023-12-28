@@ -1,5 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import os
-print(os.getcwd())
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
