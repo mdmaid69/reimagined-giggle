@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_typecode(array):
+        return array.typecode
