@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
