@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def is_even(n):
-        return n % 2 == 0
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_acceleration(speed, time):
+        return speed / time
