@@ -1,8 +1,6 @@
 import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_user_dict():
+        return collections.UserDict()
