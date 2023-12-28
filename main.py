@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def divide_numbers(x, y):
-        return x / y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
