@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def sort_list(lst):
+        return sorted(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
