@@ -1,5 +1,5 @@
-import math
-print(math.pi)
+def calculate_speed(distance, time):
+        return distance / time
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
