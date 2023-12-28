@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
