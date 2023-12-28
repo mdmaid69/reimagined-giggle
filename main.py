@@ -1,6 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def insert_into_array(array, i, item):
+        array.insert(i, item)
