@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
