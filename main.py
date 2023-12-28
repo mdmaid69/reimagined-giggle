@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
