@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
