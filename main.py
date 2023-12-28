@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def cube_number(x):
+        return x**3
