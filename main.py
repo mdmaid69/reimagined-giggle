@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_min(lst):
-        return min(lst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
