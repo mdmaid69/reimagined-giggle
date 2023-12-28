@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
