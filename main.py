@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
