@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
