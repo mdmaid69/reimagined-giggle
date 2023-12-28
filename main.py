@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
