@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
