@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_as_set(array):
-        return set(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
