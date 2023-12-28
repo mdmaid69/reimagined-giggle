@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
