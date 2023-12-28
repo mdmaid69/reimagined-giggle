@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+text = "Hello, world!"
+print("Reversed:", text[::-1])
