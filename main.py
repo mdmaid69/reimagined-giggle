@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
