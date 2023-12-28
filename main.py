@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
