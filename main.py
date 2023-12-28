@@ -1,6 +1,8 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
