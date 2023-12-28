@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def multiply_numbers(x, y):
+        return x * y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
