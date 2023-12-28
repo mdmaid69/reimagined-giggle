@@ -1,8 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
