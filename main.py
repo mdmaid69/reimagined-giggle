@@ -1,5 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
