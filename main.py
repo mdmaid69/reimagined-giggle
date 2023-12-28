@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def remove_directory(path):
+        os.rmdir(path)
