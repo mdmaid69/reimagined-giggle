@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import collections
+def create_user_string():
+        return collections.UserString()
