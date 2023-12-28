@@ -1,8 +1,10 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
