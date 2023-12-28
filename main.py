@@ -1,4 +1,11 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
