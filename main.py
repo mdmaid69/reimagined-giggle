@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
