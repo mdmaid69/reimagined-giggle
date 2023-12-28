@@ -1,7 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
