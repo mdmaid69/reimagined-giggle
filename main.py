@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
