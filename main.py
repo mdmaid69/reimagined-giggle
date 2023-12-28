@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
