@@ -1,5 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
