@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
