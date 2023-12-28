@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
