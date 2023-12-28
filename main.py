@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
