@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def add_numbers(x, y):
+        return x + y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
