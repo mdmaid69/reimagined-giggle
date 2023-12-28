@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
