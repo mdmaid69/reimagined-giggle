@@ -1,7 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
