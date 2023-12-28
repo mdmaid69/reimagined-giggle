@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import numpy as np
+print(np.array([1, 2, 3]))
