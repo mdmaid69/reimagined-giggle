@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_as_str(array):
+        return str(array)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
