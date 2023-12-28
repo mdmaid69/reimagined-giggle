@@ -1,5 +1,9 @@
 import time
-def get_time_since_epoch():
-        return time.time()
-  def calculate_area_rectangle(l, w):
-        return l * w
+def get_current_time():
+        return time.ctime()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
