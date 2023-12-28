@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def add_numbers(a, b):
+        return a + b
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
