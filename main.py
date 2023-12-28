@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
