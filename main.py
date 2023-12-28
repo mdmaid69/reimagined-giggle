@@ -1,5 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
