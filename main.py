@@ -1,5 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def cube_number(x):
-        return x**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
