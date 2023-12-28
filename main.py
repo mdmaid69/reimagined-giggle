@@ -1,5 +1,8 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def convert_to_binary(n):
-        return bin(n)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
