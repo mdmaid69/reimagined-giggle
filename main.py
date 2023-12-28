@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
