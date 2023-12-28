@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
