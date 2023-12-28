@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_speed(distance, time):
-        return distance / time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
