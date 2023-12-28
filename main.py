@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def remove_duplicates(lst):
+        return list(set(lst))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
