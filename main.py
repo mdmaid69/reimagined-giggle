@@ -1,7 +1,14 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
