@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
