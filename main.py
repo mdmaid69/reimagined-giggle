@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
