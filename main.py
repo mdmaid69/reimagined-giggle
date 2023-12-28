@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def remove_duplicates(lst):
+        return list(set(lst))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
