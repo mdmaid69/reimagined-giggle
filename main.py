@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+x = 10
+y = 20
+print("Sum:", x + y)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
