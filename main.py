@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def add_numbers(a, b):
+        return a + b
