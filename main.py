@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
