@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def divide_numbers(x, y):
-        return x / y
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
