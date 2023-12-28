@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-from collections import Counter
-print(Counter("hello world"))
+def cube_number(x):
+        return x**3
+def count_elements(lst):
+        return len(lst)
