@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
