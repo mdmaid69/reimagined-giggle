@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def find_unique_words(sentence):
-        return set(sentence.split())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
