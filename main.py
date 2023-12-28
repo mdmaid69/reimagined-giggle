@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
