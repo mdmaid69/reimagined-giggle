@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
