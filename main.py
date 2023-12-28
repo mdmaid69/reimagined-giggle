@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
