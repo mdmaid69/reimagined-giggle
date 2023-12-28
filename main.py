@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
