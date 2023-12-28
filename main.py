@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+print(sum(range(10)))
+import array
+def get_array_as_list(array):
+        return list(array)
