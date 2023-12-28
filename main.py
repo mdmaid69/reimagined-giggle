@@ -1,6 +1,9 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
