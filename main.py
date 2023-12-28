@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
