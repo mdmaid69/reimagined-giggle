@@ -1,6 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-for i in range(10): print(i)
+import time
+def get_current_time():
+        return time.ctime()
+  def cube_number(x):
+        return x**3
