@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
