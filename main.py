@@ -1,4 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+print(sum(range(10)))
