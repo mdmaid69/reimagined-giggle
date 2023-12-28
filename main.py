@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def subtract_numbers(x, y):
-        return x - y
+def count_characters(sentence):
+        return len(sentence)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
