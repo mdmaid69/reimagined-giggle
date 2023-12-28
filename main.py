@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import collections
+def create_priority_queue():
+        return collections.deque()
