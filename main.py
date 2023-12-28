@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
