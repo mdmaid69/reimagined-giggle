@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import collections
+def create_user_list():
+        return collections.UserList()
