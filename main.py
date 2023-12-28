@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_power(work, time):
+        return work / time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
