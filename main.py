@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
