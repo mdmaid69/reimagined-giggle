@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def square_number(x):
+        return x**2
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
