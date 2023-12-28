@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
