@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
