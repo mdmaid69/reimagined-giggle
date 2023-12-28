@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
