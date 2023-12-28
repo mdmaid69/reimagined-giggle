@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_power(work, time):
-        return work / time
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
