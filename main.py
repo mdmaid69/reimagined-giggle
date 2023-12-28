@@ -1,7 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import random
+def roll_die():
+        return random.randint(1, 6)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
