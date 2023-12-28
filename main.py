@@ -1,5 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
