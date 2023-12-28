@@ -1,7 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
