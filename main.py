@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def check_if_array_contains_item(array, item):
+        return item in array
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
