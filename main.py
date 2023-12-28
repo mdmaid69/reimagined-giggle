@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
