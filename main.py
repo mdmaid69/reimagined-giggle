@@ -1,4 +1,4 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import sys
-print(sys.version)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def divide_numbers(x, y):
+        return x / y
