@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
