@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
