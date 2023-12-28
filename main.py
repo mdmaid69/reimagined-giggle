@@ -1,7 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import collections
+def create_counter():
+        return collections.Counter()
