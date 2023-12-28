@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
