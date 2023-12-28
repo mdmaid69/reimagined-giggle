@@ -1,9 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
