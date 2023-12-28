@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import sys
+def exit_program():
+        sys.exit()
