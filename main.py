@@ -1,5 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def cube_number(x):
-        return x**3
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
