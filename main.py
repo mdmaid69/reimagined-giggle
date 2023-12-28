@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
