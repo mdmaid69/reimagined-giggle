@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_density(mass, volume):
-        return mass / volume
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def create_counter():
+        return collections.Counter()
