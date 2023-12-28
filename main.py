@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
