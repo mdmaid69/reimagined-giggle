@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-def exit_program():
-        sys.exit()
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
