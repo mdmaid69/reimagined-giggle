@@ -1,4 +1,11 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def add_numbers(x, y):
-        return x + y
+import re
+print(re.match("h.*o", "hello world"))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
