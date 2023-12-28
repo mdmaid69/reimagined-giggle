@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
