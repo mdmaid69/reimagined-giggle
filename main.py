@@ -1,5 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
