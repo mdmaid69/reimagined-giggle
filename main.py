@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
