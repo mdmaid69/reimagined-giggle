@@ -1,10 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
