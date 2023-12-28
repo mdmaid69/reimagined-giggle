@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
 import array
-def append_to_array(array, item):
-        array.append(item)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
