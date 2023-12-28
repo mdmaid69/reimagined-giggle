@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def is_odd(n):
-        return n % 2 != 0
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
