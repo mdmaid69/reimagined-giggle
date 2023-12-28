@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_work(force, distance):
-        return force * distance
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
