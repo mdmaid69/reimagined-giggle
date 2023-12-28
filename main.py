@@ -1,8 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_pressure(force, area):
+        return force / area
