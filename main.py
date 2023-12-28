@@ -1,3 +1,6 @@
-print("Hello, world!")
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_cosine(x):
+        return math.cos(x)
