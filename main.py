@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_float(array):
+        return float(array[0])
