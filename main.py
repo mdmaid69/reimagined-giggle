@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def sort_numbers(numbers):
-        return sorted(numbers)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
