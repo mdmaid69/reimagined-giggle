@@ -1,6 +1,5 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_bool(array):
+        return bool(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
