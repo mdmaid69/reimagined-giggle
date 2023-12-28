@@ -1,5 +1,5 @@
+  def add_numbers(x, y):
+        return x + y
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
