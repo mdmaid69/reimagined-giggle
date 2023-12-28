@@ -1,5 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def find_min(numbers):
-        return min(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
