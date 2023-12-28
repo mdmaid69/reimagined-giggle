@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_current_working_directory():
+        return os.getcwd()
