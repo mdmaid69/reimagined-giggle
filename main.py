@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_work(force, distance):
-        return force * distance
+import random
+print(random.randint(0, 100))
+def calculate_speed(distance, time):
+        return distance / time
