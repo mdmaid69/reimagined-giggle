@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
