@@ -1,5 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
