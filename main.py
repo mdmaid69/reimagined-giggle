@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_speed(distance, time):
+        return distance / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
