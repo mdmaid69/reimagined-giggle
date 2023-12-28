@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
