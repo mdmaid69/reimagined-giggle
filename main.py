@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_queue():
+        return collections.deque()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
