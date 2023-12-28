@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
