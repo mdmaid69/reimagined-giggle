@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def find_min(lst):
+        return min(lst)
