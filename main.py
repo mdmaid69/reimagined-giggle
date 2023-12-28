@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
