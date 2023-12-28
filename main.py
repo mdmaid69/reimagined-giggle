@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+print(math.pi)
