@@ -1,6 +1,8 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def cube_number(x):
+        return x**3
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
