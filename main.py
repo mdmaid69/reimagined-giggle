@@ -1,5 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def reverse_list(lst):
-        return lst[::-1]
+for i in range(10): print(i)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
