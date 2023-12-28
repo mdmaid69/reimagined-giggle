@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
