@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
