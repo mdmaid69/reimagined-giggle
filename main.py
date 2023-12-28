@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def square_number(x):
-        return x**2
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
