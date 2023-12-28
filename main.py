@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def is_odd(n):
+        return n % 2 != 0
