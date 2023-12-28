@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
