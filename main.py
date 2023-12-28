@@ -1,5 +1,6 @@
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import sys
-def exit_program():
-        sys.exit()
-def calculate_density(mass, volume):
-        return mass / volume
+def add_to_python_path(path):
+        sys.path.append(path)
