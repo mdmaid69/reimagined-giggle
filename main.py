@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
