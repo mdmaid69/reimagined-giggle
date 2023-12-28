@@ -1,6 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
