@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def add_numbers(x, y):
+        return x + y
