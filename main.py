@@ -1,6 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_current_directory():
+        return os.getcwd()
