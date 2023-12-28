@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_current_working_directory():
+        return os.getcwd()
