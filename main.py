@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import time
+def get_current_time():
+        return time.ctime()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
