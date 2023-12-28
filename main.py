@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
