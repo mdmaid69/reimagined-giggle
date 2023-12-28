@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_max(lst):
+        return max(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
