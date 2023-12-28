@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def convert_to_octal(n):
+        return oct(n)
