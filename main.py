@@ -1,8 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
