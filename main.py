@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
