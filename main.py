@@ -1,6 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def subtract_numbers(x, y):
+        return x - y
