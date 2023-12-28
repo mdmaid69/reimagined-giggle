@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
