@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_acceleration(speed, time):
+        return speed / time
