@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+print([x**2 for x in range(10)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
