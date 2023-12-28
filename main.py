@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import os
+print(os.getcwd())
