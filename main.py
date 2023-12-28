@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def sort_list(lst):
+        return sorted(lst)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
