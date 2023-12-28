@@ -1,8 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+x = 10
+y = 20
+print("Sum:", x + y)
