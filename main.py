@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+x = 10
+y = 20
+print("Sum:", x + y)
+x = 10
+y = 20
+print("Sum:", x + y)
