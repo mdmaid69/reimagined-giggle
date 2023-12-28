@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
