@@ -1,5 +1,12 @@
-import random
-print(random.randint(0, 100))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_length(array):
+        return len(array)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
