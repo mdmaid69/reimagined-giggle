@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_set(array):
+        return set(array)
