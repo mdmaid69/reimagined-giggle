@@ -1,4 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-print(sum(range(10)))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import sys
+  def get_python_version():
+        return sys.version
