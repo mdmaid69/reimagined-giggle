@@ -1,5 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
