@@ -1,6 +1,12 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def is_even(n):
-        return n % 2 == 0
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import datetime
+def get_current_date():
+        return datetime.date.today()
