@@ -1,5 +1,5 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
