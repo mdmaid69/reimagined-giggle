@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def add_numbers(x, y):
-        return x + y
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
