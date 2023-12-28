@@ -1,6 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
