@@ -1,5 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
