@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
