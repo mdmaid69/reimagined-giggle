@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_list(array):
+        return list(array)
