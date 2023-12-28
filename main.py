@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def multiply_numbers(x, y):
-        return x * y
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
