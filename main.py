@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
