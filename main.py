@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def square_number(x):
+        return x**2
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
