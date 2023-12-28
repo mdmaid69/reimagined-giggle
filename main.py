@@ -1,6 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+from collections import Counter
+print(Counter("hello world"))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
