@@ -1,7 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def is_even(n):
+        return n % 2 == 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
