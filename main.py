@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import sys
+def print_python_version():
+        print(sys.version)
