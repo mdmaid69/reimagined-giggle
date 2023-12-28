@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
