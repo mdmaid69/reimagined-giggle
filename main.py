@@ -1,9 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
