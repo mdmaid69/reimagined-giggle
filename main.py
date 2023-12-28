@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
