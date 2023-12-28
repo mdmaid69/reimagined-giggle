@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def is_palindrome(s):
+        return s == s[::-1]
+import datetime
+def get_today_date():
+        return datetime.date.today()
