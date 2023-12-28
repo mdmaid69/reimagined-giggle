@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+def roll_die():
+        return random.randint(1, 6)
