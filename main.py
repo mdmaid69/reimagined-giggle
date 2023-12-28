@@ -1,8 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
