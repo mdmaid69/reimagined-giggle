@@ -1,6 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_force(mass, acceleration):
+        return mass * acceleration
