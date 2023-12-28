@@ -1,6 +1,8 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
