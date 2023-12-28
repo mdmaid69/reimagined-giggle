@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
