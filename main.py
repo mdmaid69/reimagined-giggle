@@ -1,5 +1,6 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def convert_to_octal(n):
-        return oct(n)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
