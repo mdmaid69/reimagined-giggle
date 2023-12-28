@@ -1,5 +1,10 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
