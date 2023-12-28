@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def sort_list(lst):
-        return sorted(lst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
