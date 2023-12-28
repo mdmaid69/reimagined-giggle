@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
