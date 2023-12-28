@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import numpy as np
-print(np.array([1, 2, 3]))
+def convert_to_binary(n):
+        return bin(n)
+def find_max(lst):
+        return max(lst)
