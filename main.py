@@ -1,8 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
