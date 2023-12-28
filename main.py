@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import sys
-def print_python_version():
-        return sys.version
+def calculate_pressure(force, area):
+        return force / area
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
