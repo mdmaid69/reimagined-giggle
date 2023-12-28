@@ -1,6 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import time
-def get_current_time():
-        return time.time()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
