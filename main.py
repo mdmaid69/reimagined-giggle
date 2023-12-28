@@ -1,7 +1,9 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-def square_number(x):
-        return x**2
+import os
+def change_working_directory(path):
+        os.chdir(path)
