@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
