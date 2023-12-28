@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import time
+def get_current_time():
+        return time.ctime()
