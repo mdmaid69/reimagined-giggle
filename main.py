@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import os
-print(os.getcwd())
+def count_elements(lst):
+        return len(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
