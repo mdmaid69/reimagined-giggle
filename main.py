@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
