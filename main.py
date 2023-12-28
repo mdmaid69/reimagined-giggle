@@ -1,4 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import random
-print(random.randint(0, 100))
+import sys
+def print_python_version():
+        return sys.version
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
