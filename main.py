@@ -1,7 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
