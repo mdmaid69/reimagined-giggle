@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
