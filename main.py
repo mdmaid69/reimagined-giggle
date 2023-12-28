@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
