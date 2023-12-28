@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_gamma_function(x):
+        return math.gamma(x)
