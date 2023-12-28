@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
