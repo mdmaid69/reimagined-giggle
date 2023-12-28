@@ -1,4 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import sys
+def print_python_version():
+        return sys.version
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
