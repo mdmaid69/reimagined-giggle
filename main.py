@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
