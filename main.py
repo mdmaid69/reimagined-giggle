@@ -1,5 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
