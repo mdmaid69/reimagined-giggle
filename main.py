@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
