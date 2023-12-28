@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
