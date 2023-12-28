@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def convert_to_octal(n):
+        return oct(n)
