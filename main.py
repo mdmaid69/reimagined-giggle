@@ -1,5 +1,8 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
