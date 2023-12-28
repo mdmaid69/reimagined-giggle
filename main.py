@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
