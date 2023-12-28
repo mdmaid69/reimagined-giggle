@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def square_number(x):
-        return x**2
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def convert_to_json(data):
+        return json.dumps(data)
