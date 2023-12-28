@@ -1,6 +1,5 @@
+import time
+print(time.time())
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
