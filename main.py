@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_stack():
+        return collections.deque()
