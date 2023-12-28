@@ -1,5 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
