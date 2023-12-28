@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def append_to_array(array, item):
+        array.append(item)
