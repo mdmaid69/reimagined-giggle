@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
