@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
