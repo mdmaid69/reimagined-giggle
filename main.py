@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def convert_array_to_string(array):
+        return array.tostring()
