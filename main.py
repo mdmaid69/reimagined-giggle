@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def convert_to_hex(n):
+        return hex(n)
+for i in range(5):
+        print(i)
