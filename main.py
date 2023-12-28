@@ -1,12 +1,7 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
