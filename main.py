@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
