@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_area(radius):
+        return 3.14 * radius * radius
