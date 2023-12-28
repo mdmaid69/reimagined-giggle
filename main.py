@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
