@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def square_number(x):
-        return x**2
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Characters:", len(text))
