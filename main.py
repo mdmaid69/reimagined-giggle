@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_acceleration(speed, time):
+        return speed / time
