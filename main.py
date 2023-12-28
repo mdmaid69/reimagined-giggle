@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def change_working_directory(path):
+        os.chdir(path)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
