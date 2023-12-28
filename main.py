@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
