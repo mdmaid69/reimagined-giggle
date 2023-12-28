@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_index(array, item):
+        return array.index(item)
