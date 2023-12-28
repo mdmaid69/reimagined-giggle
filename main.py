@@ -1,6 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_string_from_array(array):
+        return array.tobytes()
