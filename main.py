@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def cube_number(x):
+        return x**3
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
