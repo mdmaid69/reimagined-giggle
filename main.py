@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
