@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
