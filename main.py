@@ -1,6 +1,6 @@
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def create_user_string():
+        return collections.UserString()
+import array
+def reverse_array(array):
+        array.reverse()
