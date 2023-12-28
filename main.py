@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import sys
+  def get_python_version():
+        return sys.version
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
