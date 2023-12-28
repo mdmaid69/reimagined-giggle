@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_acceleration(speed, time):
+        return speed / time
