@@ -1,6 +1,7 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import random
+print(random.randint(0, 100))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
