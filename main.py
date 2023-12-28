@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def is_odd(n):
+        return n % 2 != 0
 import array
 def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
