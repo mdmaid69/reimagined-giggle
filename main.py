@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
