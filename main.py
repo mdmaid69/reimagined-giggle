@@ -1,3 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-print("Hello, world!")
+import array
+def get_array_item(array, i):
+        return array[i]
+def find_min(numbers):
+        return min(numbers)
