@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_pressure(force, area):
+        return force / area
+def sort_list(lst):
+        return sorted(lst)
