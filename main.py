@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
