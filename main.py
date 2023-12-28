@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def sort_list(lst):
+        return sorted(lst)
