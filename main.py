@@ -1,4 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-print([x**2 for x in range(10)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def sort_list(lst):
+        return sorted(lst)
