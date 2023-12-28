@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import platform
+def get_python_version():
+        return platform.python_version()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
