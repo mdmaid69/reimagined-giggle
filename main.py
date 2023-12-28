@@ -1,5 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_as_set(array):
+        return set(array)
