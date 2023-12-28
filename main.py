@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
