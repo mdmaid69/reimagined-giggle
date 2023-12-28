@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
