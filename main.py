@@ -1,6 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def set_array_item(array, i, item):
+        array[i] = item
