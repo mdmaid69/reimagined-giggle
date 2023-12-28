@@ -1,6 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_pressure(force, area):
+        return force / area
