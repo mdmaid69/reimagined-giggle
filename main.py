@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def count_characters(sentence):
-        return len(sentence)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
