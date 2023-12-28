@@ -1,6 +1,8 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
