@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def find_min(lst):
+        return min(lst)
