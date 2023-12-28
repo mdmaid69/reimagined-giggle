@@ -1,6 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
