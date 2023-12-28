@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def add_numbers(a, b):
+        return a + b
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
