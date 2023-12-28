@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_int(array):
+        return int(array[0])
