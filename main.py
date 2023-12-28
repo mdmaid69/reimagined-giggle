@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
