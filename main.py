@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
