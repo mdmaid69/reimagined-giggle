@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_typecode(array):
+        return array.typecode
