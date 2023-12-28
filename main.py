@@ -1,5 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
