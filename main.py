@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_pressure(force, area):
-        return force / area
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
