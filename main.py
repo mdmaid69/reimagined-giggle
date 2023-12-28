@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
