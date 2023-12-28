@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
