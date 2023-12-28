@@ -1,6 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import platform
-def get_python_version():
-        return platform.python_version()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
