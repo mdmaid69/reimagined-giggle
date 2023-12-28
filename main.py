@@ -1,6 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
