@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def list_files_in_directory(path):
+        return os.listdir(path)
