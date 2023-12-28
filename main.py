@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_work(force, distance):
+        return force * distance
