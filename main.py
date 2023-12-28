@@ -1,4 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def reverse_string(s):
+        return s[::-1]
