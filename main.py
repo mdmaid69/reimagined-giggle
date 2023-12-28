@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
