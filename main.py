@@ -1,6 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def generate_random_number(start, end):
+        return random.randint(start, end)
