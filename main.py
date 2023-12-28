@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def add_numbers(a, b):
-        return a + b
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
