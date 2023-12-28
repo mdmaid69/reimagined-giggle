@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
