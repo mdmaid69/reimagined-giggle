@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
