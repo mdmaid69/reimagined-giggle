@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def set_array_item(array, i, item):
+        array[i] = item
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
