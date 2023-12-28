@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
