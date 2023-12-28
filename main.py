@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
