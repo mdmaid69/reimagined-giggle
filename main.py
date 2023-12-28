@@ -1,8 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
