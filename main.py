@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def convert_to_hex(n):
-        return hex(n)
+  def sort_list(lst):
+        return sorted(lst)
+  def calculate_area_rectangle(l, w):
+        return l * w
