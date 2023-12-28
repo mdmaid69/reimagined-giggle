@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
