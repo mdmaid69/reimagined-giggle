@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def cube_number(x):
-        return x**3
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_area(radius):
+        return 3.14 * radius * radius
