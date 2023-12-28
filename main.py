@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def divide_numbers(x, y):
+        return x / y
