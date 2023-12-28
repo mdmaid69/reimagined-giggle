@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import sys
-def exit_program():
-        sys.exit()
+def find_unique_words(sentence):
+        return set(sentence.split())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
