@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
