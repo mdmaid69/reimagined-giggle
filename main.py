@@ -1,5 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
