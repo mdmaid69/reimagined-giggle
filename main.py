@@ -1,6 +1,8 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
