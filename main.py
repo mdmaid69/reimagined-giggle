@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
