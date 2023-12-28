@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
