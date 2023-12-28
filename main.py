@@ -1,7 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_index(array, item):
+        return array.index(item)
