@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
