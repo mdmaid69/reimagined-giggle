@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
