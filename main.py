@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
