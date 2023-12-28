@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_priority_queue():
+        return collections.deque()
+import logging
+def log_message(message):
+        logging.info(message)
