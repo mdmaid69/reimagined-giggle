@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def find_max(numbers):
-        return max(numbers)
+def calculate_work(force, distance):
+        return force * distance
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
