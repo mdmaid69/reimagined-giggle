@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
