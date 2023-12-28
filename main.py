@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_as_set(array):
-        return set(array)
+def add_numbers(a, b):
+        return a + b
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
