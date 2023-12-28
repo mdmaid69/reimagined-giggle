@@ -1,6 +1,6 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def create_stack():
+        return collections.deque()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
