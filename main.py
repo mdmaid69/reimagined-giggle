@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
