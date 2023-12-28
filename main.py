@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def remove_duplicates(lst):
+        return list(set(lst))
