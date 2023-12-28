@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
