@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
