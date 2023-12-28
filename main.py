@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def reverse_array(array):
+        array.reverse()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
