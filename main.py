@@ -1,12 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
