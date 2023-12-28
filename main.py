@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
