@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import os
+print(os.getcwd())
