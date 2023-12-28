@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import time
+def get_time_since_epoch():
+        return time.time()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
