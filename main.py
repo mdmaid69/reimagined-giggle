@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
