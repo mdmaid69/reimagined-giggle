@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-name = "Python"
-print("Hello,", name)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
