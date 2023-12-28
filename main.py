@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def cube_number(x):
-        return x**3
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
