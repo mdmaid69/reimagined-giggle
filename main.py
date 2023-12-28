@@ -1,7 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
