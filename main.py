@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_item(array, i):
-        return array[i]
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def is_even(n):
+        return n % 2 == 0
