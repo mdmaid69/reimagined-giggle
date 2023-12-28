@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
