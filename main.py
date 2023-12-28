@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def subtract_numbers(x, y):
+        return x - y
+def convert_to_hex(n):
+        return hex(n)
