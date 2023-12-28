@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
