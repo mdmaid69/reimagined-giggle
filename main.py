@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
