@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-name = "Python"
-print("Hello,", name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
