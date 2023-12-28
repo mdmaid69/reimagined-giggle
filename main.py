@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
