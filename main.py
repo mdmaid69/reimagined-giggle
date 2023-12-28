@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
