@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  def count_elements(lst):
+        return len(lst)
