@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
