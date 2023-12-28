@@ -1,7 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
