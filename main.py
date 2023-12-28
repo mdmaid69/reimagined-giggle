@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
