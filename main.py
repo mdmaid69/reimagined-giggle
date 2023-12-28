@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
