@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
