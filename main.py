@@ -1,4 +1,8 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import os
+def get_current_working_directory():
+        return os.getcwd()
