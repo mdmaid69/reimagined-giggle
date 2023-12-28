@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
