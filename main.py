@@ -1,5 +1,5 @@
+def add_numbers(a, b):
+        return a + b
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
