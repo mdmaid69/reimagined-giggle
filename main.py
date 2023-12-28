@@ -1,8 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+name = "Python"
+print("Hello,", name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
