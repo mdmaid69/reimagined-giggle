@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
