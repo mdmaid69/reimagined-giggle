@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import sys
+def print_python_version():
+        return sys.version
