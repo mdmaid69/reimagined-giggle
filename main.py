@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import os
-print(os.getcwd())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def sort_list(lst):
+        return sorted(lst)
