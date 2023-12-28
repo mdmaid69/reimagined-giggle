@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
