@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import collections
+def create_user_list():
+        return collections.UserList()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
