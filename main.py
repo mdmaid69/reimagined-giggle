@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def convert_to_octal(n):
-        return oct(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
