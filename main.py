@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def count_words(sentence):
+        return len(sentence.split())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
