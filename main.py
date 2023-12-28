@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
