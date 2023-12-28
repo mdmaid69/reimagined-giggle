@@ -1,6 +1,8 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
