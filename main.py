@@ -1,7 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def find_max(numbers):
+        return max(numbers)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
