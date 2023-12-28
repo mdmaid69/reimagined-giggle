@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
