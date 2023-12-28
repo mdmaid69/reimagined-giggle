@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import re
+print(re.match("h.*o", "hello world"))
