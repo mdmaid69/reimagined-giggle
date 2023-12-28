@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
