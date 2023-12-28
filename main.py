@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
