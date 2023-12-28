@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import time
-def get_current_time():
-        return time.time()
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
