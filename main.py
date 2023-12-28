@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def add_numbers(x, y):
-        return x + y
+def square_number(x):
+        return x**2
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
