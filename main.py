@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+import time
+def get_current_time():
+        return time.time()
