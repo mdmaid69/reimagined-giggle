@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_base_name(path):
+        return os.path.basename(path)
