@@ -1,8 +1,8 @@
 import array
-def convert_string_to_array(string, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
