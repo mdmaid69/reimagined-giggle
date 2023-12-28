@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
