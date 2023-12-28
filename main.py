@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
