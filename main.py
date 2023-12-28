@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
