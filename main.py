@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
