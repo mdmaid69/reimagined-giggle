@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
