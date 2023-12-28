@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_bool(array):
+        return bool(array)
