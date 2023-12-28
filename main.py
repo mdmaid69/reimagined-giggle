@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def find_max(lst):
+        return max(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
