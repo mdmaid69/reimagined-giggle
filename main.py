@@ -1,4 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-print(sum(range(10)))
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
