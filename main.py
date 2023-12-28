@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def convert_to_octal(n):
+        return oct(n)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
