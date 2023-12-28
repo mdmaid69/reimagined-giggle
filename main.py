@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_array_length(array):
+        return len(array)
