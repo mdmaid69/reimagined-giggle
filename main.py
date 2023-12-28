@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_array_item(array, i):
+        return array[i]
 import time
 def measure_execution_time(func, *args):
         start = time.time()
