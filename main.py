@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
