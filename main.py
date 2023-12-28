@@ -1,6 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
