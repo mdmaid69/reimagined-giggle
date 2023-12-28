@@ -1,5 +1,7 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def get_array_typecode(array):
+        return array.typecode
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
