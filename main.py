@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
