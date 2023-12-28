@@ -1,7 +1,11 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def square_number(x):
-        return x**2
+  def subtract_numbers(x, y):
+        return x - y
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
