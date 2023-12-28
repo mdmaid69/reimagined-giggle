@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
