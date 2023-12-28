@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def find_min(lst):
+        return min(lst)
