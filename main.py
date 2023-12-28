@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def sort_list(lst):
+        return sorted(lst)
