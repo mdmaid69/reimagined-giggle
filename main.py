@@ -1,6 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_directory_name(path):
+        return os.path.dirname(path)
