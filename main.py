@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
