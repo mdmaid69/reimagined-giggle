@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def sort_numbers(numbers):
+        return sorted(numbers)
