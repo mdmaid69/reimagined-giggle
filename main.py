@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
