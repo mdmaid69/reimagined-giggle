@@ -1,8 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
