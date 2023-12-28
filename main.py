@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
