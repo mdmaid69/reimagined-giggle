@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
