@@ -1,6 +1,3 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 def calculate_payback_period(cash_flows):
         cumulative_cash_flow = 0
         for i, cf in enumerate(cash_flows):
@@ -8,3 +5,5 @@ def calculate_payback_period(cash_flows):
         if cumulative_cash_flow >= 0:
                 return i
         return None
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
