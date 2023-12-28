@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def count_elements(lst):
+        return len(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
