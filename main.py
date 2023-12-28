@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
