@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def count_characters(sentence):
+        return len(sentence)
