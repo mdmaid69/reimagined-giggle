@@ -1,7 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def reverse_list(lst):
+        return lst[::-1]
