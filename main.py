@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
