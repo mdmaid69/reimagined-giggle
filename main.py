@@ -1,5 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def reverse_list(lst):
-        return lst[::-1]
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
