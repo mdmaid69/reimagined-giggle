@@ -1,5 +1,10 @@
-import sys
-def exit_program():
-        sys.exit()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
