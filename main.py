@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
