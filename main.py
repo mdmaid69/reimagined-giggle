@@ -1,5 +1,11 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_area_rectangle(l, w):
+        return l * w
