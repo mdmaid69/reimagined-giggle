@@ -1,6 +1,10 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
