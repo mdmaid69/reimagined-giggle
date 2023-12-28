@@ -1,3 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-print([x**2 for x in range(10)])
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import datetime
+print(datetime.datetime.now())
