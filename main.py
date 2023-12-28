@@ -1,8 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
