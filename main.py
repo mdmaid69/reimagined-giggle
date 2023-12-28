@@ -1,7 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-for i in range(5):
-        print(i)
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
