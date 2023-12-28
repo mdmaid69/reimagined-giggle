@@ -1,4 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-for i in range(10): print(i)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import collections
+def create_user_list():
+        return collections.UserList()
