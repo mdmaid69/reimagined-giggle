@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
