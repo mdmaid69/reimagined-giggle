@@ -1,7 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import os
+print(os.getcwd())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
