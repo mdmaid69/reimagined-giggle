@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def find_min(lst):
+        return min(lst)
