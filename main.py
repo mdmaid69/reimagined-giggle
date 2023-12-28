@@ -1,5 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
