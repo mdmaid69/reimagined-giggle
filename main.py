@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
