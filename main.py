@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def find_max(lst):
-        return max(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
