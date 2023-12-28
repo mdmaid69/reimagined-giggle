@@ -1,7 +1,7 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
