@@ -1,5 +1,7 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
