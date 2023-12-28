@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def add_numbers(x, y):
+        return x + y
