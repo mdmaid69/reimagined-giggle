@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
