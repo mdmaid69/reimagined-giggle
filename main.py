@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import collections
-def create_user_string():
-        return collections.UserString()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
