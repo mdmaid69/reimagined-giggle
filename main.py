@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def sort_numbers(numbers):
-        return sorted(numbers)
+def is_palindrome(s):
+        return s == s[::-1]
+def count_elements(lst):
+        return len(lst)
