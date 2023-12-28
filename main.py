@@ -1,5 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def add_numbers(x, y):
-        return x + y
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
