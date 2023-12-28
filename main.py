@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
