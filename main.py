@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-print(random.randint(0, 100))
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
