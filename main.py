@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_as_set(array):
+        return set(array)
