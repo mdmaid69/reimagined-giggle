@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
