@@ -1,4 +1,7 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import sys
-print(sys.version)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
