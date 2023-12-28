@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  def square_number(x):
-        return x**2
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
