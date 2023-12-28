@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def add_numbers(a, b):
+        return a + b
