@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
