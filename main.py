@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def find_min(lst):
+        return min(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
