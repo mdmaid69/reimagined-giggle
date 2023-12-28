@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def remove_duplicates(lst):
+        return list(set(lst))
+import os
+def change_working_directory(path):
+        os.chdir(path)
