@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_density(mass, volume):
+        return mass / volume
