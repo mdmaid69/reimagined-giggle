@@ -1,4 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
