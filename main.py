@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
