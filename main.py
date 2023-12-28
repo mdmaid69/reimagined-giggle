@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def subtract_numbers(x, y):
+        return x - y
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
