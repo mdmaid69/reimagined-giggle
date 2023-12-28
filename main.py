@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
