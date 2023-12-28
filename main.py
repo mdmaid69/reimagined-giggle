@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def subtract_numbers(x, y):
+        return x - y
