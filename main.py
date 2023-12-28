@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
