@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def count_elements(lst):
-        return len(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
