@@ -1,4 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-print([x**2 for x in range(10)])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_density(mass, volume):
+        return mass / volume
