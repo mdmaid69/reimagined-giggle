@@ -1,6 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def append_to_array(array, item):
+        array.append(item)
