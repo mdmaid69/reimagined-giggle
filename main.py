@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
