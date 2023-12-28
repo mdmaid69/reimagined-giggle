@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
