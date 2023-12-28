@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import re
-  def find_all_occurrences(pattern, string):
+import re
+def find_pattern(pattern, string):
         return re.findall(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
