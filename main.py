@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
