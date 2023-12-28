@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def get_array_as_list(array):
+        return list(array)
