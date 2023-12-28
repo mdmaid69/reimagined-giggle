@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
