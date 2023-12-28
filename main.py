@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
