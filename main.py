@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def reverse_array(array):
+        array.reverse()
+import collections
+def create_user_dict():
+        return collections.UserDict()
