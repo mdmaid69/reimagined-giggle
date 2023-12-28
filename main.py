@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
