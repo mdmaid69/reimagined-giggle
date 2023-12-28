@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
