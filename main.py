@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
