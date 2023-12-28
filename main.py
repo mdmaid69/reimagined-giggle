@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def reverse_array(array):
+        array.reverse()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
