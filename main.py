@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
