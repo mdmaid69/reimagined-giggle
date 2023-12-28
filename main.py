@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def sort_list(lst):
+        return sorted(lst)
