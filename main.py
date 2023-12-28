@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def convert_to_json(data):
+        return json.dumps(data)
