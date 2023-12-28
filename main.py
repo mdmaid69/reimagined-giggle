@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
