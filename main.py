@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
