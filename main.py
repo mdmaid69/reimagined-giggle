@@ -1,5 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def reverse_list(lst):
-        return lst[::-1]
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
