@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_repr(array):
+        return repr(array)
