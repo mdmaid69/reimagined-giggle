@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
