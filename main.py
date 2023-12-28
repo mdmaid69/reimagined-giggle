@@ -1,4 +1,11 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_acceleration(speed, time):
-        return speed / time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
