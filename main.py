@@ -1,7 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_pressure(force, area):
+        return force / area
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
