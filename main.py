@@ -1,6 +1,6 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
