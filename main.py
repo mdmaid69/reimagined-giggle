@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def square_number(x):
+        return x**2
