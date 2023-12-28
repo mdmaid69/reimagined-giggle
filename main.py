@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
