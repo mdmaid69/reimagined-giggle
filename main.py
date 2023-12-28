@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def divide_numbers(x, y):
+        return x / y
