@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def count_elements(lst):
-        return len(lst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_speed(distance, time):
+        return distance / time
