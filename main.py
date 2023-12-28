@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Characters:", len(text))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
