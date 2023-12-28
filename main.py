@@ -1,7 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def square_number(x):
+        return x**2
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
