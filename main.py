@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
