@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
