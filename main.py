@@ -1,4 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-print([x**2 for x in range(10)])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
