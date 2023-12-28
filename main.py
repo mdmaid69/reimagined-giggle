@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
