@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
