@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def count_elements(lst):
+        return len(lst)
