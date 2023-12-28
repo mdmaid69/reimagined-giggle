@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def convert_to_binary(n):
+        return bin(n)
+  def convert_to_hex(n):
+        return hex(n)
