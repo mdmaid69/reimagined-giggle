@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import logging
+def log_message(message):
+        logging.info(message)
