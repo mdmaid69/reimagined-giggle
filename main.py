@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import getpass
+def get_username():
+        return getpass.getuser()
