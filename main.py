@@ -1,5 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_acceleration(speed, time):
+        return speed / time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
