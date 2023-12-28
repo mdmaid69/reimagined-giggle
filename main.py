@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
