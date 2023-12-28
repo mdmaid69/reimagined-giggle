@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
