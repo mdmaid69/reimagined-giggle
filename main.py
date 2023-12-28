@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
