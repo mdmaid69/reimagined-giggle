@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
