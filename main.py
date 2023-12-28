@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def find_max(numbers):
-        return max(numbers)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
