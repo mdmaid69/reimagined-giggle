@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
