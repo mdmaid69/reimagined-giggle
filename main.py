@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+print([x**2 for x in range(10)])
