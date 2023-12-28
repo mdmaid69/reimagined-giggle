@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def square_number(x):
+        return x**2
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
