@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+name = "Python"
+print("Hello,", name)
