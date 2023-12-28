@@ -1,5 +1,8 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
