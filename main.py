@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perpetuity(payment, rate):
+        return payment / rate
