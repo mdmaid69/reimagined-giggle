@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
