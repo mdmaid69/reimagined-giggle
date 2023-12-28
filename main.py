@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
