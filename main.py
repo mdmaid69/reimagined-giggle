@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def count_elements(lst):
+        return len(lst)
