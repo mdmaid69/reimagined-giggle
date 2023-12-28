@@ -1,5 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
