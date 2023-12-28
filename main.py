@@ -1,7 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
