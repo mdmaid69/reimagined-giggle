@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def clear_array(array):
-        array *= 0
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_sine(x):
+        return math.sin(x)
