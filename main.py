@@ -1,5 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
