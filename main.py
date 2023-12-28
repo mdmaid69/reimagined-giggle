@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
