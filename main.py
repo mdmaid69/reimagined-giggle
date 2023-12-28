@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def reverse_string(s):
+        return s[::-1]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
