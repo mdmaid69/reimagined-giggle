@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+for i in range(10): print(i)
