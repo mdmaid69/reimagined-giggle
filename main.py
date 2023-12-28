@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import platform
-def get_os_info():
-        return platform.uname()
+import collections
+def create_user_list():
+        return collections.UserList()
+  def convert_to_octal(n):
+        return oct(n)
