@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import sys
+def exit_program():
+        sys.exit()
+  import sys
+  def get_python_version():
+        return sys.version
