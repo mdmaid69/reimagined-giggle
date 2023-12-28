@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import random
-def roll_die():
-        return random.randint(1, 6)
+def generate_random_choice(choices):
+        return random.choice(choices)
