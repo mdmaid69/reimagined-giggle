@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
