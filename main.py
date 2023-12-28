@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
