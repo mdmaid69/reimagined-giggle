@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import time
+def get_current_time():
+        return time.time()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
