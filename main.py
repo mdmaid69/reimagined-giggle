@@ -1,7 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+text = "Hello, world!"
+print("Words:", len(text.split()))
