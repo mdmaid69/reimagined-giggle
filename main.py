@@ -1,7 +1,9 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_str(array):
+        return str(array)
