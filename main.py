@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import datetime
+def get_current_date():
+        return datetime.date.today()
