@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_perpetuity(payment, rate):
+        return payment / rate
