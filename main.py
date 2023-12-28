@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-for i in range(5):
-        print(i)
+import sys
+def exit_program():
+        sys.exit()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
