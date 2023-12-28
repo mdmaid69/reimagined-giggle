@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def is_even(n):
+        return n % 2 == 0
