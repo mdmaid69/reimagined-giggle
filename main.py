@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
