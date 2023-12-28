@@ -1,5 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def add_numbers(a, b):
-        return a + b
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
