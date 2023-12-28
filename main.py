@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
