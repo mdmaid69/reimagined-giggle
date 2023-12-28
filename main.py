@@ -1,6 +1,8 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
