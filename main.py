@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
