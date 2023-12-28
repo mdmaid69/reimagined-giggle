@@ -1,7 +1,5 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def get_array_as_tuple(array):
+        return tuple(array)
