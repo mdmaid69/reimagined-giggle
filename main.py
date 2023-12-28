@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
