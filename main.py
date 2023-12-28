@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def add_numbers(a, b):
+        return a + b
