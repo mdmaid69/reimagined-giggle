@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
