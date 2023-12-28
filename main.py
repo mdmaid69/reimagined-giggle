@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import sys
-def exit_program():
-        sys.exit()
+def extend_array(array, iterable):
+        array.extend(iterable)
+def reverse_string(s):
+        return s[::-1]
