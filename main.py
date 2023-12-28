@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import collections
+def create_user_list():
+        return collections.UserList()
