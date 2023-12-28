@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
