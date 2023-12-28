@@ -1,5 +1,9 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
