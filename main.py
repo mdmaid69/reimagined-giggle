@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_pressure(force, area):
-        return force / area
+def reverse_string(s):
+        return s[::-1]
+  def calculate_area_circle(r):
+        return 3.14 * r**2
