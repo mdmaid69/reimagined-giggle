@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def find_max(numbers):
+        return max(numbers)
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
