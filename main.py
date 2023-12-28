@@ -1,6 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
