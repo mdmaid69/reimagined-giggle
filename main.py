@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def convert_to_binary(n):
+        return bin(n)
