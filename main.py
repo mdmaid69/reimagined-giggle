@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
