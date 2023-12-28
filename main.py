@@ -1,5 +1,8 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
