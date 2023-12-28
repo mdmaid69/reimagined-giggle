@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
