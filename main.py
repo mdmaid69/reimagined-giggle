@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
