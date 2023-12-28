@@ -1,10 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
