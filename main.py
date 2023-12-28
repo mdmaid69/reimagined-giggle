@@ -1,6 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
