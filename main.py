@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_priority_queue():
-        return collections.deque()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+print(sum(range(10)))
