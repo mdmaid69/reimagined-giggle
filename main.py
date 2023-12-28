@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def sort_list(lst):
-        return sorted(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
