@@ -1,5 +1,9 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def add_numbers(a, b):
-        return a + b
+import time
+def get_current_time():
+        return time.ctime()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
