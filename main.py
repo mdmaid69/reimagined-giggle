@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
