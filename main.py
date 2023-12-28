@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-print(math.pi)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def split_path(path):
+        return os.path.split(path)
