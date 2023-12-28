@@ -1,7 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
