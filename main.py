@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
