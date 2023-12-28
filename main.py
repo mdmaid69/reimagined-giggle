@@ -1,6 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
