@@ -1,10 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import numpy as np
+print(np.array([1, 2, 3]))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
