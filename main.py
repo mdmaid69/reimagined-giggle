@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
