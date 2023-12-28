@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_length(array):
-        return len(array)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_current_directory():
+        return os.getcwd()
