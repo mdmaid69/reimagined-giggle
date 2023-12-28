@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import os
+print(os.getcwd())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
