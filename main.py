@@ -1,7 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_speed(distance, time):
+        return distance / time
