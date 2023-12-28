@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
