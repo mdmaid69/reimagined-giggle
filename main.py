@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def is_odd(n):
+        return n % 2 != 0
