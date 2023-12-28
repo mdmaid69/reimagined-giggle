@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
