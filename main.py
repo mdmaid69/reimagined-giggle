@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
