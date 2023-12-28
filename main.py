@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def convert_to_hex(n):
+        return hex(n)
