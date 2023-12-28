@@ -1,6 +1,8 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
