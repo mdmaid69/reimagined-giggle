@@ -1,7 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
