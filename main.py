@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
