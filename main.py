@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_pressure(force, area):
+        return force / area
