@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
