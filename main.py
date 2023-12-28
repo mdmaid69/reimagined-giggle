@@ -1,5 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def add_numbers(x, y):
-        return x + y
+def subtract_numbers(x, y):
+        return x - y
+  def count_elements(lst):
+        return len(lst)
