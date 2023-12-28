@@ -1,10 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import sys
+def exit_program():
+        sys.exit()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
