@@ -1,3 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-print(sum(range(10)))
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
