@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+x = 10
+y = 20
+print("Sum:", x + y)
