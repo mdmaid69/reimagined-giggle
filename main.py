@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_stack():
-        return collections.deque()
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
