@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
