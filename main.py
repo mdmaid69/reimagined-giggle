@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_current_working_directory():
+        return os.getcwd()
