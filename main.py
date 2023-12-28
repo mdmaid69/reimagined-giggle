@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
