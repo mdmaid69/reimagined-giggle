@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def convert_array_to_list(array):
+        return array.tolist()
