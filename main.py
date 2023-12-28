@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def add_numbers(x, y):
+        return x + y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
