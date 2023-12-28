@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
