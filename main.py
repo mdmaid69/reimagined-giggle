@@ -1,6 +1,5 @@
-  def cube_number(x):
-        return x**3
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
