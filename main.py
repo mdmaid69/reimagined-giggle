@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def remove_duplicates(lst):
+        return list(set(lst))
