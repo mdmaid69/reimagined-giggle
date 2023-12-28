@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_cosine(x):
+        return math.cos(x)
