@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def convert_to_hex(n):
+        return hex(n)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_array_to_string(array):
+        return array.tostring()
