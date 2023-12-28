@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_density(mass, volume):
+        return mass / volume
