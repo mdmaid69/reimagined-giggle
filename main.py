@@ -1,5 +1,12 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
