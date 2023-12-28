@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import tensorflow as tf
+print(tf.__version__)
