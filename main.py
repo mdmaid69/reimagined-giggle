@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
