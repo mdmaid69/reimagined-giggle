@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
