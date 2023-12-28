@@ -1,5 +1,12 @@
-  def is_odd(n):
-        return n % 2 != 0
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
