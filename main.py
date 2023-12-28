@@ -1,5 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def count_words(sentence):
-        return len(sentence.split())
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
