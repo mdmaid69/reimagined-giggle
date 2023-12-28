@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
