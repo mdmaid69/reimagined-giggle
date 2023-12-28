@@ -1,8 +1,3 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+print([x**2 for x in range(10)])
