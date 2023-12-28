@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
