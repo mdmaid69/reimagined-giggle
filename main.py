@@ -1,6 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
