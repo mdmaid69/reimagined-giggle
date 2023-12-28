@@ -1,6 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import sys
+def print_python_version():
+        print(sys.version)
