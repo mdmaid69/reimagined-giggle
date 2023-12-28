@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
