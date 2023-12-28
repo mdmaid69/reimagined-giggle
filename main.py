@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_volume(length, width, height):
-        return length * width * height
+  def count_elements(lst):
+        return len(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
