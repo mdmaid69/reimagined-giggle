@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
