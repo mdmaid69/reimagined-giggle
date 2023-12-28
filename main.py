@@ -1,5 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
