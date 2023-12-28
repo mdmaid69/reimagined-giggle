@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def reverse_list(lst):
+        return lst[::-1]
