@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+print(math.pi)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
