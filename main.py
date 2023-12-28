@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
