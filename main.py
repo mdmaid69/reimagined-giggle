@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
