@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
