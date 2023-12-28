@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
