@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
