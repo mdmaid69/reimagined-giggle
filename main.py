@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
