@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import time
-print(time.time())
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def append_to_array(array, item):
+        array.append(item)
