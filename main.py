@@ -1,5 +1,6 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
