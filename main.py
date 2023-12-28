@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import logging
+def log_message(message):
+        logging.info(message)
