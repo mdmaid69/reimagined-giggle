@@ -1,6 +1,7 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
