@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_list_from_array(array):
+        return array.tolist()
