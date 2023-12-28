@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def square_number(x):
-        return x**2
+import collections
+def create_user_dict():
+        return collections.UserDict()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
