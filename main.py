@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
