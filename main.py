@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+name = "Python"
+print("Hello,", name)
