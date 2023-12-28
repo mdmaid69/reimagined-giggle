@@ -1,5 +1,8 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
