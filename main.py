@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def subtract_numbers(x, y):
+        return x - y
+def count_elements(lst):
+        return len(lst)
