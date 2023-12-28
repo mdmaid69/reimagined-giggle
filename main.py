@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_repr(array):
+        return repr(array)
