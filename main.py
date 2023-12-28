@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
