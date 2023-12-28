@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
