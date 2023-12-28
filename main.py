@@ -1,3 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-print(sum(range(10)))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_length(array):
+        return len(array)
