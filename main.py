@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def is_odd(n):
+        return n % 2 != 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
