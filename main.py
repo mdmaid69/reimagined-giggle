@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
