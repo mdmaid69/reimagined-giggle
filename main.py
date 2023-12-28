@@ -1,6 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
