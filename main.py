@@ -1,4 +1,11 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
