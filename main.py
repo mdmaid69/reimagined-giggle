@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
