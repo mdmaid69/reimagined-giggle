@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
