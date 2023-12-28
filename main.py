@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import time
+def get_time_since_epoch():
+        return time.time()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def split_path(path):
+        return os.path.split(path)
