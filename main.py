@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
