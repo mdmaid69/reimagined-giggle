@@ -1,5 +1,3 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-name = "Python"
-print("Hello,", name)
+for i in range(10): print(i)
+def find_min(lst):
+        return min(lst)
