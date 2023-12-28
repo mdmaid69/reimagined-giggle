@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
