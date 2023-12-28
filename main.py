@@ -1,4 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-from collections import Counter
-print(Counter("hello world"))
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
