@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def multiply_numbers(x, y):
+        return x * y
