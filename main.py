@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-from collections import Counter
-print(Counter("hello world"))
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
