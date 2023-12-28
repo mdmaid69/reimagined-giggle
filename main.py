@@ -1,7 +1,5 @@
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
