@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import sys
+def print_python_version():
+        print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
