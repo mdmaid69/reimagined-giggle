@@ -1,12 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def convert_to_octal(n):
+        return oct(n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
