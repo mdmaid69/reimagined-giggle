@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_arc_sine(x):
+        return math.asin(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
