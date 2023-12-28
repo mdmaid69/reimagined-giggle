@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def find_max(lst):
+        return max(lst)
