@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import time
+def get_current_time():
+        return time.time()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
