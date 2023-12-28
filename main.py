@@ -1,6 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
