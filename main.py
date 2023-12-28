@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def count_elements(lst):
+        return len(lst)
