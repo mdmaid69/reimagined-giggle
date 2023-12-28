@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def set_array_item(array, i, item):
+        array[i] = item
