@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+print(json.dumps({"name": "John", "age": 30}))
