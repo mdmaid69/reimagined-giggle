@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
