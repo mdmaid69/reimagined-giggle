@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
