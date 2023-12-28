@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
