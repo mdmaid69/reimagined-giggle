@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
