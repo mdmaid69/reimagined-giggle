@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_length(array):
-        return len(array)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
