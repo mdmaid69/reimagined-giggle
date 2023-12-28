@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
