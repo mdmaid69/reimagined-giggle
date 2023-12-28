@@ -1,7 +1,8 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
