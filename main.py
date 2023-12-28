@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
