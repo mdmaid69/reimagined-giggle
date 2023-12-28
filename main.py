@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
