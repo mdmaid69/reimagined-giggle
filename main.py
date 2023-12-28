@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
