@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import os
+def change_working_directory(path):
+        os.chdir(path)
