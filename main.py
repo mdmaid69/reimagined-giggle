@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def is_odd(n):
+        return n % 2 != 0
