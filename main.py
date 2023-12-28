@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
