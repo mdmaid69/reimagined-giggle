@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def count_words(sentence):
+        return len(sentence.split())
