@@ -1,6 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
