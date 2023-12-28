@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+x = 10
+y = 20
+print("Sum:", x + y)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
