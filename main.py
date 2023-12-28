@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
