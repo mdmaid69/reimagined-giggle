@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
