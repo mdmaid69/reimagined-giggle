@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+for i in range(5):
+        print(i)
