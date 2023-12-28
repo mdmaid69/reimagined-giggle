@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
