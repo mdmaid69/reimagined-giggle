@@ -1,4 +1,9 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
