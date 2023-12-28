@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
