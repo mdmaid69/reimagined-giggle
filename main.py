@@ -1,4 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-print("Hello, world!")
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_area_rectangle(l, w):
+        return l * w
