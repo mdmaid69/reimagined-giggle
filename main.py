@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_error_function(x):
+        return math.erf(x)
