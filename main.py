@@ -1,4 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def is_even(n):
+        return n % 2 == 0
