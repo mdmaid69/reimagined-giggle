@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
