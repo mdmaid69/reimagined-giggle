@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def sort_numbers(numbers):
-        return sorted(numbers)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
