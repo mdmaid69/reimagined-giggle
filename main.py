@@ -1,4 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_perpetuity(payment, rate):
+        return payment / rate
