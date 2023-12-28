@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import platform
+def get_python_version():
+        return platform.python_version()
