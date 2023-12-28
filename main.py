@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def find_min(lst):
-        return min(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
