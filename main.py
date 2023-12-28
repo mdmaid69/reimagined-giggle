@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
