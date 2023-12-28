@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def convert_to_binary(n):
+        return bin(n)
