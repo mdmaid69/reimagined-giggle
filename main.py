@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
