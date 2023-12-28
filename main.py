@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def add_numbers(x, y):
+        return x + y
+import os
+def remove_directory(path):
+        os.rmdir(path)
