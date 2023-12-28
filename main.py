@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
