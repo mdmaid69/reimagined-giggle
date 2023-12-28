@@ -1,7 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
