@@ -1,6 +1,6 @@
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
