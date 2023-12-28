@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
