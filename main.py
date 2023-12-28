@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def find_min(lst):
-        return min(lst)
+def sort_list(lst):
+        return sorted(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
