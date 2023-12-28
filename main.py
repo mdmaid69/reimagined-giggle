@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
