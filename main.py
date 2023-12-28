@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
