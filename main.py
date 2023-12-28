@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import datetime
+print(datetime.datetime.now())
