@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def multiply_numbers(x, y):
+        return x * y
