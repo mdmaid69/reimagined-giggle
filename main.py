@@ -1,9 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
