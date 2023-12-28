@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
