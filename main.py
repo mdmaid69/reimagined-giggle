@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def convert_to_binary(n):
-        return bin(n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
