@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
