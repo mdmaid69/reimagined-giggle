@@ -1,6 +1,9 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def clear_array(array):
-        array *= 0
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
