@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-print(math.pi)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
