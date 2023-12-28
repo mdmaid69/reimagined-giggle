@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
