@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
