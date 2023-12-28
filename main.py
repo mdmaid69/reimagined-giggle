@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
