@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
