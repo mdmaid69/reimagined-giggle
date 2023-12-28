@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
