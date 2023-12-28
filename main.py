@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
