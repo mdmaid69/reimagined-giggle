@@ -1,6 +1,8 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
