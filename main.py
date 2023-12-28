@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
