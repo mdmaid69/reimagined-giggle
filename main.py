@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
