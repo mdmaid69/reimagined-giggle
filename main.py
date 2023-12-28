@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
