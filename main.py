@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_as_int(array):
+        return int(array[0])
