@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import platform
-def get_python_version():
-        return platform.python_version()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def find_min(lst):
+        return min(lst)
