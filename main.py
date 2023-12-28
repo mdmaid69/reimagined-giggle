@@ -1,5 +1,6 @@
-import time
-print(time.time())
-x = 10
-y = 20
-print("Sum:", x + y)
+import sys
+def exit_program():
+        sys.exit()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
