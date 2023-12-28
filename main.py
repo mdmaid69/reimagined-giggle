@@ -1,6 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def get_array_as_repr(array):
+        return repr(array)
