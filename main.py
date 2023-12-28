@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_priority_queue():
-        return collections.deque()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
