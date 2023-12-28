@@ -1,5 +1,7 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
