@@ -1,8 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def reverse_array(array):
+        array.reverse()
+import collections
+def create_priority_queue():
+        return collections.deque()
