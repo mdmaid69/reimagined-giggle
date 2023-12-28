@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import logging
-def log_message(message):
-        logging.info(message)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
