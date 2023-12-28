@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_cosine(x):
+        return math.cos(x)
