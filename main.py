@@ -1,5 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def convert_to_binary(n):
+        return bin(n)
