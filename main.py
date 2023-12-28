@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
