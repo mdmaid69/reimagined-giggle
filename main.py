@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def is_even(n):
+        return n % 2 == 0
