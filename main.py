@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def is_even(n):
-        return n % 2 == 0
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
