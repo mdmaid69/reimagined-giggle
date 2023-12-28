@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
