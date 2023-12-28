@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
