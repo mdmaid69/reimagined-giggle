@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
