@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def clear_array(array):
+        array *= 0
