@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
