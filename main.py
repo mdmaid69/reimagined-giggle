@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
