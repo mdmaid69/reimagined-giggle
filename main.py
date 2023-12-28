@@ -1,6 +1,8 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
