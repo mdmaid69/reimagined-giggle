@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
