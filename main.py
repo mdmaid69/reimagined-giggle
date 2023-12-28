@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
