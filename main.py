@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
