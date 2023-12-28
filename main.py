@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_sign(x):
+        return math.copysign(1, x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
