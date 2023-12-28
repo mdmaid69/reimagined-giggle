@@ -1,5 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def find_min(numbers):
-        return min(numbers)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
