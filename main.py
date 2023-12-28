@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
