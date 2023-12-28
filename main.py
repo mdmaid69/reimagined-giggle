@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_float(array):
+        return float(array[0])
