@@ -1,6 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def get_array_typecode(array):
+        return array.typecode
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
