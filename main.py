@@ -1,5 +1,3 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+print("Hello, world!")
   def calculate_average(lst):
         return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
