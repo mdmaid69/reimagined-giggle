@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def reverse_list(lst):
+        return lst[::-1]
