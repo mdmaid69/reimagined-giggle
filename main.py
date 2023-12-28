@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_to_binary(n):
+        return bin(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
