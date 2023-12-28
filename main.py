@@ -1,7 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def find_unique_words(sentence):
-        return set(sentence.split())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
