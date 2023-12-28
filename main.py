@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
