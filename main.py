@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
