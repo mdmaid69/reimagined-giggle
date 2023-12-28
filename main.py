@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import random
-def roll_die():
-        return random.randint(1, 6)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
