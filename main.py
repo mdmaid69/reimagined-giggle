@@ -1,8 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
