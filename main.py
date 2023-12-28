@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def convert_to_hex(n):
+        return hex(n)
