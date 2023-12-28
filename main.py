@@ -1,4 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-print(sum(range(10)))
+def find_max(lst):
+        return max(lst)
+  def convert_to_hex(n):
+        return hex(n)
