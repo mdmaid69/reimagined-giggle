@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
