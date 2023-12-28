@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
