@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_priority_queue():
+        return collections.deque()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
