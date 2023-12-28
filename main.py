@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def sort_numbers(numbers):
+        return sorted(numbers)
