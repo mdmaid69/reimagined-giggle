@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
