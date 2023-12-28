@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
