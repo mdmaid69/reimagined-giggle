@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
