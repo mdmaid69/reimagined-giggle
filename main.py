@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_buffer_info(array):
+        return array.buffer_info()
