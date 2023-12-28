@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def subtract_numbers(x, y):
+        return x - y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
