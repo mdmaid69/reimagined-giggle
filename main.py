@@ -1,7 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
