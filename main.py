@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import array
-def get_array_item(array, i):
-        return array[i]
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
