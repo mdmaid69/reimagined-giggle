@@ -1,5 +1,11 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
