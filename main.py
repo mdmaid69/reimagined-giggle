@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
