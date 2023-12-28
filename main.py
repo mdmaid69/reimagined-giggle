@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_floor(x):
+        return math.floor(x)
