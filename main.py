@@ -1,5 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
