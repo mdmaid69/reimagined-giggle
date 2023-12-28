@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_pressure(force, area):
-        return force / area
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
