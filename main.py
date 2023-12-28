@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_cosine(x):
+        return math.cos(x)
