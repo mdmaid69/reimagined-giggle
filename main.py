@@ -1,6 +1,4 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+print(math.pi)
+def calculate_area_circle(r):
+        return 3.14 * r**2
