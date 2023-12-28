@@ -1,4 +1,7 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def add_numbers(x, y):
-        return x + y
+def is_odd(n):
+        return n % 2 != 0
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
