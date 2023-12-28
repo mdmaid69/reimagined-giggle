@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
