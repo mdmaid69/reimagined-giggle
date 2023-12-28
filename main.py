@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
