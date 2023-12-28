@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import collections
-def create_user_list():
-        return collections.UserList()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def add_numbers(a, b):
+        return a + b
