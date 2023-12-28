@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def convert_to_octal(n):
+        return oct(n)
