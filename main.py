@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
