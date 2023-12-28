@@ -1,8 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
