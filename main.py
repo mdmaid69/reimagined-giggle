@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
