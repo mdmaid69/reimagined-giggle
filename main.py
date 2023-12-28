@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
