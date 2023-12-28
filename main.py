@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
