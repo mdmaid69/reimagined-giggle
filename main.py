@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_area_rectangle(l, w):
+  def calculate_area_rectangle(l, w):
         return l * w
+import time
+def get_current_time():
+        return time.time()
