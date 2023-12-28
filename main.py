@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
