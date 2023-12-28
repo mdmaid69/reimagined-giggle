@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
