@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
