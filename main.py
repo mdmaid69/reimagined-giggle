@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
