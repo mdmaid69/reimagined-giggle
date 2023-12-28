@@ -1,4 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-print([x**2 for x in range(10)])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def reverse_array(array):
+        array.reverse()
