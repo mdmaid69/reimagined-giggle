@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
