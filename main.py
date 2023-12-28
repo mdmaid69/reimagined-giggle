@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
