@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import sys
-def exit_program():
-        sys.exit()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
