@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def reverse_list(lst):
-        return lst[::-1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def add_numbers(x, y):
+        return x + y
