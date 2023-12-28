@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def greet(name):
+        print(f"Hello, {name}!")
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
