@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import sys
-def exit_program():
-        sys.exit()
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
