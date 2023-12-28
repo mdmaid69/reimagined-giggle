@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
