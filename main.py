@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
