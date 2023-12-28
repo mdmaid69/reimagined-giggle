@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
