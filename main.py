@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
