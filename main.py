@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import time
+def get_current_time():
+        return time.time()
