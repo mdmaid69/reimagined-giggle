@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import sys
+def print_python_version():
+        return sys.version
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
