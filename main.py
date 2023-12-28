@@ -1,8 +1,6 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def get_array_item(array, i):
+        return array[i]
