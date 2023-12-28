@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def find_max(lst):
-        return max(lst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
