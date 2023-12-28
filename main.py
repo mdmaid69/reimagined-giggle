@@ -1,5 +1,9 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
