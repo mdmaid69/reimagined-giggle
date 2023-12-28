@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
