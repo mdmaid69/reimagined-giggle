@@ -1,4 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
