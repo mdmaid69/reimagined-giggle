@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+print(sum(range(10)))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
