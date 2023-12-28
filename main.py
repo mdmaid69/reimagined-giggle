@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def multiply_numbers(x, y):
+        return x * y
+  def cube_number(x):
+        return x**3
