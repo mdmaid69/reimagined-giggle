@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
