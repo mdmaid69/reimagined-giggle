@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+print(math.pi)
