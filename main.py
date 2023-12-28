@@ -1,6 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def is_odd(n):
+        return n % 2 != 0
