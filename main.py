@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
