@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def is_even(n):
-        return n % 2 == 0
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
