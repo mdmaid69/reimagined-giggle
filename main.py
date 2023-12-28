@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def add_numbers(a, b):
+        return a + b
