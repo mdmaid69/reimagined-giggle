@@ -1,8 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
