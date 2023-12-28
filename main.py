@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_area_circle(r):
+        return 3.14 * r**2
