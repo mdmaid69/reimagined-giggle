@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import numpy as np
+print(np.array([1, 2, 3]))
