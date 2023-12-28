@@ -1,5 +1,7 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def find_max(numbers):
-        return max(numbers)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
