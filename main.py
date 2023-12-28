@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
