@@ -1,10 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
