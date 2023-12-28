@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
