@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def reverse_list(lst):
+        return lst[::-1]
