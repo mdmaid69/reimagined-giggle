@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
