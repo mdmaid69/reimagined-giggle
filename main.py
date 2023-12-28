@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+print([x**2 for x in range(10)])
