@@ -1,5 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_index(array, item):
+        return array.index(item)
