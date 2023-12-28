@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def add_numbers(x, y):
+        return x + y
