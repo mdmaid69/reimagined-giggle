@@ -1,6 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def get_array_item_count(array, item):
+        return array.count(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
