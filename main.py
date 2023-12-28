@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
