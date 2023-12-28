@@ -1,6 +1,8 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def convert_array_to_unicode(array):
+        return array.tounicode()
