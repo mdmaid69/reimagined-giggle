@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def divide_numbers(x, y):
+        return x / y
