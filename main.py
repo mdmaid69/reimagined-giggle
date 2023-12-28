@@ -1,5 +1,8 @@
-def find_max(lst):
-        return max(lst)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
