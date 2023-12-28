@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
