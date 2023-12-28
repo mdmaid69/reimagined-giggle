@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import collections
+def create_user_dict():
+        return collections.UserDict()
