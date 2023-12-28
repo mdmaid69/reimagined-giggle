@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
