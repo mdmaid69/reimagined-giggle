@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
