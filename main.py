@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
