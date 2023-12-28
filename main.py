@@ -1,5 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
