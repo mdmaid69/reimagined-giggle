@@ -1,7 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
