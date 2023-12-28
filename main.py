@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import logging
+def log_message(message):
+        logging.info(message)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
