@@ -1,6 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def count_characters(sentence):
+        return len(sentence)
