@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def divide_numbers(x, y):
+        return x / y
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def insert_into_array(array, i, item):
+        array.insert(i, item)
