@@ -1,7 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_speed(distance, time):
+        return distance / time
+  def reverse_list(lst):
+        return lst[::-1]
