@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
