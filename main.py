@@ -1,6 +1,7 @@
-import array
-def get_array_length(array):
-        return len(array)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
