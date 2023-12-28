@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
