@@ -1,5 +1,12 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
