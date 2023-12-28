@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
