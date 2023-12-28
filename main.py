@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
