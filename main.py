@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
