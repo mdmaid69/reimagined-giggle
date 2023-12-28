@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def remove_duplicates(lst):
+        return list(set(lst))
