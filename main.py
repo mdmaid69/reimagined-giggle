@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import logging
+def log_message(message):
+        logging.info(message)
