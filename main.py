@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
