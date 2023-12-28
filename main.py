@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def reverse_list(lst):
-        return lst[::-1]
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def add_numbers(x, y):
+        return x + y
