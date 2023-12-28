@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+x = 10
+y = 20
+print("Sum:", x + y)
