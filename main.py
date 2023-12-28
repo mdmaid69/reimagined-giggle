@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def get_array_as_set(array):
+        return set(array)
