@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def sort_numbers(numbers):
+        return sorted(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
