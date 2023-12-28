@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
