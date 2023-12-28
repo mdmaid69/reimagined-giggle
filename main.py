@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
