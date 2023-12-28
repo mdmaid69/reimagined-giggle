@@ -1,5 +1,8 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
