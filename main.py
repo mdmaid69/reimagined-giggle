@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def is_even(n):
+        return n % 2 == 0
