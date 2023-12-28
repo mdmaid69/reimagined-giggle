@@ -1,6 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
