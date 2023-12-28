@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
