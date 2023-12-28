@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
