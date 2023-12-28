@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
