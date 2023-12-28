@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def is_odd(n):
+        return n % 2 != 0
