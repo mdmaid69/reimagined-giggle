@@ -1,4 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def count_words(sentence):
+        return len(sentence.split())
