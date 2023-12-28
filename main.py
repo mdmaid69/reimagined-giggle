@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
