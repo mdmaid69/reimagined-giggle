@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-print(os.getcwd())
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
