@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
