@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import datetime
-print(datetime.datetime.now())
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
