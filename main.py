@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
