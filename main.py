@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import sys
+def print_python_version():
+        print(sys.version)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
