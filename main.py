@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Words:", len(text.split()))
