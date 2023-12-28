@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
