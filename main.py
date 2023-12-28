@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_typecode(array):
+        return array.typecode
