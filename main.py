@@ -1,4 +1,6 @@
 import datetime
-print(datetime.datetime.now())
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
