@@ -1,5 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def sort_numbers(numbers):
-        return sorted(numbers)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
