@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_current_directory():
+        return os.getcwd()
