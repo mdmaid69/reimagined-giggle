@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
