@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
