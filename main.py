@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
