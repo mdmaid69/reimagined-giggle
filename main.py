@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
