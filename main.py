@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
