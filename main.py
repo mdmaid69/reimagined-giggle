@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_queue():
-        return collections.deque()
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
