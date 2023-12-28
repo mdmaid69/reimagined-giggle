@@ -1,7 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
