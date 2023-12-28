@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import sys
+  def get_python_version():
+        return sys.version
+import getpass
+def get_username():
+        return getpass.getuser()
