@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
