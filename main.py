@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
