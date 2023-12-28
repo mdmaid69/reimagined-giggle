@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
