@@ -1,11 +1,4 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def calculate_area(radius):
-        return 3.14 * radius * radius
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
