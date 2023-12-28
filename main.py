@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_power(work, time):
-        return work / time
+def calculate_pressure(force, area):
+        return force / area
+import sys
+def print_python_version():
+        print(sys.version)
