@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
