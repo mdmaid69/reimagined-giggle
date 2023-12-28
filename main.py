@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
