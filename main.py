@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def square_number(x):
-        return x**2
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
