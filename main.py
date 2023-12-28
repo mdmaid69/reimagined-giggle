@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_current_directory():
+        return os.getcwd()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
