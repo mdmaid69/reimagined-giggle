@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
