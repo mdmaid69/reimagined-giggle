@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
