@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import time
+print(time.time())
