@@ -1,6 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
