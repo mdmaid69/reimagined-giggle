@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def is_even(n):
+        return n % 2 == 0
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
