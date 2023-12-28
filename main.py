@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
