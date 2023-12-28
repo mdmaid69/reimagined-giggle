@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import time
-def get_current_time():
-        return time.ctime()
+  import sys
+  def get_python_version():
+        return sys.version
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
