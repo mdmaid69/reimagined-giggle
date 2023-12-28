@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
