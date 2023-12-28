@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+x = 10
+y = 20
+print("Sum:", x + y)
