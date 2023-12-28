@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
