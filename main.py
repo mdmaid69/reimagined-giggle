@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import platform
+def get_os_info():
+        return platform.uname()
