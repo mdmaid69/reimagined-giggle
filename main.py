@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
