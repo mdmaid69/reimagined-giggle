@@ -1,6 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def remove_from_array(array, item):
+        array.remove(item)
