@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
