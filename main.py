@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def cube_number(x):
-        return x**3
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
