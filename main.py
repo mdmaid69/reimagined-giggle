@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+name = "Python"
+print("Hello,", name)
