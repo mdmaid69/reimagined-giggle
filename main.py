@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  def is_odd(n):
-        return n % 2 != 0
+x = 10
+y = 20
+print("Sum:", x + y)
+def greet(name):
+        print(f"Hello, {name}!")
