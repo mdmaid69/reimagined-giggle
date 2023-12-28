@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import getpass
+def get_username():
+        return getpass.getuser()
