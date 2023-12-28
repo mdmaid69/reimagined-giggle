@@ -1,9 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
