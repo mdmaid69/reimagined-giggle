@@ -1,6 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
