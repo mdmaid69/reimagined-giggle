@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_user_list():
-        return collections.UserList()
+def remove_duplicates(lst):
+        return list(set(lst))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
