@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
