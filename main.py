@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
