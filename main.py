@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  def cube_number(x):
-        return x**3
+import collections
+def create_stack():
+        return collections.deque()
+def reverse_string(s):
+        return s[::-1]
