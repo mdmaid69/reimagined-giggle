@@ -1,6 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
