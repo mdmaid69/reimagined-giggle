@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
