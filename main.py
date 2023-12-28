@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
