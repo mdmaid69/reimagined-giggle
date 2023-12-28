@@ -1,7 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
