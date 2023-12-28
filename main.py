@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
