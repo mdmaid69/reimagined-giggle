@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+print([x**2 for x in range(10)])
