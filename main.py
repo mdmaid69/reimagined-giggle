@@ -1,5 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
