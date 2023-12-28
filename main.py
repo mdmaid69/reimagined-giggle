@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def convert_to_octal(n):
+        return oct(n)
+import time
+def get_current_time():
+        return time.time()
