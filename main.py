@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_as_set(array):
+        return set(array)
