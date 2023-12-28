@@ -1,10 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
