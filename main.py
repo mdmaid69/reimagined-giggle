@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
