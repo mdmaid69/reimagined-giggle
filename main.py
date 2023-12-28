@@ -1,5 +1,8 @@
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
