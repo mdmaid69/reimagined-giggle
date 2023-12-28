@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
