@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
