@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def sort_numbers(numbers):
+        return sorted(numbers)
