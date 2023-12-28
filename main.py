@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def is_odd(n):
+        return n % 2 != 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
