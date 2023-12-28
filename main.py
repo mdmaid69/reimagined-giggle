@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
