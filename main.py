@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
