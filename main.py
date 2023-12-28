@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
