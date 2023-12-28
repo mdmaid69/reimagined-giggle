@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
