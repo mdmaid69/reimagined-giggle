@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
