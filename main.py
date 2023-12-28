@@ -1,5 +1,8 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def sort_list(lst):
-        return sorted(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
