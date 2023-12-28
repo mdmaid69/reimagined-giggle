@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
