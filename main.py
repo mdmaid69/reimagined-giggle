@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def subtract_numbers(x, y):
+        return x - y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
