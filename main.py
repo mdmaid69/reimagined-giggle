@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
