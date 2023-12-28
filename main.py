@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import getpass
-def get_username():
-        return getpass.getuser()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
