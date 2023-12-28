@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
