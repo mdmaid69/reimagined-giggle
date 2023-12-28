@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
