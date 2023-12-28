@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
