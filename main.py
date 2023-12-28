@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def is_odd(n):
+        return n % 2 != 0
+import time
+def get_current_time():
+        return time.time()
