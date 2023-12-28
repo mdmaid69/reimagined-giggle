@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def is_even(n):
+        return n % 2 == 0
