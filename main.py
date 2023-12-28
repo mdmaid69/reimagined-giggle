@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
