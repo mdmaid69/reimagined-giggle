@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+print(math.pi)
+text = "Hello, world!"
+print("Words:", len(text.split()))
