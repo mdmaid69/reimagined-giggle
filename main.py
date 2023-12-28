@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def cube_number(x):
+        return x**3
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
