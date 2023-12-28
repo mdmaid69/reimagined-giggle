@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
