@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
