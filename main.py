@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
