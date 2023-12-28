@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def reverse_list(lst):
+        return lst[::-1]
