@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def convert_to_octal(n):
+        return oct(n)
