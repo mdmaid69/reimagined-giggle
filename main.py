@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_int(array):
+        return int(array[0])
