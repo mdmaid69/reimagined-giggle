@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
