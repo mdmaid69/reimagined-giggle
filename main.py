@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
