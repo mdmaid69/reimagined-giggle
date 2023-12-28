@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
