@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def square_number(x):
+        return x**2
+def find_min(numbers):
+        return min(numbers)
