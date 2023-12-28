@@ -1,4 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-for i in range(10): print(i)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
