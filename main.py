@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
