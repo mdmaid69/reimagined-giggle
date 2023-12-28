@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import os
+def change_working_directory(path):
+        os.chdir(path)
