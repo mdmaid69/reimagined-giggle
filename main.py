@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
