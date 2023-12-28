@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def find_min(lst):
+        return min(lst)
