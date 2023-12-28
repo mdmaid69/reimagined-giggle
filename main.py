@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def cube_number(x):
+        return x**3
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
