@@ -1,5 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_power(work, time):
+        return work / time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
