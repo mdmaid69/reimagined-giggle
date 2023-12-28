@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
