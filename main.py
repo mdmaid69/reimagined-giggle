@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-for i in range(5):
-        print(i)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
