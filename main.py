@@ -1,5 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def convert_to_binary(n):
-        return bin(n)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
