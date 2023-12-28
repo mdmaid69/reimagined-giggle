@@ -1,5 +1,9 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def convert_to_binary(n):
-        return bin(n)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
