@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_item(array, i):
+        return array[i]
+import os
+def change_working_directory(path):
+        os.chdir(path)
