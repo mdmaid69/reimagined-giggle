@@ -1,5 +1,11 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
