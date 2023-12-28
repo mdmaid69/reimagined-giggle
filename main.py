@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_as_set(array):
+        return set(array)
