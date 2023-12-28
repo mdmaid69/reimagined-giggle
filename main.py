@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
