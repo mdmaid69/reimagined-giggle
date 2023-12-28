@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import datetime
-print(datetime.datetime.now())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def sort_numbers(numbers):
+        return sorted(numbers)
