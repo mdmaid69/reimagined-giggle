@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def subtract_numbers(x, y):
+        return x - y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
