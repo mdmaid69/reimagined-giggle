@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import random
+print(random.randint(0, 100))
