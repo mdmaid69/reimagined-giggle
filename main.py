@@ -1,4 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-print([x**2 for x in range(10)])
+import random
+print(random.randint(0, 100))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
