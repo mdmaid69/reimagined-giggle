@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def subtract_numbers(x, y):
+        return x - y
