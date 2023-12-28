@@ -1,4 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
