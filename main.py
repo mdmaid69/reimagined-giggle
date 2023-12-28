@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+for i in range(5):
+        print(i)
