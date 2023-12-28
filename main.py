@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def clear_array(array):
-        array *= 0
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
