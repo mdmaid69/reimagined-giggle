@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def multiply_numbers(x, y):
+        return x * y
