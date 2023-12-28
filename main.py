@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def clear_array(array):
-        array *= 0
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
