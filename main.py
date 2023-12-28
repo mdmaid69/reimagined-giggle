@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
