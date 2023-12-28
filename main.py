@@ -1,6 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
