@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+for i in range(5):
+        print(i)
+import array
+def get_array_as_repr(array):
+        return repr(array)
