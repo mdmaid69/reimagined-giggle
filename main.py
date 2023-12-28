@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import numpy as np
+print(np.array([1, 2, 3]))
