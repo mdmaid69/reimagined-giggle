@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import random
+print(random.randint(0, 100))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
