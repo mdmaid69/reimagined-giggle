@@ -1,6 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def cube_number(x):
+        return x**3
