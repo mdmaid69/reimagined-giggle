@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
