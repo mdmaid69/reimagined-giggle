@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
