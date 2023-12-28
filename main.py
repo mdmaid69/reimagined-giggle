@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def find_unique_words(sentence):
-        return set(sentence.split())
+from collections import Counter
+print(Counter("hello world"))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
