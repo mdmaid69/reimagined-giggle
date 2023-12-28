@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
+def find_unique_words(sentence):
+        return set(sentence.split())
