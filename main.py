@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
