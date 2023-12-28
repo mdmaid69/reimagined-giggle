@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def sort_numbers(numbers):
+        return sorted(numbers)
