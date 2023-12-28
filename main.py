@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
