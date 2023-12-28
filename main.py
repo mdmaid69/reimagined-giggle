@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
