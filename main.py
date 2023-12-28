@@ -1,7 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def cube_number(x):
+        return x**3
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
