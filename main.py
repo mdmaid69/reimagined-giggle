@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
