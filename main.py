@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_pressure(force, area):
+        return force / area
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
