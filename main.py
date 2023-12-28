@@ -1,6 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
