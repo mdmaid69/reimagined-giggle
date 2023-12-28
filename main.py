@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def reverse_list(lst):
+        return lst[::-1]
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
