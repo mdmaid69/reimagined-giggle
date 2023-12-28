@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
