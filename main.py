@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
