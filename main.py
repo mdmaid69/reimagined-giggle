@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_min(numbers):
-        return min(numbers)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
