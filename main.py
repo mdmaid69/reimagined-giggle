@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def get_array_as_bytes(array):
+        return bytes(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
