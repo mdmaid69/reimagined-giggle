@@ -1,5 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
