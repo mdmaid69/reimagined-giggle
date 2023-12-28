@@ -1,6 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
