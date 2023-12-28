@@ -1,8 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def add_numbers(a, b):
+        return a + b
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
