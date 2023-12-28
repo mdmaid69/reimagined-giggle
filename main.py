@@ -1,6 +1,8 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
