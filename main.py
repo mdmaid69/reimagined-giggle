@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
