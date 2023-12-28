@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
