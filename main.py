@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
