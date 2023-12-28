@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_list(array):
+        return list(array)
