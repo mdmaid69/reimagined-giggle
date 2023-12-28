@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import sys
-print(sys.version)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_power(work, time):
+        return work / time
