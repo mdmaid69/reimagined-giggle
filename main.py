@@ -1,5 +1,6 @@
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def create_user_list():
+        return collections.UserList()
+import platform
+def get_os_info():
+        return platform.uname()
