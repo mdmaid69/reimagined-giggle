@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def convert_to_hex(n):
+        return hex(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
