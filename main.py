@@ -1,6 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
