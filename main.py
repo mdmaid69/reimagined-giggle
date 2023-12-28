@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
