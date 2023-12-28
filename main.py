@@ -1,8 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
