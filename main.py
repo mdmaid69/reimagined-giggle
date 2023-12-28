@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def count_words(sentence):
-        return len(sentence.split())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_pressure(force, area):
+        return force / area
