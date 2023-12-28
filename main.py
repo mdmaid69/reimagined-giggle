@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
