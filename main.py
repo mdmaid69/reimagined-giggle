@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import time
+def get_current_time():
+        return time.time()
