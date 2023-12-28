@@ -1,8 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
