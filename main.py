@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def count_characters(sentence):
-        return len(sentence)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
