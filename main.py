@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
 import array
-def append_to_array(array, item):
-        array.append(item)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
