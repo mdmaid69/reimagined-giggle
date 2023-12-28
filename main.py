@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
