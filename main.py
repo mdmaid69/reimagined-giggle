@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
