@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def count_elements(lst):
-        return len(lst)
+def divide_numbers(x, y):
+        return x / y
+x = 10
+y = 20
+print("Sum:", x + y)
