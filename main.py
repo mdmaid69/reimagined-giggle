@@ -1,5 +1,9 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
