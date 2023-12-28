@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_counter():
+        return collections.Counter()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
