@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_area_circle(r):
-        return 3.14 * r**2
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
