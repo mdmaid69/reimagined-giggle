@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
