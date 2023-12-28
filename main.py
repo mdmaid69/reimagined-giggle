@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
