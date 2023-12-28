@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
