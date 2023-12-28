@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
