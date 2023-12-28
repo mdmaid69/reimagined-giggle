@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def find_max(lst):
-        return max(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
