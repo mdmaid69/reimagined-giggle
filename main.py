@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
