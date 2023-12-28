@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
