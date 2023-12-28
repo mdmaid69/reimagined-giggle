@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
