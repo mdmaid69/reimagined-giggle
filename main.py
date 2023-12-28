@@ -1,5 +1,8 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
