@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
