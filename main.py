@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def is_even(n):
-        return n % 2 == 0
+def reverse_list(lst):
+        return lst[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
