@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  def calculate_area_rectangle(l, w):
+        return l * w
