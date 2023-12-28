@@ -1,5 +1,7 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def is_palindrome(s):
+        return s == s[::-1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
