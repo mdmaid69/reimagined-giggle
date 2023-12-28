@@ -1,6 +1,8 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
