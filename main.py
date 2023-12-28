@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
