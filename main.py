@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_work(force, distance):
+        return force * distance
