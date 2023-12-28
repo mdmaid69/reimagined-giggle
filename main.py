@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
