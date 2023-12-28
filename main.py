@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_int(array):
+        return int(array[0])
