@@ -1,6 +1,8 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
