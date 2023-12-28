@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def find_unique_words(sentence):
+        return set(sentence.split())
