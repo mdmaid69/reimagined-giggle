@@ -1,5 +1,5 @@
-import math
-print(math.pi)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
