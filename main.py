@@ -1,4 +1,8 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
