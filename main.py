@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def create_queue():
+        return collections.deque()
