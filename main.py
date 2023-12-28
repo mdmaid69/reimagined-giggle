@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
