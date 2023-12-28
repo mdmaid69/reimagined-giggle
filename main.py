@@ -1,4 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_pressure(force, area):
+        return force / area
+def add_numbers(a, b):
+        return a + b
