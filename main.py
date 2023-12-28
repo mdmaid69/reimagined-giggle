@@ -1,8 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import json
+print(json.dumps({"name": "John", "age": 30}))
