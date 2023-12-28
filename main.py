@@ -1,8 +1,7 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
 def convert_string_to_array(string, typecode):
         a = array.array(typecode)
         a.fromstring(string)
         return a
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
