@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_int(array):
+        return int(array[0])
