@@ -1,7 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import time
+def get_current_time():
+        return time.time()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
