@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
