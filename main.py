@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def convert_to_binary(n):
-        return bin(n)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
