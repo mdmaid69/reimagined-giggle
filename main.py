@@ -1,9 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
