@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
