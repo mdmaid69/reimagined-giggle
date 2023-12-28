@@ -1,5 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def sort_list(lst):
+        return sorted(lst)
+def subtract_numbers(x, y):
+        return x - y
