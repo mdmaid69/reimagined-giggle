@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def find_max(lst):
+        return max(lst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
