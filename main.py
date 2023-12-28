@@ -1,7 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
