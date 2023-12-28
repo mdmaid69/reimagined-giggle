@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
