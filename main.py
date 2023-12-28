@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
