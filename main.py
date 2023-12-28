@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def create_user_string():
+        return collections.UserString()
