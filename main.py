@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def calculate_acceleration(speed, time):
+        return speed / time
