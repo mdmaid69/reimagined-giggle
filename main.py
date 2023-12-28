@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_repr(array):
+        return repr(array)
