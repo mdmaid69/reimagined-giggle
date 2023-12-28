@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
