@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
