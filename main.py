@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
