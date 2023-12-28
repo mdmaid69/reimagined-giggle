@@ -1,5 +1,7 @@
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
