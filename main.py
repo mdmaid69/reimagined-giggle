@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
