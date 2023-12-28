@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
