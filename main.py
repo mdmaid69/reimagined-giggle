@@ -1,5 +1,3 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+for i in range(10): print(i)
+  def reverse_list(lst):
+        return lst[::-1]
