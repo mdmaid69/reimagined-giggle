@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import logging
-def log_message(message):
-        logging.info(message)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
