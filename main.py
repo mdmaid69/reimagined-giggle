@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_area_rectangle(l, w):
+        return l * w
