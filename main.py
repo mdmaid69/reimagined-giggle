@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import os
+print(os.getcwd())
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
