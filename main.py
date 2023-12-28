@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
