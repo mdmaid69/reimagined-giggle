@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
