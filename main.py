@@ -1,7 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_pressure(force, area):
-        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+text = "Hello, world!"
+print("Words:", len(text.split()))
