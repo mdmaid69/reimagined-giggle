@@ -1,6 +1,5 @@
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  def reverse_list(lst):
-        return lst[::-1]
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
