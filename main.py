@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_stack():
-        return collections.deque()
+def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
