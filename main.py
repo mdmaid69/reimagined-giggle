@@ -1,6 +1,10 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
