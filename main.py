@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
