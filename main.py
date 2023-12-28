@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def is_odd(n):
-        return n % 2 != 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
