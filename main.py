@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def sort_list(lst):
-        return sorted(lst)
+import os
+print(os.getcwd())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
