@@ -1,6 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def get_array_as_complex(array):
+        return complex(array[0])
