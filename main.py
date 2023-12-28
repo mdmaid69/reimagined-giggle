@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def reverse_list(lst):
+        return lst[::-1]
