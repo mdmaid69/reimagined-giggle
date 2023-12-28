@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_list_from_array(array):
+        return array.tolist()
+import logging
+def log_message(message):
+        logging.info(message)
