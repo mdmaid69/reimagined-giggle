@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
