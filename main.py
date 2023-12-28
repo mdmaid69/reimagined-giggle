@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def count_elements(lst):
+        return len(lst)
