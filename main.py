@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
