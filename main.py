@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
