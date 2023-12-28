@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
