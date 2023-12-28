@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
