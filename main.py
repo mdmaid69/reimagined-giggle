@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
