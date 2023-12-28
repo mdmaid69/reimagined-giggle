@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
