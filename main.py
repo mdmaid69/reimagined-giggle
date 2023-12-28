@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_float(array):
+        return float(array[0])
