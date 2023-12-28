@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_set(array):
+        return set(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
