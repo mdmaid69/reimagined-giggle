@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
