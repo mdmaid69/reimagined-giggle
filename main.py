@@ -1,8 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def is_odd(n):
+        return n % 2 != 0
