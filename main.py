@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+print([x**2 for x in range(10)])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
