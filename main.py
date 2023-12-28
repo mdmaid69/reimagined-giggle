@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
