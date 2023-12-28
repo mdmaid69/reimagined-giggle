@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
