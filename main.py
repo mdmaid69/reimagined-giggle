@@ -1,7 +1,6 @@
-import time
-print(time.time())
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
