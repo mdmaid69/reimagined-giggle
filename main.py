@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def is_palindrome(s):
-        return s == s[::-1]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
