@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_power(work, time):
-        return work / time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def is_palindrome(s):
+        return s == s[::-1]
