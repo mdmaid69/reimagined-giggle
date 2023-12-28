@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-x = 10
-y = 20
-print("Sum:", x + y)
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_set(array):
+        return set(array)
