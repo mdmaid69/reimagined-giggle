@@ -1,6 +1,12 @@
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
 import array
-def clear_array(array):
-        array *= 0
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
