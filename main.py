@@ -1,6 +1,6 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
