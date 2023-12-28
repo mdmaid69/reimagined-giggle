@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def is_even(n):
+        return n % 2 == 0
