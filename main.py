@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def convert_to_octal(n):
-        return oct(n)
+import logging
+def log_message(message):
+        logging.info(message)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
