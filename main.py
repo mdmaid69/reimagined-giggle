@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
