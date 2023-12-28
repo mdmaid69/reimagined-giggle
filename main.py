@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
