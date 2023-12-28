@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
