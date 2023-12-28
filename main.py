@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
