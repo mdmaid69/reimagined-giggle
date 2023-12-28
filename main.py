@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
