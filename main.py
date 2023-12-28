@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import sys
-def exit_program():
-        sys.exit()
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
