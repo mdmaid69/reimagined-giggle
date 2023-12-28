@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
