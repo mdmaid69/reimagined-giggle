@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
