@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def reverse_list(lst):
+        return lst[::-1]
