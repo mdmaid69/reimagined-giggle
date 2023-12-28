@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_density(mass, volume):
-        return mass / volume
+def reverse_list(lst):
+        return lst[::-1]
+import platform
+def get_python_version():
+        return platform.python_version()
