@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def cube_number(x):
-        return x**3
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
