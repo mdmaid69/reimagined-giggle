@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_priority_queue():
+        return collections.deque()
+def count_characters(sentence):
+        return len(sentence)
