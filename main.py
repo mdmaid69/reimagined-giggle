@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_work(force, distance):
+        return force * distance
