@@ -1,8 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
