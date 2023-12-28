@@ -1,6 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
