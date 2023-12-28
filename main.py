@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
