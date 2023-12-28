@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_counter():
+        return collections.Counter()
+def is_odd(n):
+        return n % 2 != 0
