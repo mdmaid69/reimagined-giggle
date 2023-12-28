@@ -1,5 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-text = "Hello, world!"
-print("Characters:", len(text))
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
