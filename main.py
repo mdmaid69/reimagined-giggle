@@ -1,6 +1,7 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
