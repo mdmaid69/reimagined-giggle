@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def reverse_array(array):
+        array.reverse()
