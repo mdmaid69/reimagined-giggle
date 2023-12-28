@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_buffer_info(array):
+        return array.buffer_info()
