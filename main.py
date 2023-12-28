@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+import sys
+def exit_program():
+        sys.exit()
+import sys
+print(sys.version)
