@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
