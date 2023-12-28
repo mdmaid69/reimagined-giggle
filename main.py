@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
