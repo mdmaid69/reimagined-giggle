@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+x = 10
+y = 20
+print("Sum:", x + y)
