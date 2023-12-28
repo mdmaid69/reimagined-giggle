@@ -1,5 +1,5 @@
-print(sum(range(10)))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_speed(distance, time):
+        return distance / time
