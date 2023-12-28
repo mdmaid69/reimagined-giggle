@@ -1,5 +1,8 @@
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_sign(x):
+        return math.copysign(1, x)
