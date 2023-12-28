@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
