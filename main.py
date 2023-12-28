@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
