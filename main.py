@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
