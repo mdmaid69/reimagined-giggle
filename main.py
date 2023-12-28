@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
