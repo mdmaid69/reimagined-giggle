@@ -1,5 +1,3 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def multiply_numbers(x, y):
-        return x * y
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+print([x**2 for x in range(10)])
