@@ -1,4 +1,3 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+print(sum(range(10)))
