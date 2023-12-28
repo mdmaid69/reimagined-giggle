@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import collections
-def create_user_list():
-        return collections.UserList()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
