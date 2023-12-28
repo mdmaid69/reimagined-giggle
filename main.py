@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import sys
-def print_python_version():
-        return sys.version
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
