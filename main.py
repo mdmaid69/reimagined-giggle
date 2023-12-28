@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
