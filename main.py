@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
