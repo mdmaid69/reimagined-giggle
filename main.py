@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
