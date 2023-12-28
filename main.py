@@ -1,6 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def get_array_as_tuple(array):
+        return tuple(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
