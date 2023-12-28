@@ -1,7 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
