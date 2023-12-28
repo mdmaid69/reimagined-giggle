@@ -1,6 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-print([x**2 for x in range(10)])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
