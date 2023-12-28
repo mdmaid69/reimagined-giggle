@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
