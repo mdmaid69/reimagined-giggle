@@ -1,6 +1,7 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
