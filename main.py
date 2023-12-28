@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import os
-print(os.getcwd())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
