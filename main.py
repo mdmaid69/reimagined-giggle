@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
