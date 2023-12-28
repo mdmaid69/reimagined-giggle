@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def convert_to_hex(n):
-        return hex(n)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
