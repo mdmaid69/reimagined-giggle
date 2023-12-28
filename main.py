@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def multiply_numbers(x, y):
-        return x * y
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
