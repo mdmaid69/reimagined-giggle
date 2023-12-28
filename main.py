@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
