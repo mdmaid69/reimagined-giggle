@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def divide_numbers(x, y):
-        return x / y
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
