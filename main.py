@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
