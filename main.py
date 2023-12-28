@@ -1,6 +1,3 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+for i in range(10): print(i)
