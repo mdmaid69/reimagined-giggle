@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def create_user_list():
+        return collections.UserList()
