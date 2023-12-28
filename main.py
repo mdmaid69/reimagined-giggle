@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import sys
+def exit_program():
+        sys.exit()
+  def convert_to_binary(n):
+        return bin(n)
