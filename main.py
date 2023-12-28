@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_typecode(array):
-        return array.typecode
+print([x**2 for x in range(10)])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
