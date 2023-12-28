@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def multiply_numbers(x, y):
-        return x * y
+import json
+print(json.dumps({"name": "John", "age": 30}))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
