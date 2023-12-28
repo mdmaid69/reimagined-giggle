@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_factorial(n):
+        return math.factorial(n)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def set_array_item(array, i, item):
+        array[i] = item
