@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def cube_number(x):
-        return x**3
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def append_to_array(array, item):
+        array.append(item)
