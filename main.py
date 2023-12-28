@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def reverse_list(lst):
+        return lst[::-1]
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
