@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def is_even(n):
+        return n % 2 == 0
