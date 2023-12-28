@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def reverse_string(s):
+        return s[::-1]
