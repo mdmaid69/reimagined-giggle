@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_speed(distance, time):
+        return distance / time
