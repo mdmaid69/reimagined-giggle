@@ -1,8 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
