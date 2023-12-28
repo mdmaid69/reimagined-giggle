@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+from collections import Counter
+print(Counter("hello world"))
+import os
+def change_working_directory(path):
+        os.chdir(path)
