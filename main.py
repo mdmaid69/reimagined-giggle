@@ -1,5 +1,7 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
