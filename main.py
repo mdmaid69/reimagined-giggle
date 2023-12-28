@@ -1,5 +1,12 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def find_max(lst):
-        return max(lst)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
