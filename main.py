@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def find_max(numbers):
+        return max(numbers)
+def convert_to_hex(n):
+        return hex(n)
