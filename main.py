@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_area(radius):
+        return 3.14 * radius * radius
