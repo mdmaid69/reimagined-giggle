@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_repr(array):
+        return repr(array)
