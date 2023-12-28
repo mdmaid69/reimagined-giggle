@@ -1,5 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
