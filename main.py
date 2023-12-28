@@ -1,5 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
