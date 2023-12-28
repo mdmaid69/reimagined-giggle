@@ -1,5 +1,5 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def cube_number(x):
+        return x**3
