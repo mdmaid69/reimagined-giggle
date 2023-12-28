@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
