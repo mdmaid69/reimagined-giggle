@@ -1,5 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
