@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_pressure(force, area):
+        return force / area
+def square_number(x):
+        return x**2
