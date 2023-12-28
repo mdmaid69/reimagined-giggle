@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import datetime
+print(datetime.datetime.now())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
