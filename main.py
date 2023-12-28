@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
