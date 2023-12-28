@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import collections
+def create_queue():
+        return collections.deque()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
