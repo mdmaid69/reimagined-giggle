@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+for i in range(5):
+        print(i)
+def calculate_density(mass, volume):
+        return mass / volume
