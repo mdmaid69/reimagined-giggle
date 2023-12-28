@@ -1,6 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import platform
+def get_os_info():
+        return platform.uname()
