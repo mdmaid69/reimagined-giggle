@@ -1,5 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  def subtract_numbers(x, y):
-        return x - y
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def find_max(lst):
+        return max(lst)
