@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_user_dict():
+        return collections.UserDict()
