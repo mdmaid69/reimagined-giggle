@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
