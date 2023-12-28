@@ -1,5 +1,10 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
