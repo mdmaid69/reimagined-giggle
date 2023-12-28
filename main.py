@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
