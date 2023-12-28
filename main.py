@@ -1,6 +1,9 @@
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
