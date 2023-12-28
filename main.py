@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_power(work, time):
+        return work / time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
