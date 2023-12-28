@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
