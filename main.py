@@ -1,8 +1,7 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
