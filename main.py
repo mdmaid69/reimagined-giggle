@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def remove_duplicates(lst):
+        return list(set(lst))
