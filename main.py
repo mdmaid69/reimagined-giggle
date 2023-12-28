@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
