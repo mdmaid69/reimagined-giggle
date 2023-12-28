@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
