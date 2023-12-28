@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def add_numbers(x, y):
+        return x + y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
