@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_speed(distance, time):
+        return distance / time
+import re
+print(re.match("h.*o", "hello world"))
