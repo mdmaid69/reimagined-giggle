@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  def cube_number(x):
+        return x**3
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
