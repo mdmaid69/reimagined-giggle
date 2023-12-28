@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def add_numbers(a, b):
+        return a + b
+def is_even(n):
+        return n % 2 == 0
