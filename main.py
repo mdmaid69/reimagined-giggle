@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
