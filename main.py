@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
