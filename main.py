@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-from collections import Counter
-print(Counter("hello world"))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
