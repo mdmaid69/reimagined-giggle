@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_typecode(array):
+        return array.typecode
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
