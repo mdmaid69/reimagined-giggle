@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
