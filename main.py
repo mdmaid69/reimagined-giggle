@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
