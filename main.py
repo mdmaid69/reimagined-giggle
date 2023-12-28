@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
