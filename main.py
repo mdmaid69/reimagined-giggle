@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
