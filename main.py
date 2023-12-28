@@ -1,10 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import random
+print(random.randint(0, 100))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
