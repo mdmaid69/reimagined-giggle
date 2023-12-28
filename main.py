@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
