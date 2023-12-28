@@ -1,12 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
