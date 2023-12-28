@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
