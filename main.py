@@ -1,9 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
