@@ -1,5 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
