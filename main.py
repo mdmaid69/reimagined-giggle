@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def find_max(lst):
+        return max(lst)
