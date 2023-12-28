@@ -1,10 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
