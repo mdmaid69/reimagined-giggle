@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def reverse_string(s):
-        return s[::-1]
+import sys
+def exit_program():
+        sys.exit()
+print([x**2 for x in range(10)])
