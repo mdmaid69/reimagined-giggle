@@ -1,5 +1,9 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
