@@ -1,5 +1,8 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_speed(distance, time):
-        return distance / time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
