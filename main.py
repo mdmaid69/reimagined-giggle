@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
