@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
