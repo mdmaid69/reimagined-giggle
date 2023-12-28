@@ -1,6 +1,8 @@
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_exponential(x):
+        return math.exp(x)
