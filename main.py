@@ -1,4 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def count_elements(lst):
-        return len(lst)
+def add_numbers(x, y):
+        return x + y
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
