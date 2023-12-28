@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
