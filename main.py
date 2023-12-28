@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import sys
+def print_python_version():
+        print(sys.version)
