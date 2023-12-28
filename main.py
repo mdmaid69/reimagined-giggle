@@ -1,5 +1,7 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
