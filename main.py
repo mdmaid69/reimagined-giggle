@@ -1,5 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
