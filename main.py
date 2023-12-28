@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
