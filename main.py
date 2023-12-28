@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
