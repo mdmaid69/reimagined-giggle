@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
