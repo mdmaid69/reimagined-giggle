@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
