@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
