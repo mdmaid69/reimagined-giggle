@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import sys
-  def get_python_version():
-        return sys.version
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
