@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def is_palindrome(s):
+        return s == s[::-1]
