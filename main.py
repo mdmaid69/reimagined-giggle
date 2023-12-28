@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def is_odd(n):
+        return n % 2 != 0
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
