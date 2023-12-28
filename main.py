@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import numpy as np
-print(np.array([1, 2, 3]))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
