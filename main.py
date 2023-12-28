@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def multiply_numbers(x, y):
+        return x * y
