@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def convert_to_octal(n):
+        return oct(n)
