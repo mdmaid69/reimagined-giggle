@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
