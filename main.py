@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
