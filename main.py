@@ -1,5 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def add_numbers(a, b):
-        return a + b
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
