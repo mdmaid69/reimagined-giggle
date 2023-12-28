@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import collections
+def create_user_dict():
+        return collections.UserDict()
