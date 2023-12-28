@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_area_rectangle(l, w):
+        return l * w
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
