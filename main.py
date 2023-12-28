@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_str(array):
+        return str(array)
