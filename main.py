@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_pressure(force, area):
+        return force / area
+def find_min(numbers):
+        return min(numbers)
