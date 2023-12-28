@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
