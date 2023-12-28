@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_tuple(array):
+        return tuple(array)
+def convert_to_octal(n):
+        return oct(n)
