@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def reverse_string(s):
+        return s[::-1]
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
