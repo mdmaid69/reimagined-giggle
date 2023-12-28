@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import logging
+def log_message(message):
+        logging.info(message)
