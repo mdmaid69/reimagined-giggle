@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
