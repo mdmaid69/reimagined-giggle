@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
