@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_speed(distance, time):
+        return distance / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
