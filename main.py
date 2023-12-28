@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
