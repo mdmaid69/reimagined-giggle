@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def reverse_list(lst):
-        return lst[::-1]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_user_dict():
+        return collections.UserDict()
