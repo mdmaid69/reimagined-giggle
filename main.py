@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def divide_numbers(x, y):
+        return x / y
