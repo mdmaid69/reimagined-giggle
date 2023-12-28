@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_density(mass, volume):
+        return mass / volume
