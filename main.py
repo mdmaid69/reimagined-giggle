@@ -1,4 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def add_numbers(a, b):
-        return a + b
+  def remove_duplicates(lst):
+        return list(set(lst))
+for i in range(5):
+        print(i)
