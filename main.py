@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def find_min(lst):
-        return min(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
