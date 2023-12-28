@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
