@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
