@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
