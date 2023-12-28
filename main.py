@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
