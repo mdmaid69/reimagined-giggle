@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
