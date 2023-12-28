@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def cube_number(x):
+        return x**3
