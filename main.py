@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
