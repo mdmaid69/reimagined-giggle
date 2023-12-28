@@ -1,6 +1,8 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
