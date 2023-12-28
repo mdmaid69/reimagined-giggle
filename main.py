@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import time
-print(time.time())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
