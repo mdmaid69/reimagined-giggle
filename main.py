@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def find_min(lst):
-        return min(lst)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
