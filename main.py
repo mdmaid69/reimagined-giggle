@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_area_circle(r):
+        return 3.14 * r**2
