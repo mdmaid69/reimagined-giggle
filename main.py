@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import time
+def get_time_since_epoch():
+        return time.time()
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
