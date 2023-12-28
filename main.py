@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_work(force, distance):
-        return force * distance
+def sort_list(lst):
+        return sorted(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
