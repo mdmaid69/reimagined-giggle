@@ -1,5 +1,10 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
