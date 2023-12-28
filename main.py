@@ -1,6 +1,8 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
