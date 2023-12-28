@@ -1,5 +1,5 @@
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
