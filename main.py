@@ -1,9 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
