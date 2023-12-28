@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def multiply_numbers(x, y):
+        return x * y
