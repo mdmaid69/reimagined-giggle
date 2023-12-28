@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
