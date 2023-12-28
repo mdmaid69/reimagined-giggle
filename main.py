@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import sys
+print(sys.version)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
