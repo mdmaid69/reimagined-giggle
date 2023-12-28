@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
