@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
