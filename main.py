@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_area(radius):
+        return 3.14 * radius * radius
