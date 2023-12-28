@@ -1,7 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_bool(array):
+        return bool(array)
