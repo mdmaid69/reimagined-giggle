@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def convert_to_hex(n):
+        return hex(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
