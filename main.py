@@ -1,8 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
