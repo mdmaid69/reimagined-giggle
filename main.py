@@ -1,5 +1,7 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  def reverse_list(lst):
-        return lst[::-1]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
