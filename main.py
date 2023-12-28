@@ -1,6 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
