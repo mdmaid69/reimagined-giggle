@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_as_list(array):
+        return list(array)
