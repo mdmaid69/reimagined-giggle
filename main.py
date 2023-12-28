@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
