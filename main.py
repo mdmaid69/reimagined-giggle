@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import collections
-def create_user_list():
-        return collections.UserList()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
