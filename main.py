@@ -1,6 +1,4 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+print(sum(range(10)))
