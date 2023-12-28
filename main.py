@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import logging
+def log_message(message):
+        logging.info(message)
