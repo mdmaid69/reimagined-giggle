@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
