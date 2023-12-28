@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_counter():
-        return collections.Counter()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
