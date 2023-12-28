@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def is_even(n):
+        return n % 2 == 0
