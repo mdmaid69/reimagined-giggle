@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
