@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
