@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
