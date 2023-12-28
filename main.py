@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
