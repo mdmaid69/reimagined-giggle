@@ -1,7 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def get_array_index(array, item):
-        return array.index(item)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
