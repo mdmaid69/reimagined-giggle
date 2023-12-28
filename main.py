@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_current_directory():
+        return os.getcwd()
+import random
+print(random.randint(0, 100))
