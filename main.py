@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def add_numbers(x, y):
+        return x + y
