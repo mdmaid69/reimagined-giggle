@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def count_elements(lst):
+        return len(lst)
+def is_palindrome(s):
+        return s == s[::-1]
