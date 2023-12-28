@@ -1,9 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def calculate_power(work, time):
-        return work / time
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_list_from_array(array):
+        return array.tolist()
