@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
