@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
