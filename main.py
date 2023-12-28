@@ -1,6 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
