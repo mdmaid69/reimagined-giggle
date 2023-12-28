@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def find_min(lst):
-        return min(lst)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def append_to_array(array, item):
+        array.append(item)
