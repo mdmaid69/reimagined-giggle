@@ -1,4 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-for i in range(10): print(i)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
