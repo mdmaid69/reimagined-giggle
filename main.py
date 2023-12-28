@@ -1,4 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import os
-print(os.getcwd())
+def calculate_area_rectangle(l, w):
+        return l * w
+  def square_number(x):
+        return x**2
