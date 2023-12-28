@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
