@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
