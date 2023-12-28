@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
