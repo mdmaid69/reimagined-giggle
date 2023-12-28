@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
