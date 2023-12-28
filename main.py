@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
