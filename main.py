@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
