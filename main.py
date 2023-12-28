@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_average(lst):
+        return sum(lst) / len(lst)
