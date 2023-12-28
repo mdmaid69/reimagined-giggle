@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-for i in range(5):
-        print(i)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import datetime
+def get_today_date():
+        return datetime.date.today()
