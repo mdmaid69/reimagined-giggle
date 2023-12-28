@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
