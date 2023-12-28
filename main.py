@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
