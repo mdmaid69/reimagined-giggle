@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
