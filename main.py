@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def convert_to_hex(n):
+        return hex(n)
