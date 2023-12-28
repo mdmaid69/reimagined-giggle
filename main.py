@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
