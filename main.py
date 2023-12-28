@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
