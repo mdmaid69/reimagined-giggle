@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import sys
+def print_python_version():
+        print(sys.version)
