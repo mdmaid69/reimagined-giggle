@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import random
+print(random.randint(0, 100))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
