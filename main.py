@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
