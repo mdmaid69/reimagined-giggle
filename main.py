@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
