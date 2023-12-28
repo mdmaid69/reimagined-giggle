@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
