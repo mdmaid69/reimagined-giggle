@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
