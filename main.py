@@ -1,4 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
