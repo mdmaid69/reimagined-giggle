@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def convert_to_binary(n):
+        return bin(n)
