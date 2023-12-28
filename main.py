@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+x = 10
+y = 20
+print("Sum:", x + y)
