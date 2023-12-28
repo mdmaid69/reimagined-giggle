@@ -1,7 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import sys
+def exit_program():
+        sys.exit()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def convert_array_to_list(array):
+        return array.tolist()
