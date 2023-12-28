@@ -1,8 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
