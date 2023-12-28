@@ -1,5 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
