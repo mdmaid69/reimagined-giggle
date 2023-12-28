@@ -1,5 +1,3 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_work(force, distance):
-        return force * distance
+print("Hello, world!")
+def find_max(lst):
+        return max(lst)
