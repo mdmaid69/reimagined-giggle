@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
