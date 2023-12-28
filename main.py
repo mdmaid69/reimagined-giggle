@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def calculate_area_rectangle(l, w):
+        return l * w
