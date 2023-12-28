@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sys
+def exit_program():
+        sys.exit()
+def calculate_area(radius):
+        return 3.14 * radius * radius
