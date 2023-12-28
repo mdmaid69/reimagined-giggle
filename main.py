@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import time
-def get_current_time():
-        return time.time()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
