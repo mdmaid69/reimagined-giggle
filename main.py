@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
