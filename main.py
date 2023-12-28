@@ -1,6 +1,12 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import sys
+  def get_python_version():
+        return sys.version
