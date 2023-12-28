@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
 import array
-def reverse_array(array):
-        array.reverse()
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
