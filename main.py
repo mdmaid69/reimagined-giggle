@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import collections
+def create_stack():
+        return collections.deque()
