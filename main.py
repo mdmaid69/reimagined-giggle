@@ -1,5 +1,3 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+print([x**2 for x in range(10)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
