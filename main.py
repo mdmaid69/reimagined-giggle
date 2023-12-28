@@ -1,5 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
