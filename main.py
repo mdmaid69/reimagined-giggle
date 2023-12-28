@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
