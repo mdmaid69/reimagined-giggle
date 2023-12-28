@@ -1,7 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
