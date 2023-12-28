@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
