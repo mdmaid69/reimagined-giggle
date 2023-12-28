@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_acceleration(speed, time):
+        return speed / time
