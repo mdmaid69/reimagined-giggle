@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_area_rectangle(l, w):
+        return l * w
