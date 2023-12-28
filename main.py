@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import sys
+print(sys.version)
