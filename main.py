@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
