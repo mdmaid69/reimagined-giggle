@@ -1,6 +1,8 @@
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
