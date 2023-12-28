@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
