@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
