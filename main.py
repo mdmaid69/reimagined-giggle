@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import time
+def get_time_since_epoch():
+        return time.time()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
