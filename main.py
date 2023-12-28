@@ -1,6 +1,7 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
