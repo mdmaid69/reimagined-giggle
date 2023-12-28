@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
