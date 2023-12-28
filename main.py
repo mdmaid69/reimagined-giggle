@@ -1,7 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def add_numbers(a, b):
+        return a + b
