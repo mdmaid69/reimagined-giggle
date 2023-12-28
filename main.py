@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
