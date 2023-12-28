@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
