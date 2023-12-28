@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def remove_duplicates(lst):
+        return list(set(lst))
