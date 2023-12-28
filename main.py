@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def greet(name):
-        print(f"Hello, {name}!")
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
