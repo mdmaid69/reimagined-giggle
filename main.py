@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
