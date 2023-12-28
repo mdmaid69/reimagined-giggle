@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
