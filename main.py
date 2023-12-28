@@ -1,6 +1,7 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
