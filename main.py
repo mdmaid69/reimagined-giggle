@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
