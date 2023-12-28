@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def is_odd(n):
+        return n % 2 != 0
