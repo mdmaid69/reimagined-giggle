@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
