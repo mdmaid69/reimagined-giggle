@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_power(work, time):
+        return work / time
