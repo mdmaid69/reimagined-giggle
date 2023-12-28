@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
