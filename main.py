@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
