@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def count_characters(sentence):
+        return len(sentence)
