@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def add_numbers(x, y):
-        return x + y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
