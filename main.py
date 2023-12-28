@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_density(mass, volume):
+        return mass / volume
