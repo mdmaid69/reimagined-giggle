@@ -1,7 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import platform
+def get_python_version():
+        return platform.python_version()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
