@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
