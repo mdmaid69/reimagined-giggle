@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_sign(x):
+        return math.copysign(1, x)
