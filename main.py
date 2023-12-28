@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def convert_to_hex(n):
+        return hex(n)
+  def cube_number(x):
+        return x**3
