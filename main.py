@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
