@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
