@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def find_min(lst):
-        return min(lst)
+import array
+def reverse_array(array):
+        array.reverse()
+import time
+def get_time_since_epoch():
+        return time.time()
