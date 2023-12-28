@@ -1,5 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def reverse_string(s):
+        return s[::-1]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
