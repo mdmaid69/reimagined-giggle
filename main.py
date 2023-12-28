@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
