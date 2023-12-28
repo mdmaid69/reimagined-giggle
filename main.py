@@ -1,7 +1,8 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
