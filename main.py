@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import collections
-def create_user_string():
-        return collections.UserString()
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
