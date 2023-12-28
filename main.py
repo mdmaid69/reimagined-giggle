@@ -1,8 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
