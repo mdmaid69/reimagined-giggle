@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def add_numbers(x, y):
+        return x + y
