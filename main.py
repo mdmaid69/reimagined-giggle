@@ -1,6 +1,7 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
