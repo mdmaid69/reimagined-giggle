@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_pressure(force, area):
+        return force / area
