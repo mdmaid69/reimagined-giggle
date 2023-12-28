@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def square_number(x):
+        return x**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
