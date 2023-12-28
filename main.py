@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
