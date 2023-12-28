@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import getpass
-def get_username():
-        return getpass.getuser()
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_area_rectangle(l, w):
+        return l * w
