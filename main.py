@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
