@@ -1,6 +1,6 @@
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_exponential(x):
+        return math.exp(x)
