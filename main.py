@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
