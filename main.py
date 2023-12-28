@@ -1,5 +1,8 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
