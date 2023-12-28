@@ -1,6 +1,3 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import time
-def get_current_time():
-        return time.ctime()
+for i in range(10): print(i)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
