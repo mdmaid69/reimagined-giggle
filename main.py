@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
