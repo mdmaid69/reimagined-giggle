@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_speed(distance, time):
-        return distance / time
+def convert_array_to_bytes(array):
+        return array.tobytes()
