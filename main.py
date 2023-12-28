@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def is_even(n):
+        return n % 2 == 0
