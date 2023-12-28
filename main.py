@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def is_even(n):
-        return n % 2 == 0
+for i in range(10): print(i)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
