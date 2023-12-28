@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
