@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
