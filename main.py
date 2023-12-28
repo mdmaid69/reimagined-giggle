@@ -1,5 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
