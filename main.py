@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
