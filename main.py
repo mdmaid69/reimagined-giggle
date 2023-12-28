@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def get_environment_variable(var):
+        return os.getenv(var)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
