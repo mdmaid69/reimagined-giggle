@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
