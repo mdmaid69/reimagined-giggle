@@ -1,9 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
