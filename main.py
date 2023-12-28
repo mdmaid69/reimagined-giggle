@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import time
-def get_current_time():
-        return time.ctime()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def add_numbers(x, y):
+        return x + y
