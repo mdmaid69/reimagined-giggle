@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
