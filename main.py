@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
