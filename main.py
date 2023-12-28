@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
