@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def find_min(lst):
+        return min(lst)
