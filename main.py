@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
