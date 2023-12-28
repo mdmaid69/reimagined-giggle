@@ -1,5 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
