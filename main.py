@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
