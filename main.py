@@ -1,6 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
