@@ -1,5 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def find_min(lst):
-        return min(lst)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
