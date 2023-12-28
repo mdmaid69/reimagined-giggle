@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def find_unique_words(sentence):
+        return set(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
