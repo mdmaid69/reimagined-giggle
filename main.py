@@ -1,6 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
