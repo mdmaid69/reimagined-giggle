@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_area_circle(r):
+        return 3.14 * r**2
