@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
