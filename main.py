@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
