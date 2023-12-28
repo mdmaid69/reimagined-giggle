@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
