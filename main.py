@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def sort_list(lst):
+        return sorted(lst)
+  def sort_list(lst):
+        return sorted(lst)
