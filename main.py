@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
