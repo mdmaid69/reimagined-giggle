@@ -1,7 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
