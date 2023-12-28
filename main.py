@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
