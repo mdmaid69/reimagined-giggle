@@ -1,5 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import os
-print(os.getcwd())
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
