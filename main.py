@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
