@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import os
+def get_current_working_directory():
+        return os.getcwd()
