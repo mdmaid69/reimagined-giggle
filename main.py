@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_stack():
-        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+from collections import Counter
+print(Counter("hello world"))
