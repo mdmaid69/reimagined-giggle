@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def delete_file(file_name):
+        os.remove(file_name)
