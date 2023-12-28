@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
