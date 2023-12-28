@@ -1,6 +1,5 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def append_to_array(array, item):
+        array.append(item)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
