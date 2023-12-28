@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
