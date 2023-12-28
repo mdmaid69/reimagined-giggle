@@ -1,5 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_logarithm_base_e(x):
+        return math.log(x)
