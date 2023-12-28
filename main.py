@@ -1,7 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
