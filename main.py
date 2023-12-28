@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
