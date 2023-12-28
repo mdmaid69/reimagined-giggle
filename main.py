@@ -1,5 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def square_number(x):
-        return x**2
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
