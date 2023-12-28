@@ -1,5 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import collections
-def create_user_string():
-        return collections.UserString()
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
