@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
