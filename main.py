@@ -1,5 +1,7 @@
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  def convert_to_binary(n):
-        return bin(n)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
