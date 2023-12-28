@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
