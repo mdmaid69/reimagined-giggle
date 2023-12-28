@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
+import sys
+def print_python_version():
+        print(sys.version)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_set(array):
+        return set(array)
