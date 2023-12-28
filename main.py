@@ -1,7 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
