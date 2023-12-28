@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def greet(name):
+        print(f"Hello, {name}!")
