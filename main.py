@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
