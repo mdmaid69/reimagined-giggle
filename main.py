@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
