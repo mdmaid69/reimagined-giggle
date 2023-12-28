@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import random
+def roll_die():
+        return random.randint(1, 6)
+def find_min(numbers):
+        return min(numbers)
