@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
