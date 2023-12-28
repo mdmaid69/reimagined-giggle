@@ -1,8 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
