@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
