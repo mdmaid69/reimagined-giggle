@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def is_odd(n):
-        return n % 2 != 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import time
+def get_current_time():
+        return time.ctime()
