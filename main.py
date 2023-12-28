@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_acceleration(speed, time):
-        return speed / time
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
