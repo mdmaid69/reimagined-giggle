@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
