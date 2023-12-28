@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def clear_array(array):
+        array *= 0
+import json
+print(json.dumps({"name": "John", "age": 30}))
