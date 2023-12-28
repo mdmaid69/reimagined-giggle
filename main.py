@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def divide_numbers(x, y):
+        return x / y
+  def reverse_list(lst):
+        return lst[::-1]
