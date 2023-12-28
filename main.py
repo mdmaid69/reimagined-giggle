@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import time
-print(time.time())
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def reverse_string(s):
+        return s[::-1]
