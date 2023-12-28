@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
