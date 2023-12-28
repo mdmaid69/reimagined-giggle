@@ -1,7 +1,8 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import platform
+def get_python_version():
+        return platform.python_version()
