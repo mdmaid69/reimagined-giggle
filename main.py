@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_area_circle(r):
+        return 3.14 * r**2
