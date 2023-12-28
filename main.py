@@ -1,6 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
