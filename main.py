@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def divide_numbers(x, y):
-        return x / y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
