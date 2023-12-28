@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
