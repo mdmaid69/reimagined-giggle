@@ -1,5 +1,11 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
