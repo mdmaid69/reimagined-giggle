@@ -1,5 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
