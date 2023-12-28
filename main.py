@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
