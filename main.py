@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def find_max(lst):
+        return max(lst)
