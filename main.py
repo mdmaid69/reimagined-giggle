@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
