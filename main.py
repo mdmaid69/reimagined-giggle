@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
