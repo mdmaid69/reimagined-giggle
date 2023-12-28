@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-print(math.pi)
+import collections
+def create_user_list():
+        return collections.UserList()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
