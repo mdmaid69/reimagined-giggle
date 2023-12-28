@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def sort_numbers(numbers):
+        return sorted(numbers)
