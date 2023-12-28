@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
