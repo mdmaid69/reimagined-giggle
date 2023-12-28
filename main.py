@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def count_elements(lst):
-        return len(lst)
+import re
+print(re.match("h.*o", "hello world"))
+import time
+def get_current_time():
+        return time.ctime()
