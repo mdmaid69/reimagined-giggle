@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
