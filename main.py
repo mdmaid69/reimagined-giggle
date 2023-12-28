@@ -1,6 +1,5 @@
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def get_array_buffer_info(array):
+        return array.buffer_info()
