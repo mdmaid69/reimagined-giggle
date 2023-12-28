@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import time
+print(time.time())
