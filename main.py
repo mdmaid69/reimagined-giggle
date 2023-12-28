@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import sys
-def exit_program():
-        sys.exit()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def count_words(sentence):
+        return len(sentence.split())
