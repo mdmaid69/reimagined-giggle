@@ -1,5 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
