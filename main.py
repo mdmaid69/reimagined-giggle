@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_bytearray(array):
+        return bytearray(array)
