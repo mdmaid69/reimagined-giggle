@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
