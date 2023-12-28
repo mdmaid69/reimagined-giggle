@@ -1,4 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
