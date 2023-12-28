@@ -1,8 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_list_from_array(array):
+        return array.tolist()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
