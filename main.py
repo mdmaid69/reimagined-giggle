@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
