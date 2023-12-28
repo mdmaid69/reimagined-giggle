@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
