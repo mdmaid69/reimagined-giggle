@@ -1,7 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
