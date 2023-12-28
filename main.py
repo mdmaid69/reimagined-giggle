@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
