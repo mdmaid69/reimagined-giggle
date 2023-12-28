@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
