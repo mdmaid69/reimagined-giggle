@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
