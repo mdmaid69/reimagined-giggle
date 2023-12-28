@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def sort_list(lst):
-        return sorted(lst)
+import os
+print(os.getcwd())
+import os
+def remove_directory(path):
+        os.rmdir(path)
