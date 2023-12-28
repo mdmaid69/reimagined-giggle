@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-text = "Hello, world!"
-print("Characters:", len(text))
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
