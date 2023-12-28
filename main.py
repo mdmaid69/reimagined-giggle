@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
