@@ -1,8 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
