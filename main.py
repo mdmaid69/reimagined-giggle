@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def sort_list(lst):
+        return sorted(lst)
