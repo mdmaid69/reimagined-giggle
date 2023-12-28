@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def convert_to_binary(n):
+        return bin(n)
+  def multiply_numbers(x, y):
+        return x * y
