@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import platform
+def get_os_info():
+        return platform.uname()
