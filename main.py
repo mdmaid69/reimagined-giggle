@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
