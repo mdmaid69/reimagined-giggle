@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
