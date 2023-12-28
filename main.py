@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
