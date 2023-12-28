@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+from collections import Counter
+print(Counter("hello world"))
