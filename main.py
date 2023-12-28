@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
