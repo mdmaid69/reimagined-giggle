@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def convert_to_binary(n):
+        return bin(n)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
