@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
