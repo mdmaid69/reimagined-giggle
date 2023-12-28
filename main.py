@@ -1,4 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-for i in range(10): print(i)
+import sys
+def exit_program():
+        sys.exit()
+x = 10
+y = 20
+print("Sum:", x + y)
