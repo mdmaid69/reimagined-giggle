@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
