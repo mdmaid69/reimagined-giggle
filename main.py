@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+print([x**2 for x in range(10)])
