@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_union(list1, list2):
+        return set(list1) | set(list2)
