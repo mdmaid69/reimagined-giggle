@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_floor(x):
+        return math.floor(x)
