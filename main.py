@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
