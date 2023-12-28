@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
