@@ -1,8 +1,6 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
