@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def reverse_string(s):
+        return s[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
