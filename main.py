@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
