@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
