@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+print(sum(range(10)))
