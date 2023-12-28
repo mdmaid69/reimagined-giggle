@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
