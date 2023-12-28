@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def reverse_string(s):
+        return s[::-1]
