@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def convert_to_hex(n):
-        return hex(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
