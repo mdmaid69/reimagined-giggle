@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def find_min(numbers):
-        return min(numbers)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
