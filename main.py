@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
