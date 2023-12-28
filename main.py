@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
