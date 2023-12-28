@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
