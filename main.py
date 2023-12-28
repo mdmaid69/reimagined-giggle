@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_work(force, distance):
-        return force * distance
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def count_words(sentence):
+        return len(sentence.split())
