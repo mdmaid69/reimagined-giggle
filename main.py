@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import tensorflow as tf
+print(tf.__version__)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
