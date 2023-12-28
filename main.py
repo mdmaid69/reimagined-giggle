@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
