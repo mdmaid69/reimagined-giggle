@@ -1,4 +1,9 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
