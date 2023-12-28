@@ -1,5 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+text = "Hello, world!"
+print("Characters:", len(text))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
