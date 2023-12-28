@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
