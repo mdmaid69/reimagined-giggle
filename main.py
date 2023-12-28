@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
