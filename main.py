@@ -1,5 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
