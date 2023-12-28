@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import os
+print(os.getcwd())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
