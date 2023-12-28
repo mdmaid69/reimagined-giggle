@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
