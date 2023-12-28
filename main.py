@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
