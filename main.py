@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def sort_list(lst):
+        return sorted(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
