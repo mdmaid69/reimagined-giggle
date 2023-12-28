@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
