@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
