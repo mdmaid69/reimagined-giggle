@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
