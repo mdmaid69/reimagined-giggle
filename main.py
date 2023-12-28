@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def subtract_numbers(x, y):
+        return x - y
