@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def is_palindrome(s):
+        return s == s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
