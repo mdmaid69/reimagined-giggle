@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
