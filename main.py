@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
