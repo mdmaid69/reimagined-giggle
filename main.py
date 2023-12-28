@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_min(numbers):
+        return min(numbers)
+import sys
+def exit_program():
+        sys.exit()
