@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import time
-def get_current_time():
-        return time.ctime()
+def add_numbers(x, y):
+        return x + y
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
