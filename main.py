@@ -1,12 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
