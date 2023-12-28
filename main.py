@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
