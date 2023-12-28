@@ -1,7 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
