@@ -1,3 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-print([x**2 for x in range(10)])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
