@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
