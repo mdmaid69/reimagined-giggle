@@ -1,7 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
