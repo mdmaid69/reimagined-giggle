@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def split_path(path):
+        return os.path.split(path)
