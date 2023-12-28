@@ -1,5 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
