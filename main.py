@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_acceleration(speed, time):
-        return speed / time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
