@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
