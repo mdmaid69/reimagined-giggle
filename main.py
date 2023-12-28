@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
