@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
