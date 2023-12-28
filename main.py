@@ -1,7 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def cube_number(x):
+        return x**3
