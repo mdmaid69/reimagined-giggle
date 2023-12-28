@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_work(force, distance):
+        return force * distance
