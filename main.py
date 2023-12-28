@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_work(force, distance):
+        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
