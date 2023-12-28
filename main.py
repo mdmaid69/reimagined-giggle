@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
