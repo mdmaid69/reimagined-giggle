@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
