@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
