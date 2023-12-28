@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
