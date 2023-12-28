@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
