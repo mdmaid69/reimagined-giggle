@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
