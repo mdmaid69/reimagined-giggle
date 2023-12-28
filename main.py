@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def add_numbers(x, y):
+        return x + y
