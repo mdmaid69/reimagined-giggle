@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def square_number(x):
+        return x**2
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
