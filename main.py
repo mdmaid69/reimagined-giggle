@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
