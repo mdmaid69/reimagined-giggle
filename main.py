@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def get_array_as_int(array):
+        return int(array[0])
