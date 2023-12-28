@@ -1,12 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
