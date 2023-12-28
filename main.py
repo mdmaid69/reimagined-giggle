@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_density(mass, volume):
+        return mass / volume
