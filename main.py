@@ -1,6 +1,11 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
