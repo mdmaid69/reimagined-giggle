@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import time
-def get_current_time():
-        return time.ctime()
+def convert_to_binary(n):
+        return bin(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
