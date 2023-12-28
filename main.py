@@ -1,4 +1,11 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
