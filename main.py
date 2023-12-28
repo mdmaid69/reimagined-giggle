@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
