@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_work(force, distance):
+        return force * distance
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
