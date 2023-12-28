@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import sys
-  def get_python_version():
-        return sys.version
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
