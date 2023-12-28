@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
