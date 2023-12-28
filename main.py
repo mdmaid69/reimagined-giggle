@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
