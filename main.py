@@ -1,7 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def count_characters(sentence):
+        return len(sentence)
