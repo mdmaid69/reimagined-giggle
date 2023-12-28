@@ -1,5 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
