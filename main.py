@@ -1,7 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import collections
+def create_stack():
+        return collections.deque()
