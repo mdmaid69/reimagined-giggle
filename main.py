@@ -1,6 +1,7 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
