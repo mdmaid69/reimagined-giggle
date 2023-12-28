@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
