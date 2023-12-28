@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
