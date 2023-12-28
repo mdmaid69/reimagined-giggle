@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_density(mass, volume):
-        return mass / volume
+def reverse_string(s):
+        return s[::-1]
+def is_odd(n):
+        return n % 2 != 0
