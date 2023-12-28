@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import sys
+print(sys.version)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
