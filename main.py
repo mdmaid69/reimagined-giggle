@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def convert_to_binary(n):
+        return bin(n)
+import sys
+def print_python_version():
+        return sys.version
