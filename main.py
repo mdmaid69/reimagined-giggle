@@ -1,11 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def add_numbers(x, y):
+        return x + y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
