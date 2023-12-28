@@ -1,7 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import sys
+def exit_program():
+        sys.exit()
   import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
         plt.show()
