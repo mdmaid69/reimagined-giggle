@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
