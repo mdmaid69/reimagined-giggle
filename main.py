@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+for i in range(5):
+        print(i)
