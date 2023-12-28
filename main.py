@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def add_numbers(x, y):
+        return x + y
+import random
+def roll_die():
+        return random.randint(1, 6)
