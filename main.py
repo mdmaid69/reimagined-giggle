@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_power(work, time):
-        return work / time
+def sort_numbers(numbers):
+        return sorted(numbers)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
