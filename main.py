@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_cosine(x):
+        return math.cos(x)
