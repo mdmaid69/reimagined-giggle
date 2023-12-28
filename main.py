@@ -1,6 +1,6 @@
+import time
+def get_time_since_epoch():
+        return time.time()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_factorial(n):
+        return math.factorial(n)
