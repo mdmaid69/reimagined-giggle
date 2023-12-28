@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-x = 10
-y = 20
-print("Sum:", x + y)
+def is_palindrome(s):
+        return s == s[::-1]
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
