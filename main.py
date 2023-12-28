@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
