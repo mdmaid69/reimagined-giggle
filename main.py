@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_area_circle(r):
+        return 3.14 * r**2
