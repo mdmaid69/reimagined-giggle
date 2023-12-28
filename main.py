@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def multiply_numbers(x, y):
-        return x * y
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
