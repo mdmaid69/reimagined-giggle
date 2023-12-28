@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
