@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
