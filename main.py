@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def convert_to_binary(n):
-        return bin(n)
+def add_numbers(a, b):
+        return a + b
+import sys
+def print_python_version():
+        print(sys.version)
