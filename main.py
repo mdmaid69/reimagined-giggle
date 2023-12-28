@@ -1,8 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
