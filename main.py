@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_stack():
+        return collections.deque()
