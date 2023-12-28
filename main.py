@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def sort_list(lst):
+        return sorted(lst)
