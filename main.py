@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
