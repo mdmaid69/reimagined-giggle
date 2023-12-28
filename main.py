@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def get_base_name(path):
+        return os.path.basename(path)
