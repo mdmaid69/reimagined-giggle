@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
