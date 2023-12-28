@@ -1,5 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
