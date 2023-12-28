@@ -1,6 +1,8 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
