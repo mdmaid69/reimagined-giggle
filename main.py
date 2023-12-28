@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def convert_to_hex(n):
-        return hex(n)
+x = 10
+y = 20
+print("Sum:", x + y)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
