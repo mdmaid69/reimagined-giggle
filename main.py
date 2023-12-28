@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
