@@ -1,5 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-for i in range(5):
-        print(i)
+print("Hello, world!")
+import time
+def get_current_time():
+        return time.ctime()
