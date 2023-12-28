@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def is_odd(n):
+        return n % 2 != 0
