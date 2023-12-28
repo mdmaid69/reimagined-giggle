@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def convert_to_hex(n):
+        return hex(n)
