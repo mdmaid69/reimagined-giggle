@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def count_words(sentence):
+        return len(sentence.split())
