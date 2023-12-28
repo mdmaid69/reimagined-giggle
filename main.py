@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
