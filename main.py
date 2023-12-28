@@ -1,6 +1,7 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
