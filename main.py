@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import time
+def get_current_time():
+        return time.time()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
