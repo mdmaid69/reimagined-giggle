@@ -1,6 +1,6 @@
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
