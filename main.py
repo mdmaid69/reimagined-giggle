@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
