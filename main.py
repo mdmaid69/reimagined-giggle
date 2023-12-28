@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
