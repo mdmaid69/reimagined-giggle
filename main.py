@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_queue():
+        return collections.deque()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
