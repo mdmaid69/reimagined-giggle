@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import numpy as np
+print(np.array([1, 2, 3]))
+def count_words(sentence):
+        return len(sentence.split())
