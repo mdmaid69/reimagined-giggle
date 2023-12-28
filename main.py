@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import getpass
+def get_username():
+        return getpass.getuser()
