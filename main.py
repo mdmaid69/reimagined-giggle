@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
