@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
