@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_length(array):
+        return len(array)
