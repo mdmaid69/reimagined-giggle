@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def reverse_list(lst):
+        return lst[::-1]
