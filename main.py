@@ -1,8 +1,6 @@
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def get_array_typecode(array):
+        return array.typecode
