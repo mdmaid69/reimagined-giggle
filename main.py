@@ -1,5 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_array_as_str(array):
+        return str(array)
