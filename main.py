@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import platform
-def get_os_info():
-        return platform.uname()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
