@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
