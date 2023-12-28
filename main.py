@@ -1,6 +1,6 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
