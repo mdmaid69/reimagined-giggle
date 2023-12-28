@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
