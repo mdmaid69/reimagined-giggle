@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
