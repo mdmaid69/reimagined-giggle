@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
