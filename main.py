@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
