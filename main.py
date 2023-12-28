@@ -1,6 +1,10 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
