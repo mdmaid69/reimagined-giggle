@@ -1,5 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def get_array_index(array, item):
+        return array.index(item)
