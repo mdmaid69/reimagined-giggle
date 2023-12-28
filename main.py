@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
