@@ -1,6 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
