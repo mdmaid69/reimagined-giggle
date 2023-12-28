@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
