@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def cube_number(x):
-        return x**3
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_power(work, time):
+        return work / time
