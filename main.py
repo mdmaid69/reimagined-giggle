@@ -1,7 +1,8 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
