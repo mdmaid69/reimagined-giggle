@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
