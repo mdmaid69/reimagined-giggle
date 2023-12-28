@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
