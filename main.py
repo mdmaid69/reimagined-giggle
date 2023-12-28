@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
