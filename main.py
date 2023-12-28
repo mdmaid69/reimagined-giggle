@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_min(lst):
-        return min(lst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def reverse_array(array):
+        array.reverse()
