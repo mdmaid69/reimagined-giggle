@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+print(list(itertools.permutations([1, 2, 3])))
+import random
+print(random.randint(0, 100))
