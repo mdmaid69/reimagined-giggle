@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
