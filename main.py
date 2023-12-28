@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
