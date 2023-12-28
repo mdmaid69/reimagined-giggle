@@ -1,7 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-print(math.pi)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
