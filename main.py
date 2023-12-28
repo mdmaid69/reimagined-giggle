@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def remove_duplicates(lst):
+        return list(set(lst))
