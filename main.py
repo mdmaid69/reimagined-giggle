@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
