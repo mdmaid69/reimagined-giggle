@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-print(math.pi)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
