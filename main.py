@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import time
-def get_current_time():
-        return time.ctime()
+  def cube_number(x):
+        return x**3
+import json
+print(json.dumps({"name": "John", "age": 30}))
