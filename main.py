@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+print("Hello, world!")
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
