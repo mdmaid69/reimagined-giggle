@@ -1,6 +1,8 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
