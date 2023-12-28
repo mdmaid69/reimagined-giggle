@@ -1,5 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def convert_to_binary(n):
-        return bin(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
