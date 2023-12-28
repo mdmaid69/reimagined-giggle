@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
