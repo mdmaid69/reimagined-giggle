@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
