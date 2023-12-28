@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
