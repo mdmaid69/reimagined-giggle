@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+for i in range(5):
+        print(i)
+import collections
+def create_stack():
+        return collections.deque()
