@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
