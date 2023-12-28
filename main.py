@@ -1,6 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_acceleration(speed, time):
+        return speed / time
