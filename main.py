@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
 import re
-def split_string(pattern, string):
+print(re.match("h.*o", "hello world"))
+import re
+def split_by_pattern(pattern, string):
         return re.split(pattern, string)
