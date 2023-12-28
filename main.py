@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+i = 0
+while i < 5:
+        print(i)
+        i += 1
