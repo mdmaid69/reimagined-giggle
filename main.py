@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
