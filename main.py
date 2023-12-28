@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def divide_numbers(x, y):
+        return x / y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
