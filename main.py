@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def sort_list(lst):
+        return sorted(lst)
