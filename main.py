@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
