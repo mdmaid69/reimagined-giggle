@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import numpy as np
+print(np.array([1, 2, 3]))
