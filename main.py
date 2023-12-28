@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
