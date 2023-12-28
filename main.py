@@ -1,6 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
