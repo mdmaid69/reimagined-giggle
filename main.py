@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def reverse_list(lst):
+        return lst[::-1]
