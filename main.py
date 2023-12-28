@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_volume(length, width, height):
+        return length * width * height
