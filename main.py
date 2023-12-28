@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import time
+def get_current_time():
+        return time.ctime()
