@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import time
+def get_current_time():
+        return time.time()
