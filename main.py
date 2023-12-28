@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
