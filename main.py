@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
