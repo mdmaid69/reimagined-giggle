@@ -1,4 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def multiply_numbers(x, y):
+        return x * y
+def count_words(sentence):
+        return len(sentence.split())
