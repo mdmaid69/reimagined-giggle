@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
