@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
