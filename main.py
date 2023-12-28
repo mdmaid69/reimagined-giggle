@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+print([x**2 for x in range(10)])
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
