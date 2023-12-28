@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
