@@ -1,7 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
