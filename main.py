@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def create_user_list():
+        return collections.UserList()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
