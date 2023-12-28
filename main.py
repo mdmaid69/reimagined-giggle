@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
