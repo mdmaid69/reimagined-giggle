@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import datetime
+print(datetime.datetime.now())
+  def is_odd(n):
+        return n % 2 != 0
