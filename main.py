@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_pressure(force, area):
-        return force / area
+  def convert_to_binary(n):
+        return bin(n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
