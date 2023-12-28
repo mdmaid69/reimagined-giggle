@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import datetime
+print(datetime.datetime.now())
