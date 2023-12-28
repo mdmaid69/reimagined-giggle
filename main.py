@@ -1,6 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import os
+def remove_directory(path):
+        os.rmdir(path)
