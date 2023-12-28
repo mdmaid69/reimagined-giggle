@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
