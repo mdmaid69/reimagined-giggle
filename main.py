@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
