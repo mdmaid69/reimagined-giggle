@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
