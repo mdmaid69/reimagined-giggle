@@ -1,5 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
