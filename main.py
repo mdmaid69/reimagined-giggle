@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
