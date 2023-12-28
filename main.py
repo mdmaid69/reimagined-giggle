@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_length(array):
-        return len(array)
+  def delete_file(file_name):
+        os.remove(file_name)
+def convert_to_binary(n):
+        return bin(n)
