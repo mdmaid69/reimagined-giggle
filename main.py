@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
