@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import sys
+def exit_program():
+        sys.exit()
