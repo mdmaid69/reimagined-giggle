@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_slice(array, i, j):
+        return array[i:j]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
