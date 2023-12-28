@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
