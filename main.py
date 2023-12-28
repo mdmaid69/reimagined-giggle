@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-for i in range(5):
-        print(i)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_volume(length, width, height):
+        return length * width * height
