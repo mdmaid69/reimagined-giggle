@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
