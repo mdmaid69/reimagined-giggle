@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
