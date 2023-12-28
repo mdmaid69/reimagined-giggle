@@ -1,5 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_pressure(force, area):
+        return force / area
+text = "Hello, world!"
+print("Uppercase:", text.upper())
