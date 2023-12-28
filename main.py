@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
