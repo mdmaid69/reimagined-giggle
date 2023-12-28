@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
