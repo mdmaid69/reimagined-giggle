@@ -1,5 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
