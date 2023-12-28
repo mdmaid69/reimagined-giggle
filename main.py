@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
