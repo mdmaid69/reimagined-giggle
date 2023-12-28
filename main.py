@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
