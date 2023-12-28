@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def count_elements(lst):
+        return len(lst)
