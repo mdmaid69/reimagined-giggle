@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_pressure(force, area):
+        return force / area
+def count_elements(lst):
+        return len(lst)
