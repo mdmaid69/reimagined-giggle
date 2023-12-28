@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
