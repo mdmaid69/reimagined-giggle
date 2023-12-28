@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-print(math.pi)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
