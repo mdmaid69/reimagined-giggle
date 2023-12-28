@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_list(array):
+        return list(array)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
