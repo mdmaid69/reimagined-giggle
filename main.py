@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
