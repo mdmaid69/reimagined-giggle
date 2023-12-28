@@ -1,7 +1,8 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
