@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_power(work, time):
-        return work / time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
