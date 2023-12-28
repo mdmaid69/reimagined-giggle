@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_exponential(x):
+        return math.exp(x)
