@@ -1,5 +1,6 @@
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_power(work, time):
-        return work / time
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
