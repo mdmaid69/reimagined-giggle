@@ -1,8 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
