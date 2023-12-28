@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_list_from_array(array):
+        return array.tolist()
