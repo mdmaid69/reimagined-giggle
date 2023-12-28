@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
