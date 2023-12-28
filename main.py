@@ -1,4 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-print("Hello, world!")
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
