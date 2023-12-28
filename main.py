@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def convert_to_binary(n):
+        return bin(n)
