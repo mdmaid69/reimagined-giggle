@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
