@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
