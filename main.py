@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_counter():
+        return collections.Counter()
+from collections import Counter
+print(Counter("hello world"))
