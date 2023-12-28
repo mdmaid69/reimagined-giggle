@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import json
+print(json.dumps({"name": "John", "age": 30}))
