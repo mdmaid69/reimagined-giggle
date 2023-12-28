@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
