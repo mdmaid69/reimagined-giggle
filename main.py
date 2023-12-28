@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_pressure(force, area):
+        return force / area
