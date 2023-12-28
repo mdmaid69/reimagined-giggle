@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
