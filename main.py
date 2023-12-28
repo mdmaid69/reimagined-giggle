@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
