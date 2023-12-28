@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def get_array_as_str(array):
+        return str(array)
