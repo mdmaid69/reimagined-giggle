@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def is_even(n):
+        return n % 2 == 0
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
