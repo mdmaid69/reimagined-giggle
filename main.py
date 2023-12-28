@@ -1,6 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import random
+print(random.randint(0, 100))
