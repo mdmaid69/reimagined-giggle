@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import os
+print(os.getcwd())
