@@ -1,8 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
