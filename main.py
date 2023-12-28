@@ -1,7 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_ceiling(x):
+        return math.ceil(x)
