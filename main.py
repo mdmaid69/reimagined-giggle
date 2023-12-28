@@ -1,6 +1,8 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
