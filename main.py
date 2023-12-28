@@ -1,6 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
