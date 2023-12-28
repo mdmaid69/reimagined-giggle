@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Characters:", len(text))
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def remove_duplicates(lst):
+        return list(set(lst))
