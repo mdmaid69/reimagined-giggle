@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
