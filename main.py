@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
