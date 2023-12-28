@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_square_root(x):
+        return math.sqrt(x)
