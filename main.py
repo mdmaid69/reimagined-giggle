@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
