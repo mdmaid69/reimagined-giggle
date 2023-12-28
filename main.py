@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
