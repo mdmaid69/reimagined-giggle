@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
