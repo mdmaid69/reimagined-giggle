@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
