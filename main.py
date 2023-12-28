@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import time
-def get_current_time():
-        return time.time()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
