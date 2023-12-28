@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_speed(distance, time):
+        return distance / time
