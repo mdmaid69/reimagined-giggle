@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_max(numbers):
+        return max(numbers)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def append_to_array(array, item):
+        array.append(item)
