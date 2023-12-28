@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
