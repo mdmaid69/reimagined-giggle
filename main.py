@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
