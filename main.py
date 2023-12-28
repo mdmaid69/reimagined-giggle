@@ -1,5 +1,8 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import datetime
-print(datetime.datetime.now())
+def get_array_length(array):
+        return len(array)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
