@@ -1,6 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
