@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
