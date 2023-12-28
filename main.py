@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
