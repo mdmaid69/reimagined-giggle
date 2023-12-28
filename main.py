@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
