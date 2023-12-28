@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_current_directory():
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import os
+def get_current_working_directory():
         return os.getcwd()
