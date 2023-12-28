@@ -1,6 +1,7 @@
 import array
-def clear_array(array):
-        array *= 0
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
