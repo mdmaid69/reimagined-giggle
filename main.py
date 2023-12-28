@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
