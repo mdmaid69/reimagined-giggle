@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
