@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
