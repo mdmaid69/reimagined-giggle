@@ -1,7 +1,8 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
