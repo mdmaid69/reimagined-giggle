@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
