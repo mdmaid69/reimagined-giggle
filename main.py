@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_error_function(x):
+        return math.erf(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
