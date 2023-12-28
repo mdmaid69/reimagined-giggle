@@ -1,6 +1,6 @@
 import time
-def get_current_time():
-        return time.ctime()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_item(array, i):
+        return array[i]
