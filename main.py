@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def reverse_list(lst):
-        return lst[::-1]
+def add_numbers(x, y):
+        return x + y
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
