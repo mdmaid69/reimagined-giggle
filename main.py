@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
