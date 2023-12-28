@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+from collections import Counter
+print(Counter("hello world"))
