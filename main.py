@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def append_to_array(array, item):
-        array.append(item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
