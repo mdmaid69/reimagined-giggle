@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import os
+def change_working_directory(path):
+        os.chdir(path)
