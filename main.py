@@ -1,4 +1,7 @@
-def find_min(lst):
-        return min(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
