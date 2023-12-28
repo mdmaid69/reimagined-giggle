@@ -1,12 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
