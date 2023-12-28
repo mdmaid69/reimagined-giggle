@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def add_numbers(x, y):
-        return x + y
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
