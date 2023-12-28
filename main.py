@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
