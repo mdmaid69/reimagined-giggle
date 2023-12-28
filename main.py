@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def add_numbers(a, b):
+        return a + b
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
