@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_work(force, distance):
+        return force * distance
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
