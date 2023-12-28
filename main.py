@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
