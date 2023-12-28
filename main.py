@@ -1,9 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
