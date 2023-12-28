@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_counter():
+        return collections.Counter()
