@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def exit_program():
+        sys.exit()
