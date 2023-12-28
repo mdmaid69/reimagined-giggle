@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_as_bool(array):
-        return bool(array)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def split_path(path):
+        return os.path.split(path)
