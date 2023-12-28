@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
