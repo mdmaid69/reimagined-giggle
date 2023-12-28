@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
