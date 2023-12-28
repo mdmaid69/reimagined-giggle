@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def count_elements(lst):
+        return len(lst)
