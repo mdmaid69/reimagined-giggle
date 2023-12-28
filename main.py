@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
