@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_volume(length, width, height):
+        return length * width * height
