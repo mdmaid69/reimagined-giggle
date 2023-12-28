@@ -1,4 +1,6 @@
-print("Hello, world!")
-import array
-def get_array_item(array, i):
-        return array[i]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
