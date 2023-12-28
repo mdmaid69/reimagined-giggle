@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
