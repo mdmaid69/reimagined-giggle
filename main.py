@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
