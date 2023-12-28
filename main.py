@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
