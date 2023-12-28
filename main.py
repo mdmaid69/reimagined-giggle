@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
