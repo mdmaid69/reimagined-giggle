@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_area_circle(r):
+        return 3.14 * r**2
