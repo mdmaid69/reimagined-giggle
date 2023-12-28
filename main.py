@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_user_list():
+        return collections.UserList()
