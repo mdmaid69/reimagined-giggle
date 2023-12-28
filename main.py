@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_pressure(force, area):
+        return force / area
