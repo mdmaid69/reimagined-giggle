@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
