@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_arc_tangent(x):
+        return math.atan(x)
