@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
