@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
