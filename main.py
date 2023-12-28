@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_work(force, distance):
+        return force * distance
+def calculate_work(force, distance):
+        return force * distance
