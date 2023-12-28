@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
