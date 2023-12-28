@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+print(re.match("h.*o", "hello world"))
