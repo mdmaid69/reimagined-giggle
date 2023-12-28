@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
