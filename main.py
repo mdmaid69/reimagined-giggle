@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
