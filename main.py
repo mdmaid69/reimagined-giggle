@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def append_to_array(array, item):
+        array.append(item)
