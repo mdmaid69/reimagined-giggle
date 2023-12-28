@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_pressure(force, area):
+        return force / area
