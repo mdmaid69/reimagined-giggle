@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
