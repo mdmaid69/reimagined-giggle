@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
