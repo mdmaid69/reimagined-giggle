@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
