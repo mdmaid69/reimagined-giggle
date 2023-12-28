@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_density(mass, volume):
+        return mass / volume
