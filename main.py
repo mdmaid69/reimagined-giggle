@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
 import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
