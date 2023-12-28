@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import random
-def roll_die():
-        return random.randint(1, 6)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def convert_to_octal(n):
+        return oct(n)
