@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def convert_to_octal(n):
+        return oct(n)
