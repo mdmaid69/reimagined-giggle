@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import platform
+def get_python_version():
+        return platform.python_version()
