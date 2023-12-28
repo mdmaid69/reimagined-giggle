@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def convert_to_hex(n):
-        return hex(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
