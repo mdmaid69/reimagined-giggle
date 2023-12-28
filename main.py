@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
