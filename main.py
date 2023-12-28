@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
 import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_array_as_str(array):
+        return str(array)
