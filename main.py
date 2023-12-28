@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  def square_number(x):
-        return x**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import random
+print(random.randint(0, 100))
