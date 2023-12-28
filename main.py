@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
