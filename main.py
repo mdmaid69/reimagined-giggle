@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def find_min(lst):
+        return min(lst)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
