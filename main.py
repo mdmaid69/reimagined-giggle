@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_power(work, time):
-        return work / time
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
