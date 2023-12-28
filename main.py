@@ -1,6 +1,10 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
