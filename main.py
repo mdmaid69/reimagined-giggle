@@ -1,5 +1,10 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
