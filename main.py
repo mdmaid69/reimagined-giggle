@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_floor(x):
+        return math.floor(x)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
