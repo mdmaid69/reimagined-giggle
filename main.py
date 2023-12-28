@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
