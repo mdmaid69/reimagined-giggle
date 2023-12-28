@@ -1,6 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
