@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
