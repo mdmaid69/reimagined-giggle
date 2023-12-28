@@ -1,7 +1,9 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
