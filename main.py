@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
