@@ -1,5 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
