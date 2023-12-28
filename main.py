@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_array_as_str(array):
-        return str(array)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
