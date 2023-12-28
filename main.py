@@ -1,4 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import random
+print(random.randint(0, 100))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
