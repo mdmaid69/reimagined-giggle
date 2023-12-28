@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
