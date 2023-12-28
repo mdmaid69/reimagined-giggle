@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
