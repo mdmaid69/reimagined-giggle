@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
