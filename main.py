@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
