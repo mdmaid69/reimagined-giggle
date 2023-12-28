@@ -1,6 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
