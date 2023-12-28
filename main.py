@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
