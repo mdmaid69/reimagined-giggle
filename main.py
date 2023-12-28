@@ -1,6 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import time
-def get_time_since_epoch():
-        return time.time()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
