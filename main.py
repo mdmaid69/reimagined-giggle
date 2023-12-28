@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import collections
+def create_user_string():
+        return collections.UserString()
