@@ -1,6 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-sentence = "Hello, world!"
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+print(Counter("hello world"))
