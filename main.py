@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
