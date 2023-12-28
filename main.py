@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
