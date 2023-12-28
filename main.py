@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
