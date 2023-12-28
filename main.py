@@ -1,9 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_pressure(force, area):
+        return force / area
+import random
+def roll_die():
+        return random.randint(1, 6)
