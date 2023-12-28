@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
