@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
