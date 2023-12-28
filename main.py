@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def find_min(lst):
-        return min(lst)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
