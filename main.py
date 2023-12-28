@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def cube_number(x):
-        return x**3
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_itemsize(array):
+        return array.itemsize
