@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
