@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
