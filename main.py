@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+from collections import Counter
+print(Counter("hello world"))
