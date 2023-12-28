@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-text = "Hello, world!"
-print("Characters:", len(text))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
