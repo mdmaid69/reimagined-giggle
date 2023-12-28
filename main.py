@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+name = "Python"
+print("Hello,", name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
