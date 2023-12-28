@@ -1,5 +1,10 @@
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
