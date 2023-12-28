@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import sys
-def print_python_version():
-        return sys.version
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
