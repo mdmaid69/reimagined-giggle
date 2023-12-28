@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def greet(name):
+        print(f"Hello, {name}!")
