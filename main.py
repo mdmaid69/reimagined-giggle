@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def is_even(n):
+        return n % 2 == 0
+import platform
+def get_os_info():
+        return platform.uname()
