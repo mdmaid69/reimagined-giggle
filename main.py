@@ -1,5 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import os
-print(os.getcwd())
+def get_array_as_tuple(array):
+        return tuple(array)
