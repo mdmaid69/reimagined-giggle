@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
