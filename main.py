@@ -1,5 +1,7 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-print(random.randint(0, 100))
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
