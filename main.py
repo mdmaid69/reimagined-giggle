@@ -1,8 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
