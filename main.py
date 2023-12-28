@@ -1,4 +1,11 @@
-  def is_even(n):
-        return n % 2 == 0
-from collections import Counter
-print(Counter("hello world"))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+text = "Hello, world!"
+print("Words:", len(text.split()))
