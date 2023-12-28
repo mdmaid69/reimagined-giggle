@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-print(os.getcwd())
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
