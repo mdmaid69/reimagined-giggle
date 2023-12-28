@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def find_unique_words(sentence):
+        return set(sentence.split())
