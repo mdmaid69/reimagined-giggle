@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import logging
+def log_message(message):
+        logging.info(message)
+  def calculate_area_rectangle(l, w):
+        return l * w
