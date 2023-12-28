@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
