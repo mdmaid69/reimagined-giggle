@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_floor(x):
+        return math.floor(x)
