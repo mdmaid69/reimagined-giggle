@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_sine(x):
+        return math.sin(x)
