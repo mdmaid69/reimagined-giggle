@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
