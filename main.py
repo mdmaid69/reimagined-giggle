@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
