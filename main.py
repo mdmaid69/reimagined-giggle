@@ -1,6 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
