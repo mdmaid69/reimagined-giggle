@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import random
-print(random.randint(0, 100))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
