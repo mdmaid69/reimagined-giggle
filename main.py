@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
