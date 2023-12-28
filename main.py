@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def split_path(path):
+        return os.path.split(path)
+import logging
+def log_message(message):
+        logging.info(message)
