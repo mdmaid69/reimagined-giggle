@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import random
-print(random.randint(0, 100))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
