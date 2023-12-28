@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
