@@ -1,6 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
