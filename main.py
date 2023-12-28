@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
