@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_as_str(array):
-        return str(array)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
