@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
