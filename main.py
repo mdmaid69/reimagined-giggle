@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
