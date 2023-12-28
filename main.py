@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
