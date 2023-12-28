@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
