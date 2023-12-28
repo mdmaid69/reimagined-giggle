@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
