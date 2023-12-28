@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import re
-print(re.match("h.*o", "hello world"))
+def count_characters(sentence):
+        return len(sentence)
+def sort_numbers(numbers):
+        return sorted(numbers)
