@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_area_rectangle(l, w):
+        return l * w
+def square_number(x):
+        return x**2
