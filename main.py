@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
