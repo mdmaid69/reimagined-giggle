@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
