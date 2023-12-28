@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import sys
-def print_python_version():
-        print(sys.version)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def greet(name):
+        print(f"Hello, {name}!")
