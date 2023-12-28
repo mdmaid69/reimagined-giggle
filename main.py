@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
