@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
