@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
