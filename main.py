@@ -1,7 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import csv
-def read_csv_file(filename):
+import json
+def load_json(filename):
         with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+        return json.load(f)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
