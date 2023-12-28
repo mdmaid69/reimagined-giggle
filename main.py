@@ -1,5 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
