@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def find_max(lst):
+        return max(lst)
