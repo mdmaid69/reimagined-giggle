@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
