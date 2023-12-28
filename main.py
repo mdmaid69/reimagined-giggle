@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import sys
+def print_python_version():
+        return sys.version
