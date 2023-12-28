@@ -1,6 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
