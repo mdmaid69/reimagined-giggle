@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_as_set(array):
-        return set(array)
+def is_palindrome(s):
+        return s == s[::-1]
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
