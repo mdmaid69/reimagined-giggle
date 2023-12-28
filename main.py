@@ -1,7 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def is_palindrome(s):
+        return s == s[::-1]
+x = 10
+y = 20
+print("Sum:", x + y)
