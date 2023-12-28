@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def square_number(x):
+        return x**2
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
