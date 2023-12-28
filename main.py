@@ -1,5 +1,8 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_bool(array):
+        return bool(array)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
