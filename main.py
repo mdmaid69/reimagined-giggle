@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
