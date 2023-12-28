@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
