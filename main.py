@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
