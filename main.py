@@ -1,5 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
