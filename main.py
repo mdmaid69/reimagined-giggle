@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
