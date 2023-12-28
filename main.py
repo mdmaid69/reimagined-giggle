@@ -1,6 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
