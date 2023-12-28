@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def convert_to_hex(n):
-        return hex(n)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
