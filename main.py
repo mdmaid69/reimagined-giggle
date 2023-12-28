@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
