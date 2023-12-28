@@ -1,5 +1,11 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
