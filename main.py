@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
