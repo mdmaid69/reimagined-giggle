@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
