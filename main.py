@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import os
+print(os.getcwd())
