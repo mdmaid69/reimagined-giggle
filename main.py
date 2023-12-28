@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import sys
+  def get_python_version():
+        return sys.version
