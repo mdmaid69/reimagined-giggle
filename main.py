@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_index(array, item):
+        return array.index(item)
