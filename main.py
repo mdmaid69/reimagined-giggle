@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
