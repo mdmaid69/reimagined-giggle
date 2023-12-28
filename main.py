@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def convert_array_to_list(array):
+        return array.tolist()
