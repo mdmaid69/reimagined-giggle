@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def cube_number(x):
-        return x**3
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import os
+def remove_directory(path):
+        os.rmdir(path)
