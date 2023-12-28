@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def append_to_array(array, item):
+        array.append(item)
