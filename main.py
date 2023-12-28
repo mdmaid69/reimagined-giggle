@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
