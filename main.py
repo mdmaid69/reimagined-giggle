@@ -1,6 +1,8 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_priority_queue():
-        return collections.deque()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
