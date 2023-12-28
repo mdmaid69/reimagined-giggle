@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
+def find_min(numbers):
+        return min(numbers)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
