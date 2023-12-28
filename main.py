@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
