@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
