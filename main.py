@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def convert_to_hex(n):
+        return hex(n)
