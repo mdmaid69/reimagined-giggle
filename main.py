@@ -1,5 +1,8 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_str(array):
+        return str(array)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
