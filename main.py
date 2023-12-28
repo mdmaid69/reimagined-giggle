@@ -1,7 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
