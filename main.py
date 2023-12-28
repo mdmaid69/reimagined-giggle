@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
