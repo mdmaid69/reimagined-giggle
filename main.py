@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
