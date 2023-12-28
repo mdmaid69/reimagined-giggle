@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
