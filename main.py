@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def reverse_array(array):
+        array.reverse()
