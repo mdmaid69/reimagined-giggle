@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
