@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
