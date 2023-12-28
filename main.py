@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def cube_number(x):
-        return x**3
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_user_dict():
+        return collections.UserDict()
