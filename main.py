@@ -1,8 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
