@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def square_number(x):
-        return x**2
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
