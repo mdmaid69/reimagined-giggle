@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
