@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
