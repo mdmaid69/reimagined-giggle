@@ -1,6 +1,10 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
