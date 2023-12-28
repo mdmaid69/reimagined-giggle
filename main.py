@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def reverse_list(lst):
+        return lst[::-1]
