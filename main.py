@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
