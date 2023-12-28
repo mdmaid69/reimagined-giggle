@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
