@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
