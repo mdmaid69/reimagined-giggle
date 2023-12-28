@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_pressure(force, area):
+        return force / area
+i = 0
+while i < 5:
+        print(i)
+        i += 1
