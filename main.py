@@ -1,8 +1,7 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
