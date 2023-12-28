@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
