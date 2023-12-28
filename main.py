@@ -1,5 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
