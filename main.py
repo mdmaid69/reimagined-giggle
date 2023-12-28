@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import platform
+def get_python_version():
+        return platform.python_version()
