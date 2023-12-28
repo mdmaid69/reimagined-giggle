@@ -1,6 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
