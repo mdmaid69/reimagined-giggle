@@ -1,4 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
