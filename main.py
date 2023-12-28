@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_str(array):
-        return str(array)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_volume(length, width, height):
+        return length * width * height
