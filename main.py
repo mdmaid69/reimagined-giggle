@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
