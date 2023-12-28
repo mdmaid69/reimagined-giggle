@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
