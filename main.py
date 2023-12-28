@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
