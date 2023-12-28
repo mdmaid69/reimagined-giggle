@@ -1,5 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def find_min(lst):
-        return min(lst)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
