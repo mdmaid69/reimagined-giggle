@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_speed(distance, time):
+        return distance / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
