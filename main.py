@@ -1,6 +1,11 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
