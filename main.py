@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
