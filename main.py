@@ -1,8 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_float(array):
+        return float(array[0])
