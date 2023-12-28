@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
