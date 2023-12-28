@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
