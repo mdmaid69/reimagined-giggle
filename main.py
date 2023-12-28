@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
