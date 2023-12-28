@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
