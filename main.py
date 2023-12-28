@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
