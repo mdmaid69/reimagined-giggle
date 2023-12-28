@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
