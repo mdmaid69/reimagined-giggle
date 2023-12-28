@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
