@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
