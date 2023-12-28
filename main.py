@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
