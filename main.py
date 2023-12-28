@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
