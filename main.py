@@ -1,6 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
