@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
