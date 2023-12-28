@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
