@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import sys
-def exit_program():
-        sys.exit()
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
