@@ -1,3 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
-print(sum(range(10)))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
