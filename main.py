@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
