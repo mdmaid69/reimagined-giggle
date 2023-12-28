@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
