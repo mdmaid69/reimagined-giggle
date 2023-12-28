@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_pressure(force, area):
+        return force / area
+def calculate_work(force, distance):
+        return force * distance
