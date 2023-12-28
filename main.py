@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
