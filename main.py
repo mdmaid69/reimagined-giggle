@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import time
-def get_time_since_epoch():
-        return time.time()
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_bool(array):
+        return bool(array)
