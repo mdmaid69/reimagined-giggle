@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
