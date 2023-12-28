@@ -1,5 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def is_even(n):
-        return n % 2 == 0
+def get_array_item_count(array, item):
+        return array.count(item)
