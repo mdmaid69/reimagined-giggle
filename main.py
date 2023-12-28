@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import tensorflow as tf
+print(tf.__version__)
