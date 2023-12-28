@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
