@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import os
+def change_working_directory(path):
+        os.chdir(path)
+from collections import Counter
+print(Counter("hello world"))
