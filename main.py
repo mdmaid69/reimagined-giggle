@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_area(radius):
+        return 3.14 * radius * radius
