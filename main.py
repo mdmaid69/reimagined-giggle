@@ -1,5 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
