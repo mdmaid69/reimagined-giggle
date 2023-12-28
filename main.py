@@ -1,7 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
