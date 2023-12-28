@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
