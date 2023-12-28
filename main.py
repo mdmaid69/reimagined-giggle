@@ -1,5 +1,8 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
