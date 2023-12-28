@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
