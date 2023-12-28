@@ -1,5 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_power(work, time):
-        return work / time
+def calculate_circle_area(radius):
+        return math.pi * radius**2
