@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
