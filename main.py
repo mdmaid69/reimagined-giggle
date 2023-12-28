@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def find_min(lst):
+        return min(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
