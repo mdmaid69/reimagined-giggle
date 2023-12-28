@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
