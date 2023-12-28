@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
