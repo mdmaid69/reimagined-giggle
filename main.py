@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
