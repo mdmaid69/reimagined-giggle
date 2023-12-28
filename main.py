@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
