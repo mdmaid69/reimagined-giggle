@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
