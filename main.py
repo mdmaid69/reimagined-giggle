@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import getpass
+def get_username():
+        return getpass.getuser()
