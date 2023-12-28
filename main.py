@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
