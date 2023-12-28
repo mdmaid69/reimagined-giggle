@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def multiply_numbers(x, y):
-        return x * y
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
