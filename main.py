@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def count_words(sentence):
+        return len(sentence.split())
