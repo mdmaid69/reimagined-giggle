@@ -1,5 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
