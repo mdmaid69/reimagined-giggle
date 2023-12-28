@@ -1,5 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def convert_to_binary(n):
+        return bin(n)
