@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def convert_to_hex(n):
-        return hex(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
