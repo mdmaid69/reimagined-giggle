@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def sort_list(lst):
+        return sorted(lst)
+def subtract_numbers(x, y):
+        return x - y
