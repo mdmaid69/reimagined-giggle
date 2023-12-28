@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def add_numbers(x, y):
-        return x + y
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
