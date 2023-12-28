@@ -1,10 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import numpy as np
+print(np.array([1, 2, 3]))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
