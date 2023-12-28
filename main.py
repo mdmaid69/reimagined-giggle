@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
