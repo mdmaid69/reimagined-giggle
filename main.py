@@ -1,5 +1,12 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def count_characters(sentence):
-        return len(sentence)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
