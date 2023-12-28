@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_list_from_array(array):
+        return array.tolist()
