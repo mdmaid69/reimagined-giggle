@@ -1,7 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import tensorflow as tf
+print(tf.__version__)
+def convert_to_hex(n):
+        return hex(n)
