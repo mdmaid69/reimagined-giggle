@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
