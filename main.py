@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
