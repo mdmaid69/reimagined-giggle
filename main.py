@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
