@@ -1,7 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
