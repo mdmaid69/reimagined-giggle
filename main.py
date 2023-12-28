@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_acceleration(speed, time):
-        return speed / time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
