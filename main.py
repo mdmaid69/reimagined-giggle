@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_acceleration(speed, time):
+        return speed / time
