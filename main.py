@@ -1,5 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def reverse_list(lst):
+        return lst[::-1]
