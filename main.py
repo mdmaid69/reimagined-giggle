@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
