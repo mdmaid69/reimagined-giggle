@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-print(random.randint(0, 100))
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
