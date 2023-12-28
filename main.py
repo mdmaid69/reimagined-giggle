@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  def add_numbers(x, y):
+        return x + y
