@@ -1,6 +1,5 @@
+def square_number(x):
+        return x**2
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
