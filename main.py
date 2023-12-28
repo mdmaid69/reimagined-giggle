@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_sine(x):
+        return math.sin(x)
