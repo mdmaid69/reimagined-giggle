@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
