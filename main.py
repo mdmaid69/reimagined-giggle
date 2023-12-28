@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
