@@ -1,4 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-for i in range(10): print(i)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import time
+def get_time_since_epoch():
+        return time.time()
