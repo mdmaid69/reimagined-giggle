@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
