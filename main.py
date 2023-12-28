@@ -1,5 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
