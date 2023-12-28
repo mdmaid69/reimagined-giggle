@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
