@@ -1,6 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
