@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
