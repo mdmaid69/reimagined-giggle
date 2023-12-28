@@ -1,5 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
