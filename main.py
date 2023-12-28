@@ -1,4 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
