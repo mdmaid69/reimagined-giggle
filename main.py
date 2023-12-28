@@ -1,8 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
