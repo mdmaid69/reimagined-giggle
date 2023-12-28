@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
