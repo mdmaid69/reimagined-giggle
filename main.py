@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
