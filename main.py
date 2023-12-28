@@ -1,5 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
