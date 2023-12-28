@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def add_numbers(a, b):
+        return a + b
