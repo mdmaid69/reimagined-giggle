@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
