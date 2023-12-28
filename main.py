@@ -1,11 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def subtract_numbers(x, y):
-        return x - y
+def is_even(n):
+        return n % 2 == 0
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
