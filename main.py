@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import sys
+def print_python_version():
+        print(sys.version)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
