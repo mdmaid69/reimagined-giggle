@@ -1,5 +1,5 @@
+def add_numbers(a, b):
+        return a + b
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
