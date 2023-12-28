@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
