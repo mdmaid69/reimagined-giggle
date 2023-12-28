@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def multiply_numbers(x, y):
+        return x * y
