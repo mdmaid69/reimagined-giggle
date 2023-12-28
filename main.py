@@ -1,7 +1,8 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_sine(x):
+        return math.sin(x)
