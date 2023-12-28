@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_min(lst):
+        return min(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
