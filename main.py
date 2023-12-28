@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
