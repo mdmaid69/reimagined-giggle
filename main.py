@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
