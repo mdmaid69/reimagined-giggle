@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_area_circle(r):
+        return 3.14 * r**2
