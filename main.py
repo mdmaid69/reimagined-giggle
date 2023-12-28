@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
