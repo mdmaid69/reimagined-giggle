@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-x = 10
-y = 20
-print("Sum:", x + y)
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
