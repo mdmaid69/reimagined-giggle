@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def convert_to_binary(n):
+        return bin(n)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
