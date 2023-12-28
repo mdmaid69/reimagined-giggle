@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
