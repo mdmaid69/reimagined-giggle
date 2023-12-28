@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
