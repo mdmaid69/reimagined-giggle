@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_acceleration(speed, time):
+        return speed / time
