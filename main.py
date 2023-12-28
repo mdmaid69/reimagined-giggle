@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.time()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
