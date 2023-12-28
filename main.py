@@ -1,5 +1,8 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
