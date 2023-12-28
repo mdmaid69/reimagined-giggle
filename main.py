@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
