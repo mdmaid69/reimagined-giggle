@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
