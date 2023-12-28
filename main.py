@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+def divide_numbers(x, y):
+        return x / y
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_complex(array):
+        return complex(array[0])
