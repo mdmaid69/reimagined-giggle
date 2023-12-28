@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def convert_to_octal(n):
+        return oct(n)
