@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import platform
+def get_os_info():
+        return platform.uname()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
