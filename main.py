@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def square_number(x):
+        return x**2
