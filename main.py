@@ -1,5 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import sys
+def print_python_version():
+        return sys.version
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
