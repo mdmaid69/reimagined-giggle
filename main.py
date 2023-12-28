@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
