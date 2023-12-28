@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
