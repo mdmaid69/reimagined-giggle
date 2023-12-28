@@ -1,4 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import time
+def get_current_time():
+        return time.time()
