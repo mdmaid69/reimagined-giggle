@@ -1,8 +1,6 @@
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def get_array_typecode(array):
+        return array.typecode
