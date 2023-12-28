@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_work(force, distance):
+        return force * distance
