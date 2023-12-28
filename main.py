@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_volume(length, width, height):
+        return length * width * height
