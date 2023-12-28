@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def square_number(x):
-        return x**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
