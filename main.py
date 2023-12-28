@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
