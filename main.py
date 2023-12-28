@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
