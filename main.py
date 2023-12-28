@@ -1,6 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def add_numbers(x, y):
+        return x + y
