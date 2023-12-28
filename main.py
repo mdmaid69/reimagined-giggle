@@ -1,5 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
