@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_user_list():
+        return collections.UserList()
+import random
+def roll_die():
+        return random.randint(1, 6)
