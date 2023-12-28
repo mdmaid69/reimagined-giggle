@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
