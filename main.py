@@ -1,7 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
