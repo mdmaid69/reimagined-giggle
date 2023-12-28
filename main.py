@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
