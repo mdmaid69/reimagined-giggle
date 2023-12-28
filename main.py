@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def cube_number(x):
-        return x**3
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
