@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def divide_numbers(x, y):
+        return x / y
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_length(array):
+        return len(array)
