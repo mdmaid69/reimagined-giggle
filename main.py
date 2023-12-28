@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
