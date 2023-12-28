@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_cosine(x):
+        return math.cos(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
