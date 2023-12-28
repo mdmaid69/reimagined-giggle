@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
