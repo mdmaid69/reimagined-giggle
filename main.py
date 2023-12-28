@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
