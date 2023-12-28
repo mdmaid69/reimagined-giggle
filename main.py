@@ -1,6 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
