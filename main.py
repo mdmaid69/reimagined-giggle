@@ -1,9 +1,8 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def get_array_from_file(filename, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromunicode(unicode)
         return a
