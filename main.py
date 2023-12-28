@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_set(array):
-        return set(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
