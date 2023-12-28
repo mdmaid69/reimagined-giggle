@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def sort_list(lst):
+        return sorted(lst)
