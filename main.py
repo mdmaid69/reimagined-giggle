@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def count_elements(lst):
+        return len(lst)
