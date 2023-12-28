@@ -1,7 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
