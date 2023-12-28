@@ -1,5 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_list_from_array(array):
-        return array.tolist()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
