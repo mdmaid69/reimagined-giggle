@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
