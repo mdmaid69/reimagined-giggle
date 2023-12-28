@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-from collections import Counter
-print(Counter("hello world"))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
