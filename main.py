@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_work(force, distance):
-        return force * distance
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
