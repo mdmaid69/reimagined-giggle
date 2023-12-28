@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
