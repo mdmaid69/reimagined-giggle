@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
