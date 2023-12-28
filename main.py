@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import time
+def get_time_since_epoch():
+        return time.time()
