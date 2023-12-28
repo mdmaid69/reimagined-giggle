@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
