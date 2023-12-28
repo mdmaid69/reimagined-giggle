@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
