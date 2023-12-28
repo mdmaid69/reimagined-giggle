@@ -1,6 +1,8 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
