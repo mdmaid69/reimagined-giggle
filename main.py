@@ -1,6 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_area_rectangle(l, w):
+        return l * w
