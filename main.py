@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
