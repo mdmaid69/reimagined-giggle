@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
