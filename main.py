@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
