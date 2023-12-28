@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+i = 0
+while i < 5:
+        print(i)
+        i += 1
