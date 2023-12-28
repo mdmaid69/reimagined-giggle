@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
