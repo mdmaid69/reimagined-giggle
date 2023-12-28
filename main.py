@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import getpass
+def get_username():
+        return getpass.getuser()
