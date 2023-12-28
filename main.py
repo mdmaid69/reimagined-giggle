@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
