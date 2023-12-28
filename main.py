@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def multiply_numbers(x, y):
-        return x * y
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
