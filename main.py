@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
