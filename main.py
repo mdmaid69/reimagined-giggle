@@ -1,5 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def reverse_list(lst):
+        return lst[::-1]
