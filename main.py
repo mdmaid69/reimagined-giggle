@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
