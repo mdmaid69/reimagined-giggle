@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_acceleration(speed, time):
+        return speed / time
