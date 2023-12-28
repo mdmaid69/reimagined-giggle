@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import numpy as np
+print(np.array([1, 2, 3]))
