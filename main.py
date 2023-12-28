@@ -1,5 +1,4 @@
-import math
-print(math.pi)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
