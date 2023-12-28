@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
