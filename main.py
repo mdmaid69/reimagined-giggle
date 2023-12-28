@@ -1,8 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_length(array):
+        return len(array)
