@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import random
+print(random.randint(0, 100))
