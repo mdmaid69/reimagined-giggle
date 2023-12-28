@@ -1,4 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-print(sum(range(10)))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_speed(distance, time):
+        return distance / time
