@@ -1,6 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
