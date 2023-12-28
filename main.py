@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
