@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
