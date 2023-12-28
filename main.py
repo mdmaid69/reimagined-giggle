@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+def sort_numbers(numbers):
+        return sorted(numbers)
