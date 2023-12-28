@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def add_numbers(a, b):
-        return a + b
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def clear_array(array):
+        array *= 0
