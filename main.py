@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def square_number(x):
-        return x**2
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def set_array_item(array, i, item):
+        array[i] = item
