@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def count_characters(sentence):
-        return len(sentence)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
