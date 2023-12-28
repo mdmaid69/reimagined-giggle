@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
