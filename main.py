@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
