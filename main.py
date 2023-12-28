@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
