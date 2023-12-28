@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
