@@ -1,6 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def add_numbers(a, b):
+        return a + b
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
