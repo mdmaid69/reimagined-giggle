@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
