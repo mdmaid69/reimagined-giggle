@@ -1,5 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
