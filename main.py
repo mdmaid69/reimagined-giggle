@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
