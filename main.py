@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
