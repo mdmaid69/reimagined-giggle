@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import os
-print(os.getcwd())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
