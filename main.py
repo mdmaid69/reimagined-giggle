@@ -1,6 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
