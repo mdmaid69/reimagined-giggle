@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def convert_to_hex(n):
+        return hex(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
