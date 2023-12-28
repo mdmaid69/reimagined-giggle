@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
