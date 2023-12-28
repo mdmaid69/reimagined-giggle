@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import sys
+  def get_python_version():
+        return sys.version
