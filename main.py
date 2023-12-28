@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+for i in range(5):
+        print(i)
