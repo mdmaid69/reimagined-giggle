@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_counter():
-        return collections.Counter()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import platform
+def get_python_version():
+        return platform.python_version()
