@@ -1,6 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
