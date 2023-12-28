@@ -1,4 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
