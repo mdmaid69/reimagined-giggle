@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import sys
+  def get_python_version():
+        return sys.version
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
