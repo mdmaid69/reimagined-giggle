@@ -1,5 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
