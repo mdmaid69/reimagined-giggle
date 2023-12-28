@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_item(array, i):
+        return array[i]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
