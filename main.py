@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
