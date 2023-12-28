@@ -1,5 +1,6 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
