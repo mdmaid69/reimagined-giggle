@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
