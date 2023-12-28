@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import random
+print(random.randint(0, 100))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
