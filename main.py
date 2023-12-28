@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def multiply_numbers(x, y):
+        return x * y
