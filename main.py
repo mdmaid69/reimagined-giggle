@@ -1,5 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def cube_number(x):
-        return x**3
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
