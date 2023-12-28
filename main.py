@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_speed(distance, time):
+        return distance / time
