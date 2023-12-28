@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
