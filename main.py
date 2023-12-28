@@ -1,6 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
