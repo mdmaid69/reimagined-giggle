@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def square_number(x):
-        return x**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
