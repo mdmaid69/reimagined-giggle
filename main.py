@@ -1,5 +1,6 @@
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_pressure(force, area):
-        return force / area
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
