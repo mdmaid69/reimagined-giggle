@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
