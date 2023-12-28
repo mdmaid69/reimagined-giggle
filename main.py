@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
