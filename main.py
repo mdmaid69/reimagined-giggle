@@ -1,7 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
         plt.show()
+import tensorflow as tf
+print(tf.__version__)
