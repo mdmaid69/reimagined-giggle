@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
