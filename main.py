@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
