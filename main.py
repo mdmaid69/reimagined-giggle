@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
