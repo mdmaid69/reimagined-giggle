@@ -1,6 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+from collections import Counter
+print(Counter("hello world"))
