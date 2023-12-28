@@ -1,5 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import tensorflow as tf
-print(tf.__version__)
+  def get_directory_name(path):
+        return os.path.dirname(path)
