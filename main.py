@@ -1,4 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-print([x**2 for x in range(10)])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
