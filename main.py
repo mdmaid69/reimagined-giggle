@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import logging
+def log_message(message):
+        logging.info(message)
+  def is_even(n):
+        return n % 2 == 0
