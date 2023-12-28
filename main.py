@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
