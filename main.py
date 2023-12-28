@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import datetime
+print(datetime.datetime.now())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
