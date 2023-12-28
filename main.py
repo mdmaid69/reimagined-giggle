@@ -1,8 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def delete_file(file_name):
+        os.remove(file_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
