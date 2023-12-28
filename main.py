@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import random
-print(random.randint(0, 100))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def add_numbers(x, y):
+        return x + y
