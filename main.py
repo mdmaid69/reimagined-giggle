@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
