@@ -1,7 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
