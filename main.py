@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
