@@ -1,5 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def get_array_item(array, i):
+        return array[i]
