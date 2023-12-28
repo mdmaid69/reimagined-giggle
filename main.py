@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
