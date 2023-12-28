@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def add_numbers(x, y):
+        return x + y
+def calculate_area_rectangle(l, w):
+        return l * w
