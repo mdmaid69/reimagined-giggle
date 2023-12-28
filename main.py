@@ -1,5 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import platform
+def get_python_version():
+        return platform.python_version()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
