@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
