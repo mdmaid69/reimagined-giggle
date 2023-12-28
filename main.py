@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def convert_to_octal(n):
+        return oct(n)
