@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
