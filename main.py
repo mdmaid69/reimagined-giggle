@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
