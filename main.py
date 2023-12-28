@@ -1,6 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
