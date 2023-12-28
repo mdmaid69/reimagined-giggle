@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import logging
-def log_message(message):
-        logging.info(message)
+import sys
+def print_python_version():
+        print(sys.version)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
