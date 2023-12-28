@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import os
+print(os.getcwd())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
