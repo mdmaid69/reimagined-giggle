@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def sort_list(lst):
+        return sorted(lst)
