@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
