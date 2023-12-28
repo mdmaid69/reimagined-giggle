@@ -1,3 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-for i in range(10): print(i)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
