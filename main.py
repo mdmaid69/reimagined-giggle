@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
