@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def is_even(n):
+        return n % 2 == 0
