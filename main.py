@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_index(array, item):
+        return array.index(item)
