@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+from collections import Counter
+print(Counter("hello world"))
