@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
