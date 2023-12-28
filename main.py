@@ -1,5 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+print("Hello, world!")
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
