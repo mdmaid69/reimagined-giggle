@@ -1,4 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_area(radius):
+        return 3.14 * radius * radius
