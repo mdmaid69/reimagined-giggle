@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
