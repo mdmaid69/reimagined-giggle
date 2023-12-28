@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def split_path(path):
+        return os.path.split(path)
