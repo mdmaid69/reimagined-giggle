@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def find_min(numbers):
-        return min(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
