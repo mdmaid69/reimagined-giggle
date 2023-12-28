@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def cube_number(x):
+        return x**3
