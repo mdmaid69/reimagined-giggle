@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
