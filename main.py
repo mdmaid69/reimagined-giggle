@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_power(work, time):
+        return work / time
