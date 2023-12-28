@@ -1,5 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def reverse_string(s):
-        return s[::-1]
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
