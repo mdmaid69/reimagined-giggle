@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_density(mass, volume):
+        return mass / volume
