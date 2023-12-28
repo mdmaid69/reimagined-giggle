@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
