@@ -1,7 +1,7 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def get_array_as_bool(array):
+        return bool(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
