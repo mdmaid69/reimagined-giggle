@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
