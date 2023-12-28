@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import time
+def get_current_time():
+        return time.ctime()
