@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
