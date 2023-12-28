@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
