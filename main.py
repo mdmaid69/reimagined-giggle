@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
