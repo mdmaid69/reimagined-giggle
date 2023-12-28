@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
