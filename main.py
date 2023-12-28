@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
