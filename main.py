@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def is_even(n):
+        return n % 2 == 0
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
