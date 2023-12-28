@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_work(force, distance):
+        return force * distance
+def calculate_volume(length, width, height):
+        return length * width * height
