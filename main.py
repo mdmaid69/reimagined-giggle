@@ -1,7 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
