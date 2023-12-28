@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
