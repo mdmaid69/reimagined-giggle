@@ -1,6 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def get_array_as_memoryview(array):
+        return memoryview(array)
