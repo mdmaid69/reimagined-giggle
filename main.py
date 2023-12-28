@@ -1,5 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
