@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
 def calculate_pressure(force, area):
         return force / area
+  def is_odd(n):
+        return n % 2 != 0
