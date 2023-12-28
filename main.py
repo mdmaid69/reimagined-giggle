@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
