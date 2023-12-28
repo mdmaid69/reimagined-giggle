@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def convert_to_hex(n):
+        return hex(n)
