@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def find_max(numbers):
+        return max(numbers)
+import datetime
+def get_current_date():
+        return datetime.date.today()
