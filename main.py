@@ -1,6 +1,11 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import numpy as np
+print(np.array([1, 2, 3]))
