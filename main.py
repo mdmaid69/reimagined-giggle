@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
