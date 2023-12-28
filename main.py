@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
