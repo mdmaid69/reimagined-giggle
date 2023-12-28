@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def reverse_list(lst):
-        return lst[::-1]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+print(math.pi)
