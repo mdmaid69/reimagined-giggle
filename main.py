@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
