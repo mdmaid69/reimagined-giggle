@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import os
+print(os.getcwd())
