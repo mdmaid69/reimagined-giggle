@@ -1,5 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
