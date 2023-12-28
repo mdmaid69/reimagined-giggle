@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
