@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
