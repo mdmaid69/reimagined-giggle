@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
