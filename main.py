@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def convert_to_binary(n):
+        return bin(n)
