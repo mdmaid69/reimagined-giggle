@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
