@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import platform
+def get_python_version():
+        return platform.python_version()
