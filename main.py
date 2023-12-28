@@ -1,7 +1,7 @@
+from collections import Counter
+print(Counter("hello world"))
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
