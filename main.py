@@ -1,8 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
