@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
