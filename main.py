@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def add_numbers(x, y):
+        return x + y
