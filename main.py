@@ -1,6 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def add_numbers(a, b):
+        return a + b
