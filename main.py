@@ -1,4 +1,11 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
