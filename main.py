@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
