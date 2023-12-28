@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
