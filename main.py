@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
