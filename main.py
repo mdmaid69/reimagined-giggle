@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
