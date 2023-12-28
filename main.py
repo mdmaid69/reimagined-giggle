@@ -1,5 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_density(mass, volume):
+        return mass / volume
