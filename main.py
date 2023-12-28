@@ -1,4 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import random
-print(random.randint(0, 100))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
