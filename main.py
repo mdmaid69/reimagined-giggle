@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def get_array_as_set(array):
+        return set(array)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
