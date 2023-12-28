@@ -1,6 +1,5 @@
+  def add_numbers(x, y):
+        return x + y
 import array
-def clear_array(array):
-        array *= 0
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def convert_array_to_string(array):
+        return array.tostring()
