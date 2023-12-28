@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_pressure(force, area):
-        return force / area
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
