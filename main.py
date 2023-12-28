@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def is_even(n):
+        return n % 2 == 0
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
