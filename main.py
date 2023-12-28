@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
