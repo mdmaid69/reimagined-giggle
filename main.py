@@ -1,5 +1,7 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
