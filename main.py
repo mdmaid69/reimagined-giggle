@@ -1,7 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
