@@ -1,6 +1,12 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
