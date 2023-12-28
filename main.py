@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
