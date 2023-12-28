@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
