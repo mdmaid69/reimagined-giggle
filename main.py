@@ -1,5 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def is_even(n):
-        return n % 2 == 0
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
