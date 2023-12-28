@@ -1,6 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_circle_area(radius):
+        return math.pi * radius**2
