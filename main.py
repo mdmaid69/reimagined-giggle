@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
