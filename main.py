@@ -1,7 +1,7 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
