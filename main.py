@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def find_max(lst):
+        return max(lst)
