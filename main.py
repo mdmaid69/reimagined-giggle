@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
