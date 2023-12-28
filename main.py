@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
