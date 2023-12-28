@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def convert_to_octal(n):
+        return oct(n)
