@@ -1,6 +1,8 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def is_even(n):
+        return n % 2 == 0
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
