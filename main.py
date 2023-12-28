@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+print([x**2 for x in range(10)])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
