@@ -1,6 +1,6 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
