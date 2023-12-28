@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
