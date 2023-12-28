@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
