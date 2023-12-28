@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_error_function(x):
+        return math.erf(x)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
