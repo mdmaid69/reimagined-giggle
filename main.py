@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
