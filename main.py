@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_list_from_array(array):
+        return array.tolist()
