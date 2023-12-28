@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
