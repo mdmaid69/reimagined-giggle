@@ -1,6 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
