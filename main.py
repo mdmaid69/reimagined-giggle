@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
