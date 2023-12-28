@@ -1,8 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def convert_to_hex(n):
+        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
