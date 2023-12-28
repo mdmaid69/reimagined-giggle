@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
