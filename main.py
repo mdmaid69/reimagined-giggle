@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
