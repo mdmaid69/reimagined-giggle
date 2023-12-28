@@ -1,6 +1,3 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def square_number(x):
+        return x**2
+for i in range(10): print(i)
