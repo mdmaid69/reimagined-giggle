@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
