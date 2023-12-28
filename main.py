@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
