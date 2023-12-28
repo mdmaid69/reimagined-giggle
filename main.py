@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
 import array
-def get_array_typecode(array):
-        return array.typecode
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
