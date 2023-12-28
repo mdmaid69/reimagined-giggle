@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
