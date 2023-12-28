@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
