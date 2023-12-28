@@ -1,3 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-print([x**2 for x in range(10)])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
