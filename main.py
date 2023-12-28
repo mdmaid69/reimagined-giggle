@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_speed(distance, time):
+        return distance / time
