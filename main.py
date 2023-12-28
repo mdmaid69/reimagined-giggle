@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
