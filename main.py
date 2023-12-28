@@ -1,6 +1,5 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
