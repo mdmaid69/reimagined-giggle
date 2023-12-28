@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  def convert_to_binary(n):
-        return bin(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
