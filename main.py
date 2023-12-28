@@ -1,6 +1,10 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
