@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_volume(length, width, height):
+        return length * width * height
