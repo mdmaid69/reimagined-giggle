@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
