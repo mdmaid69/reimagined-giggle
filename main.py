@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def reverse_list(lst):
-        return lst[::-1]
+print(sum(range(10)))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
