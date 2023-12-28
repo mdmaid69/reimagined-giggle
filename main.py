@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
