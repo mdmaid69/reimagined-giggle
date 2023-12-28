@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def get_array_item(array, i):
+        return array[i]
