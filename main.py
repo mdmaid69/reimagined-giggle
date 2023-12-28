@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def clear_array(array):
+        array *= 0
+import sys
+def print_python_version():
+        print(sys.version)
