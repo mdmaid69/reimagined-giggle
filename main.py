@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
