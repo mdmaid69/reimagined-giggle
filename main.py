@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
