@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
