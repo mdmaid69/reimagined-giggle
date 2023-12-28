@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_power(work, time):
+        return work / time
+  def cube_number(x):
+        return x**3
