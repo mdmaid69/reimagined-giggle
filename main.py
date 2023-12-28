@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
