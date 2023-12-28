@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def convert_to_hex(n):
+        return hex(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
