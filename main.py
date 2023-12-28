@@ -1,7 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
