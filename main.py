@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
