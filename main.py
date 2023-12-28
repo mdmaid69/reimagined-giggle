@@ -1,6 +1,7 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
