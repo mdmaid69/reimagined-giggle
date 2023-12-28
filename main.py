@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
