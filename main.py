@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-name = "Python"
-print("Hello,", name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
