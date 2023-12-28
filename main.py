@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import datetime
+def get_current_date():
+        return datetime.date.today()
