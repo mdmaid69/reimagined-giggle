@@ -1,6 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
