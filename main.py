@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
