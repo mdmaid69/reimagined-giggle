@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
