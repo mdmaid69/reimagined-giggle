@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
