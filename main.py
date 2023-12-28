@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import time
-print(time.time())
+  def is_odd(n):
+        return n % 2 != 0
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
