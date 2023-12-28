@@ -1,5 +1,9 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
