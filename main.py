@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
