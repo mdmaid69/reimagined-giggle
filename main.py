@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def clear_array(array):
-        array *= 0
+def subtract_numbers(x, y):
+        return x - y
+  import sys
+  def get_python_version():
+        return sys.version
