@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
+def clear_array(array):
+        array *= 0
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
