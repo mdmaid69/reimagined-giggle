@@ -1,4 +1,5 @@
-import time
-print(time.time())
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def square_number(x):
+        return x**2
+import array
+def get_array_length(array):
+        return len(array)
