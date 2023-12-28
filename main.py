@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
