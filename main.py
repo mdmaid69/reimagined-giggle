@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_current_working_directory():
+        return os.getcwd()
