@@ -1,7 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
