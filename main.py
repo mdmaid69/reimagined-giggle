@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
