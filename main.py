@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import getpass
+def get_username():
+        return getpass.getuser()
