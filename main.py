@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
