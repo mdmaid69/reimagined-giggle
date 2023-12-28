@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
