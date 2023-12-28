@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
