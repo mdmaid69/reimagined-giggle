@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
