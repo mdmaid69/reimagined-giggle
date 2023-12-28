@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
