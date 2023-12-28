@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
