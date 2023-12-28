@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def append_to_array(array, item):
-        array.append(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import time
+def get_current_time():
+        return time.ctime()
