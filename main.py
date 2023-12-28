@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_as_set(array):
+        return set(array)
