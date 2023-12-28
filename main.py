@@ -1,6 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
