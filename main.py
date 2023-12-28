@@ -1,5 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-def reverse_string(s):
-        return s[::-1]
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
