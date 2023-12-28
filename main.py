@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import platform
+def get_os_info():
+        return platform.uname()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
