@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_density(mass, volume):
+        return mass / volume
+def reverse_string(s):
+        return s[::-1]
