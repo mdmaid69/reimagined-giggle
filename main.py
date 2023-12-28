@@ -1,7 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
