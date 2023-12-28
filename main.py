@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
