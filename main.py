@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import sys
+  def get_python_version():
+        return sys.version
