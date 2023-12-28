@@ -1,6 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
