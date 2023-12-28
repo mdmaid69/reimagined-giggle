@@ -1,7 +1,9 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_work(force, distance):
-        return force * distance
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
