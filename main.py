@@ -1,8 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
