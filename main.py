@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def is_odd(n):
+        return n % 2 != 0
