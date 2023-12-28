@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_length(array):
-        return len(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+print("Hello, world!")
