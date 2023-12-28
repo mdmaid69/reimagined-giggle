@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
