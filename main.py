@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_pressure(force, area):
+        return force / area
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
