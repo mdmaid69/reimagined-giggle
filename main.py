@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
