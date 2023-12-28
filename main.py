@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
