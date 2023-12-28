@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def append_to_array(array, item):
+        array.append(item)
