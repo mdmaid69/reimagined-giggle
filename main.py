@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-name = "Python"
-print("Hello,", name)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_str(array):
+        return str(array)
