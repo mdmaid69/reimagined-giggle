@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import sys
+def exit_program():
+        sys.exit()
