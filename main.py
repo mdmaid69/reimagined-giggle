@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
