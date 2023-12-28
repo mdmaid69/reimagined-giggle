@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
