@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
