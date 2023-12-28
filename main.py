@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
