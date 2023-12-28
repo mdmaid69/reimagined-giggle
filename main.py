@@ -1,5 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
