@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_work(force, distance):
+        return force * distance
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
