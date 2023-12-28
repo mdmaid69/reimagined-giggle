@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def is_even(n):
-        return n % 2 == 0
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
