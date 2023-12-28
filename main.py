@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def list_files_in_directory(path):
+        return os.listdir(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
