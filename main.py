@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
