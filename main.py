@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
