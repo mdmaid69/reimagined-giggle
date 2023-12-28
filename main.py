@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
