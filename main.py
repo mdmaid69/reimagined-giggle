@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
