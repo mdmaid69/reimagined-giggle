@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
