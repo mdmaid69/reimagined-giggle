@@ -1,6 +1,5 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def get_array_as_str(array):
+        return str(array)
+def subtract_numbers(x, y):
+        return x - y
