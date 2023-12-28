@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def get_array_as_str(array):
+        return str(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
