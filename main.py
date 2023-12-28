@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
