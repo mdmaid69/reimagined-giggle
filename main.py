@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def add_numbers(a, b):
-        return a + b
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
