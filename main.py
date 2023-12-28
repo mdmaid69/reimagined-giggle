@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_list_from_array(array):
+        return array.tolist()
