@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import collections
-def create_queue():
-        return collections.deque()
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
