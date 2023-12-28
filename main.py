@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
