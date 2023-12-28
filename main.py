@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def extend_array(array, iterable):
+        array.extend(iterable)
