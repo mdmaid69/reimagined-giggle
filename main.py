@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
