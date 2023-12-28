@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
