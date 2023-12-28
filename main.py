@@ -1,7 +1,9 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
