@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import time
-def get_current_time():
-        return time.time()
+def calculate_acceleration(speed, time):
+        return speed / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
