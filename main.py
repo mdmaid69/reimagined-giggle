@@ -1,5 +1,11 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
