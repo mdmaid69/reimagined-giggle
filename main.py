@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def calculate_area_rectangle(l, w):
+        return l * w
