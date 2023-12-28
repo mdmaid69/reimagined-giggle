@@ -1,6 +1,8 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
