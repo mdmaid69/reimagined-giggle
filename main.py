@@ -1,6 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
