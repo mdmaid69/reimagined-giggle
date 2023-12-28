@@ -1,8 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
