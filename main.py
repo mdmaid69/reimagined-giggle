@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  def square_number(x):
+        return x**2
