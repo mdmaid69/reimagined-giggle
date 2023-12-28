@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_power(work, time):
-        return work / time
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
