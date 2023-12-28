@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
