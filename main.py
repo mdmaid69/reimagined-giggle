@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+from collections import Counter
+print(Counter("hello world"))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
