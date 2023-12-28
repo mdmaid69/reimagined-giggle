@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
