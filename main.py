@@ -1,6 +1,11 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
