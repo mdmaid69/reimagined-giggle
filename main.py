@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
