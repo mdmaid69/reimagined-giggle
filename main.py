@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_work(force, distance):
-        return force * distance
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
