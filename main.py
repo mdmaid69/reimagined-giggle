@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
