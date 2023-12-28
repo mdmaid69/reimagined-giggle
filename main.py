@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
