@@ -1,5 +1,9 @@
-import math
-print(math.pi)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
