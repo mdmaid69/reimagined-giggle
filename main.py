@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import time
+def get_current_time():
+        return time.time()
