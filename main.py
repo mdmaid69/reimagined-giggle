@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
