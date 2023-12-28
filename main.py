@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_user_string():
-        return collections.UserString()
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
