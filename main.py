@@ -1,6 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_itemsize(array):
+        return array.itemsize
+def add_numbers(a, b):
+        return a + b
