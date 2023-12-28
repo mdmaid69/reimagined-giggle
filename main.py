@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def reverse_array(array):
-        array.reverse()
+def greet(name):
+        print(f"Hello, {name}!")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
