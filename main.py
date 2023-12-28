@@ -1,6 +1,7 @@
-  import sys
-  def get_python_version():
-        return sys.version
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
