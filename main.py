@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_speed(distance, time):
+        return distance / time
