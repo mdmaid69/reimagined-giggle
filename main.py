@@ -1,6 +1,6 @@
 import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
