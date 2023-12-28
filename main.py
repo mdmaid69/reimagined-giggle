@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
