@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
