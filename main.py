@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
