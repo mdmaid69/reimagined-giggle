@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
