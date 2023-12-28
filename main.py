@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def find_max(lst):
-        return max(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
