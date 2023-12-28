@@ -1,10 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
