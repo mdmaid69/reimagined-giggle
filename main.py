@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
