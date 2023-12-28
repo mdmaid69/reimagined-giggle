@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
