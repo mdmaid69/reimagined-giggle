@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
