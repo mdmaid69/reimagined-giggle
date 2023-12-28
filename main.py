@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
