@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def cube_number(x):
-        return x**3
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
