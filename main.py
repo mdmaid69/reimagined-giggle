@@ -1,4 +1,3 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_speed(distance, time):
-        return distance / time
+print([x**2 for x in range(10)])
+  def count_elements(lst):
+        return len(lst)
