@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_length(array):
+        return len(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
