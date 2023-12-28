@@ -1,4 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-print("Hello, world!")
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
