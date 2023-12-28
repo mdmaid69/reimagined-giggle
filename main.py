@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_max(lst):
-        return max(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
