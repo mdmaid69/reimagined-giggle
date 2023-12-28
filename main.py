@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
