@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
