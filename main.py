@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
