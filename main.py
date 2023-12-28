@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
