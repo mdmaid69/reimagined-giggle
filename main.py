@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  def is_even(n):
-        return n % 2 == 0
+import math
+print(math.pi)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
