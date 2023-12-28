@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_density(mass, volume):
+        return mass / volume
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
