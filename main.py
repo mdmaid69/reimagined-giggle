@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-from collections import Counter
-print(Counter("hello world"))
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
