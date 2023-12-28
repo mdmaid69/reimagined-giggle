@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
