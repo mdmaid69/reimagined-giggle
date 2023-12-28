@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import collections
-def create_queue():
-        return collections.deque()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
