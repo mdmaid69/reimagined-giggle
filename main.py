@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
