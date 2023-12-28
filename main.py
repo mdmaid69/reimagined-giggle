@@ -1,4 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-print(time.time())
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
