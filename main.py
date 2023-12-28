@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
