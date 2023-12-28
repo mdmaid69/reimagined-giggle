@@ -1,4 +1,4 @@
-print(sum(range(10)))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
