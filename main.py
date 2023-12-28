@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_density(mass, volume):
-        return mass / volume
+print(sum(range(10)))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
