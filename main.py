@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def delete_file(file_name):
+        os.remove(file_name)
