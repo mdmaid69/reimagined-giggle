@@ -1,5 +1,12 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
