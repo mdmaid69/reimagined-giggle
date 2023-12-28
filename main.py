@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def convert_array_to_bytes(array):
+        return array.tobytes()
