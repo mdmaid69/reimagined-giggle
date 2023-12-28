@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def reverse_list(lst):
+        return lst[::-1]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
