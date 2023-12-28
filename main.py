@@ -1,7 +1,13 @@
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def iterate_over_array(array):
+        for item in array:
+        print(item)
