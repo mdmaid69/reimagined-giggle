@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
