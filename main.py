@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import numpy as np
-print(np.array([1, 2, 3]))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def convert_to_hex(n):
+        return hex(n)
