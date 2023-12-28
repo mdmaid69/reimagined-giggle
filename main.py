@@ -1,7 +1,8 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
