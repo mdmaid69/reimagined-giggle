@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def reverse_list(lst):
+        return lst[::-1]
+import time
+def get_current_time():
+        return time.time()
