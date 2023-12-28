@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
