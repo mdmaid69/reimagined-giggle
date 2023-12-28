@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
