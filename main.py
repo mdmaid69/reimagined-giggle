@@ -1,8 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
