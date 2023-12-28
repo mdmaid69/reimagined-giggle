@@ -1,5 +1,7 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  def remove_duplicates(lst):
+        return list(set(lst))
