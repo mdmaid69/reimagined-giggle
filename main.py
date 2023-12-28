@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def reverse_string(s):
+        return s[::-1]
+import time
+def get_current_time():
+        return time.ctime()
