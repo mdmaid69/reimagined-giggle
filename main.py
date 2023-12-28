@@ -1,5 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
