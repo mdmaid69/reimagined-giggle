@@ -1,5 +1,5 @@
+import sys
+print(sys.version)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def count_elements(lst):
-        return len(lst)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
