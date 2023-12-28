@@ -1,6 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
