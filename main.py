@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_queue():
+        return collections.deque()
+import datetime
+def get_current_date():
+        return datetime.date.today()
