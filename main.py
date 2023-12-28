@@ -1,9 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
