@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
