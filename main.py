@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def remove_duplicates(lst):
-        return list(set(lst))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+from collections import Counter
+print(Counter("hello world"))
