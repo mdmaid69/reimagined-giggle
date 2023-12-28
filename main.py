@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
