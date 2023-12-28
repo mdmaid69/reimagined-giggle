@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
