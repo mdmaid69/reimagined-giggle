@@ -1,5 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def cube_number(x):
+        return x**3
