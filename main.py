@@ -1,5 +1,11 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
