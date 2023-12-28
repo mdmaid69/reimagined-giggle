@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
