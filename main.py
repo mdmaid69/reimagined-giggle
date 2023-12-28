@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_index(array, item):
+        return array.index(item)
