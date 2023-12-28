@@ -1,5 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_power(work, time):
-        return work / time
+def get_array_slice(array, i, j):
+        return array[i:j]
+def remove_duplicates(lst):
+        return list(set(lst))
