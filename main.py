@@ -1,4 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-print("Hello, world!")
+def calculate_volume(length, width, height):
+        return length * width * height
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
