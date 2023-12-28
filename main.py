@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def sort_numbers(numbers):
-        return sorted(numbers)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
