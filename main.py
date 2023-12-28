@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def clear_array(array):
+        array *= 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
