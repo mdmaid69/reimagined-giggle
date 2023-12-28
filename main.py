@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_power(work, time):
+        return work / time
