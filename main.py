@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def is_odd(n):
+        return n % 2 != 0
