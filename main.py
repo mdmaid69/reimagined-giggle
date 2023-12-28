@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def multiply_numbers(x, y):
+        return x * y
