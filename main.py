@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
