@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
