@@ -1,5 +1,11 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
