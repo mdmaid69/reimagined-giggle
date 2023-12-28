@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
