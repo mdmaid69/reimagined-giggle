@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import sys
+def exit_program():
+        sys.exit()
+def is_odd(n):
+        return n % 2 != 0
