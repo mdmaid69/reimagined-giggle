@@ -1,6 +1,8 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
