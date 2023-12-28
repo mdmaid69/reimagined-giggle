@@ -1,6 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  def count_elements(lst):
+        return len(lst)
