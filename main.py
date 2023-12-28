@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
