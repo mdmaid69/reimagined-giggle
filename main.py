@@ -1,8 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
