@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
