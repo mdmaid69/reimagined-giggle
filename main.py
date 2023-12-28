@@ -1,4 +1,6 @@
 import math
-print(math.pi)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
