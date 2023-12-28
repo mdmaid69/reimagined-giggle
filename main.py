@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_speed(distance, time):
+        return distance / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
