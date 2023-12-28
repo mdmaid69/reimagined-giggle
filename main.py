@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+from collections import Counter
+print(Counter("hello world"))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
