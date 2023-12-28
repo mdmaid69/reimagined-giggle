@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
