@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
