@@ -1,7 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
