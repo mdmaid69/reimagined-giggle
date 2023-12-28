@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
