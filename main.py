@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_pressure(force, area):
+        return force / area
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
