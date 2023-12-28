@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import sys
-print(sys.version)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+for i in range(10): print(i)
