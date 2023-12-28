@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
