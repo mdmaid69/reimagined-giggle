@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def convert_to_octal(n):
+        return oct(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
