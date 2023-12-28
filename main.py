@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+x = 10
+y = 20
+print("Sum:", x + y)
