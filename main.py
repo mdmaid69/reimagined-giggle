@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
