@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
