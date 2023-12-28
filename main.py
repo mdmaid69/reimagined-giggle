@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def find_max(numbers):
-        return max(numbers)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
