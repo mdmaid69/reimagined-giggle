@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_as_repr(array):
+        return repr(array)
