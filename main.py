@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import platform
+def get_python_version():
+        return platform.python_version()
