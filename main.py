@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import random
+print(random.randint(0, 100))
