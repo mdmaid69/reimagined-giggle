@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def clear_array(array):
+        array *= 0
+import sys
+def print_python_version():
+        print(sys.version)
