@@ -1,6 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
