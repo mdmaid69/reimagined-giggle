@@ -1,8 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_int(array):
+        return int(array[0])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
