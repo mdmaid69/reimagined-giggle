@@ -1,4 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def count_words(sentence):
-        return len(sentence.split())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
