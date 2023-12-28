@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
