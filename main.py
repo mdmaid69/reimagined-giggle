@@ -1,5 +1,8 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
