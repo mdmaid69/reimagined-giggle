@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
