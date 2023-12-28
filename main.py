@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+print(json.dumps({"name": "John", "age": 30}))
