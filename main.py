@@ -1,6 +1,6 @@
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
