@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def sort_list(lst):
+        return sorted(lst)
