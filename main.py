@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import platform
-def get_os_info():
-        return platform.uname()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_set(array):
+        return set(array)
