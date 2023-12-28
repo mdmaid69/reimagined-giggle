@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def sort_list(lst):
+        return sorted(lst)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
