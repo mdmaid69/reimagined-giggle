@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def reverse_string(s):
+        return s[::-1]
