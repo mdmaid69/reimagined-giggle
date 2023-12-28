@@ -1,8 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
