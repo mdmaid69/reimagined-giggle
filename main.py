@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
