@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
