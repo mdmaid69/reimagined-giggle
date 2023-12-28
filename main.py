@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
