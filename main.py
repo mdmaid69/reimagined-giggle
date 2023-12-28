@@ -1,7 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
