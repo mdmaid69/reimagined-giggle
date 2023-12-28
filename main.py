@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import logging
+def log_message(message):
+        logging.info(message)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
