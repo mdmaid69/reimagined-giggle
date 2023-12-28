@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
