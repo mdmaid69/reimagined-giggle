@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_item_count(array, item):
+        return array.count(item)
+def convert_to_binary(n):
+        return bin(n)
