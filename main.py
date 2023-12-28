@@ -1,6 +1,7 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
