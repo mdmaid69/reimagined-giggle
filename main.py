@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
