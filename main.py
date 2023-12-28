@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
