@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_array_to_bytes(array):
+        return array.tobytes()
