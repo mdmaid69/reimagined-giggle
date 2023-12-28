@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
