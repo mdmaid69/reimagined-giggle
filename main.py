@@ -1,6 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import time
+def get_current_time():
+        return time.time()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
