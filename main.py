@@ -1,4 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-import numpy as np
-print(np.array([1, 2, 3]))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
