@@ -1,6 +1,3 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import functools
 def memoize(func):
         cache = {}
@@ -10,3 +7,5 @@ def memoize(func):
                 cache[args] = func(*args)
         return cache[args]
         return wrapper
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
