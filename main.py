@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import sys
-print(sys.version)
+def get_array_as_tuple(array):
+        return tuple(array)
