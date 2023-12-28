@@ -1,6 +1,3 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+print(sum(range(10)))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
