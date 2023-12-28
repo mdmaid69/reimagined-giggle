@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
