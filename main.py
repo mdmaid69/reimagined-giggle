@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
