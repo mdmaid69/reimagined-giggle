@@ -1,8 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import time
+def get_current_time():
+        return time.ctime()
+import collections
+def create_priority_queue():
+        return collections.deque()
