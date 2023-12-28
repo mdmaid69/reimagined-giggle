@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def greet(name):
+        print(f"Hello, {name}!")
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
