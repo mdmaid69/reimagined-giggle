@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
