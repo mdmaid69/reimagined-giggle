@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
