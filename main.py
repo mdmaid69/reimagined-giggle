@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
