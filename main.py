@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
