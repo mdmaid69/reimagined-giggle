@@ -1,6 +1,5 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
