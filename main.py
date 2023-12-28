@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def find_min(lst):
-        return min(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import numpy as np
+print(np.array([1, 2, 3]))
