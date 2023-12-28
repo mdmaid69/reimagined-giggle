@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def square_number(x):
+        return x**2
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
