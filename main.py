@@ -1,6 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
