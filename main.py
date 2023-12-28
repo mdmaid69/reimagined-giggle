@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
