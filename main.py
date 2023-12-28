@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def convert_to_binary(n):
+        return bin(n)
