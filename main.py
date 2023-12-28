@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
