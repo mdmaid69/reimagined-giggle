@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
