@@ -1,5 +1,7 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
