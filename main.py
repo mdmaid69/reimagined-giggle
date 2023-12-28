@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def square_number(x):
+        return x**2
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_square_root(x):
+        return math.sqrt(x)
