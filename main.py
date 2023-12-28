@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
