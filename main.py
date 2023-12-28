@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
