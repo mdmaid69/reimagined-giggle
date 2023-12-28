@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
