@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
