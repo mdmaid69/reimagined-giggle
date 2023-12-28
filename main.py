@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+for i in range(5):
+        print(i)
