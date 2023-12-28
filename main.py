@@ -1,5 +1,8 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def convert_to_hex(n):
-        return hex(n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
