@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def is_odd(n):
-        return n % 2 != 0
+def add_numbers(a, b):
+        return a + b
+  import sys
+  def get_python_version():
+        return sys.version
