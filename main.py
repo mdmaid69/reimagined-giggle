@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
