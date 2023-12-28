@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import sys
+def print_python_version():
+        print(sys.version)
