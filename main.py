@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def subtract_numbers(x, y):
+        return x - y
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
