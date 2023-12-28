@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
