@@ -1,5 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_set(array):
-        return set(array)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
