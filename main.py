@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import time
+def get_current_time():
+        return time.ctime()
