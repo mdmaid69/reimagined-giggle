@@ -1,6 +1,9 @@
-import sys
-def print_python_version():
-        return sys.version
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
