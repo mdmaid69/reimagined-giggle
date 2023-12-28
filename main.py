@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area_rectangle(l, w):
+        return l * w
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
