@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_density(mass, volume):
+        return mass / volume
