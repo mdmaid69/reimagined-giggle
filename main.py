@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
