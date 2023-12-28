@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def is_palindrome(s):
-        return s == s[::-1]
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_tangent(x):
+        return math.tan(x)
