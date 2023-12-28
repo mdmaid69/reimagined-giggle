@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def convert_to_hex(n):
+        return hex(n)
