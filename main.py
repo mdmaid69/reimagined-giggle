@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
