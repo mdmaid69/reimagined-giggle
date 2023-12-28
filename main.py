@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import tensorflow as tf
+print(tf.__version__)
