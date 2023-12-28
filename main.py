@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
