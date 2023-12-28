@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def is_odd(n):
-        return n % 2 != 0
+  def multiply_numbers(x, y):
+        return x * y
+def count_words(sentence):
+        return len(sentence.split())
