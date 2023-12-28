@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
