@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
