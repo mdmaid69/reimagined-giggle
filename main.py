@@ -1,9 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
