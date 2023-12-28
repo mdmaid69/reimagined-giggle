@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
