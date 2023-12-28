@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def convert_array_to_string(array):
+        return array.tostring()
