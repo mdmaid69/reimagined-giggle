@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
