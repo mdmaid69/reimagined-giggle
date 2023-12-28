@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
