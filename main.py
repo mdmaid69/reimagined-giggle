@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
