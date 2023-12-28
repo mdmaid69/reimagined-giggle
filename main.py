@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
