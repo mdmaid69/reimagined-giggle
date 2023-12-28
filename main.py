@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
