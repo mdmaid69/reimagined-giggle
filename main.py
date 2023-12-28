@@ -1,8 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
