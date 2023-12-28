@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
