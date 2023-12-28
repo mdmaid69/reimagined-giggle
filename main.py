@@ -1,5 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
