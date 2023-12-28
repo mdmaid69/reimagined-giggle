@@ -1,4 +1,9 @@
-def find_min(lst):
-        return min(lst)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
