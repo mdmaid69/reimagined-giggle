@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
