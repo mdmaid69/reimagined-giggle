@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
