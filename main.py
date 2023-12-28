@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
