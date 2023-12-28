@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+def find_max(numbers):
+        return max(numbers)
