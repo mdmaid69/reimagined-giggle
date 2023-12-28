@@ -1,7 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+name = "Python"
+print("Hello,", name)
