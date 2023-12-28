@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-print(math.pi)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
