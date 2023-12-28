@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
