@@ -1,8 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def find_min(lst):
+        return min(lst)
