@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
