@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
