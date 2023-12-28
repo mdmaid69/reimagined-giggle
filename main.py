@@ -1,8 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def convert_to_octal(n):
+        return oct(n)
