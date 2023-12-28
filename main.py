@@ -1,5 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
