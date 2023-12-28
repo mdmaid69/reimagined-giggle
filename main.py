@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
