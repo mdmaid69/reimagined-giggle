@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
