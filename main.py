@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
