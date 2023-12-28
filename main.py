@@ -1,7 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
