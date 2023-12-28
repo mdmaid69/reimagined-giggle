@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import random
-print(random.randint(0, 100))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
