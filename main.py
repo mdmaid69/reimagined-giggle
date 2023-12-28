@@ -1,6 +1,11 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
