@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_as_int(array):
+        return int(array[0])
