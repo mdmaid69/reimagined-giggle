@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def reverse_array(array):
-        array.reverse()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
