@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
