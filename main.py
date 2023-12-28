@@ -1,6 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
