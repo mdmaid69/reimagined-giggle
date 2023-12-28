@@ -1,5 +1,9 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import getpass
+def get_username():
+        return getpass.getuser()
