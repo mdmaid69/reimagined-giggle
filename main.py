@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_as_str(array):
+        return str(array)
