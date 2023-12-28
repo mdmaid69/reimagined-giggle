@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_speed(distance, time):
+        return distance / time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
