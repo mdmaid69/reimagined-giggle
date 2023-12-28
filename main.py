@@ -1,6 +1,8 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
