@@ -1,4 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-for i in range(10): print(i)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
