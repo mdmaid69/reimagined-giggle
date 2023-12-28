@@ -1,8 +1,5 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
