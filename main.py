@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
