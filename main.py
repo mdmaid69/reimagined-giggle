@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def add_numbers(x, y):
-        return x + y
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
