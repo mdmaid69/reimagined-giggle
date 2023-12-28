@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_str(array):
+        return str(array)
