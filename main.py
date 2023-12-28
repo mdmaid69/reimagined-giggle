@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
