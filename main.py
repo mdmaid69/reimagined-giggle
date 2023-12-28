@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
