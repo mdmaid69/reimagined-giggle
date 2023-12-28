@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
