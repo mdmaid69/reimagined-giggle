@@ -1,5 +1,5 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def multiply_numbers(x, y):
+        return x * y
