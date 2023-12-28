@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_power(work, time):
+        return work / time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
