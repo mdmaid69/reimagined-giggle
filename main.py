@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
