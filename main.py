@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
