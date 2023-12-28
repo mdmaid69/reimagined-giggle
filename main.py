@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def convert_to_octal(n):
+        return oct(n)
+from collections import Counter
+print(Counter("hello world"))
