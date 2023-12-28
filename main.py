@@ -1,5 +1,6 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
