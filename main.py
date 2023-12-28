@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
