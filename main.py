@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  def convert_to_hex(n):
+        return hex(n)
