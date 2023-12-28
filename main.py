@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
