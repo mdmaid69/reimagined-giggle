@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
