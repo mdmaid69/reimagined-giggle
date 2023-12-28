@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
