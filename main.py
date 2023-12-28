@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
