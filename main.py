@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_tangent(x):
+        return math.tan(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
