@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-print(math.pi)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def reverse_list(lst):
+        return lst[::-1]
