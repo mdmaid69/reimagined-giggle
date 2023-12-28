@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def subtract_numbers(x, y):
-        return x - y
+  def is_even(n):
+        return n % 2 == 0
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
