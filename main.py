@@ -1,5 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
