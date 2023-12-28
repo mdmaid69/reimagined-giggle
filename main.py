@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
