@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def count_characters(sentence):
+        return len(sentence)
+  def cube_number(x):
+        return x**3
