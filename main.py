@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def find_union(list1, list2):
+        return set(list1) | set(list2)
