@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
