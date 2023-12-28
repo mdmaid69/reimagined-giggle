@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
