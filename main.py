@@ -1,5 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
