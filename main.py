@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def subtract_numbers(x, y):
-        return x - y
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
