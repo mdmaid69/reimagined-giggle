@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-print(math.pi)
+def calculate_floor(x):
+        return math.floor(x)
