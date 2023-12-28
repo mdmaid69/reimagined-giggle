@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def sort_list(lst):
-        return sorted(lst)
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
