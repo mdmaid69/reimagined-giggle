@@ -1,4 +1,5 @@
-import time
-print(time.time())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def count_elements(lst):
+        return len(lst)
+import collections
+def create_user_list():
+        return collections.UserList()
