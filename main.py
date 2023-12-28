@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
