@@ -1,6 +1,5 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def convert_to_binary(n):
+        return bin(n)
