@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
