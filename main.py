@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  def count_elements(lst):
+        return len(lst)
