@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
