@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
