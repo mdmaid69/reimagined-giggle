@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_user_string():
+        return collections.UserString()
