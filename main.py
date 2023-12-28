@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
