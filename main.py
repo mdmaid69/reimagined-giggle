@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def clear_array(array):
+        array *= 0
