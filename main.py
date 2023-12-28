@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
