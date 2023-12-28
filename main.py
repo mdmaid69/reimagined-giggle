@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
