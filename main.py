@@ -1,8 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def sort_list(lst):
+        return sorted(lst)
