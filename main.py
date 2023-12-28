@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def multiply_numbers(x, y):
+        return x * y
