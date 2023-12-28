@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
