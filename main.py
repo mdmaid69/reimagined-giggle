@@ -1,9 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
