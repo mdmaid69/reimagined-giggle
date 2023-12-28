@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def reverse_list(lst):
-        return lst[::-1]
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
