@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def convert_to_binary(n):
-        return bin(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
