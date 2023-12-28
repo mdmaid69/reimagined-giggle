@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
