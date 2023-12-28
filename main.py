@@ -1,6 +1,5 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
