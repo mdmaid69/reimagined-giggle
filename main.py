@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
