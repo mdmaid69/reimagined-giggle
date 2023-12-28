@@ -1,5 +1,12 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def reverse_list(lst):
-        return lst[::-1]
+import random
+def roll_die():
+        return random.randint(1, 6)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
