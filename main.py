@@ -1,6 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
