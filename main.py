@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def multiply_numbers(x, y):
+        return x * y
