@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
