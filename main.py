@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
