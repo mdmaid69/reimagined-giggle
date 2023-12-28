@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
