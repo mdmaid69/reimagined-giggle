@@ -1,6 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+print([x**2 for x in range(10)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
