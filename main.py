@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
