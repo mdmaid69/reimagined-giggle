@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def convert_to_octal(n):
-        return oct(n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
