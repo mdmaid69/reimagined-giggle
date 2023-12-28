@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
