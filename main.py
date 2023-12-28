@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_absolute_value(x):
+        return math.fabs(x)
