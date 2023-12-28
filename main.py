@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
