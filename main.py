@@ -1,6 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_power(work, time):
+        return work / time
