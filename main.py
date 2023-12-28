@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def reverse_string(s):
+        return s[::-1]
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
