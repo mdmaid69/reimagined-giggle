@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import sys
+def print_python_version():
+        return sys.version
+import collections
+def create_counter():
+        return collections.Counter()
