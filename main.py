@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
