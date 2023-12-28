@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def cube_number(x):
+        return x**3
+import sys
+def exit_program():
+        sys.exit()
