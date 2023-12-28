@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
