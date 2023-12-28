@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
