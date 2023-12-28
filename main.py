@@ -1,7 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
