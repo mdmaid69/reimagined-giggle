@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def subtract_numbers(x, y):
+        return x - y
