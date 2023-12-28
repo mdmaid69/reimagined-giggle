@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def cube_number(x):
-        return x**3
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
