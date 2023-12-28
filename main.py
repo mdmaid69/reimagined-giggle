@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_speed(distance, time):
+        return distance / time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
