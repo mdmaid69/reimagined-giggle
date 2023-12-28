@@ -1,6 +1,12 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
