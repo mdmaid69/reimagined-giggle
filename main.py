@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
