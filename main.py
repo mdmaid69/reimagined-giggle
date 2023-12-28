@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def is_even(n):
-        return n % 2 == 0
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
