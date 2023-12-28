@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
