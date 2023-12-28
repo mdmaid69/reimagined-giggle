@@ -1,5 +1,10 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
