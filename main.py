@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
