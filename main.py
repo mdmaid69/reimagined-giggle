@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
