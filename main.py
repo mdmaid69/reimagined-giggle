@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
