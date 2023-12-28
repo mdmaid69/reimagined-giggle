@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import sys
+  def get_python_version():
+        return sys.version
