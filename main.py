@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_as_complex(array):
+        return complex(array[0])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
