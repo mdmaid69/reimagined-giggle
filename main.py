@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
