@@ -1,5 +1,5 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import time
+print(time.time())
