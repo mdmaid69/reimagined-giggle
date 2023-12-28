@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_directory_name(path):
+        return os.path.dirname(path)
