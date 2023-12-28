@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_length(array):
+        return len(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
