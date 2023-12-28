@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def create_counter():
-        return collections.Counter()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
