@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
