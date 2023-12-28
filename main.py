@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_force(mass, acceleration):
+        return mass * acceleration
