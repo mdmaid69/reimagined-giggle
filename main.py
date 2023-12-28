@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
