@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def convert_to_octal(n):
-        return oct(n)
+def convert_to_hex(n):
+        return hex(n)
+  def multiply_numbers(x, y):
+        return x * y
