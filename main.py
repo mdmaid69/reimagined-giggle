@@ -1,6 +1,8 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
