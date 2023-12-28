@@ -1,5 +1,5 @@
-for i in range(10): print(i)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
