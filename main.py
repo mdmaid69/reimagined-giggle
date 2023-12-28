@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
