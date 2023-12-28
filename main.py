@@ -1,5 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def get_array_length(array):
+        return len(array)
