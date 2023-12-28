@@ -1,6 +1,6 @@
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
