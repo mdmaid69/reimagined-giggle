@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
