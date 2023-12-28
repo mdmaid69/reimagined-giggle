@@ -1,6 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
