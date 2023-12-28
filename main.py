@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
