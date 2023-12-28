@@ -1,8 +1,3 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+print(sum(range(10)))
+from collections import Counter
+print(Counter("hello world"))
