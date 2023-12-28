@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
