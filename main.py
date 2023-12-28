@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
