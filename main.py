@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
