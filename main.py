@@ -1,5 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
