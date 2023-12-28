@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
