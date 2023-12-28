@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import sys
-def print_python_version():
-        return sys.version
+def is_palindrome(s):
+        return s == s[::-1]
+import collections
+def create_user_dict():
+        return collections.UserDict()
