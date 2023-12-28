@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_pressure(force, area):
-        return force / area
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
