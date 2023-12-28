@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import platform
+def get_os_info():
+        return platform.uname()
