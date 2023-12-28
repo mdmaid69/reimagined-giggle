@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def find_max(numbers):
+        return max(numbers)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
