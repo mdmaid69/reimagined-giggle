@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
