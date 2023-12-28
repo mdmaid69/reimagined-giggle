@@ -1,6 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
