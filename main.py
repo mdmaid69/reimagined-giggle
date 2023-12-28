@@ -1,5 +1,8 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
