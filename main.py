@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import time
-print(time.time())
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def add_numbers(x, y):
+        return x + y
