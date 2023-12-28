@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
