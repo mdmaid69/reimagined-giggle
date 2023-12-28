@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
