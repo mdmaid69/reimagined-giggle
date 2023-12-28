@@ -1,5 +1,9 @@
-  def add_numbers(x, y):
-        return x + y
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
