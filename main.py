@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
