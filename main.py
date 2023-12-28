@@ -1,7 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
