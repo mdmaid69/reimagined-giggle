@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import re
+print(re.match("h.*o", "hello world"))
+import random
+print(random.randint(0, 100))
