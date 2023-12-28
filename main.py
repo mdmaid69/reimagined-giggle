@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
