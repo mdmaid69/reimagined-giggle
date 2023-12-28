@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_speed(distance, time):
+        return distance / time
