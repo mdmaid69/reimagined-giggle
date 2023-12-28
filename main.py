@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
