@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
