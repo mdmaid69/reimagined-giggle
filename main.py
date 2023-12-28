@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def find_min(lst):
+        return min(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
