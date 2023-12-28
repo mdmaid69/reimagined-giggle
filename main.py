@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
