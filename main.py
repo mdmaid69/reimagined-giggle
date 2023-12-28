@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
