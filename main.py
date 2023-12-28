@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
