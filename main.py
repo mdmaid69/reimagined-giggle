@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
