@@ -1,5 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
