@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
