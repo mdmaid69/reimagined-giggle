@@ -1,7 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
