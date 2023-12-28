@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
