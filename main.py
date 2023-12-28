@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def sort_numbers(numbers):
+        return sorted(numbers)
