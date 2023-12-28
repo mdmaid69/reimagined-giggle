@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
