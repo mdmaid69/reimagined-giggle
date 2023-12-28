@@ -1,6 +1,12 @@
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
