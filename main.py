@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import sys
+def exit_program():
+        sys.exit()
