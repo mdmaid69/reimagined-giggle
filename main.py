@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import time
+print(time.time())
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
