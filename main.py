@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
