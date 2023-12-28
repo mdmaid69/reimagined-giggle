@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_pressure(force, area):
-        return force / area
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
