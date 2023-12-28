@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def remove_duplicates(lst):
+        return list(set(lst))
