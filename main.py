@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import numpy as np
-print(np.array([1, 2, 3]))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
