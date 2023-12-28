@@ -1,5 +1,4 @@
+print([x**2 for x in range(10)])
 import array
-def get_array_item(array, i):
-        return array[i]
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
