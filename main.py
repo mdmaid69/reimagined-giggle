@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import numpy as np
+print(np.array([1, 2, 3]))
