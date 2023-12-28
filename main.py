@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_typecode(array):
+        return array.typecode
