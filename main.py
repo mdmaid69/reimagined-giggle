@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
