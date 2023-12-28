@@ -1,8 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import platform
+def get_python_version():
+        return platform.python_version()
+import numpy as np
+print(np.array([1, 2, 3]))
