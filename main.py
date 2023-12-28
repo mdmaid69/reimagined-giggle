@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
