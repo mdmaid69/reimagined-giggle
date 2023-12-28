@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
