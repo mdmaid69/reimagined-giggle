@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import random
+def roll_die():
+        return random.randint(1, 6)
