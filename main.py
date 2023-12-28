@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def extend_array(array, iterable):
+        array.extend(iterable)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
