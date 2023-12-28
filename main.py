@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_density(mass, volume):
+        return mass / volume
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
