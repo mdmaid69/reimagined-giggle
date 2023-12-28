@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
