@@ -1,5 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-from collections import Counter
-print(Counter("hello world"))
+import sys
+def print_python_version():
+        return sys.version
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
