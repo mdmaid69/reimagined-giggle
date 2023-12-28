@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+print(os.getcwd())
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
