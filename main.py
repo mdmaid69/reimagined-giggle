@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_sine(x):
+        return math.sin(x)
