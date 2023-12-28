@@ -1,6 +1,9 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
