@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_pressure(force, area):
+        return force / area
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
