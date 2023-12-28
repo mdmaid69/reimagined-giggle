@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
