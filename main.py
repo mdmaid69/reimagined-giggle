@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
