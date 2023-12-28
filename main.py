@@ -1,4 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
