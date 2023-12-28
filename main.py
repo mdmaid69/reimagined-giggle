@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
