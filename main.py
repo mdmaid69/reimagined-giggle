@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
