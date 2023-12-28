@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
