@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_acceleration(speed, time):
+        return speed / time
