@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+for i in range(5):
+        print(i)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
