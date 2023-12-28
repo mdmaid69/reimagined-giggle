@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
