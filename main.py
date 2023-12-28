@@ -1,11 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_index(array, item):
+        return array.index(item)
