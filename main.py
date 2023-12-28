@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def reverse_list(lst):
+        return lst[::-1]
