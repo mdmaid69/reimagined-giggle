@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
