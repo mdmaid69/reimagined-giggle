@@ -1,5 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import datetime
+def get_today_date():
+        return datetime.date.today()
