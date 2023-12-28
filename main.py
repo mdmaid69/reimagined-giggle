@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_length(array):
+        return len(array)
