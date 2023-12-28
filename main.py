@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def reverse_array(array):
+        array.reverse()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
