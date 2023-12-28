@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
