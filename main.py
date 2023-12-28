@@ -1,7 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
