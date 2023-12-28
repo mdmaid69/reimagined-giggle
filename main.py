@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
