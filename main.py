@@ -1,6 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
