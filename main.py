@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import collections
-def create_counter():
-        return collections.Counter()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
