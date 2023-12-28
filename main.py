@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
