@@ -1,6 +1,7 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def is_even(n):
+        return n % 2 == 0
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
