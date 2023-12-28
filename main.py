@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def find_min(lst):
-        return min(lst)
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
