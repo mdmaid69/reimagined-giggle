@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
