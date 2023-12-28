@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
