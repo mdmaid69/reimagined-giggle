@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
