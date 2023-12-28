@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def create_user_list():
+        return collections.UserList()
