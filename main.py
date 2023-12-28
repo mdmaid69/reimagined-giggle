@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
