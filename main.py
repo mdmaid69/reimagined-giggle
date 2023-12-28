@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
