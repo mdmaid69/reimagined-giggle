@@ -1,6 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
