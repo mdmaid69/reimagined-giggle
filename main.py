@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
