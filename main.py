@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
