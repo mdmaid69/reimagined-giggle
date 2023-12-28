@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
