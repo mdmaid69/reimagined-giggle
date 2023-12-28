@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
