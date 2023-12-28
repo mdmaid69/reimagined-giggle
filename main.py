@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def reverse_list(lst):
-        return lst[::-1]
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
