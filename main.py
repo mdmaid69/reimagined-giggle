@@ -1,7 +1,8 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
