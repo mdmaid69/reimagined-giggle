@@ -1,6 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
   import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import sys
-def exit_program():
-        sys.exit()
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
