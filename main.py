@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
