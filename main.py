@@ -1,6 +1,8 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
