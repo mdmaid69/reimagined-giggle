@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
