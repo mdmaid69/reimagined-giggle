@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
