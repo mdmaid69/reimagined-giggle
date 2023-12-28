@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import getpass
+def get_username():
+        return getpass.getuser()
