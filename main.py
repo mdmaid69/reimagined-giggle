@@ -1,7 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
