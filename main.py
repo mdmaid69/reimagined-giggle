@@ -1,6 +1,5 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_set(array):
-        return set(array)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
