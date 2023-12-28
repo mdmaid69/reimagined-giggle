@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import time
-print(time.time())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def reverse_string(s):
+        return s[::-1]
