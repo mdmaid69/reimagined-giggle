@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def count_elements(lst):
-        return len(lst)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
