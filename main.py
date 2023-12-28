@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
