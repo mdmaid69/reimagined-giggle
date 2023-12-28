@@ -1,5 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
