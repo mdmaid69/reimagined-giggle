@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
