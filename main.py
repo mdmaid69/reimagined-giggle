@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def reverse_string(s):
-        return s[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
