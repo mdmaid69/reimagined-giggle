@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-print(math.pi)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def sort_list(lst):
+        return sorted(lst)
