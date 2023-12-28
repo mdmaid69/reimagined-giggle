@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  def cube_number(x):
-        return x**3
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_list_from_array(array):
+        return array.tolist()
