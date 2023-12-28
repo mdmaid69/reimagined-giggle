@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
