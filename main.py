@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-for i in range(5):
-        print(i)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
