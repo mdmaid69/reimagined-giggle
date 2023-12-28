@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
