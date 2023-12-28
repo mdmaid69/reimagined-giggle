@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
