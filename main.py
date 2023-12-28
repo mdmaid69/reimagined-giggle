@@ -1,7 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def is_even(n):
+        return n % 2 == 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
