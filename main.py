@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_list(array):
+        return list(array)
