@@ -1,6 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
