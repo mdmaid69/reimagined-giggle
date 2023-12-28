@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_density(mass, volume):
-        return mass / volume
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
