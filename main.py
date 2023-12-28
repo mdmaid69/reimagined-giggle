@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def square_number(x):
-        return x**2
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
