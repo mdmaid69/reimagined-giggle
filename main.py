@@ -1,6 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_density(mass, volume):
+        return mass / volume
