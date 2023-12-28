@@ -1,5 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
