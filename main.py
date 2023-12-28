@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
