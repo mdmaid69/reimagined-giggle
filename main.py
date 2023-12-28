@@ -1,8 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
