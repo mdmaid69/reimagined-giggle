@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
