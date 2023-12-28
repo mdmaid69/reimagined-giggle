@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import logging
+def log_message(message):
+        logging.info(message)
