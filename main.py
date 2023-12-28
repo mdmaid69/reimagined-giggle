@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
