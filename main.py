@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_acceleration(speed, time):
+        return speed / time
+  def is_odd(n):
+        return n % 2 != 0
