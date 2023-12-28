@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
