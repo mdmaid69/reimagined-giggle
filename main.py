@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
