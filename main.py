@@ -1,6 +1,7 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import sys
+def print_python_version():
+        return sys.version
+i = 0
+while i < 5:
+        print(i)
+        i += 1
