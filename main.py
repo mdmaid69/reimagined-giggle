@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
