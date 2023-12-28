@@ -1,5 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def create_user_string():
+        return collections.UserString()
