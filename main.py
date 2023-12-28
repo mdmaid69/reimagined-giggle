@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import collections
+def create_user_list():
+        return collections.UserList()
