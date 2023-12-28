@@ -1,8 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+name = "Python"
+print("Hello,", name)
