@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_area_rectangle(l, w):
-        return l * w
+import time
+def get_current_time():
+        return time.ctime()
+def convert_to_hex(n):
+        return hex(n)
