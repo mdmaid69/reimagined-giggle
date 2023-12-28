@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
