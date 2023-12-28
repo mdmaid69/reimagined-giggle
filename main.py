@@ -1,7 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
