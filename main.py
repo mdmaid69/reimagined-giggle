@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
