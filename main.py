@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
