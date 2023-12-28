@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
