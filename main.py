@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import sys
+def print_python_version():
+        return sys.version
