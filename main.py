@@ -1,5 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
