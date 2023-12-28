@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
