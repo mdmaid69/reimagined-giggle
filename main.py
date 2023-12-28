@@ -1,5 +1,4 @@
-import time
-print(time.time())
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+print(sum(range(10)))
