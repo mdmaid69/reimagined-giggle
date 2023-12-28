@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
