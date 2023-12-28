@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
