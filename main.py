@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
