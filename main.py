@@ -1,6 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_work(force, distance):
-        return force * distance
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
