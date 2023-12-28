@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def divide_numbers(x, y):
+        return x / y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
