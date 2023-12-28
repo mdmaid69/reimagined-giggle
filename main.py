@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_area(radius):
+        return 3.14 * radius * radius
