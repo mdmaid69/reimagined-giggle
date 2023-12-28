@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def get_current_time():
-        return time.time()
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
