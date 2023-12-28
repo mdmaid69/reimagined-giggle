@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
