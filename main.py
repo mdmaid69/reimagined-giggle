@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
