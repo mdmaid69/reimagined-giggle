@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
