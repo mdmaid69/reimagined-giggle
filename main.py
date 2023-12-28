@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
