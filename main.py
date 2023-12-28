@@ -1,10 +1,7 @@
-def count_characters(sentence):
-        return len(sentence)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
