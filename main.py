@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
