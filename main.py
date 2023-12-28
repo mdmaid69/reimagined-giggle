@@ -1,5 +1,9 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
