@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
