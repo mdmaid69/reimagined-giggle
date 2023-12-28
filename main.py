@@ -1,7 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def read_from_json(json_string):
+        return json.loads(json_string)
