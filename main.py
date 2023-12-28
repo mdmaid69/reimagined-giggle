@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
