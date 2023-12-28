@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
