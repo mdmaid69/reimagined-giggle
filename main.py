@@ -1,6 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
