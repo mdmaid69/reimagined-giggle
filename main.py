@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
