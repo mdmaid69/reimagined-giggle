@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
