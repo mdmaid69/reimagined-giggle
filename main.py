@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_current_directory():
+        return os.getcwd()
