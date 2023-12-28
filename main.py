@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
