@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
