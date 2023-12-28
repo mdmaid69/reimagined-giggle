@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def reverse_array(array):
-        array.reverse()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
