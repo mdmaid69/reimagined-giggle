@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
