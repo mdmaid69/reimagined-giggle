@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import sys
-  def get_python_version():
-        return sys.version
+import time
+def get_current_time():
+        return time.ctime()
+from collections import Counter
+print(Counter("hello world"))
