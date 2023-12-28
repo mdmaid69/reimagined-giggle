@@ -1,6 +1,12 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
