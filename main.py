@@ -1,5 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-from collections import Counter
-print(Counter("hello world"))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_speed(distance, time):
+        return distance / time
