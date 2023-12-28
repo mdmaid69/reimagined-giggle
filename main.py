@@ -1,5 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def append_to_array(array, item):
+        array.append(item)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
