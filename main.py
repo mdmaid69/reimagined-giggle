@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import random
+print(random.randint(0, 100))
