@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
