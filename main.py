@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
