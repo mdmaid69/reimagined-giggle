@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
