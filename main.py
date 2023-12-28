@@ -1,7 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
