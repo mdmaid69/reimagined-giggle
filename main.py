@@ -1,6 +1,6 @@
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
