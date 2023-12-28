@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
