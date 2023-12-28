@@ -1,5 +1,8 @@
-  def square_number(x):
-        return x**2
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
