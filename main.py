@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
