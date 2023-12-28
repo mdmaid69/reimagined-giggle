@@ -1,7 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+for i in range(10): print(i)
