@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
