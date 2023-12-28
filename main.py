@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
