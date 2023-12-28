@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
