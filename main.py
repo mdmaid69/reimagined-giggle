@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
