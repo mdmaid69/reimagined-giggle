@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
