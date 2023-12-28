@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
