@@ -1,6 +1,7 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
