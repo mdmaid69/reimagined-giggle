@@ -1,5 +1,10 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
