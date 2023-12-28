@@ -1,8 +1,4 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+text = "Hello, world!"
+print("Characters:", len(text))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
