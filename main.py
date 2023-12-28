@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
