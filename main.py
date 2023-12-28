@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import sys
+print(sys.version)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
