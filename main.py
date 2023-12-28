@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import logging
+def log_message(message):
+        logging.info(message)
