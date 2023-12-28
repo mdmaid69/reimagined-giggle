@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
