@@ -1,5 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
