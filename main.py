@@ -1,6 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
 import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_item(array, i):
+        return array[i]
