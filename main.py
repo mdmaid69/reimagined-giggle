@@ -1,5 +1,10 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
