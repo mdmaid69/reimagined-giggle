@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_work(force, distance):
+        return force * distance
