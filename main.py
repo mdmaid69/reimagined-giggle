@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
