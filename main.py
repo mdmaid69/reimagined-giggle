@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
