@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_length(array):
+        return len(array)
