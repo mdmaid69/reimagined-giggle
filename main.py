@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def multiply_numbers(x, y):
+        return x * y
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
