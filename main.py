@@ -1,6 +1,8 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
