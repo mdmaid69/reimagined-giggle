@@ -1,4 +1,7 @@
-def cube_number(x):
-        return x**3
-  def is_odd(n):
-        return n % 2 != 0
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
