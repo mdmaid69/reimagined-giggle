@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
