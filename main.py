@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
