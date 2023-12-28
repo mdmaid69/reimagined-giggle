@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import sys
+print(sys.version)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
