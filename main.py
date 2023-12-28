@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
