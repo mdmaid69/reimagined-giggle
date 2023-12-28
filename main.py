@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def delete_file(file_name):
+        os.remove(file_name)
