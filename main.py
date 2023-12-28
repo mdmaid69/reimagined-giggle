@@ -1,5 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
