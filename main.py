@@ -1,5 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_pressure(force, area):
-        return force / area
+  def remove_duplicates(lst):
+        return list(set(lst))
+for i in range(5):
+        print(i)
