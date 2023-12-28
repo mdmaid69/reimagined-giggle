@@ -1,6 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
