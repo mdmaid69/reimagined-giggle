@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
