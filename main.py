@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def reverse_string(s):
-        return s[::-1]
+for i in range(10): print(i)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
