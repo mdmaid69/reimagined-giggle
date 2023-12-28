@@ -1,4 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-for i in range(10): print(i)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
