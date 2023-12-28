@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
