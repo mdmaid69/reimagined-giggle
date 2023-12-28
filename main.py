@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
