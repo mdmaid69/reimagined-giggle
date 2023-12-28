@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
