@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import collections
+def create_queue():
+        return collections.deque()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
