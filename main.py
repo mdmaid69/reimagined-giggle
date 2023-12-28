@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-  def multiply_numbers(x, y):
-        return x * y
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_work(force, distance):
+        return force * distance
