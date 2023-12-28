@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def sort_numbers(numbers):
+        return sorted(numbers)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
