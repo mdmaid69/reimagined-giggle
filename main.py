@@ -1,4 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
