@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
