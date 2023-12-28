@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_pressure(force, area):
-        return force / area
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
