@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
