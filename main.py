@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
