@@ -1,7 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
