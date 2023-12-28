@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
