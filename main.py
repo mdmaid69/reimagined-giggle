@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
