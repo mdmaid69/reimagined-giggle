@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-name = "Python"
-print("Hello,", name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
