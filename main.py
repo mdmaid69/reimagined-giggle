@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
