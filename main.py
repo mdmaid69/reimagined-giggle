@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import re
+print(re.match("h.*o", "hello world"))
