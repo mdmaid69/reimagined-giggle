@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
