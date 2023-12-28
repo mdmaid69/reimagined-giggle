@@ -1,5 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
