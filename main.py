@@ -1,6 +1,8 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
