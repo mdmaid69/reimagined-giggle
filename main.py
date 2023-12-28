@@ -1,7 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+print([x**2 for x in range(10)])
