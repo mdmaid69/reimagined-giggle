@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
