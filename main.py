@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def count_elements(lst):
-        return len(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+  def reverse_list(lst):
+        return lst[::-1]
