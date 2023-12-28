@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
