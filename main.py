@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
