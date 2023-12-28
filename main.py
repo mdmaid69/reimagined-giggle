@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
