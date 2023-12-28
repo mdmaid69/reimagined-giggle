@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
