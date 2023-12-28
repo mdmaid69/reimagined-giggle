@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_pressure(force, area):
+        return force / area
