@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_work(force, distance):
+        return force * distance
