@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
