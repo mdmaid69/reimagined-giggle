@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
