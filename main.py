@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_density(mass, volume):
+        return mass / volume
