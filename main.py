@@ -1,7 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
