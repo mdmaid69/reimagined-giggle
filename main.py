@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import sys
+def print_python_version():
+        print(sys.version)
