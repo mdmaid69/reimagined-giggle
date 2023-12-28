@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
