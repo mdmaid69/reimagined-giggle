@@ -1,5 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
