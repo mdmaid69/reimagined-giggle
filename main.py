@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import sys
+def print_python_version():
+        print(sys.version)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
