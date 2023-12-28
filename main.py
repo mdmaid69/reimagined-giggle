@@ -1,8 +1,6 @@
-import sys
-print(sys.version)
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
