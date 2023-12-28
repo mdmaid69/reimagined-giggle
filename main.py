@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def cube_number(x):
-        return x**3
+def reverse_string(s):
+        return s[::-1]
+name = "Python"
+print("Hello,", name)
