@@ -1,5 +1,5 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import os
 print(os.getcwd())
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
