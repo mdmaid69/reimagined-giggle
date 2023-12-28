@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
