@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
