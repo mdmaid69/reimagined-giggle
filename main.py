@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def get_time_since_epoch():
-        return time.time()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_acceleration(speed, time):
+        return speed / time
