@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
