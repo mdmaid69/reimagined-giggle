@@ -1,5 +1,8 @@
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
