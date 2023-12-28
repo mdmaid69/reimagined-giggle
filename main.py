@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
