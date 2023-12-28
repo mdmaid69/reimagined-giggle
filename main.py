@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_acceleration(speed, time):
+        return speed / time
