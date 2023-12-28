@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_length(array):
+        return len(array)
