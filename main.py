@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
