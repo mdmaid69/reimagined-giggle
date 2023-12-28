@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
