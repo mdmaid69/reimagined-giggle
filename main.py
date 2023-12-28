@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
