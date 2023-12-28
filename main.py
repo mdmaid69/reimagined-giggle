@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
