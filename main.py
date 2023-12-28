@@ -1,5 +1,10 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
