@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
