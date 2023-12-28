@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
