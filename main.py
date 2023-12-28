@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
