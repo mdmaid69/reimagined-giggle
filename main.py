@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def greet(name):
-        print(f"Hello, {name}!")
+import time
+def get_time_since_epoch():
+        return time.time()
+def sort_numbers(numbers):
+        return sorted(numbers)
