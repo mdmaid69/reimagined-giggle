@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import time
+def get_current_time():
+        return time.ctime()
