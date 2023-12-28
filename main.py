@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def split_path(path):
+        return os.path.split(path)
