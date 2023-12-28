@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
