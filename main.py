@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
