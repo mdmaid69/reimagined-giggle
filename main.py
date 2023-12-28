@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
