@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  def cube_number(x):
+        return x**3
