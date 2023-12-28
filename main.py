@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
