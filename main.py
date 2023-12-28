@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
