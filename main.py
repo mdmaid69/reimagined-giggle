@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
