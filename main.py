@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import random
-print(random.randint(0, 100))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
