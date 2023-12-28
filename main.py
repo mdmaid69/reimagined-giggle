@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
