@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_pressure(force, area):
+        return force / area
