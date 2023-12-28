@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
