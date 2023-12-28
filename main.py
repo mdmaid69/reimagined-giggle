@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
