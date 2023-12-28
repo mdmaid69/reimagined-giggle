@@ -1,7 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def convert_to_binary(n):
+        return bin(n)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
