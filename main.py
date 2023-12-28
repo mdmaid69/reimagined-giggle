@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import collections
+def create_counter():
+        return collections.Counter()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
