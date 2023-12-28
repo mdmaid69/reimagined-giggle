@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
