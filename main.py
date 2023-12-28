@@ -1,4 +1,8 @@
-def divide_numbers(x, y):
-        return x / y
-def find_unique_words(sentence):
-        return set(sentence.split())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
