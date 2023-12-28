@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import re
-print(re.match("h.*o", "hello world"))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
