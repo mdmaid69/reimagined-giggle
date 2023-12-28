@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
