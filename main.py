@@ -1,5 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
