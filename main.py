@@ -1,5 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
