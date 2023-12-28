@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def count_characters(sentence):
+        return len(sentence)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
