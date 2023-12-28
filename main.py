@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
