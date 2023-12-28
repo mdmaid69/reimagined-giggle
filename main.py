@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def count_characters(sentence):
+        return len(sentence)
+import os
+def change_working_directory(path):
+        os.chdir(path)
