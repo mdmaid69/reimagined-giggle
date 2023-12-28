@@ -1,7 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
