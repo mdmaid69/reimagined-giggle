@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def count_elements(lst):
+        return len(lst)
+def reverse_list(lst):
+        return lst[::-1]
