@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def convert_to_octal(n):
+        return oct(n)
