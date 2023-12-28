@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def cube_number(x):
-        return x**3
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
