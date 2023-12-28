@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def convert_to_octal(n):
-        return oct(n)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
