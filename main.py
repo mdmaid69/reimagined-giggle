@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
