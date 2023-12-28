@@ -1,9 +1,7 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
