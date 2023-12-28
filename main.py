@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_float(array):
+        return float(array[0])
