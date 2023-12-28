@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
