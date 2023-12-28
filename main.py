@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
