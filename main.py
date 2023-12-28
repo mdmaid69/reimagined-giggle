@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
