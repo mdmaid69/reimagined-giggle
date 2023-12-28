@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
