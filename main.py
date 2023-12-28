@@ -1,5 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_volume(length, width, height):
-        return length * width * height
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
