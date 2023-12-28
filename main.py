@@ -1,6 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-print([x**2 for x in range(10)])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
