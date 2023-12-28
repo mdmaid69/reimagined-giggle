@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
