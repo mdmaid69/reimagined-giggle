@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
