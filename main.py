@@ -1,4 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
