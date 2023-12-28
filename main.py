@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
