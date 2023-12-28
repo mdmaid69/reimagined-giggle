@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def greet(name):
+        print(f"Hello, {name}!")
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
