@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def is_even(n):
-        return n % 2 == 0
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
