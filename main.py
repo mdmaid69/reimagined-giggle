@@ -1,6 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def count_elements(lst):
+        return len(lst)
