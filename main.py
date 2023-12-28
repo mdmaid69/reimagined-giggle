@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
