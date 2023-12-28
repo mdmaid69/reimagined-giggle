@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
