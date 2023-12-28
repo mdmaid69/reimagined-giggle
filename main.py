@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
