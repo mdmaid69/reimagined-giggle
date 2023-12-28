@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+for i in range(10): print(i)
