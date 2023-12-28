@@ -1,6 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
