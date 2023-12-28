@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def cube_number(x):
-        return x**3
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def add_numbers(x, y):
+        return x + y
