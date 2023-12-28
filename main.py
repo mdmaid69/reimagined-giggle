@@ -1,5 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_max(lst):
-        return max(lst)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
