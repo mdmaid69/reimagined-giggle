@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
