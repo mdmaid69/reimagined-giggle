@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
