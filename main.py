@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
