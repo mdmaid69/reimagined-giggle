@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import array
-def get_array_as_set(array):
-        return set(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
