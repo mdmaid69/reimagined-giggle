@@ -1,6 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_current_working_directory():
+        return os.getcwd()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
