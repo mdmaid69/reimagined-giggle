@@ -1,5 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-print([x**2 for x in range(10)])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
