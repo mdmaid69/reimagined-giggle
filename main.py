@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
