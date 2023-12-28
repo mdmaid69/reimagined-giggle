@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_speed(distance, time):
+        return distance / time
