@@ -1,5 +1,9 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import getpass
+def get_username():
+        return getpass.getuser()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
