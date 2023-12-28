@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
