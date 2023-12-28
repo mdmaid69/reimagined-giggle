@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-import datetime
-print(datetime.datetime.now())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
