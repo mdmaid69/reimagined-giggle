@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
