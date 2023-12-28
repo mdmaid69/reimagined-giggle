@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
