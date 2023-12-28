@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
