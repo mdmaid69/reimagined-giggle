@@ -1,6 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
