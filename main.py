@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def find_max(numbers):
-        return max(numbers)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
