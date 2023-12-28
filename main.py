@@ -1,5 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
