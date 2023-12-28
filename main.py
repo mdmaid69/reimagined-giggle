@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def extend_array(array, iterable):
+        array.extend(iterable)
