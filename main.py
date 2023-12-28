@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def count_characters(sentence):
-        return len(sentence)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
