@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def sort_numbers(numbers):
-        return sorted(numbers)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+x = 10
+y = 20
+print("Sum:", x + y)
