@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def subtract_numbers(x, y):
+        return x - y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
