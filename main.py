@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def reverse_array(array):
-        array.reverse()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
