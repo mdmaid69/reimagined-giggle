@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+print(math.pi)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
