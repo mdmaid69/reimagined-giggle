@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
