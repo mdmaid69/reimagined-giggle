@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_length(array):
+        return len(array)
