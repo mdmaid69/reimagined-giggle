@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
