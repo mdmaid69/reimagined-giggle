@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import time
-def get_current_time():
-        return time.time()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
