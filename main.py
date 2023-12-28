@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
