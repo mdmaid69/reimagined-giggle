@@ -1,4 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
