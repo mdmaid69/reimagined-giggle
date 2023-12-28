@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
