@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_area(radius):
+        return 3.14 * radius * radius
