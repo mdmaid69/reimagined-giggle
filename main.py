@@ -1,5 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  def square_number(x):
+        return x**2
