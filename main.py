@@ -1,5 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
