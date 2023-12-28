@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
