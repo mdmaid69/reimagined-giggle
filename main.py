@@ -1,7 +1,8 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
