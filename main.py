@@ -1,5 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
