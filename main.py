@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
