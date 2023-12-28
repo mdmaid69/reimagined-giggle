@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_tangent(x):
+        return math.tan(x)
