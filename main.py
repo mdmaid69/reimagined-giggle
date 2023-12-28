@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def append_to_array(array, item):
+        array.append(item)
