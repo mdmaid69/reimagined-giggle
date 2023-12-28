@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_work(force, distance):
-        return force * distance
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
