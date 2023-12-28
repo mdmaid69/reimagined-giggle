@@ -1,6 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
