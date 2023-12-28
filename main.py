@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def add_numbers(a, b):
+        return a + b
