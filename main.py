@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
