@@ -1,8 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+print(random.randint(0, 100))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
