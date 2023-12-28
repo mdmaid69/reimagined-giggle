@@ -1,5 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
