@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
