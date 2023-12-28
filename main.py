@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
