@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
