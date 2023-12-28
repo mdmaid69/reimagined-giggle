@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import random
+def roll_die():
+        return random.randint(1, 6)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
