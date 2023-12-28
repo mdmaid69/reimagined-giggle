@@ -1,6 +1,11 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
