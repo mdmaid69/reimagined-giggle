@@ -1,4 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def sort_numbers(numbers):
+        return sorted(numbers)
