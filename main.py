@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
