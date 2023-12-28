@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def reverse_array(array):
-        array.reverse()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def sort_list(lst):
+        return sorted(lst)
