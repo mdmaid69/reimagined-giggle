@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
