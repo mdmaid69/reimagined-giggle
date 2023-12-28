@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_error_function(x):
+        return math.erf(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
