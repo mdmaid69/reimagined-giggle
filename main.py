@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
