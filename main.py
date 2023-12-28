@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
