@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_item(array, i):
+        return array[i]
+  def add_numbers(x, y):
+        return x + y
