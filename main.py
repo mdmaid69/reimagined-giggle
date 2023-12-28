@@ -1,6 +1,5 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def is_palindrome(s):
+        return s == s[::-1]
