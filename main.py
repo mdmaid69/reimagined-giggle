@@ -1,8 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
