@@ -1,5 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def subtract_numbers(x, y):
-        return x - y
+def find_max(lst):
+        return max(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
