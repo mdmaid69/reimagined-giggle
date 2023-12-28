@@ -1,5 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def reverse_string(s):
-        return s[::-1]
+def create_user_dict():
+        return collections.UserDict()
