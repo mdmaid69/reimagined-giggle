@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def count_elements(lst):
-        return len(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
