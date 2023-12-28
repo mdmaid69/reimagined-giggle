@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def cube_number(x):
+        return x**3
+import json
+print(json.dumps({"name": "John", "age": 30}))
