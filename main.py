@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
