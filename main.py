@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_counter():
+        return collections.Counter()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
