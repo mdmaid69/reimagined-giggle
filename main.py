@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
