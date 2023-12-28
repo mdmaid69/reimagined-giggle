@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
