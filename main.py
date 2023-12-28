@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
