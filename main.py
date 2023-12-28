@@ -1,6 +1,3 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+print(sum(range(10)))
+  def multiply_numbers(x, y):
+        return x * y
