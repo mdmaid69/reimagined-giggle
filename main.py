@@ -1,5 +1,5 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def find_min(lst):
-        return min(lst)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def count_words(sentence):
+        return len(sentence.split())
