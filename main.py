@@ -1,6 +1,8 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
