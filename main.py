@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
