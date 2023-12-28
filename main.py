@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import sys
+def print_python_version():
+        print(sys.version)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
