@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+def roll_die():
+        return random.randint(1, 6)
