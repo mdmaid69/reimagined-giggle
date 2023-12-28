@@ -1,5 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def find_max(lst):
-        return max(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def sort_list(lst):
+        return sorted(lst)
