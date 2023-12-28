@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Characters:", len(text))
