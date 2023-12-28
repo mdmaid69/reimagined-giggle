@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
