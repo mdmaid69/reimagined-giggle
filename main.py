@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-import time
-print(time.time())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import platform
+def get_python_version():
+        return platform.python_version()
