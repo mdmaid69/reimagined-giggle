@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
