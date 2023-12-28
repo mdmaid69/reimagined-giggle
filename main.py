@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
