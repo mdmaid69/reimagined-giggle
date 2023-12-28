@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_ordered_dict():
+        return collections.OrderedDict()
