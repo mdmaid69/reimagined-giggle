@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
