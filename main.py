@@ -1,5 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-def is_even(n):
-        return n % 2 == 0
+def get_string_from_array(array):
+        return array.tobytes()
