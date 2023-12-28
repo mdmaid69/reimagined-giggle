@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
