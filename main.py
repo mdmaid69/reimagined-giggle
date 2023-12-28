@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
