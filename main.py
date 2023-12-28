@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
