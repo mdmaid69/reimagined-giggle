@@ -1,7 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
