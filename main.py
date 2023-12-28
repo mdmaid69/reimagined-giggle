@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def clear_array(array):
-        array *= 0
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
