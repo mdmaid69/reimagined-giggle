@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
