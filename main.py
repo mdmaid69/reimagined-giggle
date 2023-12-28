@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
