@@ -1,12 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
