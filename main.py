@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import random
+def roll_die():
+        return random.randint(1, 6)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
