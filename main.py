@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
+import time
+print(time.time())
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
