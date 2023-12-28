@@ -1,5 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+print(math.pi)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
