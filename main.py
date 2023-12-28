@@ -1,7 +1,6 @@
-import random
-print(random.randint(0, 100))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
