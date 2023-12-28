@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
