@@ -1,8 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
