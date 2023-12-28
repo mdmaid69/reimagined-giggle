@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def is_palindrome(s):
-        return s == s[::-1]
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
