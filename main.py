@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import time
+def get_current_time():
+        return time.time()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
