@@ -1,5 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
