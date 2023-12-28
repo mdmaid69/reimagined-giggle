@@ -1,5 +1,10 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
