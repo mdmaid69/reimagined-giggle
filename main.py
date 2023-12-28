@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def sort_list(lst):
-        return sorted(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
