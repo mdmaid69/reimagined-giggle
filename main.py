@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
