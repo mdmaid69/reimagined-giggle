@@ -1,4 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-print(sum(range(10)))
+  def is_even(n):
+        return n % 2 == 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
