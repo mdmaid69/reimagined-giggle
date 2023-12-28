@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_min(lst):
-        return min(lst)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
