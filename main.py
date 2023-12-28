@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def split_path(path):
+        return os.path.split(path)
