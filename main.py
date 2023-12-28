@@ -1,4 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def count_characters(sentence):
+        return len(sentence)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
