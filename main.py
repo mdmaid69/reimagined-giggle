@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
