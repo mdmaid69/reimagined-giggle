@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
