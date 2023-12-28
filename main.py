@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import time
-print(time.time())
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
