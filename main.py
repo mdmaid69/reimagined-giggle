@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def convert_array_to_string(array):
+        return array.tostring()
