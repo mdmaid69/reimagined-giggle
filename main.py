@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
