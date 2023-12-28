@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def find_min(numbers):
+        return min(numbers)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
