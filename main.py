@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
