@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_force(mass, acceleration):
+        return mass * acceleration
