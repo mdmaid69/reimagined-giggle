@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
