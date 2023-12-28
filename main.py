@@ -1,6 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def reverse_list(lst):
+        return lst[::-1]
