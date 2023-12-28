@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
