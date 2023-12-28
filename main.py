@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
