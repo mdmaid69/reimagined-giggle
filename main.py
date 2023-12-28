@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_gamma_function(x):
+        return math.gamma(x)
