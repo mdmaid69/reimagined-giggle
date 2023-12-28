@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
