@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
