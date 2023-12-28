@@ -1,4 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-print([x**2 for x in range(10)])
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
