@@ -1,5 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
