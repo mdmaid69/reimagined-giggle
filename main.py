@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
