@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def find_max(lst):
-        return max(lst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_user_list():
+        return collections.UserList()
