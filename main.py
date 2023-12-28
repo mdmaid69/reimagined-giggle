@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def is_odd(n):
-        return n % 2 != 0
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
