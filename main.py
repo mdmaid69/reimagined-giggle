@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def sort_list(lst):
+        return sorted(lst)
