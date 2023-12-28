@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_volume(length, width, height):
+        return length * width * height
