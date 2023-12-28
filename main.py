@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def multiply_numbers(x, y):
+        return x * y
