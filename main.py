@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
