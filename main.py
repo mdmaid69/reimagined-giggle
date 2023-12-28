@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def is_even(n):
+        return n % 2 == 0
