@@ -1,6 +1,5 @@
+import datetime
+print(datetime.datetime.now())
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
