@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def reverse_list(lst):
+        return lst[::-1]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
