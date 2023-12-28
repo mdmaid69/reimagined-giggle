@@ -1,4 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
