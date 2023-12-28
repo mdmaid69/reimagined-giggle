@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
