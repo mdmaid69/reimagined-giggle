@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-name = "Python"
-print("Hello,", name)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
