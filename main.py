@@ -1,6 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
