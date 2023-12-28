@@ -1,9 +1,7 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
