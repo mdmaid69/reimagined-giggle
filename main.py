@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-print(math.pi)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
