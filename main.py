@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def reverse_array(array):
+        array.reverse()
