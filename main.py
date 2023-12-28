@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
