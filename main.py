@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
