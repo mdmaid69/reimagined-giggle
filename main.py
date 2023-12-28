@@ -1,4 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def sort_list(lst):
-        return sorted(lst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
