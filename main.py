@@ -1,6 +1,4 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import collections
-def create_user_string():
-        return collections.UserString()
+def remove_from_array(array, item):
+        array.remove(item)
+print(sum(range(10)))
