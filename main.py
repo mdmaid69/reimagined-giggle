@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
