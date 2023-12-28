@@ -1,5 +1,9 @@
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
