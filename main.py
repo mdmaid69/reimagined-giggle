@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
