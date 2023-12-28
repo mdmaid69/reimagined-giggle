@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
