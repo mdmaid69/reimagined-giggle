@@ -1,5 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_combinations(n, k):
+        return math.comb(n, k)
