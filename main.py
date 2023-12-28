@@ -1,10 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
