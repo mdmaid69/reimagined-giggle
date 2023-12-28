@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_unique_words(sentence):
+        return set(sentence.split())
