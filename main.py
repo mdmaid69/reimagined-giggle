@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+def divide_numbers(x, y):
+        return x / y
