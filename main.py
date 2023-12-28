@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def find_max(lst):
+        return max(lst)
+import logging
+def log_message(message):
+        logging.info(message)
