@@ -1,8 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
