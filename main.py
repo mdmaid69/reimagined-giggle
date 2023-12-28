@@ -1,8 +1,7 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
