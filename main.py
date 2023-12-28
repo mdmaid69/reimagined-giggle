@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def find_unique_words(sentence):
+        return set(sentence.split())
