@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
