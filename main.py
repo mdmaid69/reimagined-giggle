@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def add_numbers(x, y):
+        return x + y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
