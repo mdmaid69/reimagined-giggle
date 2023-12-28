@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
