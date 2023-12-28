@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
