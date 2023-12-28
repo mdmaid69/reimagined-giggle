@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+text = "Hello, world!"
+print("Reversed:", text[::-1])
