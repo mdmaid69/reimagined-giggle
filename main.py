@@ -1,5 +1,10 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
