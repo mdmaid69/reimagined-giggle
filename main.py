@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def multiply_numbers(x, y):
+        return x * y
