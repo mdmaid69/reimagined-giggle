@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
