@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
