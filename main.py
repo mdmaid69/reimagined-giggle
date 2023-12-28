@@ -1,9 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def reverse_list(lst):
+        return lst[::-1]
+import sys
+def exit_program():
+        sys.exit()
