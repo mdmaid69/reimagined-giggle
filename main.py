@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_gamma_function(x):
+        return math.gamma(x)
