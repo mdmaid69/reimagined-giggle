@@ -1,6 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_circle_area(radius):
+        return math.pi * radius**2
