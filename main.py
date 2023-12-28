@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_current_directory():
+        return os.getcwd()
