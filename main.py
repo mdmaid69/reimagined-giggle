@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
