@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def find_max(lst):
+        return max(lst)
