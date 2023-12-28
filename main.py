@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
