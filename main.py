@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-name = "Python"
-print("Hello,", name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
