@@ -1,5 +1,8 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def count_elements(lst):
-        return len(lst)
+import platform
+def get_python_version():
+        return platform.python_version()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
