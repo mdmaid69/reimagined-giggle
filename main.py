@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
