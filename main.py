@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
