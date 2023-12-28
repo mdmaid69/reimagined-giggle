@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
