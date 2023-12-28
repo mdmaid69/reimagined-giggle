@@ -1,6 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
