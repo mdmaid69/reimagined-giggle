@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import datetime
-print(datetime.datetime.now())
+  def multiply_numbers(x, y):
+        return x * y
+import sys
+def print_python_version():
+        print(sys.version)
