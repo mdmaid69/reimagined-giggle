@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
