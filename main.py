@@ -1,6 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
