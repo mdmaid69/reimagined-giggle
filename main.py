@@ -1,6 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def pop_from_array(array, i=-1):
+        return array.pop(i)
