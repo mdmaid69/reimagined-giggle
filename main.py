@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
