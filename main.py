@@ -1,5 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
