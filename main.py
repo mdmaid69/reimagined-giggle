@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
