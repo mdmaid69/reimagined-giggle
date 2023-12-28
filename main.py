@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def clear_array(array):
-        array *= 0
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
