@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_as_str(array):
+        return str(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
