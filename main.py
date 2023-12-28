@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_stack():
-        return collections.deque()
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
