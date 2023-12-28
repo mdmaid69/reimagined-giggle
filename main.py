@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
