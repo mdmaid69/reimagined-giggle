@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
