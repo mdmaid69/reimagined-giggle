@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
