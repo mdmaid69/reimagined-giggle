@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import logging
+def log_message(message):
+        logging.info(message)
