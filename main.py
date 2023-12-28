@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_power(work, time):
-        return work / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
