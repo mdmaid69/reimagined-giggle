@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_density(mass, volume):
+        return mass / volume
