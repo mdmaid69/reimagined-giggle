@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
