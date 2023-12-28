@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
