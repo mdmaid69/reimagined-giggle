@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
