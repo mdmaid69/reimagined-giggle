@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import numpy as np
+print(np.array([1, 2, 3]))
+import time
+def get_time_since_epoch():
+        return time.time()
