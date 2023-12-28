@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
