@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-text = "Hello, world!"
-print("Characters:", len(text))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def convert_to_octal(n):
+        return oct(n)
