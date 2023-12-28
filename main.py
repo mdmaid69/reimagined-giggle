@@ -1,5 +1,3 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_typecode(array):
-        return array.typecode
+print("Hello, world!")
+def convert_to_hex(n):
+        return hex(n)
