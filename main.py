@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
