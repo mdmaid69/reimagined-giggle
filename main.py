@@ -1,8 +1,7 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
