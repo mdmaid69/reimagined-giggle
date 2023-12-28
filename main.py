@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
