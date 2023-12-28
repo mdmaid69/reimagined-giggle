@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
