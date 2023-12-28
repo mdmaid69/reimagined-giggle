@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import platform
-def get_python_version():
-        return platform.python_version()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
