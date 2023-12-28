@@ -1,6 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def remove_from_array(array, item):
+        array.remove(item)
