@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def count_characters(sentence):
+        return len(sentence)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
