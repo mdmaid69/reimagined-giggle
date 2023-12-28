@@ -1,5 +1,8 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
