@@ -1,8 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
