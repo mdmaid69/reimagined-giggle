@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
