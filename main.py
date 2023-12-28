@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def reverse_string(s):
+        return s[::-1]
