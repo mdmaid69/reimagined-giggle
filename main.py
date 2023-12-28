@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def clear_array(array):
+        array *= 0
