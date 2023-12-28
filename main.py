@@ -1,5 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_power(work, time):
-        return work / time
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import time
+def get_current_time():
+        return time.ctime()
