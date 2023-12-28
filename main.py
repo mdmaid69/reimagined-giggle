@@ -1,6 +1,7 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_speed(distance, time):
+        return distance / time
