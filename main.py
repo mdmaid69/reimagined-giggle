@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
