@@ -1,6 +1,8 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import sys
-  def get_python_version():
-        return sys.version
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
