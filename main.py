@@ -1,5 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
