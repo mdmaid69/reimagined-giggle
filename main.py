@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  def reverse_list(lst):
-        return lst[::-1]
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
