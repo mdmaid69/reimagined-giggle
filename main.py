@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
