@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
