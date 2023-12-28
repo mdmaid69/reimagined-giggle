@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def reverse_list(lst):
+        return lst[::-1]
