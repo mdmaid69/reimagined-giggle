@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
