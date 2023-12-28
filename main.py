@@ -1,5 +1,9 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def square_number(x):
+        return x**2
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
