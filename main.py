@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_arc_sine(x):
+        return math.asin(x)
