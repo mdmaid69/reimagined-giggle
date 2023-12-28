@@ -1,4 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def find_max(numbers):
+        return max(numbers)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
