@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
