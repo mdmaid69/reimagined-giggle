@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
