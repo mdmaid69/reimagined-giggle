@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_sine(x):
+        return math.sin(x)
