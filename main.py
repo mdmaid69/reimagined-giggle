@@ -1,6 +1,10 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
