@@ -1,4 +1,4 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def remove_duplicates(lst):
-        return list(set(lst))
+print("Powers of 2:", [2**x for x in range(n)])
