@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def divide_numbers(x, y):
+        return x / y
 import array
-def clear_array(array):
-        array *= 0
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
