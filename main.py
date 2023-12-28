@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def add_numbers(x, y):
-        return x + y
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import platform
+def get_python_version():
+        return platform.python_version()
