@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def convert_to_octal(n):
+        return oct(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
