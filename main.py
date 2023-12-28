@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
