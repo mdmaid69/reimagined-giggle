@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
