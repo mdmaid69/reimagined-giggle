@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+text = "Hello, world!"
+print("Characters:", len(text))
