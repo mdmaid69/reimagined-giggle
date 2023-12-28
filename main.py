@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_pressure(force, area):
-        return force / area
+import random
+def roll_die():
+        return random.randint(1, 6)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
