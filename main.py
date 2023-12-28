@@ -1,4 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def multiply_numbers(x, y):
-        return x * y
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
