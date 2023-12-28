@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
