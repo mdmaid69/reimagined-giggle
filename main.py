@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
