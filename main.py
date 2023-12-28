@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
