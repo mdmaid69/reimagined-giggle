@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-print(sys.version)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
