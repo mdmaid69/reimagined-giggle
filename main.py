@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
