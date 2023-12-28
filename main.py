@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
 import sys
-print(sys.version)
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
