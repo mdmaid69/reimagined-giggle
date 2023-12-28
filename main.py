@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def count_elements(lst):
+        return len(lst)
+def calculate_speed(distance, time):
+        return distance / time
