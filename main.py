@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
