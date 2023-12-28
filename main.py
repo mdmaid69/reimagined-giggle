@@ -1,5 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
