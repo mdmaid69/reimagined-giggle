@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import collections
+def create_stack():
+        return collections.deque()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
