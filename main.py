@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
