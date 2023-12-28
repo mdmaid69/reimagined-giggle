@@ -1,5 +1,8 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import random
-print(random.randint(0, 100))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
