@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
