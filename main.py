@@ -1,5 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def count_elements(lst):
-        return len(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
