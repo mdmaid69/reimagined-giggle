@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
