@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def count_elements(lst):
-        return len(lst)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
