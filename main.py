@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def find_max(numbers):
+        return max(numbers)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
