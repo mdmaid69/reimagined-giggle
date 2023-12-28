@@ -1,6 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
