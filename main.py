@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_density(mass, volume):
-        return mass / volume
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
