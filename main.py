@@ -1,5 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def sort_list(lst):
-        return sorted(lst)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
