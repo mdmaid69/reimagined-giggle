@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-x = 10
-y = 20
-print("Sum:", x + y)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
