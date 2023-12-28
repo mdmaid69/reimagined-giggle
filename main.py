@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_power(work, time):
-        return work / time
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
