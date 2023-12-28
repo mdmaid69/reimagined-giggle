@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
