@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def count_characters(sentence):
+        return len(sentence)
