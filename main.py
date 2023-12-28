@@ -1,5 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
