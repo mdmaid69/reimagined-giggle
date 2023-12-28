@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_str(array):
+        return str(array)
