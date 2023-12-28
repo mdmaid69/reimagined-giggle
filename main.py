@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
