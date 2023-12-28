@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
