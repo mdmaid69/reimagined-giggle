@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
