@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def cube_number(x):
+        return x**3
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
