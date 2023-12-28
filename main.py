@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def find_min(numbers):
-        return min(numbers)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
