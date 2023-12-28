@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
