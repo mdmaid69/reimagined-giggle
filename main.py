@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
