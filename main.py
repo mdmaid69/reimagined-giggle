@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
