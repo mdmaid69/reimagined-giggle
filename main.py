@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
