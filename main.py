@@ -1,5 +1,8 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def square_number(x):
+        return x**2
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
