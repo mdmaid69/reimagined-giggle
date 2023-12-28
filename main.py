@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_set(array):
+        return set(array)
