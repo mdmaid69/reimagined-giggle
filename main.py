@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+from collections import Counter
+print(Counter("hello world"))
