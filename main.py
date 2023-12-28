@@ -1,6 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def pop_from_array(array, i=-1):
+        return array.pop(i)
