@@ -1,6 +1,10 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def square_number(x):
+        return x**2
