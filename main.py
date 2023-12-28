@@ -1,7 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def cube_number(x):
+        return x**3
