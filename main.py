@@ -1,3 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-print(sum(range(10)))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
