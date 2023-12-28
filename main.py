@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
