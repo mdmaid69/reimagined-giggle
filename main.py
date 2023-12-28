@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+x = 10
+y = 20
+print("Sum:", x + y)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
