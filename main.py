@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
