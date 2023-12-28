@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import platform
-def get_os_info():
-        return platform.uname()
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
