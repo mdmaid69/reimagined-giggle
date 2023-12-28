@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_list_from_array(array):
+        return array.tolist()
