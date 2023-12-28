@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def get_array_as_float(array):
+        return float(array[0])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
