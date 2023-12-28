@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_acceleration(speed, time):
-        return speed / time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def add_numbers(x, y):
+        return x + y
