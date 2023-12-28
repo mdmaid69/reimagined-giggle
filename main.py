@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_memoryview(array):
+        return memoryview(array)
