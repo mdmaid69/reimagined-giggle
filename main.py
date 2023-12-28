@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
