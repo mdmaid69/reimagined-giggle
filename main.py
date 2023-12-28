@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def multiply_numbers(x, y):
+        return x * y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
