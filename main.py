@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
