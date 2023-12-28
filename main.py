@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
