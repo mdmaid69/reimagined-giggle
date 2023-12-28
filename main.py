@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
