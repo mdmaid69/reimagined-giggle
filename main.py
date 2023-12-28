@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
