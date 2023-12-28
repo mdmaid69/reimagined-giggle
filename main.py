@@ -1,8 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
