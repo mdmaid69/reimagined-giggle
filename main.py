@@ -1,5 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
