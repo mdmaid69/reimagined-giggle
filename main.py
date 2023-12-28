@@ -1,7 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def count_characters(sentence):
-        return len(sentence)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
