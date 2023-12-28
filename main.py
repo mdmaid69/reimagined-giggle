@@ -1,4 +1,7 @@
-for i in range(10): print(i)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
