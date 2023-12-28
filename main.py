@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
