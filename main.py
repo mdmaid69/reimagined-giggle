@@ -1,8 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+text = "Hello, world!"
+print("Characters:", len(text))
