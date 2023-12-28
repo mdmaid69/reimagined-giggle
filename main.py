@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
