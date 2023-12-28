@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def reverse_string(s):
+        return s[::-1]
+  def calculate_area_circle(r):
+        return 3.14 * r**2
