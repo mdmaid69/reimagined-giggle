@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
