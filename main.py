@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def remove_duplicates(lst):
+        return list(set(lst))
