@@ -1,5 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
