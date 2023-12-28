@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_area_circle(r):
+        return 3.14 * r**2
