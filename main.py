@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
