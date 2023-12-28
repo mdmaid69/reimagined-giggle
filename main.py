@@ -1,5 +1,9 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
