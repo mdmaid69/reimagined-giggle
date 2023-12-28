@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
