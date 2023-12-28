@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
