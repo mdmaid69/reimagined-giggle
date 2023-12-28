@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
