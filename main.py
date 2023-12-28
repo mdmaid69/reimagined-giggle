@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
