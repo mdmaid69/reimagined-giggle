@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
