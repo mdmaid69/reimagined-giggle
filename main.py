@@ -1,7 +1,7 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
