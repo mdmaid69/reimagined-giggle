@@ -1,5 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
