@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
