@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import getpass
+def get_username():
+        return getpass.getuser()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
