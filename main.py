@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
