@@ -1,4 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def cube_number(x):
-        return x**3
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
