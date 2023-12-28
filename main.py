@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
