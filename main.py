@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
