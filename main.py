@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
