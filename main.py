@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
