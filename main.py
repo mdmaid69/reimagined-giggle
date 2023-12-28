@@ -1,8 +1,8 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
