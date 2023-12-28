@@ -1,9 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import tensorflow as tf
+print(tf.__version__)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
