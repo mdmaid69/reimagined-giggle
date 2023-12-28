@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
