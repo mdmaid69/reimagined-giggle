@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+name = "Python"
+print("Hello,", name)
