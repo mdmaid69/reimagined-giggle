@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def convert_to_octal(n):
+        return oct(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
