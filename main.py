@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-for i in range(5):
-        print(i)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
