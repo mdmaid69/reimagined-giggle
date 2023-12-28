@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def cube_number(x):
-        return x**3
+def find_min(lst):
+        return min(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
