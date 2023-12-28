@@ -1,5 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def convert_to_binary(n):
+        return bin(n)
