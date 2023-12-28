@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_area(radius):
+        return 3.14 * radius * radius
