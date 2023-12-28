@@ -1,7 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
