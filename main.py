@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def is_odd(n):
-        return n % 2 != 0
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
