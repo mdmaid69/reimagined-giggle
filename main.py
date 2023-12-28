@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import platform
-def get_os_info():
-        return platform.uname()
+  def add_numbers(x, y):
+        return x + y
+x = 10
+y = 20
+print("Sum:", x + y)
