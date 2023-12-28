@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def reverse_list(lst):
+        return lst[::-1]
