@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
