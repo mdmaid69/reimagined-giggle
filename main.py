@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def find_max(lst):
-        return max(lst)
+for i in range(10): print(i)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
