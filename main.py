@@ -1,5 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def reverse_list(lst):
+        return lst[::-1]
