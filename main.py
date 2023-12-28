@@ -1,7 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
