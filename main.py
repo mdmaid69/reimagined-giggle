@@ -1,6 +1,7 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
