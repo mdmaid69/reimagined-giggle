@@ -1,4 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-print("Hello, world!")
+import sys
+print(sys.version)
+def convert_to_octal(n):
+        return oct(n)
