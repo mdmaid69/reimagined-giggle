@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
