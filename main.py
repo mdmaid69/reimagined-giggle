@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def is_palindrome(s):
-        return s == s[::-1]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import re
+print(re.match("h.*o", "hello world"))
