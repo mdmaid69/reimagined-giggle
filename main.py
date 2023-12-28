@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_max(numbers):
+        return max(numbers)
