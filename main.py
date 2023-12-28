@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_item(array, i):
+        return array[i]
