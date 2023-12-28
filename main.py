@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def convert_to_hex(n):
+        return hex(n)
