@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
