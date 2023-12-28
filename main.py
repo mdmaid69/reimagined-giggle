@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
