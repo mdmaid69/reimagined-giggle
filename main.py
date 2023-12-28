@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
