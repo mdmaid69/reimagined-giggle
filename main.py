@@ -1,5 +1,9 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
