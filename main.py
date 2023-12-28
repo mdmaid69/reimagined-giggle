@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import sys
-def print_python_version():
-        print(sys.version)
+def reverse_string(s):
+        return s[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
