@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import os
+print(os.getcwd())
