@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
