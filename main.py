@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def convert_to_binary(n):
+        return bin(n)
