@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_pressure(force, area):
+        return force / area
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
