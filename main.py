@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
