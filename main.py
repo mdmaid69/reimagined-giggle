@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_queue():
+        return collections.deque()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
