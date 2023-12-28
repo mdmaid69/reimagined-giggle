@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
