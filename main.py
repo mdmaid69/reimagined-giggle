@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
