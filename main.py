@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
