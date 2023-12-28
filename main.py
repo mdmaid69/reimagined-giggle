@@ -1,3 +1,8 @@
-def find_min(lst):
-        return min(lst)
-print("Hello, world!")
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
