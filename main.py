@@ -1,6 +1,8 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def count_characters(sentence):
-        return len(sentence)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
