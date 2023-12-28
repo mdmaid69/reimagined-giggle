@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_pressure(force, area):
+        return force / area
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
