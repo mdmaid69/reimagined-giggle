@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+print(math.pi)
