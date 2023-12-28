@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def count_elements(lst):
+        return len(lst)
