@@ -1,6 +1,9 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
