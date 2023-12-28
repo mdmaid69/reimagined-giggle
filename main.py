@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import sys
+def print_python_version():
+        print(sys.version)
+import time
+def get_time_since_epoch():
+        return time.time()
