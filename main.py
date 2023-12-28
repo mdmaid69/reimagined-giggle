@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
