@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import platform
-def get_os_info():
-        return platform.uname()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
