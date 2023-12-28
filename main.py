@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
