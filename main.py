@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
