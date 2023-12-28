@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
