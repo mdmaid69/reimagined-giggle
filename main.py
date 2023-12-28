@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
