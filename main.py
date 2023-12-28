@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import time
-def get_current_time():
-        return time.ctime()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
