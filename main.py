@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def subtract_numbers(x, y):
+        return x - y
