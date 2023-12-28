@@ -1,5 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_pressure(force, area):
-        return force / area
+import datetime
+print(datetime.datetime.now())
+  def add_numbers(x, y):
+        return x + y
