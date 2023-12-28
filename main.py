@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
