@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
