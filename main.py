@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import datetime
+print(datetime.datetime.now())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
