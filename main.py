@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
