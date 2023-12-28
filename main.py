@@ -1,5 +1,6 @@
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
