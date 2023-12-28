@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
