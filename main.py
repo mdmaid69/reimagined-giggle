@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def convert_to_hex(n):
+        return hex(n)
