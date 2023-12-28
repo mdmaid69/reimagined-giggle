@@ -1,9 +1,9 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
