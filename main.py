@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import sys
-  def get_python_version():
-        return sys.version
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
