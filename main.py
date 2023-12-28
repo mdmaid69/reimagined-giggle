@@ -1,5 +1,3 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+print("Hello, world!")
+  def remove_duplicates(lst):
+        return list(set(lst))
