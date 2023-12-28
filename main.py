@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import datetime
+print(datetime.datetime.now())
+import json
+print(json.dumps({"name": "John", "age": 30}))
