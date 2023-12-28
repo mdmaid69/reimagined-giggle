@@ -1,6 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-print(sum(range(10)))
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
