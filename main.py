@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
