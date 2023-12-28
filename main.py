@@ -1,6 +1,8 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
