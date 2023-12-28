@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
