@@ -1,6 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
