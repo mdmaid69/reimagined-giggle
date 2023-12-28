@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import collections
+def create_user_string():
+        return collections.UserString()
