@@ -1,5 +1,8 @@
-for i in range(5):
-        print(i)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_item(array, i):
+        return array[i]
