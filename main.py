@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
