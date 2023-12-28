@@ -1,7 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import numpy as np
+print(np.array([1, 2, 3]))
