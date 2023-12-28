@@ -1,5 +1,8 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
