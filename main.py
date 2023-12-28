@@ -1,6 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
