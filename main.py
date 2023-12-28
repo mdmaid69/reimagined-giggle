@@ -1,5 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_power(work, time):
-        return work / time
+def create_counter():
+        return collections.Counter()
