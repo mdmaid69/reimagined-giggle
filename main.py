@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+for i in range(5):
+        print(i)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
