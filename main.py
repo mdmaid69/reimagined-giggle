@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
