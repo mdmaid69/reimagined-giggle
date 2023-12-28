@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
