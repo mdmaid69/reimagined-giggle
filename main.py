@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def cube_number(x):
-        return x**3
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import datetime
+def get_today_date():
+        return datetime.date.today()
