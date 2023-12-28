@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import collections
-def create_counter():
-        return collections.Counter()
+def find_max(lst):
+        return max(lst)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
