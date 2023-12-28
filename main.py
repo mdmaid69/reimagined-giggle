@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
