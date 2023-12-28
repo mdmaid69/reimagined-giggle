@@ -1,4 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-print("Hello, world!")
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
