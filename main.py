@@ -1,6 +1,3 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+print([x**2 for x in range(10)])
