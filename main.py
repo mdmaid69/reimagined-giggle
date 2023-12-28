@@ -1,4 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_area_circle(r):
+        return 3.14 * r**2
