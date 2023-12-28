@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
