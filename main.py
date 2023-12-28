@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_sine(x):
+        return math.sin(x)
