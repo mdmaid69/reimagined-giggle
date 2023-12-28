@@ -1,3 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-for i in range(10): print(i)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
