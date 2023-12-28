@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
