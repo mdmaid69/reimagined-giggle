@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
