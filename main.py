@@ -1,4 +1,3 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_speed(distance, time):
-        return distance / time
+print([x**2 for x in range(10)])
+def reverse_list(lst):
+        return lst[::-1]
