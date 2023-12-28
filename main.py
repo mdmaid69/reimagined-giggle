@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
