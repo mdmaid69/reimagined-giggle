@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def create_user_string():
+        return collections.UserString()
