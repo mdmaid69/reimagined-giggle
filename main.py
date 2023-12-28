@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def convert_to_hex(n):
+        return hex(n)
+import time
+print(time.time())
