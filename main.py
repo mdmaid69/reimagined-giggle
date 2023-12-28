@@ -1,6 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
