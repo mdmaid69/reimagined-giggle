@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def count_characters(sentence):
-        return len(sentence)
+def find_max(numbers):
+        return max(numbers)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
