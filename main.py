@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def divide_numbers(x, y):
+        return x / y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
