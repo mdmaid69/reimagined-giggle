@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_work(force, distance):
+        return force * distance
