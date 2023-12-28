@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
