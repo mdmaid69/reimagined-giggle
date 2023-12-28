@@ -1,7 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def sort_list(lst):
+        return sorted(lst)
