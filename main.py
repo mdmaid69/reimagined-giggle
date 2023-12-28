@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+print([x**2 for x in range(10)])
