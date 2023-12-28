@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
