@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
