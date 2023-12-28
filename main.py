@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
