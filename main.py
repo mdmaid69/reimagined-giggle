@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_density(mass, volume):
-        return mass / volume
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
