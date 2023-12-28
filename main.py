@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_as_list(array):
+        return list(array)
