@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+print([x**2 for x in range(10)])
