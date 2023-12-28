@@ -1,4 +1,7 @@
-def square_number(x):
-        return x**2
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
