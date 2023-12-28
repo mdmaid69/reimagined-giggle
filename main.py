@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
