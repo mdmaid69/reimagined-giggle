@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
