@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def reverse_list(lst):
-        return lst[::-1]
+  def add_numbers(x, y):
+        return x + y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
