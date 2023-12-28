@@ -1,6 +1,7 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
