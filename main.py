@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import numpy as np
-print(np.array([1, 2, 3]))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
