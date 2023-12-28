@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
