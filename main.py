@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def reverse_array(array):
+        array.reverse()
