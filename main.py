@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
