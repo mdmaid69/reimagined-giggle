@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_ceiling(x):
+        return math.ceil(x)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
