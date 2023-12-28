@@ -1,8 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
