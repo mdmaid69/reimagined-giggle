@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
