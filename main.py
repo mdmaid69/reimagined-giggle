@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_combinations(n, k):
+        return math.comb(n, k)
