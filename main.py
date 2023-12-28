@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def count_elements(lst):
+        return len(lst)
