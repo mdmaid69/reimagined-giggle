@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
