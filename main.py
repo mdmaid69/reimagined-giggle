@@ -1,6 +1,5 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+text = "Hello, world!"
+print("Characters:", len(text))
