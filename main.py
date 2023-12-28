@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import collections
+def create_queue():
+        return collections.deque()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
