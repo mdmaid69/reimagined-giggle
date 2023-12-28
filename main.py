@@ -1,6 +1,3 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def clear_array(array):
-        array *= 0
+print([x**2 for x in range(10)])
+def divide_numbers(x, y):
+        return x / y
