@@ -1,6 +1,9 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
