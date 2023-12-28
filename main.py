@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def count_elements(lst):
+        return len(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
