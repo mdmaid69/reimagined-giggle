@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
