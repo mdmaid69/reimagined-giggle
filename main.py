@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
