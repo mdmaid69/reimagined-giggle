@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
