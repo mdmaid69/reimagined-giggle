@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
