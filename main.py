@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
