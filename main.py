@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
