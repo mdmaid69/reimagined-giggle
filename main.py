@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
