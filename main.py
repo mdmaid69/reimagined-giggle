@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
