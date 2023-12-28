@@ -1,4 +1,7 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
