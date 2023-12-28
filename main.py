@@ -1,6 +1,8 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import platform
-def get_os_info():
-        return platform.uname()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
