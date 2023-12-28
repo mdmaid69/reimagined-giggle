@@ -1,6 +1,8 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import sys
+  def get_python_version():
+        return sys.version
