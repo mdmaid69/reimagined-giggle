@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
