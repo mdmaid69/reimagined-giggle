@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
