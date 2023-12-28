@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
