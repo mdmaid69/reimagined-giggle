@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
