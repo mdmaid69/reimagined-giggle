@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
