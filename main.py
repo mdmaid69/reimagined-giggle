@@ -1,5 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+text = "Hello, world!"
+print("Characters:", len(text))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
