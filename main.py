@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_index(array, item):
+        return array.index(item)
