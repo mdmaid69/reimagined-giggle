@@ -1,5 +1,8 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
