@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
