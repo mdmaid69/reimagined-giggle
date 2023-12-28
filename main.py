@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def find_max(numbers):
+        return max(numbers)
