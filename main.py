@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def add_numbers(x, y):
+        return x + y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
