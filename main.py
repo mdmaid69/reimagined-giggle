@@ -1,5 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
