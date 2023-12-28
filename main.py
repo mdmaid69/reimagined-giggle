@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
