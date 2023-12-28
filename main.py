@@ -1,4 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
