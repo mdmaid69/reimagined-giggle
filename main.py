@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def add_numbers(a, b):
-        return a + b
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
