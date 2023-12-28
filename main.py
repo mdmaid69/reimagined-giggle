@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
