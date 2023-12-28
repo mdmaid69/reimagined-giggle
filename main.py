@@ -1,4 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-for i in range(10): print(i)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
