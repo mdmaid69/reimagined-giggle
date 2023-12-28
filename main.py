@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import tensorflow as tf
+print(tf.__version__)
