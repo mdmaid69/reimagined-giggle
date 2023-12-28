@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_pressure(force, area):
+        return force / area
+import sys
+def exit_program():
+        sys.exit()
