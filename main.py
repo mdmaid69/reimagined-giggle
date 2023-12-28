@@ -1,6 +1,8 @@
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
