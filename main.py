@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import random
-print(random.randint(0, 100))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
