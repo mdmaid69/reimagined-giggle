@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
