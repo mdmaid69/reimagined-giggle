@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
