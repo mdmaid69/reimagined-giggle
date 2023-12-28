@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
