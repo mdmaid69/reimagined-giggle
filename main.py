@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+print([x**2 for x in range(10)])
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
