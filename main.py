@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
