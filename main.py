@@ -1,5 +1,5 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
