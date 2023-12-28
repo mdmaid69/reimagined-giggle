@@ -1,4 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
