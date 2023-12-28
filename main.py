@@ -1,6 +1,8 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
