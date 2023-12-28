@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
