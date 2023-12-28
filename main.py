@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def split_string(pattern, string):
+        return re.split(pattern, string)
