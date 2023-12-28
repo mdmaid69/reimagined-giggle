@@ -1,5 +1,5 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def get_array_length(array):
+        return len(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
