@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def subtract_numbers(x, y):
+        return x - y
