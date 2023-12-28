@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
