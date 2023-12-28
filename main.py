@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
