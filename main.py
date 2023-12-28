@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-print(math.pi)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import os
+print(os.getcwd())
