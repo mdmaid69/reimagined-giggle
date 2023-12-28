@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_floor(x):
+        return math.floor(x)
