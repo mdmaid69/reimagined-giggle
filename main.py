@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+from collections import Counter
+print(Counter("hello world"))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
