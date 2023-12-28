@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
