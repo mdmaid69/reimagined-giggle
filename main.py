@@ -1,5 +1,8 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
