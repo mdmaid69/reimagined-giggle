@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def find_max(numbers):
+        return max(numbers)
+def find_min(lst):
+        return min(lst)
