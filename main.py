@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
