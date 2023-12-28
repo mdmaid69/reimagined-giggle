@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
