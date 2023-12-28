@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
