@@ -1,6 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
