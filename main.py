@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def remove_duplicates(lst):
-        return list(set(lst))
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
