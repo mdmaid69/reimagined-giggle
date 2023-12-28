@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
