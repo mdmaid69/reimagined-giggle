@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
