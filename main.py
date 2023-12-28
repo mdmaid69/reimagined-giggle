@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
