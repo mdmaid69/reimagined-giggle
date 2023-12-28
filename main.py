@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def remove_duplicates(lst):
+        return list(set(lst))
