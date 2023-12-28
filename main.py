@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
