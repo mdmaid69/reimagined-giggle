@@ -1,7 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
