@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def greet(name):
+        print(f"Hello, {name}!")
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
