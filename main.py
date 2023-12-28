@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def set_array_item(array, i, item):
+        array[i] = item
+for i in range(10): print(i)
