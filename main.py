@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
