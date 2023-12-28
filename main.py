@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
