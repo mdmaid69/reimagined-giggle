@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import collections
+def create_stack():
+        return collections.deque()
