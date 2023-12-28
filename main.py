@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
