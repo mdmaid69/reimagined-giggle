@@ -1,5 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def reverse_string(s):
-        return s[::-1]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
