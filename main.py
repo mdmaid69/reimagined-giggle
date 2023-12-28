@@ -1,6 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def get_array_as_set(array):
+        return set(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
