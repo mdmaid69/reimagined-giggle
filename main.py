@@ -1,6 +1,11 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import random
+def roll_die():
+        return random.randint(1, 6)
