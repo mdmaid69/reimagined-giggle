@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
