@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def greet(name):
+        print(f"Hello, {name}!")
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
