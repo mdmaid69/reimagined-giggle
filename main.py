@@ -1,5 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def convert_to_octal(n):
-        return oct(n)
+def convert_array_to_bytes(array):
+        return array.tobytes()
