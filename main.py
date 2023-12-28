@@ -1,4 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
