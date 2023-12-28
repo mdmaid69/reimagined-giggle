@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_work(force, distance):
-        return force * distance
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
