@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def multiply_numbers(x, y):
+        return x * y
