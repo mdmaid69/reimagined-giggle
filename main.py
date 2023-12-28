@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
 import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def create_user_string():
+        return collections.UserString()
