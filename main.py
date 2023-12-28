@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def is_odd(n):
-        return n % 2 != 0
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_float(array):
+        return float(array[0])
