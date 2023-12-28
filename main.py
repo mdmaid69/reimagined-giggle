@@ -1,7 +1,6 @@
-def cube_number(x):
-        return x**3
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
