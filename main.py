@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
