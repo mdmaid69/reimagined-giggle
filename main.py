@@ -1,5 +1,8 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
