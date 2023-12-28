@@ -1,8 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import tensorflow as tf
+print(tf.__version__)
