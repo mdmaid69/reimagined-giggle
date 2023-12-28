@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
