@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
