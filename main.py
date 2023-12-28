@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
