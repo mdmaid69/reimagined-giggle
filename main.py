@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import collections
-def create_stack():
-        return collections.deque()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
