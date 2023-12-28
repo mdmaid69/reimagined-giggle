@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
