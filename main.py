@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
