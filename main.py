@@ -1,6 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
