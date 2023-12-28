@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_min(numbers):
+        return min(numbers)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
