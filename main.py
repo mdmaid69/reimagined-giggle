@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
