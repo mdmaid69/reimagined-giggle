@@ -1,7 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
