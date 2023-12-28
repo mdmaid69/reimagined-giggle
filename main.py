@@ -1,6 +1,6 @@
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def get_array_as_bool(array):
+        return bool(array)
