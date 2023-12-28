@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
