@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import sys
+  def get_python_version():
+        return sys.version
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
