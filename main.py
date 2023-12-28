@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_area_circle(r):
+        return 3.14 * r**2
