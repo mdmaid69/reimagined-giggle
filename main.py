@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import datetime
-print(datetime.datetime.now())
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
