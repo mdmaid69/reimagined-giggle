@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
