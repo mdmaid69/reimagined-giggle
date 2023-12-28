@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
