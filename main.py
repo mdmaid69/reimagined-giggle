@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
