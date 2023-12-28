@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
