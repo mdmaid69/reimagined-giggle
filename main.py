@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import time
+def get_time_since_epoch():
+        return time.time()
