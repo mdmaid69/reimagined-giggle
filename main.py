@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def is_even(n):
-        return n % 2 == 0
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
