@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
