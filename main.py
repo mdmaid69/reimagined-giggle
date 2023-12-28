@@ -1,6 +1,7 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
