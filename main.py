@@ -1,7 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+print(math.pi)
