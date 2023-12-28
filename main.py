@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
