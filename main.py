@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
