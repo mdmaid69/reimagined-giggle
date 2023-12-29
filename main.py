@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_work(force, distance):
+        return force * distance
