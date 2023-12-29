@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
