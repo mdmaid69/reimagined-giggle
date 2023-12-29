@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def reverse_array(array):
+        array.reverse()
