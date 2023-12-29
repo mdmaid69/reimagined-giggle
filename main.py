@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
