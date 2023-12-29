@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
