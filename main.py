@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
