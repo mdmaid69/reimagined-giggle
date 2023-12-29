@@ -1,6 +1,8 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
