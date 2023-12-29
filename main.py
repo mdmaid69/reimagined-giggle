@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
