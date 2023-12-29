@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def add_numbers(a, b):
-        return a + b
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import random
+def roll_die():
+        return random.randint(1, 6)
