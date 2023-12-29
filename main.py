@@ -1,5 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
