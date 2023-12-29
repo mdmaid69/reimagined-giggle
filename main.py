@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def get_array_as_set(array):
-        return set(array)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
