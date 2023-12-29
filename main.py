@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
