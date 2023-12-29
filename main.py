@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
