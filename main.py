@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
