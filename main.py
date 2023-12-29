@@ -1,7 +1,5 @@
-for i in range(5):
-        print(i)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def clear_array(array):
+        array *= 0
