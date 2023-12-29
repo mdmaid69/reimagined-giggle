@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
