@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
