@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def add_numbers(x, y):
+        return x + y
