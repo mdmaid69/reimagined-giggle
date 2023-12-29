@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
