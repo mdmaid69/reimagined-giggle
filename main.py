@@ -1,8 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def add_numbers(x, y):
+        return x + y
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
