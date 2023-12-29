@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import os
-print(os.getcwd())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def find_max(numbers):
+        return max(numbers)
