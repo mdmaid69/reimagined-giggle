@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
