@@ -1,6 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import platform
-def get_os_info():
-        return platform.uname()
+  def multiply_numbers(x, y):
+        return x * y
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
