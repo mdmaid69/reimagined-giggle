@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
