@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def find_max(numbers):
-        return max(numbers)
+import math
+print(math.pi)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
