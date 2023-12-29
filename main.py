@@ -1,6 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
