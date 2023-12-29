@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import sys
-def exit_program():
-        sys.exit()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
