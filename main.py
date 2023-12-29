@@ -1,9 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
