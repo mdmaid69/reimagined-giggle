@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def is_even(n):
-        return n % 2 == 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
