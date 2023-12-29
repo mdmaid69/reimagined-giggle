@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def change_working_directory(path):
-        os.chdir(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
