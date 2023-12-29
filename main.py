@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  def count_elements(lst):
-        return len(lst)
+name = "Python"
+print("Hello,", name)
+import array
+def append_to_array(array, item):
+        array.append(item)
