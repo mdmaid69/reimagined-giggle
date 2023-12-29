@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_user_list():
+        return collections.UserList()
