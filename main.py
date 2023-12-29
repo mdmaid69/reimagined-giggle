@@ -1,5 +1,5 @@
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-name = "Python"
-print("Hello,", name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
