@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
