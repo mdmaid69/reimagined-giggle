@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def square_number(x):
+        return x**2
