@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
