@@ -1,5 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import random
+print(random.randint(0, 100))
