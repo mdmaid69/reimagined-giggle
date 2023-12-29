@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
