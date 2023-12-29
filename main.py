@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
