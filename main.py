@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
