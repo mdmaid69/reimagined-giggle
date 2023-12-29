@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def cube_number(x):
-        return x**3
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
