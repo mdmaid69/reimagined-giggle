@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_volume(length, width, height):
+        return length * width * height
