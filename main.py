@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
