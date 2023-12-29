@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
