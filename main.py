@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_as_int(array):
+        return int(array[0])
