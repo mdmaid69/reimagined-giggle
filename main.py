@@ -1,5 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
