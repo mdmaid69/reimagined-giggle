@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import platform
+def get_os_info():
+        return platform.uname()
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
