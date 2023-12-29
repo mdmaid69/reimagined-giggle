@@ -1,9 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
 import array
-def get_array_from_string(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
