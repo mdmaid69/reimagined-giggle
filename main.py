@@ -1,4 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_volume(length, width, height):
-        return length * width * height
+import os
+print(os.getcwd())
+  def cube_number(x):
+        return x**3
