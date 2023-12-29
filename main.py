@@ -1,8 +1,9 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
