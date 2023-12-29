@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
