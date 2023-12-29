@@ -1,6 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_error_function(x):
+        return math.erf(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
