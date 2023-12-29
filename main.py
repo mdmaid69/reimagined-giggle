@@ -1,8 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
