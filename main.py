@@ -1,8 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
