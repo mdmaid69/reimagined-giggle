@@ -1,7 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
