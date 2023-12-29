@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
