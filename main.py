@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
