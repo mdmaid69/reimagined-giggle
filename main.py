@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_list(array):
+        return list(array)
