@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
