@@ -1,6 +1,9 @@
 import array
-def get_array_length(array):
-        return len(array)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
