@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
