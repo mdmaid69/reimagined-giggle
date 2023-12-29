@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
