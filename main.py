@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
