@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def is_palindrome(s):
+        return s == s[::-1]
