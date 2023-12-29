@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
