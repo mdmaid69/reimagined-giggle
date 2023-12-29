@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
