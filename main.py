@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
