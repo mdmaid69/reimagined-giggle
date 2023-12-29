@@ -1,8 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_itemsize(array):
+        return array.itemsize
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
