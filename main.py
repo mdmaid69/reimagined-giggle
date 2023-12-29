@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_power(work, time):
+        return work / time
