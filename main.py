@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
