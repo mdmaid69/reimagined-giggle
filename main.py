@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
