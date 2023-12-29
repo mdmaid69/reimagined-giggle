@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
