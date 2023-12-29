@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def print_python_version():
+        print(sys.version)
