@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_queue():
+        return collections.deque()
+  def is_even(n):
+        return n % 2 == 0
