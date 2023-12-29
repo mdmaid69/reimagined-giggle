@@ -1,6 +1,6 @@
-print([x**2 for x in range(10)])
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
