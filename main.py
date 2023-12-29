@@ -1,5 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_speed(distance, time):
-        return distance / time
+def subtract_numbers(x, y):
+        return x - y
+import tensorflow as tf
+print(tf.__version__)
