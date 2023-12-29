@@ -1,5 +1,9 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import numpy as np
-print(np.array([1, 2, 3]))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
