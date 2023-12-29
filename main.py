@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
