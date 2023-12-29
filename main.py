@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
