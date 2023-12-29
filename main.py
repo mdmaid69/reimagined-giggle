@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
