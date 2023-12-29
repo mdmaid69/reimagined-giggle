@@ -1,5 +1,6 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-def reverse_list(lst):
-        return lst[::-1]
+def change_working_directory(path):
+        os.chdir(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
