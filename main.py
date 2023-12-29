@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import time
-def get_current_time():
-        return time.ctime()
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
