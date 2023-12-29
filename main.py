@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
