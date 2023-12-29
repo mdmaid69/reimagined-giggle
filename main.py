@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_floor(x):
+        return math.floor(x)
