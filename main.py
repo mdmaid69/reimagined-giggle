@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def is_palindrome(s):
+        return s == s[::-1]
