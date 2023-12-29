@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
