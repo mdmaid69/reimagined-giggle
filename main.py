@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
