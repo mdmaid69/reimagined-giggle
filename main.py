@@ -1,8 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
