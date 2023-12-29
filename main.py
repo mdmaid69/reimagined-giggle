@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def find_min(lst):
+        return min(lst)
