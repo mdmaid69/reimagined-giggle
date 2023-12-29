@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def reverse_list(lst):
+        return lst[::-1]
