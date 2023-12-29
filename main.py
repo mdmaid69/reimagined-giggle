@@ -1,6 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def find_min(numbers):
+        return min(numbers)
