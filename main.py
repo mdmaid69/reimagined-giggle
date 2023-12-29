@@ -1,4 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
