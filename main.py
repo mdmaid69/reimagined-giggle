@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
