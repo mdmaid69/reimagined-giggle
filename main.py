@@ -1,4 +1,11 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
