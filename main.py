@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
