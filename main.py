@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
