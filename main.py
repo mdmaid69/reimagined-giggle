@@ -1,5 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def cube_number(x):
-        return x**3
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
