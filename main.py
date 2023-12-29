@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
