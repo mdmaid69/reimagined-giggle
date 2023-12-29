@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def find_min(lst):
+        return min(lst)
