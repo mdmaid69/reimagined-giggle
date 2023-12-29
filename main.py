@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
