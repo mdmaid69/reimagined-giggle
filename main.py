@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_power(work, time):
+        return work / time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
