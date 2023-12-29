@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import logging
+def log_message(message):
+        logging.info(message)
