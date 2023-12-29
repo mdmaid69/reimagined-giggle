@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
