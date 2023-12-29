@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import sys
+  def get_python_version():
+        return sys.version
