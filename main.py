@@ -1,6 +1,9 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
