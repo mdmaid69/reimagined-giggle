@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def is_even(n):
-        return n % 2 == 0
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def count_words(sentence):
+        return len(sentence.split())
