@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
