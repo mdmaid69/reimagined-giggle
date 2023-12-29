@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
