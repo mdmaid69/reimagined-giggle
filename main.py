@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
