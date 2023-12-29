@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
