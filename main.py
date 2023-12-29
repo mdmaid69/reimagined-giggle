@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def convert_to_octal(n):
+        return oct(n)
