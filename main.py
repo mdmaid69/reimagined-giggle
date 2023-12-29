@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_power(work, time):
-        return work / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
