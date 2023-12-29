@@ -1,6 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
