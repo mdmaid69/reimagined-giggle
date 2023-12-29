@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def cube_number(x):
+        return x**3
