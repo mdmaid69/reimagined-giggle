@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def clear_array(array):
+        array *= 0
