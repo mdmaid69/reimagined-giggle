@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def remove_duplicates(lst):
+        return list(set(lst))
