@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_density(mass, volume):
+        return mass / volume
