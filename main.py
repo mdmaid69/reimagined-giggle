@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import time
+def get_time_since_epoch():
+        return time.time()
