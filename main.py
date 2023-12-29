@@ -1,8 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
