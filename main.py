@@ -1,5 +1,9 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import platform
+def get_python_version():
+        return platform.python_version()
