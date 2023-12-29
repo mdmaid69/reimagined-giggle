@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
