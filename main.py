@@ -1,6 +1,12 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
