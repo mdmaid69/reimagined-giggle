@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Characters:", len(text))
+def add_numbers(a, b):
+        return a + b
