@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def divide_numbers(x, y):
+        return x / y
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
