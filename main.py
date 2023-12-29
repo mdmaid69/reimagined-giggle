@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
