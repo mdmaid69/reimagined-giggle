@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
