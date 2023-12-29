@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
