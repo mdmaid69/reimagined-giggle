@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def is_palindrome(s):
+        return s == s[::-1]
