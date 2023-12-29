@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+from collections import Counter
+print(Counter("hello world"))
+name = "Python"
+print("Hello,", name)
