@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
