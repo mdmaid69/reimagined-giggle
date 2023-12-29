@@ -1,6 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
