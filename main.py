@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
