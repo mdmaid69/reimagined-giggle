@@ -1,6 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import array
-def get_array_as_str(array):
-        return str(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def convert_array_to_string(array):
+        return array.tostring()
