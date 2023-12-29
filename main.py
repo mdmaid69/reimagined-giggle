@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
