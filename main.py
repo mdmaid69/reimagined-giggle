@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
