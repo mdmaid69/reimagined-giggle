@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
