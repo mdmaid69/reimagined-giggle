@@ -3,5 +3,6 @@ def is_prime(n):
                 if n % i == 0:
                 return False
         return True
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_user_string():
+        return collections.UserString()
