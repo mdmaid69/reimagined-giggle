@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
