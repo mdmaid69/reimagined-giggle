@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
