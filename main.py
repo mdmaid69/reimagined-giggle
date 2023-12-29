@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
