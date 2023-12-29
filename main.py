@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def remove_from_array(array, item):
+        array.remove(item)
