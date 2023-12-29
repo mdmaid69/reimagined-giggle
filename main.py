@@ -1,5 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
