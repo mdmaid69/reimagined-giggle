@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def count_characters(sentence):
-        return len(sentence)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
