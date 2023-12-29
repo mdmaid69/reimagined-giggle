@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-print(os.getcwd())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
