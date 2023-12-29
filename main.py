@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
