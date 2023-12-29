@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  def subtract_numbers(x, y):
-        return x - y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
