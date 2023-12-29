@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
