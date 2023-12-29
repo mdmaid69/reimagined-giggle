@@ -1,6 +1,7 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
