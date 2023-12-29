@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
