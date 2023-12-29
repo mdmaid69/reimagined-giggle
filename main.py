@@ -1,5 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_density(mass, volume):
-        return mass / volume
+def subtract_numbers(x, y):
+        return x - y
+def divide_numbers(x, y):
+        return x / y
