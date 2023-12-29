@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import logging
-def log_message(message):
-        logging.info(message)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
