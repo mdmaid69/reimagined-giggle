@@ -1,7 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
