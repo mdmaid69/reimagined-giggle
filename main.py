@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
