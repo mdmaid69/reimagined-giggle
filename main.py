@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import re
-print(re.match("h.*o", "hello world"))
+def divide_numbers(x, y):
+        return x / y
+  def sort_list(lst):
+        return sorted(lst)
