@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
