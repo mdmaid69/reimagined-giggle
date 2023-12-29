@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
