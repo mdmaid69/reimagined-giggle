@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
