@@ -1,6 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_memoryview(array):
+        return memoryview(array)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
