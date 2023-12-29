@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
