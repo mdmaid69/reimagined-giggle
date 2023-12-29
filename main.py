@@ -1,7 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
