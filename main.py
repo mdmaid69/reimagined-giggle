@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
