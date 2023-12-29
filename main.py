@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def count_words(sentence):
-        return len(sentence.split())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
