@@ -1,5 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def reverse_list(lst):
-        return lst[::-1]
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
