@@ -1,6 +1,5 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import platform
-def get_python_version():
-        return platform.python_version()
+def create_queue():
+        return collections.deque()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
