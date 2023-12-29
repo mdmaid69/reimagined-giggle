@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def square_number(x):
-        return x**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
