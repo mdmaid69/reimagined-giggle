@@ -1,6 +1,8 @@
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import sys
-def print_python_version():
-        print(sys.version)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
