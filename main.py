@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
