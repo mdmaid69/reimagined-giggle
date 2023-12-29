@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_pressure(force, area):
+        return force / area
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
