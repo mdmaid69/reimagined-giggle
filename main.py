@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
