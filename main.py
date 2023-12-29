@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
