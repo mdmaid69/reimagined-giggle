@@ -1,6 +1,8 @@
 import array
-def clear_array(array):
-        array *= 0
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
