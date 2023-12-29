@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import sys
-def print_python_version():
-        print(sys.version)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
