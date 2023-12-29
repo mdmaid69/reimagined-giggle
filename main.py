@@ -1,5 +1,5 @@
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def count_elements(lst):
-        return len(lst)
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
