@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import sys
+def exit_program():
+        sys.exit()
