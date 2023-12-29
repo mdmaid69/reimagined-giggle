@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def count_characters(sentence):
+        return len(sentence)
