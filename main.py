@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
