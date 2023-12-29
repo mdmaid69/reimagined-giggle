@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
