@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
