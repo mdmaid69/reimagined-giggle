@@ -1,5 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
