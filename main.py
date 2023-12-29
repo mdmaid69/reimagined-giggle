@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
