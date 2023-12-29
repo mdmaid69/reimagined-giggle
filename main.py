@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def cube_number(x):
-        return x**3
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import collections
+def create_queue():
+        return collections.deque()
