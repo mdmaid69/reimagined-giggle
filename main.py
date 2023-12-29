@@ -1,5 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
