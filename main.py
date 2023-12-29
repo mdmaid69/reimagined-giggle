@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
