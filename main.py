@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def subtract_numbers(x, y):
+        return x - y
