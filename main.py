@@ -1,6 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
