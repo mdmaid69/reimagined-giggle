@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
