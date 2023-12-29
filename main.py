@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
