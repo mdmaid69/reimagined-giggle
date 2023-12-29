@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
