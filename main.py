@@ -1,5 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def multiply_numbers(x, y):
-        return x * y
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import platform
+def get_python_version():
+        return platform.python_version()
