@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
