@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_pressure(force, area):
+        return force / area
+def count_words(sentence):
+        return len(sentence.split())
