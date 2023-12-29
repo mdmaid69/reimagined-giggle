@@ -1,7 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import collections
+def create_user_list():
+        return collections.UserList()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
