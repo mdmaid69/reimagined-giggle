@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_work(force, distance):
+        return force * distance
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
