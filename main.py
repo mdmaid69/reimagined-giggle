@@ -1,7 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+print("Hello, world!")
