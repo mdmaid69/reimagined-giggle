@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
