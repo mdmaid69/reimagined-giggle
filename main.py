@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def set_array_item(array, i, item):
+        array[i] = item
