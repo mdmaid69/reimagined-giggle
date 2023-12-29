@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
