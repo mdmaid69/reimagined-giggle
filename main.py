@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def is_even(n):
-        return n % 2 == 0
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
