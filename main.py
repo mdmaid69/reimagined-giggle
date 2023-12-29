@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
