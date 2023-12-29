@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
