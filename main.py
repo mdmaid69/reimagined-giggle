@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
