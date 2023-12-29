@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
