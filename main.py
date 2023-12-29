@@ -1,6 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def split_string(pattern, string):
+        return re.split(pattern, string)
