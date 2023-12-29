@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
