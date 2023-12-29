@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
