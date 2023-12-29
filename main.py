@@ -1,6 +1,8 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
