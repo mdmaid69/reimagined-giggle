@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
