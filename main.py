@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def calculate_area_rectangle(l, w):
+        return l * w
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
