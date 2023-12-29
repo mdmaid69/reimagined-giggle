@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import logging
+def log_message(message):
+        logging.info(message)
