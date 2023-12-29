@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_density(mass, volume):
-        return mass / volume
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def append_to_array(array, item):
+        array.append(item)
