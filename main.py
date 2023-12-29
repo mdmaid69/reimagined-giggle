@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+for i in range(5):
+        print(i)
