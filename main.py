@@ -1,5 +1,7 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
