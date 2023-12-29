@@ -1,5 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
