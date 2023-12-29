@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_float(array):
+        return float(array[0])
