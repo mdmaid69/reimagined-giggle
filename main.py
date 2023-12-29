@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
