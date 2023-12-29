@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
