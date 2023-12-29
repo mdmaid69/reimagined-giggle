@@ -1,5 +1,5 @@
 import math
-print(math.pi)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_volume(length, width, height):
+        return length * width * height
