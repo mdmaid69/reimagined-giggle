@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_floor(x):
+        return math.floor(x)
