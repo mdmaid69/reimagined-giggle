@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_counter():
-        return collections.Counter()
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
