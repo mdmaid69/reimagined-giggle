@@ -1,5 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_arc_tangent(x):
+        return math.atan(x)
