@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_power(work, time):
+        return work / time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
