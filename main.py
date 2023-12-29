@@ -1,6 +1,8 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
