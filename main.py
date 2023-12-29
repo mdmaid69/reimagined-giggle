@@ -1,6 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
