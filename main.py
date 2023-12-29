@@ -1,8 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
