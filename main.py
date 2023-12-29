@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_as_tuple(array):
+        return tuple(array)
