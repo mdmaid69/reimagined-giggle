@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
