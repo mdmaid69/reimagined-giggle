@@ -1,5 +1,6 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
