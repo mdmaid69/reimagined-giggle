@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def convert_to_binary(n):
+        return bin(n)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
