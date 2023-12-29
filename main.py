@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
