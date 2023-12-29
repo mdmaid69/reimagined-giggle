@@ -1,5 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
