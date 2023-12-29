@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def find_max(lst):
+        return max(lst)
