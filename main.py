@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
