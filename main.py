@@ -1,6 +1,5 @@
 import math
 def calculate_neper_number_to_power_x(x):
         return math.exp(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
