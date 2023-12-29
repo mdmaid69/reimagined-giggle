@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
