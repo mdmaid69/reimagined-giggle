@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
