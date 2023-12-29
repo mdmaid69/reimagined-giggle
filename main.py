@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_pressure(force, area):
+        return force / area
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
