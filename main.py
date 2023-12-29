@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
