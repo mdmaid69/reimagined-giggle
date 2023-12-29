@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
