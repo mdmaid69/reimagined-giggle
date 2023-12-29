@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
