@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
