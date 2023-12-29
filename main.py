@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import time
-print(time.time())
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
