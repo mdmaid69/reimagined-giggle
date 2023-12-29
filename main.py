@@ -1,4 +1,14 @@
-print(sum(range(10)))
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
