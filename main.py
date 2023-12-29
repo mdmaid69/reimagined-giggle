@@ -1,5 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-print(math.pi)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
