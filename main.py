@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
