@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def convert_to_octal(n):
+        return oct(n)
