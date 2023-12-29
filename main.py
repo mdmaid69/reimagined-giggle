@@ -1,6 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-print(sum(range(10)))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
