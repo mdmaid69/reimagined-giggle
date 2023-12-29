@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def list_files_in_directory(path):
+        return os.listdir(path)
