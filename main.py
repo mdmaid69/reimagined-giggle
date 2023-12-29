@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
