@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def square_number(x):
+        return x**2
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
