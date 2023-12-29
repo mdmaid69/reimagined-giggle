@@ -1,5 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def reverse_string(s):
+        return s[::-1]
