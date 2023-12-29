@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
