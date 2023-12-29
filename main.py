@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
