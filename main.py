@@ -1,5 +1,7 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def cube_number(x):
-        return x**3
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
