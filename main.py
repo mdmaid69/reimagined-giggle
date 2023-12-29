@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_priority_queue():
+        return collections.deque()
