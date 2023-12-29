@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def reverse_array(array):
+        array.reverse()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
