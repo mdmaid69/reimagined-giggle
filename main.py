@@ -1,6 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def reverse_list(lst):
+        return lst[::-1]
