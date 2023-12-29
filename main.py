@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def find_unique_words(sentence):
+        return set(sentence.split())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
