@@ -1,7 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_list_from_array(array):
+        return array.tolist()
