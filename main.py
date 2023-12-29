@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
