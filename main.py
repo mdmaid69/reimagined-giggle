@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_itemsize(array):
+        return array.itemsize
