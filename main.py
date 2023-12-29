@@ -1,6 +1,5 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_user_string():
-        return collections.UserString()
+print(re.match("h.*o", "hello world"))
