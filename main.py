@@ -1,6 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
