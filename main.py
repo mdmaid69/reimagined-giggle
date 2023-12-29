@@ -1,6 +1,6 @@
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
