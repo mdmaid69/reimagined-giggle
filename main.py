@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
