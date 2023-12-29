@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
