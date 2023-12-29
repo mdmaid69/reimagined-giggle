@@ -1,6 +1,7 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
