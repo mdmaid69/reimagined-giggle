@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
