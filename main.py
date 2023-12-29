@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def convert_to_binary(n):
+        return bin(n)
