@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_as_str(array):
-        return str(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
