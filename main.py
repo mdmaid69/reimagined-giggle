@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_item(array, i):
+        return array[i]
+def multiply_numbers(x, y):
+        return x * y
