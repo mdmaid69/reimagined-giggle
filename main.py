@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def sort_numbers(numbers):
+        return sorted(numbers)
