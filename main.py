@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def convert_to_binary(n):
+        return bin(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
