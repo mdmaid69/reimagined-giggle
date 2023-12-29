@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
