@@ -1,6 +1,6 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import sys
-def print_python_version():
-        return sys.version
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
