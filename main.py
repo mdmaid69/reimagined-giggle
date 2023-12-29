@@ -1,4 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def convert_to_binary(n):
-        return bin(n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
