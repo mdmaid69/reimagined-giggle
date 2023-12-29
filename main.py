@@ -1,6 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
