@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
