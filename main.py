@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import datetime
-print(datetime.datetime.now())
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
