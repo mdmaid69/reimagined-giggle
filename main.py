@@ -1,5 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_arc_tangent(x):
+        return math.atan(x)
