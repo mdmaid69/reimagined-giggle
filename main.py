@@ -1,7 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_acceleration(speed, time):
+        return speed / time
