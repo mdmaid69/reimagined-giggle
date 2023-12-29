@@ -1,5 +1,4 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
