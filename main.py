@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
