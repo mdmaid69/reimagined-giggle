@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
