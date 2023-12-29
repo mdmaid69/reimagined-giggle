@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def set_array_item(array, i, item):
+        array[i] = item
