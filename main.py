@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
