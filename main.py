@@ -1,4 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-print("Hello, world!")
+def calculate_power(work, time):
+        return work / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
