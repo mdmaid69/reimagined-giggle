@@ -1,4 +1,9 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
