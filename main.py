@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def is_even(n):
+        return n % 2 == 0
