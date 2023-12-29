@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def count_characters(sentence):
-        return len(sentence)
+import random
+print(random.randint(0, 100))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
