@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
