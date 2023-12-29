@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
