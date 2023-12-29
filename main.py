@@ -1,6 +1,9 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import random
+def roll_die():
+        return random.randint(1, 6)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
