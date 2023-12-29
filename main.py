@@ -1,8 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_min(lst):
+        return min(lst)
