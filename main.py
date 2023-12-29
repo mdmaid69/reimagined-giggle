@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+print(re.match("h.*o", "hello world"))
