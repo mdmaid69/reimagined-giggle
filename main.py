@@ -1,5 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def find_min(lst):
-        return min(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
