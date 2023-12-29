@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_itemsize(array):
+        return array.itemsize
