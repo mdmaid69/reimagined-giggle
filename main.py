@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
