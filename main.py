@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def subtract_numbers(x, y):
+        return x - y
