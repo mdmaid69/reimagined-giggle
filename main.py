@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+from collections import Counter
+print(Counter("hello world"))
