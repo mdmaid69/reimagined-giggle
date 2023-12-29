@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+print(math.pi)
+def reverse_string(s):
+        return s[::-1]
