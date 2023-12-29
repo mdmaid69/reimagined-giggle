@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
