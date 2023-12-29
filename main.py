@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
