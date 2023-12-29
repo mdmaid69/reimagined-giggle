@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_queue():
+        return collections.deque()
+  def add_numbers(x, y):
+        return x + y
