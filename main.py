@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
