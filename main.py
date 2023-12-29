@@ -1,6 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import sys
-def exit_program():
-        sys.exit()
+def set_array_item(array, i, item):
+        array[i] = item
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
