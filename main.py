@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def sort_list(lst):
-        return sorted(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_item(array, i):
+        return array[i]
