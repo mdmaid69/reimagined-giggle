@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+print(sum(range(10)))
