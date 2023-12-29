@@ -1,7 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
