@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-from collections import Counter
-print(Counter("hello world"))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import os
+def change_working_directory(path):
+        os.chdir(path)
