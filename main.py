@@ -1,6 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
