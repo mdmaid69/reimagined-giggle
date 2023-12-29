@@ -1,6 +1,8 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
