@@ -1,6 +1,8 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_arc_sine(x):
+        return math.asin(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
