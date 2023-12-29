@@ -1,6 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_arc_tangent(x):
+        return math.atan(x)
