@@ -1,4 +1,10 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
