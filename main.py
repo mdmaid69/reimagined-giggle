@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
