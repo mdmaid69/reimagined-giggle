@@ -1,6 +1,7 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
