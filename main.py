@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
