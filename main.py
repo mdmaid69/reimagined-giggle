@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
