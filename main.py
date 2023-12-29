@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
