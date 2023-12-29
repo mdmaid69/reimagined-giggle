@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
