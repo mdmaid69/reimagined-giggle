@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
