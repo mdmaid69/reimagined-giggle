@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+def find_unique_words(sentence):
+        return set(sentence.split())
