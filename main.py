@@ -1,5 +1,7 @@
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import random
-def roll_die():
-        return random.randint(1, 6)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
