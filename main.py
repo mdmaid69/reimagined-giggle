@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_power(work, time):
+        return work / time
+import array
+def clear_array(array):
+        array *= 0
