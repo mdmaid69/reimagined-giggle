@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  def is_odd(n):
-        return n % 2 != 0
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
