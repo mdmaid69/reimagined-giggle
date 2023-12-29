@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def convert_to_hex(n):
+        return hex(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
