@@ -1,6 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
