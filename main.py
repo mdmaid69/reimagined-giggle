@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
