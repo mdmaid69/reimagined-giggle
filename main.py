@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
