@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def is_even(n):
+        return n % 2 == 0
