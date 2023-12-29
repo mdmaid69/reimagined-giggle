@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
