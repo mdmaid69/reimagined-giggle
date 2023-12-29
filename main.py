@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def divide_numbers(x, y):
-        return x / y
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
