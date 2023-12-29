@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import sys
+def exit_program():
+        sys.exit()
