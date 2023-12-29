@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
