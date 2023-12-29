@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  def is_odd(n):
-        return n % 2 != 0
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
