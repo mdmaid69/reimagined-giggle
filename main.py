@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def create_user_string():
+        return collections.UserString()
