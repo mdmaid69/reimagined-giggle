@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def count_characters(sentence):
+        return len(sentence)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
