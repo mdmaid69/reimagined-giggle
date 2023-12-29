@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
