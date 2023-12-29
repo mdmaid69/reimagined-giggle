@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def add_numbers(x, y):
+        return x + y
