@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
