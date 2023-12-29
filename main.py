@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def cube_number(x):
-        return x**3
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
