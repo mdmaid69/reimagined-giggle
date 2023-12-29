@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
