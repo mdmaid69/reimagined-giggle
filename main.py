@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
