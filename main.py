@@ -1,9 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
