@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
