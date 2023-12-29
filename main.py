@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
