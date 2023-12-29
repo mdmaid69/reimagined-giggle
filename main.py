@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import getpass
+def get_username():
+        return getpass.getuser()
+import datetime
+def get_current_date():
+        return datetime.date.today()
