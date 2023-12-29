@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def is_odd(n):
+        return n % 2 != 0
