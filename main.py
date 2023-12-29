@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
