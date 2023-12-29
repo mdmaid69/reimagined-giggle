@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
