@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
