@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
