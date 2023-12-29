@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import time
+def get_time_since_epoch():
+        return time.time()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
