@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def cube_number(x):
-        return x**3
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
