@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def is_odd(n):
+        return n % 2 != 0
