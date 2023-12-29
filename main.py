@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
