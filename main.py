@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
