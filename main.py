@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
