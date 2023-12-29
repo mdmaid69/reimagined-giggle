@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def reverse_array(array):
+        array.reverse()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
