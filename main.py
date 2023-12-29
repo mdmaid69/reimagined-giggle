@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
