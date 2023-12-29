@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import sys
+def print_python_version():
+        return sys.version
