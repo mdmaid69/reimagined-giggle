@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
