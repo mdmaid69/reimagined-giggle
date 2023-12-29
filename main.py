@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
