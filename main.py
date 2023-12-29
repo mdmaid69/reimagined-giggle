@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_cosine(x):
+        return math.cos(x)
