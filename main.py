@@ -1,9 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
 import array
-def get_array_from_file(filename, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
