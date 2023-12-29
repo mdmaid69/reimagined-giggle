@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def get_array_as_complex(array):
+        return complex(array[0])
+import collections
+def create_user_list():
+        return collections.UserList()
