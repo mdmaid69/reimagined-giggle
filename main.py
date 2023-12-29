@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
