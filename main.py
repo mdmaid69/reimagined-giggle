@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
