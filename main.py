@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-for i in range(5):
-        print(i)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def convert_to_binary(n):
+        return bin(n)
