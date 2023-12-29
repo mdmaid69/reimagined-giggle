@@ -1,8 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def is_odd(n):
+        return n % 2 != 0
