@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
