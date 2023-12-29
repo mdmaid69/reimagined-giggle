@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
