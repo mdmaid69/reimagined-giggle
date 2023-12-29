@@ -1,6 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import sys
-def print_python_version():
-        print(sys.version)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
