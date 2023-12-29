@@ -1,6 +1,6 @@
 import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def get_current_datetime():
+        return datetime.datetime.now()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
