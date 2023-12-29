@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def find_min(lst):
-        return min(lst)
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
