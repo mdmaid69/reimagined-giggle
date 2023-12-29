@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_list(array):
+        return list(array)
