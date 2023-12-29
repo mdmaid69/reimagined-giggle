@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
