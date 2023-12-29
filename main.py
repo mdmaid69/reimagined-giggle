@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def convert_to_hex(n):
+        return hex(n)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
