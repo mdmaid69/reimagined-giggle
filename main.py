@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def subtract_numbers(x, y):
-        return x - y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+print(sum(range(10)))
