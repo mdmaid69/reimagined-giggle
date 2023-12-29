@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
