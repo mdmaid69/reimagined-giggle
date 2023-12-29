@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
