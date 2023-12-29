@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import logging
-def log_message(message):
-        logging.info(message)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
