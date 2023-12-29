@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def divide_numbers(x, y):
+        return x / y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
