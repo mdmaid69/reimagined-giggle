@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
