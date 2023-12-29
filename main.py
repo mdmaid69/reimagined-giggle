@@ -1,7 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def check_if_array_contains_item(array, item):
+        return item in array
+  def calculate_area_circle(r):
+        return 3.14 * r**2
