@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_bool(array):
+        return bool(array)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
