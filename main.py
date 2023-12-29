@@ -1,7 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import datetime
-def get_today_date():
+def get_current_date():
         return datetime.date.today()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
