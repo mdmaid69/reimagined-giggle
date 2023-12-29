@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def convert_to_binary(n):
+        return bin(n)
