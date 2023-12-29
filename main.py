@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
 import math
-print(math.pi)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
