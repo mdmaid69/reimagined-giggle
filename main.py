@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_typecode(array):
+        return array.typecode
