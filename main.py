@@ -1,5 +1,8 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def calculate_area_rectangle(l, w):
-        return l * w
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
