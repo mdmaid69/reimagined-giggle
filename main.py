@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_string_from_array(array):
+        return array.tobytes()
+for i in range(10): print(i)
