@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_bytes_from_array(array):
+        return array.tobytes()
