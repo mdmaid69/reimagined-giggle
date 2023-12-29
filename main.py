@@ -1,6 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
