@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
