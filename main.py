@@ -1,5 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
