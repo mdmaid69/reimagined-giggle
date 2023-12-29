@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
