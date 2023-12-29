@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
