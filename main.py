@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
