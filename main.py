@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
