@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def append_to_array(array, item):
-        array.append(item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
