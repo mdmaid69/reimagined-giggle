@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
