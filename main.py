@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def count_elements(lst):
+        return len(lst)
+def add_numbers(x, y):
+        return x + y
