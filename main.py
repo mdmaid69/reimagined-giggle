@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import time
-def get_current_time():
-        return time.ctime()
+def multiply_numbers(x, y):
+        return x * y
+  def convert_to_binary(n):
+        return bin(n)
