@@ -1,4 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-print([x**2 for x in range(10)])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
