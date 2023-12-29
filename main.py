@@ -1,5 +1,8 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
