@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
