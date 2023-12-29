@@ -1,6 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
