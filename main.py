@@ -1,6 +1,9 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
