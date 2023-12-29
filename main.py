@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import datetime
+print(datetime.datetime.now())
