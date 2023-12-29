@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+print([x**2 for x in range(10)])
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
