@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_average(lst):
+        return sum(lst) / len(lst)
