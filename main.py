@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
