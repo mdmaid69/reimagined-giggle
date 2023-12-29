@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def divide_numbers(x, y):
+        return x / y
+import logging
+def log_message(message):
+        logging.info(message)
