@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def find_min(lst):
-        return min(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
