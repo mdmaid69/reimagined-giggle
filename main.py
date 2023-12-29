@@ -1,5 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
