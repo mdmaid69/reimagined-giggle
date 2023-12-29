@@ -1,5 +1,7 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
