@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def find_max(numbers):
-        return max(numbers)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_floor(x):
+        return math.floor(x)
