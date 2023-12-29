@@ -1,6 +1,6 @@
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def add_numbers(a, b):
-        return a + b
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
