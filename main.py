@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
