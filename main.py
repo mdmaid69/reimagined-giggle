@@ -1,8 +1,8 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
