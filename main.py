@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
