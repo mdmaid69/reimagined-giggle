@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
