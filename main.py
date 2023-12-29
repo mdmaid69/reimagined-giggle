@@ -1,6 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_factorial(n):
+        return math.factorial(n)
