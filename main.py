@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
