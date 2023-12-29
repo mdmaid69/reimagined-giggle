@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_as_float(array):
+        return float(array[0])
