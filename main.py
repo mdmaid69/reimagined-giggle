@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  def sort_list(lst):
-        return sorted(lst)
+def square_number(x):
+        return x**2
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
