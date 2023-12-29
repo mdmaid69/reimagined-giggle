@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
