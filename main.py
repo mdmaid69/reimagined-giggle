@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
