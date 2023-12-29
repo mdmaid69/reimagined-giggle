@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
