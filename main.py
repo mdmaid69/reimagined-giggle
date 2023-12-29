@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
