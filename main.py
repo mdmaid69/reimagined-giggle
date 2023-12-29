@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
