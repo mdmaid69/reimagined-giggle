@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def is_odd(n):
-        return n % 2 != 0
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
