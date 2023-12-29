@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def subtract_numbers(x, y):
+        return x - y
