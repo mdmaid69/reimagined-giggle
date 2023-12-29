@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
