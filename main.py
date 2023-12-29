@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
