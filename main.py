@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_work(force, distance):
+        return force * distance
