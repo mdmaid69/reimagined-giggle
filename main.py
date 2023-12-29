@@ -1,6 +1,6 @@
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
