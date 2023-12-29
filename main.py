@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import sys
+print(sys.version)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
