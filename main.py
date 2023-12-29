@@ -1,11 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def convert_array_to_string(array):
+        return array.tostring()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
