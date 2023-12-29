@@ -1,6 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_as_memoryview(array):
+        return memoryview(array)
