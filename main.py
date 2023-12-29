@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
