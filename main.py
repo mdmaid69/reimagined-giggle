@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
