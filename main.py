@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import collections
+def create_counter():
+        return collections.Counter()
