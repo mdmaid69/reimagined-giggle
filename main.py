@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def find_min(lst):
+        return min(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
