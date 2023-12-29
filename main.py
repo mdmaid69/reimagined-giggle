@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_min(lst):
-        return min(lst)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
