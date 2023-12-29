@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
