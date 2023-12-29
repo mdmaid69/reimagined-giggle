@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
