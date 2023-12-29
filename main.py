@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
