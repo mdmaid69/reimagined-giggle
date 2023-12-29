@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import time
+def get_time_since_epoch():
+        return time.time()
