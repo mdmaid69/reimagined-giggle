@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def cube_number(x):
-        return x**3
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
