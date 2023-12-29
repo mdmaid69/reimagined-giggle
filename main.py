@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
