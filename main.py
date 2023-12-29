@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def reverse_array(array):
+        array.reverse()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
