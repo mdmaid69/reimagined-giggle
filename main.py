@@ -1,6 +1,3 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+print([x**2 for x in range(10)])
+def convert_to_hex(n):
+        return hex(n)
