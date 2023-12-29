@@ -1,6 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
