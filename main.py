@@ -1,5 +1,7 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
