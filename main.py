@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def remove_duplicates(lst):
+        return list(set(lst))
