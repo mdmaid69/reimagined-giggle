@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def sort_list(lst):
+        return sorted(lst)
