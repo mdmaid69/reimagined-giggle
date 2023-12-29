@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
