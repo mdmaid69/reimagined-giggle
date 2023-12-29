@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def subtract_numbers(x, y):
+        return x - y
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
