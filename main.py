@@ -1,8 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
