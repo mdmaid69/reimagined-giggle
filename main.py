@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
