@@ -1,5 +1,5 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  def count_elements(lst):
+        return len(lst)
