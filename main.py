@@ -1,6 +1,7 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
