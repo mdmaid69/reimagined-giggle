@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
