@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
