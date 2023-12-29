@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
