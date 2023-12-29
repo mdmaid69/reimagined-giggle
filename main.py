@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_user_list():
+        return collections.UserList()
