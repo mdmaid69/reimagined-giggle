@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
