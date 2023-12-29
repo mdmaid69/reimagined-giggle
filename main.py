@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
