@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
