@@ -1,5 +1,8 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
