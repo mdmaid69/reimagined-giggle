@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
