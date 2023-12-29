@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def convert_to_binary(n):
+        return bin(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
