@@ -1,6 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def find_min(numbers):
+        return min(numbers)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
