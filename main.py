@@ -1,6 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+for i in range(5):
+        print(i)
