@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
