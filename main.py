@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
