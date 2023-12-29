@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_typecode(array):
+        return array.typecode
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
