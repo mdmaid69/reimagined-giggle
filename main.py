@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
