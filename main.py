@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_array_as_int(array):
+        return int(array[0])
