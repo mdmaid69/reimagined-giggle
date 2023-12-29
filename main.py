@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
