@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def square_number(x):
+        return x**2
