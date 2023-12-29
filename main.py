@@ -1,7 +1,7 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
