@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def square_number(x):
+        return x**2
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
