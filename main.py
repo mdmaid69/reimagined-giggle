@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
