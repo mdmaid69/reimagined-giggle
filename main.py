@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_as_list(array):
-        return list(array)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
