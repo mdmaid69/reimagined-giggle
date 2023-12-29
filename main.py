@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
