@@ -1,7 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
