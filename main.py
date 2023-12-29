@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
