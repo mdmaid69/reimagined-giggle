@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def add_numbers(x, y):
-        return x + y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
