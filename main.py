@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def reverse_array(array):
+        array.reverse()
