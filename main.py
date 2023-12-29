@@ -1,6 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
