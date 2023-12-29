@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
