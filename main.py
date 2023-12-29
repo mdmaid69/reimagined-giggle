@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+print(os.getcwd())
