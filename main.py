@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
