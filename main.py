@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_work(force, distance):
+        return force * distance
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
