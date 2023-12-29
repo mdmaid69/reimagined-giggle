@@ -1,6 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
