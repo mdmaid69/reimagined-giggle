@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def add_numbers(x, y):
+        return x + y
+from collections import Counter
+print(Counter("hello world"))
