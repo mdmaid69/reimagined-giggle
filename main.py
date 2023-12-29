@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import getpass
+def get_username():
+        return getpass.getuser()
