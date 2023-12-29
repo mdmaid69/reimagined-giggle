@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def remove_duplicates(lst):
+        return list(set(lst))
