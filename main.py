@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
