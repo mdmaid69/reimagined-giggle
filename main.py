@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import tensorflow as tf
+print(tf.__version__)
