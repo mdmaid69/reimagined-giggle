@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
