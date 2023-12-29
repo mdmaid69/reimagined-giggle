@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
