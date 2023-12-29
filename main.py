@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def find_min(lst):
-        return min(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def add_numbers(a, b):
+        return a + b
