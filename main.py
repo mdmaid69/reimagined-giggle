@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
