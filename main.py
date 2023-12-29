@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
