@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import time
+def get_time_since_epoch():
+        return time.time()
