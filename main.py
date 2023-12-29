@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
