@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
