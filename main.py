@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_as_str(array):
-        return str(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
