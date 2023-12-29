@@ -1,7 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
