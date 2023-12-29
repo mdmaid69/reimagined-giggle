@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
