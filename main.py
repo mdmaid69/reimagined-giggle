@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
