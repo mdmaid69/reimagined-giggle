@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
