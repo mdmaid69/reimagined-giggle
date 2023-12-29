@@ -1,5 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
