@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
