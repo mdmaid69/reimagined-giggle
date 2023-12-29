@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def count_elements(lst):
+        return len(lst)
