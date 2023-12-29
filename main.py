@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
