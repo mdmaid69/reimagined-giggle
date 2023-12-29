@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
