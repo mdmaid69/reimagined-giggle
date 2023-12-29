@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
