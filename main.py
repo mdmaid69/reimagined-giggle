@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
