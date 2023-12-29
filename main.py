@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sys
+def print_python_version():
+        print(sys.version)
