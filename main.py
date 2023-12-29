@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def reverse_list(lst):
+        return lst[::-1]
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
