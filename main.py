@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def convert_to_octal(n):
+        return oct(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
