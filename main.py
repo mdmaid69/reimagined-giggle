@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def split_path(path):
+        return os.path.split(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
