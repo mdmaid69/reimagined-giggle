@@ -1,5 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def convert_to_octal(n):
-        return oct(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
