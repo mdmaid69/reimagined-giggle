@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
