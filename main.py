@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def check_if_array_contains_item(array, item):
+        return item in array
