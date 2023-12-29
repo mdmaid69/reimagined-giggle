@@ -1,6 +1,9 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def is_odd(n):
+        return n % 2 != 0
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
