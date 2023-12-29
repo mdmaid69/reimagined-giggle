@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-print(math.pi)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
