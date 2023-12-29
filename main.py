@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
