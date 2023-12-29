@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import time
-def get_current_time():
-        return time.time()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
