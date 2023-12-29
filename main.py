@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_density(mass, volume):
-        return mass / volume
+def greet(name):
+        print(f"Hello, {name}!")
+def is_even(n):
+        return n % 2 == 0
