@@ -1,7 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
