@@ -1,7 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_as_list(array):
+        return list(array)
