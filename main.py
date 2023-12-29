@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
