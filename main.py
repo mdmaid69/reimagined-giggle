@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def count_elements(lst):
+        return len(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
