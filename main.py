@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
