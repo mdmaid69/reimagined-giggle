@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
