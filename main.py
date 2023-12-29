@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def subtract_numbers(x, y):
+        return x - y
