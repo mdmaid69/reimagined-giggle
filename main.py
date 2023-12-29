@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def print_python_version():
-        print(sys.version)
+  def square_number(x):
+        return x**2
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
