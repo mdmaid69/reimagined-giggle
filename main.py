@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+def count_words(sentence):
+        return len(sentence.split())
