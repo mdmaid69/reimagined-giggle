@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import platform
+def get_python_version():
+        return platform.python_version()
