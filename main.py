@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
