@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_density(mass, volume):
+        return mass / volume
