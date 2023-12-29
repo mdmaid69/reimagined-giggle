@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_density(mass, volume):
-        return mass / volume
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
