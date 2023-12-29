@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def sort_list(lst):
+        return sorted(lst)
