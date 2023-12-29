@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
