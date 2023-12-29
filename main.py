@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
