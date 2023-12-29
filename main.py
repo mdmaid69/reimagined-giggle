@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
