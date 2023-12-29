@@ -1,5 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
