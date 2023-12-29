@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
