@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def square_number(x):
+        return x**2
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytearray(array):
+        return bytearray(array)
