@@ -1,5 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
