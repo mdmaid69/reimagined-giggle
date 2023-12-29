@@ -1,5 +1,6 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
