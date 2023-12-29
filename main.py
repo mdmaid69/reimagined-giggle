@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
