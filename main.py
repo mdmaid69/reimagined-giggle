@@ -1,6 +1,8 @@
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
