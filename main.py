@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
