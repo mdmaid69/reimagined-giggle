@@ -1,4 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def remove_duplicates(lst):
+        return list(set(lst))
