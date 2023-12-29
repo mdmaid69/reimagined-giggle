@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
