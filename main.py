@@ -1,8 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_speed(distance, time):
+        return distance / time
+def multiply_numbers(x, y):
+        return x * y
