@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import json
+print(json.dumps({"name": "John", "age": 30}))
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
