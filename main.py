@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
