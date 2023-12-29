@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def count_characters(sentence):
-        return len(sentence)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
