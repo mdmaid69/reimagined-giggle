@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def cube_number(x):
+        return x**3
