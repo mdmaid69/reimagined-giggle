@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def subtract_numbers(x, y):
+        return x - y
