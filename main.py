@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def find_min(lst):
-        return min(lst)
+import sys
+def print_python_version():
+        print(sys.version)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
