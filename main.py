@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import time
-def get_current_time():
-        return time.time()
+def calculate_speed(distance, time):
+        return distance / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
