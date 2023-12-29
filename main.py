@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def add_numbers(a, b):
-        return a + b
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_repr(array):
+        return repr(array)
