@@ -1,6 +1,8 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
