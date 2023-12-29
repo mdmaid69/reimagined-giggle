@@ -1,6 +1,3 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+print([x**2 for x in range(10)])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
