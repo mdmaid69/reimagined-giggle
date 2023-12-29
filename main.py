@@ -1,8 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
