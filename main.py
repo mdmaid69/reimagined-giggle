@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
