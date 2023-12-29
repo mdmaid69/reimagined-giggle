@@ -1,8 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
