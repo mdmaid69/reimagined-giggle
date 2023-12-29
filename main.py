@@ -1,7 +1,9 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
