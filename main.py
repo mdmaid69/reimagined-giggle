@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def insert_into_array(array, i, item):
+        array.insert(i, item)
