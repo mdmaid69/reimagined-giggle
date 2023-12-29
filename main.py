@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def find_max(lst):
+        return max(lst)
