@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
