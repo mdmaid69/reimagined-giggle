@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import os
+def get_current_working_directory():
+        return os.getcwd()
