@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
