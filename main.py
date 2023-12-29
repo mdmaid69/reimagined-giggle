@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
