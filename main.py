@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
