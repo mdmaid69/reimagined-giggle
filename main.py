@@ -1,5 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
