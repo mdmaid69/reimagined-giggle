@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
