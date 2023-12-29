@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
