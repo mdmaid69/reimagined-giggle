@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
