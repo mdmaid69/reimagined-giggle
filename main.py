@@ -1,4 +1,8 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
