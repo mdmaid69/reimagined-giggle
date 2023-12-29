@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_item(array, i):
-        return array[i]
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
