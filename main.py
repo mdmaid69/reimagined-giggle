@@ -1,7 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
