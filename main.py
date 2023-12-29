@@ -1,5 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def count_elements(lst):
-        return len(lst)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+x = 10
+y = 20
+print("Sum:", x + y)
