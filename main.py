@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
