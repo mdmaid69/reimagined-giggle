@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
