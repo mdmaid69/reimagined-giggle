@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
