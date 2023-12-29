@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+print(sum(range(10)))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
