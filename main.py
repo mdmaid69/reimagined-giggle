@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import getpass
+def get_username():
+        return getpass.getuser()
