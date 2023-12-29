@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
