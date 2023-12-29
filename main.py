@@ -1,5 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-print("Hello, world!")
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
