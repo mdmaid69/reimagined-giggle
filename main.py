@@ -1,5 +1,5 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
