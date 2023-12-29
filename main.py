@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
