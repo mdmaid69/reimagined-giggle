@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
