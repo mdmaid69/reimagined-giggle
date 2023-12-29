@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
