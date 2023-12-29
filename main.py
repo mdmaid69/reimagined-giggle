@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
