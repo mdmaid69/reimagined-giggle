@@ -1,9 +1,6 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
