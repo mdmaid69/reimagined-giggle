@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import sys
+def exit_program():
+        sys.exit()
