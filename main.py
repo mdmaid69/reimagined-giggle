@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def reverse_string(s):
+        return s[::-1]
