@@ -1,5 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
