@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
