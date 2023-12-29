@@ -1,6 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
