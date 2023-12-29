@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
