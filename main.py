@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+print([x**2 for x in range(10)])
