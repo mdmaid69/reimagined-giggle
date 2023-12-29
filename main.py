@@ -1,6 +1,7 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
