@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 numbers = [1, 2, 3, 4, 5]
 print("Even:", [n for n in numbers if n % 2 == 0])
