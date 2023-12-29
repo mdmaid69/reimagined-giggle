@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  def square_number(x):
+        return x**2
