@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
