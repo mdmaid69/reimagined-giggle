@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
