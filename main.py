@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def reverse_list(lst):
-        return lst[::-1]
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def sort_list(lst):
+        return sorted(lst)
