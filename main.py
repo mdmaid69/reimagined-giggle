@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_pressure(force, area):
+        return force / area
