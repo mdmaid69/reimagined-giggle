@@ -1,8 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
