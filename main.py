@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
