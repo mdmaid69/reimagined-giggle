@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
