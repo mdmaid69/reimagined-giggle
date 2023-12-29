@@ -1,6 +1,11 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
