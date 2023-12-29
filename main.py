@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import sys
+def exit_program():
+        sys.exit()
