@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def count_words(sentence):
+        return len(sentence.split())
+x = 10
+y = 20
+print("Sum:", x + y)
