@@ -1,6 +1,10 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
