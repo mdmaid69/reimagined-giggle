@@ -1,5 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def is_odd(n):
-        return n % 2 != 0
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
