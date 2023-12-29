@@ -1,5 +1,3 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+print([x**2 for x in range(10)])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
