@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
