@@ -1,9 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
