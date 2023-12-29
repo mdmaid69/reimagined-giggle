@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
