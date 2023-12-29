@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
