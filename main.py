@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import collections
+def create_user_list():
+        return collections.UserList()
