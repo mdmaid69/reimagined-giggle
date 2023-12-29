@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import tensorflow as tf
-print(tf.__version__)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
