@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+x = 10
+y = 20
+print("Sum:", x + y)
