@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_typecode(array):
+        return array.typecode
+from collections import Counter
+print(Counter("hello world"))
