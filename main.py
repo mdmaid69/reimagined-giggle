@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
