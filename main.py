@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import array
-def get_array_as_str(array):
-        return str(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def sort_list(lst):
+        return sorted(lst)
