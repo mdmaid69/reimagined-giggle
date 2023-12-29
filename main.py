@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
