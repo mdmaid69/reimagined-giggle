@@ -1,11 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
