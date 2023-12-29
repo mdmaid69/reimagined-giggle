@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
