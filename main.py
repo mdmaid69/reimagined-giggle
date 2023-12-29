@@ -1,7 +1,10 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
