@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
