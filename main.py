@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def is_even(n):
+        return n % 2 == 0
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
