@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def is_palindrome(s):
+        return s == s[::-1]
