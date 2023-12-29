@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
