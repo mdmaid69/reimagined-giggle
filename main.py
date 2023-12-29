@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
