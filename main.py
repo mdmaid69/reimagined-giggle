@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
