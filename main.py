@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def is_palindrome(s):
+        return s == s[::-1]
