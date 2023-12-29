@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+name = "Python"
+print("Hello,", name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
