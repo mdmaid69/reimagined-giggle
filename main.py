@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
