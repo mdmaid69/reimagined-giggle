@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
