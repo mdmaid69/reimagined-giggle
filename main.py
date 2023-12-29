@@ -1,5 +1,5 @@
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
