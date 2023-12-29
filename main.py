@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_user_dict():
-        return collections.UserDict()
+from collections import Counter
+print(Counter("hello world"))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
