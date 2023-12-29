@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  def count_elements(lst):
-        return len(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
