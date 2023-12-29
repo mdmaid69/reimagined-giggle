@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_complex(array):
+        return complex(array[0])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
