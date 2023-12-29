@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
