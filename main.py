@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
