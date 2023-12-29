@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
