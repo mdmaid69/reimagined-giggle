@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
