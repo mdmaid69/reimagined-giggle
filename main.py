@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
