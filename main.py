@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+text = "Hello, world!"
+print("Words:", len(text.split()))
