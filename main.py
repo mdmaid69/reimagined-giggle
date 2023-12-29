@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
