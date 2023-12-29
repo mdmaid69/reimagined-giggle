@@ -1,5 +1,9 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
