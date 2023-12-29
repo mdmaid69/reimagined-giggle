@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import collections
-def create_user_string():
-        return collections.UserString()
+def add_numbers(x, y):
+        return x + y
+import logging
+def log_message(message):
+        logging.info(message)
