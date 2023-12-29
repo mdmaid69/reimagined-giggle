@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_palindrome(s):
-        return s == s[::-1]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
