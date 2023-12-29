@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
