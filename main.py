@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import sys
+def print_python_version():
+        return sys.version
