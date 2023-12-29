@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
