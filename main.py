@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def cube_number(x):
-        return x**3
+import time
+def get_time_since_epoch():
+        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
