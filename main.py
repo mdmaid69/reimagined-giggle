@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-def print_python_version():
-        return sys.version
+import time
+print(time.time())
+def calculate_volume(length, width, height):
+        return length * width * height
