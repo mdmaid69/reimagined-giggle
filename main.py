@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_pressure(force, area):
+        return force / area
