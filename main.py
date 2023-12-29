@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
