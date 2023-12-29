@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import logging
+def log_message(message):
+        logging.info(message)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
