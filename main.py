@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
