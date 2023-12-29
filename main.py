@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_error_function(x):
+        return math.erf(x)
