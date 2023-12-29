@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
