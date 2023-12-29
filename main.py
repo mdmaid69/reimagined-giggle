@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
