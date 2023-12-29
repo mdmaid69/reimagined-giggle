@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
