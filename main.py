@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
