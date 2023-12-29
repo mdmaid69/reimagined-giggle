@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
