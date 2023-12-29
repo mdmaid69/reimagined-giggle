@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
