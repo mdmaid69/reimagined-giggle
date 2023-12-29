@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
