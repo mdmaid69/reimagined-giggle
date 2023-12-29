@@ -1,6 +1,5 @@
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def is_odd(n):
+        return n % 2 != 0
