@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def split_path(path):
+        return os.path.split(path)
