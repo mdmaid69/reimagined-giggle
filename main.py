@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def count_words(sentence):
-        return len(sentence.split())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
