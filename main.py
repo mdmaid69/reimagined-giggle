@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
