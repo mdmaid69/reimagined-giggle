@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def multiply_numbers(x, y):
+        return x * y
