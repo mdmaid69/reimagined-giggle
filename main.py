@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
