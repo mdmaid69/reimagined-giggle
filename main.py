@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_acceleration(speed, time):
+        return speed / time
