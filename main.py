@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_min(numbers):
+        return min(numbers)
