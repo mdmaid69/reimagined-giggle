@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
