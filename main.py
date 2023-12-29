@@ -1,4 +1,8 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
