@@ -1,6 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
