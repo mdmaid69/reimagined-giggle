@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
