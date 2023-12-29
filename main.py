@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_acceleration(speed, time):
+        return speed / time
