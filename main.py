@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
