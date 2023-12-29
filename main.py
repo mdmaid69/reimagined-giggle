@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+def sort_list(lst):
+        return sorted(lst)
