@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
