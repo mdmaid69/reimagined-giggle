@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
