@@ -1,6 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
