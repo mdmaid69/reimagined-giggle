@@ -1,7 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def cube_number(x):
-        return x**3
+import logging
+def log_message(message):
+        logging.info(message)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
