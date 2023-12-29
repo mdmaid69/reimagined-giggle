@@ -1,5 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
