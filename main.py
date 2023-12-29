@@ -1,4 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-print("Hello, world!")
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import random
+print(random.randint(0, 100))
