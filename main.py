@@ -1,6 +1,8 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import platform
-def get_os_info():
-        return platform.uname()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
