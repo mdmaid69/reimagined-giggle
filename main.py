@@ -1,4 +1,3 @@
-print(sum(range(10)))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+for i in range(10): print(i)
+def calculate_work(force, distance):
+        return force * distance
