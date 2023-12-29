@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def add_numbers(a, b):
+        return a + b
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
