@@ -1,4 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-print([x**2 for x in range(10)])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
