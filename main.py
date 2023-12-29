@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
