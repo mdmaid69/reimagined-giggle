@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
