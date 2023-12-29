@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
