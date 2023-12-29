@@ -1,4 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-print(sum(range(10)))
+def reverse_string(s):
+        return s[::-1]
+  def remove_duplicates(lst):
+        return list(set(lst))
