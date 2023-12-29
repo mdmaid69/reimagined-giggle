@@ -1,6 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import re
-print(re.match("h.*o", "hello world"))
+def multiply_numbers(x, y):
+        return x * y
+def reverse_list(lst):
+        return lst[::-1]
