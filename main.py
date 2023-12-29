@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import getpass
-def get_username():
-        return getpass.getuser()
+def count_elements(lst):
+        return len(lst)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
