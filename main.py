@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
