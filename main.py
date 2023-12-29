@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
