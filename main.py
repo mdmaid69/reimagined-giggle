@@ -1,6 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
