@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
