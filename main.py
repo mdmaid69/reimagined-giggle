@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_set(array):
+        return set(array)
+def find_min(numbers):
+        return min(numbers)
