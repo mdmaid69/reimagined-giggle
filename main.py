@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
