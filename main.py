@@ -1,6 +1,7 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import numpy as np
+print(np.array([1, 2, 3]))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
