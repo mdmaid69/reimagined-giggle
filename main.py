@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
