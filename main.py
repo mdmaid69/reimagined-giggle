@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
