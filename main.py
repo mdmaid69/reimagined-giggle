@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
