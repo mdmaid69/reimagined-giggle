@@ -1,6 +1,10 @@
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
