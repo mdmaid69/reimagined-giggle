@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def exit_program():
-        sys.exit()
+def reverse_list(lst):
+        return lst[::-1]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
