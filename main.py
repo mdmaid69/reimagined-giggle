@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
