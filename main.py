@@ -1,4 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import sys
+  def get_python_version():
+        return sys.version
