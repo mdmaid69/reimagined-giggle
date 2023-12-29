@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
