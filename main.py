@@ -1,5 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def find_max(lst):
-        return max(lst)
+def get_array_item(array, i):
+        return array[i]
