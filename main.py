@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
