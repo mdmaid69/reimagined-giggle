@@ -1,6 +1,8 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
