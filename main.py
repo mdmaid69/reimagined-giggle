@@ -1,8 +1,8 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import array
+def get_array_as_str(array):
+        return str(array)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
