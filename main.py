@@ -1,6 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_work(force, distance):
+        return force * distance
