@@ -1,5 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
