@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
