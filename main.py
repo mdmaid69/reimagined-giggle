@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-print(datetime.datetime.now())
+text = "Hello, world!"
+print("Characters:", len(text))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
