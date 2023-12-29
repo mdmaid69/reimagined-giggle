@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_power(work, time):
+        return work / time
