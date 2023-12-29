@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
