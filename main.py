@@ -1,5 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
