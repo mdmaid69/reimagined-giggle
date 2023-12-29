@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
