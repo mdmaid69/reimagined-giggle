@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
