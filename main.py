@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def reverse_array(array):
+        array.reverse()
