@@ -1,7 +1,4 @@
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def subtract_numbers(x, y):
-        return x - y
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
