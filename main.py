@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_work(force, distance):
-        return force * distance
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def change_working_directory(path):
+        os.chdir(path)
