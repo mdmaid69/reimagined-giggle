@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def add_numbers(x, y):
+        return x + y
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
