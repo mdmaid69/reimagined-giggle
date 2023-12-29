@@ -1,3 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-print([x**2 for x in range(10)])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
