@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
