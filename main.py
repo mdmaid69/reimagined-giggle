@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
