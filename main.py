@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
