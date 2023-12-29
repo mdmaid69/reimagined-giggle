@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_work(force, distance):
+        return force * distance
