@@ -1,5 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_force(mass, acceleration):
+        return mass * acceleration
