@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import collections
-def create_user_dict():
-        return collections.UserDict()
-def remove_duplicates(lst):
-        return list(set(lst))
+def create_user_string():
+        return collections.UserString()
