@@ -1,5 +1,7 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def is_odd(n):
+        return n % 2 != 0
