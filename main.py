@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def find_min(lst):
+        return min(lst)
