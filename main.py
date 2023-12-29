@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
