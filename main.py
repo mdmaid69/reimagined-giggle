@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+name = "Python"
+print("Hello,", name)
