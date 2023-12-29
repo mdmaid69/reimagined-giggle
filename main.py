@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
