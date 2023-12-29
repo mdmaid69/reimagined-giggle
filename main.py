@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
