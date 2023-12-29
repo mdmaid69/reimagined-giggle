@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def remove_duplicates(lst):
-        return list(set(lst))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
