@@ -1,7 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_factorial(n):
+        return math.factorial(n)
