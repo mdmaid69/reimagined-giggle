@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def reverse_list(lst):
+        return lst[::-1]
