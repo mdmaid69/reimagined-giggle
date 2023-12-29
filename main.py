@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_cosine(x):
+        return math.cos(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
