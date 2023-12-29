@@ -1,4 +1,11 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def find_max(numbers):
-        return max(numbers)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
