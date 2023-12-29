@@ -1,5 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def sort_list(lst):
-        return sorted(lst)
+name = "Python"
+print("Hello,", name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
