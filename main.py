@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_str(array):
+        return str(array)
