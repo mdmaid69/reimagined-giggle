@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
