@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
