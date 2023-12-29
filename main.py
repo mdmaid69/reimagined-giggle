@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def is_even(n):
+        return n % 2 == 0
+  import sys
+  def get_python_version():
+        return sys.version
