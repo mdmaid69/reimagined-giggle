@@ -1,9 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
