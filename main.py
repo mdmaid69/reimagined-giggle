@@ -1,5 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def sort_list(lst):
+        return sorted(lst)
