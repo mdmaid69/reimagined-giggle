@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def clear_array(array):
-        array *= 0
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
