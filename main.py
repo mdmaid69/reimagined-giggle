@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
