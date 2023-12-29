@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import time
+print(time.time())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
