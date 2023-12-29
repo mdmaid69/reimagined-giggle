@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_density(mass, volume):
+        return mass / volume
