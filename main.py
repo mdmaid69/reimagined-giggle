@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import time
-def get_time_since_epoch():
-        return time.time()
+def divide_numbers(x, y):
+        return x / y
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
