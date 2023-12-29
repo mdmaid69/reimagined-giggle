@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+print(sum(range(10)))
