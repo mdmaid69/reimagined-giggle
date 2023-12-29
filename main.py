@@ -1,8 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import collections
+def create_user_string():
+        return collections.UserString()
