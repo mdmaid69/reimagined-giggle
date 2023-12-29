@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
