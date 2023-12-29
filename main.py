@@ -1,7 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_index(array, item):
+        return array.index(item)
