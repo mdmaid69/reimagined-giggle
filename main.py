@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def is_odd(n):
-        return n % 2 != 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
