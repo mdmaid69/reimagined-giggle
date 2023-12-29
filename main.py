@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
