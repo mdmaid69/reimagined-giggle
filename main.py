@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def is_palindrome(s):
+        return s == s[::-1]
