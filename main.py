@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
