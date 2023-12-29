@@ -1,6 +1,8 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
