@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def divide_numbers(x, y):
-        return x / y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
