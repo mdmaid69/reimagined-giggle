@@ -1,6 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def add_to_python_path(path):
+        sys.path.append(path)
