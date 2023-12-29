@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import collections
+def create_counter():
+        return collections.Counter()
