@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
