@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import collections
-def create_stack():
-        return collections.deque()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
