@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+x = 10
+y = 20
+print("Sum:", x + y)
+  def square_number(x):
+        return x**2
