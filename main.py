@@ -1,6 +1,9 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import time
-def get_current_time():
-        return time.ctime()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
