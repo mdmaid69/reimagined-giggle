@@ -1,5 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def reverse_list(lst):
+        return lst[::-1]
