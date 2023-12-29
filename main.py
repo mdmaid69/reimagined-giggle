@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
