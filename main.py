@@ -1,6 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
