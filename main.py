@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
