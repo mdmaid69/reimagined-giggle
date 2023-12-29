@@ -1,6 +1,3 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def add_numbers(x, y):
+        return x + y
+print("Hello, world!")
