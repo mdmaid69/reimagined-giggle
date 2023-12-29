@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_pressure(force, area):
+        return force / area
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
