@@ -1,4 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def sort_list(lst):
+        return sorted(lst)
