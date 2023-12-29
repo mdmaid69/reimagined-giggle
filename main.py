@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
