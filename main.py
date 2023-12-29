@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
