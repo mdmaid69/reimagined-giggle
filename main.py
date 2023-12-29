@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import logging
+def log_message(message):
+        logging.info(message)
+import time
+def get_current_time():
+        return time.time()
