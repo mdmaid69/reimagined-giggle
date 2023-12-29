@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
