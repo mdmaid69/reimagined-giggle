@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
