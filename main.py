@@ -1,4 +1,8 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
