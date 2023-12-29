@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
