@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
