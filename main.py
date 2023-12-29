@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def get_list_from_array(array):
+        return array.tolist()
