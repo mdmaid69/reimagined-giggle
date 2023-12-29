@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
