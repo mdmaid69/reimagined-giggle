@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
