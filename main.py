@@ -1,5 +1,9 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
