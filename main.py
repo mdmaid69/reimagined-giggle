@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
