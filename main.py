@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def find_min(lst):
-        return min(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
