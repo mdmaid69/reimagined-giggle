@@ -1,8 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
