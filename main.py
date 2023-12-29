@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
