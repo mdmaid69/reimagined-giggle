@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_list_from_array(array):
+        return array.tolist()
