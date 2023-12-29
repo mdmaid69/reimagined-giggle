@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
