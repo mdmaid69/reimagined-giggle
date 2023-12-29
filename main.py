@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
