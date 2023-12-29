@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
