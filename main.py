@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
