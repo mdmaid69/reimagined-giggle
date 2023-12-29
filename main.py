@@ -1,6 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def get_list_from_array(array):
+        return array.tolist()
