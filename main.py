@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
