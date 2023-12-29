@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
