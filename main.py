@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
