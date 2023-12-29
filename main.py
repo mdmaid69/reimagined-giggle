@@ -1,7 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
