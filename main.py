@@ -1,5 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
