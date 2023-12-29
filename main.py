@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+for i in range(10): print(i)
