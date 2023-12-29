@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  def remove_duplicates(lst):
+        return list(set(lst))
