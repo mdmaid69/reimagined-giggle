@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
