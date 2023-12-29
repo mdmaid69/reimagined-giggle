@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
