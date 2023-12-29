@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-  def cube_number(x):
-        return x**3
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_as_list(array):
+        return list(array)
