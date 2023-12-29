@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import platform
-def get_python_version():
-        return platform.python_version()
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_repr(array):
+        return repr(array)
