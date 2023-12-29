@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
