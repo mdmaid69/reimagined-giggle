@@ -1,7 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def is_odd(n):
-        return n % 2 != 0
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
