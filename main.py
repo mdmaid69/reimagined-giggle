@@ -1,6 +1,11 @@
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def get_array_as_frozenset(array):
+        return frozenset(array)
