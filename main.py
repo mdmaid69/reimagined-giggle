@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
