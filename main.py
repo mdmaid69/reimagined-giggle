@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import platform
+def get_os_info():
+        return platform.uname()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
