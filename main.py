@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
