@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_stack():
+        return collections.deque()
+  def count_elements(lst):
+        return len(lst)
