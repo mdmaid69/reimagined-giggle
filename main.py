@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def find_min(numbers):
-        return min(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
