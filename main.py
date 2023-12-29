@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def is_odd(n):
+        return n % 2 != 0
+from collections import Counter
+print(Counter("hello world"))
