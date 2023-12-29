@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def reverse_string(s):
-        return s[::-1]
+def convert_to_hex(n):
+        return hex(n)
+def square_number(x):
+        return x**2
