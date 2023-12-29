@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_repr(array):
+        return repr(array)
