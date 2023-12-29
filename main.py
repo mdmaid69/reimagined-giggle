@@ -1,6 +1,6 @@
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_circle_area(radius):
+        return math.pi * radius**2
