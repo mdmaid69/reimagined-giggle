@@ -1,4 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
