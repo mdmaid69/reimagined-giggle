@@ -1,5 +1,7 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
