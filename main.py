@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def convert_to_octal(n):
+        return oct(n)
