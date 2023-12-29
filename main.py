@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
