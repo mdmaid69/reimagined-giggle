@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_user_string():
+        return collections.UserString()
