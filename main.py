@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
