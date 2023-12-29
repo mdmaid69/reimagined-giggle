@@ -1,5 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
