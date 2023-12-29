@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
