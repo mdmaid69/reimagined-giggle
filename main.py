@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
