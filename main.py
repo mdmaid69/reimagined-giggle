@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def count_words(sentence):
-        return len(sentence.split())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
