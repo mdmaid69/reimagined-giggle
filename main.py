@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
