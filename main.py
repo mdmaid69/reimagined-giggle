@@ -1,4 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def reverse_list(lst):
-        return lst[::-1]
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
