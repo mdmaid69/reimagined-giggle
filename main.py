@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
