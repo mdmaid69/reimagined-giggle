@@ -1,8 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_area(radius):
+        return 3.14 * radius * radius
