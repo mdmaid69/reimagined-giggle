@@ -1,6 +1,5 @@
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
