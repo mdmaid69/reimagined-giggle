@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
