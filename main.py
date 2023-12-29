@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
