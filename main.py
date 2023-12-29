@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+from collections import Counter
+print(Counter("hello world"))
+import random
+def roll_die():
+        return random.randint(1, 6)
