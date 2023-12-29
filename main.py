@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
