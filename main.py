@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def count_elements(lst):
-        return len(lst)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_as_float(array):
+        return float(array[0])
