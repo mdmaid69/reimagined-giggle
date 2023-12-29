@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def reverse_string(s):
+        return s[::-1]
