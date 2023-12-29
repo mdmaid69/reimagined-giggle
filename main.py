@@ -1,6 +1,8 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def is_palindrome(s):
-        return s == s[::-1]
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
