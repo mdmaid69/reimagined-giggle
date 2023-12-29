@@ -1,8 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
