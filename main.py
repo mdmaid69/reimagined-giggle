@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
