@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def square_number(x):
-        return x**2
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
