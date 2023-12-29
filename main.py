@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
