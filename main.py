@@ -1,7 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromunicode(unicode)
         return a
