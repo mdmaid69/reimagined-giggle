@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
