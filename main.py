@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
