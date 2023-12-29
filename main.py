@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def convert_to_hex(n):
+        return hex(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
