@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
