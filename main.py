@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
