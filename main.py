@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
