@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
