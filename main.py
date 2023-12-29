@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
