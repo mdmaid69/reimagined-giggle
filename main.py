@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+name = "Python"
+print("Hello,", name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
