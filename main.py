@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import random
+print(random.randint(0, 100))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
