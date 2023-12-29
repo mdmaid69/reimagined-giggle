@@ -1,6 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
