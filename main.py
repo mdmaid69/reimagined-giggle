@@ -1,8 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import sys
+def exit_program():
+        sys.exit()
