@@ -1,5 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def find_min(lst):
-        return min(lst)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
