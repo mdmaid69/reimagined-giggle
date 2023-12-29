@@ -1,7 +1,7 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
