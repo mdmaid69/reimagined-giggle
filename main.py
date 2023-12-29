@@ -1,5 +1,8 @@
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_speed(distance, time):
-        return distance / time
+def pop_from_array(array, i=-1):
+        return array.pop(i)
