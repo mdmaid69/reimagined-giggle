@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def is_even(n):
-        return n % 2 == 0
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
