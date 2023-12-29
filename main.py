@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
