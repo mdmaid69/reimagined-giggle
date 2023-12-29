@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_index(array, item):
+        return array.index(item)
+import sys
+print(sys.version)
