@@ -1,6 +1,9 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
