@@ -1,6 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
