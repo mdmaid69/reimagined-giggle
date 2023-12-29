@@ -1,7 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import numpy as np
-print(np.array([1, 2, 3]))
+def get_array_buffer_info(array):
+        return array.buffer_info()
