@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def add_numbers(x, y):
+        return x + y
