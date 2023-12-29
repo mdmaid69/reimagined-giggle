@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
