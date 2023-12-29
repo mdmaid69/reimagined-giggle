@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
