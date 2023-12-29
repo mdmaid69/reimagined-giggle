@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
