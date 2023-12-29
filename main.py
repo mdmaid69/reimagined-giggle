@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_pressure(force, area):
+        return force / area
