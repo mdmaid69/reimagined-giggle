@@ -1,8 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
