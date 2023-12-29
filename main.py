@@ -1,8 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
