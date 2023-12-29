@@ -1,8 +1,7 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
