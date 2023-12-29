@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def add_numbers(a, b):
+        return a + b
