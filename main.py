@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
