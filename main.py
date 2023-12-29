@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def sort_list(lst):
+        return sorted(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
