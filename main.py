@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
