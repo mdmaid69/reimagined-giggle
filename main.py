@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def split_path(path):
+        return os.path.split(path)
