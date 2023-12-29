@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
