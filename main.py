@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
