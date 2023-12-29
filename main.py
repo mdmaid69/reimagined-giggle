@@ -1,9 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
