@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def subtract_numbers(x, y):
-        return x - y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
