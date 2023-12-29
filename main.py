@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def create_counter():
+        return collections.Counter()
