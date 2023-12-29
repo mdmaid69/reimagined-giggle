@@ -1,6 +1,8 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
