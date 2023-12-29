@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
