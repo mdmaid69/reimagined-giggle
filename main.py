@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
