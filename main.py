@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
