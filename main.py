@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
