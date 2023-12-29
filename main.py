@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
