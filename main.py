@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+name = "Python"
+print("Hello,", name)
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
