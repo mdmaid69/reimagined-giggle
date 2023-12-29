@@ -1,6 +1,10 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def is_even(n):
+        return n % 2 == 0
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
