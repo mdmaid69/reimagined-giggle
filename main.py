@@ -1,6 +1,5 @@
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_density(mass, volume):
+        return mass / volume
