@@ -1,8 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import random
-print(random.randint(0, 100))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+from collections import Counter
+print(Counter("hello world"))
