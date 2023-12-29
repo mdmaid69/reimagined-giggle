@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
