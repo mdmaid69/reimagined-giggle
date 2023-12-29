@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
