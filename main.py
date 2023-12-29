@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import datetime
-print(datetime.datetime.now())
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
