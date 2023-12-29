@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
