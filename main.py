@@ -1,5 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
