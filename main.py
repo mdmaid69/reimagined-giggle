@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def count_words(sentence):
+        return len(sentence.split())
+def count_characters(sentence):
+        return len(sentence)
