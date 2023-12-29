@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
