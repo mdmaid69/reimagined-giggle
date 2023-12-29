@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_length(array):
+        return len(array)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
