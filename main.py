@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_min(lst):
-        return min(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_power(work, time):
+        return work / time
