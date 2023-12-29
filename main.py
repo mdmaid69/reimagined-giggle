@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_ino(file_name):
+  def get_file_inode(file_name):
         return os.stat(file_name).st_ino
