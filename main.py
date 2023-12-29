@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def find_min(numbers):
-        return min(numbers)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_pressure(force, area):
+        return force / area
