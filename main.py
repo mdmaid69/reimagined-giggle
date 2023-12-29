@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
