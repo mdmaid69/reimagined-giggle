@@ -1,5 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def is_even(n):
-        return n % 2 == 0
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
