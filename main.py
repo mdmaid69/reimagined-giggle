@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
