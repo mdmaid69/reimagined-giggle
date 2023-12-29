@@ -1,5 +1,10 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def reverse_string(s):
-        return s[::-1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
