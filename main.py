@@ -1,3 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-for i in range(10): print(i)
+def calculate_density(mass, volume):
+        return mass / volume
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
