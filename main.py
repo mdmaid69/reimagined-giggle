@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
