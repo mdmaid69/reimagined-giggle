@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
