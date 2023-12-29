@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-print(os.getcwd())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
