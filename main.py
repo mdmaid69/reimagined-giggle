@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
