@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def remove_duplicates(lst):
+        return list(set(lst))
