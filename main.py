@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-for i in range(5):
-        print(i)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_length(array):
+        return len(array)
