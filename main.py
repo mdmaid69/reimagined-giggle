@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def remove_duplicates(lst):
-        return list(set(lst))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
