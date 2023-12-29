@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def clear_array(array):
-        array *= 0
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
