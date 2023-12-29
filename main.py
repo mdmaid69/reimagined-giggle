@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
