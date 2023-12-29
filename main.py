@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
