@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_as_float(array):
+        return float(array[0])
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
