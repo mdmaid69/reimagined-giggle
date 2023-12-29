@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
