@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
