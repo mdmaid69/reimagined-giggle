@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
