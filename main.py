@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
