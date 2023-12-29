@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
