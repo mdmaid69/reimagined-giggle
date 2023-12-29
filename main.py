@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
