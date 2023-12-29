@@ -1,5 +1,11 @@
-for i in range(5):
-        print(i)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
