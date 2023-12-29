@@ -1,6 +1,8 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
