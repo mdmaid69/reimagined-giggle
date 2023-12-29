@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def is_even(n):
+        return n % 2 == 0
+def calculate_acceleration(speed, time):
+        return speed / time
