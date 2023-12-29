@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
