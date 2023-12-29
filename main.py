@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
