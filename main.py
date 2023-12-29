@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import platform
-def get_os_info():
-        return platform.uname()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
