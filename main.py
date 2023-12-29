@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def is_odd(n):
+        return n % 2 != 0
