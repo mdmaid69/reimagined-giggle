@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
