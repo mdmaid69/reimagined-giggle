@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
