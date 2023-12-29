@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def is_odd(n):
+        return n % 2 != 0
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
