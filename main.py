@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
