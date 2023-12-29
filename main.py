@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
