@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
