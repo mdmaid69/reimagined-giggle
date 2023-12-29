@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def sort_list(lst):
-        return sorted(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
