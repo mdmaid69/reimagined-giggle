@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def multiply_numbers(x, y):
+        return x * y
+name = "Python"
+print("Hello,", name)
