@@ -1,5 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def convert_to_octal(n):
-        return oct(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
