@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def is_even(n):
-        return n % 2 == 0
+def calculate_pressure(force, area):
+        return force / area
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
