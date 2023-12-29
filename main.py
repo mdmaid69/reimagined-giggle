@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
