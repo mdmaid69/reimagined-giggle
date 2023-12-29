@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import time
-def get_time_since_epoch():
-        return time.time()
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
