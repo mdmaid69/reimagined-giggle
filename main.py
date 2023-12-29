@@ -1,5 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def subtract_numbers(x, y):
-        return x - y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
