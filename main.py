@@ -1,5 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
