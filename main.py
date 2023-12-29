@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import json
+print(json.dumps({"name": "John", "age": 30}))
