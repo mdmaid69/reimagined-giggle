@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
