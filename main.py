@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
