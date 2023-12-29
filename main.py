@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def calculate_area_rectangle(l, w):
+        return l * w
