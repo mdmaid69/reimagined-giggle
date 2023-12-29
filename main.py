@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
