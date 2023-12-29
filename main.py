@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
