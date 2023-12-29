@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def is_odd(n):
-        return n % 2 != 0
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def multiply_numbers(x, y):
+        return x * y
