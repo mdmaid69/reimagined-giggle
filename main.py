@@ -1,5 +1,8 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
