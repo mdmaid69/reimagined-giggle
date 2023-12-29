@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
