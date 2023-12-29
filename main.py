@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def is_even(n):
+        return n % 2 == 0
