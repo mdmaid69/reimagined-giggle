@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def is_even(n):
-        return n % 2 == 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
