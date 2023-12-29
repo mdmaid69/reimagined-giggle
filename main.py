@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def multiply_numbers(x, y):
+        return x * y
