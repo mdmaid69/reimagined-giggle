@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def convert_to_hex(n):
+        return hex(n)
