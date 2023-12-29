@@ -1,5 +1,7 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
