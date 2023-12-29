@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
