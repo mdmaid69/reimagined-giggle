@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def is_even(n):
-        return n % 2 == 0
+x = 10
+y = 20
+print("Sum:", x + y)
+  def convert_to_binary(n):
+        return bin(n)
