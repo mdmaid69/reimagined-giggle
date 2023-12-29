@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
