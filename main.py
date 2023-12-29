@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
