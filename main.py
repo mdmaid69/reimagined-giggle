@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-name = "Python"
-print("Hello,", name)
+import collections
+def create_counter():
+        return collections.Counter()
+  def add_numbers(x, y):
+        return x + y
