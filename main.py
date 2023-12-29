@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
