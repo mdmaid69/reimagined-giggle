@@ -1,6 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def iterate_over_array(array):
+        for item in array:
+        print(item)
