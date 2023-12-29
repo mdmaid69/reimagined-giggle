@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_set(array):
+        return set(array)
