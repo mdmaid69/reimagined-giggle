@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import logging
-def log_message(message):
-        logging.info(message)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
