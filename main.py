@@ -1,7 +1,7 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
