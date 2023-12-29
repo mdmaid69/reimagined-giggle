@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
