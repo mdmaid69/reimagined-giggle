@@ -1,5 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
