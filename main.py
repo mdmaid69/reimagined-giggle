@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import sys
+def print_python_version():
+        print(sys.version)
