@@ -1,9 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def convert_to_binary(n):
+        return bin(n)
