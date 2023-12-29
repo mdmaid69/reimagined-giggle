@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
