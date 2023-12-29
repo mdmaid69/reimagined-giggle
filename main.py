@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
