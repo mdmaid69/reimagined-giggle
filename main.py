@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import logging
+def log_message(message):
+        logging.info(message)
