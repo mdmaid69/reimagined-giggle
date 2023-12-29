@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
