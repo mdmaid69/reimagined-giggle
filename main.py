@@ -1,7 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-print(math.pi)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
