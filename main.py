@@ -1,3 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-for i in range(10): print(i)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
