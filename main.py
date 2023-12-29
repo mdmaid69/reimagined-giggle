@@ -1,7 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def convert_to_octal(n):
+        return oct(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
