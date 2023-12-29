@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
