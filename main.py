@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
