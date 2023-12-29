@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
