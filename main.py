@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def get_array_as_float(array):
+        return float(array[0])
