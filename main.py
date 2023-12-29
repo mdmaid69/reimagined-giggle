@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
