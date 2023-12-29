@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
