@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
