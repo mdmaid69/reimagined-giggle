@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_list_from_array(array):
+        return array.tolist()
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def split_string(pattern, string):
+        return re.split(pattern, string)
