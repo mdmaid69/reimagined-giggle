@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+print(sum(range(10)))
