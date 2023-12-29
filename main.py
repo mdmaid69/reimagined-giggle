@@ -1,6 +1,5 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def count_elements(lst):
+        return len(lst)
