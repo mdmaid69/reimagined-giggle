@@ -1,6 +1,5 @@
+def find_min(lst):
+        return min(lst)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
