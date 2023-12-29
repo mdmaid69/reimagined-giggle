@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
