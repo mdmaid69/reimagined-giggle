@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
