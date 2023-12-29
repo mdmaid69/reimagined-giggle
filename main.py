@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def get_array_as_set(array):
+        return set(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
