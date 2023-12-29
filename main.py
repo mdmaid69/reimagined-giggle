@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import random
+print(random.randint(0, 100))
