@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
