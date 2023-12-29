@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
