@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_power(work, time):
+        return work / time
