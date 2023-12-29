@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
