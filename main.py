@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
