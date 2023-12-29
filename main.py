@@ -1,7 +1,3 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_density(mass, volume):
+        return mass / volume
+for i in range(10): print(i)
