@@ -1,6 +1,5 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
