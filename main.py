@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import random
-print(random.randint(0, 100))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_volume(length, width, height):
+        return length * width * height
