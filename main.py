@@ -1,4 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-print("Hello, world!")
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
