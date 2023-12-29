@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import collections
-def create_queue():
-        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
