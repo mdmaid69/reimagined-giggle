@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
