@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_tangent(x):
+        return math.tan(x)
