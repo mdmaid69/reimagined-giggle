@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+def remove_duplicates(lst):
+        return list(set(lst))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
