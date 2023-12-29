@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  def convert_to_hex(n):
-        return hex(n)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_pressure(force, area):
+        return force / area
