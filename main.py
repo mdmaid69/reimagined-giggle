@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
