@@ -1,5 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
