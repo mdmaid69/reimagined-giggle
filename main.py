@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
