@@ -1,6 +1,12 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
