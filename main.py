@@ -1,4 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
