@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def find_max(numbers):
+        return max(numbers)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
