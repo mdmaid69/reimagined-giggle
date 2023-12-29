@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import sys
+def print_python_version():
+        return sys.version
