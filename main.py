@@ -1,5 +1,4 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
