@@ -1,6 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
