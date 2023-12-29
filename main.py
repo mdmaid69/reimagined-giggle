@@ -1,5 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def is_even(n):
-        return n % 2 == 0
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
