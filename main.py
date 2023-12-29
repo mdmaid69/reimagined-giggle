@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
