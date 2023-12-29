@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_length(array):
+        return len(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
