@@ -1,8 +1,5 @@
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
