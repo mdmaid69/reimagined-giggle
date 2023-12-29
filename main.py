@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_string_from_array(array):
+        return array.tobytes()
