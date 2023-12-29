@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
