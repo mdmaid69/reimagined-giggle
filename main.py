@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def find_max(numbers):
+        return max(numbers)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
