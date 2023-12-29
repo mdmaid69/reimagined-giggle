@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
