@@ -1,6 +1,6 @@
-import time
-print(time.time())
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+x = 10
+y = 20
+print("Sum:", x + y)
