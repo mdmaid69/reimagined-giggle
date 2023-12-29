@@ -1,5 +1,3 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+print([x**2 for x in range(10)])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
