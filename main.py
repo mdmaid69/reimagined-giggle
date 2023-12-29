@@ -1,5 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
