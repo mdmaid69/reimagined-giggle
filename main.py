@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_volume(length, width, height):
+        return length * width * height
