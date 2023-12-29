@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
