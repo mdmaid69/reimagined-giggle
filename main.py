@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
