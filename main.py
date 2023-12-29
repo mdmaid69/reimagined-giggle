@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+name = "Python"
+print("Hello,", name)
+def is_even(n):
+        return n % 2 == 0
