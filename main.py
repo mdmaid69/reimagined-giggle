@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
