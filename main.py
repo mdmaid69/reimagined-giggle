@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
