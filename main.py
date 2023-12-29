@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
