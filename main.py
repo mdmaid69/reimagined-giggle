@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
