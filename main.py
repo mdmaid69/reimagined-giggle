@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def cube_number(x):
+        return x**3
