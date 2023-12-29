@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import re
+print(re.match("h.*o", "hello world"))
+import logging
+def log_message(message):
+        logging.info(message)
