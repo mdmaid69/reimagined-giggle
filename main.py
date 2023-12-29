@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
