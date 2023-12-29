@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import datetime
-def get_current_date():
-        return datetime.date.today()
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
