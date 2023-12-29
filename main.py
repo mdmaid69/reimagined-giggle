@@ -1,7 +1,9 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
