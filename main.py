@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+for i in range(10): print(i)
