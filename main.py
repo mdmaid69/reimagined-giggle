@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  def cube_number(x):
-        return x**3
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
