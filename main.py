@@ -1,6 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
