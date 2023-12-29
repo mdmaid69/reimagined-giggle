@@ -1,7 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
