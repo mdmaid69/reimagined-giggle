@@ -1,9 +1,12 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
