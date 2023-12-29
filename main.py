@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def cube_number(x):
+        return x**3
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
