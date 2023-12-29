@@ -1,5 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
