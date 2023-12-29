@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_volume(length, width, height):
+        return length * width * height
