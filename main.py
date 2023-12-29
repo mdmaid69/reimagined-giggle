@@ -1,3 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-print("Hello, world!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
