@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
