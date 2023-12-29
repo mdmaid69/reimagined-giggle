@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
