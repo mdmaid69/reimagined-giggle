@@ -1,8 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
