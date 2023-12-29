@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
