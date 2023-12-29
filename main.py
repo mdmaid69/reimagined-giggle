@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
