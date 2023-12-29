@@ -1,6 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  def cube_number(x):
+        return x**3
