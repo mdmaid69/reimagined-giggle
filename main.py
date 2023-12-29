@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def find_min(numbers):
+        return min(numbers)
+import sys
+def exit_program():
+        sys.exit()
