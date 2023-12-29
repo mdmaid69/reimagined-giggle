@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
