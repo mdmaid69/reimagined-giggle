@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_volume(length, width, height):
+        return length * width * height
