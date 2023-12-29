@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def find_min(lst):
-        return min(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
