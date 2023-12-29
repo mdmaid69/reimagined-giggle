@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
