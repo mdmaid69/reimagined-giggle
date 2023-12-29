@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
