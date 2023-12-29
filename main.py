@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import tensorflow as tf
+print(tf.__version__)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
