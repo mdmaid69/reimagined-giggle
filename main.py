@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_volume(length, width, height):
+        return length * width * height
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
