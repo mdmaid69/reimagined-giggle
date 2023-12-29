@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
