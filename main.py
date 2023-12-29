@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
