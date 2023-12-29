@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_speed(distance, time):
-        return distance / time
+import re
+print(re.match("h.*o", "hello world"))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
