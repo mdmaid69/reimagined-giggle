@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
