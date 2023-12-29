@@ -1,8 +1,9 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
