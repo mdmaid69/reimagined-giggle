@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
