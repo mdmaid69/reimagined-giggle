@@ -1,6 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
