@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
