@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
