@@ -1,5 +1,7 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def convert_to_hex(n):
-        return hex(n)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
