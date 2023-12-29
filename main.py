@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def cube_number(x):
+        return x**3
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
