@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_array_as_list(array):
-        return list(array)
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
