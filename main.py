@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def count_words(sentence):
+        return len(sentence.split())
