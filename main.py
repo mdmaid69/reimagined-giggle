@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
