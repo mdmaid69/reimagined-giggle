@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
