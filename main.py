@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+for i in range(5):
+        print(i)
