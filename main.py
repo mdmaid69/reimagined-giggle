@@ -1,6 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
