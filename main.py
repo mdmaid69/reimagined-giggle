@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_area_rectangle(l, w):
-        return l * w
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
