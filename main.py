@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
