@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
