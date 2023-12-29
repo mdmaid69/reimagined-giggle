@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+x = 10
+y = 20
+print("Sum:", x + y)
