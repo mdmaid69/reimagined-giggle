@@ -1,6 +1,8 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
