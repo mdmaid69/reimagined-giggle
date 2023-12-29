@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
