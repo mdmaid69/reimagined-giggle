@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def divide_numbers(x, y):
+        return x / y
