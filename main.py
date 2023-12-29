@@ -1,5 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
