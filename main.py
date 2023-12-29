@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import random
+def roll_die():
+        return random.randint(1, 6)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
