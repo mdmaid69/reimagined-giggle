@@ -1,8 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
