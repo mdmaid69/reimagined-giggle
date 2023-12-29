@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
