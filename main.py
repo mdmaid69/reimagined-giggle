@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
