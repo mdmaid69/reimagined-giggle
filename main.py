@@ -1,5 +1,12 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_pressure(force, area):
-        return force / area
+import getpass
+def get_username():
+        return getpass.getuser()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
