@@ -1,4 +1,6 @@
-import time
-print(time.time())
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
