@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def divide_numbers(x, y):
+        return x / y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
