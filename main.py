@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
