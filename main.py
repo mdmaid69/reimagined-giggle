@@ -1,7 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
