@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
