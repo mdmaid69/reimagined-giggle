@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
