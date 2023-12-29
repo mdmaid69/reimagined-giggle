@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
