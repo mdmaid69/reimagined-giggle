@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
