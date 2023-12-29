@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
