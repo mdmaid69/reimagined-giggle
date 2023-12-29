@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def is_even(n):
+        return n % 2 == 0
