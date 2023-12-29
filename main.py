@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
