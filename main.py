@@ -1,8 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
