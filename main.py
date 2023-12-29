@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_acceleration(speed, time):
-        return speed / time
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_exponential(x):
+        return math.exp(x)
