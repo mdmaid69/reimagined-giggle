@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def is_odd(n):
-        return n % 2 != 0
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
