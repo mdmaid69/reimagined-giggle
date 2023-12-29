@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def add_numbers(x, y):
+        return x + y
