@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def set_array_item(array, i, item):
+        array[i] = item
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
