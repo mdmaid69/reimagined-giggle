@@ -1,5 +1,6 @@
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def cube_number(x):
-        return x**3
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
