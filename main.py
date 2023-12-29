@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def reverse_array(array):
+        array.reverse()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
