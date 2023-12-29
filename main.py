@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def find_min(numbers):
+        return min(numbers)
