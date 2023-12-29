@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
