@@ -1,9 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
