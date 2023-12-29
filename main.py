@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def set_array_item(array, i, item):
+        array[i] = item
