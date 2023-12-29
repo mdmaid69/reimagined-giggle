@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
