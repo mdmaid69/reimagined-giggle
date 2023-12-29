@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
