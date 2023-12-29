@@ -1,4 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
