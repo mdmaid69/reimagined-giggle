@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def sort_list(lst):
+        return sorted(lst)
