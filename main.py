@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_sine(x):
+        return math.sin(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
