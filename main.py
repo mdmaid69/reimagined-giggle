@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
