@@ -1,8 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def square_number(x):
+        return x**2
