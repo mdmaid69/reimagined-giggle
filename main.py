@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import time
-print(time.time())
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
