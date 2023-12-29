@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
