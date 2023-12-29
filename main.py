@@ -1,8 +1,3 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+print("Hello, world!")
+def remove_duplicates(lst):
+        return list(set(lst))
