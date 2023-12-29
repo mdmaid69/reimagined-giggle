@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+name = "Python"
+print("Hello,", name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
