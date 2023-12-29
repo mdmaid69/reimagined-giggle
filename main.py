@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import logging
-def log_message(message):
-        logging.info(message)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import time
+def get_current_time():
+        return time.ctime()
