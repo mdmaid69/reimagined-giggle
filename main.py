@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
