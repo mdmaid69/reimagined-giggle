@@ -1,7 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
