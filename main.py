@@ -1,7 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
