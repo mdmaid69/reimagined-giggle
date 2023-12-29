@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
