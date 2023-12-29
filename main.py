@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def multiply_numbers(x, y):
+        return x * y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
