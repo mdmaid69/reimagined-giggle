@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
