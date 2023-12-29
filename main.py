@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
