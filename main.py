@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
