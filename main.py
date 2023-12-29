@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_work(force, distance):
+        return force * distance
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
