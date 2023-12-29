@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def find_max(numbers):
+        return max(numbers)
