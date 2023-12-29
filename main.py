@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_list_from_array(array):
+        return array.tolist()
