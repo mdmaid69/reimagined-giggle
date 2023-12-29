@@ -1,5 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
