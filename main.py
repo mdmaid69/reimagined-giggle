@@ -1,5 +1,9 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def is_even(n):
-        return n % 2 == 0
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
