@@ -1,12 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
