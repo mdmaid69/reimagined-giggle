@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
