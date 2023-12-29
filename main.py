@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
