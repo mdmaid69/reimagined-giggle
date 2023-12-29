@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_user_list():
+        return collections.UserList()
