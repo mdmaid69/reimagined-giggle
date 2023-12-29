@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import tensorflow as tf
-print(tf.__version__)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def is_odd(n):
+        return n % 2 != 0
