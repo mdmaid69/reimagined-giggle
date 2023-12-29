@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import time
+def get_current_time():
+        return time.ctime()
