@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
