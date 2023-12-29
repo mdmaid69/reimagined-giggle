@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
