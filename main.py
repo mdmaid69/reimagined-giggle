@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
