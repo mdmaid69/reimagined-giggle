@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
