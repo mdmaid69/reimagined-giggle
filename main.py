@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_power(work, time):
+        return work / time
