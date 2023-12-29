@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
