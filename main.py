@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
