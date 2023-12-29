@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
