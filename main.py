@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def is_palindrome(s):
-        return s == s[::-1]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
