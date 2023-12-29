@@ -1,7 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
