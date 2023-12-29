@@ -1,6 +1,5 @@
+import math
+print(math.pi)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_current_directory():
+        return os.getcwd()
