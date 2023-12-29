@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import sys
+def print_python_version():
+        print(sys.version)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
