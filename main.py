@@ -1,8 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
