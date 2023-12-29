@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
