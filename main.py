@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  def multiply_numbers(x, y):
-        return x * y
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
