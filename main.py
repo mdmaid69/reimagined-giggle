@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import getpass
-def get_username():
-        return getpass.getuser()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
