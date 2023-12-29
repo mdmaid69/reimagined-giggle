@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sys
-print(sys.version)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
