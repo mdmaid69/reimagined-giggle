@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def convert_to_hex(n):
-        return hex(n)
+def calculate_work(force, distance):
+        return force * distance
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
