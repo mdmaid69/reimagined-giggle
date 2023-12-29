@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
