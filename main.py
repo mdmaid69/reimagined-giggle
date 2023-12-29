@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
