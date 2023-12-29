@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
