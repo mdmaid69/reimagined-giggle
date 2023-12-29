@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import sys
-def exit_program():
-        sys.exit()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_speed(distance, time):
+        return distance / time
