@@ -1,5 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_work(force, distance):
-        return force * distance
+import datetime
+print(datetime.datetime.now())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
