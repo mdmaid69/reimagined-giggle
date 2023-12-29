@@ -1,6 +1,7 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
