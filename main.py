@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_min(lst):
+        return min(lst)
