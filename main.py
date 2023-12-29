@@ -1,5 +1,9 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
