@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_work(force, distance):
+        return force * distance
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
