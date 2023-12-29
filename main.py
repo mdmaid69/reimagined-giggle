@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
