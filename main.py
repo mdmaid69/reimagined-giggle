@@ -1,5 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def find_min(numbers):
-        return min(numbers)
+  def add_numbers(x, y):
+        return x + y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
