@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_work(force, distance):
+        return force * distance
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
