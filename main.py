@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
