@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def convert_to_octal(n):
-        return oct(n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def remove_duplicates(lst):
+        return list(set(lst))
