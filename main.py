@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
