@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def add_numbers(a, b):
-        return a + b
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import datetime
+def get_today_date():
+        return datetime.date.today()
