@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_perpetuity(payment, rate):
+        return payment / rate
