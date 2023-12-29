@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
