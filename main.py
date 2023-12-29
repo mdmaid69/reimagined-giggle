@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def multiply_numbers(x, y):
-        return x * y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
