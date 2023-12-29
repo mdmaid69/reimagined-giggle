@@ -1,3 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-for i in range(10): print(i)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
