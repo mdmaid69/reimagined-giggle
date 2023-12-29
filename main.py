@@ -1,7 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
