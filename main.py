@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
