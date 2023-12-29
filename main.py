@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def is_even(n):
+        return n % 2 == 0
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
