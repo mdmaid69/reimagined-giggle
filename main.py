@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
