@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
