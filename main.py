@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def reverse_array(array):
+        array.reverse()
