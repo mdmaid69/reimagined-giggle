@@ -1,6 +1,8 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
