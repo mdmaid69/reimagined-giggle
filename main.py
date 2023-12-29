@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
