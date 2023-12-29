@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
