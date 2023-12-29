@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
