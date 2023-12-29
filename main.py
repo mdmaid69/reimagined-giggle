@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def multiply_numbers(x, y):
+        return x * y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
