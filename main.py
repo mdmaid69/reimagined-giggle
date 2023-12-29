@@ -1,5 +1,8 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
