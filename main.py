@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
