@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_complex(array):
+        return complex(array[0])
