@@ -1,5 +1,9 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
