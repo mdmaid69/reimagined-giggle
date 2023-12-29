@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import datetime
-print(datetime.datetime.now())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def remove_duplicates(lst):
+        return list(set(lst))
