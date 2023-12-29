@@ -1,8 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import sys
+print(sys.version)
+import numpy as np
+print(np.array([1, 2, 3]))
