@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
