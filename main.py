@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
