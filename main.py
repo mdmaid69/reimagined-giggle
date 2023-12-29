@@ -1,9 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_power(work, time):
+        return work / time
