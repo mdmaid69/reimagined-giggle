@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def count_elements(lst):
+        return len(lst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
