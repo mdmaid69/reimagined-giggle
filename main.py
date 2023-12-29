@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
