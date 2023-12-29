@@ -1,6 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def convert_to_octal(n):
+        return oct(n)
