@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-import logging
-def log_message(message):
-        logging.info(message)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
