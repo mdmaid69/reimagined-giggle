@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
