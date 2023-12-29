@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
