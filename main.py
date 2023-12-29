@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
