@@ -1,7 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
