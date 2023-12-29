@@ -1,8 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
