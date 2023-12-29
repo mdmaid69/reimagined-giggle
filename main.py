@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
