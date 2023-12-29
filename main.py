@@ -1,4 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_pressure(force, area):
-        return force / area
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
