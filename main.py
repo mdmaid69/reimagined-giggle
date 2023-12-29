@@ -1,13 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def sort_list(lst):
+        return sorted(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
