@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_floor(x):
+        return math.floor(x)
