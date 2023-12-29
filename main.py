@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
