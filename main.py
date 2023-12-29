@@ -1,5 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
