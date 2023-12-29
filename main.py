@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
