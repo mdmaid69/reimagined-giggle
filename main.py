@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
