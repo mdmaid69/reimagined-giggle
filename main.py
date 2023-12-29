@@ -1,7 +1,7 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
