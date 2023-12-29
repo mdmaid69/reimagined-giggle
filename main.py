@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def cube_number(x):
+        return x**3
