@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
