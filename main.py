@@ -1,6 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
