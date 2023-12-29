@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
