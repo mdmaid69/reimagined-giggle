@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
