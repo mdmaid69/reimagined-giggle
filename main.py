@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
