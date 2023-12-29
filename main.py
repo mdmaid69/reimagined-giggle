@@ -1,5 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import collections
+def create_counter():
+        return collections.Counter()
