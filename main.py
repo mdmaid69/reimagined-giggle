@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
