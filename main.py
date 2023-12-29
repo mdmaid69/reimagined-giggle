@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
