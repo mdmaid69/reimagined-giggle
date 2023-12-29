@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
