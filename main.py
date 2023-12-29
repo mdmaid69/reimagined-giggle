@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
