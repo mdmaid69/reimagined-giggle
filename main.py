@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sys
-def exit_program():
-        sys.exit()
+def add_numbers(a, b):
+        return a + b
+import array
+def convert_array_to_list(array):
+        return array.tolist()
