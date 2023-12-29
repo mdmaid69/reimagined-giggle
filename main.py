@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
