@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
