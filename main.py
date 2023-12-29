@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
