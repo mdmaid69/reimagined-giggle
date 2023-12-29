@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
