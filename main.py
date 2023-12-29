@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
