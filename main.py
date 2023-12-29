@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
