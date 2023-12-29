@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-for i in range(5):
-        print(i)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+from collections import Counter
+print(Counter("hello world"))
