@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
