@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
