@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
