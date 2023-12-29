@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
