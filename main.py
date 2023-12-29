@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import random
+print(random.randint(0, 100))
+import collections
+def create_user_dict():
+        return collections.UserDict()
