@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
