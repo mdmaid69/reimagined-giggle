@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
