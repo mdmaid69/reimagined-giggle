@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import sys
+def print_python_version():
+        print(sys.version)
