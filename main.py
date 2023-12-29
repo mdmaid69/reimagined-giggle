@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
