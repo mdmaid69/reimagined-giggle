@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def is_odd(n):
+        return n % 2 != 0
