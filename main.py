@@ -1,5 +1,7 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def is_even(n):
+        return n % 2 == 0
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
