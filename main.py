@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def sort_list(lst):
+        return sorted(lst)
+name = "Python"
+print("Hello,", name)
