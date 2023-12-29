@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
