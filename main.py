@@ -1,8 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
