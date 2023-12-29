@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
