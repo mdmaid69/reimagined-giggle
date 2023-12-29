@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
