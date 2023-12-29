@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
