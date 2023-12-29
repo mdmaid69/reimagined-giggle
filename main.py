@@ -1,4 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-print(sum(range(10)))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
