@@ -1,5 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
