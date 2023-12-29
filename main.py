@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
