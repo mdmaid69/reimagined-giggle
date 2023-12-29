@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
