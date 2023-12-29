@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def count_elements(lst):
+        return len(lst)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
