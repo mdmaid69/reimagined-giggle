@@ -1,5 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def clear_array(array):
+        array *= 0
