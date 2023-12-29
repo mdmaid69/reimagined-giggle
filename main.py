@@ -1,6 +1,10 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
