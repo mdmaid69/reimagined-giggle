@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
