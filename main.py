@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
