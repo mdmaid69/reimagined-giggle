@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
