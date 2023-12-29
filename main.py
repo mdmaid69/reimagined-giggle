@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def is_palindrome(s):
+        return s == s[::-1]
