@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import sys
+def print_python_version():
+        print(sys.version)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
