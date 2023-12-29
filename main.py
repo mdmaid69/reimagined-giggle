@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
