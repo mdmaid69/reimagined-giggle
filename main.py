@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
