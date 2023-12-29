@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
