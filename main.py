@@ -1,10 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
