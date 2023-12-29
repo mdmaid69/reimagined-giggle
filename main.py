@@ -1,5 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
