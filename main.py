@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def append_to_array(array, item):
+        array.append(item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
