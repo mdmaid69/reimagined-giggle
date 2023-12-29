@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
