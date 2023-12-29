@@ -1,8 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
