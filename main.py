@@ -1,7 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
