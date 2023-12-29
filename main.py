@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_logarithm(base, x):
+        return math.log(x, base)
