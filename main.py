@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
