@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
