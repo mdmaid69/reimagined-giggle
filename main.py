@@ -1,8 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_min(numbers):
+        return min(numbers)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
