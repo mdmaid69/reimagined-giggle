@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
