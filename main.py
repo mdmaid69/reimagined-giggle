@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
