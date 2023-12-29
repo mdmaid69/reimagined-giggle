@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
