@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def subtract_numbers(x, y):
+        return x - y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
