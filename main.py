@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def get_array_typecode(array):
+        return array.typecode
