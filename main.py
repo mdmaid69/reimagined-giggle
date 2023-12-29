@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_acceleration(speed, time):
+        return speed / time
