@@ -1,6 +1,8 @@
 import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
