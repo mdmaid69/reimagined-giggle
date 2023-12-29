@@ -1,5 +1,9 @@
-  def convert_to_hex(n):
-        return hex(n)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_length(array):
+        return len(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
