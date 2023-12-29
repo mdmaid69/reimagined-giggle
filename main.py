@@ -1,7 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
