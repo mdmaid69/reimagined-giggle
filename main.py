@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
