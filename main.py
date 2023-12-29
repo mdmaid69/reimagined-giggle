@@ -1,8 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def find_min(lst):
+        return min(lst)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
