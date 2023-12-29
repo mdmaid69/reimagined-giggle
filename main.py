@@ -1,6 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
