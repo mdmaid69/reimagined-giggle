@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
