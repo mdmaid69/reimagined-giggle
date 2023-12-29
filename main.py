@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
