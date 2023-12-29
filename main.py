@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import logging
-def log_message(message):
-        logging.info(message)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
