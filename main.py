@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
