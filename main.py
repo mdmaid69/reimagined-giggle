@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+print([x**2 for x in range(10)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
