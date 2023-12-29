@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
