@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
