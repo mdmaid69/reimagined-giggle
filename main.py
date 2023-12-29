@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
