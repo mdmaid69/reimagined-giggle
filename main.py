@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_typecode(array):
-        return array.typecode
+for i in range(5):
+        print(i)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
