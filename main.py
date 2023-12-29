@@ -1,4 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-print(sum(range(10)))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
