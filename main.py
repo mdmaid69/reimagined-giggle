@@ -1,8 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
