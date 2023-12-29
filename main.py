@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_as_float(array):
+        return float(array[0])
