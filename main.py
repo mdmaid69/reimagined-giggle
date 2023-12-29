@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
