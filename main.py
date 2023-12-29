@@ -1,5 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
