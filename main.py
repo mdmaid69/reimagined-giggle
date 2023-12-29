@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
