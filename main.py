@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
