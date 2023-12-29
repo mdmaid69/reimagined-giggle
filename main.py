@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
