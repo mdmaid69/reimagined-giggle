@@ -1,8 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
