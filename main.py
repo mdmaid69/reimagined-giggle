@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
