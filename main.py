@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
