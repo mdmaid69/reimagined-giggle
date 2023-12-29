@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def count_elements(lst):
+        return len(lst)
