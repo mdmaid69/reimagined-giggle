@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
