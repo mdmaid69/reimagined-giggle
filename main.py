@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
 def calculate_logarithm_base_10(x):
         return math.log10(x)
