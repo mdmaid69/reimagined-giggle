@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
