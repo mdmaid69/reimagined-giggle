@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def multiply_numbers(x, y):
+        return x * y
