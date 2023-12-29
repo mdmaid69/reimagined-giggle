@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
