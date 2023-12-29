@@ -1,8 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
