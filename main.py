@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_typecode(array):
+        return array.typecode
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
