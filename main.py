@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
