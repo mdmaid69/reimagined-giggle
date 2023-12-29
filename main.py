@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+print([x**2 for x in range(10)])
