@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-print(math.pi)
+  def add_numbers(x, y):
+        return x + y
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
