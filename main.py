@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
