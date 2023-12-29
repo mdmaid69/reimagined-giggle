@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def convert_to_octal(n):
+        return oct(n)
