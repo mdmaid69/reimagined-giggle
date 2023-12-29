@@ -1,8 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_bytes(array):
+        return bytes(array)
