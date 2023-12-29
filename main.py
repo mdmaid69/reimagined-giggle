@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import time
+def get_time_since_epoch():
+        return time.time()
 import sys
-def exit_program():
-        sys.exit()
+def add_to_python_path(path):
+        sys.path.append(path)
