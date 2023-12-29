@@ -1,10 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
