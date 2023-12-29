@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import numpy as np
-print(np.array([1, 2, 3]))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_array_length(array):
+        return len(array)
