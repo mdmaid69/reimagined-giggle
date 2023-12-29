@@ -1,6 +1,4 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+print(sum(range(10)))
