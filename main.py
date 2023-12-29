@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def is_palindrome(s):
-        return s == s[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
