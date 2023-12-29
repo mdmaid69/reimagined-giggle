@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def reverse_string(s):
+        return s[::-1]
