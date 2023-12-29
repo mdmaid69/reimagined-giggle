@@ -1,4 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import datetime
-print(datetime.datetime.now())
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_work(force, distance):
+        return force * distance
