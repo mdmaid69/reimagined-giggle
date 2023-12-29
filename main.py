@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def add_numbers(a, b):
+        return a + b
