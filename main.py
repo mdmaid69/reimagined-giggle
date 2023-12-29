@@ -1,6 +1,9 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
