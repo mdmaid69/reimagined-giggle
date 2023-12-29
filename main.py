@@ -1,7 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
