@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def is_even(n):
-        return n % 2 == 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
