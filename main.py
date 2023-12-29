@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_list_from_array(array):
+        return array.tolist()
