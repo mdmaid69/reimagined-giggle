@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
