@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_power(work, time):
+        return work / time
