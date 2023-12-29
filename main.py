@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
