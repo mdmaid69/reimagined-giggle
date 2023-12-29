@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
