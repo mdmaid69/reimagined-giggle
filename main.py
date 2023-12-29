@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def is_even(n):
+        return n % 2 == 0
