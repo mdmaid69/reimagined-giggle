@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
