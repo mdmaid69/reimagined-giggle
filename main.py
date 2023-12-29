@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
