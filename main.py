@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
