@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
