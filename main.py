@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
