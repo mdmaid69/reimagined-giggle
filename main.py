@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
