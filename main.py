@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
