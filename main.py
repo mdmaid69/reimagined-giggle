@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import platform
+def get_python_version():
+        return platform.python_version()
