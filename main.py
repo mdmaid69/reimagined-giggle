@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_pressure(force, area):
+        return force / area
+import array
+def reverse_array(array):
+        array.reverse()
