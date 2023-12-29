@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_work(force, distance):
+        return force * distance
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
