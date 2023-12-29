@@ -1,5 +1,12 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
