@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
