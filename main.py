@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
