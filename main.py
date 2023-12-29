@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
