@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-for i in range(5):
-        print(i)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
