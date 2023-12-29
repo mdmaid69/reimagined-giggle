@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import collections
+def create_counter():
+        return collections.Counter()
