@@ -1,7 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
