@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def square_number(x):
-        return x**2
+def add_numbers(a, b):
+        return a + b
+  def count_elements(lst):
+        return len(lst)
