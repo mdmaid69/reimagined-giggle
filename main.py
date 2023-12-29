@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
