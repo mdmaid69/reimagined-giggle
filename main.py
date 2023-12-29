@@ -1,8 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def convert_to_hex(n):
+        return hex(n)
