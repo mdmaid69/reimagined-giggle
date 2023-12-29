@@ -1,5 +1,4 @@
-import time
-print(time.time())
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
