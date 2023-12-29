@@ -1,5 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def find_min(lst):
-        return min(lst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
