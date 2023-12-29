@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
