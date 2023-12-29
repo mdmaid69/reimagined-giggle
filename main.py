@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
