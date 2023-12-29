@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
