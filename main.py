@@ -1,4 +1,7 @@
-def count_characters(sentence):
-        return len(sentence)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
