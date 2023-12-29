@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
