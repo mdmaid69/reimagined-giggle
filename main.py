@@ -1,7 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_array_as_bool(array):
+        return bool(array)
