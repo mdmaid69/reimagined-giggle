@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
