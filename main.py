@@ -1,6 +1,13 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
