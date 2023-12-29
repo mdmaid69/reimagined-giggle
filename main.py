@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
