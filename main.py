@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def reverse_list(lst):
-        return lst[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
