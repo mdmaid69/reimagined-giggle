@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
