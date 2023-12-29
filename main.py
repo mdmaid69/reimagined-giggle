@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import sys
+print(sys.version)
