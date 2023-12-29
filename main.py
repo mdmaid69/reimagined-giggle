@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def add_numbers(x, y):
+        return x + y
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
