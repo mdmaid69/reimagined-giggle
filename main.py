@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
