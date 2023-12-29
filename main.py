@@ -1,5 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
