@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import numpy as np
+print(np.array([1, 2, 3]))
