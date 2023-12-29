@@ -1,5 +1,9 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_sine(x):
+        return math.sin(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
