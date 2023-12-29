@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
