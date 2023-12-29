@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def remove_duplicates(lst):
+        return list(set(lst))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
