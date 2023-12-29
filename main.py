@@ -1,8 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
