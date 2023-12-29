@@ -1,7 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
