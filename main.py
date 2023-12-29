@@ -1,5 +1,7 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
