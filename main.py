@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+text = "Hello, world!"
+print("Uppercase:", text.upper())
