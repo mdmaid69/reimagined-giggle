@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
