@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
