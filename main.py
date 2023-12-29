@@ -1,7 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
