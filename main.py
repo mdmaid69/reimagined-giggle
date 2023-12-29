@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
