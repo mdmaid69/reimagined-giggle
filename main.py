@@ -1,6 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import platform
-def get_python_version():
-        return platform.python_version()
+def remove_from_array(array, item):
+        array.remove(item)
