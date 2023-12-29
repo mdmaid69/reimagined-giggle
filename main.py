@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def find_min(lst):
+        return min(lst)
