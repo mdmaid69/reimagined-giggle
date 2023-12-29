@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import random
+def roll_die():
+        return random.randint(1, 6)
