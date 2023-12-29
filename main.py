@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def sort_list(lst):
-        return sorted(lst)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
