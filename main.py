@@ -1,5 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
