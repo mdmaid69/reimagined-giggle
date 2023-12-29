@@ -1,6 +1,6 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
