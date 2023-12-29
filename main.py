@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import getpass
+def get_username():
+        return getpass.getuser()
