@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
