@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def delete_file(file_name):
+        os.remove(file_name)
