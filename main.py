@@ -1,3 +1,4 @@
-for i in range(10): print(i)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
