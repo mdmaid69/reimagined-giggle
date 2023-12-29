@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def convert_to_hex(n):
+        return hex(n)
