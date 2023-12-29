@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def find_max(numbers):
-        return max(numbers)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_sine(x):
+        return math.sin(x)
