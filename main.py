@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
