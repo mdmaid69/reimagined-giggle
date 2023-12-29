@@ -1,5 +1,8 @@
-  def add_numbers(x, y):
-        return x + y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
