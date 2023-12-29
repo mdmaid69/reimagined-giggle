@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def add_numbers(a, b):
+        return a + b
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
