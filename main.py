@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
