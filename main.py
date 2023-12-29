@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
