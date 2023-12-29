@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import time
+def get_current_time():
+        return time.ctime()
