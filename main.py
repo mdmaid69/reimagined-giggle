@@ -1,4 +1,10 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
