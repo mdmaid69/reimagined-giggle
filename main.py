@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def convert_to_binary(n):
-        return bin(n)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
