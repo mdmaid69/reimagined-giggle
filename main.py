@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def find_min(numbers):
-        return min(numbers)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def convert_to_binary(n):
+        return bin(n)
