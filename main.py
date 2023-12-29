@@ -1,7 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
