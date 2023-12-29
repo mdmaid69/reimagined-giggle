@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
