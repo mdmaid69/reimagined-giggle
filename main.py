@@ -1,5 +1,8 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
