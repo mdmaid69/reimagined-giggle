@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+print([x**2 for x in range(10)])
