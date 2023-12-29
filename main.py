@@ -1,4 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-print("Hello, world!")
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
