@@ -1,5 +1,8 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
