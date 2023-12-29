@@ -1,8 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
