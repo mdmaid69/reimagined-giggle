@@ -1,5 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
