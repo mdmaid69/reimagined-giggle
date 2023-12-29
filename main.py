@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
