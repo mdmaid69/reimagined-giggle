@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
