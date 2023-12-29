@@ -1,7 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
