@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
