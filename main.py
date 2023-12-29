@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
