@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def is_odd(n):
-        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
