@@ -1,5 +1,9 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
