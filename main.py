@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
