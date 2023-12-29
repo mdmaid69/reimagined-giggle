@@ -1,6 +1,8 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
