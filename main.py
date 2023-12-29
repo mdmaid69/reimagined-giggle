@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
