@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def square_number(x):
+        return x**2
+def calculate_work(force, distance):
+        return force * distance
