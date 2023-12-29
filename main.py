@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_as_list(array):
+        return list(array)
