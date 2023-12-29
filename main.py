@@ -1,7 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
