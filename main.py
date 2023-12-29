@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def find_max(lst):
+        return max(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
