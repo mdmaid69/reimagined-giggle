@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Characters:", len(text))
