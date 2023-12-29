@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def convert_to_binary(n):
+        return bin(n)
+name = "Python"
+print("Hello,", name)
