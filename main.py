@@ -1,6 +1,6 @@
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_sign(x):
+        return math.copysign(1, x)
