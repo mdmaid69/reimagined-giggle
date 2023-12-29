@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_pressure(force, area):
+        return force / area
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
