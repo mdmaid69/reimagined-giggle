@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def square_number(x):
-        return x**2
+import collections
+def create_user_list():
+        return collections.UserList()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
