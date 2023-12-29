@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_work(force, distance):
-        return force * distance
+  def remove_duplicates(lst):
+        return list(set(lst))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
