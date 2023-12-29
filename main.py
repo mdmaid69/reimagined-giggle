@@ -1,9 +1,8 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
