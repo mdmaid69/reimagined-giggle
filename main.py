@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
