@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import platform
-def get_python_version():
-        return platform.python_version()
+def get_bytes_from_array(array):
+        return array.tobytes()
