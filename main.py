@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+for i in range(5):
+        print(i)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
