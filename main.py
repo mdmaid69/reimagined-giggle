@@ -1,5 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
