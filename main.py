@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_pressure(force, area):
+        return force / area
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
