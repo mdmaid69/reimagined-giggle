@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def add_numbers(x, y):
+        return x + y
