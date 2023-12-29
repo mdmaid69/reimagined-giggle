@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
