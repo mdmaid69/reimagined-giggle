@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
