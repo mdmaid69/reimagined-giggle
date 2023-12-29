@@ -1,5 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def remove_from_array(array, item):
+        array.remove(item)
