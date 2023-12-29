@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
