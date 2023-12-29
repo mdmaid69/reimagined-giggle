@@ -1,5 +1,5 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def find_min(numbers):
-        return min(numbers)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import re
+print(re.match("h.*o", "hello world"))
