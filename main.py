@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
