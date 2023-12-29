@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
