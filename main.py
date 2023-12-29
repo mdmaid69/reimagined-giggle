@@ -1,5 +1,7 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
