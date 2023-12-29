@@ -1,5 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+print(sum(range(10)))
+  import os
+  def get_current_directory():
+        return os.getcwd()
