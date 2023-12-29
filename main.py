@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+for i in range(5):
+        print(i)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
