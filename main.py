@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
