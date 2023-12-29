@@ -1,5 +1,11 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
