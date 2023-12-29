@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
