@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
 import array
-def reverse_array(array):
-        array.reverse()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def get_array_itemsize(array):
+        return array.itemsize
