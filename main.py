@@ -1,5 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_logarithm_base_e(x):
+        return math.log(x)
