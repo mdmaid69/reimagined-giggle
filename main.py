@@ -1,5 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def remove_duplicates(lst):
-        return list(set(lst))
+name = "Python"
+print("Hello,", name)
+def calculate_density(mass, volume):
+        return mass / volume
