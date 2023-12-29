@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def count_characters(sentence):
+        return len(sentence)
