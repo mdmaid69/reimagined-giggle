@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
