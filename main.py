@@ -1,5 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
