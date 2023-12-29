@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
