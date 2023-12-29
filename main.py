@@ -1,7 +1,7 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
