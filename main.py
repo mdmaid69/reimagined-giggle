@@ -1,8 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
