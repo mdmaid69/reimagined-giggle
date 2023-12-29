@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def subtract_numbers(x, y):
+        return x - y
+import collections
+def create_priority_queue():
+        return collections.deque()
