@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
