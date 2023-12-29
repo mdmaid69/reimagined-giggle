@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
