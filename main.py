@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_volume(length, width, height):
+        return length * width * height
