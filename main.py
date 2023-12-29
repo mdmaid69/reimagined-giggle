@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def greet(name):
+        print(f"Hello, {name}!")
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
