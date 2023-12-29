@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
