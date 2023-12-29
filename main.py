@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_area_circle(r):
+        return 3.14 * r**2
