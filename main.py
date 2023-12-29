@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def clear_array(array):
+        array *= 0
+import array
+def reverse_array(array):
+        array.reverse()
