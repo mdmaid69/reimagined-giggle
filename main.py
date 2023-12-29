@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def convert_to_octal(n):
+        return oct(n)
