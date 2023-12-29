@@ -1,5 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import time
-print(time.time())
+def append_to_array(array, item):
+        array.append(item)
+def greet(name):
+        print(f"Hello, {name}!")
