@@ -1,5 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
