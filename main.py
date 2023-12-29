@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def sort_list(lst):
+        return sorted(lst)
