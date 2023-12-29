@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
