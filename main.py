@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import time
-def get_current_time():
-        return time.time()
+def remove_from_array(array, item):
+        array.remove(item)
