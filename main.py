@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
