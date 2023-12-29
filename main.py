@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def find_max(lst):
+        return max(lst)
