@@ -1,6 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
