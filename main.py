@@ -1,7 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import collections
+def create_user_dict():
+        return collections.UserDict()
