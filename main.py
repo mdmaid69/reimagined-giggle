@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def get_array_as_list(array):
+        return list(array)
