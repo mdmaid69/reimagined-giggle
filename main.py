@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
