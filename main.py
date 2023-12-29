@@ -1,6 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_density(mass, volume):
+        return mass / volume
