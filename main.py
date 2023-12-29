@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
