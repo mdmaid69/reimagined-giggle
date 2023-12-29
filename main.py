@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
