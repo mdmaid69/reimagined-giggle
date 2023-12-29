@@ -1,7 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
