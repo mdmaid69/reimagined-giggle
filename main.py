@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
