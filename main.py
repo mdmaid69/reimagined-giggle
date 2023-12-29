@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
