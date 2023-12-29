@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
