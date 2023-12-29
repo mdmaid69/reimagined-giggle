@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def find_max(lst):
+        return max(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
