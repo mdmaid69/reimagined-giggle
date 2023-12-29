@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import os
+  def split_path(path):
+        return os.path.split(path)
