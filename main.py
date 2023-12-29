@@ -1,9 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def convert_array_to_list(array):
+        return array.tolist()
