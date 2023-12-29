@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
