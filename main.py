@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_min(lst):
+        return min(lst)
+from collections import Counter
+print(Counter("hello world"))
