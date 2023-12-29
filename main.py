@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def add_numbers(x, y):
+        return x + y
+name = "Python"
+print("Hello,", name)
