@@ -1,8 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
