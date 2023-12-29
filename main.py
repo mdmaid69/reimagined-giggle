@@ -1,8 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
