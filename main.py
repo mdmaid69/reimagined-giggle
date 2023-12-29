@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
