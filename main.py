@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_length(array):
+        return len(array)
