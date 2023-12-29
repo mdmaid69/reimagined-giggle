@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import getpass
-def get_username():
-        return getpass.getuser()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
