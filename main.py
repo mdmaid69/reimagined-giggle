@@ -1,7 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def reverse_array(array):
+        array.reverse()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
