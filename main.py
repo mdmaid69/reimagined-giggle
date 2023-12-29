@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_area_rectangle(l, w):
+        return l * w
