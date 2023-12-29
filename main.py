@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
