@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
