@@ -1,8 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
