@@ -1,5 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
