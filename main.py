@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
