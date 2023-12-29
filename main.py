@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
