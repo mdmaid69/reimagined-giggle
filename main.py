@@ -1,6 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
