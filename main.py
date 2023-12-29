@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_speed(distance, time):
-        return distance / time
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
