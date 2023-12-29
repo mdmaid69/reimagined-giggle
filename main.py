@@ -1,4 +1,8 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-name = "Python"
-print("Hello,", name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import collections
+def create_stack():
+        return collections.deque()
