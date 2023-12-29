@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import logging
-def log_message(message):
-        logging.info(message)
+def find_max(lst):
+        return max(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
