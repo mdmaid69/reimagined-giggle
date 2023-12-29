@@ -1,6 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
