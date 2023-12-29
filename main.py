@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
