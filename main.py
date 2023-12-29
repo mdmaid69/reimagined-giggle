@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+for i in range(10): print(i)
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
