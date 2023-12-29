@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import os
-print(os.getcwd())
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_as_str(array):
+        return str(array)
