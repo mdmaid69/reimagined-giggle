@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
