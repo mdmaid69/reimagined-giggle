@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def convert_to_hex(n):
+        return hex(n)
