@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
