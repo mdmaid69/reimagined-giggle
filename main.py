@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
