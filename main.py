@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def add_numbers(a, b):
+        return a + b
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
