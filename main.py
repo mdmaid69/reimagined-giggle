@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
