@@ -1,7 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def is_even(n):
-        return n % 2 == 0
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
