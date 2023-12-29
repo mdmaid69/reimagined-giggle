@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
