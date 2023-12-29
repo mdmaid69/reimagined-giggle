@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def multiply_numbers(x, y):
+        return x * y
