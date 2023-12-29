@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def divide_numbers(x, y):
-        return x / y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
