@@ -1,4 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
