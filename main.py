@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
