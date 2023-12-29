@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
