@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
