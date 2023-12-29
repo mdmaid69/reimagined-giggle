@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
