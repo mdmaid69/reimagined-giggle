@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import sys
+def print_python_version():
+        return sys.version
+  def square_number(x):
+        return x**2
