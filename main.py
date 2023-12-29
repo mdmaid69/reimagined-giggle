@@ -1,6 +1,12 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
