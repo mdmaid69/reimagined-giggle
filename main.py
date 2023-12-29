@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
