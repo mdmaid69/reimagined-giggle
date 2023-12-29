@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def is_odd(n):
+        return n % 2 != 0
