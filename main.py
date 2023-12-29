@@ -1,10 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_typecode(array):
+        return array.typecode
