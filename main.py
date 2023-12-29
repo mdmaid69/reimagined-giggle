@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
