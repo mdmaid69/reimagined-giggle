@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
