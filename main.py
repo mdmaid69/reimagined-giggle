@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_priority_queue():
+        return collections.deque()
