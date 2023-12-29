@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_as_str(array):
+        return str(array)
