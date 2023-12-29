@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def find_max(lst):
+        return max(lst)
