@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
