@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import logging
+def log_message(message):
+        logging.info(message)
