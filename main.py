@@ -1,6 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import numpy as np
+print(np.array([1, 2, 3]))
