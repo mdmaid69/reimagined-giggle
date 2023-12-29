@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def multiply_numbers(x, y):
-        return x * y
+  import sys
+  def get_python_version():
+        return sys.version
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
