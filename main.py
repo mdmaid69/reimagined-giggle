@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
