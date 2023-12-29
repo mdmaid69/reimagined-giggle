@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
