@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import sys
+def print_python_version():
+        print(sys.version)
