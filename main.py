@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def convert_to_binary(n):
+        return bin(n)
