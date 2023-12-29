@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
