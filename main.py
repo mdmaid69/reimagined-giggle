@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import platform
-def get_python_version():
-        return platform.python_version()
+  def split_path(path):
+        return os.path.split(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
