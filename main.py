@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
