@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def multiply_numbers(x, y):
-        return x * y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_density(mass, volume):
+        return mass / volume
