@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
