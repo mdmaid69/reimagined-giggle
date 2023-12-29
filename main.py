@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
