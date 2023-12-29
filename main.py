@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
