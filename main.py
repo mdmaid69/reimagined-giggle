@@ -1,6 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
