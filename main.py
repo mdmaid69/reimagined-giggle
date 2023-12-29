@@ -1,6 +1,9 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
