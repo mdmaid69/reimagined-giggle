@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
