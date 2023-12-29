@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def convert_to_hex(n):
+        return hex(n)
