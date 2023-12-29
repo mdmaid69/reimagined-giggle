@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_acceleration(speed, time):
-        return speed / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
