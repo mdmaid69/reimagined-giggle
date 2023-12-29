@@ -1,5 +1,8 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
