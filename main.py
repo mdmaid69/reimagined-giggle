@@ -1,4 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
