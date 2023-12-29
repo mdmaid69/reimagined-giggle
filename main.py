@@ -1,7 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
