@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+for i in range(5):
+        print(i)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_typecode(array):
+        return array.typecode
