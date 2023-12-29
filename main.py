@@ -1,5 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
