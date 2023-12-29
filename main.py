@@ -3,6 +3,6 @@
         with open(file_name, "w", newline="") as file:
           writer = csv.writer(file)
           writer.writerows(data)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_array_length(array):
+        return len(array)
