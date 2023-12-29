@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_item(array, i):
+        return array[i]
