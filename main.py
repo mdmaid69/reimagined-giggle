@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
