@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
