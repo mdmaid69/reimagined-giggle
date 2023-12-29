@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
