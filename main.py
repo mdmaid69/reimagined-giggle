@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import random
-print(random.randint(0, 100))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
