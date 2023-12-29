@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def cube_number(x):
+        return x**3
+def find_min(lst):
+        return min(lst)
