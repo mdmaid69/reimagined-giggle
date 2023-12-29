@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import sys
-def print_python_version():
-        print(sys.version)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
