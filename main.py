@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
