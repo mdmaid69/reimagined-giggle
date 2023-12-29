@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def square_number(x):
+        return x**2
