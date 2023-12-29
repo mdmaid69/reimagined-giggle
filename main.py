@@ -1,8 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
