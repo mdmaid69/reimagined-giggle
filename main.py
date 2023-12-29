@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_volume(length, width, height):
+        return length * width * height
