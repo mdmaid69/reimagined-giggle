@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
