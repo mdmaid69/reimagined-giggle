@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_typecode(array):
-        return array.typecode
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
