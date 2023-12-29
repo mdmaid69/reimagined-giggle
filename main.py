@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def add_numbers(x, y):
-        return x + y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
