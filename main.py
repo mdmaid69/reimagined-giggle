@@ -1,7 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def remove_duplicates(lst):
+        return list(set(lst))
