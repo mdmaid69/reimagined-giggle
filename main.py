@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import numpy as np
-print(np.array([1, 2, 3]))
+  def calculate_area_rectangle(l, w):
+        return l * w
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
