@@ -1,6 +1,5 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_power(work, time):
+        return work / time
