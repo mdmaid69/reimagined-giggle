@@ -1,4 +1,3 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-for i in range(10): print(i)
+print([x**2 for x in range(10)])
+  def is_even(n):
+        return n % 2 == 0
