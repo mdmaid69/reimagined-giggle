@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def clear_array(array):
+        array *= 0
+import time
+def get_current_time():
+        return time.time()
