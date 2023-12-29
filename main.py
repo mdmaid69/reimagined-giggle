@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_speed(distance, time):
+        return distance / time
