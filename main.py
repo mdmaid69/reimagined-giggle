@@ -1,7 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import collections
+def create_user_string():
+        return collections.UserString()
+import platform
+def get_python_version():
+        return platform.python_version()
