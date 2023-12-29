@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
