@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def split_path(path):
-        return os.path.split(path)
-import random
-print(random.randint(0, 100))
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
