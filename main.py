@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
