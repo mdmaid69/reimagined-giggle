@@ -1,4 +1,6 @@
-print(sum(range(10)))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import getpass
+def get_username():
+        return getpass.getuser()
