@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
