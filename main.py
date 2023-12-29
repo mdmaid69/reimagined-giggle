@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def add_numbers(x, y):
-        return x + y
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
