@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import time
-def get_current_time():
-        return time.time()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
