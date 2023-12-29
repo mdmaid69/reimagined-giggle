@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_power(work, time):
+        return work / time
