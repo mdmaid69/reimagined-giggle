@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import datetime
+print(datetime.datetime.now())
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_list(array):
+        return list(array)
