@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
