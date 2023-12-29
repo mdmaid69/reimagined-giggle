@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
