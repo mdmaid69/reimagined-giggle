@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import platform
+def get_python_version():
+        return platform.python_version()
