@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
