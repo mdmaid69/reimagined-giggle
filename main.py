@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def is_even(n):
-        return n % 2 == 0
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
