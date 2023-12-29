@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
