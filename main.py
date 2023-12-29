@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
