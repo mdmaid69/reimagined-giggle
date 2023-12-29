@@ -1,9 +1,8 @@
 import array
-def get_array_from_file(filename, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
