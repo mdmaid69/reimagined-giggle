@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
