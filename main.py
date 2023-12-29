@@ -1,5 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
