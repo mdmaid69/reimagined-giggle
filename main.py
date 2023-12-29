@@ -1,6 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
