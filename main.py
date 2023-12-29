@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
