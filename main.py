@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_sine(x):
+        return math.sin(x)
