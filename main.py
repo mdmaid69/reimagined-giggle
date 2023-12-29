@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def convert_to_octal(n):
+        return oct(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
