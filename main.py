@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
