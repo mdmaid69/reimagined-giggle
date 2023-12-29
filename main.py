@@ -1,14 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
