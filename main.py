@@ -1,6 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def add_numbers(a, b):
+        return a + b
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
