@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+for i in range(5):
+        print(i)
