@@ -1,7 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
