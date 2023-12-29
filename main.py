@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
