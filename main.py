@@ -1,6 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
