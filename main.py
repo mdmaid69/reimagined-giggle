@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def cube_number(x):
+        return x**3
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
