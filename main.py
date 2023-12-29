@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def greet(name):
+        print(f"Hello, {name}!")
+import logging
+def log_message(message):
+        logging.info(message)
