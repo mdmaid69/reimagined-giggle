@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
