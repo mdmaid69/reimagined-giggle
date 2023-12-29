@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
