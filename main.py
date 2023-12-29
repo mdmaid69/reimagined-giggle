@@ -1,4 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-def count_characters(sentence):
-        return len(sentence)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
