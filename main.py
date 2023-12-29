@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
