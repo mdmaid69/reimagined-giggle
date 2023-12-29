@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
