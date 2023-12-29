@@ -1,7 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
