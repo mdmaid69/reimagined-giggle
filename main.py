@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
