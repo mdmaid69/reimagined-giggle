@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import sys
-print(sys.version)
+  def cube_number(x):
+        return x**3
+import collections
+def create_queue():
+        return collections.deque()
