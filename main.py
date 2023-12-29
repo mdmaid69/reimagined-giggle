@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import time
+def get_time_since_epoch():
+        return time.time()
