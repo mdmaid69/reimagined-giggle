@@ -1,7 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import sys
+def exit_program():
+        sys.exit()
