@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def convert_to_hex(n):
+        return hex(n)
