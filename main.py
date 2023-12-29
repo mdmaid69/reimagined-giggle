@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import time
-def get_current_time():
-        return time.ctime()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def add_numbers(x, y):
+        return x + y
