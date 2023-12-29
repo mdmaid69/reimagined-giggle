@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
