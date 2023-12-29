@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
