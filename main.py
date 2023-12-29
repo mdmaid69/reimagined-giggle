@@ -1,9 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
