@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
