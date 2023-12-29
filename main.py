@@ -1,6 +1,8 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_as_set(array):
-        return set(array)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
