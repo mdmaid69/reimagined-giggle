@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_density(mass, volume):
-        return mass / volume
+for i in range(5):
+        print(i)
+import collections
+def create_stack():
+        return collections.deque()
