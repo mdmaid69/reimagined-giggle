@@ -1,6 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_absolute_value(x):
+        return math.fabs(x)
