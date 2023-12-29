@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
