@@ -1,4 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-print("Hello, world!")
+import math
+print(math.pi)
+def subtract_numbers(x, y):
+        return x - y
