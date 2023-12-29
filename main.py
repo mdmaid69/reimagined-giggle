@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_priority_queue():
+        return collections.deque()
