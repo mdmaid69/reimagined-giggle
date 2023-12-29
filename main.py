@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
