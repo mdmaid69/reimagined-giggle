@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def reverse_list(lst):
+        return lst[::-1]
