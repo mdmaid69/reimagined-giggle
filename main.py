@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+def divide_numbers(x, y):
+        return x / y
