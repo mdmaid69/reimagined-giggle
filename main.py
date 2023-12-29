@@ -1,5 +1,8 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
