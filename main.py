@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
