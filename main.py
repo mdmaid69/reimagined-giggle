@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
