@@ -1,5 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def square_number(x):
-        return x**2
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
