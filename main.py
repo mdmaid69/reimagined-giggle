@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
