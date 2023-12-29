@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
