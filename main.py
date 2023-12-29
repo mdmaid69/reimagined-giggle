@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
