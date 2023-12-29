@@ -1,7 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import collections
+def create_user_list():
+        return collections.UserList()
+import json
+print(json.dumps({"name": "John", "age": 30}))
