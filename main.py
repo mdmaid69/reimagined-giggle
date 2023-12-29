@@ -1,5 +1,11 @@
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
