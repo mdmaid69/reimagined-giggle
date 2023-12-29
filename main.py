@@ -1,8 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def square_number(x):
+        return x**2
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
