@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
