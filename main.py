@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
