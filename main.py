@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def add_numbers(x, y):
-        return x + y
+def multiply_numbers(x, y):
+        return x * y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
