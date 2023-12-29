@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import platform
+def get_python_version():
+        return platform.python_version()
