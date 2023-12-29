@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import sys
-  def get_python_version():
-        return sys.version
+  def is_odd(n):
+        return n % 2 != 0
+def is_palindrome(s):
+        return s == s[::-1]
