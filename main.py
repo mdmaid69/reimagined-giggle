@@ -1,5 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def convert_to_binary(n):
-        return bin(n)
+def clear_array(array):
+        array *= 0
