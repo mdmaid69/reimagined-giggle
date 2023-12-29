@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
