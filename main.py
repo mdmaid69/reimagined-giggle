@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
