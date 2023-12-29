@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
