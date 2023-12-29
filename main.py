@@ -1,6 +1,6 @@
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
