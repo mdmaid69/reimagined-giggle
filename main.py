@@ -1,6 +1,7 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import platform
+def get_os_info():
+        return platform.uname()
