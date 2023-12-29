@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def is_odd(n):
-        return n % 2 != 0
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
