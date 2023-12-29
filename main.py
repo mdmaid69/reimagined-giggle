@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_queue():
+        return collections.deque()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
