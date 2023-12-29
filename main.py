@@ -1,6 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
