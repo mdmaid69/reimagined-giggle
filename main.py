@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
