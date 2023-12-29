@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
