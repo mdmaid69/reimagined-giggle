@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
