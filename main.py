@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
