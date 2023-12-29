@@ -1,5 +1,5 @@
+def square_number(x):
+        return x**2
 import os
-print(os.getcwd())
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
