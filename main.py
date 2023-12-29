@@ -1,5 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def count_elements(lst):
-        return len(lst)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
