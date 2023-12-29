@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def clear_array(array):
+        array *= 0
+def reverse_list(lst):
+        return lst[::-1]
