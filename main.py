@@ -1,6 +1,8 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
