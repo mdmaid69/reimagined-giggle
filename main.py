@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
