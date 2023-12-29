@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
