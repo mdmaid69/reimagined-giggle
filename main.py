@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
