@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
