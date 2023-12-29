@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
