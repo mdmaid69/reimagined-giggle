@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import platform
-def get_python_version():
-        return platform.python_version()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def cube_number(x):
+        return x**3
