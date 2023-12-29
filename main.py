@@ -1,6 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import random
+print(random.randint(0, 100))
