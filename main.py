@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
