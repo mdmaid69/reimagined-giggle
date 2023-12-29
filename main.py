@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def greet(name):
+        print(f"Hello, {name}!")
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
