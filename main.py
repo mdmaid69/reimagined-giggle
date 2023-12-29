@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
