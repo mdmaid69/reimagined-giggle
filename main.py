@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
