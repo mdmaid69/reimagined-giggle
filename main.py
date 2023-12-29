@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_str(array):
+        return str(array)
