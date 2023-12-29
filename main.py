@@ -1,8 +1,8 @@
-import unittest
+  def convert_to_binary(n):
+        return bin(n)
+from flask import Flask
+app = Flask(__name__)
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+@app.route("/")
+def hello():
+        return "Hello, World!"
