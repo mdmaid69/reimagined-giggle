@@ -1,4 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import random
-print(random.randint(0, 100))
+print(sum(range(10)))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
