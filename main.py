@@ -1,7 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
