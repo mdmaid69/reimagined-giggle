@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_user_string():
+        return collections.UserString()
