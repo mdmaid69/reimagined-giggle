@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-from collections import Counter
-print(Counter("hello world"))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
