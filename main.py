@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_pressure(force, area):
+        return force / area
