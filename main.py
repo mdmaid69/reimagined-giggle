@@ -1,6 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
