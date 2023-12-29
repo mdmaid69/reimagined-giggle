@@ -1,7 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
