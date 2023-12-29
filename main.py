@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def multiply_numbers(x, y):
+        return x * y
