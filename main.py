@@ -1,4 +1,4 @@
-import time
-print(time.time())
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def cube_number(x):
+        return x**3
+def sort_numbers(numbers):
+        return sorted(numbers)
