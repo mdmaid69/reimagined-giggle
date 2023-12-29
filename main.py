@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def find_min(lst):
+        return min(lst)
+def calculate_speed(distance, time):
+        return distance / time
