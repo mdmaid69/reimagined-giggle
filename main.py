@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def remove_duplicates(lst):
+        return list(set(lst))
