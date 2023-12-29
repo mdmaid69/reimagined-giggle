@@ -1,5 +1,5 @@
+import time
+print(time.time())
   import os
-  def split_path(path):
-        return os.path.split(path)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
