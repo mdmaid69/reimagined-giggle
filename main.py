@@ -1,7 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
