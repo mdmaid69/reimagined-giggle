@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-text = "Hello, world!"
-print("Characters:", len(text))
+print(sum(range(10)))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
