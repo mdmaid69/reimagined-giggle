@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
