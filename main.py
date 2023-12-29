@@ -1,8 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import numpy as np
+print(np.array([1, 2, 3]))
+text = "Hello, world!"
+print("Characters:", len(text))
