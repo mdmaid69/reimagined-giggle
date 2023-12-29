@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
