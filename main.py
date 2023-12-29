@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
