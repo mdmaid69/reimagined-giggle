@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
