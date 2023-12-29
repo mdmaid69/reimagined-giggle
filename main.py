@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
