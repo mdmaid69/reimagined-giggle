@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_exponential(x):
+        return math.exp(x)
