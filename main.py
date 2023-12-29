@@ -1,6 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
