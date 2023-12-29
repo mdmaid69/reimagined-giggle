@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
