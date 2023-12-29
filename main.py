@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_speed(distance, time):
+        return distance / time
