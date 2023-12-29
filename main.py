@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_list_from_array(array):
+        return array.tolist()
