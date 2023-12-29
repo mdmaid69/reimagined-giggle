@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
