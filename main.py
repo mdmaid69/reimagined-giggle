@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
