@@ -1,5 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def find_min(numbers):
-        return min(numbers)
+def calculate_factorial(n):
+        return math.factorial(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
