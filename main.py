@@ -1,5 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def find_max(lst):
+        return max(lst)
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
