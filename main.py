@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
