@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_length(array):
-        return len(array)
+def count_elements(lst):
+        return len(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
