@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
