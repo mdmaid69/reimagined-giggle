@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
