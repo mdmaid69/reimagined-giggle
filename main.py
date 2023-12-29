@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
