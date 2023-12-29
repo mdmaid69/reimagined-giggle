@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
