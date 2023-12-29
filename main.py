@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
