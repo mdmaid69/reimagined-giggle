@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_speed(distance, time):
+        return distance / time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
