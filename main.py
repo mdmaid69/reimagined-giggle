@@ -1,7 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def add_numbers(x, y):
+        return x + y
