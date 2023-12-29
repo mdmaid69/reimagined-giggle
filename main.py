@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import time
+print(time.time())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
