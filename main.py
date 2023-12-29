@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
