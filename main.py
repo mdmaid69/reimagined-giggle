@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
