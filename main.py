@@ -1,7 +1,6 @@
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def read_from_json(json_string):
+        return json.loads(json_string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
