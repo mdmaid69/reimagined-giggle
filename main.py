@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import platform
+def get_python_version():
+        return platform.python_version()
