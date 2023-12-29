@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
