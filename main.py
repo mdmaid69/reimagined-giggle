@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
