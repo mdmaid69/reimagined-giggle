@@ -1,6 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def split_path(path):
-        return os.path.split(path)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
