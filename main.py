@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import sys
-  def get_python_version():
-        return sys.version
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
