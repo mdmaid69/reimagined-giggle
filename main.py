@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
