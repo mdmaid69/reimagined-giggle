@@ -1,8 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
