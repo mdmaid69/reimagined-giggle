@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
