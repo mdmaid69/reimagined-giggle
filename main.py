@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
