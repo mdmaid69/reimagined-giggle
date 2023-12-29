@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
