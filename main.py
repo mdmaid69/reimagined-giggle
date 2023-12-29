@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-name = "Python"
-print("Hello,", name)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def remove_from_array(array, item):
+        array.remove(item)
