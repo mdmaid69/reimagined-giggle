@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_blocks_allocated(file_name):
+  def get_file_blocks(file_name):
         return os.stat(file_name).st_blocks
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
