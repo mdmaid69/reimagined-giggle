@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
