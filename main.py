@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_list(array):
-        return list(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def convert_to_octal(n):
+        return oct(n)
