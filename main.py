@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import os
+print(os.getcwd())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
