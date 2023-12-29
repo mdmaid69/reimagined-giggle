@@ -1,5 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import tensorflow as tf
-print(tf.__version__)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
