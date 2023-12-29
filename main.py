@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def convert_to_binary(n):
-        return bin(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_speed(distance, time):
+        return distance / time
