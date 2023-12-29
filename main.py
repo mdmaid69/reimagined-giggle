@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-text = "Hello, world!"
-print("Characters:", len(text))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def divide_numbers(x, y):
+        return x / y
