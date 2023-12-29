@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
