@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
