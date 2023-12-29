@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
