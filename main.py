@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
