@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+x = 10
+y = 20
+print("Sum:", x + y)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
