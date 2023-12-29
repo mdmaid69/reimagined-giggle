@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def convert_to_hex(n):
+        return hex(n)
+  def multiply_numbers(x, y):
+        return x * y
