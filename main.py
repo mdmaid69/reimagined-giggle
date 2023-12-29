@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
