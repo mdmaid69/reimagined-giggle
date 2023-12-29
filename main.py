@@ -1,7 +1,8 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
