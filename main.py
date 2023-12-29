@@ -1,3 +1,5 @@
-print("Hello, world!")
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
