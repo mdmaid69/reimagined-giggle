@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
