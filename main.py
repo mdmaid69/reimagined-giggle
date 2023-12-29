@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
