@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def convert_to_binary(n):
-        return bin(n)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
