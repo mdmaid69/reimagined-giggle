@@ -1,8 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
