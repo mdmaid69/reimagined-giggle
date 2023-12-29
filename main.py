@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
