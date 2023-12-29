@@ -1,7 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
