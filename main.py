@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
