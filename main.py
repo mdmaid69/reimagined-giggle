@@ -1,5 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
