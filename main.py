@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_as_set(array):
+        return set(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
