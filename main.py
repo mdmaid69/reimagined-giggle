@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
