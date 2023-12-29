@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
