@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import collections
+def create_user_dict():
+        return collections.UserDict()
