@@ -1,7 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def convert_array_to_string(array):
+        return array.tostring()
