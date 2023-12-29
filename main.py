@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def convert_to_octal(n):
+        return oct(n)
