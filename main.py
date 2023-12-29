@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
