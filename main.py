@@ -1,5 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def multiply_numbers(x, y):
-        return x * y
+def count_elements(lst):
+        return len(lst)
+def convert_to_hex(n):
+        return hex(n)
