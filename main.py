@@ -1,7 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_current_directory():
+        return os.getcwd()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
