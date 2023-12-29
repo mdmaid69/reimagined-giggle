@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
