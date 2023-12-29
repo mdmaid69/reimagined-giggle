@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+text = "Hello, world!"
+print("Characters:", len(text))
