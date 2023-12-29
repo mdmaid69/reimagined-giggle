@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
