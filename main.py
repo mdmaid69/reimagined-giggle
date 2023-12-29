@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
