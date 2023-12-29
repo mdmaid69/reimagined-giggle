@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
