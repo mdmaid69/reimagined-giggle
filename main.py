@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_str(array):
+        return str(array)
