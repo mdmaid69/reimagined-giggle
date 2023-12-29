@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sys
-def exit_program():
-        sys.exit()
+  def convert_to_hex(n):
+        return hex(n)
+import time
+def get_current_time():
+        return time.ctime()
