@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
