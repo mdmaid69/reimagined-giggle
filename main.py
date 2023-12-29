@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
