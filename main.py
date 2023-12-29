@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
