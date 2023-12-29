@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
