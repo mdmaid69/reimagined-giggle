@@ -1,8 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def append_to_array(array, item):
+        array.append(item)
