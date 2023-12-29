@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
