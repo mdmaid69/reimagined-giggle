@@ -1,8 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
