@@ -1,5 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_floor(x):
+        return math.floor(x)
