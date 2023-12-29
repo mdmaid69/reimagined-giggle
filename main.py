@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
