@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
