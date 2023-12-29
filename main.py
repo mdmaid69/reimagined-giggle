@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
