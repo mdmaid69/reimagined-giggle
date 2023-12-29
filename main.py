@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def is_odd(n):
+        return n % 2 != 0
