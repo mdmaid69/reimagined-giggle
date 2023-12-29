@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  def cube_number(x):
-        return x**3
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_as_repr(array):
+        return repr(array)
