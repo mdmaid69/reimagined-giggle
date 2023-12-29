@@ -1,6 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def convert_to_binary(n):
+        return bin(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
