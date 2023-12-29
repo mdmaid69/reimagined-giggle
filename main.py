@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
