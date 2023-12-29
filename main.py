@@ -1,6 +1,9 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
