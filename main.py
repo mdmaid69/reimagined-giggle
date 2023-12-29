@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
