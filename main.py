@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
