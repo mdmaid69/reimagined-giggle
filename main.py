@@ -1,9 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_exponential(x):
+        return math.exp(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
