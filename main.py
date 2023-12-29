@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
