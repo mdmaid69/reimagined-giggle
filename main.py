@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import datetime
+def get_today_date():
+        return datetime.date.today()
