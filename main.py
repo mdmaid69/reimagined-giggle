@@ -1,5 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_pressure(force, area):
-        return force / area
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_volume(length, width, height):
+        return length * width * height
