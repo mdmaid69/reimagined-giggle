@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import time
+print(time.time())
