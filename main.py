@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
