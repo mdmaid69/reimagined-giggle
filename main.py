@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_repr(array):
+        return repr(array)
