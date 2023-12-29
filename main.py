@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
