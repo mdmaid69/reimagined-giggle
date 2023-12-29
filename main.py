@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def is_odd(n):
+        return n % 2 != 0
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
