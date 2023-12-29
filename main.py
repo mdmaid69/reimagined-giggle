@@ -1,5 +1,8 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def sort_list(lst):
-        return sorted(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
