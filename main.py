@@ -1,5 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_directory_name(path):
+        return os.path.dirname(path)
