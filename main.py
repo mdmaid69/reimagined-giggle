@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
