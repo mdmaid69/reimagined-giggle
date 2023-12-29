@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
