@@ -1,7 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_array_to_list(array):
+        return array.tolist()
