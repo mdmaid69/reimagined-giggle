@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
