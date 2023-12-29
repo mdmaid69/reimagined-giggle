@@ -1,9 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
