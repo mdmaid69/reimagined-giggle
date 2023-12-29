@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def clear_array(array):
+        array *= 0
+import collections
+def create_stack():
+        return collections.deque()
