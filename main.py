@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def copy_file(src, dst):
+        shutil.copy(src, dst)
