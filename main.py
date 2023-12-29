@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
