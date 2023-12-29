@@ -1,5 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def count_elements(lst):
+        return len(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
