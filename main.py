@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
