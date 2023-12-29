@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_acceleration(speed, time):
+        return speed / time
+import numpy as np
+print(np.array([1, 2, 3]))
