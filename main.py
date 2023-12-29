@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
