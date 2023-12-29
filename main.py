@@ -1,4 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def find_max(numbers):
+        return max(numbers)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
