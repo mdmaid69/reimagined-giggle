@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def append_to_array(array, item):
+        array.append(item)
