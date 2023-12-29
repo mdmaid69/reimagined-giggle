@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
