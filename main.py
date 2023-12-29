@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
