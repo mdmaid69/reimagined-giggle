@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def reverse_string(s):
+        return s[::-1]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
