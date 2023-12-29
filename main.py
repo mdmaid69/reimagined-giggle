@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+print(random.randint(0, 100))
