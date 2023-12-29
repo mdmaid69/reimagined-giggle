@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
