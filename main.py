@@ -1,5 +1,7 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def append_to_array(array, item):
+        array.append(item)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
