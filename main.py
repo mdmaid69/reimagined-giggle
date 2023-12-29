@@ -1,6 +1,6 @@
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def subtract_numbers(x, y):
-        return x - y
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
