@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def divide_numbers(x, y):
-        return x / y
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
