@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
