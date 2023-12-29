@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
