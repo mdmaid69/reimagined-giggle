@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def find_max(numbers):
+        return max(numbers)
