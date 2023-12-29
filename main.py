@@ -1,11 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
