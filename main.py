@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_acceleration(speed, time):
-        return speed / time
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
