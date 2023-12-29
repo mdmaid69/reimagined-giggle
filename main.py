@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+for i in range(5):
+        print(i)
