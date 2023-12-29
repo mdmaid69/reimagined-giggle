@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
