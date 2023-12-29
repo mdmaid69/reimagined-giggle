@@ -1,8 +1,7 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
