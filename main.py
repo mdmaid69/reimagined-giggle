@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import os
+print(os.getcwd())
