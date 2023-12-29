@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_power(work, time):
+        return work / time
