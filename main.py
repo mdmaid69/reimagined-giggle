@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
