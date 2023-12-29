@@ -1,7 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
