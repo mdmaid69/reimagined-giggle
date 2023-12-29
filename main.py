@@ -1,5 +1,8 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def reverse_string(s):
-        return s[::-1]
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import time
+def get_current_time():
+        return time.ctime()
