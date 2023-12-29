@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def is_even(n):
-        return n % 2 == 0
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
