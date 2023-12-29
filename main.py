@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def split_path(path):
-        return os.path.split(path)
-import datetime
-print(datetime.datetime.now())
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
