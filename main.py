@@ -1,7 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
