@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import time
+def get_current_time():
+        return time.time()
