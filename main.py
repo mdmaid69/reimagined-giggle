@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import re
-print(re.match("h.*o", "hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_power(work, time):
+        return work / time
