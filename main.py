@@ -1,5 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
