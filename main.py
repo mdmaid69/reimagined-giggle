@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
