@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
