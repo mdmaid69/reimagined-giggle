@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
