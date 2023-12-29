@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
