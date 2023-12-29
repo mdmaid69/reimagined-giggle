@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import math
-def calculate_floor(x):
-        return math.floor(x)
+print(math.pi)
