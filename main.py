@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
