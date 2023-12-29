@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
