@@ -1,7 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def subtract_numbers(x, y):
+        return x - y
+import datetime
+print(datetime.datetime.now())
