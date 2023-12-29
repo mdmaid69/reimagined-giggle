@@ -1,8 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
