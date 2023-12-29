@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_sine(x):
+        return math.sin(x)
