@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
