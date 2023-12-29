@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
