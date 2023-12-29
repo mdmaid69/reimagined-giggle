@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
