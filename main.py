@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_speed(distance, time):
+        return distance / time
