@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
