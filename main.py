@@ -1,7 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_work(force, distance):
+        return force * distance
+  def reverse_list(lst):
+        return lst[::-1]
