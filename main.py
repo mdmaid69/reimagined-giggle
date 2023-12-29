@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import datetime
+print(datetime.datetime.now())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
