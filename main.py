@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+for i in range(5):
+        print(i)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
