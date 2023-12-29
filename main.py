@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_cosine(x):
+        return math.cos(x)
