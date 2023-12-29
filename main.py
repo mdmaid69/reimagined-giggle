@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
