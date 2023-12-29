@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
