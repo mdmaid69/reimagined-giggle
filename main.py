@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
