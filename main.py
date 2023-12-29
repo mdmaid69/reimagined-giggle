@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import os
+def get_current_working_directory():
+        return os.getcwd()
