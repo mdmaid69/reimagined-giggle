@@ -1,5 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import sys
+  def get_python_version():
+        return sys.version
