@@ -1,5 +1,8 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
