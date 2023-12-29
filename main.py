@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
