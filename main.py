@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_length(array):
+        return len(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
