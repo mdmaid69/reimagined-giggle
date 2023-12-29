@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def reverse_list(lst):
-        return lst[::-1]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_as_float(array):
+        return float(array[0])
