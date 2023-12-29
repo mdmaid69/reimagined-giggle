@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
