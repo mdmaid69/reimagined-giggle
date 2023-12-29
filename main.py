@@ -1,6 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_array_item(array, i):
-        return array[i]
+def count_characters(sentence):
+        return len(sentence)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
