@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def clear_array(array):
+        array *= 0
