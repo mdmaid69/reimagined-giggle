@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_average(lst):
+        return sum(lst) / len(lst)
