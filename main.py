@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
