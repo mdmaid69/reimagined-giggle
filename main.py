@@ -1,5 +1,5 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import random
-print(random.randint(0, 100))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
