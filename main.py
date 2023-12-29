@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_user_list():
+        return collections.UserList()
