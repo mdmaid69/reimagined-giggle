@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  def sort_list(lst):
-        return sorted(lst)
+from collections import Counter
+print(Counter("hello world"))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
