@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def reverse_array(array):
+        array.reverse()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
