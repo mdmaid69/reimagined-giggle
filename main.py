@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
