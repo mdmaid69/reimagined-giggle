@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def is_even(n):
+        return n % 2 == 0
