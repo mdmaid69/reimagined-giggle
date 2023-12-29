@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
