@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def find_min(numbers):
+        return min(numbers)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
