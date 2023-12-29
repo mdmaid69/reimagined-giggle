@@ -1,5 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
