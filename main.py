@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
