@@ -1,7 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
