@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def add_numbers(x, y):
-        return x + y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
