@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
