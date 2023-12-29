@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def reverse_string(s):
+        return s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
