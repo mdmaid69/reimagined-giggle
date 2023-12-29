@@ -1,8 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def convert_array_to_bytes(array):
+        return array.tobytes()
