@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
