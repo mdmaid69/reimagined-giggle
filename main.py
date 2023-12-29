@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
