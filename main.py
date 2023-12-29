@@ -1,5 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def pop_from_array(array, i=-1):
+        return array.pop(i)
