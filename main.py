@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def cube_number(x):
+        return x**3
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
