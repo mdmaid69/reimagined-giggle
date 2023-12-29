@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
