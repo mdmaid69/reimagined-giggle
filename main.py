@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
