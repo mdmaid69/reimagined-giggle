@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
