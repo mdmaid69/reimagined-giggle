@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
