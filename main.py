@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_speed(distance, time):
+        return distance / time
