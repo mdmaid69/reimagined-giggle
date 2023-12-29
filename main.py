@@ -1,6 +1,11 @@
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
