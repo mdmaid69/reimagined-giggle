@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
