@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
