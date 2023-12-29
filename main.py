@@ -1,6 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def is_even(n):
+        return n % 2 == 0
+def divide_numbers(x, y):
+        return x / y
