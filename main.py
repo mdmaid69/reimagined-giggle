@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
