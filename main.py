@@ -1,6 +1,3 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+print("Hello, world!")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
