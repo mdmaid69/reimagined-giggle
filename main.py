@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def calculate_area_rectangle(l, w):
+        return l * w
