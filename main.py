@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_area_rectangle(l, w):
+        return l * w
