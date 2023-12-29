@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
