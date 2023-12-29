@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
