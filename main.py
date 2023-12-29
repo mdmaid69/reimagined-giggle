@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
