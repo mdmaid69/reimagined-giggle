@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
