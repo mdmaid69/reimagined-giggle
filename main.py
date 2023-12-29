@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
