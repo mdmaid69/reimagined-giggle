@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
