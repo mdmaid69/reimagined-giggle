@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
