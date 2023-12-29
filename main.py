@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def reverse_array(array):
-        array.reverse()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
