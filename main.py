@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
