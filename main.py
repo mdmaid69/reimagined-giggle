@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
