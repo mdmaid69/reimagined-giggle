@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
