@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_queue():
-        return collections.deque()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
