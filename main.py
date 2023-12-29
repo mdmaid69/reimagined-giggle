@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def is_odd(n):
+        return n % 2 != 0
+def multiply_numbers(x, y):
+        return x * y
