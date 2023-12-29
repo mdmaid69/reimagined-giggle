@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import getpass
+def get_username():
+        return getpass.getuser()
+  def subtract_numbers(x, y):
+        return x - y
