@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
