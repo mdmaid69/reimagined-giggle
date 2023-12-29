@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_density(mass, volume):
+        return mass / volume
