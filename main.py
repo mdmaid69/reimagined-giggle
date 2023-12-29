@@ -1,10 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_speed(distance, time):
+        return distance / time
