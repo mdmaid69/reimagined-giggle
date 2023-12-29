@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def convert_to_hex(n):
+        return hex(n)
