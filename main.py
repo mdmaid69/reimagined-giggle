@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_user_dict():
+        return collections.UserDict()
