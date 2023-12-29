@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
