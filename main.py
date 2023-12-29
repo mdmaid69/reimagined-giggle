@@ -1,6 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def split_path(path):
+        return os.path.split(path)
