@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_area(radius):
+        return 3.14 * radius * radius
