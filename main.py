@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+for i in range(5):
+        print(i)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
