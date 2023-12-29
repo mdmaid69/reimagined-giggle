@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+for i in range(5):
+        print(i)
