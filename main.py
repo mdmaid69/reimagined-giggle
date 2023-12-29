@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import platform
+def get_python_version():
+        return platform.python_version()
