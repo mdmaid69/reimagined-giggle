@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import collections
-def create_counter():
-        return collections.Counter()
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
