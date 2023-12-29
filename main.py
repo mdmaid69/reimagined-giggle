@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def reverse_array(array):
+        array.reverse()
