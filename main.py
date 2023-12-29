@@ -1,5 +1,7 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import collections
-def create_user_list():
-        return collections.UserList()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
