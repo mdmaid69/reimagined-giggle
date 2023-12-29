@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
