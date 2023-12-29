@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
