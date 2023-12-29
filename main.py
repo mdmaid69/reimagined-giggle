@@ -1,6 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def sort_list(lst):
+        return sorted(lst)
