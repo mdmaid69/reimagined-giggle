@@ -1,5 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def convert_to_binary(n):
-        return bin(n)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
