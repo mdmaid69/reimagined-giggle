@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def split_path(path):
+        return os.path.split(path)
