@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def add_numbers(x, y):
+        return x + y
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
