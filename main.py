@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import sys
+def exit_program():
+        sys.exit()
