@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
