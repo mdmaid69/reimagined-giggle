@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
