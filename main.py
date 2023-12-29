@@ -1,6 +1,6 @@
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def insert_into_array(array, i, item):
+        array.insert(i, item)
