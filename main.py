@@ -1,5 +1,6 @@
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
