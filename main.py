@@ -1,6 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
