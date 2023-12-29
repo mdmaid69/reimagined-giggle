@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
