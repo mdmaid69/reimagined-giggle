@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def cube_number(x):
+        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
