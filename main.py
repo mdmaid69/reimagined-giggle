@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
