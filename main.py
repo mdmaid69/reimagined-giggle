@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
