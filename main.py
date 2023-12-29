@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
