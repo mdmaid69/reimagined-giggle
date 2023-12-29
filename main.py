@@ -1,5 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
