@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
