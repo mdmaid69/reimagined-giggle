@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_density(mass, volume):
+        return mass / volume
