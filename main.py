@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
