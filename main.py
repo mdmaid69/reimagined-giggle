@@ -1,5 +1,12 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_acceleration(speed, time):
-        return speed / time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import sys
+def print_python_version():
+        print(sys.version)
