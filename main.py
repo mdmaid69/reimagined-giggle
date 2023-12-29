@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
