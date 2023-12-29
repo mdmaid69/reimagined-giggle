@@ -1,8 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
