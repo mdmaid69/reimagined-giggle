@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_area_rectangle(l, w):
+        return l * w
 import random
-def roll_die():
-        return random.randint(1, 6)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
