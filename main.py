@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
