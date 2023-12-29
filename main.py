@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import random
+print(random.randint(0, 100))
