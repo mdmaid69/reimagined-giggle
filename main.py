@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
