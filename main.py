@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
