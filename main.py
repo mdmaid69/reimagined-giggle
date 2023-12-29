@@ -1,7 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import getpass
+def get_username():
+        return getpass.getuser()
