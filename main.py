@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
