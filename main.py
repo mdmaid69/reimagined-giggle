@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
