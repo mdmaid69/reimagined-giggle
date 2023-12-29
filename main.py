@@ -1,6 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
