@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
