@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
