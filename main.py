@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
