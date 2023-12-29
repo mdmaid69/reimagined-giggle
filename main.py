@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
