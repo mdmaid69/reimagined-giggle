@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
