@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def count_elements(lst):
-        return len(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
