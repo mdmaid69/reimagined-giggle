@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import time
+print(time.time())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
