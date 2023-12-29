@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def find_max(numbers):
+        return max(numbers)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
