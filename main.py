@@ -1,8 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
