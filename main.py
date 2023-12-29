@@ -1,6 +1,8 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
