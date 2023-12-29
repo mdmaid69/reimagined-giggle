@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
