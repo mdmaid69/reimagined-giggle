@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
