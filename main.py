@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def convert_array_to_string(array):
+        return array.tostring()
