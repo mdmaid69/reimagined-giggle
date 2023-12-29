@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def convert_array_to_bytes(array):
+        return array.tobytes()
