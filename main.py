@@ -1,9 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def set_array_item(array, i, item):
+        array[i] = item
