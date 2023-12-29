@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
