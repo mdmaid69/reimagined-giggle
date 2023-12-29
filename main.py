@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
