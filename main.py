@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_power(work, time):
+        return work / time
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
