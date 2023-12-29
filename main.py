@@ -1,6 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def get_array_item(array, i):
+        return array[i]
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
