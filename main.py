@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
