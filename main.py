@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
