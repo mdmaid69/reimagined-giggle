@@ -1,8 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import datetime
+print(datetime.datetime.now())
