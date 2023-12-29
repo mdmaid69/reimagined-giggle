@@ -1,12 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
