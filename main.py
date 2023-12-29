@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
