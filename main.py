@@ -1,5 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import sys
-print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
