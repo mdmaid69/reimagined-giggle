@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def convert_to_octal(n):
-        return oct(n)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
