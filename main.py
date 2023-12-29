@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_speed(distance, time):
+        return distance / time
