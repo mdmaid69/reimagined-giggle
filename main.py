@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+x = 10
+y = 20
+print("Sum:", x + y)
