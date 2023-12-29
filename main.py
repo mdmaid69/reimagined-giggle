@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
