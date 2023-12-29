@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_current_directory():
+        return os.getcwd()
