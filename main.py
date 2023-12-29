@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+text = "Hello, world!"
+print("Characters:", len(text))
