@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
