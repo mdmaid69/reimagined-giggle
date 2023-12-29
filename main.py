@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
