@@ -1,7 +1,11 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
