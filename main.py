@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
