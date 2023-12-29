@@ -1,5 +1,11 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def add_numbers(a, b):
+        return a + b
