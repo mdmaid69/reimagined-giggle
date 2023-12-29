@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
