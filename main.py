@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
