@@ -1,4 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_max(lst):
+        return max(lst)
+import math
+print(math.pi)
