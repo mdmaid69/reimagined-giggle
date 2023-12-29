@@ -1,5 +1,9 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
