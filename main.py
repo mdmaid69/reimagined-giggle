@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
