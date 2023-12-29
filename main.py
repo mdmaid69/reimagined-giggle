@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
