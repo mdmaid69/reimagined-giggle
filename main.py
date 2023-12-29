@@ -1,5 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def split_path(path):
-        return os.path.split(path)
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
