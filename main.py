@@ -1,9 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
