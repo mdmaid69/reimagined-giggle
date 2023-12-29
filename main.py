@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def square_number(x):
+        return x**2
