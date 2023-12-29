@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
