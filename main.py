@@ -1,7 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
