@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def remove_duplicates(lst):
+        return list(set(lst))
