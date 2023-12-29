@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
