@@ -1,5 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
