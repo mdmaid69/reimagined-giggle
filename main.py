@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
