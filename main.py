@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
