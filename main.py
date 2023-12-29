@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def find_min(lst):
-        return min(lst)
+from collections import Counter
+print(Counter("hello world"))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
