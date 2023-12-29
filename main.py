@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
