@@ -1,7 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
