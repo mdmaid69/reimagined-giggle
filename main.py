@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+for i in range(10): print(i)
