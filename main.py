@@ -1,5 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def convert_to_hex(n):
-        return hex(n)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
