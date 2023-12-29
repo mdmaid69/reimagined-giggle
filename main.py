@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
