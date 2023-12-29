@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def sort_numbers(numbers):
+        return sorted(numbers)
