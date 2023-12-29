@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import os
+print(os.getcwd())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
