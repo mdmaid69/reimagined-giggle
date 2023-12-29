@@ -1,6 +1,5 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def clear_array(array):
-        array *= 0
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def subtract_numbers(x, y):
+        return x - y
