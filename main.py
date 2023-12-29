@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def convert_to_octal(n):
+        return oct(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
