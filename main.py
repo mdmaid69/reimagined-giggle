@@ -1,4 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-print(math.pi)
+print(sum(range(10)))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
