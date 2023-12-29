@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
