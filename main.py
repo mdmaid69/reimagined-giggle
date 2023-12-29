@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
