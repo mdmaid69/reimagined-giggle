@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
