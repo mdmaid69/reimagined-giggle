@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
