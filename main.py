@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
