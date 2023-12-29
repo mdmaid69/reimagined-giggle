@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
