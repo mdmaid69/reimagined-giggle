@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_density(mass, volume):
+        return mass / volume
