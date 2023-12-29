@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
