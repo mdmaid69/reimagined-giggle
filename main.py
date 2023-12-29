@@ -1,7 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
