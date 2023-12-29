@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import getpass
-def get_username():
-        return getpass.getuser()
+  def add_numbers(x, y):
+        return x + y
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
