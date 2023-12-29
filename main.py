@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import collections
-def create_stack():
-        return collections.deque()
+def create_user_dict():
+        return collections.UserDict()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
