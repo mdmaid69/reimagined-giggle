@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def add_numbers(x, y):
+        return x + y
