@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
