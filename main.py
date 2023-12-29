@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
