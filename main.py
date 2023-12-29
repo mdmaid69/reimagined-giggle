@@ -1,5 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
