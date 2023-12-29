@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
