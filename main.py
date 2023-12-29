@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-print(os.getcwd())
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
