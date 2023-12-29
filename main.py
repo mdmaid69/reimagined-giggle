@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import time
+def get_current_time():
+        return time.ctime()
