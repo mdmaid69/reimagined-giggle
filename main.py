@@ -1,5 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-for i in range(10): print(i)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
