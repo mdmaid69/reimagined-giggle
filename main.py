@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
