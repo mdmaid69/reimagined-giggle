@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
