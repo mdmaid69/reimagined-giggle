@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def count_elements(lst):
+        return len(lst)
