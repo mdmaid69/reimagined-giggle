@@ -1,8 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import os
+def change_working_directory(path):
+        os.chdir(path)
