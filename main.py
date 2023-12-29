@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
