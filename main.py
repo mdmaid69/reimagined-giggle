@@ -1,8 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
