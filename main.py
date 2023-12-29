@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
