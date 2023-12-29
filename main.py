@@ -1,5 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+print(math.pi)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
