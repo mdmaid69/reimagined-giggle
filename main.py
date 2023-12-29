@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_speed(distance, time):
+        return distance / time
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
