@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
