@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import numpy as np
+print(np.array([1, 2, 3]))
+import datetime
+def get_current_date():
+        return datetime.date.today()
