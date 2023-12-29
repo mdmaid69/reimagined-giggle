@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import logging
+def log_message(message):
+        logging.info(message)
+name = "Python"
+print("Hello,", name)
