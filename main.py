@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
