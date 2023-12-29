@@ -1,8 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def count_elements(lst):
+        return len(lst)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_complex(array):
+        return complex(array[0])
