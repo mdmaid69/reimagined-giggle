@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def create_user_string():
+        return collections.UserString()
