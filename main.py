@@ -1,6 +1,10 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
