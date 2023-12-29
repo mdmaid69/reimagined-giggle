@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def add_numbers(x, y):
-        return x + y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
