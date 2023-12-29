@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
