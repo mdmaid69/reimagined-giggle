@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
