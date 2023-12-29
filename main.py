@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_power(work, time):
+        return work / time
