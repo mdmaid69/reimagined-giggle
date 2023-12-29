@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-x = 10
-y = 20
-print("Sum:", x + y)
+def reverse_list(lst):
+        return lst[::-1]
+import sys
+def exit_program():
+        sys.exit()
