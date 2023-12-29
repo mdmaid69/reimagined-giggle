@@ -1,7 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
