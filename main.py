@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import platform
+def get_python_version():
+        return platform.python_version()
+text = "Hello, world!"
+print("Words:", len(text.split()))
