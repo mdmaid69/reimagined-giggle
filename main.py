@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_length(array):
-        return len(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def is_even(n):
+        return n % 2 == 0
