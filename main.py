@@ -1,8 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def convert_to_binary(n):
+        return bin(n)
