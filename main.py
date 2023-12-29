@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def count_elements(lst):
-        return len(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
