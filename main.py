@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import tensorflow as tf
-print(tf.__version__)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
