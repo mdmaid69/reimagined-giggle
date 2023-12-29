@@ -1,6 +1,9 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
