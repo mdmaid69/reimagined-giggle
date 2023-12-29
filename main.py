@@ -1,6 +1,8 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
