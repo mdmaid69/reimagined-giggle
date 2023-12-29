@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
