@@ -1,8 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_list(array):
+        return list(array)
