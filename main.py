@@ -1,8 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
