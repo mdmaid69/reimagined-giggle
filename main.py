@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import sys
+print(sys.version)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
