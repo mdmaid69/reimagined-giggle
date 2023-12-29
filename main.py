@@ -1,6 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
