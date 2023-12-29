@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
