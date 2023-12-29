@@ -1,11 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
