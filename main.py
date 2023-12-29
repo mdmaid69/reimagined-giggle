@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def count_words(sentence):
+        return len(sentence.split())
