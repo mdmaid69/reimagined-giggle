@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
