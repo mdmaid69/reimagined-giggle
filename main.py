@@ -1,5 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def is_even(n):
+        return n % 2 == 0
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
