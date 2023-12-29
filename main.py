@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
