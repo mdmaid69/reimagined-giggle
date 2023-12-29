@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
