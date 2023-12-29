@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def count_characters(sentence):
+        return len(sentence)
