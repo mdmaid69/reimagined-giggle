@@ -1,8 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
