@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def cube_number(x):
+        return x**3
