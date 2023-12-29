@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
