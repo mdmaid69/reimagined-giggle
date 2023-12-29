@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
