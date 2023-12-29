@@ -1,6 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
