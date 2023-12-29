@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def append_to_array(array, item):
+        array.append(item)
