@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_acceleration(speed, time):
+        return speed / time
