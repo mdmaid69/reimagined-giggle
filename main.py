@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def get_array_item(array, i):
+        return array[i]
