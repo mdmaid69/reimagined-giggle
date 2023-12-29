@@ -1,8 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
