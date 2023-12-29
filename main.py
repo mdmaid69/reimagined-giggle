@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
