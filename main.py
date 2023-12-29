@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
