@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import collections
+def create_queue():
+        return collections.deque()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
