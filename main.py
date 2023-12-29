@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def cube_number(x):
+        return x**3
