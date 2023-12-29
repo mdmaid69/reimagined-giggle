@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_length(array):
+        return len(array)
+def add_numbers(a, b):
+        return a + b
