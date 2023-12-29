@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
