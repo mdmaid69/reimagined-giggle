@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
