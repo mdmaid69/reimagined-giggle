@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
