@@ -1,5 +1,7 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import time
+def get_time_since_epoch():
+        return time.time()
