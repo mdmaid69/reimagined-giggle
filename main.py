@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+text = "Hello, world!"
+print("Characters:", len(text))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
