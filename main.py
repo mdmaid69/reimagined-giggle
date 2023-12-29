@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
