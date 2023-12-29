@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_priority_queue():
+        return collections.deque()
