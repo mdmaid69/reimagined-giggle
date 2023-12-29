@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import re
-print(re.match("h.*o", "hello world"))
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
