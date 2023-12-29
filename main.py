@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import random
+print(random.randint(0, 100))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
