@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
