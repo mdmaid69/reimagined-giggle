@@ -1,5 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
