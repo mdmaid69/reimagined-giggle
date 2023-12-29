@@ -1,5 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def remove_duplicates(lst):
+        return list(set(lst))
