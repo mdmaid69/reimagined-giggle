@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_as_set(array):
+        return set(array)
