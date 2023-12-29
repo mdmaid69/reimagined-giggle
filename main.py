@@ -1,5 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def subtract_numbers(x, y):
+        return x - y
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
