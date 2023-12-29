@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_density(mass, volume):
+        return mass / volume
+  def cube_number(x):
+        return x**3
