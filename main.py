@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
