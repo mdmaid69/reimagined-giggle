@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+name = "Python"
+print("Hello,", name)
