@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_max(numbers):
+        return max(numbers)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
