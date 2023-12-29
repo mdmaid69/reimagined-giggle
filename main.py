@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
