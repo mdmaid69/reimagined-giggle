@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
