@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import datetime
+print(datetime.datetime.now())
