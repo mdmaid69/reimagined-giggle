@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+x = 10
+y = 20
+print("Sum:", x + y)
