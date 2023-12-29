@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
