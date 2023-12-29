@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
