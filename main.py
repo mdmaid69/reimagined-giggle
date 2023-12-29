@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def is_even(n):
+        return n % 2 == 0
