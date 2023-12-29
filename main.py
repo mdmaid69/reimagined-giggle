@@ -1,5 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_error_function(x):
+        return math.erf(x)
