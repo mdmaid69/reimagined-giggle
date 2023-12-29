@@ -1,6 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  def is_even(n):
-        return n % 2 == 0
+import datetime
+print(datetime.datetime.now())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
