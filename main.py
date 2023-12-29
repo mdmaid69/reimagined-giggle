@@ -1,6 +1,8 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_counter():
+        return collections.Counter()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
