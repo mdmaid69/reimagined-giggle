@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
