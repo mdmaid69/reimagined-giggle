@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
