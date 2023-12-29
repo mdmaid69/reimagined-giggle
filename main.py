@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-import random
-print(random.randint(0, 100))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
