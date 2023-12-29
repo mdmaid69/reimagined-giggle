@@ -1,8 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
