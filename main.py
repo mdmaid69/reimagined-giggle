@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
