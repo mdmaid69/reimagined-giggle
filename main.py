@@ -1,5 +1,7 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import re
-print(re.match("h.*o", "hello world"))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
