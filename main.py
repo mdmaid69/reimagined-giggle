@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def is_palindrome(s):
+        return s == s[::-1]
