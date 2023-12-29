@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
