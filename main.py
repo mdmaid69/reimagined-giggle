@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
