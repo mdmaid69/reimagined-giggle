@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
