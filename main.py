@@ -1,5 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def convert_to_hex(n):
+        return hex(n)
