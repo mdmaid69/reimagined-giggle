@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
