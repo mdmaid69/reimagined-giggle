@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def square_number(x):
+        return x**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
