@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
