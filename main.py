@@ -1,4 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-print(sum(range(10)))
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
