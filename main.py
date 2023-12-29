@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_typecode(array):
+        return array.typecode
+def is_odd(n):
+        return n % 2 != 0
