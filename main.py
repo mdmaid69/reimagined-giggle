@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
