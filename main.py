@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
