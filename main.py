@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
