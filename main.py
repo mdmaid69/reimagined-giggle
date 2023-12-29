@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def add_numbers(x, y):
+        return x + y
