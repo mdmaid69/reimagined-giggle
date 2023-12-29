@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import datetime
+def get_today_date():
+        return datetime.date.today()
