@@ -1,7 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
