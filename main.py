@@ -1,6 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
