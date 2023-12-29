@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def calculate_area_rectangle(l, w):
+        return l * w
