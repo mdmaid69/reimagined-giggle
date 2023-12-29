@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import platform
-def get_python_version():
-        return platform.python_version()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
