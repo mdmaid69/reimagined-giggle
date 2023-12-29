@@ -1,5 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
