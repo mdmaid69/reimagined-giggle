@@ -1,5 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-print([x**2 for x in range(10)])
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
