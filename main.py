@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
 import array
-def reverse_array(array):
-        array.reverse()
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
