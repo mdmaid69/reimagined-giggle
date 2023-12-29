@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
