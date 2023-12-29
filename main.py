@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
