@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
