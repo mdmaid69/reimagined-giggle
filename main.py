@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
