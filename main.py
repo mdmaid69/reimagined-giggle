@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
