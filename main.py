@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
