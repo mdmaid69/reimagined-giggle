@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def add_numbers(a, b):
+        return a + b
+import datetime
+def get_today_date():
+        return datetime.date.today()
