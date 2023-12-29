@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
