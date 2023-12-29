@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def is_odd(n):
-        return n % 2 != 0
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
