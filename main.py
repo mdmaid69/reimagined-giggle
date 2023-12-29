@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
