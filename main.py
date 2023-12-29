@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+print(math.pi)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
