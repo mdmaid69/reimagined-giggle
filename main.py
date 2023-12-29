@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def find_min(lst):
-        return min(lst)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
