@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
