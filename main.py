@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def is_odd(n):
+        return n % 2 != 0
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
