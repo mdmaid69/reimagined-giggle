@@ -1,6 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
