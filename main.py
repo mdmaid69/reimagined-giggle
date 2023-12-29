@@ -1,6 +1,7 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def reverse_list(lst):
+        return lst[::-1]
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
