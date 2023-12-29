@@ -2,6 +2,6 @@ import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(("www.python.org", 80))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
