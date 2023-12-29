@@ -1,6 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
