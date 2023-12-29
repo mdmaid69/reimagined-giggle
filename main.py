@@ -1,6 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
