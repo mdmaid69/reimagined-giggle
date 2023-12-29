@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
