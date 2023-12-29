@@ -1,5 +1,8 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
