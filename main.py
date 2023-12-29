@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import os
-print(os.getcwd())
+def list_files_in_directory(path):
+        return os.listdir(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
