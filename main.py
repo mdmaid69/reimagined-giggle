@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
