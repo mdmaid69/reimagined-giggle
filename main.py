@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
