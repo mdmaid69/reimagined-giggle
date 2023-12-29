@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
