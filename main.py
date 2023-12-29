@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
