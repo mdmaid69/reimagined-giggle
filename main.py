@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def get_array_as_bool(array):
+        return bool(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
