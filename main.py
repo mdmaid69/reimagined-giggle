@@ -1,5 +1,8 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
