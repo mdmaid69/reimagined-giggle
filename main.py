@@ -1,7 +1,10 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
