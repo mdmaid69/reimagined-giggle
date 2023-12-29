@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import sys
+  def get_python_version():
+        return sys.version
