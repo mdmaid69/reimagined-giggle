@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
