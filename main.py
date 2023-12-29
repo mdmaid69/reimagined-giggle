@@ -1,7 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import random
+print(random.randint(0, 100))
