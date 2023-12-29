@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
