@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import collections
+def create_user_dict():
+        return collections.UserDict()
