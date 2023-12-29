@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
