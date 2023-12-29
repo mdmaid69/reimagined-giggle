@@ -1,6 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
