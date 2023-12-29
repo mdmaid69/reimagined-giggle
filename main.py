@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def calculate_area_rectangle(l, w):
+        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
