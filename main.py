@@ -1,4 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-from collections import Counter
-print(Counter("hello world"))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Characters:", len(text))
