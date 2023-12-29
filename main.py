@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
