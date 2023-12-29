@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
