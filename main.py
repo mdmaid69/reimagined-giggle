@@ -1,6 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
