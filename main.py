@@ -1,5 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def is_even(n):
-        return n % 2 == 0
+def calculate_floor(x):
+        return math.floor(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
