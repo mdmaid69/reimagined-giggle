@@ -1,6 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
