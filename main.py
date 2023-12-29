@@ -1,4 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
