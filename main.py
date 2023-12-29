@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
