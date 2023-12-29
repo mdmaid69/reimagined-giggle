@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def divide_numbers(x, y):
-        return x / y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perpetuity(payment, rate):
+        return payment / rate
