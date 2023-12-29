@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import sys
-print(sys.version)
+def calculate_error_function(x):
+        return math.erf(x)
