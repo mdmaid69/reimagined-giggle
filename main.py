@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def is_odd(n):
+        return n % 2 != 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
