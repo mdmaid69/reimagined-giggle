@@ -1,10 +1,5 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def cube_number(x):
+        return x**3
+import array
+def reverse_array(array):
+        array.reverse()
