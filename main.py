@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import getpass
+def get_username():
+        return getpass.getuser()
