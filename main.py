@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
