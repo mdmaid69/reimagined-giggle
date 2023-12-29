@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_min(lst):
+        return min(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
