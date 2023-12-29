@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  def is_odd(n):
-        return n % 2 != 0
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
