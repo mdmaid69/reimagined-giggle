@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def convert_to_binary(n):
-        return bin(n)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_power(work, time):
+        return work / time
