@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def convert_to_octal(n):
+        return oct(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
