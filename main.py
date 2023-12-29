@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
