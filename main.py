@@ -1,5 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def convert_to_octal(n):
+        return oct(n)
