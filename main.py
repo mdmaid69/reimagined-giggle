@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_work(force, distance):
-        return force * distance
+import sys
+print(sys.version)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
