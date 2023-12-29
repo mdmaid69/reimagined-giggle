@@ -1,5 +1,8 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def count_elements(lst):
-        return len(lst)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
