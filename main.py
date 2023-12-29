@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def subtract_numbers(x, y):
+        return x - y
+def add_numbers(a, b):
+        return a + b
