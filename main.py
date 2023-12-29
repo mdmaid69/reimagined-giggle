@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
