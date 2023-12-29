@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import os
+print(os.getcwd())
+import math
+def calculate_exponential(x):
+        return math.exp(x)
