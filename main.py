@@ -1,5 +1,9 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
