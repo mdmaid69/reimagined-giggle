@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
