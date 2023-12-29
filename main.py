@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_work(force, distance):
+        return force * distance
+text = "Hello, world!"
+print("Characters:", len(text))
