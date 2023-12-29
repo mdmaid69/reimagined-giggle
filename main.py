@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
