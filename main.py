@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def square_number(x):
-        return x**2
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import sys
+print(sys.version)
