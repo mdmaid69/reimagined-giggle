@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
