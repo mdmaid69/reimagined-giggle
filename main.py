@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
