@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
