@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
