@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
