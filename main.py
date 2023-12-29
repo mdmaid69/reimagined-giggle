@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
