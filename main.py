@@ -1,5 +1,7 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import platform
+def get_os_info():
+        return platform.uname()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
