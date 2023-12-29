@@ -1,5 +1,3 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def add_numbers(x, y):
+        return x + y
+print(sum(range(10)))
