@@ -1,5 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
