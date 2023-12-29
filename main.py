@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
