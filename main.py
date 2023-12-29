@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def subtract_numbers(x, y):
+        return x - y
