@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-  def square_number(x):
-        return x**2
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
