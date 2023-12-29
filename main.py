@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
