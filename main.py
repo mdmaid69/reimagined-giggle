@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
