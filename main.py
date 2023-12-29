@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
