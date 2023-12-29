@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_power(work, time):
-        return work / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
