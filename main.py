@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  def multiply_numbers(x, y):
+        return x * y
