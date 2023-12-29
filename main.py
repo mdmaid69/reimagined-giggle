@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def convert_to_octal(n):
+        return oct(n)
