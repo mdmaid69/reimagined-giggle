@@ -1,7 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
