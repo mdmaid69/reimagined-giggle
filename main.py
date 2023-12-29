@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
