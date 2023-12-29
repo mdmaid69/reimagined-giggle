@@ -1,5 +1,8 @@
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
