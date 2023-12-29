@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def convert_to_binary(n):
+        return bin(n)
