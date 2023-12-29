@@ -1,7 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def is_odd(n):
+        return n % 2 != 0
