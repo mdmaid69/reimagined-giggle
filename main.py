@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def convert_to_binary(n):
+        return bin(n)
