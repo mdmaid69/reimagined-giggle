@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
