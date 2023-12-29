@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
