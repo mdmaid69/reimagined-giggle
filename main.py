@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def get_array_as_list(array):
-        return list(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def sort_list(lst):
+        return sorted(lst)
