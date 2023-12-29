@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
