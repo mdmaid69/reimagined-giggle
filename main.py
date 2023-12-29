@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
