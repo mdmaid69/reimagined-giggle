@@ -1,6 +1,8 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
