@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+for i in range(10): print(i)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
