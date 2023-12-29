@@ -1,5 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-name = "Python"
-print("Hello,", name)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
