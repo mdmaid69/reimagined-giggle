@@ -1,6 +1,12 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
