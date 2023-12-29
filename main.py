@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  def calculate_area_circle(r):
+        return 3.14 * r**2
