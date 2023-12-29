@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
