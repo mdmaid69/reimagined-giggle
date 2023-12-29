@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
