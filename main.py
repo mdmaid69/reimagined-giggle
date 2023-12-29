@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-x = 10
-y = 20
-print("Sum:", x + y)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_priority_queue():
+        return collections.deque()
