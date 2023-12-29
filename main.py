@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_density(mass, volume):
+        return mass / volume
