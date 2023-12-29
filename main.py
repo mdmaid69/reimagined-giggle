@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def reverse_list(lst):
+        return lst[::-1]
