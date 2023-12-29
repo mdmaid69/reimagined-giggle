@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_item(array, i):
+        return array[i]
