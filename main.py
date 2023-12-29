@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
