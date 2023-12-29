@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+from collections import Counter
+print(Counter("hello world"))
