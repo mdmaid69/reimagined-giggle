@@ -1,5 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import time
-print(time.time())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def cube_number(x):
+        return x**3
