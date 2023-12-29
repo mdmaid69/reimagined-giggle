@@ -1,3 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-for i in range(10): print(i)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def reverse_string(s):
+        return s[::-1]
