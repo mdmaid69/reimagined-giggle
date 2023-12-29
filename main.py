@@ -1,8 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
