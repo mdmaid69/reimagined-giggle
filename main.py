@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import sys
-def print_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
