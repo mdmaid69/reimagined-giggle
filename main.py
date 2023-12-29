@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
