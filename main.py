@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+print([x**2 for x in range(10)])
