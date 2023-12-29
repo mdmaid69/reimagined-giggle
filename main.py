@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
