@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
