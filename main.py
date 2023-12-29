@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
