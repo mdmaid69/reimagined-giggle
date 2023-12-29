@@ -1,4 +1,5 @@
-print("Hello, world!")
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_speed(distance, time):
+        return distance / time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
