@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
