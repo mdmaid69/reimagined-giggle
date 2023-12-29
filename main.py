@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def square_number(x):
+        return x**2
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
