@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
