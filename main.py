@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
