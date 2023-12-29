@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
