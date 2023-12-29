@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_floor(x):
+        return math.floor(x)
