@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
