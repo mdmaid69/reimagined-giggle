@@ -1,7 +1,7 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
