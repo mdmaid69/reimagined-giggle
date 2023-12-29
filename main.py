@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
