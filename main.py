@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Characters:", len(text))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
