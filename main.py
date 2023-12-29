@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
