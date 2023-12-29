@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def add_numbers(x, y):
-        return x + y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def multiply_numbers(x, y):
+        return x * y
