@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
