@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
