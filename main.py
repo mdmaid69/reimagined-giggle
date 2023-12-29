@@ -1,5 +1,9 @@
-import sys
-def exit_program():
-        sys.exit()
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
