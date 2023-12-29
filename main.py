@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import numpy as np
-print(np.array([1, 2, 3]))
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
