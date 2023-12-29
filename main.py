@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import re
-print(re.match("h.*o", "hello world"))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
