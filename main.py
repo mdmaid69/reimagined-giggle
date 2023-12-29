@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
