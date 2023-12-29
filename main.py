@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
