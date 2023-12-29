@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
