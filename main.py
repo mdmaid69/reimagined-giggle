@@ -1,5 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
