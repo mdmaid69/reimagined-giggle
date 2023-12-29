@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
