@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
