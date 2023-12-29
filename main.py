@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
