@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
