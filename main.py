@@ -1,5 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
