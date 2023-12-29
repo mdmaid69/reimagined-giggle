@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import datetime
+def get_current_date():
+        return datetime.date.today()
