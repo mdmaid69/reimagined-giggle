@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def reverse_list(lst):
+        return lst[::-1]
