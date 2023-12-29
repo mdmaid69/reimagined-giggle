@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def add_numbers(x, y):
+        return x + y
+import json
+print(json.dumps({"name": "John", "age": 30}))
