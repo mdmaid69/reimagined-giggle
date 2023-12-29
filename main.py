@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_counter():
-        return collections.Counter()
+def clear_array(array):
+        array *= 0
