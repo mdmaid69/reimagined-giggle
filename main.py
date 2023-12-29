@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+text = "Hello, world!"
+print("Reversed:", text[::-1])
