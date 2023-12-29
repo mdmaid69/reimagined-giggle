@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
