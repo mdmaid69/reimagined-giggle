@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def cube_number(x):
+        return x**3
+  def add_numbers(x, y):
+        return x + y
