@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
