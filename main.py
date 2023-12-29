@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
