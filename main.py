@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import os
+def remove_directory(path):
+        os.rmdir(path)
