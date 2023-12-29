@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
