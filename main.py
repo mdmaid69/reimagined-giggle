@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
 import math
-print(math.pi)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_as_repr(array):
+        return repr(array)
