@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
