@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
