@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
