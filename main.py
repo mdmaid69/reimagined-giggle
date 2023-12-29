@@ -1,8 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_speed(distance, time):
+        return distance / time
