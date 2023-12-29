@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
