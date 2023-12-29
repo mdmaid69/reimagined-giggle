@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import datetime
-print(datetime.datetime.now())
+def calculate_power(work, time):
+        return work / time
+def find_min(lst):
+        return min(lst)
