@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def convert_to_binary(n):
-        return bin(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
