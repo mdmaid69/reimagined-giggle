@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
