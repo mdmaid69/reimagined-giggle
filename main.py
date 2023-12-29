@@ -1,5 +1,7 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
