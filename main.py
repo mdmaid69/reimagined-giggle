@@ -1,5 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
