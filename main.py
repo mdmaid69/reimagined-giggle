@@ -1,8 +1,7 @@
 import array
-def get_array_from_string(string, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
         a.fromstring(string)
         return a
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_speed(distance, time):
+        return distance / time
