@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_current_working_directory():
+        return os.getcwd()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
