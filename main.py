@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def multiply_numbers(x, y):
-        return x * y
+def calculate_power(work, time):
+        return work / time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
