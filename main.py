@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_speed(distance, time):
+        return distance / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
