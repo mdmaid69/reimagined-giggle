@@ -1,5 +1,10 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
