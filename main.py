@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_speed(distance, time):
+        return distance / time
