@@ -1,6 +1,3 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+print(sum(range(10)))
+  def add_numbers(x, y):
+        return x + y
