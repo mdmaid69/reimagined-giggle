@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
