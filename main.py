@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import datetime
+print(datetime.datetime.now())
