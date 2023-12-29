@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+print(math.pi)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
