@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
