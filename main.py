@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def square_number(x):
+        return x**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
