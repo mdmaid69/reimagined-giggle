@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
