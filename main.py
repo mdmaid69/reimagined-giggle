@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import logging
+def log_message(message):
+        logging.info(message)
+  def convert_to_binary(n):
+        return bin(n)
