@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+for i in range(10): print(i)
+import math
+def calculate_sine(x):
+        return math.sin(x)
