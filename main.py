@@ -1,4 +1,6 @@
-print(sum(range(10)))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
