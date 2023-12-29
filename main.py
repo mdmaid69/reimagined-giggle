@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def is_even(n):
+        return n % 2 == 0
+  def add_numbers(x, y):
+        return x + y
