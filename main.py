@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
