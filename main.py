@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
