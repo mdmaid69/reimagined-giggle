@@ -1,11 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import queue
+import unittest
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  def subtract_numbers(x, y):
+        return x - y
