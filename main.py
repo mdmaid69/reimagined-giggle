@@ -1,6 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
