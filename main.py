@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def remove_from_array(array, item):
+        array.remove(item)
