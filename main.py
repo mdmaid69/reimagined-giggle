@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
