@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
