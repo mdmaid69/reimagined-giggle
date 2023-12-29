@@ -1,7 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import os
+print(os.getcwd())
