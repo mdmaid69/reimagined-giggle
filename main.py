@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
