@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-from collections import Counter
-print(Counter("hello world"))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
