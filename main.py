@@ -1,9 +1,7 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
