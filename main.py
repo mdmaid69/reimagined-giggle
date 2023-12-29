@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
