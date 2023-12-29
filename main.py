@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_set(array):
+        return set(array)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
