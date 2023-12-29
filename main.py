@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
