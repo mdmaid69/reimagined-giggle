@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def is_odd(n):
-        return n % 2 != 0
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def create_queue():
+        return collections.deque()
