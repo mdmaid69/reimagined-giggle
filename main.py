@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def is_even(n):
-        return n % 2 == 0
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
