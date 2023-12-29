@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
