@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
