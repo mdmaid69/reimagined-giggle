@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_user_string():
+        return collections.UserString()
