@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
