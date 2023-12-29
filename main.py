@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_pressure(force, area):
+        return force / area
+import time
+def get_current_time():
+        return time.ctime()
