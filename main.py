@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
