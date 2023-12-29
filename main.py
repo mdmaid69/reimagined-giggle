@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def add_numbers(x, y):
+        return x + y
