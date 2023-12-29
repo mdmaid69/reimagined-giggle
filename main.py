@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_density(mass, volume):
+        return mass / volume
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
