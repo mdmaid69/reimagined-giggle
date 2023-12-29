@@ -1,6 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
