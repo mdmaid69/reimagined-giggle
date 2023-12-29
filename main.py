@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import platform
+def get_os_info():
+        return platform.uname()
