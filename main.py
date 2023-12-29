@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
