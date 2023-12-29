@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def sort_list(lst):
+        return sorted(lst)
