@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
