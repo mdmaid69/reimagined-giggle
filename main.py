@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
