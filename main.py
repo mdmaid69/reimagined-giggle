@@ -1,4 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-print("Hello, world!")
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def count_characters(sentence):
+        return len(sentence)
