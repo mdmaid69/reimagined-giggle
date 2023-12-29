@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_item(array, i):
+        return array[i]
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
