@@ -1,8 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def reverse_list(lst):
+        return lst[::-1]
