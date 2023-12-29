@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def get_array_item_count(array, item):
+        return array.count(item)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
