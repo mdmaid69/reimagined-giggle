@@ -1,7 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
