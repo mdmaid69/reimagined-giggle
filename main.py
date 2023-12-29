@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
