@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
