@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
