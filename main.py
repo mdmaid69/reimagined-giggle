@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
