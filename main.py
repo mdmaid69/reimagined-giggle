@@ -1,6 +1,8 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
