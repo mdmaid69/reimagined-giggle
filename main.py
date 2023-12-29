@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
