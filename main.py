@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def subtract_numbers(x, y):
+        return x - y
