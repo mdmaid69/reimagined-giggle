@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
