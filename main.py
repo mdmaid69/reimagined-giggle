@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import sys
+def exit_program():
+        sys.exit()
+def greet(name):
+        print(f"Hello, {name}!")
