@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def is_odd(n):
+        return n % 2 != 0
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
