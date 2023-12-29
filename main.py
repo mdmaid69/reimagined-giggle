@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
