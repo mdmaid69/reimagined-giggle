@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  def cube_number(x):
+        return x**3
