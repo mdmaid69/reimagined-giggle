@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
