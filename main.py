@@ -1,6 +1,7 @@
+name = "Python"
+print("Hello,", name)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
