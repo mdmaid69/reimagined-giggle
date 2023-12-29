@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
