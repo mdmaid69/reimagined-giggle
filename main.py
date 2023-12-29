@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
