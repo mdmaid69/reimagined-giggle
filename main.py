@@ -1,6 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_string_from_array(array):
+        return array.tobytes()
