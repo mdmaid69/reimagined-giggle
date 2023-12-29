@@ -1,7 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import sys
+def exit_program():
+        sys.exit()
