@@ -1,8 +1,6 @@
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_array_as_tuple(array):
+        return tuple(array)
