@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def remove_duplicates(lst):
+        return list(set(lst))
