@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
