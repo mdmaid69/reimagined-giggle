@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def convert_to_octal(n):
-        return oct(n)
+def remove_duplicates(lst):
+        return list(set(lst))
+def is_odd(n):
+        return n % 2 != 0
