@@ -1,7 +1,9 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
