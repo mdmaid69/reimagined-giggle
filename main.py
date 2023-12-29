@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
