@@ -1,6 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
