@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
