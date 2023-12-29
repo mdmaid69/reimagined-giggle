@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
