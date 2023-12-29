@@ -1,7 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
