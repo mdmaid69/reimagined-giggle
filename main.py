@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
