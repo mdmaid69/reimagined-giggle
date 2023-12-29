@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
