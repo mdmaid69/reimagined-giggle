@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
