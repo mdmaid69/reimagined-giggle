@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
