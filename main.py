@@ -1,6 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
