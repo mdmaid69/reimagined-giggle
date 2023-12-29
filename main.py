@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-x = 10
-y = 20
-print("Sum:", x + y)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_item(array, i):
+        return array[i]
