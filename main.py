@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sys
-print(sys.version)
+  def square_number(x):
+        return x**2
+def count_words(sentence):
+        return len(sentence.split())
