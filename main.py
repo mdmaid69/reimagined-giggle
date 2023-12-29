@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
