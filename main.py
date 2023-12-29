@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
