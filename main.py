@@ -1,7 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
