@@ -1,6 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
