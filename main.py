@@ -1,6 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
