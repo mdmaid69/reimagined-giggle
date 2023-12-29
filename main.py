@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def reverse_array(array):
+        array.reverse()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
