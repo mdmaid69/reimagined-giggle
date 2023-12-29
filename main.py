@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
