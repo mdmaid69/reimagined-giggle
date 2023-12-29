@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
