@@ -1,5 +1,9 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
