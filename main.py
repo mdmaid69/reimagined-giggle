@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
