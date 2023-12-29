@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  def count_elements(lst):
+        return len(lst)
