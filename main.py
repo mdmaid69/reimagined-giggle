@@ -1,5 +1,7 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
