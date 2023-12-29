@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def split_path(path):
+        return os.path.split(path)
