@@ -1,5 +1,10 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
