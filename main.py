@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
