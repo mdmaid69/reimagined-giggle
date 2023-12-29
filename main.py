@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def set_array_item(array, i, item):
+        array[i] = item
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
