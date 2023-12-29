@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def count_characters(sentence):
+        return len(sentence)
