@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
