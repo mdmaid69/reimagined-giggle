@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_array_to_unicode(array):
+        return array.tounicode()
