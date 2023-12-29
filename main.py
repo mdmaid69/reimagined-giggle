@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
