@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
