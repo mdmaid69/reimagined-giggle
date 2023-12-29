@@ -1,6 +1,7 @@
+import random
+print(random.randint(0, 100))
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
