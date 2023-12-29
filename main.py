@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
