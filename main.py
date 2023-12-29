@@ -1,6 +1,3 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def add_numbers(x, y):
-        return x + y
+for i in range(10): print(i)
+  def is_even(n):
+        return n % 2 == 0
