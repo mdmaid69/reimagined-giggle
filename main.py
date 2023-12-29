@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def count_words(sentence):
+        return len(sentence.split())
