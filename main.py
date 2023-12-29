@@ -1,8 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
