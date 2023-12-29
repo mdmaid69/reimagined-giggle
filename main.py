@@ -1,6 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
