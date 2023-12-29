@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def remove_duplicates(lst):
+        return list(set(lst))
