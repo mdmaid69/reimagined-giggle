@@ -1,6 +1,6 @@
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
