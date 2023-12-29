@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def convert_to_hex(n):
-        return hex(n)
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
