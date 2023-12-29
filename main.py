@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
