@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
