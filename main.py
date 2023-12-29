@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def list_files_in_directory(path):
+        return os.listdir(path)
+import collections
+def create_stack():
+        return collections.deque()
