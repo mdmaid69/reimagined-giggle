@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
