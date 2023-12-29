@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import json
+print(json.dumps({"name": "John", "age": 30}))
