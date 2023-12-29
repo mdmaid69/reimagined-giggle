@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
