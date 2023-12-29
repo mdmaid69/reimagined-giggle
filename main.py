@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
