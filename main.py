@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def is_odd(n):
-        return n % 2 != 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
