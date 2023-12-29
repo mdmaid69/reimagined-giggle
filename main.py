@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
