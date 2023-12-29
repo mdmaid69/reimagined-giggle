@@ -1,8 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def is_odd(n):
+        return n % 2 != 0
