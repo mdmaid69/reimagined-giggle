@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_typecode(array):
+        return array.typecode
