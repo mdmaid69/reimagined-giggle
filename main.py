@@ -1,7 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
