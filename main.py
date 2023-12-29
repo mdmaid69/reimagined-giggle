@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
