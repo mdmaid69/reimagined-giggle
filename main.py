@@ -1,7 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
