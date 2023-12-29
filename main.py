@@ -1,6 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
