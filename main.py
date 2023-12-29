@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def count_words(sentence):
+        return len(sentence.split())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
