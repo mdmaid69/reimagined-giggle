@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
