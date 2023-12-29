@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def is_even(n):
+        return n % 2 == 0
