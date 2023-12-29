@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
