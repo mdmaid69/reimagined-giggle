@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def convert_to_binary(n):
+        return bin(n)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
