@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
