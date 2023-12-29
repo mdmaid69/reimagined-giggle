@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def get_array_as_str(array):
+        return str(array)
