@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import time
+print(time.time())
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
