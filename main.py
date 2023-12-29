@@ -1,6 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
