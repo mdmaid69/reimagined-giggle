@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
