@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
