@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
