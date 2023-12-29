@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_pressure(force, area):
+        return force / area
