@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_combinations(n, k):
+        return math.comb(n, k)
