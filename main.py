@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
