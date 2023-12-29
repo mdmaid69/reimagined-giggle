@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def is_palindrome(s):
+        return s == s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
