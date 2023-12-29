@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
