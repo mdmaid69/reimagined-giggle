@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def print_python_version():
+        print(sys.version)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
