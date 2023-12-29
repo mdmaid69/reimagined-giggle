@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_priority_queue():
-        return collections.deque()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+print([x**2 for x in range(10)])
