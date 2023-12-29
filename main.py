@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
