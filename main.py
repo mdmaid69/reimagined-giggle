@@ -1,8 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
