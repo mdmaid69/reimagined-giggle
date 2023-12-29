@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
 import array
-def get_array_as_set(array):
-        return set(array)
+def remove_from_array(array, item):
+        array.remove(item)
+  def subtract_numbers(x, y):
+        return x - y
