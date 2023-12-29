@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
