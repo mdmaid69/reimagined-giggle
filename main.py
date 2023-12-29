@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
