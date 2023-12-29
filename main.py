@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_float(array):
+        return float(array[0])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
