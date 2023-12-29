@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
