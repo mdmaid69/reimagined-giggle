@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def create_counter():
+        return collections.Counter()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
