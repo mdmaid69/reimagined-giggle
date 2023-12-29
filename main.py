@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import sys
+def print_python_version():
+        return sys.version
