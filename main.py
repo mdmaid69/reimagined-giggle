@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
