@@ -1,5 +1,10 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
