@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
