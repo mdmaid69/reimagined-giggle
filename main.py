@@ -1,6 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
