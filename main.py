@@ -1,6 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
