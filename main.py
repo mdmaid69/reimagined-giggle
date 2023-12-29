@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
