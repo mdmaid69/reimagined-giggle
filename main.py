@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def greet(name):
-        print(f"Hello, {name}!")
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
