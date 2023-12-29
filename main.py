@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
