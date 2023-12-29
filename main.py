@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def split_path(path):
+        return os.path.split(path)
