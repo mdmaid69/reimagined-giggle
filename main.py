@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def find_min(lst):
+        return min(lst)
