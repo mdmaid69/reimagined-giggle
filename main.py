@@ -1,6 +1,11 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_cosine(x):
+        return math.cos(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
