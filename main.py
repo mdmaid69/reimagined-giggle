@@ -1,4 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
