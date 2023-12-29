@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
