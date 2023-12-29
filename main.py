@@ -1,5 +1,9 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
