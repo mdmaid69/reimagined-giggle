@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def clear_array(array):
+        array *= 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
