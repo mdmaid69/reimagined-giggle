@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
