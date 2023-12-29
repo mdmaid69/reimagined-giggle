@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def cube_number(x):
-        return x**3
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
