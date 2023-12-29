@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_user_dict():
-        return collections.UserDict()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
