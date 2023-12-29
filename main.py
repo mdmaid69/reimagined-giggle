@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import os
+def change_working_directory(path):
+        os.chdir(path)
