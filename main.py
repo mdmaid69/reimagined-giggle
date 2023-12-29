@@ -1,7 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
