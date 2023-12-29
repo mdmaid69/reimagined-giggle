@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
