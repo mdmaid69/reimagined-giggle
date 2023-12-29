@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def find_unique_words(sentence):
+        return set(sentence.split())
