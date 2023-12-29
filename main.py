@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_int(array):
+        return int(array[0])
