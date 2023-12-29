@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def is_odd(n):
-        return n % 2 != 0
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+print(math.pi)
