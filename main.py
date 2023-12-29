@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def convert_to_binary(n):
+        return bin(n)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
