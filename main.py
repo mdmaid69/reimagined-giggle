@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
