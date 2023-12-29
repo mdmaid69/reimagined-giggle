@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
