@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import platform
-def get_python_version():
-        return platform.python_version()
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
