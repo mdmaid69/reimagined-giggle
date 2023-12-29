@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_sine(x):
+        return math.sin(x)
