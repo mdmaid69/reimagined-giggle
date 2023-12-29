@@ -1,5 +1,9 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
