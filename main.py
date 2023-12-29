@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
