@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
