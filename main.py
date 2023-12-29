@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def greet(name):
+        print(f"Hello, {name}!")
