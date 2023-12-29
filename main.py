@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def is_palindrome(s):
-        return s == s[::-1]
+x = 10
+y = 20
+print("Sum:", x + y)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
