@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+i = 0
+while i < 5:
+        print(i)
+        i += 1
