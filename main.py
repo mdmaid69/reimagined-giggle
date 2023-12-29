@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import time
-def get_current_time():
-        return time.ctime()
+  def count_elements(lst):
+        return len(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
