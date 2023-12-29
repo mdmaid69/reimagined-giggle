@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def is_palindrome(s):
-        return s == s[::-1]
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
