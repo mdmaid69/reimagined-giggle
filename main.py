@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def convert_array_to_list(array):
+        return array.tolist()
