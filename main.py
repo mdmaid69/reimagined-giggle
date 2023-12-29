@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+print(sys.version)
