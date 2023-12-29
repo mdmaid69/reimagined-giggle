@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
