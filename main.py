@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
