@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_work(force, distance):
+        return force * distance
