@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import datetime
+def get_current_date():
+        return datetime.date.today()
