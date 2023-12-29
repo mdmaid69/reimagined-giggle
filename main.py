@@ -1,7 +1,4 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
