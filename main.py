@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_array_as_set(array):
+        return set(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
