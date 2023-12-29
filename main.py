@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
