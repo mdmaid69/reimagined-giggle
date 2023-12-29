@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
+import os
+def remove_directory(path):
+        os.rmdir(path)
