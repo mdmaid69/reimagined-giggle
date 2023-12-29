@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def convert_to_hex(n):
-        return hex(n)
+def is_palindrome(s):
+        return s == s[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
