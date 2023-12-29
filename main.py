@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+from collections import Counter
+print(Counter("hello world"))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
