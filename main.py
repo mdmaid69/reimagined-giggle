@@ -1,6 +1,9 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
