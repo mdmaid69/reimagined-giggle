@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
