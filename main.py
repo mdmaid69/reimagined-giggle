@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
