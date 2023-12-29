@@ -1,5 +1,3 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+for i in range(10): print(i)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
