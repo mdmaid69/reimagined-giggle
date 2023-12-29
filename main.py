@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
