@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import numpy as np
+print(np.array([1, 2, 3]))
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_array_to_string(array):
+        return array.tostring()
