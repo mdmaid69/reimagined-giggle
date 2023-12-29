@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_floor(x):
+        return math.floor(x)
