@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
