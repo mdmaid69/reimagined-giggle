@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
