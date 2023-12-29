@@ -1,7 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
