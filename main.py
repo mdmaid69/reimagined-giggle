@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def greet(name):
-        print(f"Hello, {name}!")
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
