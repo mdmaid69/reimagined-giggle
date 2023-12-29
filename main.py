@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
