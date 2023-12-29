@@ -1,6 +1,7 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import sys
-def print_python_version():
-        return sys.version
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
