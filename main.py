@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
