@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
