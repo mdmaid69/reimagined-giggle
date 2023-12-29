@@ -1,6 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def divide_numbers(x, y):
+        return x / y
