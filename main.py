@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def convert_to_octal(n):
-        return oct(n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
