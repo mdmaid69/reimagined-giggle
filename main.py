@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def square_number(x):
+        return x**2
+import collections
+def create_user_list():
+        return collections.UserList()
