@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
