@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
