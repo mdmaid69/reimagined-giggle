@@ -1,5 +1,8 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
