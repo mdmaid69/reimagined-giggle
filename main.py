@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def find_max(numbers):
+        return max(numbers)
