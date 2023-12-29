@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
