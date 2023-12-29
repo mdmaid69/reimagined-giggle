@@ -1,6 +1,7 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import time
+print(time.time())
