@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
