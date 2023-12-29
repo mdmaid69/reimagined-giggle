@@ -1,4 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-print([x**2 for x in range(10)])
+def calculate_absolute_value(x):
+        return math.fabs(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
