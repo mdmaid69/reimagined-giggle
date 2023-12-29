@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def multiply_numbers(x, y):
+        return x * y
+def reverse_string(s):
+        return s[::-1]
