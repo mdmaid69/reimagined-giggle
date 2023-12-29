@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
