@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
