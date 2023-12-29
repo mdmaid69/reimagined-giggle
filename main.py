@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def find_min(lst):
+        return min(lst)
