@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import array
-def get_array_as_list(array):
-        return list(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
