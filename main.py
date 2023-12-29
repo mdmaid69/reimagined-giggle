@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def clear_array(array):
+        array *= 0
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
