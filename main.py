@@ -1,8 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
