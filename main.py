@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
