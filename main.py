@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
