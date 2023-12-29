@@ -1,6 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
