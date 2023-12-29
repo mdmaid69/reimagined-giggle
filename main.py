@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Characters:", len(text))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
