@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
