@@ -1,4 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
