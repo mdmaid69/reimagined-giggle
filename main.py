@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def find_max(numbers):
-        return max(numbers)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
