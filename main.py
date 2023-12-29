@@ -1,5 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
