@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def add_numbers(a, b):
-        return a + b
+  def subtract_numbers(x, y):
+        return x - y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
