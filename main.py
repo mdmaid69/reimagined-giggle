@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
