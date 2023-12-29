@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
