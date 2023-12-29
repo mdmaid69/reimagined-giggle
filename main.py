@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_pressure(force, area):
-        return force / area
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_float(array):
+        return float(array[0])
