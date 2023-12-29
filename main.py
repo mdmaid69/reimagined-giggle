@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def count_elements(lst):
+        return len(lst)
+import time
+def get_current_time():
+        return time.time()
