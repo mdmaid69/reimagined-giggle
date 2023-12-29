@@ -1,6 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
