@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_speed(distance, time):
+        return distance / time
