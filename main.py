@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
