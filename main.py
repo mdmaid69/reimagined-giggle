@@ -1,7 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import collections
+def create_counter():
+        return collections.Counter()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
