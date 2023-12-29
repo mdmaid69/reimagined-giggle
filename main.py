@@ -1,6 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def multiply_numbers(x, y):
+        return x * y
