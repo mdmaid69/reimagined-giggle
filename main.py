@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def convert_to_hex(n):
+        return hex(n)
