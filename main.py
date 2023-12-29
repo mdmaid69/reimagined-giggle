@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def convert_to_octal(n):
+        return oct(n)
