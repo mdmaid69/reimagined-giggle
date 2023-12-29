@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def reverse_string(s):
+        return s[::-1]
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
