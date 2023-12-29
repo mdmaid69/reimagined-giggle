@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  def convert_to_binary(n):
-        return bin(n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+x = 10
+y = 20
+print("Sum:", x + y)
