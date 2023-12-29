@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import platform
-def get_python_version():
-        return platform.python_version()
+import re
+print(re.match("h.*o", "hello world"))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
