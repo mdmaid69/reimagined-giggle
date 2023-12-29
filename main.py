@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import sys
-  def get_python_version():
-        return sys.version
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
