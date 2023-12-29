@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
