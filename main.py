@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def reverse_list(lst):
+        return lst[::-1]
