@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
