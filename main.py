@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
   import os
-  def get_file_group(file_name):
+  def get_file_gid(file_name):
         return os.stat(file_name).st_gid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
