@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
