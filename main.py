@@ -1,6 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
