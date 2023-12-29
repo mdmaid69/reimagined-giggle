@@ -1,5 +1,8 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
