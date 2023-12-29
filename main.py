@@ -1,8 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_volume(length, width, height):
+        return length * width * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
