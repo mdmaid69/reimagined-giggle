@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_length(array):
+        return len(array)
+import array
+def reverse_array(array):
+        array.reverse()
