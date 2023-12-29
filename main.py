@@ -1,6 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
