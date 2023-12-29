@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+x = 10
+y = 20
+print("Sum:", x + y)
