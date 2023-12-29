@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
