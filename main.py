@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
