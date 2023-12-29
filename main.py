@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
