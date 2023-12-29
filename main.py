@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
