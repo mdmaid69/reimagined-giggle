@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
