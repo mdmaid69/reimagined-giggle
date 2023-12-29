@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def reverse_array(array):
-        array.reverse()
+import time
+print(time.time())
+def reverse_list(lst):
+        return lst[::-1]
