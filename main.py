@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_str(array):
-        return str(array)
+def find_max(numbers):
+        return max(numbers)
+def reverse_string(s):
+        return s[::-1]
