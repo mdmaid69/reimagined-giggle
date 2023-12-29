@@ -1,5 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
