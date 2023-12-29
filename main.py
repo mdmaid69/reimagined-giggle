@@ -1,7 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def find_min(numbers):
+        return min(numbers)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
