@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import getpass
+def get_username():
+        return getpass.getuser()
