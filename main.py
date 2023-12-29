@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
