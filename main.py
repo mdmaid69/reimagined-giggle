@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
