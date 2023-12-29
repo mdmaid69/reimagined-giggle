@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
