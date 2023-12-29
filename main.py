@@ -1,4 +1,8 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
