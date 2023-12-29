@@ -1,5 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
