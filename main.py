@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
