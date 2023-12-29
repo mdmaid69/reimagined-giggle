@@ -1,5 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
