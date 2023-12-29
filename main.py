@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
