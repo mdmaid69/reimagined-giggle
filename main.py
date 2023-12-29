@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def find_min(numbers):
+        return min(numbers)
+def find_min(lst):
+        return min(lst)
