@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def is_palindrome(s):
+        return s == s[::-1]
