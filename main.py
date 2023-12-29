@@ -1,5 +1,6 @@
 import collections
-def create_user_string():
-        return collections.UserString()
-def find_min(lst):
-        return min(lst)
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
