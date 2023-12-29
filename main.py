@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
