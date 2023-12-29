@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_pressure(force, area):
+        return force / area
+import time
+def get_time_since_epoch():
+        return time.time()
