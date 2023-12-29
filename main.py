@@ -1,4 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_typecode(array):
+        return array.typecode
+i = 0
+while i < 5:
+        print(i)
+        i += 1
