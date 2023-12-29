@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
