@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
