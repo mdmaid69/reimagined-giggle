@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import os
+print(os.getcwd())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
