@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
