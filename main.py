@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
