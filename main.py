@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
