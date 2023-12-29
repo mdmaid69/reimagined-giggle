@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+name = "Python"
+print("Hello,", name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
