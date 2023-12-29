@@ -1,6 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
