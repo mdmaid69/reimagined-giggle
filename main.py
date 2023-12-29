@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
