@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
