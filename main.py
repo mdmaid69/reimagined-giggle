@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def convert_to_octal(n):
-        return oct(n)
+  def add_numbers(x, y):
+        return x + y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
