@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
