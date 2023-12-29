@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
