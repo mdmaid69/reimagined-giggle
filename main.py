@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
