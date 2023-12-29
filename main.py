@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def append_to_array(array, item):
+        array.append(item)
