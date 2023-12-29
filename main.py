@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
