@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+from collections import Counter
+print(Counter("hello world"))
+x = 10
+y = 20
+print("Sum:", x + y)
