@@ -1,6 +1,3 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+print([x**2 for x in range(10)])
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
