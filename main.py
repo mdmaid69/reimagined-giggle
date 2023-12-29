@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
