@@ -1,6 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def get_array_buffer_info(array):
+        return array.buffer_info()
