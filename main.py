@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import re
+print(re.match("h.*o", "hello world"))
