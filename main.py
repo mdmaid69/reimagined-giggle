@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
