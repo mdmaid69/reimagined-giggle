@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
