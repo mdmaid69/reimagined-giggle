@@ -1,7 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
