@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import collections
-def create_user_string():
-        return collections.UserString()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
