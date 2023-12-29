@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
