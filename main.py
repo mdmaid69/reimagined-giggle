@@ -1,4 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-import time
-print(time.time())
+  def count_elements(lst):
+        return len(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
