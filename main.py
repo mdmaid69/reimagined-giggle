@@ -1,5 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import time
+def get_current_time():
+        return time.time()
