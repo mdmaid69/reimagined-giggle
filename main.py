@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def reverse_list(lst):
-        return lst[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
