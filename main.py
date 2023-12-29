@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_pressure(force, area):
+        return force / area
