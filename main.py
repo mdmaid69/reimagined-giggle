@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
