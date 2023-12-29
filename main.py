@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
