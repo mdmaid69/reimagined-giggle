@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
