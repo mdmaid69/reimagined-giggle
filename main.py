@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
