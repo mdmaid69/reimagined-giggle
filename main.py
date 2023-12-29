@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def add_numbers(x, y):
-        return x + y
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def append_to_array(array, item):
+        array.append(item)
