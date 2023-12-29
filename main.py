@@ -1,8 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
