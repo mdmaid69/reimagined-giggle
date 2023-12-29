@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
