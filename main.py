@@ -1,6 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_logarithm(base, x):
+        return math.log(x, base)
