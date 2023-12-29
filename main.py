@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
