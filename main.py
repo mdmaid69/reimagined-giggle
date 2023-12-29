@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def count_words(sentence):
+        return len(sentence.split())
