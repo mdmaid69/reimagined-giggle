@@ -1,4 +1,8 @@
-def is_odd(n):
-        return n % 2 != 0
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
