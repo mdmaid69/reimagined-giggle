@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+print([x**2 for x in range(10)])
