@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def cube_number(x):
-        return x**3
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
