@@ -1,6 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def reverse_list(lst):
+        return lst[::-1]
