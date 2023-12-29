@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
