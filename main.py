@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
