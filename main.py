@@ -1,7 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
