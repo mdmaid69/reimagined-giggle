@@ -1,10 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
