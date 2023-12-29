@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
