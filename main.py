@@ -1,4 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
