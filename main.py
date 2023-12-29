@@ -1,6 +1,9 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
