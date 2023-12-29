@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
