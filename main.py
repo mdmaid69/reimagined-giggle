@@ -1,8 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_user_string():
+        return collections.UserString()
