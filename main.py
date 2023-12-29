@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
