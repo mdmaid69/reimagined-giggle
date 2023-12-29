@@ -1,7 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def count_characters(sentence):
+        return len(sentence)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
