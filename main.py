@@ -1,8 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def find_unique_words(sentence):
+        return set(sentence.split())
+import os
+def get_current_working_directory():
+        return os.getcwd()
