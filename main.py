@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
