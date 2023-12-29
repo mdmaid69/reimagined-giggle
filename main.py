@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import re
+print(re.match("h.*o", "hello world"))
