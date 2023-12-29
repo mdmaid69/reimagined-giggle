@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
