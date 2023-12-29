@@ -1,3 +1,4 @@
-name = "Python"
-print("Hello,", name)
-for i in range(10): print(i)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
