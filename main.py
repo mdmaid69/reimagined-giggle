@@ -1,7 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
