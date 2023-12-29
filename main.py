@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
