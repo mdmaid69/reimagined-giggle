@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
