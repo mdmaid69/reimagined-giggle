@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def subtract_numbers(x, y):
+        return x - y
+import time
+def get_time_since_epoch():
+        return time.time()
