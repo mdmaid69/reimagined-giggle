@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
