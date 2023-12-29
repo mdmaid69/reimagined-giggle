@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import collections
+def create_user_list():
+        return collections.UserList()
