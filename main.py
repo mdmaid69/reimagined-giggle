@@ -1,6 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
