@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
