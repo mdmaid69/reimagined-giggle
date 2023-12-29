@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
