@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
