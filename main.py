@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def count_characters(sentence):
-        return len(sentence)
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
