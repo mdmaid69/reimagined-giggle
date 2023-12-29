@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
