@@ -1,6 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+x = 10
+y = 20
+print("Sum:", x + y)
