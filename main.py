@@ -1,6 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
