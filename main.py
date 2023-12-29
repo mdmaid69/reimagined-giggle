@@ -1,9 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
