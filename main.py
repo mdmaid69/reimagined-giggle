@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
