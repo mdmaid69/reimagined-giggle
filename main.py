@@ -1,6 +1,8 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
