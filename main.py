@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import getpass
-def get_username():
-        return getpass.getuser()
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
