@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
