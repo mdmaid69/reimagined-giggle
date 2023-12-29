@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def count_words(sentence):
+        return len(sentence.split())
