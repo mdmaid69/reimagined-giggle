@@ -1,6 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
