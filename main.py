@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
