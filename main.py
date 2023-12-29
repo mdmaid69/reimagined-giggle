@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def cube_number(x):
+        return x**3
