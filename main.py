@@ -1,8 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
