@@ -1,6 +1,3 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def count_words(sentence):
+        return len(sentence.split())
+print([x**2 for x in range(10)])
