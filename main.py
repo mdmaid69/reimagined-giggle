@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  def sort_list(lst):
+        return sorted(lst)
