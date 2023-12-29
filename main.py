@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
