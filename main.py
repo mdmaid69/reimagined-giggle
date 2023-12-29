@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
