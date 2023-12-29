@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import logging
-def log_message(message):
-        logging.info(message)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
