@@ -1,5 +1,12 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_pressure(force, area):
-        return force / area
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
