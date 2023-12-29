@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
