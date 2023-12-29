@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
