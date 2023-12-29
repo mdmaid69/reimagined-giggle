@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
