@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
