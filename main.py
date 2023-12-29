@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
