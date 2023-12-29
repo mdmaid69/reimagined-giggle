@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def subtract_numbers(x, y):
+        return x - y
