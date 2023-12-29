@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_memoryview(array):
+        return memoryview(array)
