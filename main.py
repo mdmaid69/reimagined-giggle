@@ -1,4 +1,14 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
