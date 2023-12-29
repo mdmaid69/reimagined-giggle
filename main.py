@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_set(array):
+        return set(array)
