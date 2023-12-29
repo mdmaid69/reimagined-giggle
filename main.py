@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
