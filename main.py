@@ -1,4 +1,8 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
