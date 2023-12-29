@@ -1,5 +1,7 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
