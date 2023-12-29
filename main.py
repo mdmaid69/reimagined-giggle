@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
