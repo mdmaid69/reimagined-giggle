@@ -1,6 +1,8 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
