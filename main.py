@@ -1,11 +1,9 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import queue
+from flask import Flask
+app = Flask(__name__)
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
