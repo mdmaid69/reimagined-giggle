@@ -1,5 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-for i in range(5):
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+i = 0
+while i < 5:
         print(i)
+        i += 1
