@@ -1,6 +1,11 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
