@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  def count_elements(lst):
-        return len(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
