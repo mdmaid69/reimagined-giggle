@@ -1,5 +1,8 @@
-  def convert_to_hex(n):
-        return hex(n)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
