@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
