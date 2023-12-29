@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
