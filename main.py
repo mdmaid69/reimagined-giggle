@@ -1,6 +1,8 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
