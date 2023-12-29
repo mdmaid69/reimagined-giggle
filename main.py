@@ -1,5 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
