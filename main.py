@@ -1,5 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
