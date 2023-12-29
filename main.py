@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
