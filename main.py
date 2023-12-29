@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
