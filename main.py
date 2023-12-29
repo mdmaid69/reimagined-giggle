@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
