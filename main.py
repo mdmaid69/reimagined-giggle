@@ -1,8 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
