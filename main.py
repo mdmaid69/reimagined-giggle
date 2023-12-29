@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
