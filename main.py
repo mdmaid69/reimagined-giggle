@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def find_max(lst):
+        return max(lst)
+import logging
+def log_message(message):
+        logging.info(message)
