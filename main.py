@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
