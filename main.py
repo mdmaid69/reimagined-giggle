@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
