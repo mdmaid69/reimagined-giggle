@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
