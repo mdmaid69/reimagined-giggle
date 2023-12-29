@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
