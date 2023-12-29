@@ -1,5 +1,6 @@
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
