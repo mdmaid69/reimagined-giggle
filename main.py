@@ -1,6 +1,6 @@
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_item(array, i):
+        return array[i]
