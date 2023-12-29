@@ -1,5 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def is_palindrome(s):
+        return s == s[::-1]
+  def convert_to_hex(n):
+        return hex(n)
