@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import datetime
+print(datetime.datetime.now())
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
