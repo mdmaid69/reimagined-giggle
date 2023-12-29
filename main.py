@@ -1,6 +1,3 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+print([x**2 for x in range(10)])
+def find_max(numbers):
+        return max(numbers)
