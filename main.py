@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
