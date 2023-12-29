@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_area_circle(r):
+        return 3.14 * r**2
