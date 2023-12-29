@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
