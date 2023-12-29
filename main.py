@@ -1,5 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-import sys
-def exit_program():
-        sys.exit()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
