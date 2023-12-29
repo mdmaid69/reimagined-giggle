@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
