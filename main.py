@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-import random
-print(random.randint(0, 100))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
