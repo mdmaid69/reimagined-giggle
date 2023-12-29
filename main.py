@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
