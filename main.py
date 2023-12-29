@@ -1,5 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
