@@ -1,6 +1,12 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
