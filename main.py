@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
