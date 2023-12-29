@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
