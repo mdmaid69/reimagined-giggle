@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
