@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def multiply_numbers(x, y):
+        return x * y
