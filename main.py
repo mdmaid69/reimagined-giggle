@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import platform
-def get_os_info():
-        return platform.uname()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def is_odd(n):
+        return n % 2 != 0
