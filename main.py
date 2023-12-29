@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def clear_array(array):
+        array *= 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
