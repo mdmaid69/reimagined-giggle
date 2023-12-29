@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-for i in range(5):
-        print(i)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
