@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import collections
+def create_user_list():
+        return collections.UserList()
