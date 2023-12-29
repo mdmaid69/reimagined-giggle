@@ -1,6 +1,10 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
