@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_user_list():
+        return collections.UserList()
+def find_max(numbers):
+        return max(numbers)
