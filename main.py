@@ -1,8 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_item(array, i):
+        return array[i]
