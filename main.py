@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
