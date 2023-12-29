@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_item(array, i):
+        return array[i]
