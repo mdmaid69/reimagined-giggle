@@ -1,7 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def add_numbers(x, y):
+        return x + y
