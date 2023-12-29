@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
