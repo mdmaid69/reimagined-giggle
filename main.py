@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-print(math.pi)
+def calculate_sine(x):
+        return math.sin(x)
