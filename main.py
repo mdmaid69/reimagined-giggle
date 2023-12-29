@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
