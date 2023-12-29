@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def append_to_array(array, item):
+        array.append(item)
