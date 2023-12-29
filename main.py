@@ -1,5 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
