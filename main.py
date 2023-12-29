@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
