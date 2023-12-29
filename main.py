@@ -1,5 +1,7 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def find_min(lst):
-        return min(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def add_numbers(a, b):
+        return a + b
