@@ -1,6 +1,5 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+print(random.randint(0, 100))
