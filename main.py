@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def find_max(numbers):
-        return max(numbers)
+  def split_path(path):
+        return os.path.split(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
