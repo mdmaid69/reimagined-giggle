@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import tensorflow as tf
-print(tf.__version__)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import os
+def change_working_directory(path):
+        os.chdir(path)
