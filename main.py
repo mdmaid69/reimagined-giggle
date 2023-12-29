@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-name = "Python"
-print("Hello,", name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
