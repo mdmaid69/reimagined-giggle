@@ -1,6 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_sign(x):
+        return math.copysign(1, x)
