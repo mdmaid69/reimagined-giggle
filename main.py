@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import time
+print(time.time())
+def calculate_speed(distance, time):
+        return distance / time
