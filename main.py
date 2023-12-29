@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
