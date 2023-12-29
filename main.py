@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def is_even(n):
+        return n % 2 == 0
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
