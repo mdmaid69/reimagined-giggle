@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_str(array):
+        return str(array)
