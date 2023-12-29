@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_work(force, distance):
-        return force * distance
+def find_min(lst):
+        return min(lst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
