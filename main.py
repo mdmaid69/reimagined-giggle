@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_error_function(x):
+        return math.erf(x)
