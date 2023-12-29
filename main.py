@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
