@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
