@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
