@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
