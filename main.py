@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import collections
+def create_user_list():
+        return collections.UserList()
