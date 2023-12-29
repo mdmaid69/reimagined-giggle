@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
