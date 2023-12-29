@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
