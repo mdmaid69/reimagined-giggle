@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def is_even(n):
+        return n % 2 == 0
