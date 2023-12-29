@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
