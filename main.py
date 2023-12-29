@@ -1,5 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_as_set(array):
+        return set(array)
