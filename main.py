@@ -1,5 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import array
-def get_array_as_list(array):
-        return list(array)
-  def count_elements(lst):
-        return len(lst)
+def get_string_from_array(array):
+        return array.tobytes()
