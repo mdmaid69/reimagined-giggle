@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
