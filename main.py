@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
