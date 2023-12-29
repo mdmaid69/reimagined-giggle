@@ -1,6 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
