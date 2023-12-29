@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
