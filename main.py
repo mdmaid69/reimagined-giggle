@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
