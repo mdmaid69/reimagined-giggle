@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_bytes(array):
+        return bytes(array)
+def find_min(numbers):
+        return min(numbers)
