@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_pressure(force, area):
+        return force / area
