@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
