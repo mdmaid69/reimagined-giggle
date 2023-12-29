@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_area(radius):
+        return 3.14 * radius * radius
