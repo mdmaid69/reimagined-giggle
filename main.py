@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def sort_list(lst):
+        return sorted(lst)
