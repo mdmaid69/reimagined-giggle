@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
