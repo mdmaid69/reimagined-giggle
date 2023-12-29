@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_float(array):
+        return float(array[0])
