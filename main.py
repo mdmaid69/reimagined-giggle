@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_typecode(array):
-        return array.typecode
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
