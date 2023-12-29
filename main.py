@@ -1,5 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
