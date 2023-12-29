@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
