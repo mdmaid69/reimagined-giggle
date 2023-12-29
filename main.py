@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
