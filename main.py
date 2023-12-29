@@ -1,6 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
