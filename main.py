@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def append_to_array(array, item):
+        array.append(item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
