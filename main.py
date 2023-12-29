@@ -1,6 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
