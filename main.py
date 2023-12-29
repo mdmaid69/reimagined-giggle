@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
