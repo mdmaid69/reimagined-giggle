@@ -1,5 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
