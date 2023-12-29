@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
