@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_repr(array):
+        return repr(array)
