@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def convert_to_octal(n):
-        return oct(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
