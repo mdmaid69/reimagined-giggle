@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
