@@ -1,7 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def count_elements(lst):
+        return len(lst)
