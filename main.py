@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_item(array, i):
-        return array[i]
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
