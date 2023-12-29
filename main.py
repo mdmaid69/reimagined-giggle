@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def remove_from_array(array, item):
+        array.remove(item)
