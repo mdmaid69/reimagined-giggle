@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_user_list():
+        return collections.UserList()
+def count_elements(lst):
+        return len(lst)
