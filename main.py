@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
