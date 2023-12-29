@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
