@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def get_array_item(array, i):
-        return array[i]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
