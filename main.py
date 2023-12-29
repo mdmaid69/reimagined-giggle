@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def find_max(lst):
+        return max(lst)
