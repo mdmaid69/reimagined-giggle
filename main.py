@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
