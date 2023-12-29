@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
