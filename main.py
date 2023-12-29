@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
