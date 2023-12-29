@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
