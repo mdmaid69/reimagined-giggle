@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
