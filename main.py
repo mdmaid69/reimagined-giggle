@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def count_characters(sentence):
+        return len(sentence)
+def reverse_list(lst):
+        return lst[::-1]
