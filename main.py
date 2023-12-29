@@ -1,8 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
