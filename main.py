@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
