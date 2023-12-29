@@ -1,7 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
