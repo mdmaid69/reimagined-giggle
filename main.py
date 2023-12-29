@@ -1,5 +1,8 @@
-for i in range(5):
-        print(i)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
