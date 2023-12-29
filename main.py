@@ -1,6 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
