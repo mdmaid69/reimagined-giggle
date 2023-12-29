@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_work(force, distance):
+        return force * distance
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
