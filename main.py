@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
