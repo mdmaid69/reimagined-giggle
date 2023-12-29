@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
