@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_density(mass, volume):
+        return mass / volume
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
