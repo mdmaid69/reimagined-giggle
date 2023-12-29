@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import time
+def get_time_since_epoch():
+        return time.time()
+  def convert_to_hex(n):
+        return hex(n)
