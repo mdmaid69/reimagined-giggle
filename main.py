@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
