@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
