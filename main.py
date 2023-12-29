@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def add_numbers(x, y):
+        return x + y
