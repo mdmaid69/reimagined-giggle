@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
