@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
