@@ -1,8 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
