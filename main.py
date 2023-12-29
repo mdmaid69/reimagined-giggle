@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def find_min(lst):
+        return min(lst)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
