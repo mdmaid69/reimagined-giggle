@@ -1,4 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def square_number(x):
-        return x**2
+  def multiply_numbers(x, y):
+        return x * y
+text = "Hello, world!"
+print("Uppercase:", text.upper())
