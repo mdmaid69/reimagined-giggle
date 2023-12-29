@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
