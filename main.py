@@ -1,4 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import math
-print(math.pi)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_combinations(n, k):
+        return math.comb(n, k)
