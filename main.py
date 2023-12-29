@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def cube_number(x):
+        return x**3
