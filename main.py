@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def multiply_numbers(x, y):
-        return x * y
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
