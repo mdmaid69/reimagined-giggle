@@ -1,7 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+text = "Hello, world!"
+print("Characters:", len(text))
