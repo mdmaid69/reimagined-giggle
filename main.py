@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
