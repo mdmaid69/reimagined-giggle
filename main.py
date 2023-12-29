@@ -1,6 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def get_array_as_complex(array):
+        return complex(array[0])
