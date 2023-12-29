@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
