@@ -1,5 +1,7 @@
-for i in range(5):
-        print(i)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
