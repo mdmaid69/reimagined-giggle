@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
