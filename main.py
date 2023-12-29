@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
