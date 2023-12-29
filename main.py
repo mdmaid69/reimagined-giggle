@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
