@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def square_number(x):
+        return x**2
