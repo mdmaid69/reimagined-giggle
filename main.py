@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import time
-def get_current_time():
-        return time.ctime()
+def find_min(lst):
+        return min(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
