@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import getpass
-def get_username():
-        return getpass.getuser()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_power(work, time):
+        return work / time
