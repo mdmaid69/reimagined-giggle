@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
