@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_user_string():
+        return collections.UserString()
