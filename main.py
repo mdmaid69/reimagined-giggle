@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-from collections import Counter
-print(Counter("hello world"))
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
