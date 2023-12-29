@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_user_list():
-        return collections.UserList()
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
