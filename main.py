@@ -1,8 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
