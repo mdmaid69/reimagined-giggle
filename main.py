@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
+def subtract_numbers(x, y):
+        return x - y
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
