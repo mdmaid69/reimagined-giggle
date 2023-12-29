@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
