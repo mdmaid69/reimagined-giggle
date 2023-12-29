@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
