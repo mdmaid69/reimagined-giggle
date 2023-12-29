@@ -1,6 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_volume(length, width, height):
-        return length * width * height
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
