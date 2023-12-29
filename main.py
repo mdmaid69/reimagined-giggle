@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_power(work, time):
+        return work / time
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
