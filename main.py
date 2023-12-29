@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import os
+print(os.getcwd())
+  def convert_to_hex(n):
+        return hex(n)
