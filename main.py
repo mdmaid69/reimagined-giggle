@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
