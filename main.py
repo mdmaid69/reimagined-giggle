@@ -1,4 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def find_max(lst):
-        return max(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import json
+print(json.dumps({"name": "John", "age": 30}))
