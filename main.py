@@ -1,4 +1,11 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
