@@ -1,7 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def read_from_json(json_string):
+        return json.loads(json_string)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
