@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
