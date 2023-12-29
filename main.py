@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_gamma_function(x):
+        return math.gamma(x)
