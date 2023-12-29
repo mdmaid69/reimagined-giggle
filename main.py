@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def calculate_perimeter_rectangle(l, w):
         return 2 * (l + w)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
