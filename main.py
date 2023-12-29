@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_acceleration(speed, time):
+        return speed / time
