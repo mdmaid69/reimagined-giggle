@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
