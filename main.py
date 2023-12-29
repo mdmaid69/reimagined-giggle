@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
