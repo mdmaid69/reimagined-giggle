@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import sys
-  def get_python_version():
-        return sys.version
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
