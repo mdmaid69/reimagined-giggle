@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_odd(n):
-        return n % 2 != 0
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
