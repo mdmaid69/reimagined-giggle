@@ -1,4 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-for i in range(10): print(i)
+def convert_array_to_string(array):
+        return array.tostring()
