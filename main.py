@@ -1,6 +1,8 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
