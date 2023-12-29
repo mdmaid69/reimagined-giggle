@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
