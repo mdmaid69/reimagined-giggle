@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
