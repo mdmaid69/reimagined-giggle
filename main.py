@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
