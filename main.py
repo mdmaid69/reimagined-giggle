@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
