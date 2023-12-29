@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
