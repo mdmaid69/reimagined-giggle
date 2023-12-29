@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
