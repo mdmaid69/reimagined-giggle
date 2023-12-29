@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
