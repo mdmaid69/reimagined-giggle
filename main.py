@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
