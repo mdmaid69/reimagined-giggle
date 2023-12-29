@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
