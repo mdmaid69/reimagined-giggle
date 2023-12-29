@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import time
+def get_current_time():
+        return time.time()
+  import sys
+  def get_python_version():
+        return sys.version
