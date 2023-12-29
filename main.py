@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
