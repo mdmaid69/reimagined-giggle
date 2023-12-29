@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def is_odd(n):
-        return n % 2 != 0
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
