@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-x = 10
-y = 20
-print("Sum:", x + y)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
