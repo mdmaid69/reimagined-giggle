@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
