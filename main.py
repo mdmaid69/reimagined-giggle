@@ -1,6 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
