@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_stack():
+        return collections.deque()
