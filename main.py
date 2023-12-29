@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def find_min(lst):
+        return min(lst)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
