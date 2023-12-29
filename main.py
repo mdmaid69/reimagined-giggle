@@ -1,7 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
