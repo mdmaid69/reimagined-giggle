@@ -1,5 +1,8 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
