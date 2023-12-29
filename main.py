@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
