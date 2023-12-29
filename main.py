@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def is_even(n):
+        return n % 2 == 0
