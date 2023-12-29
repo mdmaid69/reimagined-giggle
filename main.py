@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def reverse_list(lst):
+        return lst[::-1]
