@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_work(force, distance):
+        return force * distance
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
