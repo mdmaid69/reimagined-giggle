@@ -1,5 +1,5 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def add_numbers(a, b):
+        return a + b
