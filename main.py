@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
