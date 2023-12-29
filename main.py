@@ -1,5 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
