@@ -1,8 +1,11 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
