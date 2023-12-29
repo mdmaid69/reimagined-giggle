@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
