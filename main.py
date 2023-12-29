@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import collections
+def create_counter():
+        return collections.Counter()
+import json
+print(json.dumps({"name": "John", "age": 30}))
