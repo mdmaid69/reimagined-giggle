@@ -1,4 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-print([x**2 for x in range(10)])
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
