@@ -1,6 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
