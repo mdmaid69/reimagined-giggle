@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def square_number(x):
+        return x**2
+def divide_numbers(x, y):
+        return x / y
