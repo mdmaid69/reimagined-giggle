@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
