@@ -1,5 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def multiply_numbers(x, y):
+        return x * y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
