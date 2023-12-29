@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import getpass
+def get_username():
+        return getpass.getuser()
+name = "Python"
+print("Hello,", name)
