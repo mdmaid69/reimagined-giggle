@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_pressure(force, area):
-        return force / area
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
