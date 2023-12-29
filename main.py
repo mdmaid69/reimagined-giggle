@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
