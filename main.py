@@ -1,5 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-name = "Python"
-print("Hello,", name)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def reverse_list(lst):
+        return lst[::-1]
