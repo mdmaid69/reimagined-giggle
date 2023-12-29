@@ -1,6 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
