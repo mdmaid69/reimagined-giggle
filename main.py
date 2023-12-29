@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_as_bool(array):
+        return bool(array)
