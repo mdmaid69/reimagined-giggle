@@ -1,5 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
