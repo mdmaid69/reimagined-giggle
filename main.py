@@ -1,6 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
