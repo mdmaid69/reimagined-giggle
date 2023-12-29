@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
