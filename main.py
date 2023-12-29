@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import time
-def get_current_time():
-        return time.ctime()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
