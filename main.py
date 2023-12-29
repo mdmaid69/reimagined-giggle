@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def add_numbers(a, b):
+        return a + b
