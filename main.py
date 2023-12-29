@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
