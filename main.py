@@ -1,6 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
