@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import sys
+def print_python_version():
+        return sys.version
