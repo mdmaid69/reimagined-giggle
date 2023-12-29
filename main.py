@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
