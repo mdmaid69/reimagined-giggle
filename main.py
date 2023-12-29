@@ -1,9 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def get_array_item(array, i):
+        return array[i]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
