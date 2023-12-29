@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
