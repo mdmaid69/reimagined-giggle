@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
