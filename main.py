@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
