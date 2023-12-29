@@ -1,5 +1,3 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def add_numbers(a, b):
-        return a + b
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+print("Hello, world!")
