@@ -1,6 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
