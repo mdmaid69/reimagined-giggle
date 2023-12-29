@@ -1,6 +1,7 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
