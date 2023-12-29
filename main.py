@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
