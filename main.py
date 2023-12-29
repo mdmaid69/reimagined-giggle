@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
