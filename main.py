@@ -1,4 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_work(force, distance):
-        return force * distance
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
