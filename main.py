@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
