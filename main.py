@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
