@@ -1,8 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
