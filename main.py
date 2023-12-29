@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
