@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
