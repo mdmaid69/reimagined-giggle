@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import datetime
+print(datetime.datetime.now())
