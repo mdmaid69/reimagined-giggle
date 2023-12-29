@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
