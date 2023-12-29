@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
