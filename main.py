@@ -1,5 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def convert_array_to_bytes(array):
+        return array.tobytes()
