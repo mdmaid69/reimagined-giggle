@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_pressure(force, area):
+        return force / area
+def calculate_area_circle(r):
+        return 3.14 * r**2
