@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import re
-print(re.match("h.*o", "hello world"))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
