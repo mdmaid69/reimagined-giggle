@@ -1,5 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-for i in range(5):
-        print(i)
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+print(os.getcwd())
