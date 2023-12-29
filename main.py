@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import datetime
+print(datetime.datetime.now())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
