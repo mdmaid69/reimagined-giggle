@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
