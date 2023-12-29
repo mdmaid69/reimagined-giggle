@@ -1,7 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
