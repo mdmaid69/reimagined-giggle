@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
