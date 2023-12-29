@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_as_set(array):
-        return set(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
