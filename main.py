@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_min(numbers):
+        return min(numbers)
