@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
