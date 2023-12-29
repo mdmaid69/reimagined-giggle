@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
