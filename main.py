@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def count_elements(lst):
-        return len(lst)
+import sys
+print(sys.version)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
