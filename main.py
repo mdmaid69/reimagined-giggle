@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def is_odd(n):
-        return n % 2 != 0
+def sort_list(lst):
+        return sorted(lst)
+import platform
+def get_python_version():
+        return platform.python_version()
