@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
