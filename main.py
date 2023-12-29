@@ -1,8 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_area(radius):
+        return 3.14 * radius * radius
