@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
   import os
-  def get_file_permissions(file_name):
+  def get_file_mode(file_name):
         return os.stat(file_name).st_mode
