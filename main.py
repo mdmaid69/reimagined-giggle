@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
