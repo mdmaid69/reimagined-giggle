@@ -1,6 +1,8 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import platform
+def get_os_info():
+        return platform.uname()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
