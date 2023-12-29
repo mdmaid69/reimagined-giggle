@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
