@@ -1,5 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_speed(distance, time):
-        return distance / time
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
