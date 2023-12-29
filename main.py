@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def convert_to_binary(n):
+        return bin(n)
