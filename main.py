@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  def is_odd(n):
+        return n % 2 != 0
