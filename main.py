@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_list_from_array(array):
+        return array.tolist()
