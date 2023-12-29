@@ -1,5 +1,7 @@
 import array
-def reverse_array(array):
-        array.reverse()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_area(radius):
+        return 3.14 * radius * radius
