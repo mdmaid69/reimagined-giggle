@@ -1,6 +1,4 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def convert_to_binary(n):
+        return bin(n)
