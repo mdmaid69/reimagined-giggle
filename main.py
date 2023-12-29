@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def reverse_string(s):
+        return s[::-1]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
