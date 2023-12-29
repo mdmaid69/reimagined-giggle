@@ -1,8 +1,7 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
