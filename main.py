@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
