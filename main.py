@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import sys
+  def get_python_version():
+        return sys.version
