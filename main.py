@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def count_words(sentence):
+        return len(sentence.split())
