@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
