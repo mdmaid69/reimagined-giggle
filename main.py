@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_speed(distance, time):
+        return distance / time
