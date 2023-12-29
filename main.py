@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
