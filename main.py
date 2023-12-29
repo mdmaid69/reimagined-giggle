@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
