@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
