@@ -1,6 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
