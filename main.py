@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
