@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
