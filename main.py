@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
