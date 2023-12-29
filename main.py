@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import time
-def get_current_time():
-        return time.time()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
