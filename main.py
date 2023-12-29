@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
