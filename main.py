@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def is_even(n):
+        return n % 2 == 0
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
