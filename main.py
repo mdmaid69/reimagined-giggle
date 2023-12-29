@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_area_rectangle(l, w):
+        return l * w
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
