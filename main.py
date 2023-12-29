@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
