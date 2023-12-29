@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
