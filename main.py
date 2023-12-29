@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
