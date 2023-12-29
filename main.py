@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
