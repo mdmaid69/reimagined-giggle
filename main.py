@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def add_numbers(x, y):
-        return x + y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_priority_queue():
+        return collections.deque()
