@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import datetime
+def get_current_date():
+        return datetime.date.today()
