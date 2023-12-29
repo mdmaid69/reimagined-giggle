@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_force(mass, acceleration):
+        return mass * acceleration
