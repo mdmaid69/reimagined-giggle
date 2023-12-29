@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import re
-print(re.match("h.*o", "hello world"))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
