@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
