@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import random
-print(random.randint(0, 100))
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
