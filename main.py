@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
