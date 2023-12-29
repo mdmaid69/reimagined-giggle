@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def find_min(lst):
+        return min(lst)
