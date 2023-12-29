@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
