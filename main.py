@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
