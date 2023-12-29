@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import json
+def convert_to_json(data):
+        return json.dumps(data)
