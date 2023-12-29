@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import logging
+def log_message(message):
+        logging.info(message)
