@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def find_min(numbers):
-        return min(numbers)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def reverse_array(array):
+        array.reverse()
