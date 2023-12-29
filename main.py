@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
