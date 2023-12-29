@@ -1,8 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def convert_to_hex(n):
+        return hex(n)
