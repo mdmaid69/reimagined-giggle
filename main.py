@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sys
-print(sys.version)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
