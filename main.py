@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
