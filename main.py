@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+print([x**2 for x in range(10)])
+import sys
+def exit_program():
+        sys.exit()
