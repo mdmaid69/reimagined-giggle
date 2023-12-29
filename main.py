@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
