@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_power(work, time):
+        return work / time
