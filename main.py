@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def find_max(numbers):
+        return max(numbers)
+def count_characters(sentence):
+        return len(sentence)
