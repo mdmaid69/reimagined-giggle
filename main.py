@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_exponential(x):
+        return math.exp(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
