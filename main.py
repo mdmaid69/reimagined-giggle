@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
