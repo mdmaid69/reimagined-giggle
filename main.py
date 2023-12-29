@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
