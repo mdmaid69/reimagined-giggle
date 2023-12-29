@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def convert_to_hex(n):
-        return hex(n)
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
