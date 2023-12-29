@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
