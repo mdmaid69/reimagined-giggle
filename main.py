@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
