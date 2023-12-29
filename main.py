@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-from collections import Counter
-print(Counter("hello world"))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
