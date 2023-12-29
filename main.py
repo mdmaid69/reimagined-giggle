@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def is_odd(n):
-        return n % 2 != 0
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import sys
+  def get_python_version():
+        return sys.version
