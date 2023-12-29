@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import time
+def get_time_since_epoch():
+        return time.time()
