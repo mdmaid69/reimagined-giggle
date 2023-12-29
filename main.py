@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
