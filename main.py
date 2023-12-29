@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
