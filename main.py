@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
