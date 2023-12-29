@@ -1,6 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
