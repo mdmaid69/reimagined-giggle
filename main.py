@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import random
+print(random.randint(0, 100))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
