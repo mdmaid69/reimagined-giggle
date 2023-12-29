@@ -1,6 +1,7 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
