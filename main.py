@@ -1,5 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
