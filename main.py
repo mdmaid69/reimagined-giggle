@@ -1,4 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-print(sum(range(10)))
+  def square_number(x):
+        return x**2
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
