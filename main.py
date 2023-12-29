@@ -1,6 +1,8 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
