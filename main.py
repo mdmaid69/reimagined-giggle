@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
