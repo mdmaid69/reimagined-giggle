@@ -1,4 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_power(work, time):
-        return work / time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
