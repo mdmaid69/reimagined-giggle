@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
