@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
