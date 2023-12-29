@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
