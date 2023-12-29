@@ -1,11 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
