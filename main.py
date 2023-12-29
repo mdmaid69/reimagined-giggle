@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import platform
+def get_os_info():
+        return platform.uname()
