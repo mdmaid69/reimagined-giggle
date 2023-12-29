@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
