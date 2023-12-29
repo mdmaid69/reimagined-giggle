@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import array
+def get_string_from_array(array):
+        return array.tobytes()
