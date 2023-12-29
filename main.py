@@ -1,6 +1,9 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
