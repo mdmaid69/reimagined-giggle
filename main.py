@@ -1,5 +1,8 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
