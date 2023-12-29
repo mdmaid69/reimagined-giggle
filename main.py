@@ -1,7 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def check_if_array_contains_item(array, item):
+        return item in array
