@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_area(radius):
+        return 3.14 * radius * radius
