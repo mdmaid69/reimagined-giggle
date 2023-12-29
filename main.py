@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import time
+def get_current_time():
+        return time.time()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
