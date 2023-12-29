@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
