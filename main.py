@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
