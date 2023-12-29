@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-def reverse_list(lst):
-        return lst[::-1]
+  def add_numbers(x, y):
+        return x + y
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
