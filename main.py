@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_tangent(x):
+        return math.tan(x)
