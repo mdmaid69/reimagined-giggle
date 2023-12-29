@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
