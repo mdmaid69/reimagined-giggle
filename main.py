@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def reverse_array(array):
+        array.reverse()
