@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
