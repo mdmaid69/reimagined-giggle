@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import re
+print(re.match("h.*o", "hello world"))
