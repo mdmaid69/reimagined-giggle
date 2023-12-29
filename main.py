@@ -1,6 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
