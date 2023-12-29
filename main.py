@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import time
-print(time.time())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
