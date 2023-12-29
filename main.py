@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import time
-def get_current_time():
-        return time.time()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def append_to_array(array, item):
+        array.append(item)
