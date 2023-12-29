@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
