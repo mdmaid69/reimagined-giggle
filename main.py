@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def remove_duplicates(lst):
+        return list(set(lst))
