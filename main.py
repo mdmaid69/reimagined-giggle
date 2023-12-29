@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
