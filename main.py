@@ -1,6 +1,9 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
