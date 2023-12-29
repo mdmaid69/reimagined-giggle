@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
