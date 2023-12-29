@@ -1,8 +1,8 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
 import array
-def get_array_from_string(string, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
-import collections
-def create_queue():
-        return collections.deque()
