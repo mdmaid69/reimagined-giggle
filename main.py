@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
