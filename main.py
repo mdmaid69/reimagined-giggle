@@ -1,9 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  def multiply_numbers(x, y):
-        return x * y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
