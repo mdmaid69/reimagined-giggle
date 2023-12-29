@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
