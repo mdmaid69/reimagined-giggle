@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
