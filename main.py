@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import sys
+def print_python_version():
+        print(sys.version)
+def reverse_string(s):
+        return s[::-1]
