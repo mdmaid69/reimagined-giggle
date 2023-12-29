@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def is_odd(n):
+        return n % 2 != 0
