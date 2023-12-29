@@ -1,8 +1,5 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
