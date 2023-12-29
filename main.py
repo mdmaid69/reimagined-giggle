@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+for i in range(10): print(i)
