@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
