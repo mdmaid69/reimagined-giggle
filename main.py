@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
