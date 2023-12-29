@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
