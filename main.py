@@ -1,8 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
