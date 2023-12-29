@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
