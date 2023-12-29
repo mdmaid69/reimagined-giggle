@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_density(mass, volume):
+        return mass / volume
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
