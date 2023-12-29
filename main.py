@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def get_array_index(array, item):
+        return array.index(item)
