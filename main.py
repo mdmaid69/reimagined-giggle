@@ -1,4 +1,5 @@
-def is_odd(n):
+  def is_odd(n):
         return n % 2 != 0
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
