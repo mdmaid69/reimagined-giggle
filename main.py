@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def convert_to_octal(n):
-        return oct(n)
+for i in range(5):
+        print(i)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
