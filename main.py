@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
