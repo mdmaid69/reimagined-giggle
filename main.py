@@ -1,8 +1,6 @@
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
