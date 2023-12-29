@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
