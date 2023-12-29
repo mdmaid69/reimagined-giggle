@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
