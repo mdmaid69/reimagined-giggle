@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def count_characters(sentence):
-        return len(sentence)
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
