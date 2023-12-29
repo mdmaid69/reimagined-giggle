@@ -1,5 +1,8 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def find_min(numbers):
-        return min(numbers)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
