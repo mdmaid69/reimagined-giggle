@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
