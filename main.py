@@ -1,5 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
