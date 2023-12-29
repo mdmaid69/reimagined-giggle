@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_user_dict():
+        return collections.UserDict()
