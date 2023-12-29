@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_volume(length, width, height):
-        return length * width * height
+def count_words(sentence):
+        return len(sentence.split())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
