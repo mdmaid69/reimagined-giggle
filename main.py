@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_stack():
-        return collections.deque()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
