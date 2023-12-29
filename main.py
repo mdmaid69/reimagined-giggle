@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
