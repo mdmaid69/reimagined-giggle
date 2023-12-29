@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def convert_to_binary(n):
+        return bin(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
