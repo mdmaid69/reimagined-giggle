@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_typecode(array):
+        return array.typecode
