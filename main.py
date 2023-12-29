@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+print(random.randint(0, 100))
