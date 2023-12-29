@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
