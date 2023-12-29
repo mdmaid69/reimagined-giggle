@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_typecode(array):
+        return array.typecode
