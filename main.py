@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import time
+print(time.time())
