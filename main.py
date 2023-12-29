@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_area_rectangle(l, w):
+        return l * w
