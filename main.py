@@ -1,6 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def clear_array(array):
-        array *= 0
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
