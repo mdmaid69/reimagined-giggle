@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
