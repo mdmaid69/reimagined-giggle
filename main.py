@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import platform
-def get_python_version():
-        return platform.python_version()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+text = "Hello, world!"
+print("Characters:", len(text))
