@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def convert_to_hex(n):
+        return hex(n)
