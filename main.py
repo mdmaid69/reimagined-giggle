@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
