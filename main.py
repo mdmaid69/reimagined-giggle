@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
