@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_user_string():
+        return collections.UserString()
