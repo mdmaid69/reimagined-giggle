@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
