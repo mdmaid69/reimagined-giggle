@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
