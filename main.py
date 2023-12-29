@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
