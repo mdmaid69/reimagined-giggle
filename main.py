@@ -1,7 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def find_unique_words(sentence):
+        return set(sentence.split())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
