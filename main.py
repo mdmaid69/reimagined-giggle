@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def remove_duplicates(lst):
-        return list(set(lst))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
