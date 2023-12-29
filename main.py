@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Characters:", len(text))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
