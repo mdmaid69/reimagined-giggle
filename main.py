@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def get_array_as_int(array):
+        return int(array[0])
