@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
