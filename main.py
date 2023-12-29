@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
