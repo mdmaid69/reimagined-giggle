@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
