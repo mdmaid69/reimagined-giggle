@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
