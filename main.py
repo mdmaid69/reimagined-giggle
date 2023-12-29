@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
