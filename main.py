@@ -1,5 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def is_even(n):
-        return n % 2 == 0
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def convert_to_hex(n):
+        return hex(n)
