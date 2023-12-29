@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
