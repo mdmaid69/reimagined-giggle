@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
