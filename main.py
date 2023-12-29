@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
