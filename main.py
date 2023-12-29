@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def find_max(lst):
+        return max(lst)
