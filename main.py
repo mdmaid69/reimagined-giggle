@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def split_path(path):
+        return os.path.split(path)
