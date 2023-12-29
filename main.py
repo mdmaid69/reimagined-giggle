@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
