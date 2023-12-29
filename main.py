@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def clear_array(array):
-        array *= 0
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
