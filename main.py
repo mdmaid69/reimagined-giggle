@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
