@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_density(mass, volume):
-        return mass / volume
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
