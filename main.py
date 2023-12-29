@@ -1,6 +1,8 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
