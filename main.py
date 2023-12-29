@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
