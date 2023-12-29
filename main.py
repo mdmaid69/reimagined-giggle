@@ -1,7 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
