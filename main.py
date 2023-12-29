@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
