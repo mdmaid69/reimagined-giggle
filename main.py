@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
