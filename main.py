@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def clear_array(array):
-        array *= 0
+def count_elements(lst):
+        return len(lst)
+def is_palindrome(s):
+        return s == s[::-1]
