@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def is_odd(n):
+        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
