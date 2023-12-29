@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
