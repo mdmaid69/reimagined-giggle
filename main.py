@@ -1,5 +1,8 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def is_even(n):
-        return n % 2 == 0
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
