@@ -1,5 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
