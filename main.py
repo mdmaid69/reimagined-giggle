@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
