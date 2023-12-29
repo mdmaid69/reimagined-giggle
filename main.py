@@ -1,3 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-print("Hello, world!")
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
