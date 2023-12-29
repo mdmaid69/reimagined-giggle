@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_acceleration(speed, time):
-        return speed / time
+import sys
+def exit_program():
+        sys.exit()
+import random
+def roll_die():
+        return random.randint(1, 6)
