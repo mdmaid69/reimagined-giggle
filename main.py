@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_density(mass, volume):
+        return mass / volume
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
