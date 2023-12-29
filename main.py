@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
