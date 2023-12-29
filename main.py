@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import numpy as np
+print(np.array([1, 2, 3]))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
