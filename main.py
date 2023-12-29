@@ -1,6 +1,8 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
