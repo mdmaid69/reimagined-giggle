@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import time
+def get_current_time():
+        return time.ctime()
