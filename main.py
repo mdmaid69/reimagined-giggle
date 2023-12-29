@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_work(force, distance):
-        return force * distance
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
