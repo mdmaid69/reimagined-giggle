@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
