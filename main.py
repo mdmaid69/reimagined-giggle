@@ -1,5 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
