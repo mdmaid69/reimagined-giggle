@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import sys
+def exit_program():
+        sys.exit()
+import json
+print(json.dumps({"name": "John", "age": 30}))
