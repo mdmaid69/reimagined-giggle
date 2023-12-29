@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
