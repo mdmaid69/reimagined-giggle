@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
