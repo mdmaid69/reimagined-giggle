@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
