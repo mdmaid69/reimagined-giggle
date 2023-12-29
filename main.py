@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def count_words(sentence):
+        return len(sentence.split())
