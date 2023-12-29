@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def divide_numbers(x, y):
-        return x / y
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
