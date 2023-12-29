@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
