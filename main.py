@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def sort_numbers(numbers):
+        return sorted(numbers)
