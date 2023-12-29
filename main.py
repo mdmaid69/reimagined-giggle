@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def exit_program():
+        sys.exit()
