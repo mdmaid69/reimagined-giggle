@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def reverse_list(lst):
-        return lst[::-1]
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
