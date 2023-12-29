@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def square_number(x):
-        return x**2
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
