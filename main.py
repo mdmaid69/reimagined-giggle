@@ -1,5 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
