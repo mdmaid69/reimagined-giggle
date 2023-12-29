@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
