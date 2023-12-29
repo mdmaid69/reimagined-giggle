@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
