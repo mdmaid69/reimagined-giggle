@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
