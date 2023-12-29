@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
