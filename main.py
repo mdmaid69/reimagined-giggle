@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
