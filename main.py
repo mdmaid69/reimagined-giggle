@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import re
+print(re.match("h.*o", "hello world"))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
