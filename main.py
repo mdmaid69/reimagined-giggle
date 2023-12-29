@@ -1,5 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def convert_to_hex(n):
-        return hex(n)
+  def convert_to_octal(n):
+        return oct(n)
+  def cube_number(x):
+        return x**3
