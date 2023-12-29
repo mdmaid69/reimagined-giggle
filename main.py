@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
