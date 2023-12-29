@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
