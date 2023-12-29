@@ -1,6 +1,9 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import collections
+def create_user_string():
+        return collections.UserString()
