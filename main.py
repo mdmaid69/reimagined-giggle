@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_acceleration(speed, time):
+        return speed / time
