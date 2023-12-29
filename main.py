@@ -1,7 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def count_elements(lst):
+        return len(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
