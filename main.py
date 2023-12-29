@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
