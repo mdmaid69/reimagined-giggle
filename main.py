@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
