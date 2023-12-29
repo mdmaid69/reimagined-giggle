@@ -1,6 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def sort_numbers(numbers):
+        return sorted(numbers)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
