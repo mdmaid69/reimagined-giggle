@@ -1,6 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import time
+def get_current_time():
+        return time.time()
