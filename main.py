@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def divide_numbers(x, y):
-        return x / y
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
