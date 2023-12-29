@@ -1,7 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  def reverse_list(lst):
-        return lst[::-1]
+  def is_even(n):
+        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
