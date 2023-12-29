@@ -1,8 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def remove_duplicates(lst):
+        return list(set(lst))
