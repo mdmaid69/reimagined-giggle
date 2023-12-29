@@ -1,7 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import sys
-def print_python_version():
-        return sys.version
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def add_to_python_path(path):
+        sys.path.append(path)
