@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
