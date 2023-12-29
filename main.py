@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
