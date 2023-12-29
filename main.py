@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
