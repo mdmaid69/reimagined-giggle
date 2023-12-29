@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
