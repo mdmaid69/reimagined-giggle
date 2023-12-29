@@ -1,4 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-print(sum(range(10)))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
