@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_acceleration(speed, time):
+        return speed / time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
