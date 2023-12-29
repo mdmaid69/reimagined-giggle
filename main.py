@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
