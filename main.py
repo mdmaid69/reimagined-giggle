@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
