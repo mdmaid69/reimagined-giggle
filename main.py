@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
