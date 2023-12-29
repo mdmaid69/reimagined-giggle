@@ -1,6 +1,12 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
