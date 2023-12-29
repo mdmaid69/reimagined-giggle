@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_as_list(array):
+        return list(array)
