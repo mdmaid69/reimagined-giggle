@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_max(numbers):
+        return max(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
