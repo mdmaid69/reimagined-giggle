@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_item(array, i):
+        return array[i]
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
