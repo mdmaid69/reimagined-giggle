@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
