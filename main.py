@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
