@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
