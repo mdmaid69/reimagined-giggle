@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
