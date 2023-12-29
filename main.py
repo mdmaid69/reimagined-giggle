@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
