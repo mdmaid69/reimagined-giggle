@@ -1,6 +1,8 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
