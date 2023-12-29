@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
