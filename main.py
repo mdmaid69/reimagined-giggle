@@ -1,9 +1,7 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_average(lst):
+        return sum(lst) / len(lst)
