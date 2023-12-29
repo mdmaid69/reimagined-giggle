@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
