@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
