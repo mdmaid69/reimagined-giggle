@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
