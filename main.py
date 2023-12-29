@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def multiply_numbers(x, y):
+        return x * y
