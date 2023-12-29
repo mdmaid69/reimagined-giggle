@@ -1,6 +1,8 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
