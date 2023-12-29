@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
