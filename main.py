@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_power(work, time):
+        return work / time
