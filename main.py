@@ -1,5 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def convert_array_to_list(array):
+        return array.tolist()
