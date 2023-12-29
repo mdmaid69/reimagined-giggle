@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def reverse_list(lst):
+        return lst[::-1]
