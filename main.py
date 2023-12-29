@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def add_numbers(a, b):
+        return a + b
