@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
