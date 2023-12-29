@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import collections
-def create_user_list():
-        return collections.UserList()
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
