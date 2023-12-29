@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def is_odd(n):
+        return n % 2 != 0
