@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  def sort_list(lst):
-        return sorted(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def get_array_index(array, item):
+        return array.index(item)
