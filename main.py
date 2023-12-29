@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def add_numbers(a, b):
-        return a + b
+import sys
+def exit_program():
+        sys.exit()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
