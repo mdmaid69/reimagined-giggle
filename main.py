@@ -1,7 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
