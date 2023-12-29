@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
