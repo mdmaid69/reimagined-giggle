@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def print_python_version():
-        return sys.version
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
