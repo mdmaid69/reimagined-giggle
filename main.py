@@ -1,7 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_area_circle(r):
+        return 3.14 * r**2
