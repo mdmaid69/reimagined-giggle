@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_pressure(force, area):
+        return force / area
+  def calculate_area_rectangle(l, w):
+        return l * w
