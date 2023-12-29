@@ -1,6 +1,7 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_ceiling(x):
+        return math.ceil(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
