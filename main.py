@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_as_bool(array):
+        return bool(array)
