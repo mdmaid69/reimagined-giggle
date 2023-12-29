@@ -1,7 +1,8 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
