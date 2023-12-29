@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_tangent(x):
+        return math.tan(x)
