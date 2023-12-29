@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def cube_number(x):
+        return x**3
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
