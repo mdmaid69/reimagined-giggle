@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
