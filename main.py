@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def multiply_numbers(x, y):
+        return x * y
