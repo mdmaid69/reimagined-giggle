@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
