@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import random
+print(random.randint(0, 100))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
