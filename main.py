@@ -1,7 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_min(lst):
+        return min(lst)
