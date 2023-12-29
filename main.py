@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-def count_elements(lst):
-        return len(lst)
+import re
+print(re.match("h.*o", "hello world"))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
