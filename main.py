@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
