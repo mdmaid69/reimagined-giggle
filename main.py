@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
