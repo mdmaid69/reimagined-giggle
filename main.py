@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
