@@ -1,5 +1,10 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
