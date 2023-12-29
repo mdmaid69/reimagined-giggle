@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_list_from_array(array):
+        return array.tolist()
