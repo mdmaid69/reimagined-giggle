@@ -1,6 +1,5 @@
 import collections
-def create_stack():
-        return collections.deque()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def multiply_numbers(x, y):
+        return x * y
