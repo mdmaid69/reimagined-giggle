@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def multiply_numbers(x, y):
+        return x * y
