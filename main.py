@@ -1,8 +1,8 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
