@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
