@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
