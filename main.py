@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import collections
+def create_priority_queue():
+        return collections.deque()
