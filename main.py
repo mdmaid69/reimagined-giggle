@@ -1,5 +1,8 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
