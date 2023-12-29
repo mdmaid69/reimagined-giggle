@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def add_numbers(x, y):
+        return x + y
+def calculate_area_circle(r):
+        return 3.14 * r**2
