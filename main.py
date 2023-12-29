@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_array_length(array):
+        return len(array)
