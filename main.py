@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
