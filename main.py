@@ -1,5 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def cube_number(x):
+        return x**3
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
