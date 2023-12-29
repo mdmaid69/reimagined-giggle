@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
