@@ -1,7 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def create_queue():
+        return collections.deque()
