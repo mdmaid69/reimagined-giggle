@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def cube_number(x):
-        return x**3
+import collections
+def create_stack():
+        return collections.deque()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
