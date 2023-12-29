@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import sys
+print(sys.version)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
