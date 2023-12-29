@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
