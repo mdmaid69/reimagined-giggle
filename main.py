@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
