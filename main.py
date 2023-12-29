@@ -1,8 +1,6 @@
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def get_array_index(array, item):
+        return array.index(item)
