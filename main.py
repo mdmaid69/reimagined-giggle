@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
