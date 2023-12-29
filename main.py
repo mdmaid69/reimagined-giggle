@@ -1,7 +1,7 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def multiply_numbers(x, y):
-        return x * y
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
