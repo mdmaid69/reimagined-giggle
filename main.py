@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
