@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
