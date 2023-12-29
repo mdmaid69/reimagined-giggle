@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
