@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_min(numbers):
-        return min(numbers)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
