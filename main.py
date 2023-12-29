@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
