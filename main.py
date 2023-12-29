@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
