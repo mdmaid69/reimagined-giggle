@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def add_numbers(x, y):
-        return x + y
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
