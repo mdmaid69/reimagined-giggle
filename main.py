@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def convert_to_octal(n):
-        return oct(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
