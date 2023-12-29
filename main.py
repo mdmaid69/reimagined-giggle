@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import tensorflow as tf
-print(tf.__version__)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
