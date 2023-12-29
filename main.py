@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
