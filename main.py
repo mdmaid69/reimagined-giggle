@@ -1,4 +1,7 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def multiply_numbers(x, y):
-        return x * y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
