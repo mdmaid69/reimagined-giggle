@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def add_numbers(a, b):
+        return a + b
+def reverse_string(s):
+        return s[::-1]
