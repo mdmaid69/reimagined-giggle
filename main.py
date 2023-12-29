@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
