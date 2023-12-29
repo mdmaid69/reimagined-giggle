@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_acceleration(speed, time):
+        return speed / time
