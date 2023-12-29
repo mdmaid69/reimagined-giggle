@@ -1,8 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
