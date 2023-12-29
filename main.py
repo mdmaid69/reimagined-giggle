@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
