@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
