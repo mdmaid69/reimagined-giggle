@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
