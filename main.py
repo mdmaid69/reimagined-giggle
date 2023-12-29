@@ -1,5 +1,6 @@
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
