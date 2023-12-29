@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
