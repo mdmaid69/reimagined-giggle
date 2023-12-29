@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import time
+def get_current_time():
+        return time.ctime()
