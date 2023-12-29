@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
