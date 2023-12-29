@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
