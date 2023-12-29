@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_string_from_array(array):
+        return array.tobytes()
