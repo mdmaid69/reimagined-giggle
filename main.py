@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
