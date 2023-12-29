@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
