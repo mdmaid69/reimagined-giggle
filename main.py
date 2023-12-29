@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
