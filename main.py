@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
