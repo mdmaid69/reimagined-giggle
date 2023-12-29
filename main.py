@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
