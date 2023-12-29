@@ -1,8 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
