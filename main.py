@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
