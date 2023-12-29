@@ -1,4 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
