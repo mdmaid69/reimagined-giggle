@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
