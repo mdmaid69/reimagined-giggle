@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import collections
+def create_counter():
+        return collections.Counter()
