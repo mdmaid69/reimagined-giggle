@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import time
-def get_current_time():
-        return time.time()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
