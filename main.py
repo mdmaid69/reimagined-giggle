@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def remove_duplicates(lst):
+        return list(set(lst))
