@@ -1,5 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def cube_number(x):
+        return x**3
