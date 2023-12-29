@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import collections
-def create_queue():
-        return collections.deque()
+def find_max(numbers):
+        return max(numbers)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
