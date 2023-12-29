@@ -1,5 +1,14 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
