@@ -1,5 +1,8 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
