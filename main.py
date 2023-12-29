@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def add_numbers(x, y):
-        return x + y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
