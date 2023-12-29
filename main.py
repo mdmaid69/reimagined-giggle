@@ -1,6 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
