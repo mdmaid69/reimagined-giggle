@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def convert_to_octal(n):
+        return oct(n)
