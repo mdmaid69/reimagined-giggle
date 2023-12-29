@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
