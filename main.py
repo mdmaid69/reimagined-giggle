@@ -1,3 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-print("Hello, world!")
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import os
+print(os.getcwd())
