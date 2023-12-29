@@ -1,5 +1,10 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
