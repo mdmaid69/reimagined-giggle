@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import collections
+def create_user_string():
+        return collections.UserString()
