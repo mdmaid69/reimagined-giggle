@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
