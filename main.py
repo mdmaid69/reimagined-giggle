@@ -1,7 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def convert_to_json(data):
+        return json.dumps(data)
