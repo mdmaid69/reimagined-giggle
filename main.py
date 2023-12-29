@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def is_even(n):
+        return n % 2 == 0
