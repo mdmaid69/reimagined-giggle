@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
