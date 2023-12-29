@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
