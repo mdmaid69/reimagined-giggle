@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
