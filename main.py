@@ -1,6 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
