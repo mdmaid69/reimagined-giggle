@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
