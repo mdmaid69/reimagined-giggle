@@ -1,9 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
