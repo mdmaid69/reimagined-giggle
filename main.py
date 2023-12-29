@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
