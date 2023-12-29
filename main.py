@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
