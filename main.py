@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
