@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
