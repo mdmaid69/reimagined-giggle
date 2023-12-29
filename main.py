@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
