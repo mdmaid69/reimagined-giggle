@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
