@@ -1,6 +1,9 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
