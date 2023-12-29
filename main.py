@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
