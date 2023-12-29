@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
