@@ -1,6 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
