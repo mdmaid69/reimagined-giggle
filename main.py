@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def reverse_string(s):
+        return s[::-1]
