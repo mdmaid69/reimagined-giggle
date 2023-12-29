@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
