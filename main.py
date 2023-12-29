@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
