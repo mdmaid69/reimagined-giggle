@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
