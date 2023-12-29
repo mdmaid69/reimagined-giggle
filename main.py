@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def convert_to_binary(n):
+        return bin(n)
