@@ -1,6 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
