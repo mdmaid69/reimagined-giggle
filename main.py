@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_counter():
+        return collections.Counter()
