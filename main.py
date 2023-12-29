@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
