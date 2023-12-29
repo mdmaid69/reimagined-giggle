@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_area_rectangle(l, w):
+        return l * w
