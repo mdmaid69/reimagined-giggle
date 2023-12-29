@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
