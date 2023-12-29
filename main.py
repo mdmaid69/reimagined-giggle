@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_work(force, distance):
+        return force * distance
