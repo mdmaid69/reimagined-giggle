@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
