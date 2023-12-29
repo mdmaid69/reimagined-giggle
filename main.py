@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
