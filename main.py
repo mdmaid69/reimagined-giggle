@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
