@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
