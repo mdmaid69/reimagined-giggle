@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
