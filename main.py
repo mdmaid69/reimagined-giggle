@@ -1,6 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
