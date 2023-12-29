@@ -1,5 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
