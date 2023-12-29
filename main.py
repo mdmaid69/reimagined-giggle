@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
