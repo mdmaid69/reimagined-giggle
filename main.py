@@ -1,6 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
