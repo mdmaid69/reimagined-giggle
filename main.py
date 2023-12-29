@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
