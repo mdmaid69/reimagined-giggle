@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
