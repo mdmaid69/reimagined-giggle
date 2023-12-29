@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
