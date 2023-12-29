@@ -1,5 +1,5 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import time
+print(time.time())
