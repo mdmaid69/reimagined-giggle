@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
