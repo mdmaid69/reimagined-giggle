@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import sys
-def print_python_version():
-        print(sys.version)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
