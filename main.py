@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import os
-print(os.getcwd())
+for i in range(5):
+        print(i)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
