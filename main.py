@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def sort_list(lst):
+        return sorted(lst)
