@@ -1,5 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import array
-def get_array_item(array, i):
-        return array[i]
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def insert_into_array(array, i, item):
+        array.insert(i, item)
