@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_acceleration(speed, time):
+        return speed / time
