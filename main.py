@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def cube_number(x):
+        return x**3
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
