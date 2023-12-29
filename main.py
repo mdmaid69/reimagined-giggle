@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
