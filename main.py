@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
