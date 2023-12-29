@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def exit_program():
-        sys.exit()
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
