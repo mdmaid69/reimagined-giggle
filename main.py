@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def find_max(numbers):
-        return max(numbers)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
