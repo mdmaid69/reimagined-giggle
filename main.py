@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
