@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
