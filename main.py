@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def clear_array(array):
+        array *= 0
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
