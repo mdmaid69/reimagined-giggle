@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
