@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def count_elements(lst):
+        return len(lst)
