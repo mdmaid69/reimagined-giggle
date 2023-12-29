@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def is_palindrome(s):
+        return s == s[::-1]
+import json
+print(json.dumps({"name": "John", "age": 30}))
