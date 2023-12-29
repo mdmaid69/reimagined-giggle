@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import datetime
+print(datetime.datetime.now())
+import datetime
+def get_current_date():
+        return datetime.date.today()
