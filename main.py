@@ -1,4 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
