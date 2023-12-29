@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_typecode(array):
+        return array.typecode
