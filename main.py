@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def cube_number(x):
-        return x**3
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
