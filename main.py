@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
