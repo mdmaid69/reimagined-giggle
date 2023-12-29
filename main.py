@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
