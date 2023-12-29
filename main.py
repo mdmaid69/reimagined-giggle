@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import sys
-def exit_program():
-        sys.exit()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
