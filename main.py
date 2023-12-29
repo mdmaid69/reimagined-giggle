@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
