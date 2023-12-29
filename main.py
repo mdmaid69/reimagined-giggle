@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
