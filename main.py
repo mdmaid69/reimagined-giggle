@@ -1,5 +1,5 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+print(sys.version)
