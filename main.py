@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
