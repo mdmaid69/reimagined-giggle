@@ -1,4 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
