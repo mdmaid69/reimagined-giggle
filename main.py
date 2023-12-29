@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
