@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
