@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def find_min(numbers):
-        return min(numbers)
+  def add_numbers(x, y):
+        return x + y
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
