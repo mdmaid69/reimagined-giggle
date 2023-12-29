@@ -1,12 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_min(numbers):
+        return min(numbers)
+  def count_elements(lst):
+        return len(lst)
