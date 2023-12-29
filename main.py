@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
