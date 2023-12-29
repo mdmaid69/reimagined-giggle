@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
