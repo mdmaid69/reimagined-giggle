@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
