@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
