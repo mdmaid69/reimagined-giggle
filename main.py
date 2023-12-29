@@ -1,4 +1,8 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
