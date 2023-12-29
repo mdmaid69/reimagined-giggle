@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
