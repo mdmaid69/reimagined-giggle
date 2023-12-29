@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+print(sum(range(10)))
