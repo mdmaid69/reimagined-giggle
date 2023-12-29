@@ -1,5 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import numpy as np
+print(np.array([1, 2, 3]))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
