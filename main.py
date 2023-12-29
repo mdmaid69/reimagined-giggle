@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import collections
+def create_user_dict():
+        return collections.UserDict()
