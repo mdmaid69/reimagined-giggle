@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import time
+def get_current_time():
+        return time.ctime()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
