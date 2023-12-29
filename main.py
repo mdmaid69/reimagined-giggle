@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
