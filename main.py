@@ -1,11 +1,10 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import threading
+from flask import Flask
+app = Flask(__name__)
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
