@@ -1,6 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def split_path(path):
+        return os.path.split(path)
