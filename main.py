@@ -1,6 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
