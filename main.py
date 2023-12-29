@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_typecode(array):
-        return array.typecode
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
