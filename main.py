@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
