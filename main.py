@@ -1,5 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_pressure(force, area):
+        return force / area
+def count_elements(lst):
+        return len(lst)
