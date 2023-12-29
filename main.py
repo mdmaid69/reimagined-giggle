@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import platform
+def get_os_info():
+        return platform.uname()
