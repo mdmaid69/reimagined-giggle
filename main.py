@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
