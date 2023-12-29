@@ -1,10 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
