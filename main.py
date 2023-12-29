@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_pressure(force, area):
-        return force / area
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+text = "Hello, world!"
+print("Uppercase:", text.upper())
