@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def convert_to_octal(n):
+        return oct(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
