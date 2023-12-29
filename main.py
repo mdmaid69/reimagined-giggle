@@ -1,5 +1,3 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_density(mass, volume):
-        return mass / volume
+def find_unique_words(sentence):
+        return set(sentence.split())
+print("Hello, world!")
