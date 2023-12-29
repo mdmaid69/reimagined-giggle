@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import os
-print(os.getcwd())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
