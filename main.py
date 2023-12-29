@@ -1,7 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def find_min(numbers):
+        return min(numbers)
