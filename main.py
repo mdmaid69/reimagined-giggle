@@ -1,8 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+text = "Hello, world!"
+print("Characters:", len(text))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
