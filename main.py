@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_area_rectangle(l, w):
+        return l * w
