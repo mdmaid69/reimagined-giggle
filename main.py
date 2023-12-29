@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def is_odd(n):
+        return n % 2 != 0
