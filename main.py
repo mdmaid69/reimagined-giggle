@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_work(force, distance):
+        return force * distance
+def find_min(lst):
+        return min(lst)
