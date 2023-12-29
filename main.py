@@ -1,5 +1,8 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
