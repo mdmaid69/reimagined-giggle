@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_area_rectangle(l, w):
+        return l * w
