@@ -1,5 +1,8 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_area_rectangle(l, w):
-        return l * w
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
