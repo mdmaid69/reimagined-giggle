@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
