@@ -1,7 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def count_elements(lst):
-        return len(lst)
+def reverse_array(array):
+        array.reverse()
