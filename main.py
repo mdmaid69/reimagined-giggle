@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_min(lst):
+        return min(lst)
+def reverse_list(lst):
+        return lst[::-1]
