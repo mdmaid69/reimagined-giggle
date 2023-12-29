@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import random
-print(random.randint(0, 100))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
