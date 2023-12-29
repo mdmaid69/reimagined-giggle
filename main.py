@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
