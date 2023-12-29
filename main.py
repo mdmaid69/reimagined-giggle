@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
