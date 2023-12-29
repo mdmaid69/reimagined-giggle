@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_itemsize(array):
+        return array.itemsize
