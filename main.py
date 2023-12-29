@@ -1,9 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def square_number(x):
+        return x**2
