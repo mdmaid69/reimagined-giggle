@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
