@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import time
-def get_current_time():
-        return time.time()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
