@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
