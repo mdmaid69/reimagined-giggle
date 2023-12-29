@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+text = "Hello, world!"
+print("Uppercase:", text.upper())
