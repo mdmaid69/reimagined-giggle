@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
