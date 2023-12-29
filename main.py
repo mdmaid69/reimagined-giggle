@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
