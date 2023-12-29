@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
