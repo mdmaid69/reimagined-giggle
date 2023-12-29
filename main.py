@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
