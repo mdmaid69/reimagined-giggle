@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
