@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
