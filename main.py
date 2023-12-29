@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def get_array_as_int(array):
+        return int(array[0])
+import time
+def get_current_time():
+        return time.time()
