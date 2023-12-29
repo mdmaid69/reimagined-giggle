@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
