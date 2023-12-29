@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
