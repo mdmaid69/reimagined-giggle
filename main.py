@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
