@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import random
+def roll_die():
+        return random.randint(1, 6)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
