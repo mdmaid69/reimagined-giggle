@@ -1,5 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
