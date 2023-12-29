@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
