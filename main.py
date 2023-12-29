@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
