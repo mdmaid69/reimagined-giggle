@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
