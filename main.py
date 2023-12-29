@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def reverse_list(lst):
+        return lst[::-1]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
