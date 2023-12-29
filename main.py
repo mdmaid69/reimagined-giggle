@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_current_directory():
+        return os.getcwd()
+def calculate_speed(distance, time):
+        return distance / time
