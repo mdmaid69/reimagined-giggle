@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
