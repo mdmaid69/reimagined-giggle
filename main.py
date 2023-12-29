@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import numpy as np
+print(np.array([1, 2, 3]))
