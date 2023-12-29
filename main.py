@@ -1,5 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
