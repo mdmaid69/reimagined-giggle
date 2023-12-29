@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def reverse_string(s):
+        return s[::-1]
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
