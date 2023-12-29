@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-for i in range(5):
-        print(i)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
