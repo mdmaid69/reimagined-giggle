@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_perimeter_triangle(a, b, c):
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_perimeter_triangle(a, b, c):
         return a + b + c
