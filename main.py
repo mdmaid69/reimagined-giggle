@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
