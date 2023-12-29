@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
