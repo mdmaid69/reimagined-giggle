@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
