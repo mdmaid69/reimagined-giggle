@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
