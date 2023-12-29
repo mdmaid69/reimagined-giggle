@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
