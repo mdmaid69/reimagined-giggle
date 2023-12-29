@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def count_words(sentence):
-        return len(sentence.split())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+name = "Python"
+print("Hello,", name)
