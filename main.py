@@ -1,5 +1,3 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_speed(distance, time):
+        return distance / time
+for i in range(10): print(i)
