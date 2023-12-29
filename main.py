@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
