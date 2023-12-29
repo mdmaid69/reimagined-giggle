@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
