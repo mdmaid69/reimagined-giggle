@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_current_directory():
+        return os.getcwd()
