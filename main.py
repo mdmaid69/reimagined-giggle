@@ -1,7 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
