@@ -1,5 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import datetime
-print(datetime.datetime.now())
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def get_current_datetime():
+        return datetime.datetime.now()
