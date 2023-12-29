@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
