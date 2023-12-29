@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
+  def convert_to_octal(n):
+        return oct(n)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
