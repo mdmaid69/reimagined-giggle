@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
