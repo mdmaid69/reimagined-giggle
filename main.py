@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
