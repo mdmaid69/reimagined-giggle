@@ -1,6 +1,3 @@
-import logging
-def log_message(message):
-        logging.info(message)
-x = 10
-y = 20
-print("Sum:", x + y)
+print([x**2 for x in range(10)])
+def find_unique_words(sentence):
+        return set(sentence.split())
