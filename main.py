@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import tensorflow as tf
+print(tf.__version__)
