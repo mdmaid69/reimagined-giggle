@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import platform
+def get_python_version():
+        return platform.python_version()
