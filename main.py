@@ -1,5 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
