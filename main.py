@@ -1,6 +1,8 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
