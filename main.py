@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
