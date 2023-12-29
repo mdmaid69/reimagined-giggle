@@ -1,6 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
