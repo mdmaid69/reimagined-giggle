@@ -1,4 +1,3 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+for i in range(10): print(i)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
