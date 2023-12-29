@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
