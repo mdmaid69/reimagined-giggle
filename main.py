@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def convert_to_binary(n):
-        return bin(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
