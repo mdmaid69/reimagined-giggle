@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
