@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+for i in range(10): print(i)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
