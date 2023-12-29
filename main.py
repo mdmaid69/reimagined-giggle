@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def convert_to_octal(n):
+        return oct(n)
