@@ -1,9 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def is_palindrome(s):
+        return s == s[::-1]
