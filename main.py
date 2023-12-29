@@ -1,5 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
