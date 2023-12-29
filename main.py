@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import collections
-def create_user_list():
-        return collections.UserList()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
