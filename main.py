@@ -1,5 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
