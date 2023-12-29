@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
