@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
