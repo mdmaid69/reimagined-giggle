@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
