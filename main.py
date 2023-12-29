@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
