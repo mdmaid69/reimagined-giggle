@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-x = 10
-y = 20
-print("Sum:", x + y)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
