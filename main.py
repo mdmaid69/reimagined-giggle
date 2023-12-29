@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
