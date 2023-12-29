@@ -1,10 +1,7 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import csv
-def read_csv_file(filename):
+import sys
+def print_python_version():
+        print(sys.version)
+import json
+def load_json(filename):
         with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+        return json.load(f)
