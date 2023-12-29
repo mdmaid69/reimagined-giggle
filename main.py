@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
+def find_max(lst):
+        return max(lst)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
