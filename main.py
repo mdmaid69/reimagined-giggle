@@ -1,6 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
