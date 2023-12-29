@@ -1,5 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
