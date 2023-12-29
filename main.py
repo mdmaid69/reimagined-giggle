@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
