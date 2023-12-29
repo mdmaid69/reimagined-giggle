@@ -1,7 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def find_min(numbers):
+        return min(numbers)
