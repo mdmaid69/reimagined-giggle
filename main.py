@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
