@@ -1,6 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def get_array_item(array, i):
+        return array[i]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
