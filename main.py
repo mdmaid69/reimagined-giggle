@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def is_palindrome(s):
+        return s == s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
