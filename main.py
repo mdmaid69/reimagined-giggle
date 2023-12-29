@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import numpy as np
-print(np.array([1, 2, 3]))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
