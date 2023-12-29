@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def is_even(n):
+        return n % 2 == 0
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
