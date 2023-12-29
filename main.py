@@ -1,5 +1,4 @@
-name = "Python"
-print("Hello,", name)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import os
+print(os.getcwd())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
