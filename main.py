@@ -1,4 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-for i in range(10): print(i)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
