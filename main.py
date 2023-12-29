@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import platform
-def get_os_info():
-        return platform.uname()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
