@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def is_odd(n):
+        return n % 2 != 0
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
