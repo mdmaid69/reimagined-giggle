@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
