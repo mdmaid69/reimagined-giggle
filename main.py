@@ -1,6 +1,3 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
 import threading
 
 def print_hello():
@@ -9,3 +6,5 @@ def print_hello():
 thread = threading.Thread(target=print_hello)
 thread.start()
 thread.join()
+def count_elements(lst):
+        return len(lst)
