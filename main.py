@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
