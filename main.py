@@ -1,6 +1,7 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
