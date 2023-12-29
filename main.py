@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-def count_words(sentence):
-        return len(sentence.split())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
