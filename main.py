@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_repr(array):
+        return repr(array)
