@@ -1,5 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
