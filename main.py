@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
