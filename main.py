@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import re
+print(re.match("h.*o", "hello world"))
