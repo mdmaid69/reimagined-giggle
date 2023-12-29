@@ -1,5 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
