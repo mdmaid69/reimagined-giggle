@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
