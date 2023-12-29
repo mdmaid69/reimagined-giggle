@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
