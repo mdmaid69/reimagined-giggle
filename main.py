@@ -1,5 +1,6 @@
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import array
-def get_array_item(array, i):
-        return array[i]
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def iterate_over_array(array):
+        for item in array:
+        print(item)
