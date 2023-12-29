@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def get_array_item(array, i):
+        return array[i]
