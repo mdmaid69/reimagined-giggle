@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import collections
+def create_counter():
+        return collections.Counter()
