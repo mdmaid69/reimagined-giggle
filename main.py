@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
