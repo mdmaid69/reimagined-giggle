@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
