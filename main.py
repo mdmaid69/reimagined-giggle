@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
