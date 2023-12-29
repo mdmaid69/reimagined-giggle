@@ -1,5 +1,7 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
