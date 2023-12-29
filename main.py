@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
