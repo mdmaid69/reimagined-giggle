@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
