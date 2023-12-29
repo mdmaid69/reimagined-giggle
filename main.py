@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def sort_list(lst):
-        return sorted(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
