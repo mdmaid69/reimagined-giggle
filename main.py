@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
