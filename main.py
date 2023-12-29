@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_index(array, item):
-        return array.index(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
