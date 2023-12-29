@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import json
+print(json.dumps({"name": "John", "age": 30}))
