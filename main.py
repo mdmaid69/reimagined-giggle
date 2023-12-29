@@ -1,4 +1,4 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def is_even(n):
+        return n % 2 == 0
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
