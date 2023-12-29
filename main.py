@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
