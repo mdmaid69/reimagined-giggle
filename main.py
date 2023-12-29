@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
