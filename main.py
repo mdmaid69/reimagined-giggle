@@ -1,5 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
