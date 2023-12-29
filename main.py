@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
