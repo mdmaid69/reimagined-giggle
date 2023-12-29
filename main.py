@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
