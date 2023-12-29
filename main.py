@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def is_even(n):
-        return n % 2 == 0
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
