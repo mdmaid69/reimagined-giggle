@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
