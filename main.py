@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_counter():
-        return collections.Counter()
+  def add_numbers(x, y):
+        return x + y
+def sort_list(lst):
+        return sorted(lst)
