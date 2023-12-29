@@ -1,5 +1,11 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_item(array, i):
-        return array[i]
+def count_characters(sentence):
+        return len(sentence)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
