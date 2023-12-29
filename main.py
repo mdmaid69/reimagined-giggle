@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def calculate_area_rectangle(l, w):
-        return l * w
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_volume(length, width, height):
+        return length * width * height
