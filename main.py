@@ -1,6 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
