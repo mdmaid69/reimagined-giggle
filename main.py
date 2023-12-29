@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
