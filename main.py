@@ -1,7 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def convert_to_octal(n):
+        return oct(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
