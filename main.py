@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
