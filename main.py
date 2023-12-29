@@ -1,5 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
