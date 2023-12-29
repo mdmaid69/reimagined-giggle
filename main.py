@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
