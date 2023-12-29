@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
