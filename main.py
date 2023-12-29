@@ -1,7 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_as_set(array):
+        return set(array)
