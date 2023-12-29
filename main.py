@@ -1,6 +1,8 @@
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
