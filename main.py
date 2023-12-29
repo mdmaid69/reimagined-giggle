@@ -1,8 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
