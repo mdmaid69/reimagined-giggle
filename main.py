@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def convert_array_to_list(array):
+        return array.tolist()
