@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import numpy as np
+print(np.array([1, 2, 3]))
