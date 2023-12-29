@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import time
+print(time.time())
