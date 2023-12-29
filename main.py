@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def count_words(sentence):
+        return len(sentence.split())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
