@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
