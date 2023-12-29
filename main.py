@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_work(force, distance):
-        return force * distance
+def find_min(lst):
+        return min(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
