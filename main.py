@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
