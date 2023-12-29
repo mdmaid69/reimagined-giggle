@@ -1,8 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
