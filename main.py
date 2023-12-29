@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def multiply_numbers(x, y):
+        return x * y
