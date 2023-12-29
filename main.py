@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
