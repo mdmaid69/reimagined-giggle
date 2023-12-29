@@ -1,5 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import numpy as np
+print(np.array([1, 2, 3]))
