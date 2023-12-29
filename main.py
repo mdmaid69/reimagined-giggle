@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import collections
+def create_user_dict():
+        return collections.UserDict()
