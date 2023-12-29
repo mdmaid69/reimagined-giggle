@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
