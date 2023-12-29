@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def is_even(n):
+        return n % 2 == 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
