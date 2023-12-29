@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_work(force, distance):
+        return force * distance
