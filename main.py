@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_item(array, i):
+        return array[i]
+import tensorflow as tf
+print(tf.__version__)
