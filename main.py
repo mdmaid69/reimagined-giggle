@@ -1,3 +1,7 @@
-print([x**2 for x in range(10)])
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
