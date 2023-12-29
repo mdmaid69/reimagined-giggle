@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_power(work, time):
+        return work / time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
