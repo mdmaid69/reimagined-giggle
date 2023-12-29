@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def is_odd(n):
-        return n % 2 != 0
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
