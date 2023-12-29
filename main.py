@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def change_working_directory(path):
+        os.chdir(path)
