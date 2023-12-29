@@ -1,7 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
