@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
