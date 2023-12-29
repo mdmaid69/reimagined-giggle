@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def subtract_numbers(x, y):
+        return x - y
