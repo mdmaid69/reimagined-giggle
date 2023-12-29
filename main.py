@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
