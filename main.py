@@ -1,4 +1,6 @@
-for i in range(10): print(i)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
