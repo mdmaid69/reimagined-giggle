@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
