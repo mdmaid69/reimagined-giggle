@@ -1,5 +1,8 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import time
-print(time.time())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_length(array):
+        return len(array)
