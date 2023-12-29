@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
