@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def reverse_list(lst):
+        return lst[::-1]
