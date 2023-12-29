@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
