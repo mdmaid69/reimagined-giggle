@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
