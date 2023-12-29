@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
