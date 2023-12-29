@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
