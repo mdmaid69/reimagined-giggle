@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_user_dict():
+        return collections.UserDict()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
