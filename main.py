@@ -1,4 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def convert_to_binary(n):
-        return bin(n)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
