@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
