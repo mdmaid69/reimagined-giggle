@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
