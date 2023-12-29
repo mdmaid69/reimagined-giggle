@@ -1,6 +1,11 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import platform
-def get_os_info():
-        return platform.uname()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import re
+print(re.match("h.*o", "hello world"))
