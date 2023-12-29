@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
