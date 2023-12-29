@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
