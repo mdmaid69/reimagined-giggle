@@ -1,5 +1,8 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
