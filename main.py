@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
