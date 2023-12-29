@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def divide_numbers(x, y):
+        return x / y
+import collections
+def create_counter():
+        return collections.Counter()
