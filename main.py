@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
