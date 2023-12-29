@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
