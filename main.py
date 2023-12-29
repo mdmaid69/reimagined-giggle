@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
