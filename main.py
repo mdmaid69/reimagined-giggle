@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
