@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
