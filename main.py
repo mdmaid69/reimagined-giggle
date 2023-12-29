@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
