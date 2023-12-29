@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
