@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def reverse_list(lst):
-        return lst[::-1]
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
