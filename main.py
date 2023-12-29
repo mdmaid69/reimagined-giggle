@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_pressure(force, area):
+        return force / area
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
