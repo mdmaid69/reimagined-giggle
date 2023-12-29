@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import time
+def get_current_time():
+        return time.ctime()
