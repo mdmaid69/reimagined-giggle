@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_work(force, distance):
-        return force * distance
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+for i in range(5):
+        print(i)
