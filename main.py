@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
