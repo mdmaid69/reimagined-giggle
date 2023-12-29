@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
