@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def remove_duplicates(lst):
-        return list(set(lst))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
