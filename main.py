@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def find_min(lst):
+        return min(lst)
