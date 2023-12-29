@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_density(mass, volume):
-        return mass / volume
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_length(array):
+        return len(array)
