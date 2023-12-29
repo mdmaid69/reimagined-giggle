@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
