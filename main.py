@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_acceleration(speed, time):
+        return speed / time
