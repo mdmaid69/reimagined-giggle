@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def count_characters(sentence):
+        return len(sentence)
