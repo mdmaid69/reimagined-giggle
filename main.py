@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def is_odd(n):
+        return n % 2 != 0
