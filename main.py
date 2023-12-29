@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def subtract_numbers(x, y):
+        return x - y
