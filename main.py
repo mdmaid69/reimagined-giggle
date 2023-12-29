@@ -1,7 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def subtract_numbers(x, y):
+        return x - y
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
