@@ -1,8 +1,5 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
