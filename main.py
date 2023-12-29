@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def append_to_array(array, item):
+        array.append(item)
