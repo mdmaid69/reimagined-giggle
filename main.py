@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
