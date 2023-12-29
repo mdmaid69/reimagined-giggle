@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+print(re.match("h.*o", "hello world"))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
