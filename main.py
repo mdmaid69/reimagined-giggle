@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
