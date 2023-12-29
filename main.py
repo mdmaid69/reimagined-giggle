@@ -1,8 +1,7 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
