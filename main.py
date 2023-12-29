@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
