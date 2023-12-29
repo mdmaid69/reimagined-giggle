@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
