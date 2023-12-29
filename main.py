@@ -1,4 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-print(sum(range(10)))
+def is_odd(n):
+        return n % 2 != 0
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
