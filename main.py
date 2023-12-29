@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
