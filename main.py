@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
