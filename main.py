@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_power(work, time):
-        return work / time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def convert_to_binary(n):
+        return bin(n)
