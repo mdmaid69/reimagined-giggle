@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
