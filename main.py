@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import logging
+def log_message(message):
+        logging.info(message)
+def reverse_string(s):
+        return s[::-1]
