@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
