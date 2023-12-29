@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
