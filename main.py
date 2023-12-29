@@ -1,6 +1,4 @@
+import time
+print(time.time())
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+print(os.getcwd())
