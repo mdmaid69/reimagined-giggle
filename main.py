@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_str(array):
+        return str(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
