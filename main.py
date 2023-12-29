@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
