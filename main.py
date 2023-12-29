@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
