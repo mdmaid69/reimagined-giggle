@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
