@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_area_rectangle(l, w):
-        return l * w
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
