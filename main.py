@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
