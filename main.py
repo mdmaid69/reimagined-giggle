@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
