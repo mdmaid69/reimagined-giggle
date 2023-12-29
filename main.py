@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
