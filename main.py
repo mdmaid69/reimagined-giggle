@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
