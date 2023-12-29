@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
