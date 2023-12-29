@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
