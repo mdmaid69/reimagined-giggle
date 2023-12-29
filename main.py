@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_pressure(force, area):
+        return force / area
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
