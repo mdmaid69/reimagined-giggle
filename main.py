@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
