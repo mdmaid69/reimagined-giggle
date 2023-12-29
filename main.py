@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
