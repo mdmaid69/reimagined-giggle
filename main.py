@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
