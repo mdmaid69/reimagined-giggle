@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def count_elements(lst):
+        return len(lst)
+def divide_numbers(x, y):
+        return x / y
