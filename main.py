@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def square_number(x):
+        return x**2
