@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
