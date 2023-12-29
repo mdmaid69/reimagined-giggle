@@ -1,5 +1,6 @@
 import time
-def get_current_time():
-        return time.ctime()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
