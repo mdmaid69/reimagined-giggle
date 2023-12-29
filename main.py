@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
