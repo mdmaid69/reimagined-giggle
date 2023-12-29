@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
