@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
