@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
