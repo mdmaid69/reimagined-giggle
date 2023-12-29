@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
