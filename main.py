@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import collections
-def create_counter():
-        return collections.Counter()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
