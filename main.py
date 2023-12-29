@@ -1,8 +1,10 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_typecode(array):
+        return array.typecode
