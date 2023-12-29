@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def cube_number(x):
+        return x**3
+import time
+def get_time_since_epoch():
+        return time.time()
