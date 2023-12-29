@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def add_numbers(x, y):
-        return x + y
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
