@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def find_max(lst):
+        return max(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
