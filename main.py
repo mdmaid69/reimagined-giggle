@@ -1,6 +1,8 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import os
+def get_current_working_directory():
+        return os.getcwd()
