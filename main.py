@@ -1,6 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
