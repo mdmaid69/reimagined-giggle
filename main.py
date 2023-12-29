@@ -1,5 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+print("Hello, world!")
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
