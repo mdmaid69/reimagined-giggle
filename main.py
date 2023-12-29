@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_work(force, distance):
-        return force * distance
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+text = "Hello, world!"
+print("Words:", len(text.split()))
