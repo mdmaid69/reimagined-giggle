@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
