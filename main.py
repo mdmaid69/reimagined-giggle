@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  def sort_list(lst):
+        return sorted(lst)
