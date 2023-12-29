@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
