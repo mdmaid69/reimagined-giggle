@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
