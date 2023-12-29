@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_stack():
+        return collections.deque()
