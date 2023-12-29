@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def convert_array_to_string(array):
+        return array.tostring()
