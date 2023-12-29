@@ -1,5 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
