@@ -1,6 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
