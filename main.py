@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def find_max(lst):
+        return max(lst)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
