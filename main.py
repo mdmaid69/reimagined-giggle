@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
