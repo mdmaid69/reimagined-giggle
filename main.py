@@ -1,4 +1,7 @@
-def find_min(lst):
-        return min(lst)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_item(array, i):
+        return array[i]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
