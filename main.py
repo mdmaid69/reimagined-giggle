@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
