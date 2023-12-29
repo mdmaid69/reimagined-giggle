@@ -1,6 +1,8 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
