@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
