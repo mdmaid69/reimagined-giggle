@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def clear_array(array):
+        array *= 0
