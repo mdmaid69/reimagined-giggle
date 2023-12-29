@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import numpy as np
+print(np.array([1, 2, 3]))
+import time
+def get_current_time():
+        return time.ctime()
