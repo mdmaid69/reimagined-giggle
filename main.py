@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
