@@ -1,6 +1,6 @@
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def get_array_as_tuple(array):
+        return tuple(array)
