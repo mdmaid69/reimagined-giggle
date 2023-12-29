@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_max(lst):
+        return max(lst)
