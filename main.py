@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
