@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
