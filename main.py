@@ -1,5 +1,5 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
