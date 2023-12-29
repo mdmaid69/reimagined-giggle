@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
