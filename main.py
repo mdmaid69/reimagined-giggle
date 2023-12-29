@@ -1,6 +1,8 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def delete_file(file_name):
+        os.remove(file_name)
