@@ -1,5 +1,9 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
