@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_length(array):
+        return len(array)
