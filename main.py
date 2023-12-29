@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import numpy as np
-print(np.array([1, 2, 3]))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
