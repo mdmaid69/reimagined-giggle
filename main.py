@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
