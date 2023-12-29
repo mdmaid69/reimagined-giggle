@@ -1,3 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-print("Hello, world!")
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
