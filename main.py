@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
