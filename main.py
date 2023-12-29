@@ -1,8 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def append_to_array(array, item):
+        array.append(item)
+def convert_to_octal(n):
+        return oct(n)
