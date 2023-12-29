@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
