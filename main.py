@@ -1,6 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
