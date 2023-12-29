@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import platform
-def get_os_info():
-        return platform.uname()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
