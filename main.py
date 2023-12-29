@@ -1,5 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
