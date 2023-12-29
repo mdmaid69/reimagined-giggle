@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
