@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
