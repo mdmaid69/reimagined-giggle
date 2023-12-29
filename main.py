@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
