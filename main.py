@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
