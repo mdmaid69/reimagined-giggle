@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def is_even(n):
+        return n % 2 == 0
