@@ -1,7 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
