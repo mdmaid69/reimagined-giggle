@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
