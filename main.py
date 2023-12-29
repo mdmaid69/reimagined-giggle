@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
