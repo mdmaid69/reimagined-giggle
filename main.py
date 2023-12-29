@@ -1,8 +1,8 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
