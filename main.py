@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
