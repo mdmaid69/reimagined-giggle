@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
