@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
