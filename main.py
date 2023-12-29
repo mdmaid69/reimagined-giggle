@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
