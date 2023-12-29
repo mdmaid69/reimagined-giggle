@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
