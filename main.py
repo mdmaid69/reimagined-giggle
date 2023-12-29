@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
