@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
+  def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
