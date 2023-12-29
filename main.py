@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
