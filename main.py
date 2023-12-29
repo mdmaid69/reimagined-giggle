@@ -1,5 +1,5 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 def calculate_present_value(future_value, rate, time):
         return future_value / (1 + rate)**time
-import math
-def calculate_tangent(x):
-        return math.tan(x)
