@@ -1,6 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
