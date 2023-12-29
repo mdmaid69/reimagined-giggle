@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_as_set(array):
+        return set(array)
+def count_words(sentence):
+        return len(sentence.split())
