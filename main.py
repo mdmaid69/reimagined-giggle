@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
