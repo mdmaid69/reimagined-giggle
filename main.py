@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def count_characters(sentence):
+        return len(sentence)
