@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
