@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
