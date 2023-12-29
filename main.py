@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+print(math.pi)
 import time
 def get_current_time():
-        return time.ctime()
+        return time.time()
