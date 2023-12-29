@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def square_number(x):
+        return x**2
+  def subtract_numbers(x, y):
+        return x - y
