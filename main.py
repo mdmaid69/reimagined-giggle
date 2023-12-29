@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
