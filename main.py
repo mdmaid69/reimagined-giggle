@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import sys
-def exit_program():
-        sys.exit()
+def reverse_list(lst):
+        return lst[::-1]
+def reverse_string(s):
+        return s[::-1]
