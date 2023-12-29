@@ -1,5 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
