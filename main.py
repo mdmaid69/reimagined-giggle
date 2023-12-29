@@ -1,8 +1,7 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
