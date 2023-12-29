@@ -1,6 +1,8 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
