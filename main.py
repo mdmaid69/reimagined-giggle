@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
