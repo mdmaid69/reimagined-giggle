@@ -1,8 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
