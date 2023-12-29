@@ -1,6 +1,7 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
