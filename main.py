@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def count_words(sentence):
+        return len(sentence.split())
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
