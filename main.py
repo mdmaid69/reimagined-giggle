@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
