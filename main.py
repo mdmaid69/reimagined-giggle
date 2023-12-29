@@ -1,4 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-for i in range(10): print(i)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
