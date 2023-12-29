@@ -1,6 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_error_function(x):
+        return math.erf(x)
