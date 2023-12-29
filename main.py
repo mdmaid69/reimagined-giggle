@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
