@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
