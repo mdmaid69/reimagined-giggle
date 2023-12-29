@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
