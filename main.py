@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import datetime
+def get_today_date():
+        return datetime.date.today()
