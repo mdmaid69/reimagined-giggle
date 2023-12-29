@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def sort_list(lst):
+        return sorted(lst)
