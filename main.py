@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
