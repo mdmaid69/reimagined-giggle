@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
