@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def find_min(numbers):
+        return min(numbers)
