@@ -1,12 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
