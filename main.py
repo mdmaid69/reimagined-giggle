@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import collections
-def create_counter():
-        return collections.Counter()
+def is_even(n):
+        return n % 2 == 0
+import sys
+def exit_program():
+        sys.exit()
