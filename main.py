@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import os
+def get_current_working_directory():
+        return os.getcwd()
