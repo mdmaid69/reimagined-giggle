@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def move_file(src, dst):
+        shutil.move(src, dst)
