@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_item(array, i):
-        return array[i]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_pressure(force, area):
+        return force / area
