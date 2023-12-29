@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
