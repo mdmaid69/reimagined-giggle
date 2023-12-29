@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_work(force, distance):
+        return force * distance
