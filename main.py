@@ -1,8 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
