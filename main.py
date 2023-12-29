@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
