@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
