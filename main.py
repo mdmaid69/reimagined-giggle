@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
