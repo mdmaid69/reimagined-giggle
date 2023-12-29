@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
