@@ -1,5 +1,11 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
