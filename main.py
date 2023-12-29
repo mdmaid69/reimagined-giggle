@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
