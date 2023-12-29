@@ -1,6 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
