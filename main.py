@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def divide_numbers(x, y):
+        return x / y
