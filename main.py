@@ -1,4 +1,10 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def cube_number(x):
+        return x**3
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
