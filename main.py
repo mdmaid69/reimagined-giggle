@@ -1,5 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
