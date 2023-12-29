@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_item(array, i):
+        return array[i]
