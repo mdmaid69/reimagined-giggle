@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import sys
-def exit_program():
-        sys.exit()
+for i in range(5):
+        print(i)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
