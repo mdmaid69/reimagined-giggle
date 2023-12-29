@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def reverse_string(s):
-        return s[::-1]
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
