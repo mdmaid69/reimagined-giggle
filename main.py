@@ -1,5 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def find_min(numbers):
-        return min(numbers)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
