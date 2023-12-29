@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
