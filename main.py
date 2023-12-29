@@ -1,5 +1,8 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
