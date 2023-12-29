@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
