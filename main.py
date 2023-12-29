@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
