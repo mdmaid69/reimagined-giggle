@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
