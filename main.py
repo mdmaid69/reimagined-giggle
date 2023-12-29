@@ -1,5 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def cube_number(x):
-        return x**3
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
