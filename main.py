@@ -1,8 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
