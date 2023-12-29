@@ -1,6 +1,6 @@
 import collections
-def create_queue():
-        return collections.deque()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_user_dict():
+        return collections.UserDict()
+import datetime
+def get_today_date():
+        return datetime.date.today()
