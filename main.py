@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
