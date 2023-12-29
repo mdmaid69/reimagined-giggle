@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
