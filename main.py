@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
