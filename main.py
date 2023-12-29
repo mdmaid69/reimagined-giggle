@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
