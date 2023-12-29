@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
