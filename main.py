@@ -1,7 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
