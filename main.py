@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import logging
+def log_message(message):
+        logging.info(message)
