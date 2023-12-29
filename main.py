@@ -1,8 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def convert_to_binary(n):
+        return bin(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
