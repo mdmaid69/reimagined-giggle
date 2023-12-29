@@ -1,6 +1,7 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
