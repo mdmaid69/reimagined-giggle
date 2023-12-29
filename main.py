@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
