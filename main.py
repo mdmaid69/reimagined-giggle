@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
