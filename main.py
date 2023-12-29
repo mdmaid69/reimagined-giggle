@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import os
+print(os.getcwd())
+def count_words(sentence):
+        return len(sentence.split())
