@@ -1,5 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def reverse_list(lst):
-        return lst[::-1]
+from collections import Counter
+print(Counter("hello world"))
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
