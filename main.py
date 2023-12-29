@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
