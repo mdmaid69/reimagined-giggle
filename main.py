@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
