@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
