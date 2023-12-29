@@ -1,8 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
