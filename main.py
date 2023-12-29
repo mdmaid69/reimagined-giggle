@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import collections
+def create_user_string():
+        return collections.UserString()
