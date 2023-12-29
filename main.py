@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_sine(x):
+        return math.sin(x)
