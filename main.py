@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def is_palindrome(s):
+        return s == s[::-1]
