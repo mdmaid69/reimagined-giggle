@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
