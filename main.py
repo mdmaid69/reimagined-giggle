@@ -1,12 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def convert_to_binary(n):
+        return bin(n)
