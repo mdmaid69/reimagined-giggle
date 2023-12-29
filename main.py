@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
