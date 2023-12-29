@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
