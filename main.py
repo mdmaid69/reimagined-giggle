@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import collections
+def create_user_dict():
+        return collections.UserDict()
