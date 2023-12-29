@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def is_odd(n):
-        return n % 2 != 0
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
