@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def square_number(x):
-        return x**2
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
