@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def cube_number(x):
-        return x**3
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import collections
+def create_stack():
+        return collections.deque()
