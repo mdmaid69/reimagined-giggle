@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
