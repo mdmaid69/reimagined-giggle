@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
