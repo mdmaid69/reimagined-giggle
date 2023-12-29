@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
