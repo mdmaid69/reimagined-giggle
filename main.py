@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def clear_array(array):
+        array *= 0
