@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_speed(distance, time):
-        return distance / time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
