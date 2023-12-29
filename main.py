@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def convert_to_binary(n):
+        return bin(n)
