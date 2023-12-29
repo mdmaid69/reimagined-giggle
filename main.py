@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
