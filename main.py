@@ -1,7 +1,7 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
