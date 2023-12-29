@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
