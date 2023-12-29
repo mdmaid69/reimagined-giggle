@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import getpass
-def get_username():
-        return getpass.getuser()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
