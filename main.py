@@ -1,5 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import numpy as np
+print(np.array([1, 2, 3]))
+def find_unique_words(sentence):
+        return set(sentence.split())
