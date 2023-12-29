@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def find_max(lst):
+        return max(lst)
