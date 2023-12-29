@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
