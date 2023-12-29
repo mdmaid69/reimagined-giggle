@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_as_str(array):
+        return str(array)
