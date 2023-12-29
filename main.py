@@ -1,4 +1,10 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-print([x**2 for x in range(10)])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
