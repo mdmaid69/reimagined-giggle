@@ -1,5 +1,3 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def add_numbers(a, b):
+        return a + b
+for i in range(10): print(i)
