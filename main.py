@@ -1,5 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def subtract_numbers(x, y):
+        return x - y
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
