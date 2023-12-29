@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def find_max(numbers):
-        return max(numbers)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
