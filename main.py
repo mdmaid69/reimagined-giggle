@@ -1,5 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def add_numbers(x, y):
-        return x + y
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
