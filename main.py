@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
