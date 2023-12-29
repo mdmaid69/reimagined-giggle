@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
