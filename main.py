@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
