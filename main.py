@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
