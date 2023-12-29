@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
