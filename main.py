@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
