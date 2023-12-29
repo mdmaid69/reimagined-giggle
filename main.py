@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_acceleration(speed, time):
+        return speed / time
