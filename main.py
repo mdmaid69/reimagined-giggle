@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import random
-def roll_die():
-        return random.randint(1, 6)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_current_directory():
+        return os.getcwd()
