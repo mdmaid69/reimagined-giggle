@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
