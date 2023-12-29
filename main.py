@@ -1,5 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
