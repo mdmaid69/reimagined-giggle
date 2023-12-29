@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
