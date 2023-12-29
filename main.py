@@ -1,5 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def get_array_as_list(array):
+        return list(array)
+import array
+def append_to_array(array, item):
+        array.append(item)
