@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def is_even(n):
+        return n % 2 == 0
