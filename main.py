@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
