@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
