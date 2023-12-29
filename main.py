@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def is_odd(n):
+        return n % 2 != 0
