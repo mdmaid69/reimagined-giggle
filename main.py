@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
