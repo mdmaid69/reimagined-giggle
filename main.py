@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_acceleration(speed, time):
+        return speed / time
