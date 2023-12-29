@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def reverse_list(lst):
-        return lst[::-1]
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
