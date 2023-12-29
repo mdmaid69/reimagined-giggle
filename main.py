@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def is_even(n):
+        return n % 2 == 0
+  def reverse_list(lst):
+        return lst[::-1]
