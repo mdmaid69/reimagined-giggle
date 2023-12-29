@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def roll_die():
+        return random.randint(1, 6)
