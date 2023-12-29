@@ -1,6 +1,6 @@
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
