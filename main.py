@@ -1,6 +1,5 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import numpy as np
+print(np.array([1, 2, 3]))
