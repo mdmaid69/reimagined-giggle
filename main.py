@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def multiply_numbers(x, y):
+        return x * y
