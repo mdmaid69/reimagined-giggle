@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def multiply_numbers(x, y):
-        return x * y
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
