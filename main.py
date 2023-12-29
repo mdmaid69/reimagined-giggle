@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
