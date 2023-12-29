@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_bool(array):
+        return bool(array)
