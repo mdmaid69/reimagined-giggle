@@ -1,5 +1,8 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
