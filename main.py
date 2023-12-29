@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_volume(length, width, height):
+        return length * width * height
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
