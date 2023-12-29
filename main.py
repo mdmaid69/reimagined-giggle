@@ -1,4 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
