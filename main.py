@@ -1,4 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-print(sum(range(10)))
+def get_array_itemsize(array):
+        return array.itemsize
+import time
+def get_current_time():
+        return time.ctime()
