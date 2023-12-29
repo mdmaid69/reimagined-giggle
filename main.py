@@ -1,6 +1,9 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
