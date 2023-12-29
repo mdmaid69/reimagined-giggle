@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
