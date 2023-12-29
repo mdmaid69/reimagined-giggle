@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def split_path(path):
+        return os.path.split(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
