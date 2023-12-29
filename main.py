@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
