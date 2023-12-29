@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
