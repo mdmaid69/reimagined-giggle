@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
