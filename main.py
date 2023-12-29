@@ -1,8 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
