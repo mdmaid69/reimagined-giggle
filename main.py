@@ -1,5 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import logging
+def log_message(message):
+        logging.info(message)
