@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
