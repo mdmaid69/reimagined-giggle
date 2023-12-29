@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def cube_number(x):
+        return x**3
+import datetime
+def get_today_date():
+        return datetime.date.today()
