@@ -1,5 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
