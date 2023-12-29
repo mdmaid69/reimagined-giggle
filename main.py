@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
