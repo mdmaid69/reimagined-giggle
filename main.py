@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
