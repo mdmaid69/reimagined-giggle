@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
