@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import sys
-def exit_program():
-        sys.exit()
+def multiply_numbers(x, y):
+        return x * y
+import json
+def convert_to_json(data):
+        return json.dumps(data)
