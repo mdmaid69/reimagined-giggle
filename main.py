@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
