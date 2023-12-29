@@ -1,5 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
