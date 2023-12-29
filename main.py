@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+print(sum(range(10)))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
