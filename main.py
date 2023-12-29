@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
