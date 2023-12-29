@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def divide_numbers(x, y):
+        return x / y
