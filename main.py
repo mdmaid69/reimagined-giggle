@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
