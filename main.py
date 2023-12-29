@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
