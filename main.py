@@ -1,6 +1,5 @@
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def get_array_item_count(array, item):
+        return array.count(item)
