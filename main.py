@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
