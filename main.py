@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
