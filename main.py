@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_float(array):
+        return float(array[0])
+from collections import Counter
+print(Counter("hello world"))
