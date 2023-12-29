@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
