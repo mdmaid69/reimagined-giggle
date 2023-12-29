@@ -1,6 +1,7 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
