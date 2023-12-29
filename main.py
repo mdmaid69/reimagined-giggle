@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
