@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_typecode(array):
-        return array.typecode
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def get_array_slice(array, i, j):
+        return array[i:j]
