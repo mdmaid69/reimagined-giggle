@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
