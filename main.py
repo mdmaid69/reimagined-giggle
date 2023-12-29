@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
