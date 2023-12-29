@@ -1,5 +1,8 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def subtract_numbers(x, y):
-        return x - y
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
