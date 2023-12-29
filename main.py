@@ -1,8 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def get_array_item_count(array, item):
+        return array.count(item)
