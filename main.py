@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
