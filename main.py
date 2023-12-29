@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
