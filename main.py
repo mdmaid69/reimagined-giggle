@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
