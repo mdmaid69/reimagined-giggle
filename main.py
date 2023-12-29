@@ -1,7 +1,5 @@
-def square_number(x):
-        return x**2
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import os
+def change_working_directory(path):
+        os.chdir(path)
