@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
