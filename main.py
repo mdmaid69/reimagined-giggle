@@ -1,7 +1,4 @@
-def square_number(x):
-        return x**2
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+text = "Hello, world!"
+print("Characters:", len(text))
+  def convert_to_hex(n):
+        return hex(n)
