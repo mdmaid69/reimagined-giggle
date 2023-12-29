@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
