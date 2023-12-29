@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def sort_list(lst):
+        return sorted(lst)
+def is_palindrome(s):
+        return s == s[::-1]
