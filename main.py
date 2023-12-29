@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
