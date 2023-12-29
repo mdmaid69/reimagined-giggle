@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
