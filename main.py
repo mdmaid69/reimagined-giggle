@@ -1,6 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
