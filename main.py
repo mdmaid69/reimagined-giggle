@@ -1,4 +1,7 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def greet(name):
-        print(f"Hello, {name}!")
+import time
+def get_current_time():
+        return time.time()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
