@@ -1,6 +1,10 @@
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
