@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def divide_numbers(x, y):
-        return x / y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
