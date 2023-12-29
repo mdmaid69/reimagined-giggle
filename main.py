@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
