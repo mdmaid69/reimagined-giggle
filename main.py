@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
