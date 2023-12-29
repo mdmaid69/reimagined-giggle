@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
