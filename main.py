@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def clear_array(array):
-        array *= 0
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import datetime
+def get_current_date():
+        return datetime.date.today()
