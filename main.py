@@ -1,6 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def get_array_item_count(array, item):
+        return array.count(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
