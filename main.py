@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Characters:", len(text))
