@@ -1,7 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
