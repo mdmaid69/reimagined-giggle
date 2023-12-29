@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import platform
+def get_os_info():
+        return platform.uname()
