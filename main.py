@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_volume(length, width, height):
+        return length * width * height
+import collections
+def create_stack():
+        return collections.deque()
