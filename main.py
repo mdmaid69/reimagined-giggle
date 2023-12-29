@@ -1,7 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def count_elements(lst):
-        return len(lst)
+def get_array_length(array):
+        return len(array)
