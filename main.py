@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
