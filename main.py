@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def get_array_index(array, item):
+        return array.index(item)
