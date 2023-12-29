@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
