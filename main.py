@@ -1,6 +1,11 @@
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
