@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
