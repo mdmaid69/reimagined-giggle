@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
