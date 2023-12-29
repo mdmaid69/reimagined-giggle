@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def add_numbers(x, y):
+        return x + y
+def is_even(n):
+        return n % 2 == 0
