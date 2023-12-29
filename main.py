@@ -1,6 +1,5 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def split_path(path):
+        return os.path.split(path)
+import random
+print(random.randint(0, 100))
