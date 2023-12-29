@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
