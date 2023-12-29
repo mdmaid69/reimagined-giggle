@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import datetime
+def get_today_date():
+        return datetime.date.today()
