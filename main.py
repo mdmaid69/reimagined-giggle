@@ -1,4 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
