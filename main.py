@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
