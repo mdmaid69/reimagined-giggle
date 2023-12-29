@@ -1,5 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
