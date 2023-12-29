@@ -1,7 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
