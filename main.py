@@ -1,6 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
