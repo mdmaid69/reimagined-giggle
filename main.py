@@ -1,6 +1,5 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
