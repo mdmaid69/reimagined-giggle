@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def remove_duplicates(lst):
+        return list(set(lst))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
