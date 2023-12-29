@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
