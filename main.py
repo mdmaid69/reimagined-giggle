@@ -1,9 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
