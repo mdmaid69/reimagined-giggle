@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
