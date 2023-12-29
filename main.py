@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def count_characters(sentence):
+        return len(sentence)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
