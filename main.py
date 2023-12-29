@@ -1,8 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
