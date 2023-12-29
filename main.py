@@ -1,6 +1,8 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
