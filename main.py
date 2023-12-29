@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
