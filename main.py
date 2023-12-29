@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
