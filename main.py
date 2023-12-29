@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
