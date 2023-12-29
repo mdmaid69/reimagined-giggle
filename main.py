@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
