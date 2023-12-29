@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
