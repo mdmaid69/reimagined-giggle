@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def convert_to_hex(n):
+        return hex(n)
