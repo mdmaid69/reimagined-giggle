@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+name = "Python"
+print("Hello,", name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
