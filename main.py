@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
