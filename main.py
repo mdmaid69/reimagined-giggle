@@ -1,6 +1,6 @@
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_environment_variable(var):
+        return os.getenv(var)
