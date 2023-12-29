@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
