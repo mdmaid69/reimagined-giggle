@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
