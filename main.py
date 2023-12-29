@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def add_numbers(x, y):
-        return x + y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
