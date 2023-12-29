@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
