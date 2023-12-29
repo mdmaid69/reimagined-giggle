@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
