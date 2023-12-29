@@ -1,4 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_area(radius):
-        return 3.14 * radius * radius
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
