@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+print("Hello, world!")
