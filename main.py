@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_string_from_array(array):
+        return array.tobytes()
