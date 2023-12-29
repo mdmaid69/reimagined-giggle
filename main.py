@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
