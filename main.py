@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
