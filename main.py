@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def subtract_numbers(x, y):
+        return x - y
+  def square_number(x):
+        return x**2
