@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def is_palindrome(s):
-        return s == s[::-1]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
