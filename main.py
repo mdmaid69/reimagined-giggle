@@ -1,6 +1,4 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+print(math.pi)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
