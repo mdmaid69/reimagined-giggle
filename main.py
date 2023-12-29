@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import time
+def get_current_time():
+        return time.time()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
