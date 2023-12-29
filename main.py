@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
