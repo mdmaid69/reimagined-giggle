@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_volume(length, width, height):
+        return length * width * height
