@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def square_number(x):
+        return x**2
