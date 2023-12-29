@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
