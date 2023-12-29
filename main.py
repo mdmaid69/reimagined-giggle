@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
