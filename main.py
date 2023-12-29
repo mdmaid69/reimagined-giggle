@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
