@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
