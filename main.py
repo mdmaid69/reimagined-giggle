@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
