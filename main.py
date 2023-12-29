@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+name = "Python"
+print("Hello,", name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
