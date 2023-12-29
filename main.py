@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-text = "Hello, world!"
-print("Characters:", len(text))
+def find_min(numbers):
+        return min(numbers)
+import tensorflow as tf
+print(tf.__version__)
