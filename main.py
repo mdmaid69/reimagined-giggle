@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+for i in range(5):
+        print(i)
