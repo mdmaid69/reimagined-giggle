@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def divide_numbers(x, y):
+        return x / y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
