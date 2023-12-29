@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
