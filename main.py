@@ -1,7 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import platform
+def get_python_version():
+        return platform.python_version()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
