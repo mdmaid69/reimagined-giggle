@@ -1,4 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-print([x**2 for x in range(10)])
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
