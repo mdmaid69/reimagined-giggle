@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
