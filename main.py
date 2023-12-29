@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
