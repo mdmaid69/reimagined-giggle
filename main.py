@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
