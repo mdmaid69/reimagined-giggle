@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_as_list(array):
-        return list(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
