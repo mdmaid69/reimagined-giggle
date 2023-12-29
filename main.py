@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
