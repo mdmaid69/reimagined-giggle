@@ -1,6 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
