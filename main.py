@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
