@@ -1,6 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
