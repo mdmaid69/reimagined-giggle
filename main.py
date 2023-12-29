@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
