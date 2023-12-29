@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import tensorflow as tf
+print(tf.__version__)
+  def convert_to_octal(n):
+        return oct(n)
