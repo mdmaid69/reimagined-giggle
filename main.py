@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
