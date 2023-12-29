@@ -1,4 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  def calculate_area_rectangle(l, w):
-        return l * w
+def reverse_list(lst):
+        return lst[::-1]
+def is_palindrome(s):
+        return s == s[::-1]
