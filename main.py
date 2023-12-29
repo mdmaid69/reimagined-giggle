@@ -1,4 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_speed(distance, time):
-        return distance / time
+print([x**2 for x in range(10)])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
