@@ -1,9 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
