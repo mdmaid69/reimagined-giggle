@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import random
+print(random.randint(0, 100))
