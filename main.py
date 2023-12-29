@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
