@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
