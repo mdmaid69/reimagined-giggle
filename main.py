@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
