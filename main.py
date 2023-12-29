@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_user_list():
+        return collections.UserList()
