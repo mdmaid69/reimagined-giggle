@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
