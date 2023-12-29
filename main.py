@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
