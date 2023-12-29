@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
