@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
