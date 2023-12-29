@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
