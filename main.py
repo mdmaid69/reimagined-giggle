@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
