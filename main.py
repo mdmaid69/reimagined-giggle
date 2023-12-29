@@ -1,6 +1,9 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
