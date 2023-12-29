@@ -1,6 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
