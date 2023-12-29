@@ -1,6 +1,11 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
