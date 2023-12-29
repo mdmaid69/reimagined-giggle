@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-from collections import Counter
-print(Counter("hello world"))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
