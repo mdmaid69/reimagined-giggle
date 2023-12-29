@@ -1,6 +1,9 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
