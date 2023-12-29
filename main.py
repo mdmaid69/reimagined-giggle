@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_item(array, i):
+        return array[i]
+import collections
+def create_stack():
+        return collections.deque()
