@@ -1,5 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import platform
+def get_os_info():
+        return platform.uname()
