@@ -1,8 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
