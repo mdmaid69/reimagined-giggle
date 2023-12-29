@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
