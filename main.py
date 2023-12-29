@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import sys
+def exit_program():
+        sys.exit()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
