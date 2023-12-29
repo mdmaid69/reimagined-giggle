@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
