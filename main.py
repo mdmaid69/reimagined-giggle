@@ -1,5 +1,11 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def count_words(sentence):
-        return len(sentence.split())
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
