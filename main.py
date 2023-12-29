@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def cube_number(x):
+        return x**3
