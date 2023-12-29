@@ -1,7 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
