@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_queue():
+        return collections.deque()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
