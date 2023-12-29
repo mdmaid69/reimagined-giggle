@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
