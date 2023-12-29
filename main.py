@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def reverse_list(lst):
+        return lst[::-1]
