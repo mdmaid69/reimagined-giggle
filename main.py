@@ -1,9 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
