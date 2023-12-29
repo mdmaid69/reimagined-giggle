@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import os
+print(os.getcwd())
