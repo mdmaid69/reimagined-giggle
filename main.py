@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
