@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
