@@ -1,6 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
