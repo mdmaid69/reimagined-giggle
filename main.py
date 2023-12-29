@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
