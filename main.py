@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
