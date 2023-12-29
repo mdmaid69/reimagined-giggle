@@ -1,5 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
