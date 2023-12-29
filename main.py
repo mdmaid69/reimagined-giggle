@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import time
+print(time.time())
