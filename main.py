@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
