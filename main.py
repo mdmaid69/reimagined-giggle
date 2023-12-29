@@ -1,5 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-for i in range(5):
-        print(i)
+  def cube_number(x):
+        return x**3
+def calculate_volume(length, width, height):
+        return length * width * height
