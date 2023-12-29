@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_as_list(array):
+        return list(array)
