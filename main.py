@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  def reverse_list(lst):
-        return lst[::-1]
+def count_words(sentence):
+        return len(sentence.split())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
