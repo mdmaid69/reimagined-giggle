@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_as_float(array):
+        return float(array[0])
