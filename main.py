@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
