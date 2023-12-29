@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
