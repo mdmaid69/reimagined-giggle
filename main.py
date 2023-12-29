@@ -1,6 +1,5 @@
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+print(random.randint(0, 100))
