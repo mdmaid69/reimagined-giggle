@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import collections
+def create_user_list():
+        return collections.UserList()
