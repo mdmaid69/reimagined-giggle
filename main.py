@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def cube_number(x):
-        return x**3
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_typecode(array):
+        return array.typecode
