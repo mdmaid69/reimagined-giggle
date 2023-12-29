@@ -1,6 +1,3 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+for i in range(10): print(i)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
