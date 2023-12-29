@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
