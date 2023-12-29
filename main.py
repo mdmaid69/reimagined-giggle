@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
