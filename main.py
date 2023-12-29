@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
