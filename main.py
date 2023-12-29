@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
