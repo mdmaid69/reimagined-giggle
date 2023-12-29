@@ -1,7 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
