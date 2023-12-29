@@ -1,5 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_density(mass, volume):
+        return mass / volume
