@@ -1,6 +1,10 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
