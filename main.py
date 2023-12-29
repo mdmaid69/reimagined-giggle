@@ -1,7 +1,7 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
