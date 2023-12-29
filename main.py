@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
