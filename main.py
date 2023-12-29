@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
