@@ -1,10 +1,7 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def get_array_as_set(array):
+        return set(array)
