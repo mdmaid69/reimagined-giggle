@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
