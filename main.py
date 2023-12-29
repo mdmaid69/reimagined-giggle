@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+from collections import Counter
+print(Counter("hello world"))
