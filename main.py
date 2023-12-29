@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def create_user_string():
+        return collections.UserString()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
