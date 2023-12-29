@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
