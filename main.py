@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
