@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def convert_to_hex(n):
+        return hex(n)
+import random
+print(random.randint(0, 100))
