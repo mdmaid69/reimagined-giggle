@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
