@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_area_circle(r):
+        return 3.14 * r**2
