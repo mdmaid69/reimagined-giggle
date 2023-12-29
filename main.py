@@ -1,7 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
