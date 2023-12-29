@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
