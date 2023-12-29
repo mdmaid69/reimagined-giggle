@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_set(array):
+        return set(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
