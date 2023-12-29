@@ -1,5 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import time
+def get_current_time():
+        return time.ctime()
