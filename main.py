@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
