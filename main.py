@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_work(force, distance):
-        return force * distance
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
