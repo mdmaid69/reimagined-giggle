@@ -1,5 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
