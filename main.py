@@ -1,5 +1,10 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
