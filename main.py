@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
