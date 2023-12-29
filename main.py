@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
