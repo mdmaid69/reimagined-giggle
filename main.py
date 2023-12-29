@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
