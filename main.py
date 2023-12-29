@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+print(sum(range(10)))
+import datetime
+def get_today_date():
+        return datetime.date.today()
