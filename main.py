@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
