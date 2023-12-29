@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import platform
-def get_os_info():
-        return platform.uname()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def reverse_array(array):
+        array.reverse()
