@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
