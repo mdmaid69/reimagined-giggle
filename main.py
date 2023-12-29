@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
