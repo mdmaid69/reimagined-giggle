@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
