@@ -1,4 +1,4 @@
-def find_min(lst):
-        return min(lst)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
