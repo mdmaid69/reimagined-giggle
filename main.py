@@ -1,4 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
