@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
