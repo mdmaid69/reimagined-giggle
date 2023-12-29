@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
