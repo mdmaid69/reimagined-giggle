@@ -1,7 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
