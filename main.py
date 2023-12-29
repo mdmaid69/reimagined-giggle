@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
