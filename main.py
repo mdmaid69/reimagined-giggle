@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
