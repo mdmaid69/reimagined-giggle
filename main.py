@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_user_list():
-        return collections.UserList()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
