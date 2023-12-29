@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
