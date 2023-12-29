@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
