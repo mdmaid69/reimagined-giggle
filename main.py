@@ -1,10 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
