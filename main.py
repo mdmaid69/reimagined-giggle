@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
