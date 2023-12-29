@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_as_int(array):
+        return int(array[0])
