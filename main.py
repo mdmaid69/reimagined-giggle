@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def sort_list(lst):
-        return sorted(lst)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
