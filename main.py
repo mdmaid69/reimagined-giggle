@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def convert_to_octal(n):
-        return oct(n)
+def sort_list(lst):
+        return sorted(lst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
