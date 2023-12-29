@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
