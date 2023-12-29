@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def add_numbers(x, y):
+        return x + y
+def calculate_volume(length, width, height):
+        return length * width * height
