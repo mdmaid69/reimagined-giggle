@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def print_python_version():
+        print(sys.version)
