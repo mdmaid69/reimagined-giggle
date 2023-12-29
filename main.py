@@ -1,5 +1,10 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
