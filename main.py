@@ -1,7 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def square_number(x):
+        return x**2
