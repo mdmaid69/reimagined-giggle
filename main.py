@@ -1,7 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
