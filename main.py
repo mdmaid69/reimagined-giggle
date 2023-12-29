@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
