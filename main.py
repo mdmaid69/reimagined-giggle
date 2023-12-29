@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
