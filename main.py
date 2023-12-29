@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_itemsize(array):
+        return array.itemsize
