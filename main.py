@@ -1,9 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
