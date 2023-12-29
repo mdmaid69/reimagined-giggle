@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def sort_list(lst):
+        return sorted(lst)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
