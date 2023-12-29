@@ -1,8 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
