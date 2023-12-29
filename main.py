@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
