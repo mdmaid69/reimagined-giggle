@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import platform
+def get_os_info():
+        return platform.uname()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
