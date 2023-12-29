@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
