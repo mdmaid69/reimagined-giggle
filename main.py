@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-def count_elements(lst):
-        return len(lst)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_pressure(force, area):
+        return force / area
