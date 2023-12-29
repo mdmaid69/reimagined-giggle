@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def multiply_numbers(x, y):
+        return x * y
