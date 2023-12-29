@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_acceleration(speed, time):
+        return speed / time
