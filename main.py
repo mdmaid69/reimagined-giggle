@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
