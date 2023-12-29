@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_speed(distance, time):
+        return distance / time
+import sys
+def exit_program():
+        sys.exit()
