@@ -1,5 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def square_number(x):
-        return x**2
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
