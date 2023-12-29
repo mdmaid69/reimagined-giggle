@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def find_max(numbers):
-        return max(numbers)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import os
+def get_current_working_directory():
+        return os.getcwd()
