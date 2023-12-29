@@ -1,6 +1,4 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+print([x**2 for x in range(10)])
