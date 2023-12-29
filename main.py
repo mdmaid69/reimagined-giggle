@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def reverse_string(s):
-        return s[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
