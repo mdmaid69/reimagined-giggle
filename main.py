@@ -1,9 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
