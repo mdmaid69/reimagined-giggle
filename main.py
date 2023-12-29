@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def clear_array(array):
+        array *= 0
