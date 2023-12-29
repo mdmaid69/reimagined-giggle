@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
