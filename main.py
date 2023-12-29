@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
