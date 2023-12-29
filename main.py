@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
