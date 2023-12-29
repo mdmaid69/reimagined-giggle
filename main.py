@@ -1,8 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_as_int(array):
+        return int(array[0])
