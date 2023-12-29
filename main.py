@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
