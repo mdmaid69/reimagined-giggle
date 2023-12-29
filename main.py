@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import random
+print(random.randint(0, 100))
