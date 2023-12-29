@@ -1,7 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import time
+def get_current_time():
+        return time.ctime()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
