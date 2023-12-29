@@ -1,5 +1,3 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+print(sum(range(10)))
