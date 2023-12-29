@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+print(os.getcwd())
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
