@@ -1,7 +1,5 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def find_min(lst):
+        return min(lst)
