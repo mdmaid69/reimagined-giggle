@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
