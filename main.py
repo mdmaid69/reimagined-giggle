@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def square_number(x):
+        return x**2
