@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
