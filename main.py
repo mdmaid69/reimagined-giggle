@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
