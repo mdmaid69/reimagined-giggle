@@ -1,9 +1,8 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def convert_string_to_array(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
