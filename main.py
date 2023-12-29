@@ -1,7 +1,8 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
