@@ -1,6 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
