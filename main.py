@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def reverse_array(array):
+        array.reverse()
