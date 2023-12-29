@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
