@@ -1,3 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-for i in range(10): print(i)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
