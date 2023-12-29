@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sys
+def exit_program():
+        sys.exit()
