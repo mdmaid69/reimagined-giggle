@@ -1,6 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def find_max(lst):
-        return max(lst)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
