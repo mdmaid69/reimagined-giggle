@@ -1,8 +1,7 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
