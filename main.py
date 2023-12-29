@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import getpass
+def get_username():
+        return getpass.getuser()
