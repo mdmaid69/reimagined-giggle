@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import sys
-print(sys.version)
+def is_even(n):
+        return n % 2 == 0
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
