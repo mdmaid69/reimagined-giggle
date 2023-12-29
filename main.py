@@ -1,6 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def find_max(numbers):
+        return max(numbers)
