@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
