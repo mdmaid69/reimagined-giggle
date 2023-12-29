@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
