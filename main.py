@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
