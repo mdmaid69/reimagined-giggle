@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import time
+def get_current_time():
+        return time.ctime()
