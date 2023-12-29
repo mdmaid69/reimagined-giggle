@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
