@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def split_path(path):
+        return os.path.split(path)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
