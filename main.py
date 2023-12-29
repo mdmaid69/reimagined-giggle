@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def divide_numbers(x, y):
+        return x / y
