@@ -1,4 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-print([x**2 for x in range(10)])
+def convert_to_octal(n):
+        return oct(n)
+  def convert_to_binary(n):
+        return bin(n)
