@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
