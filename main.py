@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
