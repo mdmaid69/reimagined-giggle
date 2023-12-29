@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import re
+print(re.match("h.*o", "hello world"))
