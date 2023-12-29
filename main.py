@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
