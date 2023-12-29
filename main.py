@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
