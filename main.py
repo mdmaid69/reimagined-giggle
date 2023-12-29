@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def check_if_array_contains_item(array, item):
+        return item in array
