@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-x = 10
-y = 20
-print("Sum:", x + y)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
