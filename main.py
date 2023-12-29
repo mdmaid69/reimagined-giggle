@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
