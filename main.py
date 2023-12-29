@@ -1,7 +1,12 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
