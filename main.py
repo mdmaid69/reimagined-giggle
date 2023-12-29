@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
