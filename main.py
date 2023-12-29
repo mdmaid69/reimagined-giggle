@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import random
+def roll_die():
+        return random.randint(1, 6)
