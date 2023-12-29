@@ -1,8 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def remove_duplicates(lst):
+        return list(set(lst))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
