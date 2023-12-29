@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
