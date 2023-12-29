@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def is_palindrome(s):
-        return s == s[::-1]
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
