@@ -1,8 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import os
+print(os.getcwd())
