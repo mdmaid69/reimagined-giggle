@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
