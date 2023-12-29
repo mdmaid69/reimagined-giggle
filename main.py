@@ -1,10 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
