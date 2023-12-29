@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
