@@ -1,8 +1,7 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
