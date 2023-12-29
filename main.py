@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_current_directory():
+        return os.getcwd()
