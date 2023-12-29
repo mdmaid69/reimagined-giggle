@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  def remove_duplicates(lst):
+        return list(set(lst))
