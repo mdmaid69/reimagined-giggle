@@ -1,5 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def find_min(numbers):
-        return min(numbers)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
