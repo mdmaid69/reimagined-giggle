@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
