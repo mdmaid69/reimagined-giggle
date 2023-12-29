@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  def square_number(x):
-        return x**2
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
