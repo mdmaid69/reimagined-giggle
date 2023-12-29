@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
