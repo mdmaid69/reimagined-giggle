@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
