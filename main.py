@@ -1,5 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
