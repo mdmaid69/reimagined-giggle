@@ -1,4 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def subtract_numbers(x, y):
-        return x - y
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
