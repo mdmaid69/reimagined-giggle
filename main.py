@@ -1,8 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
