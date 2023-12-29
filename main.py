@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
