@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import datetime
+print(datetime.datetime.now())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
