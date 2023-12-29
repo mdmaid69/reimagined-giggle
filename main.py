@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_counter():
-        return collections.Counter()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def convert_to_octal(n):
+        return oct(n)
