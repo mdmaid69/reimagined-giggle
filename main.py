@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
