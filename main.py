@@ -1,5 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
