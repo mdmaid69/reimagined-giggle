@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
