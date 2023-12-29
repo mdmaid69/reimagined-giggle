@@ -1,6 +1,8 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
