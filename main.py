@@ -1,5 +1,5 @@
 import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_user_string():
-        return collections.UserString()
+def convert_to_json(data):
+        return json.dumps(data)
+def convert_to_octal(n):
+        return oct(n)
