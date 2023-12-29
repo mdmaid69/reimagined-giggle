@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import time
-def get_current_time():
-        return time.time()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sys
+print(sys.version)
