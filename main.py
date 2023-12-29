@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
