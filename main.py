@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def divide_numbers(x, y):
+        return x / y
