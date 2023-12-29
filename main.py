@@ -1,6 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
