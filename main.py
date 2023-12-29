@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_int(array):
+        return int(array[0])
