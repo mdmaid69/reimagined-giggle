@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
