@@ -1,5 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
