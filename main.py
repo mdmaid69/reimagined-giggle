@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
