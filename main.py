@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
