@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
