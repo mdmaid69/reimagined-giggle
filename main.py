@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import sys
+  def get_python_version():
+        return sys.version
