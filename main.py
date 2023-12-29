@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
