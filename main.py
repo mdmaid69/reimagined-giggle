@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
