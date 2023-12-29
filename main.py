@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
