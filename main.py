@@ -1,10 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def calculate_arc_sine(x):
+        return math.asin(x)
