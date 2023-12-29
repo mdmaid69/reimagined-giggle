@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+for i in range(10): print(i)
