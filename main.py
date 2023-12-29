@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+print(os.getcwd())
