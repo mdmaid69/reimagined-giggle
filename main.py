@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import collections
+def create_user_list():
+        return collections.UserList()
