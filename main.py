@@ -1,7 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def reverse_array(array):
+        array.reverse()
