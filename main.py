@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import random
-print(random.randint(0, 100))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
