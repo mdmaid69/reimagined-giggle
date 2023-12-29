@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
