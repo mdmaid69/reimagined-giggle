@@ -1,5 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def count_characters(sentence):
+        return len(sentence)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
