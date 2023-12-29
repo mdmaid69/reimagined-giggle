@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import collections
+def create_counter():
+        return collections.Counter()
