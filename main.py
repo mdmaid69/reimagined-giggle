@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
