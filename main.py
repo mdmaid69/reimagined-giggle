@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
