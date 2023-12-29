@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
