@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
