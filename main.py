@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
