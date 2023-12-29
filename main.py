@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
