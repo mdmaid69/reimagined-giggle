@@ -1,8 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
