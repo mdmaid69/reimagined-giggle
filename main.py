@@ -1,8 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import sys
-def print_python_version():
-        return sys.version
+def get_array_as_repr(array):
+        return repr(array)
