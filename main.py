@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
