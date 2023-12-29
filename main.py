@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import os
+def change_working_directory(path):
+        os.chdir(path)
