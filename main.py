@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
