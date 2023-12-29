@@ -1,8 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def get_array_as_repr(array):
+        return repr(array)
