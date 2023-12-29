@@ -1,5 +1,12 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def is_even(n):
-        return n % 2 == 0
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
