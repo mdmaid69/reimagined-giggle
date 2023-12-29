@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def is_odd(n):
+        return n % 2 != 0
