@@ -1,6 +1,6 @@
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
