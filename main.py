@@ -1,5 +1,5 @@
+def square_number(x):
+        return x**2
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def find_max(lst):
-        return max(lst)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
