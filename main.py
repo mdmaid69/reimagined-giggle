@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
   def get_file_ino(file_name):
         return os.stat(file_name).st_ino
