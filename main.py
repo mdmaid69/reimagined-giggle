@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
