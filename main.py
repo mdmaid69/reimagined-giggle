@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import random
-print(random.randint(0, 100))
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
