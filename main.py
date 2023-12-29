@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def convert_to_hex(n):
-        return hex(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def count_words(sentence):
+        return len(sentence.split())
