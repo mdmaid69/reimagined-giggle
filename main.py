@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+print(re.match("h.*o", "hello world"))
