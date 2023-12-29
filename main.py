@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def convert_to_binary(n):
+        return bin(n)
