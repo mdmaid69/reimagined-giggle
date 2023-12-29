@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def is_odd(n):
+        return n % 2 != 0
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
