@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
