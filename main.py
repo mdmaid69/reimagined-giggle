@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def find_max(numbers):
-        return max(numbers)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
