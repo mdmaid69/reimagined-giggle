@@ -1,5 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def cube_number(x):
-        return x**3
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
