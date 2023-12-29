@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
