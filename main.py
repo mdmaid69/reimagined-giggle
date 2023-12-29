@@ -1,7 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
