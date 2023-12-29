@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
