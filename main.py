@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
