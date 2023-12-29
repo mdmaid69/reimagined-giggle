@@ -1,8 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def add_numbers(x, y):
+        return x + y
