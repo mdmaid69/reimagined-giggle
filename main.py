@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def convert_to_hex(n):
+        return hex(n)
