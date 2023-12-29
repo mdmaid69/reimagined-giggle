@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_work(force, distance):
-        return force * distance
+  def add_numbers(x, y):
+        return x + y
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
