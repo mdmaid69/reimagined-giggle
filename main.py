@@ -1,4 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-print("Hello, world!")
+def get_array_as_repr(array):
+        return repr(array)
