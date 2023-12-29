@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
