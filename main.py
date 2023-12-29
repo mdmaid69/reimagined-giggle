@@ -1,5 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sys
-print(sys.version)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
