@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
