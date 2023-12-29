@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_sign(x):
+        return math.copysign(1, x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
