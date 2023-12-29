@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import time
-def get_current_time():
-        return time.time()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_as_float(array):
+        return float(array[0])
