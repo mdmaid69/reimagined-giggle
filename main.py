@@ -1,5 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
