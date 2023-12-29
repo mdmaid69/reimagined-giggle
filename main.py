@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
