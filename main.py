@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
