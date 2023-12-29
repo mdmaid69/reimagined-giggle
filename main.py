@@ -1,5 +1,8 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_bytes_from_array(array):
+        return array.tobytes()
