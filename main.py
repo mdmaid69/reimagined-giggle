@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
