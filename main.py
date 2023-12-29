@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
