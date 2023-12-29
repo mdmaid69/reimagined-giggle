@@ -1,8 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
