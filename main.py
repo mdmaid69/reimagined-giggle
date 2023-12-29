@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
