@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import random
+print(random.randint(0, 100))
 import os
-print(os.getcwd())
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
