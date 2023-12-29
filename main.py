@@ -1,6 +1,5 @@
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
