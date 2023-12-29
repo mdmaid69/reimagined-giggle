@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_max(numbers):
+        return max(numbers)
