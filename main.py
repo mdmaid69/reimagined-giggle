@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_power(work, time):
+        return work / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
