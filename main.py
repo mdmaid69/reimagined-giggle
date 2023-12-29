@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def append_to_array(array, item):
+        array.append(item)
