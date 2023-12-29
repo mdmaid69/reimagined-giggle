@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
