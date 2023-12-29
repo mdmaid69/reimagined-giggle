@@ -1,7 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def count_words(sentence):
+        return len(sentence.split())
