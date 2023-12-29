@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
