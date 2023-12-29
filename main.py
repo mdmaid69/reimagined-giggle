@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
