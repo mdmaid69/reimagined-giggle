@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
