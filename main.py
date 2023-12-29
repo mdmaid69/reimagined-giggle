@@ -1,5 +1,8 @@
-import sys
-print(sys.version)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
