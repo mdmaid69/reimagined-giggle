@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import time
+print(time.time())
