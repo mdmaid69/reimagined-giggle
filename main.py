@@ -1,6 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
