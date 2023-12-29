@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
