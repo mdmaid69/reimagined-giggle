@@ -1,10 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
