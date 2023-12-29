@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
