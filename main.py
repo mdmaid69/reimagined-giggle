@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def add_numbers(a, b):
+        return a + b
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
