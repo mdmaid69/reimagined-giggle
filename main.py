@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
