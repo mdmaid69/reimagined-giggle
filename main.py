@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
