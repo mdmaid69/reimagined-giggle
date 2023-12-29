@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def count_elements(lst):
+        return len(lst)
