@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def change_working_directory(path):
+        os.chdir(path)
