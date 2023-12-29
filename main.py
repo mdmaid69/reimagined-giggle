@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
