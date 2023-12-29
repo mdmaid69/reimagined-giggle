@@ -1,6 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
