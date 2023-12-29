@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
