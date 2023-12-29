@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
