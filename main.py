@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def add_numbers(a, b):
-        return a + b
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
