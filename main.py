@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
