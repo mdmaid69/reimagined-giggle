@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
