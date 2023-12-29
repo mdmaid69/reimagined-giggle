@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_floor(x):
+        return math.floor(x)
