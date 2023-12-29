@@ -1,5 +1,8 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
