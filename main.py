@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  def is_odd(n):
+        return n % 2 != 0
