@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
