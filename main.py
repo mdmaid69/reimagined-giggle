@@ -1,3 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-print(sum(range(10)))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
