@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
