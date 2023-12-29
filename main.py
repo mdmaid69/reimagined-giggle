@@ -1,5 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def split_path(path):
-        return os.path.split(path)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
