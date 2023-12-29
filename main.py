@@ -1,6 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
