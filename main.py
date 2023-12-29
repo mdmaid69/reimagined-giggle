@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
