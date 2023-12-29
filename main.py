@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_power(work, time):
-        return work / time
+print("Hello, world!")
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
