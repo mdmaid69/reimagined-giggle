@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_area(radius):
+        return 3.14 * radius * radius
