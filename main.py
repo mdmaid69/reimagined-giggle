@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
