@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def convert_to_octal(n):
-        return oct(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
