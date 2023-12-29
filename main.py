@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
