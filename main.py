@@ -1,6 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
