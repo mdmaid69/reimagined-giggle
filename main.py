@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
