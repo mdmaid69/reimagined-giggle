@@ -1,9 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_acceleration(speed, time):
+        return speed / time
