@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
