@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def convert_to_binary(n):
-        return bin(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
