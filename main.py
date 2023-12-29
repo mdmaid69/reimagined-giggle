@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
