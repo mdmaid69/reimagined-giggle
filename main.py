@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
