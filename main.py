@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
