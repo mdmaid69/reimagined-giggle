@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import getpass
-def get_username():
-        return getpass.getuser()
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
