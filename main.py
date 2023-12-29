@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def is_even(n):
+        return n % 2 == 0
