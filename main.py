@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
