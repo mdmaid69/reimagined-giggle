@@ -1,6 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import time
-def get_current_time():
-        return time.ctime()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def subtract_numbers(x, y):
+        return x - y
