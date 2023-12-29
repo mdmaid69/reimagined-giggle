@@ -1,5 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_arc_sine(x):
+        return math.asin(x)
