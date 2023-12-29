@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
