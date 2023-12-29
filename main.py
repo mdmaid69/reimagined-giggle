@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
