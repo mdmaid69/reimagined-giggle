@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-name = "Python"
-print("Hello,", name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def convert_to_octal(n):
+        return oct(n)
