@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
   def get_file_rdev(file_name):
         return os.stat(file_name).st_rdev
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
