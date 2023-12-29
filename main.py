@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import sys
+def exit_program():
+        sys.exit()
