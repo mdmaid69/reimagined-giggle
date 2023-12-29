@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
