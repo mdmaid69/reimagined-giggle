@@ -1,6 +1,5 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
