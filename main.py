@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
