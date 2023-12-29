@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import sys
+def print_python_version():
+        print(sys.version)
+x = 10
+y = 20
+print("Sum:", x + y)
