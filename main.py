@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import sys
+  def get_python_version():
+        return sys.version
