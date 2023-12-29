@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def multiply_numbers(x, y):
-        return x * y
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
