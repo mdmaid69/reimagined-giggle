@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def convert_to_binary(n):
-        return bin(n)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
