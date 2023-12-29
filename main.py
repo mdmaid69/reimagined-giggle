@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def remove_duplicates(lst):
+        return list(set(lst))
