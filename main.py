@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def get_array_index(array, item):
+        return array.index(item)
