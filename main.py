@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
