@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import re
-print(re.match("h.*o", "hello world"))
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
