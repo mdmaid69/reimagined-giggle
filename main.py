@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
