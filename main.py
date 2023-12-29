@@ -1,5 +1,8 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
