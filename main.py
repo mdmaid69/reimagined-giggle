@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  def add_numbers(x, y):
+        return x + y
