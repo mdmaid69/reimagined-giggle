@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
