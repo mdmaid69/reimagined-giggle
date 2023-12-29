@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
