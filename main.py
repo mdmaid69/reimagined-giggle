@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import random
+def roll_die():
+        return random.randint(1, 6)
