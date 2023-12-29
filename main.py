@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import random
+print(random.randint(0, 100))
