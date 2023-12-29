@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
