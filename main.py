@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
