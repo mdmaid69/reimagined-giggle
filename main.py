@@ -1,6 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
