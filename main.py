@@ -1,7 +1,8 @@
 import array
-def convert_string_to_array(string, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
