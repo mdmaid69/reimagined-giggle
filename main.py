@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def divide_numbers(x, y):
-        return x / y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
