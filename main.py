@@ -1,3 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-for i in range(10): print(i)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
