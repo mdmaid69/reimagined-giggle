@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
