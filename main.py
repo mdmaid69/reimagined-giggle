@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+text = "Hello, world!"
+print("Uppercase:", text.upper())
