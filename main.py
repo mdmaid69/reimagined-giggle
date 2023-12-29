@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def convert_to_octal(n):
-        return oct(n)
+def cube_number(x):
+        return x**3
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
