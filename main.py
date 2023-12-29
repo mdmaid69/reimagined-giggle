@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_area_circle(r):
+        return 3.14 * r**2
