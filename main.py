@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import datetime
+def get_today_date():
+        return datetime.date.today()
