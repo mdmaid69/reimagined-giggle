@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_density(mass, volume):
+        return mass / volume
+import tensorflow as tf
+print(tf.__version__)
