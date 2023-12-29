@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def divide_numbers(x, y):
-        return x / y
+def add_numbers(a, b):
+        return a + b
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
