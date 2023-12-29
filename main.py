@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
