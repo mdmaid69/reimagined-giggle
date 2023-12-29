@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
