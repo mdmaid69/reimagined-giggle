@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def append_to_array(array, item):
+        array.append(item)
