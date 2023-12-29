@@ -1,5 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_speed(distance, time):
-        return distance / time
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
