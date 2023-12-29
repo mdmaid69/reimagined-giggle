@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_itemsize(array):
+        return array.itemsize
