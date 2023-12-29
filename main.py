@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  def multiply_numbers(x, y):
+        return x * y
