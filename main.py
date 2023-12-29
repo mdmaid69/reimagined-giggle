@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import collections
-def create_user_string():
-        return collections.UserString()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
