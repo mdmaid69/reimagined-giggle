@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_list_from_array(array):
+        return array.tolist()
