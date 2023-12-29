@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def is_palindrome(s):
+        return s == s[::-1]
+import collections
+def create_user_dict():
+        return collections.UserDict()
