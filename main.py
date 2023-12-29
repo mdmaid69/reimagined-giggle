@@ -1,4 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+print([x**2 for x in range(10)])
+import array
+def get_array_as_float(array):
+        return float(array[0])
