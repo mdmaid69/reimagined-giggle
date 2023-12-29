@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
