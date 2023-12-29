@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
