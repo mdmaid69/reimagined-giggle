@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
