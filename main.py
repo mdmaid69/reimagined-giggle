@@ -1,4 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-print([x**2 for x in range(10)])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
