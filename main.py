@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
