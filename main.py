@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
