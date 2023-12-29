@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
