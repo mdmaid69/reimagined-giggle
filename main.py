@@ -1,7 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def find_unique_words(sentence):
+        return set(sentence.split())
