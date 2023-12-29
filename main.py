@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
