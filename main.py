@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
