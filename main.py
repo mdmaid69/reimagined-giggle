@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
