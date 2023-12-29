@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import sys
+def exit_program():
+        sys.exit()
