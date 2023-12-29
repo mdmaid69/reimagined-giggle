@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import os
-print(os.getcwd())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def reverse_list(lst):
+        return lst[::-1]
