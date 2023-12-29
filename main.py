@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
