@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import sys
+def print_python_version():
+        print(sys.version)
