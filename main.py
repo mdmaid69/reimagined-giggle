@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
