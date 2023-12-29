@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
