@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def convert_to_octal(n):
-        return oct(n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
