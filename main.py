@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
