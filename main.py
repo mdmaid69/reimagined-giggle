@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def convert_to_octal(n):
+        return oct(n)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
