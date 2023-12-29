@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import time
+def get_time_since_epoch():
+        return time.time()
