@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
