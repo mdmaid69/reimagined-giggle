@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
