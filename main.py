@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_density(mass, volume):
-        return mass / volume
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
