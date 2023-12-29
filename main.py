@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def square_number(x):
+        return x**2
+import numpy as np
+print(np.array([1, 2, 3]))
