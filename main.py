@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_work(force, distance):
+        return force * distance
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
