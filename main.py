@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_str(array):
+        return str(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
