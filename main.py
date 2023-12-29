@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+for i in range(10): print(i)
 import array
-def reverse_array(array):
-        array.reverse()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
