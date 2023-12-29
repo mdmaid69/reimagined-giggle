@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import collections
+def create_user_string():
+        return collections.UserString()
