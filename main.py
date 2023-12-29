@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
