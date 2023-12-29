@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def multiply_numbers(x, y):
-        return x * y
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
