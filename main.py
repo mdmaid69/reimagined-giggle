@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
