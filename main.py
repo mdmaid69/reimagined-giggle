@@ -1,9 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def create_user_list():
+        return collections.UserList()
