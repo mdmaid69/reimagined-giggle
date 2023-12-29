@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import time
+print(time.time())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
