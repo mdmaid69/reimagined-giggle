@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_min(lst):
+        return min(lst)
