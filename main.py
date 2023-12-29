@@ -1,4 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def add_numbers(a, b):
-        return a + b
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
