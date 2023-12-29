@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
