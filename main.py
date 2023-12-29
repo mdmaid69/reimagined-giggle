@@ -1,7 +1,8 @@
-  def square_number(x):
-        return x**2
 import array
-def convert_string_to_array(string, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
