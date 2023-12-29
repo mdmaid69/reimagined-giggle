@@ -1,6 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
