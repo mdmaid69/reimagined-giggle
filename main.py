@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
