@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def find_min(lst):
+        return min(lst)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
