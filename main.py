@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_arc_sine(x):
+        return math.asin(x)
