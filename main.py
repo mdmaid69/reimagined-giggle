@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_bytes(array):
+        return bytes(array)
