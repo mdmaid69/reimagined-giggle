@@ -1,7 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
