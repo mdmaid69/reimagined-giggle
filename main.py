@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import time
+def get_time_since_epoch():
+        return time.time()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
