@@ -1,7 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def convert_to_json(data):
+        return json.dumps(data)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
