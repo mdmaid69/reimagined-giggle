@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
