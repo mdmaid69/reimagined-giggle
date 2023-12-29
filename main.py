@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import time
+def get_current_time():
+        return time.time()
