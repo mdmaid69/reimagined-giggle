@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_pressure(force, area):
-        return force / area
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
