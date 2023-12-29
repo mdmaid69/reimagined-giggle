@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def count_words(sentence):
+        return len(sentence.split())
+import tensorflow as tf
+print(tf.__version__)
