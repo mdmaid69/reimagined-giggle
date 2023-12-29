@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
