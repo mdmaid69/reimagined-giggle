@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_density(mass, volume):
-        return mass / volume
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
