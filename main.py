@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
