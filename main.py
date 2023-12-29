@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import os
+def get_current_working_directory():
+        return os.getcwd()
