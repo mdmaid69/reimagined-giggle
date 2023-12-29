@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
