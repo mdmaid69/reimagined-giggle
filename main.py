@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
