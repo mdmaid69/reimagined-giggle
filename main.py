@@ -1,5 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
