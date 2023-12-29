@@ -1,8 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
