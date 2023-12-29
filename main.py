@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_min(lst):
+        return min(lst)
