@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def is_even(n):
+        return n % 2 == 0
