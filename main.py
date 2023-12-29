@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import os
+  def split_path(path):
+        return os.path.split(path)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
