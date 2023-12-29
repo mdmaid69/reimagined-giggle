@@ -1,8 +1,6 @@
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def clear_array(array):
+        array *= 0
