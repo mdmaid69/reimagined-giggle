@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
