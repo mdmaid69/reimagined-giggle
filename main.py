@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
