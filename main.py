@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_itemsize(array):
+        return array.itemsize
