@@ -1,6 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
