@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def is_odd(n):
+        return n % 2 != 0
+  def convert_to_binary(n):
+        return bin(n)
