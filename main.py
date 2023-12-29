@@ -1,6 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
