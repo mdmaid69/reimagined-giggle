@@ -1,8 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import unittest
+import socket
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def convert_to_hex(n):
+        return hex(n)
