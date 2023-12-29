@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
