@@ -1,6 +1,5 @@
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_speed(distance, time):
+        return distance / time
