@@ -1,6 +1,7 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
