@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
