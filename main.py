@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
