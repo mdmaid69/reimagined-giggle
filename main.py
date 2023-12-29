@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
