@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
