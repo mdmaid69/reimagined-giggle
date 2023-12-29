@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
