@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
