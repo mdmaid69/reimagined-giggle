@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import tensorflow as tf
+print(tf.__version__)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
