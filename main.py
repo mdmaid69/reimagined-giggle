@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_item(array, i):
+        return array[i]
