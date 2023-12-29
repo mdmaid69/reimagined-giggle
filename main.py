@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
