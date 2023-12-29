@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
