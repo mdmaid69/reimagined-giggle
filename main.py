@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_item(array, i):
+        return array[i]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
