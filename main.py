@@ -1,8 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import datetime
+def get_today_date():
+        return datetime.date.today()
