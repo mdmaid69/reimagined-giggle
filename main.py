@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_user_list():
+        return collections.UserList()
