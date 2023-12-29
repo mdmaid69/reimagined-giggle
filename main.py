@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
