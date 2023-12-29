@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_arc_cosine(x):
+        return math.acos(x)
