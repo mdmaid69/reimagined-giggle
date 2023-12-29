@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def greet(name):
+        print(f"Hello, {name}!")
