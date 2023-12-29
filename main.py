@@ -1,6 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
