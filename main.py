@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  def cube_number(x):
-        return x**3
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
