@@ -1,6 +1,8 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
