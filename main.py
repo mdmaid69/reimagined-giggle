@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
