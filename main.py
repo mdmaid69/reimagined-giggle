@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
