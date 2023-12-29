@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
