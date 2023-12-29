@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def convert_to_octal(n):
-        return oct(n)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
