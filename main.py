@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
