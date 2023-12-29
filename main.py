@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
