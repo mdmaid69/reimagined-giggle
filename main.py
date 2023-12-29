@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
