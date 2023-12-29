@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
