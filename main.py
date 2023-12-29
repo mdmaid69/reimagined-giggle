@@ -1,6 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
