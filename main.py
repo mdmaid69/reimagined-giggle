@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_array_to_list(array):
+        return array.tolist()
+  def convert_to_binary(n):
+        return bin(n)
