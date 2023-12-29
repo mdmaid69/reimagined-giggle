@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
