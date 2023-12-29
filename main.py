@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
