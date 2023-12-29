@@ -1,5 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_to_binary(n):
+        return bin(n)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
