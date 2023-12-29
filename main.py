@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def count_words(sentence):
+        return len(sentence.split())
