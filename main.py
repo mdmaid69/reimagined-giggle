@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
