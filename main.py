@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
