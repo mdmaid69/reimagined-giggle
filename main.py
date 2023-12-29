@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
