@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_work(force, distance):
+        return force * distance
