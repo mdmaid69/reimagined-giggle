@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
