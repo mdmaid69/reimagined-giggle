@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
