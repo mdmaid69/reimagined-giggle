@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
