@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-for i in range(5):
-        print(i)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
