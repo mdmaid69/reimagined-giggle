@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
