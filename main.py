@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
