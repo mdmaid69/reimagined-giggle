@@ -1,5 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
   import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_pressure(force, area):
-        return force / area
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
