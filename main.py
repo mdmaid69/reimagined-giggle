@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
