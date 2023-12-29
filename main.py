@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
