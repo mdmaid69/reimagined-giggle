@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_list(array):
+        return list(array)
