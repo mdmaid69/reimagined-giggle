@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
