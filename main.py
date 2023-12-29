@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
