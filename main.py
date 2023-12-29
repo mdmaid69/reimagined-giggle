@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
