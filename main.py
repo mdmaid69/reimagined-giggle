@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def convert_to_hex(n):
+        return hex(n)
