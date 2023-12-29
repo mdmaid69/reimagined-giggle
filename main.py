@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import tensorflow as tf
+print(tf.__version__)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
