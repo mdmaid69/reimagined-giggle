@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
