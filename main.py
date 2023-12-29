@@ -1,4 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def square_number(x):
-        return x**2
+import sys
+def exit_program():
+        sys.exit()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
