@@ -1,5 +1,5 @@
+import datetime
+print(datetime.datetime.now())
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
