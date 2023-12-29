@@ -1,5 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
