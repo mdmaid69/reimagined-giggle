@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
