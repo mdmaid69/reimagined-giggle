@@ -1,4 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
