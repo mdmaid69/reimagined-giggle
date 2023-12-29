@@ -1,6 +1,7 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+print(math.pi)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
