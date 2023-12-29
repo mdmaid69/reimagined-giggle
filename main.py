@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
