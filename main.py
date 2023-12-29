@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import time
+print(time.time())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
