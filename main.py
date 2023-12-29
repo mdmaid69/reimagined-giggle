@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
