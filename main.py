@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
