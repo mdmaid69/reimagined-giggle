@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
