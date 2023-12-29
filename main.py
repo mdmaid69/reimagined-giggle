@@ -1,6 +1,3 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_acceleration(speed, time):
+        return speed / time
+print([x**2 for x in range(10)])
