@@ -1,6 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import time
+def get_current_time():
+        return time.ctime()
