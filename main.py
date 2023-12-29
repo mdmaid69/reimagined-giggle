@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def count_elements(lst):
+        return len(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
