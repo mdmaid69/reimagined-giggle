@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def sort_list(lst):
+        return sorted(lst)
