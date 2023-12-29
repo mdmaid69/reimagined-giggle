@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_pressure(force, area):
+        return force / area
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
