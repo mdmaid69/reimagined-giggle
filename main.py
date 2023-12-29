@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
