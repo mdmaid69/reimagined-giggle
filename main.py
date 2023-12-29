@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def set_array_item(array, i, item):
+        array[i] = item
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
