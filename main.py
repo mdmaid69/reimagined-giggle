@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
