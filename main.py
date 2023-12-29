@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
