@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
