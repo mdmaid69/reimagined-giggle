@@ -1,6 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
