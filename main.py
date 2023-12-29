@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_speed(distance, time):
+        return distance / time
+import os
+print(os.getcwd())
