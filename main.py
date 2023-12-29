@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
