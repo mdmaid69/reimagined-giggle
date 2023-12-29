@@ -1,6 +1,6 @@
-  def cube_number(x):
-        return x**3
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import random
+def roll_die():
+        return random.randint(1, 6)
