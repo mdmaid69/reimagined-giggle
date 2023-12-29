@@ -1,6 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def get_array_as_repr(array):
+        return repr(array)
