@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+from collections import Counter
+print(Counter("hello world"))
