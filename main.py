@@ -1,10 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import os
+def get_current_working_directory():
+        return os.getcwd()
