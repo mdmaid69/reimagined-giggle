@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
