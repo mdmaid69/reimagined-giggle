@@ -1,5 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_absolute_value(x):
+        return math.fabs(x)
