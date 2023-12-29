@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def greet(name):
-        print(f"Hello, {name}!")
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def find_min(numbers):
+        return min(numbers)
