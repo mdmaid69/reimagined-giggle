@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import tensorflow as tf
+print(tf.__version__)
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_item_count(array, item):
+        return array.count(item)
