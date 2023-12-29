@@ -1,7 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
