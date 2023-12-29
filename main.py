@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
