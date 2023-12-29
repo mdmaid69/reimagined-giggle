@@ -1,5 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import collections
+def create_queue():
+        return collections.deque()
