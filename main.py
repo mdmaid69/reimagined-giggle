@@ -1,5 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import random
-print(random.randint(0, 100))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
