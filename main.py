@@ -1,7 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def reverse_list(lst):
+        return lst[::-1]
