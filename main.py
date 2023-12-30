@@ -1,7 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
