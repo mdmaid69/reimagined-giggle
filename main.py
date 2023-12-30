@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_environment_variable(var):
+        return os.getenv(var)
+def find_unique_words(sentence):
+        return set(sentence.split())
