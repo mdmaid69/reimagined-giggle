@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
