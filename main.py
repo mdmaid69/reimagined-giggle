@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def subtract_numbers(x, y):
+        return x - y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
