@@ -1,8 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
