@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import collections
+def create_user_list():
+        return collections.UserList()
+import datetime
+def get_current_date():
+        return datetime.date.today()
