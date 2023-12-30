@@ -1,4 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def count_elements(lst):
-        return len(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def convert_to_octal(n):
+        return oct(n)
