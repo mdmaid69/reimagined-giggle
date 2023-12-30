@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
