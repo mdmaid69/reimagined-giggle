@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
