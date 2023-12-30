@@ -1,9 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
