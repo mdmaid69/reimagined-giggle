@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
