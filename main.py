@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def find_min(numbers):
+        return min(numbers)
