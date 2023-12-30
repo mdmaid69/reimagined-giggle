@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+print("Hello, world!")
 import array
 def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
