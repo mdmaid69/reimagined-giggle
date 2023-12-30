@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
