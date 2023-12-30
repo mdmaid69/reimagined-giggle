@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
