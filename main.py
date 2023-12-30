@@ -1,5 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import sys
-print(sys.version)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
