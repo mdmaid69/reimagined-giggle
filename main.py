@@ -1,5 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
