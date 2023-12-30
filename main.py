@@ -1,6 +1,12 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
