@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
