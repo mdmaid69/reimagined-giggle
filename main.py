@@ -1,8 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def count_words(sentence):
+        return len(sentence.split())
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_bytes_from_array(array):
+        return array.tobytes()
