@@ -1,6 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
