@@ -1,5 +1,11 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
