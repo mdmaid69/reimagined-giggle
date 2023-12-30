@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_as_str(array):
+        return str(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
