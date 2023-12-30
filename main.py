@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def square_number(x):
-        return x**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_speed(distance, time):
+        return distance / time
