@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_floor(x):
+        return math.floor(x)
