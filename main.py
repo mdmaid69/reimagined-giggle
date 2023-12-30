@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def add_numbers(a, b):
+        return a + b
