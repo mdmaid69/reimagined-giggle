@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
