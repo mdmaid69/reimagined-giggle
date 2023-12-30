@@ -1,5 +1,7 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
