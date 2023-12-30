@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
