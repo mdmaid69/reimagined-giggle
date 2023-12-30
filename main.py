@@ -1,7 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
