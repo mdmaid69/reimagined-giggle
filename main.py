@@ -1,6 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_gamma_function(x):
+        return math.gamma(x)
