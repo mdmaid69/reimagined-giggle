@@ -1,7 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def convert_to_octal(n):
+        return oct(n)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
