@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import sys
-print(sys.version)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
