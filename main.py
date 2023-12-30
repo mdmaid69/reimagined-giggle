@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_acceleration(speed, time):
+        return speed / time
