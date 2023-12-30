@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import time
-def get_current_time():
-        return time.time()
+import collections
+def create_counter():
+        return collections.Counter()
+  def add_numbers(x, y):
+        return x + y
