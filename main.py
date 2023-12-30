@@ -1,5 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_ceiling(x):
+        return math.ceil(x)
