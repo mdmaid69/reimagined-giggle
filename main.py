@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
