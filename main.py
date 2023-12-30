@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
