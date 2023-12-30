@@ -1,7 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  def is_odd(n):
+        return n % 2 != 0
