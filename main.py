@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_pressure(force, area):
-        return force / area
+def is_even(n):
+        return n % 2 == 0
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
