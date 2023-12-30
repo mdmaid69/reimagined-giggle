@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
