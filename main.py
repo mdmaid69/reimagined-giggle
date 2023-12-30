@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
