@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
