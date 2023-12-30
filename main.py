@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
