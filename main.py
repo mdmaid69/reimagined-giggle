@@ -1,6 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
