@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
