@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
