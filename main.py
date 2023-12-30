@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
