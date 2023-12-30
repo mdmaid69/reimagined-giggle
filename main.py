@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
