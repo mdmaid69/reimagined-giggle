@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def subtract_numbers(x, y):
+        return x - y
