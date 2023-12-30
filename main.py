@@ -1,5 +1,8 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
