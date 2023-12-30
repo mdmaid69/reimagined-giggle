@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
