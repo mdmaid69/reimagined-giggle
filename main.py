@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
