@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_volume(length, width, height):
-        return length * width * height
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
