@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
