@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
