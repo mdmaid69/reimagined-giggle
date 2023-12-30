@@ -1,6 +1,7 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_user_string():
-        return collections.UserString()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
