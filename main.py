@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
