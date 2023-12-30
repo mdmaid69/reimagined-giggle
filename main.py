@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def cube_number(x):
+        return x**3
+def calculate_power(work, time):
+        return work / time
