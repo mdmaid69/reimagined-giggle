@@ -1,8 +1,6 @@
 import os
-def get_current_working_directory():
-        return os.getcwd()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
