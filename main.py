@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def reverse_string(s):
+        return s[::-1]
+import collections
+def create_counter():
+        return collections.Counter()
