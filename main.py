@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import re
+print(re.match("h.*o", "hello world"))
