@@ -1,7 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import re
+print(re.match("h.*o", "hello world"))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
