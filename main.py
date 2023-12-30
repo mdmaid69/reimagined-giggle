@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
