@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
