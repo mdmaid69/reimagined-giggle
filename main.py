@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
