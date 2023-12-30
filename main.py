@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def is_palindrome(s):
-        return s == s[::-1]
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
