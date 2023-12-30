@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
