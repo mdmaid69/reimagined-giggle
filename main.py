@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
