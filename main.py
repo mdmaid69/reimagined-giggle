@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def subtract_numbers(x, y):
+        return x - y
