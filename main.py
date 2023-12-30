@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
