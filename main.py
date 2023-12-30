@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
