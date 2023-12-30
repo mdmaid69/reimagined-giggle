@@ -1,5 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def get_array_as_frozenset(array):
+        return frozenset(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
