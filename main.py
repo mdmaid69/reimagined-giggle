@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+text = "Hello, world!"
+print("Uppercase:", text.upper())
