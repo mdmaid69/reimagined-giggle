@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
