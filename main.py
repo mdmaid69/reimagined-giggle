@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import logging
-def log_message(message):
-        logging.info(message)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
