@@ -1,5 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import collections
-def create_queue():
-        return collections.deque()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def create_ordered_dict():
+        return collections.OrderedDict()
