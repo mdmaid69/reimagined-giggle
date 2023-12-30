@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
