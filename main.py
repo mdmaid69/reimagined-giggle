@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def count_elements(lst):
+        return len(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
