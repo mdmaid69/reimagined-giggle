@@ -1,5 +1,9 @@
-import sys
-def print_python_version():
-        print(sys.version)
-name = "Python"
-print("Hello,", name)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+def subtract_numbers(x, y):
+        return x - y
