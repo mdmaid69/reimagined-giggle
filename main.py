@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
