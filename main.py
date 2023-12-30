@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
