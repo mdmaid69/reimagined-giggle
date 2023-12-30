@@ -1,4 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-print([x**2 for x in range(10)])
+import time
+print(time.time())
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
