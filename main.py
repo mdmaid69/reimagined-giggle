@@ -1,6 +1,10 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
