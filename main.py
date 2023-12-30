@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
