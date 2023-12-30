@@ -1,6 +1,8 @@
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
