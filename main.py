@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def cube_number(x):
-        return x**3
+def calculate_volume(length, width, height):
+        return length * width * height
+import logging
+def log_message(message):
+        logging.info(message)
