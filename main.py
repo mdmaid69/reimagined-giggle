@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
