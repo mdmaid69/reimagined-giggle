@@ -1,6 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import array
-def get_array_as_str(array):
-        return str(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
