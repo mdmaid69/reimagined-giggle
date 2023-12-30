@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
