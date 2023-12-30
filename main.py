@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def find_max(lst):
-        return max(lst)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
