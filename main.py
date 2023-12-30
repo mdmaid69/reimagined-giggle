@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def find_min(lst):
+        return min(lst)
+from collections import Counter
+print(Counter("hello world"))
