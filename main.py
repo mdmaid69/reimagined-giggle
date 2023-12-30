@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def reverse_string(s):
+        return s[::-1]
