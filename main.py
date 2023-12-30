@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
