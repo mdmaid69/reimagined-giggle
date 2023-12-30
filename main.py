@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
