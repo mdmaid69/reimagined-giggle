@@ -1,5 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
