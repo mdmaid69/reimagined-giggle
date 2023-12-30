@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
