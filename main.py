@@ -1,6 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
