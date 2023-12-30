@@ -1,6 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import logging
-def log_message(message):
-        logging.info(message)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
