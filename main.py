@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
