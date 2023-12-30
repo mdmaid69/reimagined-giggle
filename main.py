@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def reverse_string(s):
+        return s[::-1]
