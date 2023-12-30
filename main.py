@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
