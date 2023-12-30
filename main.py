@@ -1,7 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
