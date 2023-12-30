@@ -1,5 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def add_numbers(x, y):
-        return x + y
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
