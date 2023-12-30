@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def sort_list(lst):
+        return sorted(lst)
