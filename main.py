@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
