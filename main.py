@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_speed(distance, time):
+        return distance / time
