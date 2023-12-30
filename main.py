@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
