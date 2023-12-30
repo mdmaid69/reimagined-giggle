@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
