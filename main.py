@@ -1,6 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
