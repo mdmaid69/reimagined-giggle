@@ -1,4 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import datetime
-print(datetime.datetime.now())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
