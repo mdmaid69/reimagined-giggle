@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
