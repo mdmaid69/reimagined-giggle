@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
