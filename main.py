@@ -1,5 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_current_directory():
+        return os.getcwd()
