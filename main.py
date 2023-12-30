@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def greet(name):
-        print(f"Hello, {name}!")
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
