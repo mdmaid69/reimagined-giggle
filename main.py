@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
