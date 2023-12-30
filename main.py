@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_itemsize(array):
+        return array.itemsize
