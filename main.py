@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
