@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
