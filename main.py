@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-for i in range(5):
-        print(i)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
