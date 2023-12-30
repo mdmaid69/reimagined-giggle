@@ -1,5 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
