@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
