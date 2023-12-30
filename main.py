@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_set(array):
-        return set(array)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
