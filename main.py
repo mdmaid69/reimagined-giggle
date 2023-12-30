@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import time
-def get_current_time():
-        return time.ctime()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
