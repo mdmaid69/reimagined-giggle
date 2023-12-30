@@ -1,7 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
