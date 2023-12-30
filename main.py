@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
