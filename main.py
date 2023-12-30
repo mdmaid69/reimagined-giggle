@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def generate_random_number(start, end):
+        return random.randint(start, end)
