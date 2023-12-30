@@ -1,8 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
