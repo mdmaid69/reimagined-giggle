@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
