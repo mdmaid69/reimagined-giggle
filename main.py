@@ -1,6 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
