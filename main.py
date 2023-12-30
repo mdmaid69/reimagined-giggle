@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def reverse_string(s):
+        return s[::-1]
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_string_from_array(array):
+        return array.tobytes()
