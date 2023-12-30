@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
