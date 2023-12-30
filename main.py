@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_density(mass, volume):
+        return mass / volume
