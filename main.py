@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
