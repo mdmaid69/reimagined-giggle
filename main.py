@@ -1,7 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
