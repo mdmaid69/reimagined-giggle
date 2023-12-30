@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def find_unique_words(sentence):
+        return set(sentence.split())
