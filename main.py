@@ -1,9 +1,8 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def delete_file(file_name):
+        os.remove(file_name)
