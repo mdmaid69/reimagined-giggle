@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
