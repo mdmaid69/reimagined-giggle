@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
