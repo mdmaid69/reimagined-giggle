@@ -1,5 +1,7 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
