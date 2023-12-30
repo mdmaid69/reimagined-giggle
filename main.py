@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Reversed:", text[::-1])
