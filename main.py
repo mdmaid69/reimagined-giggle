@@ -1,6 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
