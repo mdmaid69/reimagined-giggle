@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
