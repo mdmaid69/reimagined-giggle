@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def subtract_numbers(x, y):
+        return x - y
