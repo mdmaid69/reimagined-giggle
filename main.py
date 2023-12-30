@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def create_queue():
+        return collections.deque()
