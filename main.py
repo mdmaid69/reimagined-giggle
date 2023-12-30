@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
