@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
