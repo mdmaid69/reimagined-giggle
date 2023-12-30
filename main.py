@@ -1,8 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
