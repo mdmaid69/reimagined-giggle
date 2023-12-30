@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
