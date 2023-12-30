@@ -1,7 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
