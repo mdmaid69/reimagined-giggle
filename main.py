@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def print_python_version():
+        return sys.version
+def convert_to_hex(n):
+        return hex(n)
