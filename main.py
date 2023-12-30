@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
