@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
