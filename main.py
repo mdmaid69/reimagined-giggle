@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
