@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
