@@ -1,5 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
