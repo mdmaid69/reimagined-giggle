@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
