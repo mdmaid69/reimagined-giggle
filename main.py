@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
