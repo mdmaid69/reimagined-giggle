@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def convert_to_octal(n):
+        return oct(n)
