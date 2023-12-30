@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
