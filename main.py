@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_buffer_info(array):
+        return array.buffer_info()
