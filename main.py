@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def add_numbers(x, y):
-        return x + y
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
