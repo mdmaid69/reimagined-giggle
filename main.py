@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
