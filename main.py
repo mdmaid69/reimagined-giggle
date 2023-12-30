@@ -1,7 +1,7 @@
 import array
-def get_array_from_string(string, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
         a.fromstring(string)
         return a
-def is_even(n):
-        return n % 2 == 0
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
