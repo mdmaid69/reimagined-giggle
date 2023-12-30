@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+from collections import Counter
+print(Counter("hello world"))
