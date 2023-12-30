@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def sort_list(lst):
-        return sorted(lst)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_list(array):
+        return list(array)
