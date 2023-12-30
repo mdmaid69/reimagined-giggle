@@ -1,4 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-  def convert_to_binary(n):
-        return bin(n)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
