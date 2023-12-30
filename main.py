@@ -1,5 +1,8 @@
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def get_array_as_memoryview(array):
+        return memoryview(array)
