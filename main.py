@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
