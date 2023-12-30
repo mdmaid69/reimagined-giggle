@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
