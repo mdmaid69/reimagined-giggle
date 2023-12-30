@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
