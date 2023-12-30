@@ -1,5 +1,7 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import array
-def get_array_as_str(array):
-        return str(array)
-def count_elements(lst):
-        return len(lst)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
