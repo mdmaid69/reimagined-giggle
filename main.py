@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
