@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def subtract_numbers(x, y):
+        return x - y
+import time
+def get_current_time():
+        return time.time()
