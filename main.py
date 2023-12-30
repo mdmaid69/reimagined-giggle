@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_unique_words(sentence):
+        return set(sentence.split())
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
