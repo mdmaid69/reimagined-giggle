@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_volume(length, width, height):
+        return length * width * height
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
