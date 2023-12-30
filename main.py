@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def convert_to_hex(n):
-        return hex(n)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def find_max(lst):
+        return max(lst)
