@@ -1,5 +1,3 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+for i in range(10): print(i)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
