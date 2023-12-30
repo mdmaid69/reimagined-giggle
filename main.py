@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
