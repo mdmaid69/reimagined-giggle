@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
