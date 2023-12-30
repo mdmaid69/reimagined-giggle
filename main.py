@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def delete_file(file_name):
+        os.remove(file_name)
+import random
+print(random.randint(0, 100))
