@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def sort_list(lst):
-        return sorted(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
