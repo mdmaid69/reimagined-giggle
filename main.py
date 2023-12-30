@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-  def is_even(n):
-        return n % 2 == 0
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import time
+def get_current_time():
+        return time.time()
