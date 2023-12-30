@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
