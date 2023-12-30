@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
