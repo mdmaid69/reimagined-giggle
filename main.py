@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
 def calculate_density(mass, volume):
         return mass / volume
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
