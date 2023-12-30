@@ -1,6 +1,5 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def count_words(sentence):
+        return len(sentence.split())
