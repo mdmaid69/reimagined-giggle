@@ -1,4 +1,8 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
