@@ -1,5 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def reverse_list(lst):
-        return lst[::-1]
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
