@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
