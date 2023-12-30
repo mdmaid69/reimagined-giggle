@@ -1,5 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_floor(x):
+        return math.floor(x)
