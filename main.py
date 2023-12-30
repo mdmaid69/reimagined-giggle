@@ -1,5 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import time
-print(time.time())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
