@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
+  def square_number(x):
+        return x**2
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
