@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
