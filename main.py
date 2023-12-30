@@ -1,5 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
