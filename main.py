@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import collections
+def create_priority_queue():
+        return collections.deque()
