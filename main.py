@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
