@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
