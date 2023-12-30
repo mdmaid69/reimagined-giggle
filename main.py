@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
