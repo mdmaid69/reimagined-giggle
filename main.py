@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
