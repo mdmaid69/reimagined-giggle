@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import platform
-def get_python_version():
-        return platform.python_version()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
