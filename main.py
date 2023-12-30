@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
