@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_index(array, item):
+        return array.index(item)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
