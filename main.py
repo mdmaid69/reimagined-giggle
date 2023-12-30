@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def count_words(sentence):
+        return len(sentence.split())
