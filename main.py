@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
