@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
