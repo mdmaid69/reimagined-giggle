@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_min(numbers):
+        return min(numbers)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
