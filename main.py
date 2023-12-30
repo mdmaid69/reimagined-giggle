@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import collections
+def create_stack():
+        return collections.deque()
+  def sort_list(lst):
+        return sorted(lst)
