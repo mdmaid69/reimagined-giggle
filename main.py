@@ -1,7 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
