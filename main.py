@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_acceleration(speed, time):
-        return speed / time
+def is_odd(n):
+        return n % 2 != 0
+import random
+def roll_die():
+        return random.randint(1, 6)
