@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
