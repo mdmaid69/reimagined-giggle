@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
