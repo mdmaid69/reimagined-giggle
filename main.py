@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import random
+print(random.randint(0, 100))
+  def calculate_area_rectangle(l, w):
+        return l * w
