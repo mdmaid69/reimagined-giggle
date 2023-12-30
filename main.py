@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def get_array_as_str(array):
-        return str(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
