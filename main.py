@@ -1,6 +1,7 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def count_elements(lst):
+        return len(lst)
