@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
