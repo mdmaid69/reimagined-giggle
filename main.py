@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def subtract_numbers(x, y):
+        return x - y
+  def convert_to_hex(n):
+        return hex(n)
