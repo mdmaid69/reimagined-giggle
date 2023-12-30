@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
