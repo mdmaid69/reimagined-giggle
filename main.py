@@ -1,6 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
