@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def reverse_string(s):
+        return s[::-1]
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
