@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_density(mass, volume):
+        return mass / volume
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
