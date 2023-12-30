@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
