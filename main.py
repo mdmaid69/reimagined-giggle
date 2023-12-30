@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
-import time
-def get_current_time():
-        return time.time()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
