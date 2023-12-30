@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def convert_to_octal(n):
-        return oct(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
