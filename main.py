@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
