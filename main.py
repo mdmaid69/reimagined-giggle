@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_queue():
-        return collections.deque()
+import random
+print(random.randint(0, 100))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
