@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_area_circle(r):
+        return 3.14 * r**2
