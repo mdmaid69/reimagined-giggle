@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
