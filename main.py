@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+from collections import Counter
+print(Counter("hello world"))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
