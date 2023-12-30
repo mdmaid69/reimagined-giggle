@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import sys
-def print_python_version():
-        print(sys.version)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
