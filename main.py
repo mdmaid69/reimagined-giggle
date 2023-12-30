@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
