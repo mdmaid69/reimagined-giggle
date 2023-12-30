@@ -1,5 +1,9 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
