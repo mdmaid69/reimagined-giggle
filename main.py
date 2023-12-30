@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
