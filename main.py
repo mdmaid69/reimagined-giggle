@@ -1,5 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
