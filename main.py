@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
