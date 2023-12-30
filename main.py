@@ -1,5 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def get_array_typecode(array):
-        return array.typecode
-def find_min(numbers):
-        return min(numbers)
+def convert_array_to_list(array):
+        return array.tolist()
