@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-name = "Python"
-print("Hello,", name)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
