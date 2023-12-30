@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
