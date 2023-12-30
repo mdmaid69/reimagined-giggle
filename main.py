@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def append_to_array(array, item):
+        array.append(item)
