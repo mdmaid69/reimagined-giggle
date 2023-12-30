@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
