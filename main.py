@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
