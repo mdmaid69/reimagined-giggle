@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def convert_to_hex(n):
+        return hex(n)
