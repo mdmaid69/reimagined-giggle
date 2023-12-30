@@ -1,5 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_work(force, distance):
-        return force * distance
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
