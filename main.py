@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def cube_number(x):
+        return x**3
