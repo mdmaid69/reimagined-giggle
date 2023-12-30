@@ -1,9 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
