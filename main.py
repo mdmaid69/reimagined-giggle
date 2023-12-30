@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def cube_number(x):
-        return x**3
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  def sort_list(lst):
+        return sorted(lst)
