@@ -1,5 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_speed(distance, time):
-        return distance / time
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def is_odd(n):
+        return n % 2 != 0
