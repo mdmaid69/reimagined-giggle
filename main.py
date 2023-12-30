@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
