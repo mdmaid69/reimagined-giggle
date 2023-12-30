@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_complex(array):
+        return complex(array[0])
+import sys
+def exit_program():
+        sys.exit()
