@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
