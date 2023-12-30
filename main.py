@@ -1,5 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
