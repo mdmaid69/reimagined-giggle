@@ -1,8 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
