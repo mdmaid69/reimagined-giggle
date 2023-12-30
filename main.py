@@ -1,4 +1,3 @@
-def calculate_power(work, time):
-        return work / time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import sys
+print(sys.version)
+print(sum(range(10)))
