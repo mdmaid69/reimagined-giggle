@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
