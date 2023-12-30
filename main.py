@@ -1,5 +1,12 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
