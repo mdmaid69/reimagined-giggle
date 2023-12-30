@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
