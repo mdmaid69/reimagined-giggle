@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def add_numbers(a, b):
+        return a + b
