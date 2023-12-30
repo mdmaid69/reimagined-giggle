@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
