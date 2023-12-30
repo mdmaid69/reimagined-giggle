@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def get_array_length(array):
-        return len(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
