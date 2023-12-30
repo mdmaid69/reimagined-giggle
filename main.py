@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def split_path(path):
+        return os.path.split(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
