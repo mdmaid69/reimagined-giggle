@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
 import collections
-def create_counter():
-        return collections.Counter()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
