@@ -1,8 +1,8 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
