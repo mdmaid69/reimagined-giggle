@@ -1,7 +1,8 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
