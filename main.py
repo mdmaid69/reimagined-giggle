@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
