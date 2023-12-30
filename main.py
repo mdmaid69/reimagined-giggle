@@ -1,8 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def square_number(x):
+        return x**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
