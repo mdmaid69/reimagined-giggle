@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
