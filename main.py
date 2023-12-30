@@ -1,7 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
