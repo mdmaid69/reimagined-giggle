@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
