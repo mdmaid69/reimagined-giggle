@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_array_item(array, i):
+        return array[i]
