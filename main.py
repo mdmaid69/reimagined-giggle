@@ -1,5 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
