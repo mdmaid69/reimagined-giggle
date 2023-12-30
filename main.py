@@ -1,6 +1,10 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
