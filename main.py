@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
