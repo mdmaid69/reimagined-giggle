@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
