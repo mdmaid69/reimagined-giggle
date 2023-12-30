@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def get_array_index(array, item):
+        return array.index(item)
