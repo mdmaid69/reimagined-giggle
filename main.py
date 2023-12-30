@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
