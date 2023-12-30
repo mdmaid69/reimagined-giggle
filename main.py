@@ -1,6 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_density(mass, volume):
+        return mass / volume
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
