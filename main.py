@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_pressure(force, area):
+        return force / area
+import platform
+def get_os_info():
+        return platform.uname()
