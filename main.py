@@ -1,6 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
