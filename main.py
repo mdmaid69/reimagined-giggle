@@ -1,6 +1,3 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+print("Hello, world!")
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
