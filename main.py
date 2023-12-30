@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
