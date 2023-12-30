@@ -1,4 +1,4 @@
-import sys
-print(sys.version)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_power(work, time):
+        return work / time
+def calculate_speed(distance, time):
+        return distance / time
