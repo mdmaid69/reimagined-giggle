@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
