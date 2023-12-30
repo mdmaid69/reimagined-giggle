@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
