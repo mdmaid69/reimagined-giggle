@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
