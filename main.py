@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
