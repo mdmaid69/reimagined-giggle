@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def convert_to_octal(n):
+        return oct(n)
