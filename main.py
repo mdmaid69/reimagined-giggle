@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def find_max(lst):
-        return max(lst)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_cosine(x):
+        return math.cos(x)
