@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def square_number(x):
+        return x**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
