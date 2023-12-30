@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def sort_list(lst):
+        return sorted(lst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
