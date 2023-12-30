@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
