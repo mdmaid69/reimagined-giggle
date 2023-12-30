@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
