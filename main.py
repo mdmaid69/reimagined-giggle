@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import random
+print(random.randint(0, 100))
