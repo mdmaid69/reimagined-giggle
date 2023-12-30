@@ -1,10 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
