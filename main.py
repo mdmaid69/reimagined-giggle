@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_counter():
+        return collections.Counter()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
