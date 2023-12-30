@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
