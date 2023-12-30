@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
