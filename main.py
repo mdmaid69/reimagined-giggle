@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def append_to_array(array, item):
+        array.append(item)
