@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
