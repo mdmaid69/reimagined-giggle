@@ -1,6 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
