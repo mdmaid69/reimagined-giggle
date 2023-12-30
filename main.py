@@ -1,6 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
