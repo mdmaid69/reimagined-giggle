@@ -1,5 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-for i in range(5):
-        print(i)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
