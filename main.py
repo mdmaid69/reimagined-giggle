@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
