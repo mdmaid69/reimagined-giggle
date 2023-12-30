@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_work(force, distance):
+        return force * distance
