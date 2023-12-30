@@ -1,6 +1,5 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_sign(x):
+        return math.copysign(1, x)
+def greet(name):
+        print(f"Hello, {name}!")
