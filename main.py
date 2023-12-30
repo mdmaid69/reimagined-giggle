@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
