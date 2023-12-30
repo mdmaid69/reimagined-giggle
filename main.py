@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
