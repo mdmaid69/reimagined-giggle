@@ -1,10 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
