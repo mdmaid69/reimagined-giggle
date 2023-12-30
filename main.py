@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
