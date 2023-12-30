@@ -1,8 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
