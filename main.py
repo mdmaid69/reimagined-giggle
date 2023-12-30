@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import random
-print(random.randint(0, 100))
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
