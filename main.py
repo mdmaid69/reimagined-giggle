@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def convert_to_binary(n):
+        return bin(n)
