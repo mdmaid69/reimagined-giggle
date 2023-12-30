@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
