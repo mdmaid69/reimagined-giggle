@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
