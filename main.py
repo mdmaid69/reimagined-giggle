@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
