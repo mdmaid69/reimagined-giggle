@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
