@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def convert_to_binary(n):
+        return bin(n)
