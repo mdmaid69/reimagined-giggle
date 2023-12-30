@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
