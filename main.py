@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
