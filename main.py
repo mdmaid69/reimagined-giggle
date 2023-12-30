@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
