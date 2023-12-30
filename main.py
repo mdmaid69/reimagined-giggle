@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def clear_array(array):
-        array *= 0
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
