@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
