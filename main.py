@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_bytearray(array):
+        return bytearray(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
