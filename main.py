@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
