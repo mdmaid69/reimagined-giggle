@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
