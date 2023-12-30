@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
