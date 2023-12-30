@@ -1,8 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
