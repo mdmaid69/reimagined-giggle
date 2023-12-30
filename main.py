@@ -1,8 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def sort_list(lst):
+        return sorted(lst)
+def multiply_numbers(x, y):
+        return x * y
