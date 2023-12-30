@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def clear_array(array):
-        array *= 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
