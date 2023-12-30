@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
