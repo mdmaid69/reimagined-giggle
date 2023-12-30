@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
