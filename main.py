@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
