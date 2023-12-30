@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_list_from_array(array):
+        return array.tolist()
