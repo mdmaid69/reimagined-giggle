@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
