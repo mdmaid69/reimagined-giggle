@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def calculate_area_circle(r):
+        return 3.14 * r**2
