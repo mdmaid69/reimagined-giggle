@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def reverse_list(lst):
+        return lst[::-1]
