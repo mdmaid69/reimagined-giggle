@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
