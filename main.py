@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
