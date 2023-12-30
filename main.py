@@ -1,7 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
