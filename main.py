@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
