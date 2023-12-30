@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+for i in range(10): print(i)
