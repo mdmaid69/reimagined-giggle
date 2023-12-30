@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
