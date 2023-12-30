@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
