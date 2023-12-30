@@ -1,6 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
