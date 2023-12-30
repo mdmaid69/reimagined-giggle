@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-from collections import Counter
-print(Counter("hello world"))
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
