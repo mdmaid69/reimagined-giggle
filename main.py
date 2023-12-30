@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def add_numbers(x, y):
-        return x + y
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
