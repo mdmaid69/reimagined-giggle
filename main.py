@@ -1,8 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
