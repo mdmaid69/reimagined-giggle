@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
