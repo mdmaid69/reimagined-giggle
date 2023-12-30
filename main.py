@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def count_elements(lst):
+        return len(lst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
