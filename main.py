@@ -1,5 +1,10 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
