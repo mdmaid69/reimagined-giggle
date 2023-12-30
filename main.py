@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_unique_words(sentence):
+        return set(sentence.split())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
