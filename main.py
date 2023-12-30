@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
