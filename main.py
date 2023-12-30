@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def convert_to_hex(n):
+        return hex(n)
