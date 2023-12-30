@@ -1,9 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
