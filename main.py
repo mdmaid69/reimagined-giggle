@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
