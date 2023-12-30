@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
