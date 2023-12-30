@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def is_even(n):
+        return n % 2 == 0
