@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
