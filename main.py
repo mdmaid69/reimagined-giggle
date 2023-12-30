@@ -1,5 +1,4 @@
+print(sum(range(10)))
   import os
-  def split_path(path):
-        return os.path.split(path)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
