@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
