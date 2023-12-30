@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_pressure(force, area):
+        return force / area
+from collections import Counter
+print(Counter("hello world"))
