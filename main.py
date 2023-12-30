@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def reverse_list(lst):
+        return lst[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
