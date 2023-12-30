@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
