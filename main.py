@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
