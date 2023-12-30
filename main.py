@@ -1,5 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def convert_to_octal(n):
-        return oct(n)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def is_odd(n):
+        return n % 2 != 0
