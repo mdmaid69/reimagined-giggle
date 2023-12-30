@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_palindrome(s):
-        return s == s[::-1]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
