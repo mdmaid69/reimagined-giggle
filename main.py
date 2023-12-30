@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
