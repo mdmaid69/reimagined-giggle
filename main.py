@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def find_min(lst):
+        return min(lst)
