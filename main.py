@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
