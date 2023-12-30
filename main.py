@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_speed(distance, time):
-        return distance / time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import collections
+def create_user_string():
+        return collections.UserString()
