@@ -1,6 +1,11 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def reverse_array(array):
-        array.reverse()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
