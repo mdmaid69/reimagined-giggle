@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
