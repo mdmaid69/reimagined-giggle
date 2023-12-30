@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
