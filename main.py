@@ -1,6 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
