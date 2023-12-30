@@ -1,6 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_cosine(x):
+        return math.cos(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
