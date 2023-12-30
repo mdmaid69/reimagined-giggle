@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_pressure(force, area):
+        return force / area
