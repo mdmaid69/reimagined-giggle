@@ -1,6 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
