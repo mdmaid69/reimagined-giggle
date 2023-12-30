@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
