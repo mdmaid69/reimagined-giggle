@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
