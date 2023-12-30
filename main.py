@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_list_from_array(array):
+        return array.tolist()
