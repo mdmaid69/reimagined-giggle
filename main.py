@@ -1,6 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def get_array_as_tuple(array):
+        return tuple(array)
