@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
