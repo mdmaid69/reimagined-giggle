@@ -1,4 +1,12 @@
-def square_number(x):
-        return x**2
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
