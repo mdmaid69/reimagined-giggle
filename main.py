@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
