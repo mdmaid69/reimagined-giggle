@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def create_user_string():
-        return collections.UserString()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def calculate_area_rectangle(l, w):
+        return l * w
