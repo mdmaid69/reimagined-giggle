@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_pressure(force, area):
+        return force / area
+import array
+def clear_array(array):
+        array *= 0
