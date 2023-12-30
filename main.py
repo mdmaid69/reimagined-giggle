@@ -1,8 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
