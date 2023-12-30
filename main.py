@@ -1,7 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_density(mass, volume):
+        return mass / volume
