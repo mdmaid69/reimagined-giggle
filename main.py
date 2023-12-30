@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def subtract_numbers(x, y):
+        return x - y
