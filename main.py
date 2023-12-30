@@ -1,5 +1,3 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+print([x**2 for x in range(10)])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
