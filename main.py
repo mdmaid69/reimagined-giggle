@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
