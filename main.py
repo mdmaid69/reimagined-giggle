@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def is_odd(n):
+        return n % 2 != 0
+i = 0
+while i < 5:
+        print(i)
+        i += 1
