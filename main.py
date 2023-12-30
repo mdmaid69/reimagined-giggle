@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-import math
-print(math.pi)
+def add_numbers(a, b):
+        return a + b
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
