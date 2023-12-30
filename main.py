@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
