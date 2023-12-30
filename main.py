@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sys
+def exit_program():
+        sys.exit()
