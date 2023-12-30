@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-from collections import Counter
-print(Counter("hello world"))
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
