@@ -1,6 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_item(array, i):
-        return array[i]
+def reverse_array(array):
+        array.reverse()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
