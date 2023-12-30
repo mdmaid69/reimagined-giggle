@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_volume(length, width, height):
+        return length * width * height
