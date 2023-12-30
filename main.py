@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
