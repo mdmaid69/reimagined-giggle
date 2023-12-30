@@ -1,8 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
