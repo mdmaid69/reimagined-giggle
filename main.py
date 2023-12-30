@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
