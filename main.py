@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
