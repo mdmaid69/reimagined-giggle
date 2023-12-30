@@ -1,5 +1,8 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import os
-print(os.getcwd())
+def get_array_itemsize(array):
+        return array.itemsize
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
