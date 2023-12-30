@@ -1,5 +1,9 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
