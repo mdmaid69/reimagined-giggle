@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
