@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def convert_to_octal(n):
+        return oct(n)
