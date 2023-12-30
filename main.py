@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
