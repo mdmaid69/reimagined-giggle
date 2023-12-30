@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_list(array):
-        return list(array)
+text = "Hello, world!"
+print("Characters:", len(text))
+def sort_list(lst):
+        return sorted(lst)
