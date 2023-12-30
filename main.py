@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
