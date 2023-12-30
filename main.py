@@ -1,8 +1,8 @@
 import array
-def convert_string_to_array(string, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
