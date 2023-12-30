@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
