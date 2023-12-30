@@ -1,6 +1,6 @@
 import datetime
-def get_current_date():
+def get_today_date():
         return datetime.date.today()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
