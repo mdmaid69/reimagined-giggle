@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
