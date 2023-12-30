@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def square_number(x):
-        return x**2
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import tensorflow as tf
+print(tf.__version__)
