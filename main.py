@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import time
+def get_time_since_epoch():
+        return time.time()
+import collections
+def create_priority_queue():
+        return collections.deque()
