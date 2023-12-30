@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
