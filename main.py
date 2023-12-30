@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+print([x**2 for x in range(10)])
+import sys
+def exit_program():
+        sys.exit()
