@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
