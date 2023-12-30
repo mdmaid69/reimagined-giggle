@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
