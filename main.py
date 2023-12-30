@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
