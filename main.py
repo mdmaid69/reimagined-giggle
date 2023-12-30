@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
