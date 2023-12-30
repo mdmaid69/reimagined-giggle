@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import tensorflow as tf
+print(tf.__version__)
