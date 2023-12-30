@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def reverse_list(lst):
+        return lst[::-1]
