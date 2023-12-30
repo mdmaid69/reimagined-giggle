@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
