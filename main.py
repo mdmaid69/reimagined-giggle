@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_list_from_array(array):
+        return array.tolist()
