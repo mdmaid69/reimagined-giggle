@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_max(lst):
+        return max(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
