@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
