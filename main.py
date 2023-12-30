@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def convert_to_octal(n):
-        return oct(n)
+def find_min(numbers):
+        return min(numbers)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
