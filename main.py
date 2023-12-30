@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def add_numbers(x, y):
+        return x + y
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
