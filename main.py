@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+print([x**2 for x in range(10)])
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
