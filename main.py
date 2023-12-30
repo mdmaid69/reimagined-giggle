@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
