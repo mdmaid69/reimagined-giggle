@@ -1,5 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
