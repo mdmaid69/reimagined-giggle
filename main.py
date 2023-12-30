@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
