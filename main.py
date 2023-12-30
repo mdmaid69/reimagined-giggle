@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
