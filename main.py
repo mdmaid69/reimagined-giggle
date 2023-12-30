@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  def reverse_list(lst):
+        return lst[::-1]
