@@ -1,7 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
