@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import platform
-def get_python_version():
-        return platform.python_version()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import datetime
+print(datetime.datetime.now())
