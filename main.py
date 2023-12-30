@@ -1,6 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
