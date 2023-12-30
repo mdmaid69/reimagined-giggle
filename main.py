@@ -1,7 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_area_circle(r):
+        return 3.14 * r**2
