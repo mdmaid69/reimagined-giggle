@@ -1,8 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
