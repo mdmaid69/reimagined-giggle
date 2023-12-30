@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def get_string_from_array(array):
+        return array.tobytes()
