@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_user_list():
+        return collections.UserList()
