@@ -1,6 +1,5 @@
+import time
+print(time.time())
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def get_array_as_int(array):
+        return int(array[0])
