@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_length(array):
+        return len(array)
