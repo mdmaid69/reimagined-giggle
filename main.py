@@ -1,7 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
