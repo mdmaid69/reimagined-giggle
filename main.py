@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-print(datetime.datetime.now())
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
