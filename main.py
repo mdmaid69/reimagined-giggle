@@ -1,5 +1,9 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_queue():
+        return collections.deque()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
