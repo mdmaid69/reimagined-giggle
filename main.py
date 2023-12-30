@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def find_max(numbers):
+        return max(numbers)
