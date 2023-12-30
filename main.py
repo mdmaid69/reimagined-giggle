@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
