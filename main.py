@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
