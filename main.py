@@ -1,8 +1,7 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
