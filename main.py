@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def count_characters(sentence):
+        return len(sentence)
