@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def split_path(path):
-        return os.path.split(path)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
