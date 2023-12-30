@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
