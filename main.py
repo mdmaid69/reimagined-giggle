@@ -1,5 +1,5 @@
-import time
-print(time.time())
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import tensorflow as tf
+print(tf.__version__)
