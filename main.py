@@ -1,7 +1,11 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
