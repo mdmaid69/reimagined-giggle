@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def divide_numbers(x, y):
+        return x / y
