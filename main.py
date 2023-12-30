@@ -1,7 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
