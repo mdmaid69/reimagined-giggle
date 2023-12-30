@@ -1,5 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
