@@ -1,8 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
