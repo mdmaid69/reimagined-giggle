@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def find_max(lst):
+        return max(lst)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
