@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def add_numbers(x, y):
-        return x + y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
