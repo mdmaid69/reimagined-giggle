@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def find_max(lst):
+        return max(lst)
