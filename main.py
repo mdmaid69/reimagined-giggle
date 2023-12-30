@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def convert_to_binary(n):
+        return bin(n)
+  def subtract_numbers(x, y):
+        return x - y
