@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def is_odd(n):
-        return n % 2 != 0
+def subtract_numbers(x, y):
+        return x - y
+import platform
+def get_python_version():
+        return platform.python_version()
