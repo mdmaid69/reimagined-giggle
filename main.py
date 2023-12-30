@@ -1,10 +1,8 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
