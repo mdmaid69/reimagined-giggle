@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
