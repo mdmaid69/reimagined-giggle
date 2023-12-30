@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
