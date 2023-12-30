@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_pressure(force, area):
+        return force / area
+  def cube_number(x):
+        return x**3
