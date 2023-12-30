@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import datetime
+def get_current_date():
+        return datetime.date.today()
