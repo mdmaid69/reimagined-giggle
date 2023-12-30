@@ -1,5 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
