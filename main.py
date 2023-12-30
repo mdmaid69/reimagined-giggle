@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
