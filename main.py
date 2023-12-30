@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
