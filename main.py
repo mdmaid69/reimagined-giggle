@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import os
-print(os.getcwd())
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
