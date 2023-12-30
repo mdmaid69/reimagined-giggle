@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
