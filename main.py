@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
