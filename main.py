@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
