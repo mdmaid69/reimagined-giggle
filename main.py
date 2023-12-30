@@ -1,5 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import sys
+  def get_python_version():
+        return sys.version
