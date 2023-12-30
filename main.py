@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
