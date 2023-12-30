@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
