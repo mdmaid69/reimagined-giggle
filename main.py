@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_power(work, time):
-        return work / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
