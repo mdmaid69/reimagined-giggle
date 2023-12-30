@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def greet(name):
+        print(f"Hello, {name}!")
