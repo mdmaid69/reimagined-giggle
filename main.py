@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import sys
-def exit_program():
-        sys.exit()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
