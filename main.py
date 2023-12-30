@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
