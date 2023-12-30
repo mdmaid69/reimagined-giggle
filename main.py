@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def divide_numbers(x, y):
+        return x / y
