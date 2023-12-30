@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def is_even(n):
-        return n % 2 == 0
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_tangent(x):
+        return math.tan(x)
