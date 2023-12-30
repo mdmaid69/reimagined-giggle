@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_absolute_value(x):
+        return math.fabs(x)
