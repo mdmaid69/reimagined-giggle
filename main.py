@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
