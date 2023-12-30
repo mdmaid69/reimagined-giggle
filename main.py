@@ -1,4 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
