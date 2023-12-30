@@ -1,8 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
