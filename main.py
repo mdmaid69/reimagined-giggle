@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
