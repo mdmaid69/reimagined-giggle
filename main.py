@@ -1,6 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+for i in range(10): print(i)
