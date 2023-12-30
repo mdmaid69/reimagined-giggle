@@ -1,6 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
