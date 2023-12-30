@@ -1,6 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
