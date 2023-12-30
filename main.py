@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
