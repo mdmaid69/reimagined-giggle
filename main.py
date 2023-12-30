@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def convert_to_binary(n):
+        return bin(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
