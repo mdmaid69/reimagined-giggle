@@ -1,5 +1,10 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
