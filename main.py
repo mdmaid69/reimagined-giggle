@@ -1,6 +1,10 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
