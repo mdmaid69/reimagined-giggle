@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
