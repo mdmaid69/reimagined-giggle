@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
