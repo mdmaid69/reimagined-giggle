@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def clear_array(array):
-        array *= 0
+import math
+print(math.pi)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
