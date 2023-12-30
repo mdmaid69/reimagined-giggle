@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
