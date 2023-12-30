@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
