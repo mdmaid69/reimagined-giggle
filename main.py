@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_user_string():
+        return collections.UserString()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
