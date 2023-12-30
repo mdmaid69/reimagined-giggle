@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def find_min(lst):
+        return min(lst)
