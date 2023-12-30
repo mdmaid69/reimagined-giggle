@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import sys
+def exit_program():
+        sys.exit()
+print([x**2 for x in range(10)])
