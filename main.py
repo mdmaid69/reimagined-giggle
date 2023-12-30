@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def multiply_numbers(x, y):
+        return x * y
