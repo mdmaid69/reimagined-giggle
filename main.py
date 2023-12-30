@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_power(work, time):
+        return work / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
