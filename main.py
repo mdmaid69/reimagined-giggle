@@ -1,5 +1,8 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
