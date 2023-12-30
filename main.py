@@ -1,8 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
