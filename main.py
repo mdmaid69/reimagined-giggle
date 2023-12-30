@@ -1,5 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
