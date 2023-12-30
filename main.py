@@ -1,7 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def multiply_numbers(x, y):
+        return x * y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
