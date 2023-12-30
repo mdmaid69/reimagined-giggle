@@ -1,5 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def cube_number(x):
-        return x**3
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
