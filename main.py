@@ -1,6 +1,8 @@
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_gamma_function(x):
+        return math.gamma(x)
