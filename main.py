@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
