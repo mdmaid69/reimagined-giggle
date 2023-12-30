@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def sort_list(lst):
+        return sorted(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
