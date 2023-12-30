@@ -1,3 +1,6 @@
-  def square_number(x):
-        return x**2
-print(sum(range(10)))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
