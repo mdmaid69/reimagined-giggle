@@ -1,5 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
