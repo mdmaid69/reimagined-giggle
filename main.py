@@ -1,7 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_min(numbers):
+        return min(numbers)
