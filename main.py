@@ -1,5 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def calculate_area_rectangle(l, w):
-        return l * w
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_array_as_list(array):
+        return list(array)
