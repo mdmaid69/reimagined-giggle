@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
