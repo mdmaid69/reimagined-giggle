@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
