@@ -1,5 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_as_bytearray(array):
+        return bytearray(array)
