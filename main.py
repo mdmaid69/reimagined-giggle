@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+from collections import Counter
+print(Counter("hello world"))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
