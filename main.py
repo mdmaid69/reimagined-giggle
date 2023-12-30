@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
