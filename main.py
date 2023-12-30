@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
