@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
