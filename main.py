@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
