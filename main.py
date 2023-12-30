@@ -1,4 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
