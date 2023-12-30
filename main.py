@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def convert_to_hex(n):
+        return hex(n)
