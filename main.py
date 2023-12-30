@@ -1,5 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import array
-def append_to_array(array, item):
-        array.append(item)
-def is_even(n):
-        return n % 2 == 0
+def convert_array_to_bytes(array):
+        return array.tobytes()
