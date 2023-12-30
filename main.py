@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def extend_array(array, iterable):
+        array.extend(iterable)
