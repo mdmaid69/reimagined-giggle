@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+print(sum(range(10)))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
