@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def add_numbers(x, y):
+        return x + y
