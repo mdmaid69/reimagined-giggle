@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import time
+def get_time_since_epoch():
+        return time.time()
