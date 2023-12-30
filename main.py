@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
