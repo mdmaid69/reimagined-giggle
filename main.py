@@ -1,4 +1,7 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
