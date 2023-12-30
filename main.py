@@ -1,5 +1,9 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def is_even(n):
-        return n % 2 == 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
