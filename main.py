@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_error_function(x):
+        return math.erf(x)
