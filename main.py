@@ -1,4 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
