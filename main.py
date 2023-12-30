@@ -1,5 +1,9 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
