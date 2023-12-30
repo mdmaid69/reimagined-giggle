@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import math
-print(math.pi)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
