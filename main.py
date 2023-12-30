@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def greet(name):
-        print(f"Hello, {name}!")
+def find_max(lst):
+        return max(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
