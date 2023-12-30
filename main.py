@@ -1,6 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
