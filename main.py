@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def is_palindrome(s):
+        return s == s[::-1]
