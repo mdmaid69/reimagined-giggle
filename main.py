@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import sys
-def print_python_version():
-        print(sys.version)
+def convert_array_to_string(array):
+        return array.tostring()
+  def calculate_area_rectangle(l, w):
+        return l * w
