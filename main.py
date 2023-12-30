@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_acceleration(speed, time):
-        return speed / time
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_string_from_array(array):
+        return array.tobytes()
