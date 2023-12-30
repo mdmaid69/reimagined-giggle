@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
