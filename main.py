@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
