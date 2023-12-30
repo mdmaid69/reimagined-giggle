@@ -1,5 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import numpy as np
-print(np.array([1, 2, 3]))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
