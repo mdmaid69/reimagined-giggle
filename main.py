@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import datetime
+print(datetime.datetime.now())
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
