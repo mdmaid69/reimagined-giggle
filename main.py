@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import platform
+def get_os_info():
+        return platform.uname()
