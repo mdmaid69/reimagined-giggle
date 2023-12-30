@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
