@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import os
+def change_working_directory(path):
+        os.chdir(path)
