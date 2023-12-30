@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
