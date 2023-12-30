@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_work(force, distance):
+        return force * distance
