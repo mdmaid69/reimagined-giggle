@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+def get_string_from_array(array):
+        return array.tobytes()
