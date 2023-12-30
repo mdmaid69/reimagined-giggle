@@ -1,6 +1,6 @@
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
