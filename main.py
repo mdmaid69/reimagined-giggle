@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def add_numbers(x, y):
+        return x + y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
