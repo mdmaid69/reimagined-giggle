@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def clear_array(array):
+        array *= 0
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
