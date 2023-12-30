@@ -1,3 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-print([x**2 for x in range(10)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
