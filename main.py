@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
