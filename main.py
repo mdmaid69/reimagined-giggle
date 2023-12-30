@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-for i in range(5):
-        print(i)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
