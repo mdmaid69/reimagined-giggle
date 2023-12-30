@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def add_numbers(x, y):
+        return x + y
+def find_max(numbers):
+        return max(numbers)
