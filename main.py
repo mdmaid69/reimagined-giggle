@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-print(os.getcwd())
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
