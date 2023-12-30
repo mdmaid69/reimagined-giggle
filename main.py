@@ -1,5 +1,3 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+print([x**2 for x in range(10)])
+  def square_number(x):
+        return x**2
