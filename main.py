@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def add_numbers(a, b):
+        return a + b
