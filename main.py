@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
