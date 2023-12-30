@@ -1,6 +1,5 @@
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
