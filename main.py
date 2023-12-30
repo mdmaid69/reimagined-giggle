@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
