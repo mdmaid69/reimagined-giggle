@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
