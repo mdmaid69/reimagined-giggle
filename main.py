@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def add_numbers(a, b):
+        return a + b
+import json
+print(json.dumps({"name": "John", "age": 30}))
