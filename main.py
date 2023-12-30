@@ -1,7 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
