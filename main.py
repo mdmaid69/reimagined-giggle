@@ -1,6 +1,8 @@
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
