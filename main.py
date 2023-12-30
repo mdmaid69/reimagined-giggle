@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
