@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
