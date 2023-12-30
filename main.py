@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
