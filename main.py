@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def convert_to_hex(n):
+        return hex(n)
