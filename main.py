@@ -1,5 +1,9 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-text = "Hello, world!"
-print("Characters:", len(text))
+def get_array_as_bytearray(array):
+        return bytearray(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
