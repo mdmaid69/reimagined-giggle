@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def count_characters(sentence):
+        return len(sentence)
+import time
+def get_time_since_epoch():
+        return time.time()
