@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
