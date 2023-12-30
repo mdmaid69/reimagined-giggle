@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
