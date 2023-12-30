@@ -1,5 +1,6 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def get_list_from_array(array):
+        return array.tolist()
