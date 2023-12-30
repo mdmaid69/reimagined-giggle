@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
