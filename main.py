@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def clear_array(array):
+        array *= 0
+  def convert_to_binary(n):
+        return bin(n)
