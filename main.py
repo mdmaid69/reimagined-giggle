@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def cube_number(x):
+        return x**3
+  def calculate_area_rectangle(l, w):
+        return l * w
