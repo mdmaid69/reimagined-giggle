@@ -1,5 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
