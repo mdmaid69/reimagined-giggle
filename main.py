@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
