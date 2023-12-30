@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
 import os
-print(os.getcwd())
+def get_file_size(filename):
+        return os.path.getsize(filename)
