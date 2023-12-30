@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
