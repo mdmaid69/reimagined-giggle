@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def square_number(x):
-        return x**2
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
