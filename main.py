@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+print(math.pi)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
