@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
