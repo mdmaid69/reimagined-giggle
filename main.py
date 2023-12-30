@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
