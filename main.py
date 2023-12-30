@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
