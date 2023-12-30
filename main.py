@@ -1,5 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def subtract_numbers(x, y):
-        return x - y
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def reverse_list(lst):
+        return lst[::-1]
