@@ -1,6 +1,8 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
