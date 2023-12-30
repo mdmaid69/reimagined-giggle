@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import collections
+def create_user_string():
+        return collections.UserString()
