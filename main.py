@@ -1,4 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-def convert_to_hex(n):
-        return hex(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def is_odd(n):
+        return n % 2 != 0
