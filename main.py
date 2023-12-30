@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_density(mass, volume):
+        return mass / volume
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
