@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import sys
-def exit_program():
-        sys.exit()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
