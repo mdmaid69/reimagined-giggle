@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def sort_list(lst):
+        return sorted(lst)
