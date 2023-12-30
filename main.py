@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def is_palindrome(s):
-        return s == s[::-1]
+def find_unique_words(sentence):
+        return set(sentence.split())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
