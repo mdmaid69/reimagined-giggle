@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_power(work, time):
+        return work / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
