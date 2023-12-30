@@ -1,6 +1,9 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
