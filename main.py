@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+for i in range(5):
+        print(i)
