@@ -1,5 +1,7 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def square_number(x):
-        return x**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
