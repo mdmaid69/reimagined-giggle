@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
