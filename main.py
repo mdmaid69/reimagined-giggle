@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+from collections import Counter
+print(Counter("hello world"))
