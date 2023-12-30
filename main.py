@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_item(array, i):
+        return array[i]
