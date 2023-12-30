@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
