@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
