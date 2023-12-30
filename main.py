@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
