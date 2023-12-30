@@ -1,11 +1,7 @@
-import threading
+def is_palindrome(s):
+        return s == s[::-1]
+import unittest
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
