@@ -1,5 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
