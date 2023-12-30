@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+for i in range(5):
+        print(i)
+  def multiply_numbers(x, y):
+        return x * y
