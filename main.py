@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
