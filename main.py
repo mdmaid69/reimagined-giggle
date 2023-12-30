@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
