@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
