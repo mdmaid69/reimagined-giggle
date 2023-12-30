@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
