@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
