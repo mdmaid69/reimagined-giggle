@@ -1,6 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
