@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def get_array_index(array, item):
+        return array.index(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
