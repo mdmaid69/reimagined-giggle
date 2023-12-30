@@ -1,5 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
