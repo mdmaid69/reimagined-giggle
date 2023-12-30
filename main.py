@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
