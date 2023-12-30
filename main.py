@@ -1,5 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def cube_number(x):
-        return x**3
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
