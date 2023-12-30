@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
