@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
