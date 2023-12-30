@@ -1,7 +1,11 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
