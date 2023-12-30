@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
