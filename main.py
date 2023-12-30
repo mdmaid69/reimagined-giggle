@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import datetime
+def get_today_date():
+        return datetime.date.today()
