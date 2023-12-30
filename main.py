@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
