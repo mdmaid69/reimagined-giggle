@@ -1,8 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def convert_to_octal(n):
+        return oct(n)
