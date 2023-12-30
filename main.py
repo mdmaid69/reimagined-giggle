@@ -1,8 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+x = 10
+y = 20
+print("Sum:", x + y)
+text = "Hello, world!"
+print("Characters:", len(text))
