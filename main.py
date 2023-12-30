@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
