@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
