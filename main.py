@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_density(mass, volume):
-        return mass / volume
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
