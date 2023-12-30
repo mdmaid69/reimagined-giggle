@@ -1,8 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
