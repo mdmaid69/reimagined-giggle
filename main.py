@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import sys
-print(sys.version)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
