@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
