@@ -1,7 +1,9 @@
-import socket
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+@app.route("/")
+def hello():
+        return "Hello, World!"
