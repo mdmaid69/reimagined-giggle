@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def reverse_string(s):
-        return s[::-1]
+print(sum(range(10)))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
