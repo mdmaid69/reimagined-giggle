@@ -1,4 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-def count_words(sentence):
-        return len(sentence.split())
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def find_min(lst):
+        return min(lst)
