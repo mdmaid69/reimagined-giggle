@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_power(work, time):
+        return work / time
+  def is_even(n):
+        return n % 2 == 0
