@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_volume(length, width, height):
+        return length * width * height
