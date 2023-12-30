@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
