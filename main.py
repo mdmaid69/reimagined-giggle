@@ -1,4 +1,5 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-print([x**2 for x in range(10)])
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
