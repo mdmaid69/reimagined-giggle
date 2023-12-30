@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_error_function(x):
+        return math.erf(x)
