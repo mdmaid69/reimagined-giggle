@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
