@@ -1,6 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import getpass
-def get_username():
-        return getpass.getuser()
+def clear_array(array):
+        array *= 0
+import sys
+def exit_program():
+        sys.exit()
