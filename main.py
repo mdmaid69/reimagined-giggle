@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
