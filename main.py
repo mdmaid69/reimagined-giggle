@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
