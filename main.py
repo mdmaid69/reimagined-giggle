@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import tensorflow as tf
+print(tf.__version__)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
