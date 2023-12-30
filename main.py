@@ -1,8 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
