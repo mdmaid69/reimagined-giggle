@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
