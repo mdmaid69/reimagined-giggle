@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def find_min(numbers):
-        return min(numbers)
+import collections
+def create_user_string():
+        return collections.UserString()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
