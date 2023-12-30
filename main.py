@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def find_min(numbers):
+        return min(numbers)
