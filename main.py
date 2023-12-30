@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
