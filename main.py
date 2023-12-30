@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
