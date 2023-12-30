@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
