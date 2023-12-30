@@ -1,6 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_stack():
-        return collections.deque()
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
