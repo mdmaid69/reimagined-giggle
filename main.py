@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
