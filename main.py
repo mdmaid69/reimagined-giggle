@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
