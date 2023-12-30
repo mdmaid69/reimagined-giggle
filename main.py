@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
