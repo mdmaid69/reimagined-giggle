@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def square_number(x):
-        return x**2
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import time
+def get_current_time():
+        return time.time()
