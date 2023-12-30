@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def is_even(n):
+        return n % 2 == 0
