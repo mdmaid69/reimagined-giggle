@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
