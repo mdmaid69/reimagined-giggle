@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
