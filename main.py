@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
