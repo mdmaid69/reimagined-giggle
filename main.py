@@ -1,5 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def add_numbers(x, y):
-        return x + y
+def calculate_floor(x):
+        return math.floor(x)
