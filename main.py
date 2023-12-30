@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
