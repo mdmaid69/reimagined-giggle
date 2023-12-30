@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def clear_array(array):
-        array *= 0
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
