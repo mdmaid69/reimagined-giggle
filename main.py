@@ -1,7 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_as_repr(array):
+        return repr(array)
