@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
