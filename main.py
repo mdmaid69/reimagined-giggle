@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import random
+print(random.randint(0, 100))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
