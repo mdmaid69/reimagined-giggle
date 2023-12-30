@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
