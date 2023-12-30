@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
