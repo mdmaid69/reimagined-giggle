@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
