@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import random
+def roll_die():
+        return random.randint(1, 6)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
