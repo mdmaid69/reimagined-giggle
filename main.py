@@ -1,6 +1,7 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
