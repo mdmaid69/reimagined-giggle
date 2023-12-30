@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def convert_to_octal(n):
+        return oct(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
