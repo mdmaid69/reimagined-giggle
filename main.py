@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def square_number(x):
+        return x**2
+def find_max(lst):
+        return max(lst)
