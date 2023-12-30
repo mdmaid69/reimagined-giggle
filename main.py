@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def is_even(n):
+        return n % 2 == 0
+  def sort_list(lst):
+        return sorted(lst)
