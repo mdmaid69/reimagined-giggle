@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
