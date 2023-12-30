@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
