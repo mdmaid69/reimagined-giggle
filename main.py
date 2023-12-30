@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import array
-def get_array_item(array, i):
-        return array[i]
+def clear_array(array):
+        array *= 0
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
