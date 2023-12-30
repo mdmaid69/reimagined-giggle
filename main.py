@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
