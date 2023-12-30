@@ -1,6 +1,7 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_density(mass, volume):
+        return mass / volume
