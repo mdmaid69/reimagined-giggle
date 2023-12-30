@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
