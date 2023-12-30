@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
