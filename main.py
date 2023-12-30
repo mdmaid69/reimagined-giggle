@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
