@@ -1,5 +1,10 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
