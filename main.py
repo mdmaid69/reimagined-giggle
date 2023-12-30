@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
