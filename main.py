@@ -1,4 +1,7 @@
-import random
-print(random.randint(0, 100))
-  def calculate_area_rectangle(l, w):
-        return l * w
+def convert_to_hex(n):
+        return hex(n)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
