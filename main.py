@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_queue():
+        return collections.deque()
