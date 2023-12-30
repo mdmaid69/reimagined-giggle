@@ -1,6 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_work(force, distance):
+        return force * distance
