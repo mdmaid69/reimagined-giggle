@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def reverse_list(lst):
+        return lst[::-1]
