@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
