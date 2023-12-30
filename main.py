@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
