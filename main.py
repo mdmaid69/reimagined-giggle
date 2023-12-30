@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
