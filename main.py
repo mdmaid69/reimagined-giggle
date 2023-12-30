@@ -1,5 +1,8 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
