@@ -1,8 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
