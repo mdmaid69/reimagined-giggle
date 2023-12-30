@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def clear_array(array):
+        array *= 0
+  def square_number(x):
+        return x**2
