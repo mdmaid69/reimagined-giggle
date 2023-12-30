@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def count_words(sentence):
+        return len(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
