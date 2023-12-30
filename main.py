@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def clear_array(array):
-        array *= 0
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
