@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
