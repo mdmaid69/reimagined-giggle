@@ -1,6 +1,6 @@
+import time
+def get_time_since_epoch():
+        return time.time()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
