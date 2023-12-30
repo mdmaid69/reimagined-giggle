@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
