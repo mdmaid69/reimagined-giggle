@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def is_even(n):
+        return n % 2 == 0
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
