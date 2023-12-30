@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import time
+def get_current_time():
+        return time.time()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
