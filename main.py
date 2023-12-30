@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
