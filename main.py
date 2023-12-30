@@ -1,6 +1,10 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
