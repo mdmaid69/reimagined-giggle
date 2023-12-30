@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-name = "Python"
-print("Hello,", name)
+import sys
+def exit_program():
+        sys.exit()
+  def convert_to_hex(n):
+        return hex(n)
