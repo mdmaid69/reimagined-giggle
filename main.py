@@ -1,5 +1,6 @@
-for i in range(10): print(i)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
