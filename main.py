@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import sys
+def exit_program():
+        sys.exit()
