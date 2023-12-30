@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_work(force, distance):
+        return force * distance
