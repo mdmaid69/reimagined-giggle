@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
