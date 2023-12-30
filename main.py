@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
