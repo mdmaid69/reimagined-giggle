@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def reverse_list(lst):
-        return lst[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_as_list(array):
+        return list(array)
