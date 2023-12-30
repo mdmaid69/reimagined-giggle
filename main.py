@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def delete_file(file_name):
+        os.remove(file_name)
