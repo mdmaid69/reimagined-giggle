@@ -1,6 +1,7 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
