@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
