@@ -1,7 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
