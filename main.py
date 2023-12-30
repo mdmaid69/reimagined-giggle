@@ -1,6 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
