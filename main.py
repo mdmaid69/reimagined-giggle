@@ -1,4 +1,7 @@
-for i in range(5):
-        print(i)
-def calculate_speed(distance, time):
-        return distance / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
