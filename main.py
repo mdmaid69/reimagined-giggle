@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def divide_numbers(x, y):
+        return x / y
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
