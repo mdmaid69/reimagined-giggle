@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
