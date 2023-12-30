@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
