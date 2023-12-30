@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_priority_queue():
-        return collections.deque()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def clear_array(array):
+        array *= 0
