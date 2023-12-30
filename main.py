@@ -1,5 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def convert_to_octal(n):
-        return oct(n)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
