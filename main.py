@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
