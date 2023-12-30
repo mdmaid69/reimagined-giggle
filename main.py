@@ -1,6 +1,7 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
