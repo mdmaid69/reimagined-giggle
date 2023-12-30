@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def split_path(path):
+        return os.path.split(path)
