@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def find_max(numbers):
+        return max(numbers)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
