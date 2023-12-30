@@ -1,6 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
