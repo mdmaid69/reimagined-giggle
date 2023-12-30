@@ -1,5 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
