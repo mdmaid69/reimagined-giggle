@@ -1,7 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
