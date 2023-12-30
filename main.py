@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
