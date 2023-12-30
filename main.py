@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
