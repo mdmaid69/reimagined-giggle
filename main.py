@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
