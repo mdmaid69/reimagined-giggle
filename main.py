@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def reverse_array(array):
-        array.reverse()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def square_number(x):
+        return x**2
