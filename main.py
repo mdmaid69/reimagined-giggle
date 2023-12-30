@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
