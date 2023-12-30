@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
