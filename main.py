@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
