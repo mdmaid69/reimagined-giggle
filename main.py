@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
