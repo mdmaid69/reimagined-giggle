@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
