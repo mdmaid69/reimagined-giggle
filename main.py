@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def find_max(numbers):
+        return max(numbers)
