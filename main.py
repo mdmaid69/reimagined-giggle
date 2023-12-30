@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
