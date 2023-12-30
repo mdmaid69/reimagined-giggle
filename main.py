@@ -1,7 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
