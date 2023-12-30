@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_user_string():
+        return collections.UserString()
