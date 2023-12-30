@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_item(array, i):
+        return array[i]
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
