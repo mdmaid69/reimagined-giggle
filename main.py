@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_factorial(n):
+        return math.factorial(n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
