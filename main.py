@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
