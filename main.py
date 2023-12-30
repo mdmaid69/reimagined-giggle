@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
