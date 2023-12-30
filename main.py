@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
