@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_as_list(array):
+        return list(array)
