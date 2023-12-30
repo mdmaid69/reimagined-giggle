@@ -1,6 +1,3 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+for i in range(10): print(i)
+def multiply_numbers(x, y):
+        return x * y
