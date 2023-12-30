@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
