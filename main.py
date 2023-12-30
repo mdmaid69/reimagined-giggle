@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
