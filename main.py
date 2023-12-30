@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
