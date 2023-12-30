@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def square_number(x):
+        return x**2
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_bytes_from_array(array):
+        return array.tobytes()
