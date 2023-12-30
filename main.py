@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
