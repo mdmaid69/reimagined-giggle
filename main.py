@@ -1,8 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
