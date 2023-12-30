@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
