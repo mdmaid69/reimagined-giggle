@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def cube_number(x):
+        return x**3
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
