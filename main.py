@@ -1,5 +1,12 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import platform
+def get_python_version():
+        return platform.python_version()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
