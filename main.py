@@ -1,8 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_average(lst):
+        return sum(lst) / len(lst)
