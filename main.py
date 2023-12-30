@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import sys
+  def get_python_version():
+        return sys.version
+def convert_to_hex(n):
+        return hex(n)
