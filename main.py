@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
