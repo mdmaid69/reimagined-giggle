@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
