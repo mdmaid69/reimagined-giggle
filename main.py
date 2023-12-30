@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def convert_to_octal(n):
-        return oct(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
