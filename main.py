@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
