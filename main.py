@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_area_rectangle(l, w):
+        return l * w
