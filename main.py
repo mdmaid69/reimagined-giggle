@@ -1,5 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
