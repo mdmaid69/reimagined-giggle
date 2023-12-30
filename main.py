@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
