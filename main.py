@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
