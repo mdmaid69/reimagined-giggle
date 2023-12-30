@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def convert_to_hex(n):
+        return hex(n)
