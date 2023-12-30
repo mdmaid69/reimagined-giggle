@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
