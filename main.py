@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def multiply_numbers(x, y):
-        return x * y
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
