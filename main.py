@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
