@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
