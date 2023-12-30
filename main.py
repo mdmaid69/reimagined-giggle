@@ -1,7 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
