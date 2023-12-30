@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import datetime
+print(datetime.datetime.now())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
