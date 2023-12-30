@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_speed(distance, time):
-        return distance / time
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
