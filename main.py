@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def convert_to_hex(n):
-        return hex(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
