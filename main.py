@@ -1,5 +1,12 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
