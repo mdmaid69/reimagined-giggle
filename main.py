@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
