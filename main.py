@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+for i in range(5):
+        print(i)
