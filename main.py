@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def cube_number(x):
-        return x**3
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_area_rectangle(l, w):
+        return l * w
