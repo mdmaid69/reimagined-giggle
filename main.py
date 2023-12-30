@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def square_number(x):
+        return x**2
