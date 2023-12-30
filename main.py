@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
