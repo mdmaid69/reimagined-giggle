@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
