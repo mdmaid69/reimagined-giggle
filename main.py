@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
