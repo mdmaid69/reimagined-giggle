@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
