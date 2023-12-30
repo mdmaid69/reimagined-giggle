@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
