@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def count_words(sentence):
+        return len(sentence.split())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
