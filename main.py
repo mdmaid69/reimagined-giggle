@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
