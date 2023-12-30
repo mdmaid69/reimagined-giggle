@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
