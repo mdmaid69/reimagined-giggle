@@ -1,5 +1,8 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def square_number(x):
-        return x**2
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import collections
+def create_user_list():
+        return collections.UserList()
