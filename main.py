@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
