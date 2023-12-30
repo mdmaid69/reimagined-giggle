@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
