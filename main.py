@@ -1,6 +1,12 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def reverse_array(array):
+        array.reverse()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
