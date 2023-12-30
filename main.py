@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
