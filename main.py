@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
