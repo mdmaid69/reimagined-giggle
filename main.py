@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
