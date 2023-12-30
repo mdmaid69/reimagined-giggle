@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def add_numbers(x, y):
-        return x + y
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
