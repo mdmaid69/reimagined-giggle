@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
