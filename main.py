@@ -1,7 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
