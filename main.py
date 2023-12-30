@@ -1,5 +1,6 @@
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def remove_from_array(array, item):
+        array.remove(item)
