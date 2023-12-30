@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_pressure(force, area):
-        return force / area
+  def cube_number(x):
+        return x**3
+import time
+def get_current_time():
+        return time.ctime()
