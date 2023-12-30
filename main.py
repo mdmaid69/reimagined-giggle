@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
