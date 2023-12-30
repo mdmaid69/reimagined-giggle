@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def convert_to_binary(n):
+        return bin(n)
