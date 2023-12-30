@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_work(force, distance):
+        return force * distance
