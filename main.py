@@ -1,4 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
