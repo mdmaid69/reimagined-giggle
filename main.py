@@ -1,8 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def extend_array(array, iterable):
+        array.extend(iterable)
