@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import time
+print(time.time())
