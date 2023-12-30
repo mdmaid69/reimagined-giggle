@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
