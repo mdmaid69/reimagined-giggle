@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+def add_numbers(a, b):
+        return a + b
