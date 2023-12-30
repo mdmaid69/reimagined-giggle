@@ -1,6 +1,7 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
