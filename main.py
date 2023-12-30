@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
