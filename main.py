@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-def cube_number(x):
-        return x**3
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def find_union(list1, list2):
+        return set(list1) | set(list2)
