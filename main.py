@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
