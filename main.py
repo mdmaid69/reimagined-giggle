@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
