@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_pressure(force, area):
+        return force / area
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
