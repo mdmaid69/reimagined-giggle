@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_speed(distance, time):
+        return distance / time
