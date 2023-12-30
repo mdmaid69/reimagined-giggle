@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+print("Hello, world!")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
