@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
