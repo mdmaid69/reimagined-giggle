@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def multiply_numbers(x, y):
+        return x * y
