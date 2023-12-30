@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
