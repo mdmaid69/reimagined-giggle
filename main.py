@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
