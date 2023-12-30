@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def split_path(path):
+        return os.path.split(path)
