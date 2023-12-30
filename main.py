@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
