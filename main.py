@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
