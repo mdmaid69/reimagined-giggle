@@ -1,4 +1,9 @@
-def calculate_pressure(force, area):
-        return force / area
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
