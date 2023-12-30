@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
