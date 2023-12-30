@@ -1,8 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
