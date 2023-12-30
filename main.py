@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
