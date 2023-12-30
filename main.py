@@ -1,11 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
