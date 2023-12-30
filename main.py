@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
