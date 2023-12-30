@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
