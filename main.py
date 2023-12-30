@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
