@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
