@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
