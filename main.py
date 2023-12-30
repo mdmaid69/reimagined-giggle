@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import platform
+def get_os_info():
+        return platform.uname()
