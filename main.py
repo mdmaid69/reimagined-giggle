@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def is_palindrome(s):
+        return s == s[::-1]
