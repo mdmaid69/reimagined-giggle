@@ -1,5 +1,6 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def create_counter():
+        return collections.Counter()
