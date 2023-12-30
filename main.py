@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
