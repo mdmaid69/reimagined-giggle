@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def cube_number(x):
-        return x**3
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
