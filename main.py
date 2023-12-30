@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
