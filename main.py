@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def reverse_list(lst):
-        return lst[::-1]
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
