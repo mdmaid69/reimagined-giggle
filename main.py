@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def check_if_array_contains_item(array, item):
+        return item in array
