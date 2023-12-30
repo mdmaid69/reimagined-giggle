@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def add_numbers(x, y):
+        return x + y
