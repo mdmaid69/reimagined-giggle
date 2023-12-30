@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
