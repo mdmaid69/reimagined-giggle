@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
