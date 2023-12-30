@@ -1,5 +1,8 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
