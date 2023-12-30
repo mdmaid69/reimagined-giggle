@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
