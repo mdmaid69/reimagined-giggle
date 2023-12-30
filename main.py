@@ -1,4 +1,4 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def convert_to_hex(n):
+        return hex(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
