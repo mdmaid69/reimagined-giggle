@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
