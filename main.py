@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-print(math.pi)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
