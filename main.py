@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
