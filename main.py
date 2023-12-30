@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def cube_number(x):
+        return x**3
+def reverse_list(lst):
+        return lst[::-1]
