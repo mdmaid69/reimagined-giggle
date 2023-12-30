@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_bool(array):
+        return bool(array)
