@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_work(force, distance):
+        return force * distance
