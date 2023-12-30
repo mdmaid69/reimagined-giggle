@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
