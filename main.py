@@ -1,9 +1,7 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_user_string():
+        return collections.UserString()
