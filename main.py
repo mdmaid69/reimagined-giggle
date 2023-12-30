@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
