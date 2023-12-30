@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+for i in range(5):
+        print(i)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
