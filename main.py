@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import os
+def get_current_working_directory():
+        return os.getcwd()
