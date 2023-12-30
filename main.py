@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def is_even(n):
+        return n % 2 == 0
