@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import datetime
+print(datetime.datetime.now())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
