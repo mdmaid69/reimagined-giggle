@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
