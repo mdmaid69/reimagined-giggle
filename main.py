@@ -1,5 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
