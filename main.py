@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def find_min(numbers):
-        return min(numbers)
+import getpass
+def get_username():
+        return getpass.getuser()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
