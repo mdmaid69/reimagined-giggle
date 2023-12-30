@@ -1,5 +1,8 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_area_rectangle(l, w):
-        return l * w
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def create_queue():
+        return collections.deque()
