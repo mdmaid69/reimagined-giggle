@@ -1,6 +1,8 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
