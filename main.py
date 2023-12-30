@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def reverse_array(array):
-        array.reverse()
+def sort_list(lst):
+        return sorted(lst)
+def calculate_density(mass, volume):
+        return mass / volume
