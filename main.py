@@ -1,5 +1,8 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
