@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
