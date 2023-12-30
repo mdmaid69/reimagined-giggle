@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
