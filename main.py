@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import sys
+def print_python_version():
+        return sys.version
