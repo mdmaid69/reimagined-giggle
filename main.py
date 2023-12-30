@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_length(array):
+        return len(array)
