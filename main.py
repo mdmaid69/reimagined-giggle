@@ -1,11 +1,5 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
