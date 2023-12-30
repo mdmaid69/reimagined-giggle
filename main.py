@@ -1,6 +1,6 @@
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
