@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_priority_queue():
+        return collections.deque()
