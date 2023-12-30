@@ -1,6 +1,8 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
