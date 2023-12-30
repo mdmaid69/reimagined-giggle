@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def count_characters(sentence):
-        return len(sentence)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import sys
+def print_python_version():
+        return sys.version
