@@ -1,4 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def sort_list(lst):
+        return sorted(lst)
+  def is_odd(n):
+        return n % 2 != 0
