@@ -1,6 +1,9 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_sine(x):
+        return math.sin(x)
