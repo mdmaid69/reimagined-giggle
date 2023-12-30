@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def subtract_numbers(x, y):
-        return x - y
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
