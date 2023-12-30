@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
