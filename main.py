@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_volume(length, width, height):
-        return length * width * height
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_length(array):
+        return len(array)
