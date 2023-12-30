@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_string_from_array(array):
+        return array.tobytes()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
