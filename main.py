@@ -1,4 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
