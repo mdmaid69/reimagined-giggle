@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
