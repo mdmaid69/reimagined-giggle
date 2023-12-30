@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
