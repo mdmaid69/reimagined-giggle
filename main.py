@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_max(numbers):
+        return max(numbers)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
