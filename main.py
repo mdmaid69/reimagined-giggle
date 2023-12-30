@@ -1,4 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-for i in range(10): print(i)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
