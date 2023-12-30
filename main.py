@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
