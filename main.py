@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
