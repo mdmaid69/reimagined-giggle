@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import logging
-def log_message(message):
-        logging.info(message)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_str(array):
+        return str(array)
