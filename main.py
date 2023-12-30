@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def add_numbers(x, y):
+        return x + y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
