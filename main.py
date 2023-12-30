@@ -1,6 +1,8 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
