@@ -1,4 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
