@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def find_max(numbers):
+        return max(numbers)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
