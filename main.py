@@ -1,7 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
