@@ -1,6 +1,7 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
