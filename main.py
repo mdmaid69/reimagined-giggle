@@ -1,6 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
