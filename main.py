@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
