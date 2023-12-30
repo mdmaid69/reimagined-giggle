@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
