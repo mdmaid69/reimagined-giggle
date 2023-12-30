@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
