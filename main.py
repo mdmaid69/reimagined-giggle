@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import time
-def get_current_time():
-        return time.ctime()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
