@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
