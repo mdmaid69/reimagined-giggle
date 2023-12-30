@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
