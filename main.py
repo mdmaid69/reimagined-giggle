@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def reverse_array(array):
-        array.reverse()
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
