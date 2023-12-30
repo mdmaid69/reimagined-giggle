@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def multiply_numbers(x, y):
+        return x * y
