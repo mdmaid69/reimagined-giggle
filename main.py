@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
