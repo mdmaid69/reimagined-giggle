@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
