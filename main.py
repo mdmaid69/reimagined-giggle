@@ -1,6 +1,3 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+for i in range(10): print(i)
+def square_number(x):
+        return x**2
