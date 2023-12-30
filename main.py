@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
