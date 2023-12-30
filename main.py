@@ -1,6 +1,6 @@
-for i in range(5):
-        print(i)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_slice(array, i, j):
+        return array[i:j]
