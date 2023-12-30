@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
