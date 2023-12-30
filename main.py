@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
