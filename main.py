@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
