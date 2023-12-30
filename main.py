@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
