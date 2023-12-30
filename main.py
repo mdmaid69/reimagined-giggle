@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_work(force, distance):
+        return force * distance
