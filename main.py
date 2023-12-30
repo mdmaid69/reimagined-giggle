@@ -1,4 +1,7 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import json
-print(json.dumps({"name": "John", "age": 30}))
-  def convert_to_hex(n):
-        return hex(n)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
