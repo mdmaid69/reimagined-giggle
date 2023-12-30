@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
