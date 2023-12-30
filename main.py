@@ -1,8 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_acceleration(speed, time):
+        return speed / time
