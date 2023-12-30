@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def add_numbers(x, y):
+        return x + y
