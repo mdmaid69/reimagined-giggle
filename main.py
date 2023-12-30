@@ -1,4 +1,8 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
