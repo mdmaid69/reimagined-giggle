@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
