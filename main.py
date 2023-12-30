@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
