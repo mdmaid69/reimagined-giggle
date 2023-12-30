@@ -1,8 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+text = "Hello, world!"
+print("Characters:", len(text))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
