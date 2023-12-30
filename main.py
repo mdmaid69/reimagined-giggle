@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import platform
-def get_python_version():
-        return platform.python_version()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def count_elements(lst):
+        return len(lst)
