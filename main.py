@@ -1,5 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def subtract_numbers(x, y):
-        return x - y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
