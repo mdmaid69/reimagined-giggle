@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-for i in range(5):
-        print(i)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
