@@ -1,7 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_work(force, distance):
+        return force * distance
