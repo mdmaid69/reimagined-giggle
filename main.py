@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
