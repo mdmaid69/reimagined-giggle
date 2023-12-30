@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
