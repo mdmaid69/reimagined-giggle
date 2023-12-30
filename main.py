@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
