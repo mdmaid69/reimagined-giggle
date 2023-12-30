@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
