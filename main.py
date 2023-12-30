@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_user_dict():
+        return collections.UserDict()
