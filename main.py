@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import sys
+print(sys.version)
+def sort_list(lst):
+        return sorted(lst)
