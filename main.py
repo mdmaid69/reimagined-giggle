@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def append_to_array(array, item):
+        array.append(item)
