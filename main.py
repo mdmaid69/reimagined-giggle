@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+def change_working_directory(path):
+        os.chdir(path)
