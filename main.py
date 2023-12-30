@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
