@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
