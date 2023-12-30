@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def reverse_list(lst):
+        return lst[::-1]
