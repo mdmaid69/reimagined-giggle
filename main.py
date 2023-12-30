@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
