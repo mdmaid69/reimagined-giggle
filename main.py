@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import sys
+def exit_program():
+        sys.exit()
