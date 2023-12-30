@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
