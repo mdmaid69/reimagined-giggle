@@ -1,6 +1,7 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
