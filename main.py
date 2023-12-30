@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
