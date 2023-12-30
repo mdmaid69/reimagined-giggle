@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
