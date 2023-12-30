@@ -1,6 +1,8 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
