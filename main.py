@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
