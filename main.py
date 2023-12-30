@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
