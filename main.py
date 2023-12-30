@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
