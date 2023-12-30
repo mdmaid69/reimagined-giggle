@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
 import collections
-def create_stack():
-        return collections.deque()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
