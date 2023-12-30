@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def calculate_pressure(force, area):
-        return force / area
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
