@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
