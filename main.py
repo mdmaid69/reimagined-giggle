@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import os
-print(os.getcwd())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
