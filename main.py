@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
