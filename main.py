@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def reverse_string(s):
-        return s[::-1]
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+x = 10
+y = 20
+print("Sum:", x + y)
