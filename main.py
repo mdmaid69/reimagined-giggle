@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import numpy as np
+print(np.array([1, 2, 3]))
