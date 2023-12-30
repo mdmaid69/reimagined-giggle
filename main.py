@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
