@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_density(mass, volume):
+        return mass / volume
