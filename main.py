@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_floor(x):
+        return math.floor(x)
