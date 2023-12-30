@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
