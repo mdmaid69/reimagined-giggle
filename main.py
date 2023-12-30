@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def cube_number(x):
+        return x**3
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
