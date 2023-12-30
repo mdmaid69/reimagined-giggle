@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
