@@ -1,5 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def count_characters(sentence):
+        return len(sentence)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
