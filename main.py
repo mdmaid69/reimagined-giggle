@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
