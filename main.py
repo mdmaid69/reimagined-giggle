@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
