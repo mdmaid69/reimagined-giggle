@@ -1,5 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
