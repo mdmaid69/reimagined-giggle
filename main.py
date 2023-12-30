@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
