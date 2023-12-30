@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_density(mass, volume):
+        return mass / volume
+  def convert_to_hex(n):
+        return hex(n)
