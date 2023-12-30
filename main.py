@@ -1,4 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def find_min(lst):
-        return min(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
