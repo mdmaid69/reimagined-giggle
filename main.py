@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
