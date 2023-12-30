@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def subtract_numbers(x, y):
+        return x - y
 import collections
-def create_stack():
-        return collections.deque()
+def create_ordered_dict():
+        return collections.OrderedDict()
