@@ -1,6 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-print(sum(range(10)))
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
