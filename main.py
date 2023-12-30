@@ -1,8 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import datetime
+def get_current_date():
+        return datetime.date.today()
