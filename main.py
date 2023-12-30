@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
