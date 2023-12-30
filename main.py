@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def find_max(lst):
+        return max(lst)
