@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
