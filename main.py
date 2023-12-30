@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import os
+print(os.getcwd())
+import platform
+def get_python_version():
+        return platform.python_version()
