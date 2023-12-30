@@ -1,8 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
