@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+for i in range(5):
+        print(i)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
