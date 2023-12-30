@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import tensorflow as tf
+print(tf.__version__)
