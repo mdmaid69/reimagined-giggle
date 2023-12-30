@@ -1,6 +1,3 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+print([x**2 for x in range(10)])
+  def add_numbers(x, y):
+        return x + y
