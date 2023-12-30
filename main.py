@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
