@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
