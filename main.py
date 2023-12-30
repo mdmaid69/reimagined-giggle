@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
