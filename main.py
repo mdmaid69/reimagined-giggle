@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def multiply_numbers(x, y):
+        return x * y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
