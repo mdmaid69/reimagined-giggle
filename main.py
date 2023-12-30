@@ -1,9 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
