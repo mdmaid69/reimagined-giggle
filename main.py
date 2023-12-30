@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_acceleration(speed, time):
+        return speed / time
