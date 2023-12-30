@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
