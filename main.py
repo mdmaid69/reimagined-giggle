@@ -1,10 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
