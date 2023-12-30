@@ -1,5 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_pressure(force, area):
-        return force / area
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
