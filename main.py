@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_pressure(force, area):
+        return force / area
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
