@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import sys
-def exit_program():
-        sys.exit()
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
