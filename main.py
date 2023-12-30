@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
