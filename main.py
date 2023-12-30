@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
