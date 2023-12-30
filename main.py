@@ -1,6 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
