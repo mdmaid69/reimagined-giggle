@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
