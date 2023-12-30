@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
