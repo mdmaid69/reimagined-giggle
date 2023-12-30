@@ -1,7 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
