@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import collections
+def create_priority_queue():
+        return collections.deque()
