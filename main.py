@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
   import os
   def get_file_access_time(file_name):
         return os.path.getatime(file_name)
