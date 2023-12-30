@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
