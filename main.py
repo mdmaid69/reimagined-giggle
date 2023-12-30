@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
