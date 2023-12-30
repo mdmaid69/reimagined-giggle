@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
