@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
