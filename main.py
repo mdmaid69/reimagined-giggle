@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
