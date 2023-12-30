@@ -1,3 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-print("Hello, world!")
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
