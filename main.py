@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import datetime
+def get_current_date():
+        return datetime.date.today()
+from collections import Counter
+print(Counter("hello world"))
