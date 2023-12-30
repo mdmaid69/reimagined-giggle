@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def reverse_array(array):
+        array.reverse()
