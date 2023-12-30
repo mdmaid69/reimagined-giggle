@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def multiply_numbers(x, y):
+        return x * y
