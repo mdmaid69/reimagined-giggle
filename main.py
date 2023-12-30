@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
