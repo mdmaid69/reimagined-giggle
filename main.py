@@ -1,8 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_list_from_array(array):
+        return array.tolist()
