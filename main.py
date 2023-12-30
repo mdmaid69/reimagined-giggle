@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_pressure(force, area):
+        return force / area
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
