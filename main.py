@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import collections
+def create_stack():
+        return collections.deque()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
