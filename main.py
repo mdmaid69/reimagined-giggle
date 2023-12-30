@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_speed(distance, time):
-        return distance / time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
