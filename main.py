@@ -1,5 +1,8 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
