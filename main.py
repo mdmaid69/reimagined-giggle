@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def convert_to_hex(n):
+        return hex(n)
