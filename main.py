@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
