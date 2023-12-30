@@ -1,6 +1,4 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+for i in range(10): print(i)
