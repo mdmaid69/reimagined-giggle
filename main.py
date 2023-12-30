@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def multiply_numbers(x, y):
+        return x * y
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
