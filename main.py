@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_density(mass, volume):
-        return mass / volume
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
