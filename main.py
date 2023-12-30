@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
