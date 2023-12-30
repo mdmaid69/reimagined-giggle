@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
