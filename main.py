@@ -1,6 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def convert_array_to_unicode(array):
+        return array.tounicode()
