@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import tensorflow as tf
+print(tf.__version__)
