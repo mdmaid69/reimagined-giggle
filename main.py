@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
