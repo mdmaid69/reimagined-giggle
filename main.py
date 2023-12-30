@@ -1,5 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import re
-print(re.match("h.*o", "hello world"))
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def divide_numbers(x, y):
+        return x / y
