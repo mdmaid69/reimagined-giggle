@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
