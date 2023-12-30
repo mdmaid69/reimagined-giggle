@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
