@@ -1,6 +1,8 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
