@@ -1,6 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def sort_list(lst):
+        return sorted(lst)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
