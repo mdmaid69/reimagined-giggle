@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
