@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def reverse_list(lst):
+        return lst[::-1]
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
