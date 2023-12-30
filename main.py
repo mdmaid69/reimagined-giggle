@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
