@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
