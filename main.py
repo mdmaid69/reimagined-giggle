@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
