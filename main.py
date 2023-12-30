@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
