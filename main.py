@@ -1,6 +1,10 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
