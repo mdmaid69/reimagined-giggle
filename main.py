@@ -1,5 +1,9 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
