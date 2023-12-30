@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def clear_array(array):
+        array *= 0
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
