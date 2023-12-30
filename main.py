@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_user_list():
+        return collections.UserList()
