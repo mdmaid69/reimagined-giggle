@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import time
+def get_time_since_epoch():
+        return time.time()
+  def add_numbers(x, y):
+        return x + y
