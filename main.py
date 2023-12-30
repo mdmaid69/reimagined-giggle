@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_mean(arr):
+        return np.mean(arr)
