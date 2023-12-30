@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import logging
+def log_message(message):
+        logging.info(message)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
