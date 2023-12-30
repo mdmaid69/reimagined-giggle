@@ -1,7 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def cube_number(x):
+        return x**3
