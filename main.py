@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def multiply_numbers(x, y):
+        return x * y
