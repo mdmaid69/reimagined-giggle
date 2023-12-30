@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_volume(length, width, height):
-        return length * width * height
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
