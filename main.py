@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
