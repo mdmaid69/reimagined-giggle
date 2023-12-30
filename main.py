@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def convert_to_binary(n):
+        return bin(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
