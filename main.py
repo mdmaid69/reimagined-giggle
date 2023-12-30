@@ -1,8 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_power(work, time):
+        return work / time
