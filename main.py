@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
