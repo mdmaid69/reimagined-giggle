@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import time
-def get_current_time():
-        return time.time()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
