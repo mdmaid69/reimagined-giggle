@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
