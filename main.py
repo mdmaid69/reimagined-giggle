@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
