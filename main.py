@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
