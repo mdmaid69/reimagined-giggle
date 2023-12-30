@@ -1,8 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
