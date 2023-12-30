@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import sys
-def print_python_version():
-        print(sys.version)
+  def reverse_list(lst):
+        return lst[::-1]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
