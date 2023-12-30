@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
