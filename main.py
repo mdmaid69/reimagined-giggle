@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
