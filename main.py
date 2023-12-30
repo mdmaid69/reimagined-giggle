@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
