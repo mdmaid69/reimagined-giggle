@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_repr(array):
+        return repr(array)
