@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
