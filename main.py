@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def append_to_array(array, item):
+        array.append(item)
