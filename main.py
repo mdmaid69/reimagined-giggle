@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
