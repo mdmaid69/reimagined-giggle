@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def is_palindrome(s):
-        return s == s[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
