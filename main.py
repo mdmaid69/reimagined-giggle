@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def convert_to_binary(n):
-        return bin(n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
