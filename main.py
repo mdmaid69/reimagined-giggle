@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
