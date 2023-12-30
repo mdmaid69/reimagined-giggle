@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def convert_to_octal(n):
+        return oct(n)
