@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import re
+print(re.match("h.*o", "hello world"))
