@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
