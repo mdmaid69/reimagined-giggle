@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def cube_number(x):
+        return x**3
