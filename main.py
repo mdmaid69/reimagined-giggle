@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
