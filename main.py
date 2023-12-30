@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+from collections import Counter
+print(Counter("hello world"))
+def greet(name):
+        print(f"Hello, {name}!")
