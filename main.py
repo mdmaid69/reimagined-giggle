@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import sys
+def print_python_version():
+        print(sys.version)
