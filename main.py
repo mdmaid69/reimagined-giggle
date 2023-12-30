@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def count_elements(lst):
+        return len(lst)
+def calculate_pressure(force, area):
+        return force / area
