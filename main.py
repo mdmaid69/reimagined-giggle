@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
