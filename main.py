@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
 import re
-def split_by_pattern(pattern, string):
+def split_string(pattern, string):
         return re.split(pattern, string)
+def convert_to_binary(n):
+        return bin(n)
