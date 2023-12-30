@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
