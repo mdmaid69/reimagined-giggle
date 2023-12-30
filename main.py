@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
