@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
