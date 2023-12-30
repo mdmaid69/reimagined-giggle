@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_acceleration(speed, time):
-        return speed / time
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import os
+print(os.getcwd())
