@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import time
+def get_current_time():
+        return time.time()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
