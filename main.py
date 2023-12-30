@@ -1,7 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
