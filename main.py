@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
