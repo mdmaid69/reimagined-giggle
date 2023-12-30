@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def add_numbers(a, b):
+        return a + b
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
