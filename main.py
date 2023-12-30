@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
