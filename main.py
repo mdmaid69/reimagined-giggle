@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
