@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
