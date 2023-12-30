@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def add_numbers(x, y):
+        return x + y
