@@ -1,11 +1,9 @@
-import threading
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+from flask import Flask
+app = Flask(__name__)
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+@app.route("/")
+def hello():
+        return "Hello, World!"
