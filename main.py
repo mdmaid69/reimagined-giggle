@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def cube_number(x):
+        return x**3
