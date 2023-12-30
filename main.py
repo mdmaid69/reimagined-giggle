@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
