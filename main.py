@@ -1,4 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-print(sum(range(10)))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
