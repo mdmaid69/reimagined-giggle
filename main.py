@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_power(work, time):
+        return work / time
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
