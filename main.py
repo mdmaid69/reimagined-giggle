@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
