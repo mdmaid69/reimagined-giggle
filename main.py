@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
