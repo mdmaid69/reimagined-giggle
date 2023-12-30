@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def cube_number(x):
+        return x**3
+import json
+print(json.dumps({"name": "John", "age": 30}))
