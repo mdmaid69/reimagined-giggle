@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_power(work, time):
+        return work / time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
