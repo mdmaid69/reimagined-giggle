@@ -1,5 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def cube_number(x):
-        return x**3
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_itemsize(array):
+        return array.itemsize
