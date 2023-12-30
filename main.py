@@ -1,4 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import time
-print(time.time())
-import sys
-print(sys.version)
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
