@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
