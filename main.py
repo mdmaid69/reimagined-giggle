@@ -1,7 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
