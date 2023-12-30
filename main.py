@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
