@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
