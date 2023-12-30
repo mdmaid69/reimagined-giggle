@@ -1,7 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_item_count(array, item):
+        return array.count(item)
