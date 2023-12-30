@@ -1,10 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def get_time_since_epoch():
+        return time.time()
