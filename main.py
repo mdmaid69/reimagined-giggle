@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
