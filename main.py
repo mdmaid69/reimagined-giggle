@@ -1,5 +1,11 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_typecode(array):
+        return array.typecode
