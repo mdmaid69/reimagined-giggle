@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
