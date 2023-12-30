@@ -1,7 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
