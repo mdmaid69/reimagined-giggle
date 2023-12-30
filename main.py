@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  def convert_to_octal(n):
-        return oct(n)
+import sys
+def print_python_version():
+        return sys.version
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
