@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import platform
-def get_python_version():
-        return platform.python_version()
+print(sum(range(10)))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
