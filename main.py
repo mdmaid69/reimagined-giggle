@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
