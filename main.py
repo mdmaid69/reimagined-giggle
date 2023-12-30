@@ -1,5 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
