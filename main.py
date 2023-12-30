@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_power(work, time):
+        return work / time
