@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import os
+print(os.getcwd())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
