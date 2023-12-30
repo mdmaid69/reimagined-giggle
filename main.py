@@ -1,8 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def square_number(x):
+        return x**2
