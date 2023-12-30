@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def convert_to_hex(n):
+        return hex(n)
