@@ -1,5 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
