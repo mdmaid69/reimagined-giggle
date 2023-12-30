@@ -1,5 +1,10 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_counter():
-        return collections.Counter()
+import getpass
+def get_username():
+        return getpass.getuser()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
