@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_item(array, i):
+        return array[i]
