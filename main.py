@@ -1,7 +1,7 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
