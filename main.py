@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
