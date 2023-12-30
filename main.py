@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
