@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
