@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def reverse_list(lst):
+        return lst[::-1]
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
