@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def count_characters(sentence):
-        return len(sentence)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
