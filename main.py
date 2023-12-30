@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import sys
-def print_python_version():
-        print(sys.version)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def is_odd(n):
+        return n % 2 != 0
