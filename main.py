@@ -1,7 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
