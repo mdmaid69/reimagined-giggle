@@ -1,4 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
