@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def find_unique_words(sentence):
-        return set(sentence.split())
+def find_min(lst):
+        return min(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
