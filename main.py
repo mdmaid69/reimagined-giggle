@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
