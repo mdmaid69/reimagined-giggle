@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
