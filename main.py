@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_work(force, distance):
+        return force * distance
