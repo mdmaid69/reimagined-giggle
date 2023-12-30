@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_bytes_from_array(array):
+        return array.tobytes()
