@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def append_to_array(array, item):
+        array.append(item)
