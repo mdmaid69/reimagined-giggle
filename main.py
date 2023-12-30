@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
