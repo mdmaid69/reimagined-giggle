@@ -1,5 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def cube_number(x):
-        return x**3
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_density(mass, volume):
+        return mass / volume
