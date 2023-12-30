@@ -1,8 +1,6 @@
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_memoryview(array):
+        return memoryview(array)
