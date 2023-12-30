@@ -1,7 +1,3 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+for i in range(10): print(i)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
