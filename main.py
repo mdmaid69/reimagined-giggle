@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import collections
-def create_user_list():
-        return collections.UserList()
+import numpy as np
+print(np.array([1, 2, 3]))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
