@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
