@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
