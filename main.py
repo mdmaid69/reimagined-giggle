@@ -1,5 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_stack():
+        return collections.deque()
