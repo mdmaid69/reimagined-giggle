@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
