@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
