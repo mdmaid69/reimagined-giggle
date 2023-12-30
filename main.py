@@ -1,5 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
