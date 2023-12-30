@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
