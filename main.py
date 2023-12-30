@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def count_characters(sentence):
+        return len(sentence)
