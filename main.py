@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
