@@ -1,5 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def find_max(lst):
-        return max(lst)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
