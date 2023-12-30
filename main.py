@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
