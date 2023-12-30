@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_acceleration(speed, time):
+        return speed / time
