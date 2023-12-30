@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
