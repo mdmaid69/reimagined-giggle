@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
