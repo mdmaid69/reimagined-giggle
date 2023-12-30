@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import re
+print(re.match("h.*o", "hello world"))
