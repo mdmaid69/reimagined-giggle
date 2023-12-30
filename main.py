@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
