@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
