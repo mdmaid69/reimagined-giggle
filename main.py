@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import time
+def get_current_time():
+        return time.time()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
