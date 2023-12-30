@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
