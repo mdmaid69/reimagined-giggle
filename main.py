@@ -1,3 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-print(sum(range(10)))
+def is_palindrome(s):
+        return s == s[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
