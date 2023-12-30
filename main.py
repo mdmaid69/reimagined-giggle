@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
