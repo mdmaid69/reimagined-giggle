@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_counter():
+        return collections.Counter()
