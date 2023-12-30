@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def append_to_array(array, item):
+        array.append(item)
