@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import platform
+def get_os_info():
+        return platform.uname()
+text = "Hello, world!"
+print("Words:", len(text.split()))
