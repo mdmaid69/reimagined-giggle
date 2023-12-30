@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def cube_number(x):
-        return x**3
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
