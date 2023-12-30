@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
