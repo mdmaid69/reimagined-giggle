@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def append_to_array(array, item):
-        array.append(item)
+def subtract_numbers(x, y):
+        return x - y
+  def convert_to_binary(n):
+        return bin(n)
