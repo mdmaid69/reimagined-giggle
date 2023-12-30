@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
