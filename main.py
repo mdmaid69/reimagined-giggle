@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
