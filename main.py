@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
