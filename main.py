@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import platform
+def get_os_info():
+        return platform.uname()
