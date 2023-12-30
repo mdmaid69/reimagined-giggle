@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
