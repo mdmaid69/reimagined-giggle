@@ -1,8 +1,12 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
