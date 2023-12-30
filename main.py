@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def is_even(n):
+        return n % 2 == 0
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
