@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
