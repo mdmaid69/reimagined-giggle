@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-for i in range(5):
-        print(i)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import time
+print(time.time())
