@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import time
+def get_current_time():
+        return time.time()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_slice(array, i, j):
+        return array[i:j]
