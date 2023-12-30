@@ -1,5 +1,8 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
