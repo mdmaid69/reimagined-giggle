@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
