@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
