@@ -1,6 +1,4 @@
+print("Hello, world!")
 import array
-def get_array_typecode(array):
-        return array.typecode
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_array_index(array, item):
+        return array.index(item)
