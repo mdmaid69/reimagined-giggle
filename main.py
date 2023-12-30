@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_list(array):
+        return list(array)
