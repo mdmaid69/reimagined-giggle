@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import tensorflow as tf
+print(tf.__version__)
