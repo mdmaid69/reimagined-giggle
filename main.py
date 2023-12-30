@@ -1,5 +1,7 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import platform
+def get_os_info():
+        return platform.uname()
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
