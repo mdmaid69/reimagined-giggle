@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
