@@ -1,4 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def is_even(n):
+        return n % 2 == 0
