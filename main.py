@@ -1,5 +1,10 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def is_palindrome(s):
+        return s == s[::-1]
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
