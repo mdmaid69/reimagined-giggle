@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
