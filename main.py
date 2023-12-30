@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+text = "Hello, world!"
+print("Characters:", len(text))
