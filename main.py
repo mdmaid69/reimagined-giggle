@@ -1,4 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-print(sum(range(10)))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
