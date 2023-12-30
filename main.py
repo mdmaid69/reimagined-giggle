@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
