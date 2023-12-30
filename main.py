@@ -1,4 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-print(sum(range(10)))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import time
+def get_time_since_epoch():
+        return time.time()
