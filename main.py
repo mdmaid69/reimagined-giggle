@@ -1,8 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
