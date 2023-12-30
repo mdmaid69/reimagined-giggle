@@ -1,6 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_item(array, i):
+        return array[i]
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
