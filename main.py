@@ -1,5 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
