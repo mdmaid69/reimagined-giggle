@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
