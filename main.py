@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import tensorflow as tf
+print(tf.__version__)
