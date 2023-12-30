@@ -1,5 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import math
-print(math.pi)
-import time
-def get_current_time():
-        return time.time()
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
