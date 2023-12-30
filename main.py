@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def count_elements(lst):
-        return len(lst)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
