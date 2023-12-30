@@ -1,6 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
