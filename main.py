@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
