@@ -1,10 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
