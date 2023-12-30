@@ -1,6 +1,9 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import collections
+def create_priority_queue():
+        return collections.deque()
