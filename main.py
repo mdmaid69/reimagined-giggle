@@ -1,6 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
