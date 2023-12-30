@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import platform
+def get_python_version():
+        return platform.python_version()
