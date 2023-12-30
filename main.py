@@ -1,9 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
