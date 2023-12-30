@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def count_elements(lst):
-        return len(lst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import time
+print(time.time())
