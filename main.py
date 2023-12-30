@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import re
+print(re.match("h.*o", "hello world"))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
