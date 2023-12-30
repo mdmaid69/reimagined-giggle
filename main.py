@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
