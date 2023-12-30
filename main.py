@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def convert_to_octal(n):
-        return oct(n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
