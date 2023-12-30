@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
