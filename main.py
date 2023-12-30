@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
