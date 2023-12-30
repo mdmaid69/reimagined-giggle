@@ -1,5 +1,4 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import logging
-def log_message(message):
-        logging.info(message)
+  def add_numbers(x, y):
+        return x + y
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
