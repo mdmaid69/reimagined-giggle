@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def sort_numbers(numbers):
+        return sorted(numbers)
