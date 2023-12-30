@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def is_even(n):
-        return n % 2 == 0
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
