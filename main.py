@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def convert_to_hex(n):
+        return hex(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
