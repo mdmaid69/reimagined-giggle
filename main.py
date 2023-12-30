@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
