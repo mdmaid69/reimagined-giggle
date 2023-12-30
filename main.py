@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def multiply_numbers(x, y):
-        return x * y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_floor(x):
+        return math.floor(x)
