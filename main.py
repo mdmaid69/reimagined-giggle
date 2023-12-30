@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import sys
+  def get_python_version():
+        return sys.version
