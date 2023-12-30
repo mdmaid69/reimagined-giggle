@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
