@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_force(mass, acceleration):
+        return mass * acceleration
