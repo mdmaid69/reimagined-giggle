@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
