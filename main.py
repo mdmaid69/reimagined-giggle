@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def find_max(lst):
+        return max(lst)
