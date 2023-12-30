@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
