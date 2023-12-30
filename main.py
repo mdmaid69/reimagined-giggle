@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def sort_list(lst):
+        return sorted(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
