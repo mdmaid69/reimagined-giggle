@@ -1,8 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
