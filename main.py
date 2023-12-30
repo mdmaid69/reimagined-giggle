@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_speed(distance, time):
+        return distance / time
