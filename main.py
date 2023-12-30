@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
