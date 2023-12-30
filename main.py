@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
