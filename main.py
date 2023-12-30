@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
