@@ -1,6 +1,12 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import collections
+def create_queue():
+        return collections.deque()
