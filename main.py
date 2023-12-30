@@ -1,6 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def get_array_as_complex(array):
+        return complex(array[0])
+def add_numbers(a, b):
+        return a + b
