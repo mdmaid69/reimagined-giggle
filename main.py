@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
