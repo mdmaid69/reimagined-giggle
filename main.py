@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
