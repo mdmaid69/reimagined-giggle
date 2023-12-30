@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import datetime
+def get_current_date():
+        return datetime.date.today()
