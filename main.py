@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
