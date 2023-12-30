@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def is_even(n):
+        return n % 2 == 0
