@@ -1,6 +1,9 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def convert_to_octal(n):
-        return oct(n)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
