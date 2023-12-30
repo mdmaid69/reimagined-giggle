@@ -1,6 +1,11 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
