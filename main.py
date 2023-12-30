@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  def square_number(x):
-        return x**2
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import datetime
+def get_today_date():
+        return datetime.date.today()
