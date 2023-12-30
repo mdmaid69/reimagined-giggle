@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
