@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
