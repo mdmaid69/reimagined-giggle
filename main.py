@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_area_rectangle(l, w):
+        return l * w
