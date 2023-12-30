@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_volume(length, width, height):
+        return length * width * height
+  def remove_duplicates(lst):
+        return list(set(lst))
