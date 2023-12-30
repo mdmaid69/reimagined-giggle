@@ -1,9 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import collections
+def create_user_string():
+        return collections.UserString()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
