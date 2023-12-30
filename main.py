@@ -1,11 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  def cube_number(x):
-        return x**3
+def calculate_power(work, time):
+        return work / time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
