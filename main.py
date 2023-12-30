@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  def is_even(n):
+        return n % 2 == 0
