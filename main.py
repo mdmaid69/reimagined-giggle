@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
