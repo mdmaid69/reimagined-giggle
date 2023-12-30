@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def cube_number(x):
+        return x**3
