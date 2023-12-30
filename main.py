@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_as_str(array):
-        return str(array)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
