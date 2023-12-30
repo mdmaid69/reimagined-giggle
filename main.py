@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
