@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
