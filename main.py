@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_work(force, distance):
+        return force * distance
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
