@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
