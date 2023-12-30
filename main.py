@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import os
+def remove_directory(path):
+        os.rmdir(path)
