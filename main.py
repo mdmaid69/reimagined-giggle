@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def reverse_array(array):
-        array.reverse()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
