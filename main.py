@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
