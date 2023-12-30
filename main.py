@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
