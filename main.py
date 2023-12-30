@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def add_numbers(x, y):
-        return x + y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
