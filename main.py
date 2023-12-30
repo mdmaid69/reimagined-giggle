@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
