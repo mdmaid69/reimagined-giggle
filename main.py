@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
