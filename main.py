@@ -1,4 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import numpy as np
+print(np.array([1, 2, 3]))
