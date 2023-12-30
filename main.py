@@ -1,6 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def append_to_array(array, item):
+        array.append(item)
