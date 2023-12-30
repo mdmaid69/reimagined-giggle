@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
