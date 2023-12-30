@@ -1,5 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
