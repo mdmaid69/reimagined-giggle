@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def is_even(n):
-        return n % 2 == 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
