@@ -1,6 +1,7 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
