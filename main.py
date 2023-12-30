@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
