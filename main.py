@@ -1,5 +1,8 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-print(os.getcwd())
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
