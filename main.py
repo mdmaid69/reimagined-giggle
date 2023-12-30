@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def reverse_array(array):
+        array.reverse()
