@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
