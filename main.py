@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
