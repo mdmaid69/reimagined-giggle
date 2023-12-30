@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
