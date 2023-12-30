@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
