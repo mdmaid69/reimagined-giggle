@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  def cube_number(x):
-        return x**3
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_error_function(x):
+        return math.erf(x)
