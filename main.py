@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def add_numbers(x, y):
+        return x + y
