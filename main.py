@@ -1,5 +1,3 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def sort_list(lst):
-        return sorted(lst)
+print("Hello, world!")
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
