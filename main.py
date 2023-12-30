@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
