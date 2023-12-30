@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
