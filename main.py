@@ -1,6 +1,8 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
