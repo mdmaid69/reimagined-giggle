@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import tensorflow as tf
+print(tf.__version__)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
