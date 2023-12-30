@@ -1,8 +1,4 @@
-def find_min(lst):
-        return min(lst)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def is_odd(n):
+        return n % 2 != 0
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
