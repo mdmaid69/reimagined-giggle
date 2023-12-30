@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import random
-print(random.randint(0, 100))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
