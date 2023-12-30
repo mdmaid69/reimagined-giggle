@@ -1,7 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def is_odd(n):
+        return n % 2 != 0
+def sort_list(lst):
+        return sorted(lst)
