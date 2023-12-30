@@ -1,7 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
