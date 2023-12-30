@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
