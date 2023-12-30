@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
