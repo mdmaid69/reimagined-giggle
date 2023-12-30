@@ -1,5 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
