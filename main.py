@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
