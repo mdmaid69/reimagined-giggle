@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def find_min(lst):
-        return min(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
