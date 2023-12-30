@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def convert_to_octal(n):
+        return oct(n)
+def reverse_list(lst):
+        return lst[::-1]
