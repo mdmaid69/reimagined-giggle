@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
