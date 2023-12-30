@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
