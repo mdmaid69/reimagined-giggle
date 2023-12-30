@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
