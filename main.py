@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_length(array):
+        return len(array)
