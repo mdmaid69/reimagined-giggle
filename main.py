@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
