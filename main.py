@@ -1,6 +1,9 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
