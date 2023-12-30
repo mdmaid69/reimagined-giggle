@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
