@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def reverse_string(s):
+        return s[::-1]
