@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_power(work, time):
+        return work / time
