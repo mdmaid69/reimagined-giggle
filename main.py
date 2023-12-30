@@ -1,5 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+print(random.randint(0, 100))
+  def square_number(x):
+        return x**2
