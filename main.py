@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import array
-def clear_array(array):
-        array *= 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
