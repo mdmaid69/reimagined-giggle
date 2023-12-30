@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
