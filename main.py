@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
