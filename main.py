@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
