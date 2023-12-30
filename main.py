@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
