@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_current_directory():
+        return os.getcwd()
