@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
