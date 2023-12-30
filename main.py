@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+text = "Hello, world!"
+print("Characters:", len(text))
