@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import random
-print(random.randint(0, 100))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def convert_to_octal(n):
+        return oct(n)
