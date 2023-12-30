@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
