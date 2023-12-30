@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
