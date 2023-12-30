@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import platform
+def get_os_info():
+        return platform.uname()
