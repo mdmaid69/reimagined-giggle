@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
