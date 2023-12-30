@@ -1,8 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
