@@ -1,7 +1,4 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def sort_list(lst):
+        return sorted(lst)
