@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
