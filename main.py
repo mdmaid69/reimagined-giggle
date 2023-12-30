@@ -1,5 +1,12 @@
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
