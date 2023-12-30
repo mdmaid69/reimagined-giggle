@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
