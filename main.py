@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import os
-print(os.getcwd())
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
