@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_index(array, item):
+        return array.index(item)
