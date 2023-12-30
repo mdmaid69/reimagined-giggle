@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import sys
+def print_python_version():
+        return sys.version
