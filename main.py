@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def clear_array(array):
+        array *= 0
