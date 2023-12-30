@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+x = 10
+y = 20
+print("Sum:", x + y)
