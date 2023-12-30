@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
