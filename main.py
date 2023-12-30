@@ -1,3 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-print(sum(range(10)))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
