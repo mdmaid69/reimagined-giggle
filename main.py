@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
