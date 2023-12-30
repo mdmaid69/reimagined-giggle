@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        return sys.version
+import sys
+print(sys.version)
