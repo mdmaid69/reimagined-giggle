@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
