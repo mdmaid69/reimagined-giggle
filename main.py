@@ -1,6 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_size(file_name):
+  def get_file_size_in_bytes(file_name):
         return os.stat(file_name).st_size
