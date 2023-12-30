@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
