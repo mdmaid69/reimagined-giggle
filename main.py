@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-print(math.pi)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
