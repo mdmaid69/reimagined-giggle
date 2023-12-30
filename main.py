@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
