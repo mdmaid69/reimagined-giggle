@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
