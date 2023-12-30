@@ -1,4 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
