@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def convert_to_hex(n):
-        return hex(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import platform
+def get_python_version():
+        return platform.python_version()
