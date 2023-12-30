@@ -1,3 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-print([x**2 for x in range(10)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  def sort_list(lst):
+        return sorted(lst)
