@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import array
-def reverse_array(array):
-        array.reverse()
+def clear_array(array):
+        array *= 0
