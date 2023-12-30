@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
