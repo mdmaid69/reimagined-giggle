@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
