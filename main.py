@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
