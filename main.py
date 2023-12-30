@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
