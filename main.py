@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_priority_queue():
+        return collections.deque()
