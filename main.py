@@ -1,6 +1,8 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
