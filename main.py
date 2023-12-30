@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
