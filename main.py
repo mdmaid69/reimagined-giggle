@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
