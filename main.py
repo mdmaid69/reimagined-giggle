@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import time
+def get_time_since_epoch():
+        return time.time()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
