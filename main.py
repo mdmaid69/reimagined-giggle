@@ -1,7 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
