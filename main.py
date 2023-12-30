@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
