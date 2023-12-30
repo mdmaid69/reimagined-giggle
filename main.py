@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def count_words(sentence):
+        return len(sentence.split())
