@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
