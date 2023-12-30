@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
