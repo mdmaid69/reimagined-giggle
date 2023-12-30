@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+import platform
+def get_os_info():
+        return platform.uname()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
