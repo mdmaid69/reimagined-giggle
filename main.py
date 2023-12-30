@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
