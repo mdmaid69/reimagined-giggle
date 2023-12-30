@@ -1,5 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def reverse_string(s):
-        return s[::-1]
+  def delete_file(file_name):
+        os.remove(file_name)
