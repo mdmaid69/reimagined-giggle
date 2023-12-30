@@ -1,4 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
