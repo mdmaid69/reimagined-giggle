@@ -1,8 +1,8 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
