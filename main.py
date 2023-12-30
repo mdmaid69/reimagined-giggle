@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
