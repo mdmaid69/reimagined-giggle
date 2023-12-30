@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
