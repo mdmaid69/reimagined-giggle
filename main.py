@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def count_characters(sentence):
-        return len(sentence)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_area(radius):
+        return 3.14 * radius * radius
