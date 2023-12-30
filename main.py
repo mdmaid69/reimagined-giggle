@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
