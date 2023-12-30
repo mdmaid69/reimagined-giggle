@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import random
+print(random.randint(0, 100))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
