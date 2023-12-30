@@ -1,8 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
