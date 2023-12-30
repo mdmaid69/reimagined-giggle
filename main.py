@@ -1,6 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
