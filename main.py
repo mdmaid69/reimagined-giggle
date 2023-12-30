@@ -1,6 +1,8 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
