@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def delete_file(file_name):
+        os.remove(file_name)
