@@ -1,9 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
