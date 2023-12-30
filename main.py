@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
