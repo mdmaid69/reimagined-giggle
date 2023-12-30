@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
