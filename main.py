@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def convert_to_hex(n):
-        return hex(n)
+print(sum(range(10)))
+import array
+def get_array_as_float(array):
+        return float(array[0])
