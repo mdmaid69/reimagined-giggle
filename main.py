@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import sys
-def exit_program():
-        sys.exit()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
