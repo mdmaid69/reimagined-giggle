@@ -1,5 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def cube_number(x):
-        return x**3
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def reverse_array(array):
+        array.reverse()
