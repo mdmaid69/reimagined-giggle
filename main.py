@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
