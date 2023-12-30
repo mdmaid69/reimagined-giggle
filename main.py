@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
