@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_power(work, time):
+        return work / time
