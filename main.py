@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
