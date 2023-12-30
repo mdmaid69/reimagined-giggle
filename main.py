@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
