@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+print("Hello, world!")
+import time
+def get_time_since_epoch():
+        return time.time()
