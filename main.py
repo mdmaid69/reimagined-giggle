@@ -1,7 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
