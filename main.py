@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
