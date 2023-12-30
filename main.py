@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
