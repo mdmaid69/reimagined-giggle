@@ -1,8 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_power(work, time):
+        return work / time
