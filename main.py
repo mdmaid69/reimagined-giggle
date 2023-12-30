@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
