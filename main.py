@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
