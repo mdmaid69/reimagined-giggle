@@ -1,4 +1,6 @@
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-for i in range(10): print(i)
+def get_array_itemsize(array):
+        return array.itemsize
