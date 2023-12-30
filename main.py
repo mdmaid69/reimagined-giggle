@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def subtract_numbers(x, y):
-        return x - y
+def find_min(lst):
+        return min(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
