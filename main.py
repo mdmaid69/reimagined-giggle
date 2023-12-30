@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
