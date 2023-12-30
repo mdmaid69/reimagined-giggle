@@ -1,6 +1,9 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
