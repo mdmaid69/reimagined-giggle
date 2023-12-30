@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import os
+def remove_directory(path):
+        os.rmdir(path)
