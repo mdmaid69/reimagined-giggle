@@ -1,7 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_square_root(x):
+        return math.sqrt(x)
