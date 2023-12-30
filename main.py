@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
