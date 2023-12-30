@@ -1,6 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import datetime
+print(datetime.datetime.now())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
