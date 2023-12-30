@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
