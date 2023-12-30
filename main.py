@@ -1,5 +1,3 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+print([x**2 for x in range(10)])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
