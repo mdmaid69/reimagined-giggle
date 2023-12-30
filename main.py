@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
