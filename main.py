@@ -1,6 +1,8 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
