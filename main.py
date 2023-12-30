@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import sys
+def print_python_version():
+        print(sys.version)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
