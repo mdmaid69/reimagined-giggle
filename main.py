@@ -1,5 +1,7 @@
-for i in range(5):
-        print(i)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
