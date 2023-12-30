@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def remove_duplicates(lst):
+        return list(set(lst))
+def reverse_string(s):
+        return s[::-1]
