@@ -1,6 +1,3 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def convert_to_octal(n):
+        return oct(n)
+print(sum(range(10)))
