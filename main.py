@@ -1,4 +1,4 @@
-print("Hello, world!")
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
