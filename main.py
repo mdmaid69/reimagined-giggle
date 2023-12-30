@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def is_odd(n):
+        return n % 2 != 0
