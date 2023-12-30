@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
