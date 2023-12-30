@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
