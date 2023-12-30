@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
