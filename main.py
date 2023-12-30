@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
