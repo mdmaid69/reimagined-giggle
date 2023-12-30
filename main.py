@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
