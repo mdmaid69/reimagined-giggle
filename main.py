@@ -1,5 +1,9 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_work(force, distance):
-        return force * distance
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
