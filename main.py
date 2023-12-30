@@ -1,5 +1,11 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
