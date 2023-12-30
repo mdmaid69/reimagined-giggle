@@ -1,7 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
