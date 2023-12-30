@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
