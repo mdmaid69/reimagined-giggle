@@ -1,7 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
