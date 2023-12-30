@@ -1,7 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
