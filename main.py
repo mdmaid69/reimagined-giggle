@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import sys
+def exit_program():
+        sys.exit()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
