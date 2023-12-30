@@ -1,5 +1,3 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+print([x**2 for x in range(10)])
