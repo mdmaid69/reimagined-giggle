@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def convert_to_octal(n):
+        return oct(n)
