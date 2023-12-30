@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
