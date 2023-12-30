@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
