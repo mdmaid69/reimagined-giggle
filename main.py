@@ -1,6 +1,8 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
