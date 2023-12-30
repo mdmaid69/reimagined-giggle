@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
