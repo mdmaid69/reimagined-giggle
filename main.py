@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def greet(name):
-        print(f"Hello, {name}!")
+import platform
+def get_os_info():
+        return platform.uname()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
