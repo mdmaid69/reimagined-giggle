@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
