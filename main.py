@@ -1,4 +1,7 @@
-for i in range(5):
-        print(i)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_pressure(force, area):
+        return force / area
