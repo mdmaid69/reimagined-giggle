@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
