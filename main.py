@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
