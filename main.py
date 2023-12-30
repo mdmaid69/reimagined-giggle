@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
