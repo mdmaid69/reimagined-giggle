@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def get_array_item(array, i):
-        return array[i]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
