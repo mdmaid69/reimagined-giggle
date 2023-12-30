@@ -1,5 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
 import array
-def clear_array(array):
-        array *= 0
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def remove_from_array(array, item):
+        array.remove(item)
