@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def find_min(lst):
-        return min(lst)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
