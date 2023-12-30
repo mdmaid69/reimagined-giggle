@@ -1,6 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
