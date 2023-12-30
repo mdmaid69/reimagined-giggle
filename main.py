@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
