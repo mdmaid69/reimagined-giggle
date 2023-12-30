@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def calculate_work(force, distance):
-        return force * distance
+def calculate_power(work, time):
+        return work / time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
