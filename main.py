@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
