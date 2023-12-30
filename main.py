@@ -1,7 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
