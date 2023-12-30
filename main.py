@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import random
+print(random.randint(0, 100))
