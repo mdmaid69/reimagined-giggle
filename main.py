@@ -1,7 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_array_typecode(array):
+        return array.typecode
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
