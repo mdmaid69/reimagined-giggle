@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
