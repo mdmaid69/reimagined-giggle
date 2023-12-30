@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import datetime
+def get_current_date():
+        return datetime.date.today()
