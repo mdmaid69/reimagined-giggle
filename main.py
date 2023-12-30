@@ -1,6 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import collections
-def create_user_string():
-        return collections.UserString()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def create_user_list():
+        return collections.UserList()
