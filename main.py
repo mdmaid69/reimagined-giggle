@@ -1,5 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import sys
-print(sys.version)
+name = "Python"
+print("Hello,", name)
+def remove_duplicates(lst):
+        return list(set(lst))
