@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def split_path(path):
+        return os.path.split(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
