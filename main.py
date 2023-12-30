@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def convert_array_to_list(array):
+        return array.tolist()
+  def is_even(n):
+        return n % 2 == 0
