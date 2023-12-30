@@ -1,7 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_acceleration(speed, time):
-        return speed / time
+def convert_array_to_string(array):
+        return array.tostring()
+  def count_elements(lst):
+        return len(lst)
