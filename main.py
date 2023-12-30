@@ -1,8 +1,8 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
