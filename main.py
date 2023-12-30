@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
