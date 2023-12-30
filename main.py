@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
