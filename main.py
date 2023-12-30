@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def convert_to_hex(n):
+        return hex(n)
