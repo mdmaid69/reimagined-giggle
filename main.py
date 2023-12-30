@@ -1,6 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
