@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import re
+print(re.match("h.*o", "hello world"))
