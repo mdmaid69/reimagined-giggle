@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import time
+def get_current_time():
+        return time.time()
