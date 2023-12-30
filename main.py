@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def reverse_array(array):
+        array.reverse()
