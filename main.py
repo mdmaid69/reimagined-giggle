@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_counter():
-        return collections.Counter()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_string_from_array(array):
+        return array.tobytes()
