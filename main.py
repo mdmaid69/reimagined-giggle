@@ -1,6 +1,8 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
