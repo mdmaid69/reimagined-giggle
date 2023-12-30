@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
