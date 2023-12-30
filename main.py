@@ -1,6 +1,9 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
