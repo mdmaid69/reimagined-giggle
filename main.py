@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
