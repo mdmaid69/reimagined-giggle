@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
