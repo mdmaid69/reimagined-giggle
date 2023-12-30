@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
