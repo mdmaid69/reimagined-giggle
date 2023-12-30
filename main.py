@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
+def find_min(lst):
+        return min(lst)
 import re
-def find_pattern(pattern, string):
+def find_all_occurrences(pattern, string):
         return re.findall(pattern, string)
