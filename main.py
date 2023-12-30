@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def add_numbers(x, y):
+        return x + y
+import time
+def get_current_time():
+        return time.time()
