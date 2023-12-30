@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import os
+print(os.getcwd())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
