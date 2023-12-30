@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def count_elements(lst):
-        return len(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
