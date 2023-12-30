@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def subtract_numbers(x, y):
+        return x - y
