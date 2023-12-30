@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
