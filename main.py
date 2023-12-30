@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import sys
+def exit_program():
+        sys.exit()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
