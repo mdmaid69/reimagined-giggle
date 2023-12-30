@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
