@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_volume(length, width, height):
+        return length * width * height
