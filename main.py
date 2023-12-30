@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
