@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def get_file_size(filename):
+        return os.path.getsize(filename)
