@@ -1,5 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
