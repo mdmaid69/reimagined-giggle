@@ -1,6 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def calculate_area_circle(r):
+        return 3.14 * r**2
