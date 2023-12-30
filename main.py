@@ -1,5 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
