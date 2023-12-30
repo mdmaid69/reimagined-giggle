@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+from collections import Counter
+print(Counter("hello world"))
