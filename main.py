@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
