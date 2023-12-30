@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_speed(distance, time):
-        return distance / time
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
