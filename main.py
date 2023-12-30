@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_speed(distance, time):
-        return distance / time
+def count_characters(sentence):
+        return len(sentence)
+  def convert_to_octal(n):
+        return oct(n)
