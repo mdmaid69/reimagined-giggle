@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
