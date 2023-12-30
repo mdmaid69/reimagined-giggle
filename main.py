@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
