@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def is_even(n):
+        return n % 2 == 0
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
