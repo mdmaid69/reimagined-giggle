@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
