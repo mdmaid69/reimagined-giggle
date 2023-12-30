@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def subtract_numbers(x, y):
+        return x - y
