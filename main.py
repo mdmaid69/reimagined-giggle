@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
