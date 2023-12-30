@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
