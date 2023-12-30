@@ -1,9 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def add_numbers(a, b):
+        return a + b
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
