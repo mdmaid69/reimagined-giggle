@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def count_characters(sentence):
+        return len(sentence)
