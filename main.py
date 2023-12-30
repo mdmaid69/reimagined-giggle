@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
