@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def count_words(sentence):
-        return len(sentence.split())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
