@@ -1,5 +1,8 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
