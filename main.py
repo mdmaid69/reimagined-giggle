@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def is_even(n):
+        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
