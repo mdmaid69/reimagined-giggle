@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_area_rectangle(l, w):
+        return l * w
