@@ -1,8 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
