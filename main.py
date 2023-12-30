@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
