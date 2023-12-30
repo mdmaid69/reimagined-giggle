@@ -1,6 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
