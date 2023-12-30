@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def find_min(lst):
-        return min(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+x = 10
+y = 20
+print("Sum:", x + y)
