@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
