@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def cube_number(x):
+        return x**3
