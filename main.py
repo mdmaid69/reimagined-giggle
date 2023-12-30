@@ -1,8 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import sys
+  def get_python_version():
+        return sys.version
+from collections import Counter
+print(Counter("hello world"))
