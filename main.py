@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
