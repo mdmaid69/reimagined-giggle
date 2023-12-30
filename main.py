@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_as_set(array):
+        return set(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
