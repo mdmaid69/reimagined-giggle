@@ -1,6 +1,8 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def clear_array(array):
-        array *= 0
+def calculate_speed(distance, time):
+        return distance / time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
