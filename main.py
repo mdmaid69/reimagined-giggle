@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import datetime
-print(datetime.datetime.now())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
