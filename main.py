@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def clear_array(array):
+        array *= 0
