@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def count_characters(sentence):
+        return len(sentence)
+  def multiply_numbers(x, y):
+        return x * y
