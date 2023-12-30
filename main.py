@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_volume(length, width, height):
+        return length * width * height
