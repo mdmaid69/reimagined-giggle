@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
