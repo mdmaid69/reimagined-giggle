@@ -1,4 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-for i in range(10): print(i)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
