@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
