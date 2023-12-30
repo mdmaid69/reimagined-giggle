@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
