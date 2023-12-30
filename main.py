@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_area_rectangle(l, w):
-        return l * w
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def count_characters(sentence):
+        return len(sentence)
