@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import sys
-  def get_python_version():
-        return sys.version
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
