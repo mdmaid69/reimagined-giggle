@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
