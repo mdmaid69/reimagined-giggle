@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def convert_to_hex(n):
+        return hex(n)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
