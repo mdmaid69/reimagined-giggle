@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_str(array):
+        return str(array)
