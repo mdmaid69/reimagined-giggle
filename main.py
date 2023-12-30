@@ -1,7 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
