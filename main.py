@@ -1,6 +1,8 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
