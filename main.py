@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
