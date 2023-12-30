@@ -1,5 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
