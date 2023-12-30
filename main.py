@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
