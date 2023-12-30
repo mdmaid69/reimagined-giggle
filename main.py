@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def reverse_string(s):
+        return s[::-1]
