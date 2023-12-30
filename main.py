@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
