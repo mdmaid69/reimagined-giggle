@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
