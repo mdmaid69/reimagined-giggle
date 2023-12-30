@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
