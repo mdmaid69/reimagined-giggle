@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
