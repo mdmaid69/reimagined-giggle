@@ -1,6 +1,9 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import socket
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
