@@ -1,8 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
