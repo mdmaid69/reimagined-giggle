@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
