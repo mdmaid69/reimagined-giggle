@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
