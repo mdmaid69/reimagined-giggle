@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import collections
+def create_queue():
+        return collections.deque()
