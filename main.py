@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
