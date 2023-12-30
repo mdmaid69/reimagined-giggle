@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
