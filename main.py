@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
