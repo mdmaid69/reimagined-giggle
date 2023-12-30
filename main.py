@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
