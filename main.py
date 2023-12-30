@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def reverse_string(s):
+        return s[::-1]
