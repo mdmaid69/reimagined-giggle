@@ -1,6 +1,8 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import getpass
-def get_username():
-        return getpass.getuser()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
