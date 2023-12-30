@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_typecode(array):
-        return array.typecode
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
