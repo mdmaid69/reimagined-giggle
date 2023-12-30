@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
