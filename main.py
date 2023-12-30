@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
