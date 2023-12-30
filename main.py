@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
