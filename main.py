@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
