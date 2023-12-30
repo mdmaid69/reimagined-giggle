@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
