@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def add_numbers(x, y):
+        return x + y
+import numpy as np
+print(np.array([1, 2, 3]))
