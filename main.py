@@ -1,6 +1,8 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_exponential(x):
+        return math.exp(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
