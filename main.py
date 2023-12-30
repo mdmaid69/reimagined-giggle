@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
