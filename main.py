@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def convert_to_binary(n):
+        return bin(n)
+import getpass
+def get_username():
+        return getpass.getuser()
