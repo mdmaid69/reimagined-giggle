@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
