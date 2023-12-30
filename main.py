@@ -1,5 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def sort_list(lst):
+        return sorted(lst)
