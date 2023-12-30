@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
