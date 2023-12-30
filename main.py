@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
