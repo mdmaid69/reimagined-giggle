@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def divide_numbers(x, y):
-        return x / y
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
