@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
