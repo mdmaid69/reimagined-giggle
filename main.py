@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
