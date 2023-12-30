@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+def convert_to_octal(n):
+        return oct(n)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_counter():
+        return collections.Counter()
