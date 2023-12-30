@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
