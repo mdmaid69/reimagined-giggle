@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
