@@ -1,7 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
