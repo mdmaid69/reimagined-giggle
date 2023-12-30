@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
