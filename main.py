@@ -1,6 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
