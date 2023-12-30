@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
