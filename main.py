@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-name = "Python"
-print("Hello,", name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
