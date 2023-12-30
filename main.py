@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_volume(length, width, height):
+        return length * width * height
