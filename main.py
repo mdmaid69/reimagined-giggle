@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import numpy as np
-print(np.array([1, 2, 3]))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def is_even(n):
+        return n % 2 == 0
