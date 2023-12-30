@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def is_odd(n):
-        return n % 2 != 0
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
