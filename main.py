@@ -1,5 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def get_array_index(array, item):
+        return array.index(item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
