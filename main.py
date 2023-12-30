@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def count_elements(lst):
+        return len(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
