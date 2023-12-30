@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
