@@ -1,3 +1,4 @@
-print("Hello, world!")
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def count_elements(lst):
+        return len(lst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
