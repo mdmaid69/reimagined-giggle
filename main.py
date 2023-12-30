@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
