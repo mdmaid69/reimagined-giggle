@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
