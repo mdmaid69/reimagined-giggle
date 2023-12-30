@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
