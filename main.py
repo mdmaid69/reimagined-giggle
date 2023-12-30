@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def multiply_numbers(x, y):
+        return x * y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
