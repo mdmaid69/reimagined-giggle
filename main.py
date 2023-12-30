@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import tensorflow as tf
+print(tf.__version__)
