@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
