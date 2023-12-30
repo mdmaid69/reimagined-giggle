@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
