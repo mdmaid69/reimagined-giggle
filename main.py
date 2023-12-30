@@ -1,9 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
