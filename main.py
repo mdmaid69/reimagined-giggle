@@ -1,4 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-print(sum(range(10)))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
