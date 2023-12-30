@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def cube_number(x):
-        return x**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
