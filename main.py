@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
