@@ -1,7 +1,7 @@
-def cube_number(x):
-        return x**3
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
