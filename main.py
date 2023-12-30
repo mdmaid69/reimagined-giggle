@@ -1,8 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
