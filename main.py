@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
