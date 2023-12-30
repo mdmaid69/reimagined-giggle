@@ -1,5 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
