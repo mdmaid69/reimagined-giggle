@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_typecode(array):
-        return array.typecode
+for i in range(5):
+        print(i)
+  def calculate_area_rectangle(l, w):
+        return l * w
