@@ -1,3 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-print(sum(range(10)))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
