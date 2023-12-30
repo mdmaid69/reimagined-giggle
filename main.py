@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
