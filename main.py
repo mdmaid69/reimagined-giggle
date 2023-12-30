@@ -1,6 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def reverse_array(array):
+        array.reverse()
