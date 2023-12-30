@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
