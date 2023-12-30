@@ -1,4 +1,7 @@
-print([x**2 for x in range(10)])
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
