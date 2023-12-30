@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
