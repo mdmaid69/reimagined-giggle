@@ -1,4 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
