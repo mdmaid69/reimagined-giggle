@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import collections
+def create_user_string():
+        return collections.UserString()
