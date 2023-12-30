@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
