@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+x = 10
+y = 20
+print("Sum:", x + y)
