@@ -1,6 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def find_min(numbers):
+        return min(numbers)
