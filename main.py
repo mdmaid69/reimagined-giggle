@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
