@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
