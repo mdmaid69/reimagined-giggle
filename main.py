@@ -1,6 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def get_array_as_memoryview(array):
+        return memoryview(array)
