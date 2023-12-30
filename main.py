@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
