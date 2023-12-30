@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def is_odd(n):
-        return n % 2 != 0
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
