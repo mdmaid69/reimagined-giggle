@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def remove_duplicates(lst):
-        return list(set(lst))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
