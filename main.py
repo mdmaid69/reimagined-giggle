@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def convert_to_binary(n):
+        return bin(n)
