@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def cube_number(x):
-        return x**3
+import re
+print(re.match("h.*o", "hello world"))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
