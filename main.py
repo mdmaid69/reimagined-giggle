@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
