@@ -1,5 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
