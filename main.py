@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def convert_to_octal(n):
+        return oct(n)
+def add_numbers(a, b):
+        return a + b
