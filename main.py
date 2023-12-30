@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
