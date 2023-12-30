@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_to_binary(n):
+        return bin(n)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
