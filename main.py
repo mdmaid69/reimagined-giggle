@@ -1,6 +1,6 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_arc_sine(x):
+        return math.asin(x)
