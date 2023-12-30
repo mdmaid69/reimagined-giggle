@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
