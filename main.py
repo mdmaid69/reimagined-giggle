@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def square_number(x):
+        return x**2
