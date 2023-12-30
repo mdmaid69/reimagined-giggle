@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
