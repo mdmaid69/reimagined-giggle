@@ -1,5 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
