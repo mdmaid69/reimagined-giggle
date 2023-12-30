@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
