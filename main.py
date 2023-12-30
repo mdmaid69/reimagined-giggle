@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+text = "Hello, world!"
+print("Reversed:", text[::-1])
