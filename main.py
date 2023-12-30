@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
