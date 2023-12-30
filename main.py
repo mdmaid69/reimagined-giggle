@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
