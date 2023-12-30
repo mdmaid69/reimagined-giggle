@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
