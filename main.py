@@ -1,11 +1,8 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
