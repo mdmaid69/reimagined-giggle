@@ -1,7 +1,5 @@
-import os
-print(os.getcwd())
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
