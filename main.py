@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_speed(distance, time):
+        return distance / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
