@@ -1,5 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
