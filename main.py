@@ -1,6 +1,5 @@
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
