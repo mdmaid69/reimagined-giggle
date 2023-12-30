@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
