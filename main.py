@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import getpass
+def get_username():
+        return getpass.getuser()
