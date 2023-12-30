@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import datetime
+print(datetime.datetime.now())
