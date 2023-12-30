@@ -1,6 +1,8 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
