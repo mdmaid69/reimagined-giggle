@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_sine(x):
+        return math.sin(x)
