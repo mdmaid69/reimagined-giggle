@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def split_path(path):
+        return os.path.split(path)
