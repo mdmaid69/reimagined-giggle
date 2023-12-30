@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_work(force, distance):
+        return force * distance
+import array
+def set_array_item(array, i, item):
+        array[i] = item
