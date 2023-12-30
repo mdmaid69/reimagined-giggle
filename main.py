@@ -1,5 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_speed(distance, time):
+        return distance / time
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
