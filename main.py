@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
