@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
