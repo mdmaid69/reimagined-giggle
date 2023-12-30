@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
