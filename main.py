@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_typecode(array):
+        return array.typecode
