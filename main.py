@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_ceiling(x):
+        return math.ceil(x)
