@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-x = 10
-y = 20
-print("Sum:", x + y)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import time
+def get_current_time():
+        return time.time()
