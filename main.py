@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
