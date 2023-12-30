@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
