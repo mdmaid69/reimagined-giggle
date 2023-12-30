@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_user_list():
-        return collections.UserList()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def reverse_list(lst):
+        return lst[::-1]
