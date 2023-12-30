@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import collections
+def create_user_string():
+        return collections.UserString()
