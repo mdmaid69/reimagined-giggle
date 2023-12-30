@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
