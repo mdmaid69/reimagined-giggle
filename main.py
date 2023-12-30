@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_item(array, i):
-        return array[i]
+import time
+print(time.time())
+def calculate_power(work, time):
+        return work / time
