@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
