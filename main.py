@@ -1,5 +1,9 @@
-import re
-print(re.match("h.*o", "hello world"))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
