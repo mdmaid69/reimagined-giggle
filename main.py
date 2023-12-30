@@ -1,8 +1,6 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_list_from_array(array):
+        return array.tolist()
