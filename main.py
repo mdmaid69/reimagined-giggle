@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
