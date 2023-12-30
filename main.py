@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def cube_number(x):
+        return x**3
+def sort_numbers(numbers):
+        return sorted(numbers)
