@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import random
+print(random.randint(0, 100))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
