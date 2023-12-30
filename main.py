@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
