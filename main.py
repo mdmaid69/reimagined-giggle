@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
