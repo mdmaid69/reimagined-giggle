@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import time
+def get_current_time():
+        return time.time()
