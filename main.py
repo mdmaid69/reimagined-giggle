@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
