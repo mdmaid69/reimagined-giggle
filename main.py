@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
