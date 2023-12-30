@@ -1,6 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_min(numbers):
+        return min(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
