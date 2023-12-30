@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
