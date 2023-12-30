@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def convert_to_octal(n):
+        return oct(n)
+def add_numbers(a, b):
+        return a + b
