@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
