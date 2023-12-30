@@ -1,5 +1,7 @@
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
