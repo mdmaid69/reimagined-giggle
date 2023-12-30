@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
