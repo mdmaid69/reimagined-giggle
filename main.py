@@ -1,11 +1,12 @@
-import threading
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import queue
 
-def print_hello():
-        print("Hello, world!")
+q = queue.Queue()
 
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
