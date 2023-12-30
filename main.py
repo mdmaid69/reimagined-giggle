@@ -1,6 +1,5 @@
+def find_min(lst):
+        return min(lst)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def clear_array(array):
-        array *= 0
+def calculate_permutations(n, k):
+        return math.perm(n, k)
