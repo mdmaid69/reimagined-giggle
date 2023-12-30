@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def find_min(numbers):
-        return min(numbers)
+import time
+print(time.time())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
