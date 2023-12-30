@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import time
-def get_time_since_epoch():
-        return time.time()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
