@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
