@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
