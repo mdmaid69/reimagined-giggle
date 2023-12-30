@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def divide_numbers(x, y):
+        return x / y
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
