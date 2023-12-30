@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
