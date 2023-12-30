@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
