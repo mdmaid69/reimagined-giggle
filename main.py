@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
