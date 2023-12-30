@@ -1,9 +1,7 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
