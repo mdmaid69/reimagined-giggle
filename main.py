@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
