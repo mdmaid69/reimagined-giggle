@@ -1,7 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
