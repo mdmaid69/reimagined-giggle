@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
