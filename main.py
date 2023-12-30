@@ -1,5 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
