@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
