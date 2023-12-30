@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
