@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_float(array):
+        return float(array[0])
