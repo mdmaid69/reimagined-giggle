@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def multiply_numbers(x, y):
-        return x * y
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
