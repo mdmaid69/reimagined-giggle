@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_density(mass, volume):
+        return mass / volume
+text = "Hello, world!"
+print("Reversed:", text[::-1])
