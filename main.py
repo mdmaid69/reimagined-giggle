@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
