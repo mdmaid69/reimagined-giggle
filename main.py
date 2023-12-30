@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
