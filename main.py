@@ -1,6 +1,10 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
