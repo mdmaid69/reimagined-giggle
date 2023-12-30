@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
