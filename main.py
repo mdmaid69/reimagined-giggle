@@ -1,6 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
