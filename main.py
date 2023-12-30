@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
