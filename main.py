@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
