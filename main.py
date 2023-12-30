@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def subtract_numbers(x, y):
+        return x - y
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
