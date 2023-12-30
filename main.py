@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
