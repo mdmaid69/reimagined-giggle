@@ -1,5 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def is_palindrome(s):
+        return s == s[::-1]
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
