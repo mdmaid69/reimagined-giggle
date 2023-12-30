@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
