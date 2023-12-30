@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+for i in range(5):
+        print(i)
