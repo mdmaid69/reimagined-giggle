@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_power(work, time):
-        return work / time
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_cosine(x):
+        return math.cos(x)
