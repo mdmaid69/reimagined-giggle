@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
