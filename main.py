@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def greet(name):
-        print(f"Hello, {name}!")
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_user_list():
+        return collections.UserList()
