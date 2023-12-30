@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_list(array):
+        return list(array)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
