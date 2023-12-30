@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import sys
-def exit_program():
-        sys.exit()
+def is_odd(n):
+        return n % 2 != 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
