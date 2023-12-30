@@ -1,10 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
