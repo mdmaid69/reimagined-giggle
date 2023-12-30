@@ -1,7 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
