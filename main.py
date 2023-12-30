@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
