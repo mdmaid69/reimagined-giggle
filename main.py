@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
