@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def divide_numbers(x, y):
+        return x / y
+import datetime
+def get_current_date():
+        return datetime.date.today()
