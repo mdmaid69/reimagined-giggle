@@ -1,8 +1,7 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
+with open("some.csv", "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerows(data)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
