@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
