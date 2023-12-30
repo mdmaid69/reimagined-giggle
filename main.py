@@ -1,3 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-for i in range(10): print(i)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def remove_duplicates(lst):
+        return list(set(lst))
