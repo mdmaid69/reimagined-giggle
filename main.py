@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
