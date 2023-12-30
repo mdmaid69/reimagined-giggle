@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
