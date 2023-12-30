@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
