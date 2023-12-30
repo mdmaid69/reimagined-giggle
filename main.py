@@ -1,6 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
