@@ -1,5 +1,12 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
