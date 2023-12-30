@@ -1,5 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-for i in range(5):
-        print(i)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
