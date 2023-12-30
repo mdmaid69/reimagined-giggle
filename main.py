@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def remove_duplicates(lst):
+        return list(set(lst))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
