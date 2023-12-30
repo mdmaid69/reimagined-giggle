@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import random
+print(random.randint(0, 100))
+def multiply_numbers(x, y):
+        return x * y
