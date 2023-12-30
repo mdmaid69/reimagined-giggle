@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_length(array):
+        return len(array)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
