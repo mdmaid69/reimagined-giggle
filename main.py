@@ -1,4 +1,5 @@
-for i in range(10): print(i)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+for i in range(5):
+        print(i)
