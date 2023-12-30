@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
