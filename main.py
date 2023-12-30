@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
