@@ -1,5 +1,6 @@
 sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
