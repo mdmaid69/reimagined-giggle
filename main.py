@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def clear_array(array):
+        array *= 0
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
