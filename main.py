@@ -1,5 +1,8 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def find_max(lst):
-        return max(lst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
