@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+from collections import Counter
+print(Counter("hello world"))
