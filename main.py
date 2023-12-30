@@ -1,6 +1,3 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+print([x**2 for x in range(10)])
+def find_min(numbers):
+        return min(numbers)
