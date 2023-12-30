@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
