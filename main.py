@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
