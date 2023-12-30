@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
