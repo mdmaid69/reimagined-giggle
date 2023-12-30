@@ -1,5 +1,7 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def find_max(lst):
-        return max(lst)
+def cube_number(x):
+        return x**3
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
