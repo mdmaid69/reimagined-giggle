@@ -1,7 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
