@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import collections
-def create_queue():
-        return collections.deque()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
