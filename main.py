@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
