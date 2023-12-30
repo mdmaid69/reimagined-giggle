@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
