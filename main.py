@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def count_elements(lst):
+        return len(lst)
+import sys
+print(sys.version)
