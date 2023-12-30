@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
