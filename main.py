@@ -1,8 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_work(force, distance):
+        return force * distance
