@@ -1,5 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
