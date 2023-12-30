@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
