@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
