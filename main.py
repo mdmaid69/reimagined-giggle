@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
