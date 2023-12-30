@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
