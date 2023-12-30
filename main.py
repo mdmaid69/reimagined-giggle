@@ -1,7 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
