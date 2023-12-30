@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
