@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
