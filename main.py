@@ -1,5 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
