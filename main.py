@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_work(force, distance):
+        return force * distance
+import numpy as np
+print(np.array([1, 2, 3]))
