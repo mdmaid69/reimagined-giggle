@@ -1,6 +1,7 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
