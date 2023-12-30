@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
