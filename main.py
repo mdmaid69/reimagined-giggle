@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import sys
+def print_python_version():
+        print(sys.version)
