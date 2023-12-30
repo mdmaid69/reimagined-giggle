@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
