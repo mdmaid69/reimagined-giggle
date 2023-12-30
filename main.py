@@ -1,6 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def get_array_slice(array, i, j):
+        return array[i:j]
