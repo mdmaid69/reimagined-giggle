@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_queue():
+        return collections.deque()
