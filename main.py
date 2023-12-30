@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
