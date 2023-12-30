@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import array
-def clear_array(array):
-        array *= 0
+  def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+def get_today_date():
+        return datetime.date.today()
