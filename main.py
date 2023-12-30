@@ -1,6 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
