@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def convert_to_hex(n):
+        return hex(n)
