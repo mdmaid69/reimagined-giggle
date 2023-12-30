@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
