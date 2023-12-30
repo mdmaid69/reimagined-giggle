@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def square_number(x):
-        return x**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
