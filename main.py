@@ -1,5 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def cube_number(x):
+        return x**3
