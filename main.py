@@ -1,10 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_density(mass, volume):
+        return mass / volume
