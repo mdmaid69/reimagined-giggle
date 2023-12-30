@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import sys
+def print_python_version():
+        return sys.version
