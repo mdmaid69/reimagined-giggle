@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
