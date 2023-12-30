@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-print(math.pi)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_floor(x):
+        return math.floor(x)
