@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_priority_queue():
+        return collections.deque()
