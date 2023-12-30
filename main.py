@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
