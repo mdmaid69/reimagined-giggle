@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
