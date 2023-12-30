@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def subtract_numbers(x, y):
+        return x - y
+import collections
+def create_priority_queue():
+        return collections.deque()
