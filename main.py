@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
