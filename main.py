@@ -1,5 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
