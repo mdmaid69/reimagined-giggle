@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def cube_number(x):
+        return x**3
