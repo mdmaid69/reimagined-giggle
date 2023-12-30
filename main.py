@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
