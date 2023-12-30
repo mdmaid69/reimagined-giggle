@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
