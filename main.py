@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
