@@ -1,8 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_int(array):
+        return int(array[0])
+  def remove_duplicates(lst):
+        return list(set(lst))
