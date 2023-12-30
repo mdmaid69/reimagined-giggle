@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_volume(length, width, height):
+        return length * width * height
