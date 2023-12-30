@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import collections
-def create_queue():
-        return collections.deque()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import sys
+def exit_program():
+        sys.exit()
