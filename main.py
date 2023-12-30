@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def cube_number(x):
+        return x**3
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
