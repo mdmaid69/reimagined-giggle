@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
