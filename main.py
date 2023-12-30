@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
