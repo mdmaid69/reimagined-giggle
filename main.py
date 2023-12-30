@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_base_name(path):
+        return os.path.basename(path)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
