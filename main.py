@@ -1,6 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def get_array_as_tuple(array):
+        return tuple(array)
+def find_unique_words(sentence):
+        return set(sentence.split())
