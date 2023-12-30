@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
