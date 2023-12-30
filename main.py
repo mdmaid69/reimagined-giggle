@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
