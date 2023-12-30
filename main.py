@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
