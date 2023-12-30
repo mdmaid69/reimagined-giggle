@@ -1,6 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
