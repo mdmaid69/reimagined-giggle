@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
