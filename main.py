@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import re
-print(re.match("h.*o", "hello world"))
+  def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
