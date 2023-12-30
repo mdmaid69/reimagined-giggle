@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_array_as_repr(array):
+        return repr(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
