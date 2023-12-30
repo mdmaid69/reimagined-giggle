@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_area_rectangle(l, w):
+        return l * w
