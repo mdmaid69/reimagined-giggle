@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
