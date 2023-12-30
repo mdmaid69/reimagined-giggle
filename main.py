@@ -1,5 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_speed(distance, time):
+        return distance / time
