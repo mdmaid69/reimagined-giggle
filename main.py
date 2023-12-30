@@ -1,10 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
