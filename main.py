@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def subtract_numbers(x, y):
+        return x - y
