@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
