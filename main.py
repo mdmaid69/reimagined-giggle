@@ -1,6 +1,8 @@
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
