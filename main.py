@@ -1,5 +1,9 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
