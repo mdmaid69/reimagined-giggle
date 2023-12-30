@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
