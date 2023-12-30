@@ -1,4 +1,11 @@
-def convert_to_binary(n):
-        return bin(n)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
