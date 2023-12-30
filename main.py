@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_item(array, i):
+        return array[i]
