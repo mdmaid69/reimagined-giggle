@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
