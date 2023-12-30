@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
