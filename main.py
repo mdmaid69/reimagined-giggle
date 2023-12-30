@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import numpy as np
+print(np.array([1, 2, 3]))
+def divide_numbers(x, y):
+        return x / y
