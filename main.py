@@ -1,8 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
