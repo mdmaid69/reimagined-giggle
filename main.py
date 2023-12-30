@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
