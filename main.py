@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
