@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
