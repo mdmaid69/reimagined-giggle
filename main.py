@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
