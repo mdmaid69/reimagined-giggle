@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
