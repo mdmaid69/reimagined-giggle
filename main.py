@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
