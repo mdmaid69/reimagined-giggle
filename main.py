@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import sys
+def print_python_version():
+        return sys.version
