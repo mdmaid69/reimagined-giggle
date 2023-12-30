@@ -1,4 +1,8 @@
-def add_numbers(a, b):
-        return a + b
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
