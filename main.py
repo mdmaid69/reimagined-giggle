@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
