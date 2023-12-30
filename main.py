@@ -1,5 +1,8 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
