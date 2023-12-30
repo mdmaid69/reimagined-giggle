@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
