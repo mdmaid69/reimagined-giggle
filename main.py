@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
