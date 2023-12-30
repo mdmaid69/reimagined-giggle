@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
