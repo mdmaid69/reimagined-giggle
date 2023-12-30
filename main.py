@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
