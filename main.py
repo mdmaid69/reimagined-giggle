@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def remove_duplicates(lst):
-        return list(set(lst))
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
