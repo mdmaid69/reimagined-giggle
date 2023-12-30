@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
