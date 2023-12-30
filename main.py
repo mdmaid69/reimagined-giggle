@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_speed(distance, time):
+        return distance / time
+def greet(name):
+        print(f"Hello, {name}!")
