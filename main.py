@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
