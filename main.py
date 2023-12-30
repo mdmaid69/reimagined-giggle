@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_str(array):
+        return str(array)
