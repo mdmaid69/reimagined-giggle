@@ -1,6 +1,6 @@
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
