@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_index(array, item):
+        return array.index(item)
