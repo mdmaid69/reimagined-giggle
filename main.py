@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
