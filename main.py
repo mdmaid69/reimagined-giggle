@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
