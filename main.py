@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
