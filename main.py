@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_user_string():
-        return collections.UserString()
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
