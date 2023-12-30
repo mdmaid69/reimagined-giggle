@@ -1,6 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def add_numbers(a, b):
+        return a + b
