@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
