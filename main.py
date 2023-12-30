@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def sort_list(lst):
+        return sorted(lst)
