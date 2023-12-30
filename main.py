@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
