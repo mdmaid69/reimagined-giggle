@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
