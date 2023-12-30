@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
