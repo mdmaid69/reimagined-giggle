@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_work(force, distance):
+        return force * distance
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
