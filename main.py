@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
