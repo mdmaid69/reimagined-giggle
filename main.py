@@ -1,5 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def count_characters(sentence):
-        return len(sentence)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
