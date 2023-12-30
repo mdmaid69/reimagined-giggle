@@ -1,5 +1,8 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
