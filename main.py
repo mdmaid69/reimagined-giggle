@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
