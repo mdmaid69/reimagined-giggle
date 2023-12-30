@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import time
+def get_current_time():
+        return time.time()
