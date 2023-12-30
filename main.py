@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
