@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
