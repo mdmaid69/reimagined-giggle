@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+print(sum(range(10)))
 import platform
-def get_python_version():
-        return platform.python_version()
+def get_os_info():
+        return platform.uname()
