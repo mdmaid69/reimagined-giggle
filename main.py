@@ -1,6 +1,5 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def set_array_item(array, i, item):
+        array[i] = item
+def sort_numbers(numbers):
+        return sorted(numbers)
