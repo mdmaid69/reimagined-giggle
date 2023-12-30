@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import tensorflow as tf
-print(tf.__version__)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
