@@ -1,12 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
