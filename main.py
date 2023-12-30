@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
