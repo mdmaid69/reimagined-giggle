@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
