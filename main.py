@@ -1,5 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+print([x**2 for x in range(10)])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
