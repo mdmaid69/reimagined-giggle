@@ -1,8 +1,7 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
