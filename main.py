@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def reverse_list(lst):
+        return lst[::-1]
