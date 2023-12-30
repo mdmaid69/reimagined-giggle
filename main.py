@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
