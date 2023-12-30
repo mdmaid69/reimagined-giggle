@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
