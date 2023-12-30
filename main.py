@@ -1,5 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def find_min(lst):
+        return min(lst)
