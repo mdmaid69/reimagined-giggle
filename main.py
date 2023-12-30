@@ -1,6 +1,8 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
