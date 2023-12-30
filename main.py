@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import sys
+def exit_program():
+        sys.exit()
