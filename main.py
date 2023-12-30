@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
