@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_area(radius):
+        return 3.14 * radius * radius
