@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_volume(length, width, height):
-        return length * width * height
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
