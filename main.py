@@ -1,6 +1,5 @@
+  def add_numbers(x, y):
+        return x + y
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def change_working_directory(path):
+        os.chdir(path)
