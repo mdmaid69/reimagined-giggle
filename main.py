@@ -1,12 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
