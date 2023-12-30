@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
