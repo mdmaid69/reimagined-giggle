@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
