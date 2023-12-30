@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
