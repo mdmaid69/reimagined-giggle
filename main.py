@@ -1,4 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-for i in range(10): print(i)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
