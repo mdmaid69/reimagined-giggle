@@ -1,7 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def add_numbers(a, b):
+        return a + b
