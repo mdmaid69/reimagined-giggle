@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
