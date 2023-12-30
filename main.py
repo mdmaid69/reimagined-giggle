@@ -1,5 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def find_unique_words(sentence):
+        return set(sentence.split())
