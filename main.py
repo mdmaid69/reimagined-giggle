@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
