@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
