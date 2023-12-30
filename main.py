@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
