@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_density(mass, volume):
+        return mass / volume
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
