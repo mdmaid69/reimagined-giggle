@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+x = 10
+y = 20
+print("Sum:", x + y)
+import logging
+def log_message(message):
+        logging.info(message)
