@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
