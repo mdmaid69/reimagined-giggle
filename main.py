@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
