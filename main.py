@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
