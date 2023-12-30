@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
