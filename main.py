@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def convert_to_hex(n):
+        return hex(n)
