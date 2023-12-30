@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
