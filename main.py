@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def square_number(x):
+        return x**2
