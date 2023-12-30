@@ -1,6 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+i = 0
+while i < 5:
+        print(i)
+        i += 1
