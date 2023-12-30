@@ -1,6 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_floor(x):
+        return math.floor(x)
