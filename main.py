@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
