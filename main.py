@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
