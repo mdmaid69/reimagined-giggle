@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
