@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
