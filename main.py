@@ -1,5 +1,12 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
