@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def count_characters(sentence):
-        return len(sentence)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
