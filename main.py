@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def sort_list(lst):
+        return sorted(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
