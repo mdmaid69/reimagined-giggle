@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
