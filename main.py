@@ -1,5 +1,10 @@
-import logging
-def log_message(message):
-        logging.info(message)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+for i in range(10): print(i)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
