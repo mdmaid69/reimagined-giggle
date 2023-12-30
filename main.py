@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_repr(array):
+        return repr(array)
