@@ -1,5 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-print(math.pi)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
