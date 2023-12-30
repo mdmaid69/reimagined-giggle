@@ -1,5 +1,6 @@
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def get_array_as_tuple(array):
+        return tuple(array)
