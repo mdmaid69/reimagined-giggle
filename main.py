@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
