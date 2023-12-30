@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
