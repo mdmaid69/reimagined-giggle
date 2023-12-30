@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
