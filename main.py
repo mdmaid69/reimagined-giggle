@@ -1,5 +1,8 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
