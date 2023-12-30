@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def count_characters(sentence):
+        return len(sentence)
