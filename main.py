@@ -1,8 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
