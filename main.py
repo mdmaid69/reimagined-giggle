@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
