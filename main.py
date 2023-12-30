@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+print(sum(range(10)))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
