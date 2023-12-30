@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
