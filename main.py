@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def find_max(numbers):
+        return max(numbers)
