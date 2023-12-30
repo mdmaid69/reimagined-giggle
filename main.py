@@ -1,4 +1,12 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
