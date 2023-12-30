@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import sys
-def print_python_version():
-        return sys.version
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
