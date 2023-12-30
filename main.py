@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
