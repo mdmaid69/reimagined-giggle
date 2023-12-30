@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
