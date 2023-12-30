@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
