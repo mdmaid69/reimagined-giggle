@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import sys
+def print_python_version():
+        return sys.version
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
