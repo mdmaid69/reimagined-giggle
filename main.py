@@ -1,6 +1,12 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
