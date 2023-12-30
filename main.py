@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_cosine(x):
+        return math.cos(x)
