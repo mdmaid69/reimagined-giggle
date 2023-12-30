@@ -1,6 +1,5 @@
+import time
+print(time.time())
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
