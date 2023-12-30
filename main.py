@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
