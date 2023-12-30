@@ -1,9 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
