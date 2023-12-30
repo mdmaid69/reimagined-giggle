@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def convert_to_binary(n):
+        return bin(n)
