@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
