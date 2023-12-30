@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def clear_array(array):
-        array *= 0
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_area(radius):
+        return 3.14 * radius * radius
