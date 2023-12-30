@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+x = 10
+y = 20
+print("Sum:", x + y)
