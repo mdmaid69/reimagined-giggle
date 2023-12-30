@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
 import sys
-def exit_program():
-        sys.exit()
+def print_python_version():
+        print(sys.version)
