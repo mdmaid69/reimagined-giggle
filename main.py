@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def find_max(lst):
+        return max(lst)
