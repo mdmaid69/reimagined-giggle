@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_power(work, time):
+        return work / time
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
