@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def exit_program():
+        sys.exit()
