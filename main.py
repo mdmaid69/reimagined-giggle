@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
