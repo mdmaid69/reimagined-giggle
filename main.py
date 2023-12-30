@@ -1,7 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def add_numbers(x, y):
+        return x + y
