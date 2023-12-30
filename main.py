@@ -1,5 +1,6 @@
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
