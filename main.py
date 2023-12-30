@@ -1,6 +1,5 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+print(re.match("h.*o", "hello world"))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
