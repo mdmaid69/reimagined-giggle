@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
