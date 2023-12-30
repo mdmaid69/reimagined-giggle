@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_volume(length, width, height):
+        return length * width * height
+def reverse_list(lst):
+        return lst[::-1]
