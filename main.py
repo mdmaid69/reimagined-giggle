@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
