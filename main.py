@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
