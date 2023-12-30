@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
