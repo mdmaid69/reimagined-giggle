@@ -1,9 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
