@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import sys
-print(sys.version)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def append_to_array(array, item):
+        array.append(item)
