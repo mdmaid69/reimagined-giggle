@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import datetime
+def get_current_date():
+        return datetime.date.today()
