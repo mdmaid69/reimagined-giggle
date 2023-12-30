@@ -1,9 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
