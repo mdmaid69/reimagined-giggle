@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import sys
+print(sys.version)
