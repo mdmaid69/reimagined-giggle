@@ -1,7 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import numpy as np
+print(np.array([1, 2, 3]))
