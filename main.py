@@ -1,6 +1,7 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_priority_queue():
-        return collections.deque()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
