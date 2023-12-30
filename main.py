@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_list_from_array(array):
+        return array.tolist()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
