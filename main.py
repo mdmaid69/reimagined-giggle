@@ -1,4 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-for i in range(10): print(i)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
