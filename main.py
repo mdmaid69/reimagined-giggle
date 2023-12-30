@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
