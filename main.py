@@ -1,4 +1,6 @@
-print("Hello, world!")
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
