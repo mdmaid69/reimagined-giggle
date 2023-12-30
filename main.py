@@ -1,4 +1,8 @@
-import datetime
-print(datetime.datetime.now())
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
