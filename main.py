@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
