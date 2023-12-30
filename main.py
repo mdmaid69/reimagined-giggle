@@ -1,6 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
