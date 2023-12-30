@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
