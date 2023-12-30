@@ -1,6 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
