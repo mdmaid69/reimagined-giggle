@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
