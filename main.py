@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
