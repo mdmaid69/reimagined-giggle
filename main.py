@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
