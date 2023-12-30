@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
