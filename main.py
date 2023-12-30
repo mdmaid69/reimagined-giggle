@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
