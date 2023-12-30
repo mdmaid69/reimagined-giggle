@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def roll_die():
+        return random.randint(1, 6)
