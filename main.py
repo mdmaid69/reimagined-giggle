@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
