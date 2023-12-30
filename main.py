@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def subtract_numbers(x, y):
+        return x - y
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
