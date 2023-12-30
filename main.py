@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
