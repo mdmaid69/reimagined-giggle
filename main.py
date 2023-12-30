@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
