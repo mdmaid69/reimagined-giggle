@@ -1,6 +1,11 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
