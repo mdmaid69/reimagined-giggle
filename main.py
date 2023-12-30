@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
