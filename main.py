@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
