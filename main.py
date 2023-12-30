@@ -1,6 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_acceleration(speed, time):
+        return speed / time
