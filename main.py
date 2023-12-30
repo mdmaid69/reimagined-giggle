@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
