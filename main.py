@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_area(radius):
+        return 3.14 * radius * radius
