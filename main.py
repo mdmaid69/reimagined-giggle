@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
