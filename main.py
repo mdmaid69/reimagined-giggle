@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_queue():
+        return collections.deque()
