@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import datetime
+print(datetime.datetime.now())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
