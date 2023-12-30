@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
