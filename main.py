@@ -1,6 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
