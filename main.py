@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
