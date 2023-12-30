@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
