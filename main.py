@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
