@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import sys
-def exit_program():
-        sys.exit()
+def square_number(x):
+        return x**2
+import collections
+def create_queue():
+        return collections.deque()
