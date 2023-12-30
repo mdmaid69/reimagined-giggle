@@ -1,5 +1,7 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
