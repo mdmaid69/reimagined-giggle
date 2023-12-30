@@ -1,5 +1,4 @@
+for i in range(10): print(i)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
