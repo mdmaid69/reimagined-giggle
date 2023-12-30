@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def add_numbers(a, b):
-        return a + b
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
