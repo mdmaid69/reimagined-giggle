@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
