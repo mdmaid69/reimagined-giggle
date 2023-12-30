@@ -1,5 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def add_numbers(x, y):
+        return x + y
