@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
