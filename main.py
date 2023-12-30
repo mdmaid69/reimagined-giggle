@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
