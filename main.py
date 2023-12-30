@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
