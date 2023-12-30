@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import json
+print(json.dumps({"name": "John", "age": 30}))
