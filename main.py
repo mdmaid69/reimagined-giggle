@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
