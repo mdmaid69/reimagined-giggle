@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def multiply_numbers(x, y):
+        return x * y
