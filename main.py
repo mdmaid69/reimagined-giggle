@@ -1,12 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import time
+def get_time_since_epoch():
+        return time.time()
