@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+x = 10
+y = 20
+print("Sum:", x + y)
+def find_max(numbers):
+        return max(numbers)
