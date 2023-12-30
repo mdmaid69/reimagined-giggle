@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
