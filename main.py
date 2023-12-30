@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def is_odd(n):
-        return n % 2 != 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
