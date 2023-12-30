@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
