@@ -1,6 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+print([x**2 for x in range(10)])
