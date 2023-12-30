@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
