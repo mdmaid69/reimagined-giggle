@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def find_min(numbers):
-        return min(numbers)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def find_unique_words(sentence):
+        return set(sentence.split())
