@@ -1,5 +1,6 @@
-import math
-print(math.pi)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import sys
+def print_python_version():
+        print(sys.version)
