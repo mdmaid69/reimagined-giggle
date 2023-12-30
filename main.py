@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+name = "Python"
+print("Hello,", name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
