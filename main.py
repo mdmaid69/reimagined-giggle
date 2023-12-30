@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
