@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sys
+def print_python_version():
+        print(sys.version)
