@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
