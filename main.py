@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_density(mass, volume):
+        return mass / volume
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
