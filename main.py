@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
