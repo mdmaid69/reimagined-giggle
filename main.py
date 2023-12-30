@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def calculate_pressure(force, area):
+        return force / area
+import json
+def convert_to_json(data):
+        return json.dumps(data)
