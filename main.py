@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
