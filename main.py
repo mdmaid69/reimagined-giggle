@@ -1,5 +1,8 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
