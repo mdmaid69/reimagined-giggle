@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_pressure(force, area):
-        return force / area
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def is_odd(n):
+        return n % 2 != 0
