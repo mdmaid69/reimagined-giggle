@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
