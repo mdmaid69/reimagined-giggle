@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def reverse_string(s):
+        return s[::-1]
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
