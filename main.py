@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
