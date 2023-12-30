@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-for i in range(5):
-        print(i)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
