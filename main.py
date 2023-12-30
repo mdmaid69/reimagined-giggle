@@ -1,5 +1,5 @@
 import os
-print(os.getcwd())
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def change_working_directory(path):
+        os.chdir(path)
+for i in range(5):
+        print(i)
