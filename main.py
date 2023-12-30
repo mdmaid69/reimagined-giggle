@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
 import sys
-def exit_program():
-        sys.exit()
+def print_python_version():
+        print(sys.version)
+  def remove_duplicates(lst):
+        return list(set(lst))
