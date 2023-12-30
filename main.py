@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import sys
-def exit_program():
-        sys.exit()
+print(sum(range(10)))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
