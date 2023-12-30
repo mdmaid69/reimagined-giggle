@@ -1,6 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
