@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def add_numbers(x, y):
+        return x + y
