@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
