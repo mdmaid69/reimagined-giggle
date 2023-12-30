@@ -1,6 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
