@@ -1,9 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import re
+print(re.match("h.*o", "hello world"))
