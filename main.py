@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def insert_into_array(array, i, item):
+        array.insert(i, item)
