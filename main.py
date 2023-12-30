@@ -1,8 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
