@@ -1,6 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
