@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def sort_list(lst):
-        return sorted(lst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
