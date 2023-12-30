@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_pressure(force, area):
+        return force / area
