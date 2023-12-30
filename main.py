@@ -1,5 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-for i in range(5):
-        print(i)
+  def convert_to_hex(n):
+        return hex(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
