@@ -1,8 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
