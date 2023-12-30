@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
