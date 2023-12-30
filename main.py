@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_stack():
-        return collections.deque()
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
