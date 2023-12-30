@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import collections
+def create_queue():
+        return collections.deque()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
