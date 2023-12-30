@@ -1,5 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
