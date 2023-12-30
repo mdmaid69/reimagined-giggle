@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
