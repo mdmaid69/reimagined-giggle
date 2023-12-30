@@ -1,5 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
