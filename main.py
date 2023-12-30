@@ -1,5 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import numpy as np
+print(np.array([1, 2, 3]))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
