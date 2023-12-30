@@ -1,5 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def remove_duplicates(lst):
-        return list(set(lst))
+def convert_array_to_list(array):
+        return array.tolist()
