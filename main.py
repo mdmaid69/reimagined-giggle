@@ -1,5 +1,8 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_as_str(array):
+        return str(array)
