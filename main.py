@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
