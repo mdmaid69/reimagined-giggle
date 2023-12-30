@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_as_int(array):
+        return int(array[0])
