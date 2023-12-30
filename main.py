@@ -1,5 +1,7 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
