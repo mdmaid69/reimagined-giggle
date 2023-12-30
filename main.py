@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
