@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
