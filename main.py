@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
+def find_unique_words(sentence):
+        return set(sentence.split())
