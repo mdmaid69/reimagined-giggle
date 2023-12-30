@@ -1,8 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_area_rectangle(l, w):
+        return l * w
