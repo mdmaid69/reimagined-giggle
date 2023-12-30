@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
