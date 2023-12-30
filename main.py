@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+  def cube_number(x):
+        return x**3
