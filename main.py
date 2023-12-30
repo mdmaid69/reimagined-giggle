@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
