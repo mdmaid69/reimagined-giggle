@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def greet(name):
+        print(f"Hello, {name}!")
