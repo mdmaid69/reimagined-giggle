@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def append_to_array(array, item):
+        array.append(item)
