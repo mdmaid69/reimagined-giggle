@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
