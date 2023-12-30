@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def add_numbers(x, y):
+        return x + y
+import os
+print(os.getcwd())
