@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_pressure(force, area):
+        return force / area
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
