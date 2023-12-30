@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
