@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
