@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
