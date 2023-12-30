@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
