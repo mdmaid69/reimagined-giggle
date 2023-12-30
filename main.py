@@ -1,5 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+for i in range(5):
+        print(i)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
