@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def append_to_array(array, item):
+        array.append(item)
