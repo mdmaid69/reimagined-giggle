@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import getpass
+def get_username():
+        return getpass.getuser()
