@@ -1,8 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
