@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
