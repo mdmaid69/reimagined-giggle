@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
