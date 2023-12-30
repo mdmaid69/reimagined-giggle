@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
