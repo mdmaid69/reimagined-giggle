@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def cube_number(x):
+        return x**3
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
