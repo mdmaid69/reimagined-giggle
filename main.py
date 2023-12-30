@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
