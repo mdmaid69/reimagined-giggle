@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
