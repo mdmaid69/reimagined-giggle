@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
