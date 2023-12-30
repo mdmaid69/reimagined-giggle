@@ -1,6 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
