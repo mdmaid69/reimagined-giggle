@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def find_max(numbers):
+        return max(numbers)
