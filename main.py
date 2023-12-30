@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
