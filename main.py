@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def cube_number(x):
+        return x**3
