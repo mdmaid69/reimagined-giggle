@@ -1,5 +1,3 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def convert_to_binary(n):
-        return bin(n)
+print([x**2 for x in range(10)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
