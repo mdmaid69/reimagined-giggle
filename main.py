@@ -1,5 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def clear_array(array):
+        array *= 0
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
