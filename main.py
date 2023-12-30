@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
