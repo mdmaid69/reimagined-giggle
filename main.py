@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
