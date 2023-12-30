@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
