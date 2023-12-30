@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
