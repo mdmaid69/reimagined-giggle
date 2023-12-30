@@ -1,6 +1,8 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
