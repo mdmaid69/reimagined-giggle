@@ -1,4 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-print("Hello, world!")
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import sys
+def exit_program():
+        sys.exit()
