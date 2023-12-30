@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
