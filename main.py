@@ -1,5 +1,12 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
