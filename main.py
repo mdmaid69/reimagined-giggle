@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
