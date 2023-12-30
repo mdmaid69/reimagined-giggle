@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
