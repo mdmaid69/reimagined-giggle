@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import sys
+def exit_program():
+        sys.exit()
+import collections
+def create_queue():
+        return collections.deque()
