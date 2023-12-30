@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
