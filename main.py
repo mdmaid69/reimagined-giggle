@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def sort_list(lst):
-        return sorted(lst)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
