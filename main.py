@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_pressure(force, area):
-        return force / area
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
