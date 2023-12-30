@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
