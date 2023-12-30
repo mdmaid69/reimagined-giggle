@@ -1,6 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_square_root(x):
+        return math.sqrt(x)
+def convert_to_octal(n):
+        return oct(n)
