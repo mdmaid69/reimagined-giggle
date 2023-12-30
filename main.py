@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
