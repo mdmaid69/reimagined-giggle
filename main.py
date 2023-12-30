@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
