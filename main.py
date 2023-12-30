@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import os
+def remove_directory(path):
+        os.rmdir(path)
