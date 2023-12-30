@@ -1,6 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
