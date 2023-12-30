@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
