@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_work(force, distance):
-        return force * distance
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
