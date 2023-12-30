@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
