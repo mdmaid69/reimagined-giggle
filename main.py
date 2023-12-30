@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
