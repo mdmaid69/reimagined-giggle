@@ -1,8 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
