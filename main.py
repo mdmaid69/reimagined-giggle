@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
