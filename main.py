@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
