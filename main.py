@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
