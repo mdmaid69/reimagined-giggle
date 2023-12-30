@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
