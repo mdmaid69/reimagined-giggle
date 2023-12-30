@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
