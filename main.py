@@ -1,7 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def convert_to_octal(n):
+        return oct(n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
