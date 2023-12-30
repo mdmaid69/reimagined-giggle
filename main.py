@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+from collections import Counter
+print(Counter("hello world"))
