@@ -1,7 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
