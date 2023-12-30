@@ -1,6 +1,8 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
