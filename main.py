@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
