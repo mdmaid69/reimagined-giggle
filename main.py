@@ -1,5 +1,6 @@
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_length(array):
+        return len(array)
