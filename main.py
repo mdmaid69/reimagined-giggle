@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
