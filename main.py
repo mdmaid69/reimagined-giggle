@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
