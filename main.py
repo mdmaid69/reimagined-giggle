@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
