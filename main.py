@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_work(force, distance):
+        return force * distance
