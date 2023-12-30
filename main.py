@@ -1,6 +1,10 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
