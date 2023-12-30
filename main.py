@@ -1,6 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
