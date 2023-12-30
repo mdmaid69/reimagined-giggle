@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
