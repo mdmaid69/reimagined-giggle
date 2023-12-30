@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_length(array):
+        return len(array)
+  def square_number(x):
+        return x**2
