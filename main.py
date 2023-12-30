@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+  import sys
+  def get_python_version():
+        return sys.version
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
