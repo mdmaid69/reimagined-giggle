@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_acceleration(speed, time):
+        return speed / time
