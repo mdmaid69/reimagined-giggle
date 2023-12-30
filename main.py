@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
