@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
