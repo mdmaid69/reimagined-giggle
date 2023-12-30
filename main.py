@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
