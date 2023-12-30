@@ -1,6 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
