@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import time
+def get_current_time():
+        return time.time()
