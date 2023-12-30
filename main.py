@@ -1,12 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
