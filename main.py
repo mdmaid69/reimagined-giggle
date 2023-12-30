@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-from collections import Counter
-print(Counter("hello world"))
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
