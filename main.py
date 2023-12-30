@@ -1,5 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import sys
-print(sys.version)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
