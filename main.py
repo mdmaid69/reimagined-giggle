@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
