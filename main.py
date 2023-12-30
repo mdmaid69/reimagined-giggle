@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def add_numbers(a, b):
+        return a + b
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
