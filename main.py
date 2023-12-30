@@ -1,3 +1,5 @@
-import random
-print(random.randint(0, 100))
-print(sum(range(10)))
+  import sys
+  def get_python_version():
+        return sys.version
+  def is_odd(n):
+        return n % 2 != 0
