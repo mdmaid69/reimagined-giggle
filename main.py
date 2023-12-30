@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_work(force, distance):
-        return force * distance
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def square_number(x):
+        return x**2
