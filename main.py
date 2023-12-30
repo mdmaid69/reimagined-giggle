@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
