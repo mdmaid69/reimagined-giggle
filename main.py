@@ -1,4 +1,8 @@
-def sort_list(lst):
-        return sorted(lst)
-import os
-print(os.getcwd())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
