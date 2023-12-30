@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def is_odd(n):
+        return n % 2 != 0
