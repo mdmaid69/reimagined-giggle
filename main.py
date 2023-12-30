@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
