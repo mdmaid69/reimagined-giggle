@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
