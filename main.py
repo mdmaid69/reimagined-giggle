@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
