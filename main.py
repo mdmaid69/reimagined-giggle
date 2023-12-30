@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
