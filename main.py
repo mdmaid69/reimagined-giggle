@@ -1,8 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
