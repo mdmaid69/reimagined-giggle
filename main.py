@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def convert_to_hex(n):
+        return hex(n)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
