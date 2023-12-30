@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
