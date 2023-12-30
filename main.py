@@ -1,5 +1,5 @@
+import sys
+print(sys.version)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_tangent(x):
+        return math.tan(x)
