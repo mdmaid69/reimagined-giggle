@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
