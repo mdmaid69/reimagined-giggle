@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
