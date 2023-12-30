@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+for i in range(5):
+        print(i)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
