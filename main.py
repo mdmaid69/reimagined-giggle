@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
