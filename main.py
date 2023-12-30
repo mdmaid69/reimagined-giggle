@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+print([x**2 for x in range(10)])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
