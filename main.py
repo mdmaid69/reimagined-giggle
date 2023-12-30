@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def add_numbers(a, b):
+        return a + b
