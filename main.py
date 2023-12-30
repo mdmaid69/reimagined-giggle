@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_volume(length, width, height):
+        return length * width * height
