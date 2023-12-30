@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
