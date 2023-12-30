@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def find_min(numbers):
+        return min(numbers)
