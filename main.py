@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
