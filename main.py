@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def greet(name):
-        print(f"Hello, {name}!")
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
