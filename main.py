@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
