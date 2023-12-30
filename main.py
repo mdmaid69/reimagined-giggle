@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import collections
+def create_stack():
+        return collections.deque()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
