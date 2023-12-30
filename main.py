@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
