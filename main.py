@@ -1,9 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
