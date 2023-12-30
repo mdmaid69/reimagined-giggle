@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
