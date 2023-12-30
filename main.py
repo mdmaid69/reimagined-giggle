@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
