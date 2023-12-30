@@ -1,5 +1,5 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
