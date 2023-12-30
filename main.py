@@ -1,9 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
