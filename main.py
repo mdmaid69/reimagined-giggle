@@ -1,5 +1,6 @@
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def reverse_string(s):
-        return s[::-1]
+def extend_array(array, iterable):
+        array.extend(iterable)
