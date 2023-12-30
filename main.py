@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import collections
+def create_stack():
+        return collections.deque()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
