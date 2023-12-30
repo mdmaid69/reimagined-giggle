@@ -1,8 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_index(array, item):
+        return array.index(item)
