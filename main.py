@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
