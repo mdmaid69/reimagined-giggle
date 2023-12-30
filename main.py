@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
