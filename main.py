@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
