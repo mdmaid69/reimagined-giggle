@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
