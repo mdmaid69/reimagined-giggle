@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
