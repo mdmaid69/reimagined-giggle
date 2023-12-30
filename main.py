@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
