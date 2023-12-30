@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_bool(array):
+        return bool(array)
