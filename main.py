@@ -1,7 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_int(array):
+        return int(array[0])
