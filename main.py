@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
