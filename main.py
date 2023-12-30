@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_speed(distance, time):
+        return distance / time
