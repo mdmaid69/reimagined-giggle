@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def add_numbers(a, b):
+        return a + b
