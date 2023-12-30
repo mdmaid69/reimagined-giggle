@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_work(force, distance):
+        return force * distance
