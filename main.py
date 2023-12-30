@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
