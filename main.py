@@ -1,5 +1,8 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
