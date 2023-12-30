@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
