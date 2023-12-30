@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
