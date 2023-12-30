@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_sine(x):
+        return math.sin(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
