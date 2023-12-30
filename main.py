@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def multiply_numbers(x, y):
-        return x * y
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
