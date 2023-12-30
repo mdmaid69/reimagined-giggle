@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def is_odd(n):
+        return n % 2 != 0
