@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def is_odd(n):
+        return n % 2 != 0
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
