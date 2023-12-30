@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import sys
-def print_python_version():
-        return sys.version
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
