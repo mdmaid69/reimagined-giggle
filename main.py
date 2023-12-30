@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
