@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def print_python_version():
+        return sys.version
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
