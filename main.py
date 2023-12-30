@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import platform
-def get_os_info():
-        return platform.uname()
+def get_python_version():
+        return platform.python_version()
