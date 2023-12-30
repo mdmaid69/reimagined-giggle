@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  def convert_to_octal(n):
-        return oct(n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
