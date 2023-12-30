@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
