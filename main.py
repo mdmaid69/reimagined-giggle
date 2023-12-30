@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-import random
-print(random.randint(0, 100))
+def calculate_work(force, distance):
+        return force * distance
+  def count_elements(lst):
+        return len(lst)
