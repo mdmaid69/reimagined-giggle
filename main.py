@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
