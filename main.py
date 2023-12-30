@@ -1,7 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def reverse_list(lst):
+        return lst[::-1]
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
