@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
