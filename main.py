@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
