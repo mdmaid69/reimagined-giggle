@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_user_list():
+        return collections.UserList()
