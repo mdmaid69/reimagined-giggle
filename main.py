@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def sort_list(lst):
+        return sorted(lst)
