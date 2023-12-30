@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_stack():
+        return collections.deque()
+import sys
+def exit_program():
+        sys.exit()
