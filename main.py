@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def multiply_numbers(x, y):
+        return x * y
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
