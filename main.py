@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import time
-def get_time_since_epoch():
-        return time.time()
+import sys
+print(sys.version)
+  def add_numbers(x, y):
+        return x + y
