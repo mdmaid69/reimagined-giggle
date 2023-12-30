@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
