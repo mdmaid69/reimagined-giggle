@@ -1,5 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def convert_to_hex(n):
-        return hex(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def calculate_area_rectangle(l, w):
+        return l * w
