@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
