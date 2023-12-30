@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def convert_to_hex(n):
+        return hex(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
