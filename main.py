@@ -1,5 +1,8 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_priority_queue():
+        return collections.deque()
