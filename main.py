@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
