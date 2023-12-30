@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
