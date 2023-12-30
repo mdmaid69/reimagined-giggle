@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def convert_to_hex(n):
+        return hex(n)
