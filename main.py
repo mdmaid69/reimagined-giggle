@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import platform
-def get_python_version():
-        return platform.python_version()
+from collections import Counter
+print(Counter("hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
