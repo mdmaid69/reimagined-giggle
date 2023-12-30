@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
