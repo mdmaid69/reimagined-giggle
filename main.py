@@ -1,4 +1,10 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def is_even(n):
-        return n % 2 == 0
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
