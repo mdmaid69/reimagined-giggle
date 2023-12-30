@@ -1,6 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
