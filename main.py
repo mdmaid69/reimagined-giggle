@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
