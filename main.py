@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
