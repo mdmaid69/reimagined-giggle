@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
