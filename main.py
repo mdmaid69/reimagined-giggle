@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def multiply_numbers(x, y):
+        return x * y
