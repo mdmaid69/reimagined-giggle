@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
