@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
