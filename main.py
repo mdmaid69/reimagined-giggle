@@ -1,5 +1,12 @@
-import math
-print(math.pi)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
