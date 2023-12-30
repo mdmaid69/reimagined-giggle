@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def convert_array_to_string(array):
+        return array.tostring()
