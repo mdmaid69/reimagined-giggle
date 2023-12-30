@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
