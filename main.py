@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
