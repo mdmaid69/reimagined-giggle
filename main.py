@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
