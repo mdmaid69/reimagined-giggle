@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_as_set(array):
+        return set(array)
