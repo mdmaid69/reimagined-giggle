@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
