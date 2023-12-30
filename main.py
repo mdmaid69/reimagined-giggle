@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
