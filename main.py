@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
