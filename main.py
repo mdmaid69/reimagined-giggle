@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_length(array):
-        return len(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def count_characters(sentence):
+        return len(sentence)
