@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def convert_to_octal(n):
+        return oct(n)
