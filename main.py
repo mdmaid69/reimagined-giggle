@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_array_as_repr(array):
+        return repr(array)
