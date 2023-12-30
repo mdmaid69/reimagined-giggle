@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
