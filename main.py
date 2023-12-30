@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
