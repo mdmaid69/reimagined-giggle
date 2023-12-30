@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import time
+def get_current_time():
+        return time.ctime()
+from collections import Counter
+print(Counter("hello world"))
