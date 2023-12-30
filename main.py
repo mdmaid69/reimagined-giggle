@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
