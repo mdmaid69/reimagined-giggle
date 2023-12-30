@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
