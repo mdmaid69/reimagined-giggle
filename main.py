@@ -1,5 +1,10 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
