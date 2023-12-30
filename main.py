@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
