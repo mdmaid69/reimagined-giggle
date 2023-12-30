@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
