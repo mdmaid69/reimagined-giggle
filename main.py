@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def divide_numbers(x, y):
-        return x / y
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_queue():
+        return collections.deque()
