@@ -1,7 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
