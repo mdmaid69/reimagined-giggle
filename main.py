@@ -1,5 +1,7 @@
-import time
-print(time.time())
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_array_item(array, i):
+        return array[i]
