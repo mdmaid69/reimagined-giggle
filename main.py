@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+print(sum(range(10)))
