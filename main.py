@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
