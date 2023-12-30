@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
