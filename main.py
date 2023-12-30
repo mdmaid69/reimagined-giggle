@@ -1,5 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+for i in range(10): print(i)
