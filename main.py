@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
