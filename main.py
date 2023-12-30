@@ -1,4 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def is_odd(n):
-        return n % 2 != 0
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
