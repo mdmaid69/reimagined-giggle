@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-text = "Hello, world!"
-print("Characters:", len(text))
+import tensorflow as tf
+print(tf.__version__)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
