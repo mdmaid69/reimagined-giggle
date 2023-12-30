@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
