@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import time
-def get_current_time():
-        return time.time()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import datetime
+def get_current_date():
+        return datetime.date.today()
