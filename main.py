@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
