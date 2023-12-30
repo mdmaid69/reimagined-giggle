@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
