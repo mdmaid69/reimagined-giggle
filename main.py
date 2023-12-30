@@ -1,7 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
