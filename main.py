@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
