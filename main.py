@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_work(force, distance):
-        return force * distance
+def insert_into_array(array, i, item):
+        array.insert(i, item)
