@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_density(mass, volume):
-        return mass / volume
+def cube_number(x):
+        return x**3
+import random
+def roll_die():
+        return random.randint(1, 6)
