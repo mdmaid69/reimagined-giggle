@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
