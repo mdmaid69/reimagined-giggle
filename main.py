@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import time
+def get_current_time():
+        return time.ctime()
+import sys
+def print_python_version():
+        print(sys.version)
