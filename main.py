@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-print(math.pi)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
