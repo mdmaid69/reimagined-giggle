@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
