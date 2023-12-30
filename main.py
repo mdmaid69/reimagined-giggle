@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def find_min(numbers):
+        return min(numbers)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
