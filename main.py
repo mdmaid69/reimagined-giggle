@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def append_to_array(array, item):
+        array.append(item)
