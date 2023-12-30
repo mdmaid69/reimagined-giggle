@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def create_user_string():
+        return collections.UserString()
