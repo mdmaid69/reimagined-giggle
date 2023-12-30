@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def subtract_numbers(x, y):
-        return x - y
+def is_palindrome(s):
+        return s == s[::-1]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
