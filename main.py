@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
