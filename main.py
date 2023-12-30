@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
