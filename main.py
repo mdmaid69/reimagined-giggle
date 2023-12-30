@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import collections
+def create_counter():
+        return collections.Counter()
