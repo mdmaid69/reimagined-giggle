@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
