@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
