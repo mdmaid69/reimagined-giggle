@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
