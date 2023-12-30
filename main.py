@@ -1,13 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
