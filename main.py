@@ -1,6 +1,7 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
