@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
