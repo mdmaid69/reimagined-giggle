@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import collections
+def create_priority_queue():
+        return collections.deque()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
