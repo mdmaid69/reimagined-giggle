@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
