@@ -1,4 +1,8 @@
-  def add_numbers(x, y):
-        return x + y
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
