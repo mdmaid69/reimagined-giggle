@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_sine(x):
+        return math.sin(x)
