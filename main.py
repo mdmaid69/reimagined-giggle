@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import time
+def get_current_time():
+        return time.ctime()
