@@ -1,5 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
