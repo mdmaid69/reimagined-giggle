@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
