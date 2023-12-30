@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def clear_array(array):
+        array *= 0
