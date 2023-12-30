@@ -1,5 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_combinations(n, k):
+        return math.comb(n, k)
