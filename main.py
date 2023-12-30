@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
