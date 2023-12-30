@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
