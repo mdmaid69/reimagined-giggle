@@ -1,4 +1,8 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import re
-print(re.match("h.*o", "hello world"))
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
