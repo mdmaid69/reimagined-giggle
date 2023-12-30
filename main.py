@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
