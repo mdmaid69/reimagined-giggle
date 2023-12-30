@@ -1,10 +1,4 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import random
+print(random.randint(0, 100))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
