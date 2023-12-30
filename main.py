@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def is_even(n):
+        return n % 2 == 0
+def convert_to_octal(n):
+        return oct(n)
