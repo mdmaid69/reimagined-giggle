@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def divide_numbers(x, y):
-        return x / y
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
