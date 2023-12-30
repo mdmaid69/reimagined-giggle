@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def add_numbers(x, y):
-        return x + y
+def calculate_power(work, time):
+        return work / time
+def calculate_average(lst):
+        return sum(lst) / len(lst)
