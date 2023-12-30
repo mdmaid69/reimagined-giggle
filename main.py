@@ -1,5 +1,4 @@
-print([x**2 for x in range(10)])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def sort_list(lst):
+        return sorted(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
