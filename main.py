@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
