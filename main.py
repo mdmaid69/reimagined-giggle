@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
