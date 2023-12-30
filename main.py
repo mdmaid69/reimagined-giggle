@@ -1,7 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
