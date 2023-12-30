@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
