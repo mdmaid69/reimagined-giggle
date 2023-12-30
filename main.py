@@ -1,6 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
