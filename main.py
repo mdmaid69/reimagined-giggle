@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
