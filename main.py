@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def cube_number(x):
-        return x**3
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
