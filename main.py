@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
