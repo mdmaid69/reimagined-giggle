@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def clear_array(array):
+        array *= 0
