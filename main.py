@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
