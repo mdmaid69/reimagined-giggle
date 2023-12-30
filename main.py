@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
