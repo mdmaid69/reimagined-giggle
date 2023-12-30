@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-text = "Hello, world!"
-print("Characters:", len(text))
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
