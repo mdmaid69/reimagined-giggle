@@ -1,8 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+def change_working_directory(path):
+        os.chdir(path)
+for i in range(10): print(i)
