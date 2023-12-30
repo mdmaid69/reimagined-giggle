@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
