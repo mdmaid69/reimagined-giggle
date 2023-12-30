@@ -1,3 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-for i in range(10): print(i)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
