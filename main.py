@@ -1,5 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import sys
+def exit_program():
+        sys.exit()
