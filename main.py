@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
