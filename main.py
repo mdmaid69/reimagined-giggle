@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
