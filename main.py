@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
