@@ -1,5 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
