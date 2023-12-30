@@ -1,5 +1,10 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
