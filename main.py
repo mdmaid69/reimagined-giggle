@@ -1,7 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
