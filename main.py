@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_floor(x):
+        return math.floor(x)
