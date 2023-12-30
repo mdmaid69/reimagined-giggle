@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
