@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def get_array_item(array, i):
-        return array[i]
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
