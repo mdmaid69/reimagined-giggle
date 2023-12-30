@@ -1,5 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def remove_duplicates(lst):
-        return list(set(lst))
+def cube_number(x):
+        return x**3
+def calculate_acceleration(speed, time):
+        return speed / time
