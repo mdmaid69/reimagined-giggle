@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_area_rectangle(l, w):
+        return l * w
+def sort_numbers(numbers):
+        return sorted(numbers)
