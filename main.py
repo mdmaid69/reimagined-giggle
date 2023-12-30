@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
