@@ -1,8 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import time
-def get_time_since_epoch():
-        return time.time()
+def get_array_as_bytes(array):
+        return bytes(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
