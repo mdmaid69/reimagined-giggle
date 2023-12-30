@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
