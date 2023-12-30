@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
