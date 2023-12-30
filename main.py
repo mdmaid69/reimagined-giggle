@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def find_min(numbers):
+        return min(numbers)
+  def convert_to_binary(n):
+        return bin(n)
