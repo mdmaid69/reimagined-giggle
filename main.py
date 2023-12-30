@@ -1,8 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def append_to_array(array, item):
+        array.append(item)
