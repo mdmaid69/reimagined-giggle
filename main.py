@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
