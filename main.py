@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
