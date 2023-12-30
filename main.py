@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
