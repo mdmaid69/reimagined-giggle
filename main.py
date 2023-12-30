@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_hex(n):
+        return hex(n)
