@@ -1,5 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_repr(array):
+        return repr(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
