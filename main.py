@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
