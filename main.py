@@ -1,4 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-for i in range(10): print(i)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
