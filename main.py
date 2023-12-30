@@ -1,5 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
