@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def convert_to_octal(n):
+        return oct(n)
