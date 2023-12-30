@@ -1,5 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
