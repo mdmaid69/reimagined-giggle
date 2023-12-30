@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
