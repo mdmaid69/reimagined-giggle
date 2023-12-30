@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import time
-print(time.time())
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
