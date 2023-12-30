@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import random
+print(random.randint(0, 100))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
