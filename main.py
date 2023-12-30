@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def find_max(numbers):
-        return max(numbers)
+import time
+def get_current_time():
+        return time.ctime()
+import random
+print(random.randint(0, 100))
