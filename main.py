@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
