@@ -1,8 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
