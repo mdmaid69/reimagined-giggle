@@ -1,5 +1,5 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  def add_numbers(x, y):
+        return x + y
