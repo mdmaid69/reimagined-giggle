@@ -1,7 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+print(os.getcwd())
+import datetime
+def get_today_date():
+        return datetime.date.today()
