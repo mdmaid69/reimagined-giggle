@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
