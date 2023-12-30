@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def is_palindrome(s):
+        return s == s[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
