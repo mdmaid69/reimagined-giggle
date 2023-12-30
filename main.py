@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def find_max(lst):
+        return max(lst)
+def subtract_numbers(x, y):
+        return x - y
