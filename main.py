@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
