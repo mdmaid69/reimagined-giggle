@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
