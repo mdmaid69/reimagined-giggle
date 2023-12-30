@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
