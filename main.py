@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
