@@ -1,6 +1,12 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
