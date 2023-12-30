@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
