@@ -1,7 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
