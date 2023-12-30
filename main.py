@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
