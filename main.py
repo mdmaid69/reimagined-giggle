@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
