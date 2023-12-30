@@ -1,6 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
