@@ -1,6 +1,5 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
