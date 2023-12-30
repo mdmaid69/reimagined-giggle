@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import re
+print(re.match("h.*o", "hello world"))
