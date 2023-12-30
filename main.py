@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
