@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_item(array, i):
-        return array[i]
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
