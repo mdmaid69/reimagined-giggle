@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
