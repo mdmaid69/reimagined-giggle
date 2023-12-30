@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
