@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def greet(name):
+        print(f"Hello, {name}!")
