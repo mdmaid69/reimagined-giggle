@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_acceleration(speed, time):
+        return speed / time
