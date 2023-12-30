@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
