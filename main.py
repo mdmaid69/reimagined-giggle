@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
