@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def get_array_as_int(array):
+        return int(array[0])
