@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_tangent(x):
+        return math.tan(x)
