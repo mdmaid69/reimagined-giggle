@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
