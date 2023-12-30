@@ -1,7 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
