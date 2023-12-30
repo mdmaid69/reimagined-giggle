@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_speed(distance, time):
+        return distance / time
