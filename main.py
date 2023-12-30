@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import sys
+def print_python_version():
+        return sys.version
