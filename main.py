@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
