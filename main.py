@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
