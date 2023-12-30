@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_stack():
+        return collections.deque()
+x = 10
+y = 20
+print("Sum:", x + y)
