@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def get_array_as_set(array):
+        return set(array)
