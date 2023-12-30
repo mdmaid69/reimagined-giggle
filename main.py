@@ -1,5 +1,7 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_work(force, distance):
-        return force * distance
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
