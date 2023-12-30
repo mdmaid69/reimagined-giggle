@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
