@@ -1,5 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
