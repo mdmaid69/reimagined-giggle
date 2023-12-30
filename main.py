@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
