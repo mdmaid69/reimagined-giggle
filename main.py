@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
