@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def find_min(numbers):
+        return min(numbers)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_int(array):
+        return int(array[0])
