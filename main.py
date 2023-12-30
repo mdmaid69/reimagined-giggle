@@ -1,5 +1,3 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_density(mass, volume):
+        return mass / volume
+print([x**2 for x in range(10)])
