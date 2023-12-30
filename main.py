@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def convert_to_binary(n):
+        return bin(n)
