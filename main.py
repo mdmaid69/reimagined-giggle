@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
