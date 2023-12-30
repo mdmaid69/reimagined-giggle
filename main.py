@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import time
+def get_current_time():
+        return time.ctime()
