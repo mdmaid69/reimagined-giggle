@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
