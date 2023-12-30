@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def add_numbers(x, y):
-        return x + y
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
