@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_as_int(array):
+        return int(array[0])
