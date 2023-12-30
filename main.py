@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
