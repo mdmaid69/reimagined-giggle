@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
