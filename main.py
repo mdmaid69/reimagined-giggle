@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sys
+def print_python_version():
+        return sys.version
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
