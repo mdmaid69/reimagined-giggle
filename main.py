@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_min(lst):
+        return min(lst)
