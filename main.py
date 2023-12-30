@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
