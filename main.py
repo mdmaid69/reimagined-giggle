@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
