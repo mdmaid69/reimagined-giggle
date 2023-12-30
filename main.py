@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-name = "Python"
-print("Hello,", name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
