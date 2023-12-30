@@ -1,4 +1,7 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_speed(distance, time):
+        return distance / time
