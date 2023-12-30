@@ -1,4 +1,7 @@
-def add_numbers(a, b):
-        return a + b
-import random
-print(random.randint(0, 100))
+def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
