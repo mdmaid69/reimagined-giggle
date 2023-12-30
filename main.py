@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
