@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
