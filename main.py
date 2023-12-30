@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
