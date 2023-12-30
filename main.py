@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_priority_queue():
-        return collections.deque()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
