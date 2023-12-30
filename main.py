@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
