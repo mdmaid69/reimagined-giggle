@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
