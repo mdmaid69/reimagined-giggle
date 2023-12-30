@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
