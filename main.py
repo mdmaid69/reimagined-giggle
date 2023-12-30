@@ -1,6 +1,12 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import collections
+def create_user_string():
+        return collections.UserString()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
