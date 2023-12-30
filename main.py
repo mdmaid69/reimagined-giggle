@@ -1,6 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import time
+def get_time_since_epoch():
+        return time.time()
