@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+import os
+print(os.getcwd())
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
