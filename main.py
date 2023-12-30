@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
