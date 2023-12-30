@@ -1,5 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_density(mass, volume):
+        return mass / volume
