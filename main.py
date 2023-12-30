@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_acceleration(speed, time):
-        return speed / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
