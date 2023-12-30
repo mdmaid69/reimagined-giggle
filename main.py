@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
