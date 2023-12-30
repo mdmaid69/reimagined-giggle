@@ -1,6 +1,7 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
