@@ -1,7 +1,5 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_item_count(array, item):
+        return array.count(item)
+def find_min(lst):
+        return min(lst)
