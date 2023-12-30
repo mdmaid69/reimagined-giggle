@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import numpy as np
+print(np.array([1, 2, 3]))
