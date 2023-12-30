@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
