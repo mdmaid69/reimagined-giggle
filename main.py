@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_item(array, i):
+        return array[i]
