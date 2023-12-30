@@ -1,5 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import array
-def append_to_array(array, item):
-        array.append(item)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def get_array_as_tuple(array):
+        return tuple(array)
