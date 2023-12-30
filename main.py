@@ -1,6 +1,3 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import getpass
-def get_username():
-        return getpass.getuser()
+print(sum(range(10)))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
