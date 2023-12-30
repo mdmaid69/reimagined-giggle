@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
