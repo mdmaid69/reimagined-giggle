@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
