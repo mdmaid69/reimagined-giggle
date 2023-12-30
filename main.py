@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
