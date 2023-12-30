@@ -1,6 +1,8 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
