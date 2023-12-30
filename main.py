@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
