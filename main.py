@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
