@@ -1,6 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
