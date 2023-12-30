@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
