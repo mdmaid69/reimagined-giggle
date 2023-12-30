@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
