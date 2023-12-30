@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
