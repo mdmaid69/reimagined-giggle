@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
