@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import time
-def get_current_time():
-        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
