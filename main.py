@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
