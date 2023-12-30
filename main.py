@@ -1,5 +1,8 @@
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
