@@ -1,5 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_float(array):
+        return float(array[0])
