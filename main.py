@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import time
-def get_current_time():
-        return time.ctime()
+def convert_to_octal(n):
+        return oct(n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
