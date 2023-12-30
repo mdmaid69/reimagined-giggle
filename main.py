@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def convert_to_hex(n):
+        return hex(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
