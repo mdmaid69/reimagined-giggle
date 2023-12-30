@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
