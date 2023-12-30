@@ -1,4 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-for i in range(10): print(i)
+  def delete_file(file_name):
+        os.remove(file_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
