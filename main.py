@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
