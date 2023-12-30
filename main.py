@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_item(array, i):
+        return array[i]
