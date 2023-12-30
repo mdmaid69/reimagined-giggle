@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
