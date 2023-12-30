@@ -1,6 +1,3 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+for i in range(10): print(i)
