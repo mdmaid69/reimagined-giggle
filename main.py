@@ -1,7 +1,7 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def calculate_area_rectangle(l, w):
-        return l * w
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
