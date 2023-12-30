@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def split_path(path):
+        return os.path.split(path)
