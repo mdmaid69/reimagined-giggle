@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
