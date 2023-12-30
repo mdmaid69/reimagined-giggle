@@ -1,5 +1,7 @@
+def convert_to_binary(n):
+        return bin(n)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
