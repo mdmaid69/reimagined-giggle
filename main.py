@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
