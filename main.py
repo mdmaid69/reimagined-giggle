@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-def print_python_version():
-        print(sys.version)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
