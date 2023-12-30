@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
