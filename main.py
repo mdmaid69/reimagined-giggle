@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import numpy as np
-print(np.array([1, 2, 3]))
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
