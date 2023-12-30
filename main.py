@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
