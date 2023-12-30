@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def remove_from_array(array, item):
+        array.remove(item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
