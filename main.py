@@ -1,4 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
