@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def remove_duplicates(lst):
+        return list(set(lst))
