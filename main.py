@@ -1,6 +1,3 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+print([x**2 for x in range(10)])
