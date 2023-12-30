@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def greet(name):
-        print(f"Hello, {name}!")
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
