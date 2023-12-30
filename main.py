@@ -1,5 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
