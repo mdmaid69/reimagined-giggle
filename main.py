@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
