@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def divide_numbers(x, y):
+        return x / y
+import os
+def remove_directory(path):
+        os.rmdir(path)
