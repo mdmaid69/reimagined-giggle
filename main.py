@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
