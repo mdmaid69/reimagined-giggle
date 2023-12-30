@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import time
+def get_current_time():
+        return time.ctime()
