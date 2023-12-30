@@ -1,6 +1,8 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
