@@ -1,6 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
