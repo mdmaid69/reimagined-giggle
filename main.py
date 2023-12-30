@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def sort_list(lst):
+        return sorted(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
