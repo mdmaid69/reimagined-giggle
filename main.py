@@ -1,10 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
