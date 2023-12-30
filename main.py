@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
