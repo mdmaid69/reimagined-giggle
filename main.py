@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
