@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
