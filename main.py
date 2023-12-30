@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_as_list(array):
-        return list(array)
+def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
