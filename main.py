@@ -1,6 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
