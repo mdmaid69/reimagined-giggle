@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
