@@ -1,9 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
