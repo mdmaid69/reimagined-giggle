@@ -1,5 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def reverse_list(lst):
+        return lst[::-1]
