@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
