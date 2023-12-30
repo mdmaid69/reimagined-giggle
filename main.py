@@ -1,6 +1,8 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
