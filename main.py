@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
