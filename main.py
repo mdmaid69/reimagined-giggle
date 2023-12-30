@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def multiply_numbers(x, y):
+        return x * y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
