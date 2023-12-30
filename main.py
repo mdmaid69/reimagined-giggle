@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
