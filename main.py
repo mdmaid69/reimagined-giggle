@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-text = "Hello, world!"
-print("Characters:", len(text))
+import time
+def get_current_time():
+        return time.time()
+def is_even(n):
+        return n % 2 == 0
