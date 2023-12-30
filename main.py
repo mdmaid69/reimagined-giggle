@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
