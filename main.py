@@ -1,6 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_error_function(x):
+        return math.erf(x)
