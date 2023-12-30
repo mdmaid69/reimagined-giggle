@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
