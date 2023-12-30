@@ -1,6 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import array
+def convert_array_to_list(array):
+        return array.tolist()
