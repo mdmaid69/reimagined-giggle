@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
