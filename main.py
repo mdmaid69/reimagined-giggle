@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
