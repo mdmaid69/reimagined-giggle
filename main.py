@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
