@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def is_palindrome(s):
+        return s == s[::-1]
