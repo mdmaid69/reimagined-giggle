@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
