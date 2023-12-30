@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
