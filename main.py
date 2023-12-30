@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def convert_to_binary(n):
+        return bin(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
