@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def count_elements(lst):
-        return len(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
