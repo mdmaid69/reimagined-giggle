@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def subtract_numbers(x, y):
+        return x - y
+def count_characters(sentence):
+        return len(sentence)
