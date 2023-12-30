@@ -1,7 +1,7 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def sort_list(lst):
+        return sorted(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
