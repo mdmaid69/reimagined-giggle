@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
