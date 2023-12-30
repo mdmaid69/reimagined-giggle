@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
