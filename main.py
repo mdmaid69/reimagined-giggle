@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
