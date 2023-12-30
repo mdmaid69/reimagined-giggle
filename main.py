@@ -1,5 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
