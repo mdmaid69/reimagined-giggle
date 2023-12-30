@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import array
-def get_array_length(array):
-        return len(array)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
