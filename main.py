@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_str(array):
+        return str(array)
