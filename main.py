@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_area(radius):
+        return 3.14 * radius * radius
