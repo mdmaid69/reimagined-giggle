@@ -1,6 +1,4 @@
+def calculate_pressure(force, area):
+        return force / area
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+print(random.randint(0, 100))
