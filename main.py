@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def greet(name):
+        print(f"Hello, {name}!")
