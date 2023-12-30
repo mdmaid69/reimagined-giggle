@@ -1,5 +1,8 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def count_elements(lst):
-        return len(lst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
