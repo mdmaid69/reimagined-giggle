@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import collections
+def create_counter():
+        return collections.Counter()
