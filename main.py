@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
