@@ -1,7 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
