@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import re
+print(re.match("h.*o", "hello world"))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
