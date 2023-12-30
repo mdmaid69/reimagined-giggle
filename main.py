@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
