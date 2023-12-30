@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def convert_to_hex(n):
-        return hex(n)
+def is_even(n):
+        return n % 2 == 0
+def find_unique_words(sentence):
+        return set(sentence.split())
