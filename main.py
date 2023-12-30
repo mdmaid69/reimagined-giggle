@@ -1,5 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
