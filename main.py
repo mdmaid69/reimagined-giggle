@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
