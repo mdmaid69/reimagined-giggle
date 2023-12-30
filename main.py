@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_pressure(force, area):
-        return force / area
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
