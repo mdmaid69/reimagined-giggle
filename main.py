@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
