@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_item(array, i):
-        return array[i]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_power(work, time):
+        return work / time
