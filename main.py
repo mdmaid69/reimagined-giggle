@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def calculate_area_rectangle(l, w):
-        return l * w
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
