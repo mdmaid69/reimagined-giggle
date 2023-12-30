@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def count_elements(lst):
-        return len(lst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import collections
+def create_stack():
+        return collections.deque()
