@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
