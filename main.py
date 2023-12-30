@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_index(array, item):
+        return array.index(item)
