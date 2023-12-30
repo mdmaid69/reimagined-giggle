@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import platform
-def get_os_info():
-        return platform.uname()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
