@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_list_from_array(array):
+        return array.tolist()
