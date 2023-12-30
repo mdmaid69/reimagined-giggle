@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
