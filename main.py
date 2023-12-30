@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
