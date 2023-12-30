@@ -1,4 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Characters:", len(text))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
