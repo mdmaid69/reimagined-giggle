@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_index(array, item):
+        return array.index(item)
 import os
-print(os.getcwd())
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
