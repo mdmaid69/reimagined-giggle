@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def reverse_list(lst):
-        return lst[::-1]
+def find_min(lst):
+        return min(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
