@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
