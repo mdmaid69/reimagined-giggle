@@ -1,5 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def sort_list(lst):
-        return sorted(lst)
+  def get_base_name(path):
+        return os.path.basename(path)
