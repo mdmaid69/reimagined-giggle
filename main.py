@@ -1,8 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
 import array
-def get_array_from_string(string, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
