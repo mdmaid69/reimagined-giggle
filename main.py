@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
