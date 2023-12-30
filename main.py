@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
