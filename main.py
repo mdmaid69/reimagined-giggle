@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
