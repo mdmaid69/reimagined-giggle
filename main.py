@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
