@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def add_numbers(a, b):
-        return a + b
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_sine(x):
+        return math.sin(x)
