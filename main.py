@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
