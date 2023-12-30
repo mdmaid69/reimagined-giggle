@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_max(numbers):
-        return max(numbers)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
