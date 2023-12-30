@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def sort_list(lst):
+        return sorted(lst)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
