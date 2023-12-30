@@ -1,3 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-print("Hello, world!")
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_area_circle(r):
+        return 3.14 * r**2
