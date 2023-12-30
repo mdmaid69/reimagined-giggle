@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def cube_number(x):
+        return x**3
