@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
