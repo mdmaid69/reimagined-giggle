@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_density(mass, volume):
-        return mass / volume
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def sort_numbers(numbers):
+        return sorted(numbers)
