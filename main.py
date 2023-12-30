@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_user_dict():
-        return collections.UserDict()
+print("Hello, world!")
+import getpass
+def get_username():
+        return getpass.getuser()
