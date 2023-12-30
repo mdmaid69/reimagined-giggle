@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def reverse_string(s):
+        return s[::-1]
