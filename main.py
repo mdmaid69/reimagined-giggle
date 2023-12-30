@@ -1,4 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import time
+def get_time_since_epoch():
+        return time.time()
