@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import sys
-def exit_program():
-        sys.exit()
+def reverse_string(s):
+        return s[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
