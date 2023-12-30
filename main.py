@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def count_words(sentence):
+        return len(sentence.split())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
