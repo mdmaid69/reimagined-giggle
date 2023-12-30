@@ -1,4 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-print([x**2 for x in range(10)])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
