@@ -1,5 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
