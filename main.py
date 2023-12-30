@@ -1,8 +1,7 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def convert_string_to_array(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
