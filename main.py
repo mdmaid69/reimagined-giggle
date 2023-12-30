@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
