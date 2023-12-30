@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
