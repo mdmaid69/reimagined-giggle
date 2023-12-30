@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import time
+def get_current_time():
+        return time.time()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
