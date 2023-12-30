@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
