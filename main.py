@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
