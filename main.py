@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
