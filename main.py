@@ -1,6 +1,3 @@
-import collections
-def create_stack():
-        return collections.deque()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def convert_to_hex(n):
+        return hex(n)
+for i in range(10): print(i)
