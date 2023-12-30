@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Words:", len(text.split()))
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
