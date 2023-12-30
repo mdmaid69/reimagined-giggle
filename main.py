@@ -1,4 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-print(math.pi)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
