@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
