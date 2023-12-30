@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
