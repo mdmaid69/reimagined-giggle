@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+print(sum(range(10)))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
