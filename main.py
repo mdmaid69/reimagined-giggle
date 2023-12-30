@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
