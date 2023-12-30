@@ -1,7 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def is_odd(n):
+        return n % 2 != 0
