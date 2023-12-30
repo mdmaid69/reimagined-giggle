@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def square_number(x):
+        return x**2
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
