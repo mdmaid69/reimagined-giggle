@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
