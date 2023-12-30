@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_array_as_bool(array):
+        return bool(array)
