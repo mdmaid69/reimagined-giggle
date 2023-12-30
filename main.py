@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def sort_numbers(numbers):
+        return sorted(numbers)
