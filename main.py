@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
