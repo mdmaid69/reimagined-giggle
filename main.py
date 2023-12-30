@@ -1,5 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
