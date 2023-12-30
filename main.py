@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
