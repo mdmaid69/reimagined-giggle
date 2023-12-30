@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
