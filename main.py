@@ -1,5 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_area_rectangle(l, w):
-        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def add_numbers(x, y):
+        return x + y
