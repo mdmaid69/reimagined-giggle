@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
