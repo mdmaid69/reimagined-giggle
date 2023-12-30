@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
