@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
