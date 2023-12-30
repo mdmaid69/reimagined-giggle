@@ -1,5 +1,8 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
