@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
