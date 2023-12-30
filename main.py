@@ -1,6 +1,9 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
