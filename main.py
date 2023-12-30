@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
