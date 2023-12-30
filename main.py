@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
