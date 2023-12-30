@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
