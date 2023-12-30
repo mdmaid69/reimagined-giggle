@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
