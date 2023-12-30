@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
