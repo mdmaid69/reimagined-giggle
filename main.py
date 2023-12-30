@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def find_max(lst):
-        return max(lst)
+for i in range(10): print(i)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
