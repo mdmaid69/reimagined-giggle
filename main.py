@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
