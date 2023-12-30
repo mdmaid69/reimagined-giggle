@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
