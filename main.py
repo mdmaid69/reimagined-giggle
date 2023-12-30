@@ -1,5 +1,6 @@
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_pressure(force, area):
-        return force / area
+def count_elements(iterable):
+        return collections.Counter(iterable)
