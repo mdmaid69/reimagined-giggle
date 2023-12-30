@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
