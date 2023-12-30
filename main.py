@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import random
-print(random.randint(0, 100))
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def split_path(path):
+        return os.path.split(path)
