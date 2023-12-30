@@ -1,8 +1,8 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
