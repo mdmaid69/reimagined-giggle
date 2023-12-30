@@ -1,4 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def find_min(lst):
-        return min(lst)
+  def sort_list(lst):
+        return sorted(lst)
+def convert_to_hex(n):
+        return hex(n)
