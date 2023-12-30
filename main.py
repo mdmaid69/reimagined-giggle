@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
