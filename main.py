@@ -1,6 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import collections
-def create_user_dict():
-        return collections.UserDict()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def create_user_string():
+        return collections.UserString()
