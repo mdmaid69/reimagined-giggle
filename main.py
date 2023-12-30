@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import random
-print(random.randint(0, 100))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
