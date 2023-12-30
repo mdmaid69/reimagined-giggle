@@ -1,5 +1,9 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import time
-print(time.time())
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
