@@ -1,5 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
