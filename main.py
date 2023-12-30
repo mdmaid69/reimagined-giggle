@@ -1,4 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
