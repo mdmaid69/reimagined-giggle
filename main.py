@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import json
+print(json.dumps({"name": "John", "age": 30}))
