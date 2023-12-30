@@ -1,7 +1,10 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
