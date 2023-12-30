@@ -1,7 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def cube_number(x):
+        return x**3
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
