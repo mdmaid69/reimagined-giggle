@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+print(sum(range(10)))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
