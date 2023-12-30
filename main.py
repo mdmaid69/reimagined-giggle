@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import random
-print(random.randint(0, 100))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
