@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_density(mass, volume):
+        return mass / volume
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
