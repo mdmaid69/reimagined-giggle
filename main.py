@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
