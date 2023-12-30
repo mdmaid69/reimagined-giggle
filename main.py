@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
