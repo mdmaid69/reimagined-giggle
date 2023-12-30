@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
