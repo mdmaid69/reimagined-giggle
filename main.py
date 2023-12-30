@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
