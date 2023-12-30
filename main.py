@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
