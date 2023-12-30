@@ -1,7 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
