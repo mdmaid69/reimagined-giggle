@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_pressure(force, area):
-        return force / area
+import array
+def reverse_array(array):
+        array.reverse()
+import platform
+def get_python_version():
+        return platform.python_version()
