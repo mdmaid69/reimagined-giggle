@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
