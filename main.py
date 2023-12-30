@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
