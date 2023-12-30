@@ -1,5 +1,6 @@
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
