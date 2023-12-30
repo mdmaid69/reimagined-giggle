@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def count_elements(lst):
+        return len(lst)
