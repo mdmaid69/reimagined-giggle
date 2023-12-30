@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
