@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def convert_to_octal(n):
+        return oct(n)
