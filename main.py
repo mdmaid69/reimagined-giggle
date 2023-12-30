@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
