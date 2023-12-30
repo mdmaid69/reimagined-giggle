@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
