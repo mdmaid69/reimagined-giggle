@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
