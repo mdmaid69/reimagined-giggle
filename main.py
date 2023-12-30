@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
