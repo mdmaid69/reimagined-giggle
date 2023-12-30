@@ -1,7 +1,6 @@
-import math
-print(math.pi)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
