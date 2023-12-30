@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
