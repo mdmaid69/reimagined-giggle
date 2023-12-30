@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def sort_list(lst):
+        return sorted(lst)
