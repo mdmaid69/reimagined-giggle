@@ -1,7 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
