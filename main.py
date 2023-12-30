@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
