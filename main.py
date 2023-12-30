@@ -1,4 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-print(sum(range(10)))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_repr(array):
+        return repr(array)
