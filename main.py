@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
