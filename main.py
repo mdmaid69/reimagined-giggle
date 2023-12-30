@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
