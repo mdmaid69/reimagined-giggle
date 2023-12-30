@@ -1,8 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
