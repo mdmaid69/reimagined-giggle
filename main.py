@@ -1,3 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-print("Hello, world!")
+  def cube_number(x):
+        return x**3
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
