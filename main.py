@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
