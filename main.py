@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
