@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
