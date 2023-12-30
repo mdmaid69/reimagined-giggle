@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import platform
+def get_os_info():
+        return platform.uname()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
