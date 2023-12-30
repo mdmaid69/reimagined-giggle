@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
