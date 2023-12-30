@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import platform
+def get_os_info():
+        return platform.uname()
