@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
