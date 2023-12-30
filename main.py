@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def is_odd(n):
+        return n % 2 != 0
