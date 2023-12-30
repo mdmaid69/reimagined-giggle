@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import re
+print(re.match("h.*o", "hello world"))
