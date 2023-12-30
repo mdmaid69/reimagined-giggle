@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
