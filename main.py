@@ -1,6 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def reverse_array(array):
+        array.reverse()
