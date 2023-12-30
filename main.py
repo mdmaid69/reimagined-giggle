@@ -1,5 +1,9 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import random
-print(random.randint(0, 100))
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
