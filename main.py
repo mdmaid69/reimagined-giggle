@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
