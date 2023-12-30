@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
