@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import collections
+def create_stack():
+        return collections.deque()
