@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def sort_list(lst):
+        return sorted(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
