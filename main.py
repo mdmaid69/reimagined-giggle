@@ -1,6 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def cube_number(x):
+        return x**3
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
