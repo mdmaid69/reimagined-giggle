@@ -1,5 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
