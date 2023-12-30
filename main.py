@@ -1,6 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
