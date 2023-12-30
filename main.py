@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
