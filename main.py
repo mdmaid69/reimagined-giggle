@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
