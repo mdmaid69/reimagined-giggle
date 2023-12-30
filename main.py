@@ -1,7 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_volume(length, width, height):
+        return length * width * height
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
