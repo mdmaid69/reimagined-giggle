@@ -1,6 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def sort_list(lst):
+        return sorted(lst)
