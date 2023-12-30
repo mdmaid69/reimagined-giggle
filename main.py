@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def split_path(path):
+        return os.path.split(path)
