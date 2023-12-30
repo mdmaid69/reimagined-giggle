@@ -1,7 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
