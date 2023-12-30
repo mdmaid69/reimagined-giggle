@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
