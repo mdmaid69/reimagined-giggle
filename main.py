@@ -1,6 +1,8 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
