@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def cube_number(x):
+        return x**3
