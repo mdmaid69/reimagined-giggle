@@ -1,8 +1,7 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
