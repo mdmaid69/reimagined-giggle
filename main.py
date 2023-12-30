@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import time
+def get_current_time():
+        return time.ctime()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
