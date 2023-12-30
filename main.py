@@ -1,4 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def cube_number(x):
+        return x**3
