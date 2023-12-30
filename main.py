@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
