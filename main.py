@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
