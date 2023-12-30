@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
