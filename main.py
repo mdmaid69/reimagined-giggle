@@ -1,6 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def is_odd(n):
+        return n % 2 != 0
