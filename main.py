@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import datetime
+print(datetime.datetime.now())
+import collections
+def create_stack():
+        return collections.deque()
