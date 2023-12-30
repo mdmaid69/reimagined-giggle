@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
   import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
