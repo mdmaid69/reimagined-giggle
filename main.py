@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
