@@ -1,6 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def square_number(x):
+        return x**2
+import sys
+print(sys.version)
