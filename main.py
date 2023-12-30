@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-for i in range(5):
-        print(i)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
