@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-print(math.pi)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
