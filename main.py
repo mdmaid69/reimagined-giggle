@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
