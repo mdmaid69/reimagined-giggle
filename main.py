@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import logging
+def log_message(message):
+        logging.info(message)
+print([x**2 for x in range(10)])
