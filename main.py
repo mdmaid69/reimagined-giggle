@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
