@@ -1,8 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
