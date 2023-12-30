@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
