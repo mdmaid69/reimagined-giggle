@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
