@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
