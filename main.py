@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import collections
+def create_stack():
+        return collections.deque()
