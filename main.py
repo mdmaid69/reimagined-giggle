@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
