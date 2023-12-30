@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
