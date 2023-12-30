@@ -1,5 +1,8 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
