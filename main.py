@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def subtract_numbers(x, y):
+        return x - y
