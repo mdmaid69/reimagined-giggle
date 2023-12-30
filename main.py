@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import random
+print(random.randint(0, 100))
+import sys
+print(sys.version)
