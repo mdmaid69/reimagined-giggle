@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
