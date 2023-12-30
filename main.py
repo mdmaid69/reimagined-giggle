@@ -1,5 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
