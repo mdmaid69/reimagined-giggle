@@ -1,4 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def calculate_area_rectangle(l, w):
+        return l * w
