@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import random
-print(random.randint(0, 100))
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+print(re.match("h.*o", "hello world"))
