@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def clear_array(array):
-        array *= 0
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
