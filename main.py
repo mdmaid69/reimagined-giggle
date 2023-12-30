@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
