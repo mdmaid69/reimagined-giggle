@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def find_min(lst):
-        return min(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import collections
+def create_queue():
+        return collections.deque()
