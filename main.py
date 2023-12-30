@@ -1,5 +1,10 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
