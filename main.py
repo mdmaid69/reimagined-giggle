@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
