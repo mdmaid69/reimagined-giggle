@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
