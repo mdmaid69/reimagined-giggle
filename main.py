@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
