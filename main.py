@@ -1,6 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import numpy as np
+print(np.array([1, 2, 3]))
