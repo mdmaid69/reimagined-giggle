@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
