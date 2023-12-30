@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import time
-print(time.time())
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
