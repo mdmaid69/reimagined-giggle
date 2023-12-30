@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
