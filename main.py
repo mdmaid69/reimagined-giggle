@@ -1,7 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_density(mass, volume):
+        return mass / volume
