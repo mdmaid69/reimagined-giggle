@@ -1,11 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def check_if_array_contains_item(array, item):
+        return item in array
