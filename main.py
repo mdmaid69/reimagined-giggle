@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
