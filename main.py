@@ -1,8 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import sys
+def print_python_version():
+        print(sys.version)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
