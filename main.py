@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
