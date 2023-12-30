@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
