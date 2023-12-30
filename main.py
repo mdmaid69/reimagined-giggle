@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import platform
+def get_os_info():
+        return platform.uname()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
