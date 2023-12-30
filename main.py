@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+for i in range(5):
+        print(i)
