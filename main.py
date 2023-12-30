@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
 numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+print("Squared:", [n**2 for n in numbers])
+import array
+def get_array_index(array, item):
+        return array.index(item)
