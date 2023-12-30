@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def is_odd(n):
+        return n % 2 != 0
