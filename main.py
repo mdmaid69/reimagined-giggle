@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
