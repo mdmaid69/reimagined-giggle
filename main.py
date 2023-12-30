@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def convert_to_binary(n):
+        return bin(n)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
