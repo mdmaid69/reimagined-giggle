@@ -1,6 +1,5 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def get_array_as_str(array):
+        return str(array)
+def count_elements(lst):
+        return len(lst)
