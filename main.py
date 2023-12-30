@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
