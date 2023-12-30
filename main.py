@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def count_words(sentence):
+        return len(sentence.split())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
