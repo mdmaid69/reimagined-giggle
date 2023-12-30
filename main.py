@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import datetime
+def get_today_date():
+        return datetime.date.today()
