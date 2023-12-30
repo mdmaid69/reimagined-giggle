@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import getpass
+def get_username():
+        return getpass.getuser()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
