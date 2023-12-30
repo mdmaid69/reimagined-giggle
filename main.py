@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
