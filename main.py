@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_acceleration(speed, time):
+        return speed / time
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
