@@ -1,7 +1,6 @@
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
