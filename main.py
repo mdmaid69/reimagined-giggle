@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def convert_to_binary(n):
+        return bin(n)
