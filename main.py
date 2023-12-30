@@ -1,6 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
