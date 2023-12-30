@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def append_to_array(array, item):
-        array.append(item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
