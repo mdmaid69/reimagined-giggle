@@ -1,4 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-print([x**2 for x in range(10)])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
