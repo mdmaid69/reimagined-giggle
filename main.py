@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import re
+print(re.match("h.*o", "hello world"))
