@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def reverse_list(lst):
+        return lst[::-1]
