@@ -1,8 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
