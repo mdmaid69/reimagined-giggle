@@ -1,7 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
