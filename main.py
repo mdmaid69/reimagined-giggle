@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def reverse_array(array):
+        array.reverse()
