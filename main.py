@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
