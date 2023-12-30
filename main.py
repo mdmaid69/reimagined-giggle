@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
