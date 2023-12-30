@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import numpy as np
+print(np.array([1, 2, 3]))
