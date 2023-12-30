@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
