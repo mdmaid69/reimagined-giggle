@@ -1,5 +1,5 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def create_user_string():
+        return collections.UserString()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
