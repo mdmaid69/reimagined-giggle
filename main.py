@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
