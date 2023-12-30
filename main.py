@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
