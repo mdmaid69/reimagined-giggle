@@ -1,6 +1,5 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
