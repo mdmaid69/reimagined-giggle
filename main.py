@@ -1,5 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
