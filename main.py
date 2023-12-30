@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
