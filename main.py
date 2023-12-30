@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
