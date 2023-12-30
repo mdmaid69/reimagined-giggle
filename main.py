@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
