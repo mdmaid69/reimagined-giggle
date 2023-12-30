@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
