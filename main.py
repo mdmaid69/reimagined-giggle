@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import sys
-def exit_program():
-        sys.exit()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
