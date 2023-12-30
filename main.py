@@ -1,8 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def reverse_string(s):
+        return s[::-1]
+  def calculate_area_rectangle(l, w):
+        return l * w
