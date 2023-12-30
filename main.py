@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  def count_elements(lst):
+        return len(lst)
