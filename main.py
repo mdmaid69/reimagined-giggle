@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def remove_duplicates(lst):
-        return list(set(lst))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
