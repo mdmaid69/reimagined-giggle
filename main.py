@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_power(work, time):
+        return work / time
+import sys
+def print_python_version():
+        print(sys.version)
