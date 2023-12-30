@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
