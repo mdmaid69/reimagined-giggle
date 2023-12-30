@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def find_min(numbers):
+        return min(numbers)
