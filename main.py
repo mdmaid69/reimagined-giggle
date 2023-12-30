@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
