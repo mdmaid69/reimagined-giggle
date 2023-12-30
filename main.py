@@ -1,6 +1,7 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
