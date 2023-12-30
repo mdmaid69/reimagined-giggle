@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
