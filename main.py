@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
