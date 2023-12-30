@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
