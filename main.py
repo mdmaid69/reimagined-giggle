@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
