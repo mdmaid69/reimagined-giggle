@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import tensorflow as tf
+print(tf.__version__)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
