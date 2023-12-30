@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_float(array):
+        return float(array[0])
