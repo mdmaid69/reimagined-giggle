@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
