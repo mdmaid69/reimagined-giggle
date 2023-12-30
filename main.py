@@ -1,6 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
