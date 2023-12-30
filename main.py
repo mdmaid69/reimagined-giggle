@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
