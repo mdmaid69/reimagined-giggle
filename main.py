@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
