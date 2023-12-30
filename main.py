@@ -1,5 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def get_array_as_tuple(array):
+        return tuple(array)
+def is_palindrome(s):
+        return s == s[::-1]
