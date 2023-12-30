@@ -1,6 +1,8 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
