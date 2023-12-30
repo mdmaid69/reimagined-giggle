@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def subtract_numbers(x, y):
+        return x - y
