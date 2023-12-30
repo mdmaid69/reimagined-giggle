@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
