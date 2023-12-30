@@ -1,4 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-print("Hello, world!")
+def reverse_string(s):
+        return s[::-1]
+  def add_numbers(x, y):
+        return x + y
