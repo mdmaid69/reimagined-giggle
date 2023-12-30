@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def find_min(numbers):
-        return min(numbers)
+def add_numbers(x, y):
+        return x + y
+import datetime
+def get_today_date():
+        return datetime.date.today()
