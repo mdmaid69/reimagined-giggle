@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
