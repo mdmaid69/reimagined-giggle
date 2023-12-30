@@ -1,4 +1,11 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_area_rectangle(l, w):
-        return l * w
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
