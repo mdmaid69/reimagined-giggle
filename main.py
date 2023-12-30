@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
