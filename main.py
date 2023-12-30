@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
