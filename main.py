@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def append_to_array(array, item):
+        array.append(item)
