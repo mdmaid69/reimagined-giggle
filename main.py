@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_power(work, time):
-        return work / time
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
