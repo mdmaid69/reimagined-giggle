@@ -1,5 +1,8 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
