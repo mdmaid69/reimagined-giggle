@@ -1,8 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
