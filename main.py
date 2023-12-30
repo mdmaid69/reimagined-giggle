@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
