@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def find_min(numbers):
-        return min(numbers)
+  def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
