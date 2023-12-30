@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
