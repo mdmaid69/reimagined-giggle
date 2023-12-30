@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
