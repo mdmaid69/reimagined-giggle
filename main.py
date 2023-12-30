@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
