@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
