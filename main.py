@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import collections
-def create_user_string():
-        return collections.UserString()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def convert_to_hex(n):
+        return hex(n)
