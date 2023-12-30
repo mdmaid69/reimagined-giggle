@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  def subtract_numbers(x, y):
-        return x - y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
