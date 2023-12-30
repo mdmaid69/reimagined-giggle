@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
