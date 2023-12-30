@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
