@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import random
+print(random.randint(0, 100))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
