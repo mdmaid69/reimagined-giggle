@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def reverse_string(s):
+        return s[::-1]
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
