@@ -1,7 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
