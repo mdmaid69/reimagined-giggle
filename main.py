@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def sort_list(lst):
+        return sorted(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
