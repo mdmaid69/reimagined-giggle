@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
