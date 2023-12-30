@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  def sort_list(lst):
+        return sorted(lst)
