@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def append_to_array(array, item):
+        array.append(item)
