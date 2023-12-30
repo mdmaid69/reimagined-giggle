@@ -1,11 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def reverse_string(s):
+        return s[::-1]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
