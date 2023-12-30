@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
