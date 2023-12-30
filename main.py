@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-from collections import Counter
-print(Counter("hello world"))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
