@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import collections
-def create_counter():
-        return collections.Counter()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
