@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_item(array, i):
+        return array[i]
