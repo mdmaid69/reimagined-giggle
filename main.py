@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
