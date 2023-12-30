@@ -1,5 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
