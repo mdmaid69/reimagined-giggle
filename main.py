@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
