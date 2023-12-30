@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_list_from_array(array):
+        return array.tolist()
