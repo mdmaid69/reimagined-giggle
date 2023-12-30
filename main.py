@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import datetime
+print(datetime.datetime.now())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
