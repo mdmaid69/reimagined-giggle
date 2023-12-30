@@ -1,5 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
