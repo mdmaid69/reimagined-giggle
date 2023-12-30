@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
