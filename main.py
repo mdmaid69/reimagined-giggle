@@ -1,8 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_current_directory():
+        return os.getcwd()
