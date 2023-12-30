@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def reverse_array(array):
+        array.reverse()
