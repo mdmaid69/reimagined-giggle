@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_itemsize(array):
+        return array.itemsize
