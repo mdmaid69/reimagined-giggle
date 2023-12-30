@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
