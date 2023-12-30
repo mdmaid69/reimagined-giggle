@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
