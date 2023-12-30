@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_volume(length, width, height):
-        return length * width * height
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
