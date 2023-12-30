@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
