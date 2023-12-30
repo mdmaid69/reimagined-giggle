@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_work(force, distance):
-        return force * distance
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
