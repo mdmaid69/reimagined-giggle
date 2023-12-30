@@ -1,7 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
