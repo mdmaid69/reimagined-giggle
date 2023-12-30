@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
