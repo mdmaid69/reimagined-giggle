@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
