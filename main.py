@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def convert_array_to_bytes(array):
+        return array.tobytes()
