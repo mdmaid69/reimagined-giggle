@@ -1,6 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
