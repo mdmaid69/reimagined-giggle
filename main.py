@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Cube numbers:", [x**3 for x in range(n)])
