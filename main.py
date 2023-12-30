@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def is_even(n):
+        return n % 2 == 0
