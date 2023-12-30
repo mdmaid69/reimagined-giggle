@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
