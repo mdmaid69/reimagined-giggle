@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
