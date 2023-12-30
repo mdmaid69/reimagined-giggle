@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import getpass
+def get_username():
+        return getpass.getuser()
