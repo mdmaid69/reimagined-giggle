@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def count_words(sentence):
+        return len(sentence.split())
