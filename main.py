@@ -1,8 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_array_as_float(array):
+        return float(array[0])
