@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def count_elements(lst):
+        return len(lst)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
