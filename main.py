@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import platform
+def get_os_info():
+        return platform.uname()
