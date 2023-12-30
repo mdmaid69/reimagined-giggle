@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
