@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
