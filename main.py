@@ -1,4 +1,12 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-print([x**2 for x in range(10)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import datetime
+def get_current_date():
+        return datetime.date.today()
