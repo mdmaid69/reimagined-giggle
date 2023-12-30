@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def convert_to_octal(n):
+        return oct(n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
