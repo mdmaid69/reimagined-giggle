@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
