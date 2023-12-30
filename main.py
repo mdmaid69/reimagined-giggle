@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
