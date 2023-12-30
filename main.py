@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def reverse_array(array):
+        array.reverse()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
