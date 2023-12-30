@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def set_array_item(array, i, item):
+        array[i] = item
