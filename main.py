@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
