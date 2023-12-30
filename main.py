@@ -1,5 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
