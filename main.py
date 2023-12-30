@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def calculate_area_rectangle(l, w):
+        return l * w
