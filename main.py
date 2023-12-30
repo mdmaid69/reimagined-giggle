@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
