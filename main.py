@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
