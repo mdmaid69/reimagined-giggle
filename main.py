@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def is_even(n):
+        return n % 2 == 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
