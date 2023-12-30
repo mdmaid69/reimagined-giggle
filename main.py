@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
