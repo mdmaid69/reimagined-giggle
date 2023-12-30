@@ -1,5 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def find_min(lst):
-        return min(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
