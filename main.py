@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
