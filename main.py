@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def find_max(lst):
-        return max(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
