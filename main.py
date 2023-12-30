@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
