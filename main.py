@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
