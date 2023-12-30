@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
