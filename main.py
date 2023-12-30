@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+print(sum(range(10)))
