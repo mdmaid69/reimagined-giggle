@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def get_array_item(array, i):
+        return array[i]
