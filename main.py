@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+for i in range(10): print(i)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
