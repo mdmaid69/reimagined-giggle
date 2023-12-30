@@ -1,6 +1,9 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
