@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
