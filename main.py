@@ -1,5 +1,7 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
