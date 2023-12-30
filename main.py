@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
