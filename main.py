@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
