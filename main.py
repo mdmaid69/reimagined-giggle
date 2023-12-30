@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
