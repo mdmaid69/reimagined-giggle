@@ -1,6 +1,9 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
