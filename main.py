@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def find_max(lst):
+        return max(lst)
