@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
