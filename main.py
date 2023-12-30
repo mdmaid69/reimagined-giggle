@@ -1,4 +1,12 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
