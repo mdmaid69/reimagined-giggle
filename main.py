@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import tensorflow as tf
+print(tf.__version__)
