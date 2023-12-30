@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def get_array_length(array):
+        return len(array)
