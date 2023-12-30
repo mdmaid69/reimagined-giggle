@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
