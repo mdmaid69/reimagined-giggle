@@ -1,4 +1,6 @@
-print("Hello, world!")
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
