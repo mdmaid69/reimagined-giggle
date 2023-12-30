@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import collections
-def create_counter():
-        return collections.Counter()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
