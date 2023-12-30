@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_length(array):
+        return len(array)
