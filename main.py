@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
