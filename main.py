@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
