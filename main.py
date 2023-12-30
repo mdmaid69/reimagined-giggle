@@ -1,4 +1,8 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
