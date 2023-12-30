@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
