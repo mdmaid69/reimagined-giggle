@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
