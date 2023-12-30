@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_density(mass, volume):
-        return mass / volume
+import logging
+def log_message(message):
+        logging.info(message)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
