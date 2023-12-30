@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def reverse_string(s):
+        return s[::-1]
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
