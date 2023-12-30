@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
