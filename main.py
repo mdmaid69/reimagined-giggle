@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def square_number(x):
+        return x**2
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
