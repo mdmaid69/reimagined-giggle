@@ -1,4 +1,4 @@
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
