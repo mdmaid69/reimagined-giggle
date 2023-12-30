@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
