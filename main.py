@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import time
-def get_current_time():
-        return time.time()
+def cube_number(x):
+        return x**3
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
