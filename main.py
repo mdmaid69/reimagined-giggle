@@ -1,6 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
