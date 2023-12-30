@@ -1,5 +1,8 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_user_list():
+        return collections.UserList()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
