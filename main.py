@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
