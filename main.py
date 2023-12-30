@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
