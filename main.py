@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def reverse_list(lst):
+        return lst[::-1]
