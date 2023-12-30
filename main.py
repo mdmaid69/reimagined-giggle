@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_set(array):
-        return set(array)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
