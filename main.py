@@ -1,6 +1,5 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import random
+print(random.randint(0, 100))
