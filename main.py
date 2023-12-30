@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import logging
+def log_message(message):
+        logging.info(message)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
