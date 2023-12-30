@@ -1,7 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
