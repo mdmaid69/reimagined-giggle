@@ -1,8 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
