@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_speed(distance, time):
+        return distance / time
