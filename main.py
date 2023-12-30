@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_set(array):
-        return set(array)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
