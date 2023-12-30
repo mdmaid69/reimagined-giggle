@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def reverse_array(array):
+        array.reverse()
