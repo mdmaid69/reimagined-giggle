@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_area_rectangle(l, w):
+        return l * w
