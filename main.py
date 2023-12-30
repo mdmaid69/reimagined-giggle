@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  def sort_list(lst):
-        return sorted(lst)
+import time
+def get_current_time():
+        return time.time()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
