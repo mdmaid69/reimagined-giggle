@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
