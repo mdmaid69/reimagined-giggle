@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
