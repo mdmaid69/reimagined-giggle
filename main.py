@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_density(mass, volume):
+        return mass / volume
