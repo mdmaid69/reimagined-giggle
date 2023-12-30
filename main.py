@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import sys
-def exit_program():
-        sys.exit()
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
