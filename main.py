@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def convert_to_hex(n):
-        return hex(n)
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
