@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
