@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
