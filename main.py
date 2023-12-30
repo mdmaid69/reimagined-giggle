@@ -1,5 +1,8 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
