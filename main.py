@@ -1,5 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_power(work, time):
-        return work / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
