@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import logging
+def log_message(message):
+        logging.info(message)
+import random
+def roll_die():
+        return random.randint(1, 6)
