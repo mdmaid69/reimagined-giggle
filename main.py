@@ -1,6 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
