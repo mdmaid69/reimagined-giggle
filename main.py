@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
