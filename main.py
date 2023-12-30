@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
