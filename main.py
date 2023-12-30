@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
