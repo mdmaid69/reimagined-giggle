@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
