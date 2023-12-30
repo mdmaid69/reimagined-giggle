@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
