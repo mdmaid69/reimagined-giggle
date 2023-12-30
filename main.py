@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def sort_list(lst):
+        return sorted(lst)
+import time
+def get_current_time():
+        return time.time()
