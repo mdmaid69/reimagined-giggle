@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
