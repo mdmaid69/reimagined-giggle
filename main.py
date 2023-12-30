@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
