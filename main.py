@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
