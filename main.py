@@ -1,5 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
