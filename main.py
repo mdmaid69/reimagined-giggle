@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import getpass
-def get_username():
-        return getpass.getuser()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
