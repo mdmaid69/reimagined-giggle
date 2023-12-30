@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_length(array):
+        return len(array)
