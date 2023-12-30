@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
