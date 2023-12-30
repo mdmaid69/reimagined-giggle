@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_power(work, time):
+        return work / time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
