@@ -1,6 +1,8 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
