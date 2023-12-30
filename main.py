@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import collections
+def create_counter():
+        return collections.Counter()
