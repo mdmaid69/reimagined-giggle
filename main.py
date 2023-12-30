@@ -1,5 +1,10 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def reverse_list(lst):
-        return lst[::-1]
+def get_array_item(array, i):
+        return array[i]
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
