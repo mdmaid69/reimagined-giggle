@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def convert_to_binary(n):
-        return bin(n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
