@@ -1,4 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+print(sum(range(10)))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
