@@ -1,8 +1,8 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
