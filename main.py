@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
