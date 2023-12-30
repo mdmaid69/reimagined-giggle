@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
