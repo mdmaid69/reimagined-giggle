@@ -1,8 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
