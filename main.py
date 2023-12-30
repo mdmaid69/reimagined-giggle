@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
