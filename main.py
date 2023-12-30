@@ -1,8 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
