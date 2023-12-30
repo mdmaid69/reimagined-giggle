@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
