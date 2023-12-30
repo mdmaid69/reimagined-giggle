@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
