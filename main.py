@@ -1,5 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def add_numbers(x, y):
+        return x + y
+import json
+print(json.dumps({"name": "John", "age": 30}))
