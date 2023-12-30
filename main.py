@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
