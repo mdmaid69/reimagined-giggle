@@ -1,5 +1,8 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
