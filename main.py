@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
