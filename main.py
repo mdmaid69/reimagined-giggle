@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
