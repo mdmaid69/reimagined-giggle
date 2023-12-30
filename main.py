@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
