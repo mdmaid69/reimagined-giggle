@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
