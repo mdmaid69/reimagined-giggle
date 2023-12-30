@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import sys
+def print_python_version():
+        print(sys.version)
+  def convert_to_binary(n):
+        return bin(n)
