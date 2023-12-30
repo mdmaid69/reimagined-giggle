@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
