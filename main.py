@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_pressure(force, area):
+        return force / area
