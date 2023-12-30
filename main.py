@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
