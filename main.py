@@ -1,6 +1,4 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+print(list(itertools.permutations([1, 2, 3])))
