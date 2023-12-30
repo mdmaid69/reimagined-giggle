@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def is_odd(n):
+        return n % 2 != 0
+  def add_numbers(x, y):
+        return x + y
