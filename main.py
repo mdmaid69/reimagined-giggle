@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def add_numbers(x, y):
-        return x + y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
