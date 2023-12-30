@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
