@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
