@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
