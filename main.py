@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def convert_to_octal(n):
+        return oct(n)
