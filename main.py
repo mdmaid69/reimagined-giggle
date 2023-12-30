@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
