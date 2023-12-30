@@ -1,7 +1,8 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
