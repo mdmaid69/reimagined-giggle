@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
