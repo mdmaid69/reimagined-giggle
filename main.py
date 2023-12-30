@@ -1,5 +1,3 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+print(sum(range(10)))
+def calculate_work(force, distance):
+        return force * distance
