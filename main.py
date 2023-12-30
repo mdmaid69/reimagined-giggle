@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
