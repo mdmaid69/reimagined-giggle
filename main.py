@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
