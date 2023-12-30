@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def convert_to_octal(n):
-        return oct(n)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import platform
+def get_os_info():
+        return platform.uname()
