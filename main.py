@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
