@@ -1,6 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
