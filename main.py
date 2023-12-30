@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def add_numbers(x, y):
+        return x + y
