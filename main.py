@@ -1,6 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
