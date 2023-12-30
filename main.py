@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_length(array):
+        return len(array)
