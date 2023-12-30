@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
