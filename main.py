@@ -1,5 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
