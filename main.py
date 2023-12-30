@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import platform
-def get_python_version():
-        return platform.python_version()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
