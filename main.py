@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def greet(name):
-        print(f"Hello, {name}!")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+print(os.getcwd())
