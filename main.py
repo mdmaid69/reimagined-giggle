@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def cube_number(x):
+        return x**3
