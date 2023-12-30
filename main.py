@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import sys
+def print_python_version():
+        print(sys.version)
