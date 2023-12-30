@@ -1,5 +1,8 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
