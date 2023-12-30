@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
