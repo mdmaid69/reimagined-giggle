@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
