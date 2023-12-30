@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
