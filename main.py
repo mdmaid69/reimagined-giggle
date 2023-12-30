@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
