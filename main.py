@@ -1,6 +1,6 @@
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def get_array_buffer_info(array):
+        return array.buffer_info()
