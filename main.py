@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cosine(x):
+        return math.cos(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
