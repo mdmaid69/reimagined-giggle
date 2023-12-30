@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
