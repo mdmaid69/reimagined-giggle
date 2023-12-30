@@ -1,5 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
