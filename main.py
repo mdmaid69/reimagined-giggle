@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
+import sys
+print(sys.version)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_item(array, i):
+        return array[i]
