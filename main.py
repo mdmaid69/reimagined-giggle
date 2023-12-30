@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def square_number(x):
+        return x**2
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
