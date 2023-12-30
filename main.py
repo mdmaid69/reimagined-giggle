@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+from collections import Counter
+print(Counter("hello world"))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
