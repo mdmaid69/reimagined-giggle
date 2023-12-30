@@ -1,6 +1,8 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def clear_array(array):
+        array *= 0
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
