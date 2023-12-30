@@ -1,5 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
