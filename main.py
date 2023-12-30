@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_volume(length, width, height):
+        return length * width * height
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
