@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import datetime
+def get_current_date():
+        return datetime.date.today()
