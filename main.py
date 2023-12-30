@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import re
+print(re.match("h.*o", "hello world"))
