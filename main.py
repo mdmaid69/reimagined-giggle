@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
