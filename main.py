@@ -1,8 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
