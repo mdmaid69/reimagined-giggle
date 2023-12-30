@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
