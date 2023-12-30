@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
