@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
