@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_rectangle(l, w):
+        return l * w
