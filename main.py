@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
