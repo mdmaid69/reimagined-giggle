@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
