@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
