@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_as_set(array):
+        return set(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
