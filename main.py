@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def subtract_numbers(x, y):
+        return x - y
+import time
+def get_time_since_epoch():
+        return time.time()
