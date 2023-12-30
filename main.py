@@ -1,5 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_work(force, distance):
+        return force * distance
