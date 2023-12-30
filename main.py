@@ -1,8 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
