@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def add_numbers(x, y):
+        return x + y
 import xml.etree.ElementTree as ET
 root = ET.Element("root")
 doc = ET.SubElement(root, "doc")
