@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-text = "Hello, world!"
-print("Characters:", len(text))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def find_max(lst):
+        return max(lst)
