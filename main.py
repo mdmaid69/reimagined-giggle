@@ -1,7 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
