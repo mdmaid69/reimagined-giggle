@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
