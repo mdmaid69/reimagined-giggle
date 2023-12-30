@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_area_rectangle(l, w):
-        return l * w
+import platform
+def get_python_version():
+        return platform.python_version()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
