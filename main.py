@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_work(force, distance):
+        return force * distance
