@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def multiply_numbers(x, y):
+        return x * y
