@@ -1,8 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
