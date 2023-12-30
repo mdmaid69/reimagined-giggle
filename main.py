@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
