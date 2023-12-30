@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
