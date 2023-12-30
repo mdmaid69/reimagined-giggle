@@ -1,8 +1,5 @@
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
