@@ -1,3 +1,7 @@
-  def cube_number(x):
-        return x**3
-for i in range(10): print(i)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
