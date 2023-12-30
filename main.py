@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
