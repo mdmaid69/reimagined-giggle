@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
