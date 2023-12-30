@@ -1,5 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_unique_words(sentence):
+        return set(sentence.split())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
