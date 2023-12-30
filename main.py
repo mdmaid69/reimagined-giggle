@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+for i in range(10): print(i)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
