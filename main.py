@@ -1,5 +1,10 @@
-  def cube_number(x):
-        return x**3
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_tuple(array):
+        return tuple(array)
