@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
