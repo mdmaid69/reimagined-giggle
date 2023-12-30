@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
