@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def convert_array_to_list(array):
+        return array.tolist()
