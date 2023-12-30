@@ -1,7 +1,8 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def is_odd(n):
-        return n % 2 != 0
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
