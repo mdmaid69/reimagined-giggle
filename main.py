@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
 import time
-def get_current_time():
+def get_time_since_epoch():
         return time.time()
+def calculate_area_rectangle(l, w):
+        return l * w
