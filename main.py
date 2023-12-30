@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
