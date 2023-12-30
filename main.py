@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def count_characters(sentence):
+        return len(sentence)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
