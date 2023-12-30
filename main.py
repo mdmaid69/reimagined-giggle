@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
