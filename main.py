@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  def cube_number(x):
-        return x**3
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
