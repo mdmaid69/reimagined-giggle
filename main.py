@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
