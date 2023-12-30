@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
