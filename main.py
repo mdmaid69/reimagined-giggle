@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
