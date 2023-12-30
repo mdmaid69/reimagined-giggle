@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import time
-def get_current_time():
-        return time.time()
+def calculate_acceleration(speed, time):
+        return speed / time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
