@@ -1,8 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
