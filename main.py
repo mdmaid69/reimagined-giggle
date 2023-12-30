@@ -1,8 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
