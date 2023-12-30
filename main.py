@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+text = "Hello, world!"
+print("Words:", len(text.split()))
