@@ -1,5 +1,11 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_work(force, distance):
-        return force * distance
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
