@@ -1,6 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def remove_duplicates(lst):
+        return list(set(lst))
