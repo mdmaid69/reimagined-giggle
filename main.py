@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
