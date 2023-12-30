@@ -1,6 +1,8 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
