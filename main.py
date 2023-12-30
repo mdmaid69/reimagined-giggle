@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
