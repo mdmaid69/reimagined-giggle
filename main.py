@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
