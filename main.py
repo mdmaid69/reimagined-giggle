@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def cube_number(x):
+        return x**3
