@@ -1,6 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  def remove_duplicates(lst):
+        return list(set(lst))
