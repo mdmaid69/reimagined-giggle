@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
