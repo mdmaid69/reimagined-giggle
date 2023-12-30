@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
