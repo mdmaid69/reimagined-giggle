@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
