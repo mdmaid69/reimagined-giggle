@@ -1,8 +1,3 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_user_string():
-        return collections.UserString()
+print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
