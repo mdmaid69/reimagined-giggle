@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
