@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+print("Hello, world!")
