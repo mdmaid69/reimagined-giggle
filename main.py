@@ -1,7 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def remove_duplicates(lst):
+        return list(set(lst))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
