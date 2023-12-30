@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-def count_elements(lst):
-        return len(lst)
+  def calculate_area_rectangle(l, w):
+        return l * w
+from collections import Counter
+print(Counter("hello world"))
