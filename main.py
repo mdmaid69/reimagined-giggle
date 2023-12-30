@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
