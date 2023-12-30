@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
