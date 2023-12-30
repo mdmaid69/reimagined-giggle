@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
