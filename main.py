@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
