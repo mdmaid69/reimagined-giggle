@@ -1,6 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_array_length(array):
+        return len(array)
+  def is_even(n):
+        return n % 2 == 0
