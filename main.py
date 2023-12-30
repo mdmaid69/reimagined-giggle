@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
