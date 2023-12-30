@@ -1,6 +1,5 @@
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
