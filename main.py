@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def create_stack():
-        return collections.deque()
+  def square_number(x):
+        return x**2
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
