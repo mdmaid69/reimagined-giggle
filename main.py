@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
