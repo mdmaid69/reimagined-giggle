@@ -1,6 +1,7 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def find_max(lst):
+        return max(lst)
