@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_counter():
-        return collections.Counter()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
