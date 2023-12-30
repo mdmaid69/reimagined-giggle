@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_area_circle(r):
+        return 3.14 * r**2
