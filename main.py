@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
