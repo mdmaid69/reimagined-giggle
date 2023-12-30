@@ -1,4 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-for i in range(10): print(i)
+  def multiply_numbers(x, y):
+        return x * y
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
