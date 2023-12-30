@@ -1,5 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
