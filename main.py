@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_area_rectangle(l, w):
+        return l * w
