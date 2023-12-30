@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_work(force, distance):
+        return force * distance
