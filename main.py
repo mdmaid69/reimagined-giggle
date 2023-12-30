@@ -1,8 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
