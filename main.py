@@ -1,6 +1,10 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import sys
+def print_python_version():
+        print(sys.version)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
