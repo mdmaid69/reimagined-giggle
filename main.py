@@ -1,6 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_itemsize(array):
+        return array.itemsize
+def convert_to_binary(n):
+        return bin(n)
