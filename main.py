@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
