@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
