@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
