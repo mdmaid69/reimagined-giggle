@@ -1,5 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
