@@ -1,4 +1,5 @@
-print("Hello, world!")
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
