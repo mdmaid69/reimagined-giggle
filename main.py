@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
