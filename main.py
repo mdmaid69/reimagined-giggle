@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
