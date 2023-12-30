@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
