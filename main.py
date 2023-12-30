@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
