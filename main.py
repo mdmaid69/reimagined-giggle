@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_area_circle(r):
+        return 3.14 * r**2
