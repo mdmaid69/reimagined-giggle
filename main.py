@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import sys
+def exit_program():
+        sys.exit()
