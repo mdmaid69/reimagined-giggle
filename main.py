@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
