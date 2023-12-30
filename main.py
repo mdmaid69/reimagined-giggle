@@ -1,4 +1,9 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_work(force, distance):
-        return force * distance
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
