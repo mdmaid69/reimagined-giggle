@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
