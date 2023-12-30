@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
