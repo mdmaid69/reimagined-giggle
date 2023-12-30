@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
