@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
