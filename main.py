@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
