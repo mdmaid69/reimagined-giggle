@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
