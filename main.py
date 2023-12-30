@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
