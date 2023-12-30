@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import collections
+def create_user_string():
+        return collections.UserString()
