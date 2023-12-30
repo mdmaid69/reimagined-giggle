@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
