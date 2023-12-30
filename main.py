@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
