@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+print(re.match("h.*o", "hello world"))
+import logging
+def log_message(message):
+        logging.info(message)
