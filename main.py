@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def remove_duplicates(lst):
+        return list(set(lst))
