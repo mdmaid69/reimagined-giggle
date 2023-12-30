@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
