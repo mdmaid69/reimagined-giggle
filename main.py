@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
