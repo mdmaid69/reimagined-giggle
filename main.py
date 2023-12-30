@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
