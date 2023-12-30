@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def add_numbers(a, b):
+        return a + b
