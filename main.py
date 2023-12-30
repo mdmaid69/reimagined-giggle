@@ -1,5 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
