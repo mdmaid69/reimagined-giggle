@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def subtract_numbers(x, y):
+        return x - y
