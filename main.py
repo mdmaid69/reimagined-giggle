@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_queue():
+        return collections.deque()
+def add_numbers(a, b):
+        return a + b
