@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
