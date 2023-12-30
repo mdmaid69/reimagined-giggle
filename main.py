@@ -1,7 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
