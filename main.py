@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
