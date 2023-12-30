@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def divide_numbers(x, y):
+        return x / y
+import os
+def get_current_working_directory():
+        return os.getcwd()
