@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_list(array):
+        return list(array)
+import sys
+def exit_program():
+        sys.exit()
