@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
