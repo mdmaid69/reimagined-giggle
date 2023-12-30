@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
