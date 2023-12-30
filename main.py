@@ -1,6 +1,8 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
