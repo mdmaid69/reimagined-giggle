@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
