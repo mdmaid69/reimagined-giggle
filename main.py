@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
