@@ -1,8 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def multiply_numbers(x, y):
+        return x * y
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def pop_from_array(array, i=-1):
+        return array.pop(i)
