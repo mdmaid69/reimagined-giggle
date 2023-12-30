@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+print(datetime.datetime.now())
