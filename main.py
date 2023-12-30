@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
