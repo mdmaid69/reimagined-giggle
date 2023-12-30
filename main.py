@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  import sys
+  def get_python_version():
+        return sys.version
+def subtract_numbers(x, y):
+        return x - y
