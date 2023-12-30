@@ -1,8 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+x = 10
+y = 20
+print("Sum:", x + y)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
