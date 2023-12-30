@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
