@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
