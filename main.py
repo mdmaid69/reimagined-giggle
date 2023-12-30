@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
