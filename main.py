@@ -1,8 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
