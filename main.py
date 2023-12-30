@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_max(numbers):
+        return max(numbers)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
