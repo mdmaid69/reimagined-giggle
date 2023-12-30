@@ -1,6 +1,6 @@
-import sys
-print(sys.version)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
