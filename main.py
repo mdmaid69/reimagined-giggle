@@ -1,8 +1,8 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_ceiling(x):
+        return math.ceil(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
