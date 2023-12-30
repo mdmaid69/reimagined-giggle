@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
