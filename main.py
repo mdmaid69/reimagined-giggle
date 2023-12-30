@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import sys
+def exit_program():
+        sys.exit()
