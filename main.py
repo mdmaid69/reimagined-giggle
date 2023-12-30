@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
