@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def sort_list(lst):
-        return sorted(lst)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
