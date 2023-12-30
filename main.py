@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
