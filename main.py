@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import platform
+def get_os_info():
+        return platform.uname()
