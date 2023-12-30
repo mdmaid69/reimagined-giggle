@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
