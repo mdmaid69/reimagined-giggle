@@ -1,5 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import re
-print(re.match("h.*o", "hello world"))
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
