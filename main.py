@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
