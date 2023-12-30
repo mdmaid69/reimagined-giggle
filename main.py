@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
