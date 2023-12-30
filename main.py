@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-name = "Python"
-print("Hello,", name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
