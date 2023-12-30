@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
