@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
