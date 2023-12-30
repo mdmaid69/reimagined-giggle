@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
