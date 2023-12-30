@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def get_current_working_directory():
+        return os.getcwd()
