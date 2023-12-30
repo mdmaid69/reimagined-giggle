@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
