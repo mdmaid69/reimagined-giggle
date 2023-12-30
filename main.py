@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
