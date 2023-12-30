@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def reverse_array(array):
+        array.reverse()
