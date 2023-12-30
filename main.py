@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
