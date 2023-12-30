@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
