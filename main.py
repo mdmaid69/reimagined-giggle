@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
