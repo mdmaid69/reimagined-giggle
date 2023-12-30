@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
