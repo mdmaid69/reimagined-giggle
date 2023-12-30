@@ -1,5 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
