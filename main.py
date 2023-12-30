@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_work(force, distance):
+        return force * distance
