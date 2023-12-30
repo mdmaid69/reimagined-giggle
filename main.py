@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
