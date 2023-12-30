@@ -1,6 +1,8 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
