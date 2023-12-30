@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
