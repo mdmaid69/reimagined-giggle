@@ -1,4 +1,9 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
