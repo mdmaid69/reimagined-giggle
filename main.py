@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import sys
+def exit_program():
+        sys.exit()
