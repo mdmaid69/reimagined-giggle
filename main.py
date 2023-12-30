@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
