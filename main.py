@@ -1,7 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
