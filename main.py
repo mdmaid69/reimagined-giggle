@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
