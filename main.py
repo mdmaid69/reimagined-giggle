@@ -1,6 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
