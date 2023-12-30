@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
