@@ -1,5 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_density(mass, volume):
+        return mass / volume
+import random
+print(random.randint(0, 100))
