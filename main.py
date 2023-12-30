@@ -1,7 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_array_length(array):
+        return len(array)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
