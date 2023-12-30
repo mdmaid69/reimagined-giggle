@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
