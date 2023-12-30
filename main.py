@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def subtract_numbers(x, y):
+        return x - y
