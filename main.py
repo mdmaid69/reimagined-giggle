@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_power(work, time):
-        return work / time
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
