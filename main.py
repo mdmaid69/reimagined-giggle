@@ -1,5 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_sine(x):
+        return math.sin(x)
