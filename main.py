@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
