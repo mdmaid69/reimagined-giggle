@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
