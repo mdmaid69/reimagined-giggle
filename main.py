@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def find_max(numbers):
-        return max(numbers)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
