@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
