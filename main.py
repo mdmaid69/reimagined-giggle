@@ -1,4 +1,4 @@
-print(sum(range(10)))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
