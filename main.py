@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
