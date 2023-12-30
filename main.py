@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import sys
+print(sys.version)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
