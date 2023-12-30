@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def extend_array(array, iterable):
+        array.extend(iterable)
