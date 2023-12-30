@@ -1,6 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
