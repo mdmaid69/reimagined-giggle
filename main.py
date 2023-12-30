@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
