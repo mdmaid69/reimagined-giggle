@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
