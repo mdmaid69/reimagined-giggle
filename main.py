@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def multiply_numbers(x, y):
+        return x * y
