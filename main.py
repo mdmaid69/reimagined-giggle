@@ -1,5 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import collections
+def create_queue():
+        return collections.deque()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
