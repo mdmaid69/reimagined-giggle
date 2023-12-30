@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
