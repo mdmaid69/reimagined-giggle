@@ -1,6 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
