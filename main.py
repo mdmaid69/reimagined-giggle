@@ -1,6 +1,3 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+print([x**2 for x in range(10)])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
