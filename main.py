@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
