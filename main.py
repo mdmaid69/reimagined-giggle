@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_string():
-        return collections.UserString()
+def reverse_string(s):
+        return s[::-1]
+def find_min(numbers):
+        return min(numbers)
