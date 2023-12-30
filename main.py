@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
