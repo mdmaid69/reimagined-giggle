@@ -1,5 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
