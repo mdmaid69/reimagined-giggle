@@ -1,6 +1,8 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
