@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def is_even(n):
+        return n % 2 == 0
