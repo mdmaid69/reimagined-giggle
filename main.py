@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
