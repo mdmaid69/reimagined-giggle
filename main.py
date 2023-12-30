@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def multiply_numbers(x, y):
+        return x * y
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
