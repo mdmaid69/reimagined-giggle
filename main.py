@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def convert_to_binary(n):
+        return bin(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
