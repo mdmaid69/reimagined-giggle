@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_work(force, distance):
-        return force * distance
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
