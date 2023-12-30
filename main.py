@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
