@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_pressure(force, area):
-        return force / area
+import tensorflow as tf
+print(tf.__version__)
+def greet(name):
+        print(f"Hello, {name}!")
