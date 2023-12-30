@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
