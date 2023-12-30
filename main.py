@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
