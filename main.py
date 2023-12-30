@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
