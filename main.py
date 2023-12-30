@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
