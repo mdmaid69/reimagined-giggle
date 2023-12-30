@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
