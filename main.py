@@ -1,7 +1,5 @@
-import random
-print(random.randint(0, 100))
+import time
+print(time.time())
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
