@@ -1,7 +1,7 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
