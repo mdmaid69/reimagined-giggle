@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+from collections import Counter
+print(Counter("hello world"))
