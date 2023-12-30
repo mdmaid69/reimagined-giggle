@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
 import array
-def get_array_as_set(array):
-        return set(array)
+def clear_array(array):
+        array *= 0
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
