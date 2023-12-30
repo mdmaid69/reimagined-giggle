@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+from collections import Counter
+print(Counter("hello world"))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
