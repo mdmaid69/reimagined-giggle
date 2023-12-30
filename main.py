@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def remove_duplicates(lst):
+        return list(set(lst))
