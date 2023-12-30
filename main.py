@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def count_elements(lst):
-        return len(lst)
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
