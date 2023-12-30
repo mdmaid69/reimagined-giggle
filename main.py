@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_permutations(n, k):
+        return math.perm(n, k)
