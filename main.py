@@ -1,10 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
