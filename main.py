@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-print(math.pi)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
