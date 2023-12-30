@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_str(array):
+        return str(array)
