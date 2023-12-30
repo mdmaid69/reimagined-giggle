@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def is_palindrome(s):
+        return s == s[::-1]
+import collections
+def create_counter():
+        return collections.Counter()
