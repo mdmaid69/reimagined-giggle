@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
