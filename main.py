@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
