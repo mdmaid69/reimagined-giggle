@@ -1,6 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
