@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def count_characters(sentence):
-        return len(sentence)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
