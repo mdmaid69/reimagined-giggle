@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_pressure(force, area):
-        return force / area
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
