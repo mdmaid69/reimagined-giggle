@@ -1,7 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
