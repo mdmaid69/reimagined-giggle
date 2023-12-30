@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
