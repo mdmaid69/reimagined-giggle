@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
