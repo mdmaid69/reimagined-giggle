@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
