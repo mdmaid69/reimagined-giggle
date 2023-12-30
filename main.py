@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
