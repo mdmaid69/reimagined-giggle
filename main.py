@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
