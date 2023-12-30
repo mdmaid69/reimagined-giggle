@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
