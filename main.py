@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
