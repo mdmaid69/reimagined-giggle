@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def multiply_numbers(x, y):
-        return x * y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
