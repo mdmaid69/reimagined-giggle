@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_speed(distance, time):
+        return distance / time
