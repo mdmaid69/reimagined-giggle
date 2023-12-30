@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_base_name(path):
+        return os.path.basename(path)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
