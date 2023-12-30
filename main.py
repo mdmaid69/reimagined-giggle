@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
