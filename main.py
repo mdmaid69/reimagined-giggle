@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import os
+def change_working_directory(path):
+        os.chdir(path)
