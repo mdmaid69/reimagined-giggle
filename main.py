@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
