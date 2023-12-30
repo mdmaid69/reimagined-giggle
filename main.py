@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
