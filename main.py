@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-from collections import Counter
-print(Counter("hello world"))
+import platform
+def get_python_version():
+        return platform.python_version()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
