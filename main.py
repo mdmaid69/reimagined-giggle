@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def find_min(numbers):
-        return min(numbers)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_density(mass, volume):
+        return mass / volume
