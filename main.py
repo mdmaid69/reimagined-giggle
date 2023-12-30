@@ -1,7 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import time
-def get_current_time():
-        return time.time()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
