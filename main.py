@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_work(force, distance):
+        return force * distance
