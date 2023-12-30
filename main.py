@@ -1,6 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_sign(x):
+        return math.copysign(1, x)
