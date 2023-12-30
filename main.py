@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
