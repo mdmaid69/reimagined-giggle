@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
