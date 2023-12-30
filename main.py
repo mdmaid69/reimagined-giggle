@@ -1,6 +1,8 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
