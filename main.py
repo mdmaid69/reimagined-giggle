@@ -1,4 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def subtract_numbers(x, y):
-        return x - y
+import time
+print(time.time())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
