@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
