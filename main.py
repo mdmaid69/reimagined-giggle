@@ -1,4 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-def find_max(numbers):
-        return max(numbers)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
