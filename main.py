@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import time
+def get_current_time():
+        return time.time()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
