@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
