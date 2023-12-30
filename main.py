@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import sys
+print(sys.version)
+import collections
+def create_user_list():
+        return collections.UserList()
