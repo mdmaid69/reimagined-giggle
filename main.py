@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
