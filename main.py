@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import platform
+def get_python_version():
+        return platform.python_version()
