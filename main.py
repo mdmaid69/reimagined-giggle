@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_work(force, distance):
+        return force * distance
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
