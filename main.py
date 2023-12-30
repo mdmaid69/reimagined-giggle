@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
