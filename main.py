@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
