@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
