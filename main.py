@@ -1,5 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
