@@ -1,5 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def insert_into_array(array, i, item):
+        array.insert(i, item)
