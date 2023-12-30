@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_str(array):
+        return str(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
