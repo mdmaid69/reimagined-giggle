@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
