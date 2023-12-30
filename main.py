@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import sys
-  def get_python_version():
-        return sys.version
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
