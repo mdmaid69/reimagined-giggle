@@ -1,5 +1,7 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def add_numbers(x, y):
-        return x + y
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
