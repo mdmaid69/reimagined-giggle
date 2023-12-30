@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
