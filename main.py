@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def get_array_length(array):
+        return len(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
