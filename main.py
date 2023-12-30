@@ -1,5 +1,5 @@
 import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+print(os.getcwd())
