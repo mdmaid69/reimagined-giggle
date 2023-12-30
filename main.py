@@ -1,7 +1,5 @@
-import os
-print(os.getcwd())
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
