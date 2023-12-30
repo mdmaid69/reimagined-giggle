@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+print(sum(range(10)))
