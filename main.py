@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
