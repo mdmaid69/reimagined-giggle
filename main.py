@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def count_elements(lst):
+        return len(lst)
