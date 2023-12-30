@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def count_words(sentence):
+        return len(sentence.split())
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def convert_array_to_list(array):
+        return array.tolist()
