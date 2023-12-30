@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
