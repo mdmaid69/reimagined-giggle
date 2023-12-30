@@ -1,6 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
