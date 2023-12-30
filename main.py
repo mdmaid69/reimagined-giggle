@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
