@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
