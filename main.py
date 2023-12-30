@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
