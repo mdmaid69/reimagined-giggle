@@ -1,6 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def remove_from_array(array, item):
+        array.remove(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
