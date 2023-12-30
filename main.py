@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
