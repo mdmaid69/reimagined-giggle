@@ -1,5 +1,6 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
