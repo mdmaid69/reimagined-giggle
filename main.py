@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
