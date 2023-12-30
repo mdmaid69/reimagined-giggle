@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
