@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
