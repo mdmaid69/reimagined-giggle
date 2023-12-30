@@ -1,7 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import numpy as np
+print(np.array([1, 2, 3]))
+  def convert_to_octal(n):
+        return oct(n)
