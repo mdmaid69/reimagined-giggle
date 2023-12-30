@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
