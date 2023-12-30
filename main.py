@@ -1,5 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
