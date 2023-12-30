@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
