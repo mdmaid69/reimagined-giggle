@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import time
+def get_current_time():
+        return time.time()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
