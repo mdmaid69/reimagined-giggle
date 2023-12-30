@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import logging
+def log_message(message):
+        logging.info(message)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
