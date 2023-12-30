@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
