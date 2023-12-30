@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import datetime
-def get_current_date():
+def get_today_date():
         return datetime.date.today()
