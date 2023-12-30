@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
