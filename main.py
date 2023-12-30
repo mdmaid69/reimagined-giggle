@@ -1,5 +1,11 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import logging
+def log_message(message):
+        logging.info(message)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
