@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import datetime
+print(datetime.datetime.now())
