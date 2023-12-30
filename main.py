@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
