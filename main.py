@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_pressure(force, area):
-        return force / area
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
