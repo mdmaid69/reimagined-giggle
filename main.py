@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def is_even(n):
+        return n % 2 == 0
