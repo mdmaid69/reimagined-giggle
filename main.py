@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
