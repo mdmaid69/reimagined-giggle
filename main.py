@@ -1,6 +1,5 @@
+def find_min(lst):
+        return min(lst)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def get_array_as_memoryview(array):
+        return memoryview(array)
