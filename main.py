@@ -1,6 +1,7 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def add_numbers(x, y):
+        return x + y
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
