@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
