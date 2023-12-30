@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
