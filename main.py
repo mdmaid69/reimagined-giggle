@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import numpy as np
+print(np.array([1, 2, 3]))
