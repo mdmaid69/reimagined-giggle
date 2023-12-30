@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def find_min(numbers):
+        return min(numbers)
