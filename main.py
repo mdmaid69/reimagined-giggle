@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
