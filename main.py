@@ -1,6 +1,7 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
