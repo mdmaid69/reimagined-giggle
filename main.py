@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import collections
+def create_user_list():
+        return collections.UserList()
+  def convert_to_hex(n):
+        return hex(n)
