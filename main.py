@@ -1,10 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def reverse_array(array):
+        array.reverse()
