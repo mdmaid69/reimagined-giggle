@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
