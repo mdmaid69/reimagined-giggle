@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
