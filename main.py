@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
