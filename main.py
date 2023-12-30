@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def get_current_time():
+        return time.ctime()
+import collections
+def create_user_string():
+        return collections.UserString()
