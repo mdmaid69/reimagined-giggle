@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
