@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
