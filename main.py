@@ -1,5 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+for i in range(5):
+        print(i)
+def calculate_speed(distance, time):
+        return distance / time
