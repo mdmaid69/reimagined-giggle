@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
