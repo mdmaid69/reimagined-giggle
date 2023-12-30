@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import os
+def get_current_working_directory():
+        return os.getcwd()
