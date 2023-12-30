@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
