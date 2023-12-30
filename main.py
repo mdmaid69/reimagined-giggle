@@ -1,8 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
