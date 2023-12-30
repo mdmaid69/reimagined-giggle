@@ -1,9 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def convert_to_octal(n):
-        return oct(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
