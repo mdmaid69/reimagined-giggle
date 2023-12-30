@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
