@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def square_number(x):
+        return x**2
