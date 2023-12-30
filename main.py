@@ -1,6 +1,6 @@
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import getpass
-def get_username():
-        return getpass.getuser()
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
