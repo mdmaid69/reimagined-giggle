@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
