@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
