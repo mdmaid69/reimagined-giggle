@@ -1,7 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import os
+def remove_directory(path):
+        os.rmdir(path)
