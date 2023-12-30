@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def reverse_array(array):
+        array.reverse()
+import random
+print(random.randint(0, 100))
