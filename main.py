@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
