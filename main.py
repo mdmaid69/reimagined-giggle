@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def reverse_list(lst):
+        return lst[::-1]
