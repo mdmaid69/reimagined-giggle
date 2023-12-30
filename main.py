@@ -1,4 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-print(sum(range(10)))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
