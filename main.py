@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
