@@ -1,5 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
