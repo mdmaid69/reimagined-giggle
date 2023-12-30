@@ -1,6 +1,6 @@
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
