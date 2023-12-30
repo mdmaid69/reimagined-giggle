@@ -1,5 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def cube_number(x):
-        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
