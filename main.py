@@ -1,5 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_power(work, time):
-        return work / time
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
