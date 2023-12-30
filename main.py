@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def check_if_array_contains_item(array, item):
+        return item in array
