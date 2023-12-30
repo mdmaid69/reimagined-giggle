@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_factorial(n):
+        return math.factorial(n)
