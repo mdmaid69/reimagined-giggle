@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def subtract_numbers(x, y):
+        return x - y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
