@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_owner(file_name):
+  def get_file_uid(file_name):
         return os.stat(file_name).st_uid
