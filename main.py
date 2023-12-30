@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
