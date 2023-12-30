@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
