@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def clear_array(array):
+        array *= 0
