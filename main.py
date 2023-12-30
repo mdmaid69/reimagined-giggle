@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def sort_list(lst):
-        return sorted(lst)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
