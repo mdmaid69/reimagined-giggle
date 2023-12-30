@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
