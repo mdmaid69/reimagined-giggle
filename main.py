@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import collections
+def create_user_dict():
+        return collections.UserDict()
