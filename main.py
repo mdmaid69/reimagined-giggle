@@ -1,5 +1,6 @@
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_arc_cosine(x):
+        return math.acos(x)
