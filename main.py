@@ -1,12 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
