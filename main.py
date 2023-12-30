@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_user_string():
+        return collections.UserString()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
