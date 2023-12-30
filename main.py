@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
