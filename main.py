@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+print([x**2 for x in range(10)])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
