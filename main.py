@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
