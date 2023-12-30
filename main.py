@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
