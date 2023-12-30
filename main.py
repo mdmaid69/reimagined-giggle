@@ -1,6 +1,7 @@
 import array
-def clear_array(array):
-        array *= 0
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
