@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
