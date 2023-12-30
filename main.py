@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_as_set(array):
+        return set(array)
