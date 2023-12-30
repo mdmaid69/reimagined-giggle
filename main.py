@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
