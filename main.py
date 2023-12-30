@@ -1,6 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import sys
-def exit_program():
-        sys.exit()
+def convert_array_to_unicode(array):
+        return array.tounicode()
+text = "Hello, world!"
+print("Words:", len(text.split()))
