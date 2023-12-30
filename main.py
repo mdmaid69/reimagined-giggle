@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
