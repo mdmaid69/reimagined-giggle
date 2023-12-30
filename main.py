@@ -1,5 +1,4 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
