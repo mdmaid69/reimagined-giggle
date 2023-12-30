@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def count_elements(lst):
-        return len(lst)
+  def add_numbers(x, y):
+        return x + y
+  def convert_to_binary(n):
+        return bin(n)
