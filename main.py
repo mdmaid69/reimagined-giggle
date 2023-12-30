@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_pressure(force, area):
+        return force / area
