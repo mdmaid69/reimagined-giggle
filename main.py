@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
