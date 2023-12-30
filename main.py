@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
