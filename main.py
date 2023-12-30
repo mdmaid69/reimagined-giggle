@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import os
+def get_current_working_directory():
+        return os.getcwd()
