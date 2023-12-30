@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import sys
+  def get_python_version():
+        return sys.version
