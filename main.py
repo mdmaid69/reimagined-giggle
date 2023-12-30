@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+print([x**2 for x in range(10)])
