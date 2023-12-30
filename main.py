@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
