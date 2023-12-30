@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
