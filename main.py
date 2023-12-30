@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def add_numbers(a, b):
+        return a + b
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
