@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
