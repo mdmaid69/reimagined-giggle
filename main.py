@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def is_palindrome(s):
+        return s == s[::-1]
