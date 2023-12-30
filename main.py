@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_user_list():
+        return collections.UserList()
