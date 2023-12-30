@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
