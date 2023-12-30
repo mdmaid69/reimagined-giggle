@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
