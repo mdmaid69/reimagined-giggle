@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
