@@ -1,6 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def reverse_array(array):
+        array.reverse()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
