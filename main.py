@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def is_even(n):
+        return n % 2 == 0
