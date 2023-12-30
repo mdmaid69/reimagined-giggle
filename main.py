@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
