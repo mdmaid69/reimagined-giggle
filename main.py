@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
