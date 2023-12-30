@@ -1,10 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
