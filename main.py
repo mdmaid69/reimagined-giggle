@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import random
+print(random.randint(0, 100))
