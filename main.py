@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+def print_python_version():
+        return sys.version
