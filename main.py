@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def add_numbers(x, y):
+        return x + y
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
