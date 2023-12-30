@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import collections
-def create_stack():
-        return collections.deque()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
