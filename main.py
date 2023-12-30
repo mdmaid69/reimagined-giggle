@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+for i in range(10): print(i)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
