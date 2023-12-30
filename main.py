@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def convert_to_octal(n):
+        return oct(n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
