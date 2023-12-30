@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_length(array):
-        return len(array)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
