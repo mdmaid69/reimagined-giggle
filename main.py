@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
