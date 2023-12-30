@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def append_to_array(array, item):
+        array.append(item)
