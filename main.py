@@ -1,6 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-print([x**2 for x in range(10)])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
