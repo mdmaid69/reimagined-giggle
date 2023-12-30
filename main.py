@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+        print(i)
