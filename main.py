@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import array
-def get_array_length(array):
-        return len(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
