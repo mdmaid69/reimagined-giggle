@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
