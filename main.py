@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
