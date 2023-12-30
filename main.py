@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
