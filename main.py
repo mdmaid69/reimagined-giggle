@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
