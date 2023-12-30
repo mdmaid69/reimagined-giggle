@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
