@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
