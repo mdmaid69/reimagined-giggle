@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
