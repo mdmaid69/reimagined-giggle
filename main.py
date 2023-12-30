@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_counter():
-        return collections.Counter()
+name = "Python"
+print("Hello,", name)
+import time
+def get_current_time():
+        return time.ctime()
