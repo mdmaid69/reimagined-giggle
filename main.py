@@ -1,5 +1,9 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
