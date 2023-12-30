@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
