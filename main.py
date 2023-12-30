@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_pressure(force, area):
-        return force / area
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def set_array_item(array, i, item):
+        array[i] = item
