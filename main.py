@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def add_numbers(a, b):
+        return a + b
