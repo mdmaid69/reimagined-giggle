@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
