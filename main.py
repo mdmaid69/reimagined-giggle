@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+print(math.pi)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
