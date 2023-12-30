@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_area_rectangle(l, w):
+        return l * w
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
