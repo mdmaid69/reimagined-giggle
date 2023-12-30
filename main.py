@@ -1,5 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import time
-print(time.time())
-import collections
-def create_user_list():
-        return collections.UserList()
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
