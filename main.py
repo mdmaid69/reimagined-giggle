@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def cube_number(x):
-        return x**3
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
