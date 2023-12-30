@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
