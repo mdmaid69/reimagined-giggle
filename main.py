@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
