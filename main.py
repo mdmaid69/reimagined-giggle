@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
