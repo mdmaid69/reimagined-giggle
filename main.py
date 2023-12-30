@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_to_octal(n):
+        return oct(n)
+def divide_numbers(x, y):
+        return x / y
