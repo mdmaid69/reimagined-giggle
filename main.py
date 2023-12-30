@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
