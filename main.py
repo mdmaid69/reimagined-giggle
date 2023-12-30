@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
