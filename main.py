@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
