@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def find_max(lst):
+        return max(lst)
+def calculate_work(force, distance):
+        return force * distance
