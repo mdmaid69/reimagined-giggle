@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
