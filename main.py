@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
