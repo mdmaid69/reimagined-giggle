@@ -1,6 +1,7 @@
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def get_array_typecode(array):
-        return array.typecode
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
