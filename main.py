@@ -1,5 +1,8 @@
   import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_median(arr):
+        return np.median(arr)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
