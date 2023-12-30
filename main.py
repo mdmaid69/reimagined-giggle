@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def convert_to_octal(n):
-        return oct(n)
+import platform
+def get_os_info():
+        return platform.uname()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
