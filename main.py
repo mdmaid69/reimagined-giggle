@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
