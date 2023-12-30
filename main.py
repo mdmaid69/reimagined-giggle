@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
