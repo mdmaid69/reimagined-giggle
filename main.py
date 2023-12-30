@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import time
+def get_current_time():
+        return time.time()
+def convert_to_binary(n):
+        return bin(n)
