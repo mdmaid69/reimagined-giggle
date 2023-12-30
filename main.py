@@ -1,6 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def reverse_string(s):
+        return s[::-1]
