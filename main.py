@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
