@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
