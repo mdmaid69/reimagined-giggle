@@ -1,5 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
