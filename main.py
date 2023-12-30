@@ -1,7 +1,6 @@
-  def square_number(x):
-        return x**2
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def clear_array(array):
+        array *= 0
