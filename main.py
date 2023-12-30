@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import json
+print(json.dumps({"name": "John", "age": 30}))
