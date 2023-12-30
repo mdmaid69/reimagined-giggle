@@ -1,6 +1,7 @@
-  def cube_number(x):
-        return x**3
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
