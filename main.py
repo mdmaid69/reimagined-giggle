@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
