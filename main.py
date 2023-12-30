@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def print_python_version():
-        return sys.version
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
