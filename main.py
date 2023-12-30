@@ -1,4 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
