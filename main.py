@@ -1,7 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
