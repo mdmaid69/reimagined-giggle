@@ -1,5 +1,8 @@
 import array
-def clear_array(array):
-        array *= 0
-def cube_number(x):
-        return x**3
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
