@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
