@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+print(os.getcwd())
+text = "Hello, world!"
+print("Words:", len(text.split()))
