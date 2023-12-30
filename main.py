@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
