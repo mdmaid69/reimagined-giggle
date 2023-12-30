@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
