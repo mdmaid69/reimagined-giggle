@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
