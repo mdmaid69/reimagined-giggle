@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import sys
+print(sys.version)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
