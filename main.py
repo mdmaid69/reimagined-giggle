@@ -1,4 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
