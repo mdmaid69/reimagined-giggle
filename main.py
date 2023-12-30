@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
