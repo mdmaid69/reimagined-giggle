@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+x = 10
+y = 20
+print("Sum:", x + y)
