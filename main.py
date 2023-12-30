@@ -1,4 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-print(sum(range(10)))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
