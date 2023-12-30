@@ -1,6 +1,12 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
