@@ -1,5 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def sort_list(lst):
-        return sorted(lst)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def convert_to_hex(n):
+        return hex(n)
