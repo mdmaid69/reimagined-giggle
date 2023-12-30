@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
