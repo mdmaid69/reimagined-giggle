@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def is_palindrome(s):
-        return s == s[::-1]
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
