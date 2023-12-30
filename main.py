@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_logarithm(base, x):
+        return math.log(x, base)
