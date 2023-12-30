@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
