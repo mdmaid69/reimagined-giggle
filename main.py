@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def greet(name):
+        print(f"Hello, {name}!")
+def convert_to_hex(n):
+        return hex(n)
