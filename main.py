@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def sort_list(lst):
-        return sorted(lst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
