@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
