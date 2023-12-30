@@ -1,7 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
