@@ -1,7 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
