@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
