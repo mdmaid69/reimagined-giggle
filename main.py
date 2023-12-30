@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
