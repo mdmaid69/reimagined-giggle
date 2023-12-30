@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
