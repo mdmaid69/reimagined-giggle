@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def find_max(numbers):
+        return max(numbers)
