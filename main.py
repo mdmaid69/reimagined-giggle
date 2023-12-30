@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_speed(distance, time):
+        return distance / time
