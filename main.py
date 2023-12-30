@@ -1,5 +1,7 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
