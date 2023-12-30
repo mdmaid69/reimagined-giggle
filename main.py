@@ -1,5 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def count_elements(lst):
+        return len(lst)
