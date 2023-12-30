@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def convert_to_hex(n):
-        return hex(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
