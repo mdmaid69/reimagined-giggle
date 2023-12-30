@@ -1,3 +1,4 @@
-for i in range(10): print(i)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def divide_numbers(x, y):
+        return x / y
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
