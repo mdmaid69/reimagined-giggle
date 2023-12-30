@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
