@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
