@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
