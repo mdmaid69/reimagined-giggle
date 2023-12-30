@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
