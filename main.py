@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
