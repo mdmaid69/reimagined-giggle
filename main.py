@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
