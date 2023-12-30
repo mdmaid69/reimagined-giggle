@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
