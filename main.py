@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import logging
+def log_message(message):
+        logging.info(message)
