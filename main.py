@@ -1,4 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def find_min(numbers):
-        return min(numbers)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+x = 10
+y = 20
+print("Sum:", x + y)
