@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
