@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
