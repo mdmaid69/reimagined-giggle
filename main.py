@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import os
+print(os.getcwd())
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
