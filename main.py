@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
