@@ -1,5 +1,7 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import time
-print(time.time())
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
