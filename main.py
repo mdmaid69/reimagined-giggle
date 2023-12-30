@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-for i in range(5):
-        print(i)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_min(numbers):
+        return min(numbers)
