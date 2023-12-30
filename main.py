@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_as_str(array):
+        return str(array)
