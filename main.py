@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def count_characters(sentence):
+        return len(sentence)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
