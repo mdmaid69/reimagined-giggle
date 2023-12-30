@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
