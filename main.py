@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
