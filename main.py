@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def add_numbers(x, y):
+        return x + y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
