@@ -1,5 +1,9 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
