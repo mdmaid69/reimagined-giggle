@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
