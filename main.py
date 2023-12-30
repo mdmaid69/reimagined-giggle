@@ -1,6 +1,5 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
