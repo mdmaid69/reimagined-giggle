@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
