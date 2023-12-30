@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def find_min(lst):
+        return min(lst)
+def calculate_speed(distance, time):
+        return distance / time
