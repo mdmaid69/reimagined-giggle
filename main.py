@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_priority_queue():
-        return collections.deque()
+import numpy as np
+print(np.array([1, 2, 3]))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
