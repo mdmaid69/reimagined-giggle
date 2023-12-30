@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+name = "Python"
+print("Hello,", name)
+import logging
+def log_message(message):
+        logging.info(message)
