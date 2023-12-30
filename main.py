@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
