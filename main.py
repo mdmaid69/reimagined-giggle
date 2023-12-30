@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
