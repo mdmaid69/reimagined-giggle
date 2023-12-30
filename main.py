@@ -1,8 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  def sort_list(lst):
+        return sorted(lst)
