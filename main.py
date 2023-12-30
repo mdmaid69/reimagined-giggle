@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
