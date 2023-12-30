@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
