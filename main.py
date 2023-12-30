@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
