@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_string_from_array(array):
+        return array.tobytes()
