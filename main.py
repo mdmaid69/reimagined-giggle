@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def find_max(numbers):
-        return max(numbers)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import sys
+print(sys.version)
