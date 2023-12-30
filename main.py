@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
