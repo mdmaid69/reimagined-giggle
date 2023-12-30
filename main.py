@@ -1,7 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
