@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
