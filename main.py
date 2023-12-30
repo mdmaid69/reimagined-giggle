@@ -1,6 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
