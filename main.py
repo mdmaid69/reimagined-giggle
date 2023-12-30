@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-print(random.randint(0, 100))
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
