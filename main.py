@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def append_to_array(array, item):
+        array.append(item)
+text = "Hello, world!"
+print("Characters:", len(text))
