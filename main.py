@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import collections
+def create_user_dict():
+        return collections.UserDict()
