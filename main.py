@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def greet(name):
+        print(f"Hello, {name}!")
+import os
+def change_working_directory(path):
+        os.chdir(path)
