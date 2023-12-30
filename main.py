@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
