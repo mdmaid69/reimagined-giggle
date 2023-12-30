@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
