@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
