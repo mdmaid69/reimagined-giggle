@@ -1,5 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
