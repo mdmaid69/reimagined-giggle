@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
