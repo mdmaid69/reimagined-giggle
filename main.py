@@ -1,5 +1,11 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-print(math.pi)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
