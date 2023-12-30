@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_list_from_array(array):
+        return array.tolist()
+print([x**2 for x in range(10)])
