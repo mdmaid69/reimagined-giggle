@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
