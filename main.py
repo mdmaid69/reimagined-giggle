@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
