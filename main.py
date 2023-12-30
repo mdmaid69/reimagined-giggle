@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def sort_numbers(numbers):
+        return sorted(numbers)
+import platform
+def get_os_info():
+        return platform.uname()
