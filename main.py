@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import time
-def get_current_time():
-        return time.time()
+def reverse_string(s):
+        return s[::-1]
+def convert_to_hex(n):
+        return hex(n)
