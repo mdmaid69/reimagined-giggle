@@ -1,5 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def square_number(x):
-        return x**2
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
