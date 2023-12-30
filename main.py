@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+from collections import Counter
+print(Counter("hello world"))
+  def square_number(x):
+        return x**2
