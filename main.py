@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
