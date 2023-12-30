@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_user_string():
-        return collections.UserString()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_density(mass, volume):
+        return mass / volume
