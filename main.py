@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
