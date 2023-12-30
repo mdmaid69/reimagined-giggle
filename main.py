@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
