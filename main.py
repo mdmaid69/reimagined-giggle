@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_index(array, item):
+        return array.index(item)
