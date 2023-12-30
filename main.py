@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
