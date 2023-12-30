@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def convert_to_hex(n):
+        return hex(n)
