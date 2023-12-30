@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_user_string():
+        return collections.UserString()
