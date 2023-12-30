@@ -1,6 +1,12 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
