@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
