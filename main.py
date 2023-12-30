@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_string_from_array(array):
+        return array.tobytes()
