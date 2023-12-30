@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_power(work, time):
+        return work / time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
