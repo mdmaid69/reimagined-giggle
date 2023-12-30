@@ -1,7 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
