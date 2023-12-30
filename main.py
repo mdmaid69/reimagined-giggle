@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
