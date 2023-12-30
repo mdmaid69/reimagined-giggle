@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_work(force, distance):
-        return force * distance
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
