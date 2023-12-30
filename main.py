@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
