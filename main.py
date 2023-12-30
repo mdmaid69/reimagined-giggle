@@ -1,6 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
