@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def convert_to_binary(n):
+        return bin(n)
