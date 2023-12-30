@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def cube_number(x):
+        return x**3
