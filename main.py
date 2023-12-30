@@ -1,7 +1,8 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
