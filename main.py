@@ -1,9 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import random
+def roll_die():
+        return random.randint(1, 6)
