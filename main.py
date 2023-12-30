@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
