@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def subtract_numbers(x, y):
+        return x - y
