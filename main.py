@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
