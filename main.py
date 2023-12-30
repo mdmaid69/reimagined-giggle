@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import random
-print(random.randint(0, 100))
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_itemsize(array):
+        return array.itemsize
