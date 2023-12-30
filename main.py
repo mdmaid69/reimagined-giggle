@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def multiply_numbers(x, y):
-        return x * y
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
