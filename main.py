@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
