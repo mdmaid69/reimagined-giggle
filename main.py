@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def is_odd(n):
+        return n % 2 != 0
