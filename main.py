@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
