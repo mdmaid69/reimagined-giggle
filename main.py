@@ -1,3 +1,6 @@
-print(sum(range(10)))
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
