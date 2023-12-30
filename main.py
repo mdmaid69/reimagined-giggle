@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
