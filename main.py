@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def convert_to_hex(n):
-        return hex(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def divide_numbers(x, y):
+        return x / y
