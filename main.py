@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def sort_list(lst):
+        return sorted(lst)
