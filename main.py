@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
