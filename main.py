@@ -1,13 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
