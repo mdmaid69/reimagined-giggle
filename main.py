@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
