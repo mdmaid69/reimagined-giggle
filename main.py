@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
