@@ -1,8 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
