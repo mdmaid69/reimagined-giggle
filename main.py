@@ -1,5 +1,5 @@
-import time
-print(time.time())
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_error_function(x):
+        return math.erf(x)
