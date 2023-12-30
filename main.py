@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import sys
+def print_python_version():
+        return sys.version
