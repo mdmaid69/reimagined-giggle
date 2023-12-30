@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import sys
+def print_python_version():
+        print(sys.version)
+name = "Python"
+print("Hello,", name)
