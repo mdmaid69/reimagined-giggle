@@ -1,6 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_sign(x):
+        return math.copysign(1, x)
