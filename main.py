@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import datetime
+def get_current_date():
+        return datetime.date.today()
