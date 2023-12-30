@@ -1,8 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_area_rectangle(l, w):
+        return l * w
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
