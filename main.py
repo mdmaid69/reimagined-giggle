@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import collections
+def create_priority_queue():
+        return collections.deque()
