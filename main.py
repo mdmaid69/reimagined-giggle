@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def count_characters(sentence):
-        return len(sentence)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
