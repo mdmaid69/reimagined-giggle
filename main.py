@@ -1,6 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_as_list(array):
+        return list(array)
