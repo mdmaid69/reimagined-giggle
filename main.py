@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
