@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import numpy as np
+print(np.array([1, 2, 3]))
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_counter():
+        return collections.Counter()
