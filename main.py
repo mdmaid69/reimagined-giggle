@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
