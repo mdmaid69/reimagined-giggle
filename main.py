@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def reverse_list(lst):
+        return lst[::-1]
