@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def square_number(x):
+        return x**2
