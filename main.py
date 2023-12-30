@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
