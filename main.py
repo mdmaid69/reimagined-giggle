@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
