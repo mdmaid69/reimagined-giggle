@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
