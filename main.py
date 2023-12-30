@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+text = "Hello, world!"
+print("Characters:", len(text))
