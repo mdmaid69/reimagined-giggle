@@ -1,14 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def greet(name):
+        print(f"Hello, {name}!")
