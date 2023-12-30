@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
