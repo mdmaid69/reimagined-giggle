@@ -1,6 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
