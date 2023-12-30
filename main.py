@@ -1,8 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
