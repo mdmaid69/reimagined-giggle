@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
