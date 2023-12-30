@@ -1,4 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
