@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
