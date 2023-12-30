@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_array_to_list(array):
+        return array.tolist()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
