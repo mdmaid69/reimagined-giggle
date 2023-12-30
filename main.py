@@ -1,8 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
