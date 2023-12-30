@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def find_min(numbers):
+        return min(numbers)
