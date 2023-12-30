@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
