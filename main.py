@@ -1,4 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-from collections import Counter
-print(Counter("hello world"))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
