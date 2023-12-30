@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_counter():
+        return collections.Counter()
