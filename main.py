@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def convert_to_octal(n):
+        return oct(n)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
