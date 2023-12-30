@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
