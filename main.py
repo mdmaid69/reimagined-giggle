@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
