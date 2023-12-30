@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
