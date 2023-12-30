@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-name = "Python"
-print("Hello,", name)
+import collections
+def create_counter():
+        return collections.Counter()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
