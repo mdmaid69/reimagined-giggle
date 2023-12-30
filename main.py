@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  def is_odd(n):
-        return n % 2 != 0
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
