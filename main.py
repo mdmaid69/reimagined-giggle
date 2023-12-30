@@ -1,6 +1,10 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
