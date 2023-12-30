@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
