@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import platform
+def get_os_info():
+        return platform.uname()
