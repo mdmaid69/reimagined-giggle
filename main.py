@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
