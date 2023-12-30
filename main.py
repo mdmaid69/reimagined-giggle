@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def is_even(n):
-        return n % 2 == 0
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
