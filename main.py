@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
