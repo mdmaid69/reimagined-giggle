@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import os
-print(os.getcwd())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
