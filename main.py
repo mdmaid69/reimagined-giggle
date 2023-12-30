@@ -1,6 +1,3 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+print([x**2 for x in range(10)])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
