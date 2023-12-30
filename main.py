@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_speed(distance, time):
-        return distance / time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
