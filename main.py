@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import collections
+def create_user_list():
+        return collections.UserList()
+import tensorflow as tf
+print(tf.__version__)
