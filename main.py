@@ -1,5 +1,12 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
