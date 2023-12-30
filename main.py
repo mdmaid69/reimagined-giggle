@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
