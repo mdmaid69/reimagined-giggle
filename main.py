@@ -1,7 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
