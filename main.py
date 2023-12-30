@@ -1,7 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
