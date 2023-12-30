@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import sys
+def print_python_version():
+        return sys.version
+import numpy as np
+print(np.array([1, 2, 3]))
