@@ -1,6 +1,3 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+for i in range(10): print(i)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
