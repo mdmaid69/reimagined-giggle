@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_power(work, time):
+        return work / time
+  def subtract_numbers(x, y):
+        return x - y
