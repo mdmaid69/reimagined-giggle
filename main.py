@@ -1,7 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
