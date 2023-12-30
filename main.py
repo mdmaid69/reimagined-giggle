@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
