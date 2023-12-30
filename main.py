@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
