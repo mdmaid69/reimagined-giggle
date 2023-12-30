@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
