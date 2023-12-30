@@ -1,6 +1,5 @@
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_directory_name(path):
+        return os.path.dirname(path)
