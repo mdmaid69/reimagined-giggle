@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def subtract_numbers(x, y):
-        return x - y
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
