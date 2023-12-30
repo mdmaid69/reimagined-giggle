@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_current_working_directory():
+        return os.getcwd()
