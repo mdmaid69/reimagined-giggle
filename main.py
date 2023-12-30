@@ -1,12 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_list(array):
+        return list(array)
