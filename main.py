@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
