@@ -1,4 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-def convert_to_octal(n):
-        return oct(n)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import array
+def append_to_array(array, item):
+        array.append(item)
