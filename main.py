@@ -1,7 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
