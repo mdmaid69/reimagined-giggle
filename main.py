@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def subtract_numbers(x, y):
-        return x - y
+def count_words(sentence):
+        return len(sentence.split())
+def is_odd(n):
+        return n % 2 != 0
