@@ -1,6 +1,9 @@
-import time
-def get_current_time():
-        return time.ctime()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_repr(array):
+        return repr(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
