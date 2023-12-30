@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import tensorflow as tf
+print(tf.__version__)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
