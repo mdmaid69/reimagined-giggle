@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+print([x**2 for x in range(10)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
