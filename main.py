@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
