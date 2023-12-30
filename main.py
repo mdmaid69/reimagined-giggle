@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
