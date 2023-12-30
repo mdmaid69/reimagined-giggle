@@ -1,6 +1,7 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
