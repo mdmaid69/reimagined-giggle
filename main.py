@@ -1,6 +1,8 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
