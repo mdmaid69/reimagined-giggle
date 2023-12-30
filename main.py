@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def square_number(x):
+        return x**2
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
