@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
