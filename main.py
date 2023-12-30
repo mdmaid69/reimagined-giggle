@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def find_max(numbers):
+        return max(numbers)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
