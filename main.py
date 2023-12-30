@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
