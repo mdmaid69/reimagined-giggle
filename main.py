@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def square_number(x):
+        return x**2
