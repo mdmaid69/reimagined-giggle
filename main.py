@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_speed(distance, time):
+        return distance / time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
