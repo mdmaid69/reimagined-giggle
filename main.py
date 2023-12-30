@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_string_from_array(array):
+        return array.tobytes()
