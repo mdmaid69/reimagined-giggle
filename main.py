@@ -1,6 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
