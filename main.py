@@ -1,5 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
