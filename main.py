@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
