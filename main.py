@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
