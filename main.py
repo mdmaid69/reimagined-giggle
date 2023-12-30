@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
