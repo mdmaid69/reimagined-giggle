@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def add_numbers(x, y):
+        return x + y
