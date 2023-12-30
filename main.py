@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
