@@ -1,5 +1,8 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
