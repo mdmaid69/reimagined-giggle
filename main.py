@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
