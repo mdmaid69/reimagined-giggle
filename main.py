@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def subtract_numbers(x, y):
+        return x - y
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
