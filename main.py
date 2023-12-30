@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
