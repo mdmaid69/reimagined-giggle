@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
