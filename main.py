@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
