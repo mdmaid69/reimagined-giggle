@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+text = "Hello, world!"
+print("Characters:", len(text))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
