@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def find_min(lst):
+        return min(lst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
