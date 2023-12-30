@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
