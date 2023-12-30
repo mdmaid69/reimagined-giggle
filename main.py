@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
