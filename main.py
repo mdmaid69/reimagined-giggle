@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_as_float(array):
+        return float(array[0])
