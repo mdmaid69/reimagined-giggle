@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def find_min(lst):
-        return min(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
