@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def is_odd(n):
-        return n % 2 != 0
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
