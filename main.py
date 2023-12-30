@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import array
-def get_bytes_from_array(array):
+def get_string_from_array(array):
         return array.tobytes()
