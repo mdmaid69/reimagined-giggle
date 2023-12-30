@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
