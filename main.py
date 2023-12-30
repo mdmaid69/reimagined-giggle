@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import platform
+def get_os_info():
+        return platform.uname()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
