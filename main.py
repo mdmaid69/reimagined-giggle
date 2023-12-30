@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
