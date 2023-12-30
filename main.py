@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
