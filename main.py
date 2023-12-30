@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
