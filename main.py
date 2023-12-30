@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
