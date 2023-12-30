@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
