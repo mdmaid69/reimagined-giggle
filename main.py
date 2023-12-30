@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
