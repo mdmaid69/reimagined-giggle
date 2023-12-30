@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_area_rectangle(l, w):
+        return l * w
