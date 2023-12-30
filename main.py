@@ -1,6 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def square_number(x):
+        return x**2
