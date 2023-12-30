@@ -1,5 +1,12 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
