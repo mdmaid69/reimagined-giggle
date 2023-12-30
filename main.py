@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def check_if_array_contains_item(array, item):
+        return item in array
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
