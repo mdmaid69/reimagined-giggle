@@ -1,5 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def cube_number(x):
-        return x**3
+def add_numbers(x, y):
+        return x + y
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
