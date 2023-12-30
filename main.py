@@ -1,7 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
