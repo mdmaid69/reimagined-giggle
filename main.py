@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_work(force, distance):
+        return force * distance
