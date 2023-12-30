@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import collections
+def create_priority_queue():
+        return collections.deque()
 import array
-def get_array_length(array):
-        return len(array)
+def convert_array_to_list(array):
+        return array.tolist()
