@@ -1,5 +1,10 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def convert_to_hex(n):
-        return hex(n)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import sys
+def print_python_version():
+        return sys.version
