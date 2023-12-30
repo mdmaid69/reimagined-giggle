@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
