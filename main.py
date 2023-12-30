@@ -1,5 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
