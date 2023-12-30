@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
