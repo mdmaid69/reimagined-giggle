@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-print(math.pi)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
