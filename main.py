@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
