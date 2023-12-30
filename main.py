@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
