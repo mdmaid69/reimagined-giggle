@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
