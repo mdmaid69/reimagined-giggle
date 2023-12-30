@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
