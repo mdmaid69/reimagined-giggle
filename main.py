@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
