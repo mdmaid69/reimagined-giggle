@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
