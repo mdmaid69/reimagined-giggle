@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
