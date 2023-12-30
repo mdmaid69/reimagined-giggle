@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
