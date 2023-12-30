@@ -1,5 +1,8 @@
-def count_words(sentence):
-        return len(sentence.split())
-import collections
-def create_priority_queue():
-        return collections.deque()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
