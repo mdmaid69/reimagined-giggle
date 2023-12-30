@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import collections
-def create_stack():
-        return collections.deque()
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_float(array):
+        return float(array[0])
