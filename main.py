@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
