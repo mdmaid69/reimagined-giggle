@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_floor(x):
+        return math.floor(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
