@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import logging
+def log_message(message):
+        logging.info(message)
+  def add_numbers(x, y):
+        return x + y
