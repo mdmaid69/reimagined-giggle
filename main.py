@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
