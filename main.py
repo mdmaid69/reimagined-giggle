@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
