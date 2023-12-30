@@ -1,6 +1,11 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
