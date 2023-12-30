@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
