@@ -1,6 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
