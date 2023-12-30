@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
