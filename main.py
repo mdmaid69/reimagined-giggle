@@ -1,6 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def get_username():
+        return getpass.getuser()
