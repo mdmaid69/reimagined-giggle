@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
