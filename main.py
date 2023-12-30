@@ -1,6 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
