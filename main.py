@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def get_current_date():
+        return datetime.date.today()
