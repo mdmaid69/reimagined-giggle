@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
