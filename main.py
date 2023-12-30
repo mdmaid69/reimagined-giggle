@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
