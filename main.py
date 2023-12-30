@@ -1,5 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-name = "Python"
-print("Hello,", name)
+print([x**2 for x in range(10)])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
