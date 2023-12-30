@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import collections
+def create_priority_queue():
+        return collections.deque()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
