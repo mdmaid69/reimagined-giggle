@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
