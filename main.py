@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import sys
+  def get_python_version():
+        return sys.version
