@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
