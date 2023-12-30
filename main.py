@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
