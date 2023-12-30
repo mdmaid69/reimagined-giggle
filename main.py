@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
