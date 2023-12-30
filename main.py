@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
