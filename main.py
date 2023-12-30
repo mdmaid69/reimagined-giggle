@@ -1,4 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-def is_even(n):
-        return n % 2 == 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
