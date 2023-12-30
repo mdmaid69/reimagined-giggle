@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import re
+print(re.match("h.*o", "hello world"))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
