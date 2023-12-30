@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
