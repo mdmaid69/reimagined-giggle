@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
