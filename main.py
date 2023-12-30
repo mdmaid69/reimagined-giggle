@@ -1,5 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
