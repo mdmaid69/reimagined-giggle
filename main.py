@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
