@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
