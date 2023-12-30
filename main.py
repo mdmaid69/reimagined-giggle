@@ -1,5 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def is_palindrome(s):
-        return s == s[::-1]
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
