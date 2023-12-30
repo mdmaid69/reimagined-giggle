@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
