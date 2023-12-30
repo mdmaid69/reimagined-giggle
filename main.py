@@ -1,9 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
