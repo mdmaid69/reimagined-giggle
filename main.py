@@ -1,8 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
