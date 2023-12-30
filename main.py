@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def find_max(numbers):
-        return max(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
