@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def split_path(path):
+        return os.path.split(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
