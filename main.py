@@ -1,6 +1,8 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_length(array):
-        return len(array)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
