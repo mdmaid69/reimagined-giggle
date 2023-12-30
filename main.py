@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
