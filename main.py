@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
