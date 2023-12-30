@@ -1,5 +1,12 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_user_list():
+        return collections.UserList()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
