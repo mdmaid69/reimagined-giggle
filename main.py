@@ -1,5 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-print(math.pi)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
