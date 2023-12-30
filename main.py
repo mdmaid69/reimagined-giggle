@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
