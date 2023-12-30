@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
