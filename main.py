@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_priority_queue():
-        return collections.deque()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def count_words(sentence):
+        return len(sentence.split())
