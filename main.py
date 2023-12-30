@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
