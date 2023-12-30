@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def count_characters(sentence):
+        return len(sentence)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
