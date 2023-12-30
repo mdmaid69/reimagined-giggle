@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  def calculate_area_rectangle(l, w):
+        return l * w
