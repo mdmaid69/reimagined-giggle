@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def find_max(lst):
+        return max(lst)
