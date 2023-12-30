@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+name = "Python"
+print("Hello,", name)
