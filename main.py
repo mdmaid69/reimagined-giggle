@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
