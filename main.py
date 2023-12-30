@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_set(array):
+        return set(array)
