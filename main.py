@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
