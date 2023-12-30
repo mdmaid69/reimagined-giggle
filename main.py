@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
