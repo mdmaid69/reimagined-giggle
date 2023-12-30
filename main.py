@@ -1,6 +1,8 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
