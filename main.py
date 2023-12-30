@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
