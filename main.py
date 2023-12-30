@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def split_path(path):
+        return os.path.split(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
