@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def get_array_as_float(array):
+        return float(array[0])
+  def subtract_numbers(x, y):
+        return x - y
