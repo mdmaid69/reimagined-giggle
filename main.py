@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import random
+def roll_die():
+        return random.randint(1, 6)
