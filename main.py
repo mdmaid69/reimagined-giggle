@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_as_float(array):
+        return float(array[0])
