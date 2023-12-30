@@ -1,5 +1,8 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
