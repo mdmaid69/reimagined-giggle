@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_as_list(array):
+        return list(array)
