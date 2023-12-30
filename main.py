@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
