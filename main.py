@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
