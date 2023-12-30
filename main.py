@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
