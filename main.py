@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_item(array, i):
+        return array[i]
