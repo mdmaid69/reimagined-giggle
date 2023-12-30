@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import sys
-def exit_program():
-        sys.exit()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
