@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def is_odd(n):
+        return n % 2 != 0
