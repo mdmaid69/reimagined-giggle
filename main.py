@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import sys
-  def get_python_version():
-        return sys.version
+  def is_odd(n):
+        return n % 2 != 0
+def square_number(x):
+        return x**2
