@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
