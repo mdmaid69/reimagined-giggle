@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
