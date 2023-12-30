@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+print(json.dumps({"name": "John", "age": 30}))
