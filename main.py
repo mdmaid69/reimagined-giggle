@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_int(array):
+        return int(array[0])
