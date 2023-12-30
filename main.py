@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
