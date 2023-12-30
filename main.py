@@ -1,5 +1,8 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import array
-def clear_array(array):
-        array *= 0
-def find_max(numbers):
-        return max(numbers)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
