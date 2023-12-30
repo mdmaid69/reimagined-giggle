@@ -1,5 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def subtract_numbers(x, y):
-        return x - y
+def calculate_work(force, distance):
+        return force * distance
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
