@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def clear_array(array):
+        array *= 0
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
