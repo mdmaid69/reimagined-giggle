@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def reverse_list(lst):
-        return lst[::-1]
+print([x**2 for x in range(10)])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
