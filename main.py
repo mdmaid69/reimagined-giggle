@@ -1,5 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_tangent(x):
+        return math.tan(x)
