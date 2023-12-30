@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+def print_python_version():
+        return sys.version
