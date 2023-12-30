@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import collections
+def create_user_string():
+        return collections.UserString()
