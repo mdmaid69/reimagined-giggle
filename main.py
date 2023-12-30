@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def append_to_array(array, item):
+        array.append(item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
