@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
