@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
