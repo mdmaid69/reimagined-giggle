@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
