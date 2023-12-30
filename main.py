@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
