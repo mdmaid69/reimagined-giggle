@@ -1,5 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
