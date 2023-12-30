@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def find_unique_words(sentence):
+        return set(sentence.split())
+def find_min(numbers):
+        return min(numbers)
