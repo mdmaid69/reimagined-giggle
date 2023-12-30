@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
