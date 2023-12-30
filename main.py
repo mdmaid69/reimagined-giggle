@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-import sys
-print(sys.version)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
