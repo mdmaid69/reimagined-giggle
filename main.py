@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
