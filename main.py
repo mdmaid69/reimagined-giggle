@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def cube_number(x):
-        return x**3
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
