@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def multiply_numbers(x, y):
-        return x * y
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
