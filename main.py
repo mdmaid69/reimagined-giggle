@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
