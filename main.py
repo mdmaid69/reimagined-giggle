@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
