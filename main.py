@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
