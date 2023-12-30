@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_pressure(force, area):
-        return force / area
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_work(force, distance):
+        return force * distance
