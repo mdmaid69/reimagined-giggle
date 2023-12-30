@@ -1,5 +1,8 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
