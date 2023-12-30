@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
