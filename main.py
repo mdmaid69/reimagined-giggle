@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def multiply_numbers(x, y):
-        return x * y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
