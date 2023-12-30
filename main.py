@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import datetime
+def get_current_date():
+        return datetime.date.today()
