@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def greet(name):
-        print(f"Hello, {name}!")
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
