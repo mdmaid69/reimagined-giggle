@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
