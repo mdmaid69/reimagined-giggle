@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
