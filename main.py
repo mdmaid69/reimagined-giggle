@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
