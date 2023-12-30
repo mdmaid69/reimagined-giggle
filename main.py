@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def add_numbers(x, y):
-        return x + y
+import datetime
+print(datetime.datetime.now())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
