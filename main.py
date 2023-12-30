@@ -1,8 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_as_bool(array):
+        return bool(array)
