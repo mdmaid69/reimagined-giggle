@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
