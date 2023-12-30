@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def convert_to_octal(n):
-        return oct(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
