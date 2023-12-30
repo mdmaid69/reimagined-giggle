@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
