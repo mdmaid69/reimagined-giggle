@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def sort_list(lst):
+        return sorted(lst)
