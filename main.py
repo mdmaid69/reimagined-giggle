@@ -1,6 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def append_to_array(array, item):
+        array.append(item)
