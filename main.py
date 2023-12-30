@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
