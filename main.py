@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import sys
+print(sys.version)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
