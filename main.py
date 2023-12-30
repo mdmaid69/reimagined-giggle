@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
