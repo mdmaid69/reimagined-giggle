@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+for i in range(5):
+        print(i)
