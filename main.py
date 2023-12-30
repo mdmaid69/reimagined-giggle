@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import sys
+def print_python_version():
+        return sys.version
