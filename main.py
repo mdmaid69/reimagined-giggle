@@ -1,11 +1,8 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
