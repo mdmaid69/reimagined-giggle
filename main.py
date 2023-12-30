@@ -1,4 +1,4 @@
-print("Hello, world!")
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+for i in range(5):
+        print(i)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
