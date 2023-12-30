@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
