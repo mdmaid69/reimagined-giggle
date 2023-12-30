@@ -1,4 +1,6 @@
-import time
-print(time.time())
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
