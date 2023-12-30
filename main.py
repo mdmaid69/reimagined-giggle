@@ -1,5 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
