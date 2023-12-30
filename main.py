@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
