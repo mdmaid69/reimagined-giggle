@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_counter():
+        return collections.Counter()
+print([x**2 for x in range(10)])
