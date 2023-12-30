@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def is_odd(n):
+        return n % 2 != 0
