@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
