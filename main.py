@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
