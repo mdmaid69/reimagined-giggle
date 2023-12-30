@@ -1,6 +1,9 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
