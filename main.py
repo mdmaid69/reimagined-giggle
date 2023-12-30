@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
