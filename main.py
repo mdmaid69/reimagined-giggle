@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
