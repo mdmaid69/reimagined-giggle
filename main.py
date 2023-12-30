@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def count_elements(lst):
-        return len(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
