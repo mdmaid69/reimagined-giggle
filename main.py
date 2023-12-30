@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import sys
+def exit_program():
+        sys.exit()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
