@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def greet(name):
+        print(f"Hello, {name}!")
