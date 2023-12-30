@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import getpass
+def get_username():
+        return getpass.getuser()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
