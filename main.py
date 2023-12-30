@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
