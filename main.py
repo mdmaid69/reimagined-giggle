@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
