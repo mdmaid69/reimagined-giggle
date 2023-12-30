@@ -1,5 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
