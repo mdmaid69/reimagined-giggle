@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_area_rectangle(l, w):
+        return l * w
+  def is_odd(n):
+        return n % 2 != 0
