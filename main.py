@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
