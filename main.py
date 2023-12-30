@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import time
-def get_current_time():
-        return time.time()
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
