@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def is_palindrome(s):
+        return s == s[::-1]
