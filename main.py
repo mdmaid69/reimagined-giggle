@@ -1,7 +1,5 @@
+def find_min(lst):
+        return min(lst)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def multiply_numbers(x, y):
-        return x * y
+def get_array_as_repr(array):
+        return repr(array)
