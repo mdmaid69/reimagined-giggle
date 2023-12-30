@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
