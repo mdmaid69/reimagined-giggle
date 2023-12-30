@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def is_even(n):
+        return n % 2 == 0
