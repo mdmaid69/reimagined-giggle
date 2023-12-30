@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
