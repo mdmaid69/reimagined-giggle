@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
