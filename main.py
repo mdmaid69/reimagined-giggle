@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
