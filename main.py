@@ -1,6 +1,5 @@
+def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
