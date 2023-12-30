@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
