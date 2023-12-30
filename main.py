@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_list_from_array(array):
+        return array.tolist()
