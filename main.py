@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
