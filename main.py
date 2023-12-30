@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def square_number(x):
+        return x**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
