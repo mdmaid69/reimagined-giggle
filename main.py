@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def find_max(lst):
+        return max(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
