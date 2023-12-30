@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
