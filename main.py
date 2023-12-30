@@ -1,7 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
