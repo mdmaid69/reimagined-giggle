@@ -1,12 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import time
+def get_time_since_epoch():
+        return time.time()
+def remove_duplicates(lst):
+        return list(set(lst))
