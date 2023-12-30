@@ -1,8 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
