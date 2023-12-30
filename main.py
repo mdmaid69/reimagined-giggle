@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_speed(distance, time):
+        return distance / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
