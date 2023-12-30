@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def reverse_string(s):
+        return s[::-1]
