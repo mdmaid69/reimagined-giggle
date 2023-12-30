@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def is_odd(n):
+        return n % 2 != 0
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
