@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
