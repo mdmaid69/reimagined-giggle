@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import platform
+def get_os_info():
+        return platform.uname()
