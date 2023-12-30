@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def multiply_numbers(x, y):
+        return x * y
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
