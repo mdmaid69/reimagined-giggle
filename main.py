@@ -1,5 +1,9 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
