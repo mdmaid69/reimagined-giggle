@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+x = 10
+y = 20
+print("Sum:", x + y)
