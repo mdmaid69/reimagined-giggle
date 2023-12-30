@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
