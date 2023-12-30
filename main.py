@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def square_number(x):
+        return x**2
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
