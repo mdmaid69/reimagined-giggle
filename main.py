@@ -1,5 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
