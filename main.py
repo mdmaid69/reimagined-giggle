@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
