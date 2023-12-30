@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
