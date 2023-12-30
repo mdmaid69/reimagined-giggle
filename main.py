@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def add_numbers(a, b):
+        return a + b
