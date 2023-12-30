@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
