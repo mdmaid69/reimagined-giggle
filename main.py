@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_volume(length, width, height):
+        return length * width * height
