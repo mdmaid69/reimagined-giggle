@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
