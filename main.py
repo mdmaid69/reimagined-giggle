@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
