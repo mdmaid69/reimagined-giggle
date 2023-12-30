@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_work(force, distance):
+        return force * distance
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
