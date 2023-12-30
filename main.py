@@ -1,12 +1,8 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
 import array
-def get_array_from_file(filename, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
