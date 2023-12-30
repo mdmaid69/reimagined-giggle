@@ -1,7 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
