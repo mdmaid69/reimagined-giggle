@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
