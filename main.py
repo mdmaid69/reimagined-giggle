@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
