@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
