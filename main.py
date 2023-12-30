@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def add_numbers(a, b):
+        return a + b
