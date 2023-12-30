@@ -1,5 +1,5 @@
 import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def get_time_since_epoch():
+        return time.time()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
