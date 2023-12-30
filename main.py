@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
