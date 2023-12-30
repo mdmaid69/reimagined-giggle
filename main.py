@@ -1,4 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
