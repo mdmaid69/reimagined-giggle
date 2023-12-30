@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
