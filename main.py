@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def find_min(lst):
-        return min(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def multiply_numbers(x, y):
+        return x * y
