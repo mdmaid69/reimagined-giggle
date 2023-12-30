@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def remove_duplicates(lst):
-        return list(set(lst))
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
