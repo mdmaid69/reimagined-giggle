@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import time
+def get_current_time():
+        return time.ctime()
