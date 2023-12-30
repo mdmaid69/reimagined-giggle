@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_work(force, distance):
+        return force * distance
