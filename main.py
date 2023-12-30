@@ -1,7 +1,8 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
