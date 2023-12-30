@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
