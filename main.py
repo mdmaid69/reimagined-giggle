@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import platform
+def get_os_info():
+        return platform.uname()
