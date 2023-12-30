@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
