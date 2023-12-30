@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
