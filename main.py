@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
