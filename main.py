@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_user_list():
+        return collections.UserList()
