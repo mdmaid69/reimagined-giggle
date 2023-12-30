@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
