@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+for i in range(5):
+        print(i)
