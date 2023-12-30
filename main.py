@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
