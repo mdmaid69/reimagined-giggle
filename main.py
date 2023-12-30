@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
