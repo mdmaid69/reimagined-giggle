@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
