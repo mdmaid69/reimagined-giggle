@@ -1,10 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def sort_numbers(numbers):
+        return sorted(numbers)
