@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
