@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import platform
+def get_python_version():
+        return platform.python_version()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
