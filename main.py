@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import collections
+def create_user_dict():
+        return collections.UserDict()
