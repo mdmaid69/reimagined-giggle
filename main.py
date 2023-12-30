@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
