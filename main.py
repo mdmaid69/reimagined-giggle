@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
