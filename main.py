@@ -1,5 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-name = "Python"
-print("Hello,", name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
