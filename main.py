@@ -1,4 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
