@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def reverse_list(lst):
+        return lst[::-1]
