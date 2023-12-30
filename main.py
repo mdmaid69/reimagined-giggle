@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
