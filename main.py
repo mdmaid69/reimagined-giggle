@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
