@@ -1,7 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
