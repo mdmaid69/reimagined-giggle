@@ -1,8 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
