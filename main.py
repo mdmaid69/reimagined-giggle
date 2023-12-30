@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import logging
-def log_message(message):
-        logging.info(message)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
