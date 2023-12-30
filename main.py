@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def sort_list(lst):
+        return sorted(lst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
