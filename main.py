@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
