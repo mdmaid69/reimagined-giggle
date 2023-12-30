@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
