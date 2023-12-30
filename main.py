@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
