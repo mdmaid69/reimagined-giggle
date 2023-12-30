@@ -1,5 +1,6 @@
 import random
-print(random.randint(0, 100))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
