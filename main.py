@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import platform
+def get_os_info():
+        return platform.uname()
