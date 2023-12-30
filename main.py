@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_power(work, time):
+        return work / time
