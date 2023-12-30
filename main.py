@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
