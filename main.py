@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  def is_even(n):
-        return n % 2 == 0
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import os
+def get_current_working_directory():
+        return os.getcwd()
