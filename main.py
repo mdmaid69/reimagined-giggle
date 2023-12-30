@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
