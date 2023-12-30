@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
