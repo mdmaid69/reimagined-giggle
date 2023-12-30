@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
