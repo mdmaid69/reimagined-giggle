@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def sort_list(lst):
+        return sorted(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
