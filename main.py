@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import collections
-def create_counter():
-        return collections.Counter()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
