@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
