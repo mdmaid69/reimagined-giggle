@@ -1,6 +1,8 @@
 import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def get_array_as_complex(array):
+        return complex(array[0])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
