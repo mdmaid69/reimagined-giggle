@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import logging
+def log_message(message):
+        logging.info(message)
