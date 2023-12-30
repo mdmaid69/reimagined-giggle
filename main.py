@@ -1,4 +1,9 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
