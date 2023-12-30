@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_acceleration(speed, time):
-        return speed / time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
