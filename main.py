@@ -1,5 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
