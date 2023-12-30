@@ -1,7 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
