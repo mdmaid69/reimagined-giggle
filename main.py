@@ -1,6 +1,6 @@
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
