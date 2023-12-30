@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_bool(array):
+        return bool(array)
