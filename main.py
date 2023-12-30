@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
