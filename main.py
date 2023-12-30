@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
