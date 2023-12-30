@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
