@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def count_elements(lst):
+        return len(lst)
+import math
+print(math.pi)
