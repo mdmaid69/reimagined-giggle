@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_as_list(array):
+        return list(array)
