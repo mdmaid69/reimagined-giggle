@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_as_str(array):
+        return str(array)
