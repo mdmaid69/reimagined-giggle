@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import sys
+def print_python_version():
+        return sys.version
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
