@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
