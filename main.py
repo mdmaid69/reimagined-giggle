@@ -1,8 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
