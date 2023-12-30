@@ -1,5 +1,10 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def multiply_numbers(x, y):
-        return x * y
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
