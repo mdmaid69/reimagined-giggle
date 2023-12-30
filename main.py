@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def convert_to_hex(n):
+        return hex(n)
