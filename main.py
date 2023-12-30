@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
