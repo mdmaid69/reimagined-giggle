@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_pressure(force, area):
+        return force / area
+import array
+def clear_array(array):
+        array *= 0
