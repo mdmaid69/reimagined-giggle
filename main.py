@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
