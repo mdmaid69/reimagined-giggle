@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def convert_to_octal(n):
+        return oct(n)
+  def add_numbers(x, y):
+        return x + y
