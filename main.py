@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
