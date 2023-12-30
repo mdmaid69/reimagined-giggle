@@ -1,4 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-print([x**2 for x in range(10)])
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
