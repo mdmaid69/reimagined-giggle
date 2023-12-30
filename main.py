@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
