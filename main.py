@@ -1,5 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def cube_number(x):
-        return x**3
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
