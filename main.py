@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
