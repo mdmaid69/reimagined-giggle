@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_priority_queue():
+        return collections.deque()
