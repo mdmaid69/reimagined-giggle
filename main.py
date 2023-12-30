@@ -1,6 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
