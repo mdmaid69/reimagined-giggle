@@ -1,6 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
