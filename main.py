@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def sort_list(lst):
+        return sorted(lst)
+def convert_to_binary(n):
+        return bin(n)
